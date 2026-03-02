@@ -75,7 +75,7 @@ type Lecture = {
   periods: string[]
   school: string
   courses: { en: string; ko: string }[]
-  credits?: number
+  credits?: Record<string, number>
 }
 
 // Image Imports
@@ -1233,7 +1233,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
       courseNameKo: string
       periods: string[]
       role: string
-      credits: number
+      credits: Record<string, number>
     }> = {}
 
     filtered.forEach(lecture => {
@@ -1246,7 +1246,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
             courseNameKo: course.ko,
             periods: [...lecture.periods],
             role: lecture.role,
-            credits: lecture.credits || 3
+            credits: lecture.credits || {}
           }
         } else {
           // Add new periods that are not already in the list
@@ -1255,6 +1255,10 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
               courseMap[key].periods.push(p)
             }
           })
+          // Merge credits
+          if (lecture.credits) {
+            Object.assign(courseMap[key].credits, lecture.credits)
+          }
         }
       })
     })
@@ -2166,13 +2170,15 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                             <div className="flex-1 min-w-0 text-left">
                               <div className="flex flex-wrap items-center justify-start gap-6 mb-8">
                                 {course.periods.map((period, i) => (
-                                  <span key={i} className="px-8 py-2 bg-primary/10 text-primary text-[10px] md:text-xs font-bold rounded-full">
+                                  <span key={i} className="inline-flex items-center gap-3 px-8 py-2 bg-primary/10 text-primary text-[10px] md:text-xs font-bold rounded-full">
                                     {period}
+                                    {course.credits[period] && (
+                                      <span className="inline-flex items-center justify-center size-14 md:size-16 rounded-full bg-primary/20 text-primary text-[9px] md:text-[10px] font-bold">
+                                        {course.credits[period]}
+                                      </span>
+                                    )}
                                   </span>
                                 ))}
-                                <span className="px-6 py-2 bg-gray-100 text-gray-500 text-[10px] md:text-xs font-bold rounded-full">
-                                  {course.credits}h
-                                </span>
                               </div>
                               <p className="text-sm md:text-base font-bold text-gray-700">{course.courseNameKo || course.courseName}</p>
                               {course.courseNameKo && course.courseName !== course.courseNameKo && (
@@ -2239,13 +2245,15 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                             <div className="flex-1 min-w-0 text-left">
                               <div className="flex flex-wrap items-center justify-start gap-6 mb-8">
                                 {course.periods.map((period, i) => (
-                                  <span key={i} className="px-8 py-2 text-[10px] md:text-xs font-bold rounded-full" style={{backgroundColor: 'rgba(232,135,155,0.15)', color: '#E8889C'}}>
+                                  <span key={i} className="inline-flex items-center gap-3 px-8 py-2 text-[10px] md:text-xs font-bold rounded-full" style={{backgroundColor: 'rgba(232,135,155,0.15)', color: '#E8889C'}}>
                                     {period}
+                                    {course.credits[period] && (
+                                      <span className="inline-flex items-center justify-center size-14 md:size-16 rounded-full text-[9px] md:text-[10px] font-bold" style={{backgroundColor: 'rgba(232,135,155,0.25)', color: '#E8889C'}}>
+                                        {course.credits[period]}
+                                      </span>
+                                    )}
                                   </span>
                                 ))}
-                                <span className="px-6 py-2 bg-gray-100 text-gray-500 text-[10px] md:text-xs font-bold rounded-full">
-                                  {course.credits}h
-                                </span>
                               </div>
                               <p className="text-sm md:text-base font-bold text-gray-700">
                                 {(course.courseNameKo || course.courseName).split('<').map((part, i) => (

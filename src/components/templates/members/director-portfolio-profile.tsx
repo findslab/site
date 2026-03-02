@@ -100,7 +100,7 @@ type Lecture = {
   periods: string[]
   school: string
   courses: { en: string; ko: string }[]
-  credits?: number
+  credits?: Record<string, number>
 }
 
 // Image Imports
