@@ -576,6 +576,15 @@
             "type": "SSCI",
             "since": "2026-02-26",
             "url": "https://journals.vilniustech.lt/index.php/IJSPM"
+        },
+        {
+            "id": 62,
+            "category": "journal",
+            "name": "The International Journal of Management Education",
+            "publisher": "Elsevier",
+            "type": "SSCI",
+            "since": "2026-03-03",
+            "url": "https://www.sciencedirect.com/journal/the-international-journal-of-management-education"
         }
     ]
 }
