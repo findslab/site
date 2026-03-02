@@ -96,6 +96,7 @@ type Lecture = {
   periods: string[]
   school: string
   courses: { en: string; ko: string }[]
+  credits?: number
 }
 
 // Image Imports
@@ -526,6 +527,7 @@ export const MembersDirectorTemplate = () => {
       courseNameKo: string
       periods: string[]
       role: string
+      credits: number
     }> = {}
 
     filtered.forEach(lecture => {
@@ -537,7 +539,8 @@ export const MembersDirectorTemplate = () => {
             courseName: course.en,
             courseNameKo: course.ko,
             periods: [...lecture.periods],
-            role: lecture.role
+            role: lecture.role,
+            credits: lecture.credits || 3
           }
         } else {
           // Add new periods that are not already in the list
@@ -989,6 +992,9 @@ export const MembersDirectorTemplate = () => {
                                           {period}
                                         </span>
                                       ))}
+                                      <span className="px-6 py-2 bg-gray-100 text-gray-500 text-[10px] md:text-xs font-bold rounded-full">
+                                        {course.credits}h
+                                      </span>
                                     </div>
                                     <p className="text-sm md:text-base font-bold text-gray-900">{course.courseNameKo || course.courseName}</p>
                                     {course.courseNameKo && course.courseName !== course.courseNameKo && (

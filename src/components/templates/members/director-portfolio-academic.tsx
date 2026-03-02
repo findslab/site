@@ -75,6 +75,7 @@ type Lecture = {
   periods: string[]
   school: string
   courses: { en: string; ko: string }[]
+  credits?: number
 }
 
 // Image Imports
@@ -1232,6 +1233,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
       courseNameKo: string
       periods: string[]
       role: string
+      credits: number
     }> = {}
 
     filtered.forEach(lecture => {
@@ -1243,7 +1245,8 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
             courseName: course.en,
             courseNameKo: course.ko,
             periods: [...lecture.periods],
-            role: lecture.role
+            role: lecture.role,
+            credits: lecture.credits || 3
           }
         } else {
           // Add new periods that are not already in the list
@@ -2167,6 +2170,9 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                                     {period}
                                   </span>
                                 ))}
+                                <span className="px-6 py-2 bg-gray-100 text-gray-500 text-[10px] md:text-xs font-bold rounded-full">
+                                  {course.credits}h
+                                </span>
                               </div>
                               <p className="text-sm md:text-base font-bold text-gray-700">{course.courseNameKo || course.courseName}</p>
                               {course.courseNameKo && course.courseName !== course.courseNameKo && (
@@ -2237,6 +2243,9 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                                     {period}
                                   </span>
                                 ))}
+                                <span className="px-6 py-2 bg-gray-100 text-gray-500 text-[10px] md:text-xs font-bold rounded-full">
+                                  {course.credits}h
+                                </span>
                               </div>
                               <p className="text-sm md:text-base font-bold text-gray-700">
                                 {(course.courseNameKo || course.courseName).split('<').map((part, i) => (
