@@ -1,6 +1,38 @@
 [
     {
         "type": "journal",
+        "indexing_group": "KCI",
+        "code_label": "J",
+        "published_date": "2026-03-31",
+        "year": 2026,
+        "title": "Analysis of the Impact of Interdependence Measure Selection on Financial Network Topology",
+        "title_ko": "상호의존성 측도 선택이 금융 네트워크 위상에 미치는 영향 분석",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "Journal of Korean Management Engineering",
+        "venue_ko": "한국경영공학회지",
+        "volume": "31",
+        "issue": "1",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "최인수. (2026). 상호의존성 측도 선택이 금융 네트워크 위상에 미치는 영향 분석. 한국경영공학회지, 31(1).",
+            "mla": "최인수. \"상호의존성 측도 선택이 금융 네트워크 위상에 미치는 영향 분석.\" 한국경영공학회지 31.1 (2026).",
+            "chicago": "최인수. \"상호의존성 측도 선택이 금융 네트워크 위상에 미치는 영향 분석.\" 한국경영공학회지 31, no. 1 (2026).",
+            "harvard": "최인수. (2026) '상호의존성 측도 선택이 금융 네트워크 위상에 미치는 영향 분석', 한국경영공학회지, 31(1).",
+            "vancouver": "최인수. 상호의존성 측도 선택이 금융 네트워크 위상에 미치는 영향 분석. 한국경영공학회지. 2026;31(1).",
+            "korean": "최인수. (2026). 상호의존성 측도 선택이 금융 네트워크 위상에 미치는 영향 분석. 한국경영공학회지, 31(1).",
+            "bibtex": "@article{choi2026interdependence,\n  title = {{상호의존성 측도 선택이 금융 네트워크 위상에 미치는 영향 분석}},\n  author = {최인수},\n  journal = {한국경영공학회지},\n  volume = {31},\n  number = {1},\n  year = {2026}\n}"
+        }
+    },
+    {
+        "type": "journal",
         "indexing_group": "SSCI",
         "code_label": "J",
         "published_date": "2026-07-01",
