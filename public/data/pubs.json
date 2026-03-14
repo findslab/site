@@ -7167,5 +7167,105 @@
         "language": "Korean",
         "awards": 0,
         "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-06-04",
+        "year": 2026,
+        "title": "Persistence of Calendar Effects in the Korean Stock Market: Evidence from Ensemble Machine Learning Models",
+        "title_ko": "다중 기계학습 모형을 활용한 한국 주식시장 달력 효과의 지속성 검증",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 한국정보기술학회 하계종합학술대회",
+        "venue_ko": "2026 한국정보기술학회 하계종합학술대회",
+        "presentation": "oral",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-06-04",
+        "year": 2026,
+        "title": "Measuring Topological Complexity in Financial Time Series: A Langton's Ant Approach on Gramian Angular Fields",
+        "title_ko": "그래미안 각도장 기반 랭턴 개미 접근법을 활용한 금융 시계열의 위상 복잡도 측정",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 한국정보기술학회 하계종합학술대회",
+        "venue_ko": "2026 한국정보기술학회 하계종합학술대회",
+        "presentation": "oral",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-06-04",
+        "year": 2026,
+        "title": "Spontaneous Feature Extraction from Nonstationary Financial Signals via Cellular Automata and Hilbert Space-Filling Curves",
+        "title_ko": "셀룰러 오토마타 역학과 힐베르트 공간충전 곡선을 활용한 비정상 금융 신호의 자발적 특징 추출",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 한국정보기술학회 하계종합학술대회",
+        "venue_ko": "2026 한국정보기술학회 하계종합학술대회",
+        "presentation": "oral",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-06-04",
+        "year": 2026,
+        "title": "Adaptive Target Learning in Financial Time Series Classification via Differentiable Reward-Aligned Labeling",
+        "title_ko": "미분 가능 보상 정합 레이블링 기반 금융 시계열 분류의 적응적 예측 대상 학습",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 한국정보기술학회 하계종합학술대회",
+        "venue_ko": "2026 한국정보기술학회 하계종합학술대회",
+        "presentation": "oral",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
     }
 ]
