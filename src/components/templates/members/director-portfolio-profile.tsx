@@ -728,6 +728,19 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                 </div>
               </div>
 
+              {/* Office Phone */}
+              <div className="flex items-start gap-8 md:gap-12 mt-12 md:mt-16">
+                <div className="size-28 md:size-32 bg-gray-100 rounded-lg flex items-center justify-center shrink-0">
+                  <Phone size={14}/>
+                </div>
+                <div className="min-w-0 flex-1">
+                  <p className="text-[10px] md:text-xs font-bold text-gray-400 mb-1">Office</p>
+                  <a href="tel:031-750-5405" className="text-xs md:text-sm font-semibold text-gray-700 hover:text-primary transition-colors">
+                    031-750-5405
+                  </a>
+                </div>
+              </div>
+
               <div className="grid grid-cols-2 gap-6 md:gap-8 mt-16 md:mt-20">
                 <button 
                   onClick={() => showModal({
