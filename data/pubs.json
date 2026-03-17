@@ -6432,7 +6432,57 @@
         "type": "conference",
         "indexing_group": "Domestic Conference",
         "code_label": "C",
-        "published_date": "2026-05-16",
+        "published_date": "2026-07-10",
+        "year": 2026,
+        "title": "Heterogeneous Savings–Investment Linkages Across Asian Economies: An Information-Theoretic Approach",
+        "title_ko": "정보이론 측도를 활용한 아시아 경제권의 이질적 저축-투자 연계 구조 분석",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Spring Conference of Korea Convergence Society",
+        "venue_ko": "2026 한국산업융합학회 춘계학술대회",
+        "presentation": "poster",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-08-19",
+        "year": 2026,
+        "title": "Nonlinear Information Spillovers and Co-Movement Networks Between Cryptocurrencies and Macro Assets: A Complex Systems Perspective",
+        "title_ko": "복잡계 관점에서 본 암호화폐와 거시자산 간 비선형 정보 전이와 동조화 네트워크 분석",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Summer Conference of Society for Computational Design and Engineering",
+        "venue_ko": "2026 한국CDE학회 하계학술대회",
+        "presentation": "poster",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-05-15",
         "year": 2026,
         "title": "Network Structure of Price Leadership and Information Spillovers Across Global Energy Futures Markets",
         "title_ko": "글로벌 에너지 선물시장 간 가격 선도 관계와 정보 파급의 네트워크 구조 분석",
@@ -6442,9 +6492,9 @@
         "author_marks": [
             "1,*"
         ],
-        "venue": "2026 한국진로창업경영학회 춘계학술대회",
-        "venue_ko": "2026 한국진로창업경영학회 춘계학술대회",
-        "presentation": "oral",
+        "venue": "2026 Spring Conference of Korean Institute of Intelligent Systems",
+        "venue_ko": "2026 한국지능시스템학회 춘계학술대회",
+        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -6467,9 +6517,34 @@
         "author_marks": [
             "1,*"
         ],
-        "venue": "2026 한국정책학회 춘계학술대회",
+        "venue": "2026 Spring Conference of Korean Association for Policy Studies",
         "venue_ko": "2026 한국정책학회 춘계학술대회",
         "presentation": "oral",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-08-19",
+        "year": 2026,
+        "title": "Temporally Dynamic Portfolio Optimization via Visibility Graph Encoding and Graph Neural Networks",
+        "title_ko": "가시성 그래프 부호화와 그래프 신경망을 활용한 시간 동학 기반 포트폴리오 최적화",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Summer Conference of Society for Computational Design and Engineering",
+        "venue_ko": "2026 한국CDE학회 하계학술대회",
+        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -6492,7 +6567,7 @@
         "author_marks": [
             "1,*"
         ],
-        "venue": "2026 한국산업정보학회 춘계학술대회",
+        "venue": "2026 Spring Conference of Korean Society of Industrial Information Systems",
         "venue_ko": "2026 한국산업정보학회 춘계학술대회",
         "presentation": "poster",
         "volume": "",
@@ -6517,8 +6592,58 @@
         "author_marks": [
             "1,*"
         ],
-        "venue": "2026 한국산업정보학회 춘계학술대회",
+        "venue": "2026 Spring Conference of Korean Society of Industrial Information Systems",
         "venue_ko": "2026 한국산업정보학회 춘계학술대회",
+        "presentation": "poster",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-06-04",
+        "year": 2026,
+        "title": "Persistence of Calendar Effects in the Korean Stock Market: Evidence from Ensemble Machine Learning Models",
+        "title_ko": "다중 기계학습 모형을 활용한 한국 주식시장 달력 효과의 지속성 검증",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Summer Conference of Korean Institute of Information Technology",
+        "venue_ko": "2026 한국정보기술학회 하계종합학술대회",
+        "presentation": "oral",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-07-01",
+        "year": 2026,
+        "title": "Lump-Sum Versus Dollar-Cost Averaging: An Empirical Comparison Across Asset Classes and Investment Horizons",
+        "title_ko": "거치식 투자와 적립식 투자의 성과 비교: 다중 자산군과 다중 투자 기간에 걸친 실증 분석",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Summer Conference of Korean Data Analysis Society",
+        "venue_ko": "2026 자료분석학회 하계학술논문발표대회",
         "presentation": "poster",
         "volume": "",
         "issue": "",
@@ -6542,9 +6667,159 @@
         "author_marks": [
             "1,*"
         ],
-        "venue": "2026 대한산업공학회-한국경영과학회-한국시뮬레이션학회 춘계공동학술대회",
+        "venue": "2026 Spring Joint Conference of KIIE, KORMS, and KSS",
         "venue_ko": "2026 대한산업공학회-한국경영과학회-한국시뮬레이션학회 춘계공동학술대회",
         "presentation": "poster",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-09-30",
+        "year": 2026,
+        "title": "Multidimensional Poverty Typology of Young Single-Person Households: Applying K-Prototypes Clustering and Explainable AI",
+        "title_ko": "청년 1인 가구의 다차원 빈곤 유형화: K-Prototypes 군집화와 설명 가능 인공지능 기법의 적용",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Conference of Korea Welfare Panel Study",
+        "venue_ko": "2026 한국복지패널 학술대회",
+        "presentation": "oral",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-07-10",
+        "year": 2026,
+        "title": "Horizon-Varying Superiority of Graph Attention Networks in Global Equity Index Prediction Using Correlation-Derived Market Graphs",
+        "title_ko": "상관관계 기반 시장 그래프를 활용한 글로벌 주가지수 예측에서 그래프 주의 네트워크의 예측 기간별 성과 우위 분석",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Spring Conference of Korea Convergence Society",
+        "venue_ko": "2026 한국산업융합학회 춘계학술대회",
+        "presentation": "oral",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-09-18",
+        "year": 2026,
+        "title": "Household Financial Health Classification Using K-Means Clustering",
+        "title_ko": "K-평균 군집화를 활용한 가구 재무건전성 분류",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Conference of National Survey of Tax and Benefit",
+        "venue_ko": "2026 재정패널 학술대회",
+        "presentation": "oral",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-07-01",
+        "year": 2026,
+        "title": "Housing Finance Accessibility and Credit Supply in Korea: A Threshold Regression Approach Accounting for Regional Heterogeneity",
+        "title_ko": "지역별 이질성을 고려한 임계회귀 기반 한국 주택금융 접근성과 신용공급 간 관계 분석",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Summer Conference of Korean Data Analysis Society",
+        "venue_ko": "2026 자료분석학회 하계학술논문발표대회",
+        "presentation": "poster",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-05-15",
+        "year": 2026,
+        "title": "Identifying Market Regimes Through Competing Stochastic Process Specifications",
+        "title_ko": "경쟁 확률과정 모형 비교를 통한 시장 국면 식별",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Spring Conference of Korean Institute of Intelligent Systems",
+        "venue_ko": "2026 한국지능시스템학회 춘계학술대회",
+        "presentation": "poster",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-06-04",
+        "year": 2026,
+        "title": "Measuring Topological Complexity in Financial Time Series: A Langton's Ant Approach on Gramian Angular Fields",
+        "title_ko": "그래미안 각도장 기반 랭턴 개미 접근법을 활용한 금융 시계열의 위상 복잡도 측정",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Summer Conference of Korean Institute of Information Technology",
+        "venue_ko": "2026 한국정보기술학회 하계종합학술대회",
+        "presentation": "oral",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -6567,7 +6842,7 @@
         "author_marks": [
             "1,*"
         ],
-        "venue": "2026 대한산업공학회-한국경영과학회-한국시뮬레이션학회 춘계공동학술대회",
+        "venue": "2026 Spring Joint Conference of KIIE, KORMS, and KSS",
         "venue_ko": "2026 대한산업공학회-한국경영과학회-한국시뮬레이션학회 춘계공동학술대회",
         "presentation": "poster",
         "volume": "",
@@ -6592,8 +6867,183 @@
         "author_marks": [
             "1,*"
         ],
-        "venue": "2026 대한산업공학회-한국경영과학회-한국시뮬레이션학회 춘계공동학술대회",
+        "venue": "2026 Spring Joint Conference of KIIE, KORMS, and KSS",
         "venue_ko": "2026 대한산업공학회-한국경영과학회-한국시뮬레이션학회 춘계공동학술대회",
+        "presentation": "oral",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-07-01",
+        "year": 2026,
+        "title": "Psychological, Technological, and Social Determinants of Financial Decision-Making in the Digital Era: A Systematic Review (2020–2026)",
+        "title_ko": "디지털 시대 금융 의사결정의 심리적·기술적·사회적 결정요인: 체계적 문헌고찰(2020–2026)",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Summer Conference of Korean Data Analysis Society",
+        "venue_ko": "2026 자료분석학회 하계학술논문발표대회",
+        "presentation": "poster",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-07-10",
+        "year": 2026,
+        "title": "When Does Machine Learning Outperform Market Benchmarks? A Systematic Review of Financial Prediction",
+        "title_ko": "금융 예측에서 기계학습의 성과 조건에 관한 체계적 문헌 고찰",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Spring Conference of Korea Convergence Society",
+        "venue_ko": "2026 한국산업융합학회 춘계학술대회",
+        "presentation": "poster",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-07-01",
+        "year": 2026,
+        "title": "User Experience in Data-Driven Financial Services: A Systematic Review Comparing Digital-Native and Legacy Platforms",
+        "title_ko": "데이터 기반 금융서비스에서 디지털 네이티브 플랫폼과 전통 플랫폼의 사용자 경험 비교: 체계적 문헌고찰",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Summer Conference of Korean Data Analysis Society",
+        "venue_ko": "2026 자료분석학회 하계학술논문발표대회",
+        "presentation": "poster",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-05-15",
+        "year": 2026,
+        "title": "Transparency, Fairness, and Accountability in Financial Machine Learning: A Critical Synthesis and Taxonomy",
+        "title_ko": "금융 기계학습의 투명성·공정성·책무성에 관한 비판적 종합과 분류체계 제안",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Spring Conference of Korean Institute of Intelligent Systems",
+        "venue_ko": "2026 한국지능시스템학회 춘계학술대회",
+        "presentation": "poster",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-08-19",
+        "year": 2026,
+        "title": "Trust, Artificial Intelligence, and Inclusive Design in Financial Services: A Literature Review",
+        "title_ko": "금융 서비스에서 신뢰·인공지능·포용적 설계에 관한 문헌 연구",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Summer Conference of Society for Computational Design and Engineering",
+        "venue_ko": "2026 한국CDE학회 하계학술대회",
+        "presentation": "oral",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-07-01",
+        "year": 2026,
+        "title": "Measurement Error and Jump Decomposition in Bitcoin Realized Volatility Estimation: Focusing on Market Regime Dependence",
+        "title_ko": "비트코인 실현변동성 추정의 측정오차와 점프 분해: 시장 국면 의존성을 중심으로",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Summer Conference of Korea Society of Computer and Information",
+        "venue_ko": "2026 한국컴퓨터정보학회 하계학술대회",
+        "presentation": "poster",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-06-04",
+        "year": 2026,
+        "title": "Spontaneous Feature Extraction from Nonstationary Financial Signals via Cellular Automata and Hilbert Space-Filling Curves",
+        "title_ko": "셀룰러 오토마타 역학과 힐베르트 공간충전 곡선을 활용한 비정상 금융 신호의 자발적 특징 추출",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Summer Conference of Korean Institute of Information Technology",
+        "venue_ko": "2026 한국정보기술학회 하계종합학술대회",
         "presentation": "oral",
         "volume": "",
         "issue": "",
@@ -6617,7 +7067,7 @@
         "author_marks": [
             "1,*"
         ],
-        "venue": "2026 한국산업정보학회 춘계학술대회",
+        "venue": "2026 Spring Conference of Korean Society of Industrial Information Systems",
         "venue_ko": "2026 한국산업정보학회 춘계학술대회",
         "presentation": "poster",
         "volume": "",
@@ -6632,7 +7082,32 @@
         "type": "conference",
         "indexing_group": "Domestic Conference",
         "code_label": "C",
-        "published_date": "2026-05-27",
+        "published_date": "2026-07-10",
+        "year": 2026,
+        "title": "How Korean Business Schools Are Reshaping Curricula in Response to Artificial Intelligence",
+        "title_ko": "한국 경영대학의 인공지능 대응 교육과정 재편 동향",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Spring Conference of Korea Convergence Society",
+        "venue_ko": "2026 한국산업융합학회 춘계학술대회",
+        "presentation": "poster",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-05-29",
         "year": 2026,
         "title": "Progressive Denoising with Adaptive Difficulty Scheduling for Momentum Trading Strategies",
         "title_ko": "단계적 난이도 조절 기반 점진적 잡음 제거를 활용한 모멘텀 매매 전략",
@@ -6642,9 +7117,9 @@
         "author_marks": [
             "1,*"
         ],
-        "venue": "2026 한국지능정보시스템학회 춘계학술대회",
-        "venue_ko": "2026 한국지능정보시스템학회 춘계학술대회",
-        "presentation": "oral",
+        "venue": "2026 Spring Conference of Korean Society of Industrial Information Systems",
+        "venue_ko": "2026 한국산업정보학회 춘계학술대회",
+        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -6667,8 +7142,108 @@
         "author_marks": [
             "1,*"
         ],
-        "venue": "2026 한국IT서비스학회 춘계학술대회",
+        "venue": "2026 Spring Conference of Korea IT Service Society",
         "venue_ko": "2026 한국IT서비스학회 춘계학술대회",
+        "presentation": "oral",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-05-15",
+        "year": 2026,
+        "title": "Assessing Statistical Credibility of Quantitative Investment Strategies: A Literature Review on Multiple Comparison Adjustments, Probability-Based Performance Measurement, and Methodological Robustness",
+        "title_ko": "투자전략의 통계적 신뢰성 평가: 다중비교 조정, 확률 기반 성과 측정, 그리고 방법론적 강건성에 관한 문헌 고찰",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Spring Conference of Korean Data and Information Science Society",
+        "venue_ko": "2026 한국데이터정보과학회 춘계학술논문발표회",
+        "presentation": "oral",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-05-29",
+        "year": 2026,
+        "title": "Geometric Triangle Centers as Features for Financial Time Series Prediction: Theoretical Foundations and Empirical Validation",
+        "title_ko": "기하학적 삼각형 중심점을 활용한 금융 시계열 예측 특징량의 이론적 기반과 실증 검증",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Spring Conference of Korean Society of Industrial and Systems Engineering",
+        "venue_ko": "2026 한국산업경영시스템학회 춘계학술대회",
+        "presentation": "poster",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-06-04",
+        "year": 2026,
+        "title": "Adaptive Target Learning in Financial Time Series Classification via Differentiable Reward-Aligned Labeling",
+        "title_ko": "미분 가능 보상 정합 레이블링 기반 금융 시계열 분류의 적응적 예측 대상 학습",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Summer Conference of Korean Institute of Information Technology",
+        "venue_ko": "2026 한국정보기술학회 하계종합학술대회",
+        "presentation": "oral",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-07-01",
+        "year": 2026,
+        "title": "Market Fragmentation and Cross-Asset Premium Dynamics in Korean Precious Metal and Cryptocurrency Markets",
+        "title_ko": "한국 귀금속·암호화폐 시장의 구조적 분절과 자산 간 프리미엄 변동에 관한 실증 연구",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Summer Conference of Korea Society of Computer and Information",
+        "venue_ko": "2026 한국컴퓨터정보학회 하계학술대회",
         "presentation": "oral",
         "volume": "",
         "issue": "",
@@ -6692,7 +7267,7 @@
         "author_marks": [
             "1,*"
         ],
-        "venue": "2026 한국산업정보학회 춘계학술대회",
+        "venue": "2026 Spring Conference of Korean Society of Industrial Information Systems",
         "venue_ko": "2026 한국산업정보학회 춘계학술대회",
         "presentation": "oral",
         "volume": "",
@@ -6717,7 +7292,7 @@
         "author_marks": [
             "1,*"
         ],
-        "venue": "2026 한국산업정보학회 춘계학술대회",
+        "venue": "2026 Spring Conference of Korean Society of Industrial Information Systems",
         "venue_ko": "2026 한국산업정보학회 춘계학술대회",
         "presentation": "poster",
         "volume": "",
@@ -6752,8 +7327,83 @@
             "5",
             "6,*"
         ],
-        "venue": "2026 한국데이터정보과학회 춘계학술논문발표회",
+        "venue": "2026 Spring Conference of Korean Data and Information Science Society",
         "venue_ko": "2026 한국데이터정보과학회 춘계학술논문발표회",
+        "presentation": "poster",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-05-15",
+        "year": 2026,
+        "title": "Information Flow Structures Across Global Equity Markets: A Transfer Entropy and Convergent Cross Mapping Approach",
+        "title_ko": "전이 엔트로피와 수렴교차사상을 활용한 글로벌 주식시장 간 정보 흐름 구조 분석",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Spring Conference of Korean Institute of Intelligent Systems",
+        "venue_ko": "2026 한국지능시스템학회 춘계학술대회",
+        "presentation": "oral",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-05-15",
+        "year": 2026,
+        "title": "Efficient Granger Causality Network Estimation via Partial Correlation-Based Vectorized Algorithms: Applications to Financial Markets",
+        "title_ko": "편상관 기반 벡터화 알고리즘을 활용한 그랜저 인과 네트워크의 효율적 추정과 금융시장 응용",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Spring Conference of Korean Institute of Intelligent Systems",
+        "venue_ko": "2026 한국지능시스템학회 춘계학술대회",
+        "presentation": "poster",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-05-15",
+        "year": 2026,
+        "title": "Trends and Future Directions in Financial Data Visualization: A Systematic Review",
+        "title_ko": "금융 데이터 시각화의 동향과 향후 과제: 체계적 문헌고찰",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Spring Conference of Korean Institute of Intelligent Systems",
+        "venue_ko": "2026 한국지능시스템학회 춘계학술대회",
         "presentation": "poster",
         "volume": "",
         "issue": "",
@@ -6777,8 +7427,135 @@
         "author_marks": [
             "1,*"
         ],
-        "venue": "2026 경영정보관련 학회 춘계통합학술대회",
+        "venue": "2026 Spring Joint Conference of Management Information Systems",
         "venue_ko": "2026 경영정보관련 학회 춘계통합학술대회",
+        "presentation": "oral",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-08-18",
+        "year": 2026,
+        "title": "The Role of Nonlinearity in Information Transmission from Global Financial Markets to the Korean Won",
+        "title_ko": "글로벌 금융시장에서 원화 환율로의 정보 전이에서 비선형성의 역할",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Spring Integrated Conference of Korean Management Associations",
+        "venue_ko": "2026 경영학회 통합 춘계학술대회",
+        "presentation": "oral",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-07-01",
+        "year": 2026,
+        "title": "An Efficient Computational Method for Lead–Lag Signature Features in Financial Time Series Forecasting",
+        "title_ko": "금융 시계열 예측을 위한 선행-후행 시그니처 특성의 효율적 산출 방법",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Summer Conference of Korea Society of Computer and Information",
+        "venue_ko": "2026 한국컴퓨터정보학회 하계학술대회",
+        "presentation": "poster",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-05-15",
+        "year": 2026,
+        "title": "Conditional Effectiveness of Time-Series Image Encoding for Volatility Prediction: An Empirical Analysis of Multi-Visual Representation Deep Learning Fusion",
+        "title_ko": "시계열 이미지 인코딩 기반 변동성 예측의 조건부 유효성: 다중 시각화 표현과 딥러닝 융합 모델의 실증 분석",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Spring Conference of Korean Institute of Intelligent Systems",
+        "venue_ko": "2026 한국지능시스템학회 춘계학술대회",
+        "presentation": "poster",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-08-19",
+        "year": 2026,
+        "title": "Cross-Asset Lead–Lag Identification and Systemic Risk Assessment in ETF Markets via Dynamic Time Warping",
+        "title_ko": "동적 시간 워핑을 활용한 ETF 시장의 자산 간 선행-후행 관계 식별과 체계적 위험 평가",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Summer Conference of Society for Computational Design and Engineering",
+        "venue_ko": "2026 한국CDE학회 하계학술대회",
+        "presentation": "poster",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-11-01",
+        "year": 2026,
+        "title": "Regime-Conditional Analysis of Graph Neural Network Adaptation Under Covariance Shrinkage",
+        "title_ko": "공분산 축소 기법에 따른 그래프 신경망 변화의 국면 의존 분석",
+        "authors": [
+            157,
+            1
+        ],
+        "author_marks": [
+            "1",
+            "2,*"
+        ],
+        "venue": "2026 Fall Conference of Korean Data and Information Science Society",
+        "venue_ko": "2026 한국데이터정보과학회 추계학술논문발표회",
         "presentation": "oral",
         "volume": "",
         "issue": "",
@@ -6804,9 +7581,84 @@
             "1",
             "2,*"
         ],
-        "venue": "2026 한국산업경영시스템학회 춘계학술대회",
+        "venue": "2026 Spring Conference of Korean Society of Industrial and Systems Engineering",
         "venue_ko": "2026 한국산업경영시스템학회 춘계학술대회",
         "presentation": "poster",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-07-10",
+        "year": 2026,
+        "title": "Search Volume-Based K-Pop Content Interest Indicators and Their Linkage to Stock Prices",
+        "title_ko": "검색량 기반 K-Pop 콘텐츠 관심도 지표와 주가 연동성 분석",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Spring Conference of Korea Convergence Society",
+        "venue_ko": "2026 한국산업융합학회 춘계학술대회",
+        "presentation": "poster",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-07-10",
+        "year": 2026,
+        "title": "Financial Return Direction Prediction with Temporal Kolmogorov–Arnold Networks: Combining Linear–Nonlinear Hybrid Decomposition and Learnable Activation Functions",
+        "title_ko": "선형·비선형 혼합 분해와 학습 가능 활성화 함수를 결합한 시간적 콜모고로프-아르놀트 네트워크의 금융 수익률 방향 예측 성과 분석",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Spring Conference of Korea Convergence Society",
+        "venue_ko": "2026 한국산업융합학회 춘계학술대회",
+        "presentation": "poster",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-07-01",
+        "year": 2026,
+        "title": "Microstructural Relationships Among Information Flow, Trading Volume, and Volatility in the Korean Stock Market: An Empirical Investigation",
+        "title_ko": "한국 주식시장의 정보 흐름, 거래량, 변동성 간 미시구조적 관계에 관한 실증 연구",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Summer Conference of Korean Data Analysis Society",
+        "venue_ko": "2026 자료분석학회 하계학술논문발표대회",
+        "presentation": "oral",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -6831,7 +7683,7 @@
             "1",
             "2,*"
         ],
-        "venue": "2026 한국산업경영시스템학회 춘계학술대회",
+        "venue": "2026 Spring Conference of Korean Society of Industrial and Systems Engineering",
         "venue_ko": "2026 한국산업경영시스템학회 춘계학술대회",
         "presentation": "poster",
         "volume": "",
@@ -6858,7 +7710,7 @@
             "1",
             "2,*"
         ],
-        "venue": "2026 한국산업경영시스템학회 춘계학술대회",
+        "venue": "2026 Spring Conference of Korean Society of Industrial and Systems Engineering",
         "venue_ko": "2026 한국산업경영시스템학회 춘계학술대회",
         "presentation": "poster",
         "volume": "",
@@ -6885,7 +7737,7 @@
             "1",
             "2,*"
         ],
-        "venue": "2026 대한산업공학회-한국경영과학회-한국시뮬레이션학회 춘계공동학술대회",
+        "venue": "2026 Spring Joint Conference of KIIE, KORMS, and KSS",
         "venue_ko": "2026 대한산업공학회-한국경영과학회-한국시뮬레이션학회 춘계공동학술대회",
         "presentation": "poster",
         "volume": "",
@@ -6914,7 +7766,7 @@
             "2",
             "3,*"
         ],
-        "venue": "2026 한국산업경영시스템학회 춘계학술대회",
+        "venue": "2026 Spring Conference of Korean Society of Industrial and Systems Engineering",
         "venue_ko": "2026 한국산업경영시스템학회 춘계학술대회",
         "presentation": "poster",
         "volume": "",
@@ -6945,7 +7797,7 @@
             "3",
             "4,*"
         ],
-        "venue": "2026 한국산업경영시스템학회 춘계학술대회",
+        "venue": "2026 Spring Conference of Korean Society of Industrial and Systems Engineering",
         "venue_ko": "2026 한국산업경영시스템학회 춘계학술대회",
         "presentation": "poster",
         "volume": "",
@@ -6972,7 +7824,7 @@
             "1",
             "2,*"
         ],
-        "venue": "2026 대한산업공학회-한국경영과학회-한국시뮬레이션학회 춘계공동학술대회",
+        "venue": "2026 Spring Joint Conference of KIIE, KORMS, and KSS",
         "venue_ko": "2026 대한산업공학회-한국경영과학회-한국시뮬레이션학회 춘계공동학술대회",
         "presentation": "poster",
         "volume": "",
@@ -6999,7 +7851,7 @@
             "1",
             "2,*"
         ],
-        "venue": "2026 한국산업경영시스템학회 춘계학술대회",
+        "venue": "2026 Spring Conference of Korean Society of Industrial and Systems Engineering",
         "venue_ko": "2026 한국산업경영시스템학회 춘계학술대회",
         "presentation": "poster",
         "volume": "",
@@ -7026,7 +7878,7 @@
             "1",
             "2,*"
         ],
-        "venue": "2026 대한산업공학회-한국경영과학회-한국시뮬레이션학회 춘계공동학술대회",
+        "venue": "2026 Spring Joint Conference of KIIE, KORMS, and KSS",
         "venue_ko": "2026 대한산업공학회-한국경영과학회-한국시뮬레이션학회 춘계공동학술대회",
         "presentation": "poster",
         "volume": "",
@@ -7053,7 +7905,7 @@
             "1",
             "2,*"
         ],
-        "venue": "2026 한국산업경영시스템학회 춘계학술대회",
+        "venue": "2026 Spring Conference of Korean Society of Industrial and Systems Engineering",
         "venue_ko": "2026 한국산업경영시스템학회 춘계학술대회",
         "presentation": "poster",
         "volume": "",
@@ -7080,7 +7932,7 @@
             "1",
             "2,*"
         ],
-        "venue": "2026 한국산업경영시스템학회 춘계학술대회",
+        "venue": "2026 Spring Conference of Korean Society of Industrial and Systems Engineering",
         "venue_ko": "2026 한국산업경영시스템학회 춘계학술대회",
         "presentation": "poster",
         "volume": "",
@@ -7107,7 +7959,7 @@
             "1",
             "2,*"
         ],
-        "venue": "2026 한국산업경영시스템학회 춘계학술대회",
+        "venue": "2026 Spring Conference of Korean Society of Industrial and Systems Engineering",
         "venue_ko": "2026 한국산업경영시스템학회 춘계학술대회",
         "presentation": "poster",
         "volume": "",
@@ -7132,8 +7984,33 @@
         "author_marks": [
             "1,*"
         ],
-        "venue": "2026 대한산업공학회-한국경영과학회-한국시뮬레이션학회 춘계공동학술대회",
+        "venue": "2026 Spring Joint Conference of KIIE, KORMS, and KSS",
         "venue_ko": "2026 대한산업공학회-한국경영과학회-한국시뮬레이션학회 춘계공동학술대회",
+        "presentation": "poster",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-07-01",
+        "year": 2026,
+        "title": "The Paradox of Institutionalization: Microstructure Evidence from Spot Bitcoin ETFs",
+        "title_ko": "현물 비트코인 ETF 시장의 미시구조 분석을 통한 제도화의 역설",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Summer Conference of Korea Society of Computer and Information",
+        "venue_ko": "2026 한국컴퓨터정보학회 하계학술대회",
         "presentation": "poster",
         "volume": "",
         "issue": "",
@@ -7157,7 +8034,7 @@
         "author_marks": [
             "1,*"
         ],
-        "venue": "2026 대한경영학회 춘계학술대회",
+        "venue": "2026 Spring Conference of Korean Academic Society of Business Administration",
         "venue_ko": "2026 대한경영학회 춘계학술대회",
         "presentation": "oral",
         "volume": "",
@@ -7172,93 +8049,18 @@
         "type": "conference",
         "indexing_group": "Domestic Conference",
         "code_label": "C",
-        "published_date": "2026-06-04",
+        "published_date": "2026-05-16",
         "year": 2026,
-        "title": "Persistence of Calendar Effects in the Korean Stock Market: Evidence from Ensemble Machine Learning Models",
-        "title_ko": "다중 기계학습 모형을 활용한 한국 주식시장 달력 효과의 지속성 검증",
+        "title": "Asymmetric Information Transfer in Volatility Magnitude Between the Global AI Infrastructure Market and KOSPI",
+        "title_ko": "글로벌 AI 인프라 시장과 KOSPI 간 변동성 수준의 비대칭적 정보 전이 분석",
         "authors": [
             1
         ],
         "author_marks": [
             "1,*"
         ],
-        "venue": "2026 한국정보기술학회 하계종합학술대회",
-        "venue_ko": "2026 한국정보기술학회 하계종합학술대회",
-        "presentation": "oral",
-        "volume": "",
-        "issue": "",
-        "pages": "",
-        "doi": "",
-        "language": "Korean",
-        "awards": 0,
-        "citations": {}
-    },
-    {
-        "type": "conference",
-        "indexing_group": "Domestic Conference",
-        "code_label": "C",
-        "published_date": "2026-06-04",
-        "year": 2026,
-        "title": "Measuring Topological Complexity in Financial Time Series: A Langton's Ant Approach on Gramian Angular Fields",
-        "title_ko": "그래미안 각도장 기반 랭턴 개미 접근법을 활용한 금융 시계열의 위상 복잡도 측정",
-        "authors": [
-            1
-        ],
-        "author_marks": [
-            "1,*"
-        ],
-        "venue": "2026 한국정보기술학회 하계종합학술대회",
-        "venue_ko": "2026 한국정보기술학회 하계종합학술대회",
-        "presentation": "oral",
-        "volume": "",
-        "issue": "",
-        "pages": "",
-        "doi": "",
-        "language": "Korean",
-        "awards": 0,
-        "citations": {}
-    },
-    {
-        "type": "conference",
-        "indexing_group": "Domestic Conference",
-        "code_label": "C",
-        "published_date": "2026-06-04",
-        "year": 2026,
-        "title": "Spontaneous Feature Extraction from Nonstationary Financial Signals via Cellular Automata and Hilbert Space-Filling Curves",
-        "title_ko": "셀룰러 오토마타 역학과 힐베르트 공간충전 곡선을 활용한 비정상 금융 신호의 자발적 특징 추출",
-        "authors": [
-            1
-        ],
-        "author_marks": [
-            "1,*"
-        ],
-        "venue": "2026 한국정보기술학회 하계종합학술대회",
-        "venue_ko": "2026 한국정보기술학회 하계종합학술대회",
-        "presentation": "oral",
-        "volume": "",
-        "issue": "",
-        "pages": "",
-        "doi": "",
-        "language": "Korean",
-        "awards": 0,
-        "citations": {}
-    },
-    {
-        "type": "conference",
-        "indexing_group": "Domestic Conference",
-        "code_label": "C",
-        "published_date": "2026-06-04",
-        "year": 2026,
-        "title": "Adaptive Target Learning in Financial Time Series Classification via Differentiable Reward-Aligned Labeling",
-        "title_ko": "미분 가능 보상 정합 레이블링 기반 금융 시계열 분류의 적응적 예측 대상 학습",
-        "authors": [
-            1
-        ],
-        "author_marks": [
-            "1,*"
-        ],
-        "venue": "2026 한국정보기술학회 하계종합학술대회",
-        "venue_ko": "2026 한국정보기술학회 하계종합학술대회",
+        "venue": "2026 Spring Conference of Korean Society of Career and Entrepreneurship Management",
+        "venue_ko": "2026 한국진로창업경영학회 춘계학술대회",
         "presentation": "oral",
         "volume": "",
         "issue": "",
