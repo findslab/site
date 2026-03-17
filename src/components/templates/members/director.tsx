@@ -730,8 +730,8 @@ export const MembersDirectorTemplate = () => {
               </div>
 
               {/* Office Phone */}
-              <div className="flex items-start gap-8 md:gap-12 mt-12 md:mt-16">
-                <div className="size-28 md:size-32 bg-gray-100 rounded-lg flex items-center justify-center shrink-0">
+              <div className="flex items-start gap-10 group mt-12 md:mt-16">
+                <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-400 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
                   <Phone size={14}/>
                 </div>
                 <div className="min-w-0 flex-1">
