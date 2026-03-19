@@ -6757,31 +6757,6 @@
         "type": "conference",
         "indexing_group": "Domestic Conference",
         "code_label": "C",
-        "published_date": "2026-05-29",
-        "year": 2026,
-        "title": "Progressive Denoising with Adaptive Difficulty Scheduling for Momentum Trading Strategies",
-        "title_ko": "단계적 난이도 조절 기반 점진적 잡음 제거를 활용한 모멘텀 매매 전략",
-        "authors": [
-            1
-        ],
-        "author_marks": [
-            "1,*"
-        ],
-        "venue": "2026 Spring Conference of Korean Society of Industrial Information Systems",
-        "venue_ko": "2026 한국산업정보학회 춘계학술대회",
-        "presentation": "poster",
-        "volume": "",
-        "issue": "",
-        "pages": "",
-        "doi": "",
-        "language": "Korean",
-        "awards": 0,
-        "citations": {}
-    },
-    {
-        "type": "conference",
-        "indexing_group": "Domestic Conference",
-        "code_label": "C",
         "published_date": "2026-05-28",
         "year": 2026,
         "title": "Curriculum Learning with Wavelet-Based Signal Refinement for Risk-Adjusted Momentum Strategy Performance in ETFs",
@@ -7485,6 +7460,31 @@
         "venue": "2026 Spring Conference of Korean Society of Career and Entrepreneurship Management",
         "venue_ko": "2026 한국진로창업경영학회 춘계학술대회",
         "presentation": "oral",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {}
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-05-29",
+        "year": 2026,
+        "title": "Financial Return Direction Prediction with Temporal Kolmogorov–Arnold Networks: Combining Linear–Nonlinear Hybrid Decomposition and Learnable Activation Functions",
+        "title_ko": "선형·비선형 혼합 분해와 학습 가능 활성화 함수를 결합한 시간적 콜모고로프-아르놀트 네트워크의 금융 수익률 방향 예측 성과 분석",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Spring Conference of Korean Society of Industrial Information Systems",
+        "venue_ko": "2026 한국산업정보학회 춘계학술대회",
+        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
