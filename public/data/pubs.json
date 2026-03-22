@@ -44,8 +44,8 @@
             2
         ],
         "author_marks": [
-            "1,*",
-            "2"
+            "1",
+            "*"
         ],
         "venue": "International Finance",
         "venue_ko": "",
@@ -109,8 +109,8 @@
             2
         ],
         "author_marks": [
-            "1,*",
-            "2"
+            "1",
+            "*"
         ],
         "venue": "Complexity",
         "doi": "https://doi.org/10.1155/cplx/5511110",
