@@ -240,7 +240,7 @@ export const HomeTemplate = () => {
           {/* Text */}
           <div className="text-center">
             <h1 
-              className="text-lg font-semibold tracking-[0.3em] mb-6"
+              className="text-lg font-semibold tracking-[0.05em] mb-6"
               style={{ 
                 background: 'linear-gradient(135deg, #D6B14D 0%, #9A7D1F 100%)',
                 WebkitBackgroundClip: 'text',
