@@ -585,6 +585,24 @@
             "type": "SSCI",
             "since": "2026-03-03",
             "url": "https://www.sciencedirect.com/journal/the-international-journal-of-management-education"
+        },
+        {
+            "id": 63,
+            "category": "journal",
+            "name": "npj Clean Water",
+            "publisher": "Springer Nature",
+            "type": "SCIE",
+            "since": "2026-03-23",
+            "url": "https://www.nature.com/npjcleanwater/"
+        },
+        {
+            "id": 64,
+            "category": "journal",
+            "name": "Applied Spatial Analysis and Policy",
+            "publisher": "Springer",
+            "type": "SSCI",
+            "since": "2026-03-23",
+            "url": "https://link.springer.com/journal/12061"
         }
     ]
 }
