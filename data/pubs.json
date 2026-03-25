@@ -6709,7 +6709,7 @@
         "published_date": "2026-06-05",
         "year": 2026,
         "title": "Behavioral Biases and Retail Investor Performance: A Systematic Review and Integrative Taxonomy of Cognitive, Emotional, and Social Evidence",
-        "title_ko": "개인 투자자의 인지적·정서적·사회적 행동 편향이 투자 성과에 미치는 영향",
+        "title_ko": "개인 투자자의 인지적·정서적·사회적 행동 편향이 투자 성과에 미치는 영향에 관한 문헌 연구",
         "authors": [
             1
         ],
@@ -6731,7 +6731,7 @@
             "chicago": "Insu Choi. \"Behavioral Biases and Retail Investor Performance: A Systematic Review and Integrative Taxonomy of Cognitive, Emotional, and Social Evidence.\" 2026 Spring Joint Conference of KIIE, KORMS, and KSS, 2026.",
             "harvard": "Choi, I. (2026) 'Behavioral Biases and Retail Investor Performance: A Systematic Review and Integrative Taxonomy of Cognitive, Emotional, and Social Evidence', 2026 Spring Joint Conference of KIIE, KORMS, and KSS.",
             "vancouver": "Choi, I. Behavioral Biases and Retail Investor Performance: A Systematic Review and Integrative Taxonomy of Cognitive, Emotional, and Social Evidence. 2026 Spring Joint Conference of KIIE, KORMS, and KSS. 2026.",
-            "korean": "최인수. (2026). 개인 투자자의 인지적·정서적·사회적 행동 편향이 투자 성과에 미치는 영향. 2026 대한산업공학회-한국경영과학회-한국시뮬레이션학회 춘계공동학술대회.",
+            "korean": "최인수. (2026). 개인 투자자의 인지적·정서적·사회적 행동 편향이 투자 성과에 미치는 영향에 관한 문헌 연구. 2026 대한산업공학회-한국경영과학회-한국시뮬레이션학회 춘계공동학술대회.",
             "bibtex": "@inproceedings{conf2026_143,\n  title = {{Behavioral Biases and Retail Investor Performance: A Systematic Review and Integrative Taxonomy of Cognitive, Emotional, and Social Evidence}},\n  author = {Choi, Insu},\n  booktitle = {2026 Spring Joint Conference of KIIE, KORMS, and KSS},\n  year = {2026}\n}"
         }
     },
