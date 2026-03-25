@@ -918,7 +918,7 @@ export const MembersDirectorTemplate = () => {
                   (emp.organization === 'Gachon University' ||
                   emp.organization === 'Dongduk Women\'s University' ||
                   emp.position === 'Director' ||
-                  (emp.position === 'Lecturer' && (emp.organization === 'Kangnam University' || emp.organization === 'Korea University Sejong Campus')) ||
+                  (emp.position === 'Lecturer' && (emp.organization === 'Kangnam University' || emp.organization === 'Korea University Sejong Campus' || emp.organization === 'Kyung Hee University')) ||
                   emp.organization === 'EY Consulting') &&
                   !emp.organization.includes('JL Creatives')
                 ).map((emp, index) => (
@@ -994,6 +994,7 @@ export const MembersDirectorTemplate = () => {
                               if (school.includes('Gachon')) return '가천대학교'
                               if (school.includes('Dongduk')) return '동덕여자대학교'
                               if (school.includes('Kangnam')) return '강남대학교'
+                              if (school.includes('Korea University Sejong')) return '고려대학교 세종캠퍼스'
                               if (school.includes('Korea University') || school === 'Korea University') return '고려대학교'
                               return school
                             }

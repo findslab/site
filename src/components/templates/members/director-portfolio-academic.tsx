@@ -2152,6 +2152,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                               if (school.includes('Gachon')) return '가천대학교'
                               if (school.includes('Dongduk')) return '동덕여자대학교'
                               if (school.includes('Kangnam')) return '강남대학교'
+                              if (school.includes('Korea University Sejong')) return '고려대학교 세종캠퍼스'
                               if (school.includes('Korea University') || school === 'Korea University') return '고려대학교'
                               return school
                             }
@@ -2227,6 +2228,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                               if (school.includes('Gachon')) return '가천대학교'
                               if (school.includes('Dongduk')) return '동덕여자대학교'
                               if (school.includes('Kangnam')) return '강남대학교'
+                              if (school.includes('Korea University Sejong')) return '고려대학교 세종캠퍼스'
                               if (school.includes('Korea University') || school === 'Korea University') return '고려대학교'
                               return school
                             }
