@@ -7369,8 +7369,8 @@
         "code_label": "C",
         "published_date": "2026-05-29",
         "year": 2026,
-        "title": "Financial Return Direction Prediction with Temporal Kolmogorov–Arnold Networks: Combining Linear–Nonlinear Hybrid Decomposition and Learnable Activation Functions",
-        "title_ko": "선형·비선형 혼합 분해와 학습 가능 활성화 함수를 결합한 시간적 콜모고로프-아르놀트 네트워크의 금융 수익률 방향 예측 성과 분석",
+        "title": "Financial Return Direction Prediction via Learnable Activation Functions Combined with Linear–Nonlinear Hybrid Decomposition",
+        "title_ko": "학습 가능 활성화 함수와 선형-비선형 혼합 분해를 결합한 금융 수익률 방향 예측 성과 분석",
         "authors": [
             1
         ],
@@ -7392,7 +7392,7 @@
             "chicago": "Insu Choi. \"Financial Return Direction Prediction with Temporal Kolmogorov–Arnold Networks: Combining Linear–Nonlinear Hybrid Decomposition and Learnable Activation Functions.\" 2026 Spring Conference of Korean Society of Industrial Information Systems, 2026.",
             "harvard": "Choi, I. (2026) 'Financial Return Direction Prediction with Temporal Kolmogorov–Arnold Networks: Combining Linear–Nonlinear Hybrid Decomposition and Learnable Activation Functions', 2026 Spring Conference of Korean Society of Industrial Information Systems.",
             "vancouver": "Choi, I. Financial Return Direction Prediction with Temporal Kolmogorov–Arnold Networks: Combining Linear–Nonlinear Hybrid Decomposition and Learnable Activation Functions. 2026 Spring Conference of Korean Society of Industrial Information Systems. 2026.",
-            "korean": "최인수. (2026). 선형·비선형 혼합 분해와 학습 가능 활성화 함수를 결합한 시간적 콜모고로프-아르놀트 네트워크의 금융 수익률 방향 예측 성과 분석. 2026 한국산업정보학회 춘계학술대회.",
+            "korean": "최인수. (2026). 학습 가능 활성화 함수와 선형-비선형 혼합 분해를 결합한 금융 수익률 방향 예측 성과 분석. 2026 한국산업정보학회 춘계학술대회.",
             "bibtex": "@inproceedings{conf2026_127,\n  title = {{Financial Return Direction Prediction with Temporal Kolmogorov–Arnold Networks: Combining Linear–Nonlinear Hybrid Decomposition and Learnable Activation Functions}},\n  author = {Choi, Insu},\n  booktitle = {2026 Spring Conference of Korean Society of Industrial Information Systems},\n  year = {2026}\n}"
         }
     },
@@ -7601,7 +7601,7 @@
         "published_date": "2026-05-15",
         "year": 2026,
         "title": "Identifying Market Regimes Through Competing Stochastic Process Specifications",
-        "title_ko": "경쟁 확률과정 모형 비교를 통한 시장 국면 식별",
+        "title_ko": "경쟁 확률과정 모형 비교를 통한 금융 시장 국면 식별",
         "authors": [
             1
         ],
@@ -7623,7 +7623,7 @@
             "chicago": "Insu Choi. \"Identifying Market Regimes Through Competing Stochastic Process Specifications.\" 2026 Spring Conference of Korean Institute of Intelligent Systems, 2026.",
             "harvard": "Choi, I. (2026) 'Identifying Market Regimes Through Competing Stochastic Process Specifications', 2026 Spring Conference of Korean Institute of Intelligent Systems.",
             "vancouver": "Choi, I. Identifying Market Regimes Through Competing Stochastic Process Specifications. 2026 Spring Conference of Korean Institute of Intelligent Systems. 2026.",
-            "korean": "최인수. (2026). 경쟁 확률과정 모형 비교를 통한 시장 국면 식별. 2026 한국지능시스템학회 춘계학술대회.",
+            "korean": "최인수. (2026). 경쟁 확률과정 모형 비교를 통한 금융 시장 국면 식별. 2026 한국지능시스템학회 춘계학술대회.",
             "bibtex": "@inproceedings{conf2026_52,\n  title = {{Identifying Market Regimes Through Competing Stochastic Process Specifications}},\n  author = {Choi, Insu},\n  booktitle = {2026 Spring Conference of Korean Institute of Intelligent Systems},\n  year = {2026}\n}"
         }
     },
@@ -7700,7 +7700,7 @@
         "published_date": "2026-05-15",
         "year": 2026,
         "title": "Efficient Granger Causality Network Estimation via Partial Correlation-Based Vectorized Algorithms: Applications to Financial Markets",
-        "title_ko": "편상관 기반 벡터화 알고리즘을 활용한 그랜저 인과 네트워크의 효율적 추정과 금융시장 응용",
+        "title_ko": "편상관 기반 벡터화 알고리즘을 활용한 그레인저 인과 네트워크의 효율적 추정과 금융시장 응용",
         "authors": [
             1
         ],
@@ -7722,7 +7722,7 @@
             "chicago": "Insu Choi. \"Efficient Granger Causality Network Estimation via Partial Correlation-Based Vectorized Algorithms: Applications to Financial Markets.\" 2026 Spring Conference of Korean Institute of Intelligent Systems, 2026.",
             "harvard": "Choi, I. (2026) 'Efficient Granger Causality Network Estimation via Partial Correlation-Based Vectorized Algorithms: Applications to Financial Markets', 2026 Spring Conference of Korean Institute of Intelligent Systems.",
             "vancouver": "Choi, I. Efficient Granger Causality Network Estimation via Partial Correlation-Based Vectorized Algorithms: Applications to Financial Markets. 2026 Spring Conference of Korean Institute of Intelligent Systems. 2026.",
-            "korean": "최인수. (2026). 편상관 기반 벡터화 알고리즘을 활용한 그랜저 인과 네트워크의 효율적 추정과 금융시장 응용. 2026 한국지능시스템학회 춘계학술대회.",
+            "korean": "최인수. (2026). 편상관 기반 벡터화 알고리즘을 활용한 그레인저 인과 네트워크의 효율적 추정과 금융시장 응용. 2026 한국지능시스템학회 춘계학술대회.",
             "bibtex": "@inproceedings{conf2026_92,\n  title = {{Efficient Granger Causality Network Estimation via Partial Correlation-Based Vectorized Algorithms: Applications to Financial Markets}},\n  author = {Choi, Insu},\n  booktitle = {2026 Spring Conference of Korean Institute of Intelligent Systems},\n  year = {2026}\n}"
         }
     },
