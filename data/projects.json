@@ -1,5 +1,20 @@
 [
     {
+        "titleEn": "Research Group Support for Promoting Generative AI-Integrated Instruction",
+        "titleKo": "생성형 AI 활용 수업 활성화를 위한 연구회 지원 사업",
+        "period": "2026-03-01 – 2027-02-28",
+        "fundingAgency": "Gachon University",
+        "fundingAgencyKo": "가천대학교",
+        "amount": "",
+        "type": "institution",
+        "language": "ko",
+        "roles": {
+            "principalInvestigator": "",
+            "leadResearcher": "곽찬희, 여영준, 이현탁, 조성우, 최인수",
+            "researchers": []
+        }
+    },
+    {
         "titleEn": "Portfolio Efficiency under Fractional Trading in High-Priced Stock Markets",
         "titleKo": "고가주 시장에서의 소수점 거래와 포트폴리오 효율성에 관한 연구",
         "period": "2026-03-01 – 2027-02-28",
