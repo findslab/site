@@ -826,13 +826,15 @@ export const ProjectsTemplate = () => {
                                           
                                           {/* Lead Researcher - only show if exists and different from PI */}
                                           {project.roles.leadResearcher && project.roles.leadResearcher !== project.roles.principalInvestigator && (
-                                            <div className="flex items-center gap-6">
+                                            <div className="flex items-center gap-6 flex-wrap">
                                               <span className="shrink-0 px-8 py-3 bg-gray-600 text-white text-[9px] md:text-[10px] font-bold rounded-md">
                                                 Lead Researcher
                                               </span>
-                                              <span className="shrink-0 px-8 py-3 bg-gray-100 text-gray-700 text-[9px] md:text-[10px] font-bold rounded-md">
-                                                {project.roles.leadResearcher}
-                                              </span>
+                                              {project.roles.leadResearcher.split(', ').map((name, ni) => (
+                                                <span key={ni} className="shrink-0 px-8 py-3 bg-gray-100 text-gray-700 text-[9px] md:text-[10px] font-bold rounded-md">
+                                                  {name}
+                                                </span>
+                                              ))}
                                             </div>
                                           )}
 
@@ -850,13 +852,15 @@ export const ProjectsTemplate = () => {
                                           
                                           {/* Researchers - only show if non-empty filtered list */}
                                           {filteredResearchers.length > 0 && (
-                                            <div className="flex items-center gap-8">
-                                              <span className="shrink-0 w-auto min-w-[100px] md:min-w-[140px] px-8 py-3 bg-gray-400 text-white text-[9px] md:text-[10px] font-bold rounded-md text-center">
+                                            <div className="flex items-center gap-6 flex-wrap">
+                                              <span className="shrink-0 px-8 py-3 bg-gray-400 text-white text-[9px] md:text-[10px] font-bold rounded-md">
                                                 Researcher
                                               </span>
-                                              <span className="text-[10px] md:text-xs text-gray-700 font-medium">
-                                                {filteredResearchers.join(', ')}
-                                              </span>
+                                              {filteredResearchers.map((r, ri) => (
+                                                <span key={ri} className="shrink-0 px-8 py-3 bg-gray-100 text-gray-700 text-[9px] md:text-[10px] font-bold rounded-md">
+                                                  {r}
+                                                </span>
+                                              ))}
                                             </div>
                                           )}
                                         </div>

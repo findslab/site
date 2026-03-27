@@ -1192,7 +1192,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
     const piIds = new Set(piProjects.map((_, i) => i))
     
     const remaining1 = projects.filter((_, i) => !piIds.has(i))
-    const leadProjects = remaining1.filter(p => p.roles.leadResearcher === '최인수')
+    const leadProjects = remaining1.filter(p => p.roles.leadResearcher?.includes('최인수'))
     const leadSet = new Set(leadProjects.map(p => p.titleEn))
     
     const remaining2 = remaining1.filter(p => !leadSet.has(p.titleEn))
@@ -1994,7 +1994,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                             // Determine director's role
                             const getDirectorRole = () => {
                               if (project.roles.principalInvestigator === '최인수') return 'Principal Investigator'
-                              if (project.roles.leadResearcher === '최인수') return 'Lead Researcher'
+                              if (project.roles.leadResearcher?.includes('최인수')) return 'Lead Researcher'
                               if (project.roles.visitingResearcher === '최인수') return 'Visiting Researcher'
                               if (project.roles.researchers?.includes('최인수')) return 'Researcher'
                               return 'Researcher'
