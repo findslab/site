@@ -3,39 +3,71 @@
         "type": "journal",
         "indexing_group": "KCI",
         "code_label": "J",
-        "published_date": "2026-03-31",
+        "published_date": "2026-05-31",
         "year": 2026,
-        "title": "Analysis of the Impact of Interdependence Measure Selection on Financial Network Topology",
-        "title_ko": "상호의존성 측도 선택이 금융 네트워크 위상에 미치는 영향 분석",
+        "title": "Trend Analysis in Financial Information Visualization Research: A Systematic Literature Review",
+        "title_ko": "금융 정보 시각화 연구의 동향 분석: 체계적 문헌 고찰",
         "authors": [
             1
         ],
         "author_marks": [
             "1,*"
         ],
-        "venue": "Journal of Korean Management Engineering",
-        "venue_ko": "한국경영공학회지",
-        "volume": "31",
-        "issue": "1",
+        "venue": "Information Systems Review",
+        "venue_ko": "경영정보학연구",
+        "volume": "28",
+        "issue": "2",
         "pages": "",
         "doi": "",
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "최인수. (2026). 상호의존성 측도 선택이 금융 네트워크 위상에 미치는 영향 분석. 한국경영공학회지, 31(1).",
-            "mla": "최인수. \"상호의존성 측도 선택이 금융 네트워크 위상에 미치는 영향 분석.\" 한국경영공학회지 31.1 (2026).",
-            "chicago": "최인수. \"상호의존성 측도 선택이 금융 네트워크 위상에 미치는 영향 분석.\" 한국경영공학회지 31, no. 1 (2026).",
-            "harvard": "최인수. (2026) '상호의존성 측도 선택이 금융 네트워크 위상에 미치는 영향 분석', 한국경영공학회지, 31(1).",
-            "vancouver": "최인수. 상호의존성 측도 선택이 금융 네트워크 위상에 미치는 영향 분석. 한국경영공학회지. 2026;31(1).",
-            "korean": "최인수. (2026). 상호의존성 측도 선택이 금융 네트워크 위상에 미치는 영향 분석. 한국경영공학회지, 31(1).",
-            "bibtex": "@article{choi2026interdependence,\n  title = {{상호의존성 측도 선택이 금융 네트워크 위상에 미치는 영향 분석}},\n  author = {최인수},\n  journal = {한국경영공학회지},\n  volume = {31},\n  number = {1},\n  year = {2026}\n}"
+            "apa": "최인수. (2026). 금융 정보 시각화 연구의 동향 분석: 체계적 문헌 고찰. 경영정보학연구, 28(2).",
+            "mla": "최인수. \"금융 정보 시각화 연구의 동향 분석: 체계적 문헌 고찰.\" 경영정보학연구 28.2 (2026).",
+            "chicago": "최인수. \"금융 정보 시각화 연구의 동향 분석: 체계적 문헌 고찰.\" 경영정보학연구 28, no. 2 (2026).",
+            "harvard": "최인수. (2026) '금융 정보 시각화 연구의 동향 분석: 체계적 문헌 고찰', 경영정보학연구, 28(2).",
+            "vancouver": "최인수. 금융 정보 시각화 연구의 동향 분석: 체계적 문헌 고찰. 경영정보학연구. 2026;28(2).",
+            "korean": "최인수. (2026). 금융 정보 시각화 연구의 동향 분석: 체계적 문헌 고찰. 경영정보학연구, 28(2).",
+            "bibtex": "@article{choi2026finviz,\n  title = {{Trend Analysis in Financial Information Visualization Research: A Systematic Literature Review}},\n  author = {Choi, Insu},\n  journal = {Information Systems Review},\n  volume = {28},\n  number = {2},\n  year = {2026}\n}"
+        }
+    },
+    {
+        "type": "journal",
+        "indexing_group": "KCI",
+        "code_label": "J",
+        "published_date": "2026-03-31",
+        "year": 2026,
+        "title": "Measure Matters: Moving-Window Analysis of Financial Network Topology",
+        "title_ko": "이동창 기반 금융 네트워크 분석에서 상호의존성 측도 선택의 영향",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "Journal of the Korea Management Engineers Society",
+        "venue_ko": "한국경영공학회지",
+        "volume": "31",
+        "issue": "1",
+        "pages": "49-68",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "최인수. (2026). 이동창 기반 금융 네트워크 분석에서 상호의존성 측도 선택의 영향. 한국경영공학회지, 31(1), 49-68.",
+            "mla": "최인수. \"이동창 기반 금융 네트워크 분석에서 상호의존성 측도 선택의 영향.\" 한국경영공학회지 31.1 (2026): 49-68.",
+            "chicago": "최인수. \"이동창 기반 금융 네트워크 분석에서 상호의존성 측도 선택의 영향.\" 한국경영공학회지 31, no. 1 (2026): 49-68.",
+            "harvard": "최인수. (2026) '이동창 기반 금융 네트워크 분석에서 상호의존성 측도 선택의 영향', 한국경영공학회지, 31(1), pp. 49-68.",
+            "vancouver": "최인수. 이동창 기반 금융 네트워크 분석에서 상호의존성 측도 선택의 영향. 한국경영공학회지. 2026;31(1):49-68.",
+            "korean": "최인수. (2026). 이동창 기반 금융 네트워크 분석에서 상호의존성 측도 선택의 영향. 한국경영공학회지, 31(1), 49-68.",
+            "bibtex": "@article{choi2026measure,\n  title = {{Measure Matters: Moving-Window Analysis of Financial Network Topology}},\n  author = {Choi, Insu},\n  journal = {Journal of the Korea Management Engineers Society},\n  volume = {31},\n  number = {1},\n  pages = {49--68},\n  year = {2026}\n}"
         }
     },
     {
         "type": "journal",
         "indexing_group": "SSCI",
         "code_label": "J",
-        "published_date": "2026-07-01",
+        "published_date": "2026-03-15",
         "year": 2026,
         "title": "Beyond Linear Insights in the Feldstein–Horioka Puzzle: Delving Into Monotonic and Nonlinear Statistical Dependencies With Moving Windows",
         "title_ko": "",
