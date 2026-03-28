@@ -10,8 +10,7 @@
         "language": "ko",
         "roles": {
             "principalInvestigator": "",
-            "leadResearcher": "",
-            "researchers": [
+            "leadResearcher": [
                 {
                     "name": "곽찬희",
                     "lab": false
@@ -32,7 +31,8 @@
                     "name": "최인수",
                     "lab": true
                 }
-            ]
+            ],
+            "researchers": []
         }
     },
     {
