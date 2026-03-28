@@ -10,8 +10,29 @@
         "language": "ko",
         "roles": {
             "principalInvestigator": "",
-            "leadResearcher": "곽찬희, 여영준, 이현탁, 조성우, 최인수",
-            "researchers": []
+            "leadResearcher": "",
+            "researchers": [
+                {
+                    "name": "곽찬희",
+                    "lab": false
+                },
+                {
+                    "name": "여영준",
+                    "lab": false
+                },
+                {
+                    "name": "이현탁",
+                    "lab": false
+                },
+                {
+                    "name": "조성우",
+                    "lab": false
+                },
+                {
+                    "name": "최인수",
+                    "lab": true
+                }
+            ]
         }
     },
     {
@@ -55,9 +76,17 @@
         "language": "ko",
         "roles": {
             "principalInvestigator": "최인수",
-            "leadResearcher": "최인수",
+            "leadResearcher": [
+                {
+                    "name": "최인수",
+                    "lab": true
+                }
+            ],
             "researchers": [
-                "최인수"
+                {
+                    "name": "최인수",
+                    "lab": true
+                }
             ]
         }
     },
@@ -72,9 +101,17 @@
         "language": "ko",
         "roles": {
             "principalInvestigator": "최인수",
-            "leadResearcher": "최인수",
+            "leadResearcher": [
+                {
+                    "name": "최인수",
+                    "lab": true
+                }
+            ],
             "researchers": [
-                "최인수"
+                {
+                    "name": "최인수",
+                    "lab": true
+                }
             ]
         }
     },
@@ -89,9 +126,17 @@
         "language": "ko",
         "roles": {
             "principalInvestigator": "김우창",
-            "leadResearcher": "최인수",
+            "leadResearcher": [
+                {
+                    "name": "최인수",
+                    "lab": true
+                }
+            ],
             "researchers": [
-                "최인수"
+                {
+                    "name": "최인수",
+                    "lab": true
+                }
             ]
         }
     },
@@ -106,9 +151,17 @@
         "language": "ko",
         "roles": {
             "principalInvestigator": "김우창",
-            "leadResearcher": "최인수",
+            "leadResearcher": [
+                {
+                    "name": "최인수",
+                    "lab": true
+                }
+            ],
             "researchers": [
-                "최인수"
+                {
+                    "name": "최인수",
+                    "lab": true
+                }
             ]
         }
     },
@@ -123,9 +176,17 @@
         "language": "ko",
         "roles": {
             "principalInvestigator": "박성필",
-            "leadResearcher": "최인수",
+            "leadResearcher": [
+                {
+                    "name": "최인수",
+                    "lab": true
+                }
+            ],
             "researchers": [
-                "최인수"
+                {
+                    "name": "최인수",
+                    "lab": true
+                }
             ]
         }
     },
@@ -140,9 +201,17 @@
         "language": "en",
         "roles": {
             "principalInvestigator": "최인수",
-            "leadResearcher": "최인수",
+            "leadResearcher": [
+                {
+                    "name": "최인수",
+                    "lab": true
+                }
+            ],
             "researchers": [
-                "최인수"
+                {
+                    "name": "최인수",
+                    "lab": true
+                }
             ]
         }
     },
@@ -157,9 +226,17 @@
         "language": "ko",
         "roles": {
             "principalInvestigator": "김우창",
-            "leadResearcher": "최인수",
+            "leadResearcher": [
+                {
+                    "name": "최인수",
+                    "lab": true
+                }
+            ],
             "researchers": [
-                "최인수"
+                {
+                    "name": "최인수",
+                    "lab": true
+                }
             ]
         }
     },
@@ -174,9 +251,17 @@
         "language": "ko",
         "roles": {
             "principalInvestigator": "김우창",
-            "leadResearcher": "최인수",
+            "leadResearcher": [
+                {
+                    "name": "최인수",
+                    "lab": true
+                }
+            ],
             "researchers": [
-                "최인수"
+                {
+                    "name": "최인수",
+                    "lab": true
+                }
             ]
         }
     },
@@ -191,9 +276,17 @@
         "language": "en",
         "roles": {
             "principalInvestigator": "최인수",
-            "leadResearcher": "최인수",
+            "leadResearcher": [
+                {
+                    "name": "최인수",
+                    "lab": true
+                }
+            ],
             "researchers": [
-                "최인수"
+                {
+                    "name": "최인수",
+                    "lab": true
+                }
             ]
         }
     },
@@ -224,7 +317,10 @@
         "roles": {
             "principalInvestigator": "박성필",
             "researchers": [
-                "최인수"
+                {
+                    "name": "최인수",
+                    "lab": true
+                }
             ]
         }
     },
@@ -240,7 +336,10 @@
         "roles": {
             "principalInvestigator": "김우창",
             "researchers": [
-                "최인수"
+                {
+                    "name": "최인수",
+                    "lab": true
+                }
             ]
         }
     },
