@@ -39,9 +39,9 @@ type Project = {
   language?: 'ko' | 'en'
   roles: {
     principalInvestigator?: string
-    leadResearcher?: string
+    leadResearcher?: string | {name: string, lab: boolean}[]
     visitingResearcher?: string
-    researchers?: string[]
+    researchers?: (string | {name: string, lab: boolean})[]
   }
 }
 
@@ -707,10 +707,23 @@ export const ProjectsTemplate = () => {
                               academic: 'text-white',
                             }
                             
-                            // Filter out empty researchers
-                            const filteredResearchers = project.roles.researchers?.filter(
-                              r => r && r !== project.roles.principalInvestigator && r !== project.roles.leadResearcher && r !== project.roles.visitingResearcher
-                            ) || []
+                            // Filter researchers - handle both string[] and {name, lab}[] formats, show only lab members
+                            const filteredResearchers = (project.roles.researchers || [])
+                              .filter((r: any) => {
+                                const name = typeof r === 'string' ? r : r?.name
+                                const isLab = typeof r === 'string' ? true : r?.lab !== false
+                                return name && isLab && name !== project.roles.principalInvestigator
+                              })
+                              .map((r: any) => typeof r === 'string' ? r : r.name) as string[]
+                            
+                            // Handle leadResearcher - can be string or array of {name, lab}
+                            const leadResearcherNames: string[] = (() => {
+                              const lr = project.roles.leadResearcher
+                              if (!lr) return []
+                              if (typeof lr === 'string') return lr.split(', ')
+                              if (Array.isArray(lr)) return lr.filter((r: any) => r.lab !== false).map((r: any) => r.name)
+                              return []
+                            })()
                             
                             return (
                               <div key={idx} className="relative bg-white border-t border-gray-100 hover:bg-gray-50/50 transition-all overflow-hidden">
@@ -809,7 +822,7 @@ export const ProjectsTemplate = () => {
                                     </p>
                                     
                                     {/* Roles - only show non-empty roles */}
-                                    {(project.roles.principalInvestigator || project.roles.leadResearcher || project.roles.visitingResearcher || filteredResearchers.length > 0) && (
+                                    {(project.roles.principalInvestigator || leadResearcherNames.length > 0 || project.roles.visitingResearcher || filteredResearchers.length > 0) && (
                                       <div className="mt-12 pt-12 border-t border-gray-100">
                                         <div className="flex flex-col gap-6">
                                           {/* Principal Investigator - only show if exists */}
@@ -824,13 +837,13 @@ export const ProjectsTemplate = () => {
                                             </div>
                                           )}
                                           
-                                          {/* Lead Researcher - only show if exists and different from PI */}
-                                          {project.roles.leadResearcher && project.roles.leadResearcher !== project.roles.principalInvestigator && (
+                                          {/* Lead Researcher - only show lab members */}
+                                          {leadResearcherNames.length > 0 && (
                                             <div className="flex items-center gap-6 flex-wrap">
                                               <span className="shrink-0 px-8 py-3 bg-gray-600 text-white text-[9px] md:text-[10px] font-bold rounded-md">
                                                 Lead Researcher
                                               </span>
-                                              {project.roles.leadResearcher.split(', ').map((name, ni) => (
+                                              {leadResearcherNames.map((name, ni) => (
                                                 <span key={ni} className="shrink-0 px-8 py-3 bg-gray-100 text-gray-700 text-[9px] md:text-[10px] font-bold rounded-md">
                                                   {name}
                                                 </span>

@@ -85,9 +85,9 @@ type Project = {
   type: 'government' | 'industry' | 'institution' | 'academic'
   roles: {
     principalInvestigator?: string
-    leadResearcher?: string
+    leadResearcher?: string | {name: string, lab: boolean}[]
     visitingResearcher?: string
-    researchers?: string[]
+    researchers?: (string | {name: string, lab: boolean})[]
   }
 }
 
@@ -437,7 +437,13 @@ export const MembersDirectorTemplate = () => {
     const piProjects = projects.filter(p => p.roles.principalInvestigator === '최인수')
     const piIds = new Set(piProjects.map((_, i) => i))
     const remaining1 = projects.filter((_, i) => !piIds.has(i))
-    const leadProjects = remaining1.filter(p => p.roles.leadResearcher?.includes('최인수'))
+    const leadProjects = remaining1.filter(p => {
+      const lr = p.roles.leadResearcher
+      if (!lr) return false
+      if (typeof lr === 'string') return lr.includes('최인수')
+      if (Array.isArray(lr)) return lr.some((r: any) => r.name === '최인수')
+      return false
+    })
     const leadSet = new Set(leadProjects.map(p => p.titleEn))
     const remaining2 = remaining1.filter(p => !leadSet.has(p.titleEn))
     const visitingProjects = remaining2.filter(p => p.roles.visitingResearcher === '최인수')
