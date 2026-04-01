@@ -1639,8 +1639,13 @@ export const MembersDirectorAcademicTemplate = () => {
                           <div className="flex flex-col gap-6">
                             {committees.map((comm) => (
                               <a key={comm.id} href={comm.url || '#'} target="_blank" rel="noopener noreferrer"
-                                className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-[#D6B14D]/30 gap-4 md:gap-12">
+                                className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-[#E8889C]/30 gap-4 md:gap-12">
                                 <div className="flex-1 min-w-0">
+                                  <div className="flex items-center gap-6 mb-4">
+                                    <span className="px-8 py-2 text-[9px] md:text-[10px] font-bold rounded-full" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>
+                                      {comm.type}
+                                    </span>
+                                  </div>
                                   <p className="text-xs md:text-sm font-semibold text-gray-700">{comm.name}</p>
                                   {comm.name_ko && (
                                     <p className="text-[10px] md:text-xs text-gray-500 mt-2">{comm.name_ko}</p>
