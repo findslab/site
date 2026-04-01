@@ -1308,7 +1308,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
 
   const journals = useMemo(() => {
     if (!activitiesData) return []
-    return activitiesData.activities.filter(a => a.category === 'journal').sort((a, b) => a.name.localeCompare(b.name))
+    return activitiesData.activities.filter(a => a.category === 'journal').sort((a, b) => (b.since || '').localeCompare(a.since || ''))
   }, [activitiesData])
 
   const editorialBoards = useMemo(() => {
@@ -1324,16 +1324,19 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
   const committees = useMemo(() => {
     if (!activitiesData) return []
     return activitiesData.activities.filter(a => a.category === 'committee')
+      .sort((a, b) => (b.period || b.since || '').localeCompare(a.period || a.since || ''))
   }, [activitiesData])
 
   const sessionChairs = useMemo(() => {
     if (!activitiesData) return []
     return activitiesData.activities.filter(a => a.category === 'chair')
+      .sort((a, b) => (b.period || b.since || '').localeCompare(a.period || a.since || ''))
   }, [activitiesData])
 
   const conferenceReviewers = useMemo(() => {
     if (!activitiesData) return []
     return activitiesData.activities.filter(a => a.category === 'conference')
+      .sort((a, b) => (b.period || b.since || '').localeCompare(a.period || a.since || ''))
   }, [activitiesData])
 
   return (
@@ -1766,18 +1769,19 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                               <a key={comm.id} href={comm.url || '#'} target="_blank" rel="noopener noreferrer"
                                 className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-[#E8889C]/30 gap-4 md:gap-12">
                                 <div className="flex-1 min-w-0">
-                                  <div className="flex items-center gap-6 mb-4">
-                                    <span className="px-8 py-2 text-[9px] md:text-[10px] font-bold rounded-full" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>
-                                      {comm.type}
-                                    </span>
-                                  </div>
                                   <p className="text-xs md:text-sm font-semibold text-gray-700">{comm.name}</p>
                                   {comm.name_ko && (
                                     <p className="text-[10px] md:text-xs text-gray-500 mt-2">{comm.name_ko}</p>
                                   )}
-                                  <span className="md:hidden block text-[10px] text-gray-400 font-medium mt-2">{comm.period || comm.since}</span>
+                                  <div className="flex items-center gap-6 mt-4 md:hidden">
+                                    <span className="px-6 py-1 text-[9px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{comm.type}</span>
+                                    <span className="text-[10px] text-gray-400 font-medium">{comm.period || comm.since}</span>
+                                  </div>
                                 </div>
-                                <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap">{comm.period || comm.since}</span>
+                                <div className="hidden md:flex items-center gap-6 shrink-0">
+                                  <span className="px-6 py-2 text-[9px] md:text-[10px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{comm.type}</span>
+                                  <span className="inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm whitespace-nowrap">{comm.period || comm.since}</span>
+                                </div>
                               </a>
                             ))}
                           </div>
@@ -1842,16 +1846,26 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                         <div className="flex flex-col gap-6">
                           {journals.map((journal) => (
                             <a key={journal.id} href={journal.url} target="_blank" rel="noopener noreferrer"
-                              className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-[#D6B14D]/30 gap-4 md:gap-8">
+                              className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-[#D6B14D]/30 gap-4 md:gap-12">
                               <div className="flex-1 min-w-0">
                                 <p className="text-xs md:text-sm font-semibold text-gray-700">{journal.name}</p>
+                                <div className="flex items-center gap-6 mt-4 md:hidden">
+                                  <span className={`px-6 py-1 rounded text-[9px] font-bold ${
+                                    journal.type === 'SCIE' || journal.type === 'SSCI' || journal.type === 'A&HCI' ? 'bg-[#D6B14D] text-white' :
+                                    journal.type === 'ESCI' || journal.type === 'SCOPUS' || journal.type === 'Scopus' ? 'bg-[#D6C360] text-white' :
+                                    'bg-[#94a3b8] text-white'
+                                  }`}>{journal.type}</span>
+                                  <span className="text-[10px] text-gray-400 font-medium">{journal.since}</span>
+                                </div>
                               </div>
-                              <span className={`px-6 py-2 rounded text-[10px] md:text-xs font-bold self-start md:self-auto ${
-                                journal.type === 'SCIE' || journal.type === 'SSCI' || journal.type === 'A&HCI' ? 'bg-[#D6B14D] text-white' :
-                                journal.type === 'ESCI' || journal.type === 'SCOPUS' || journal.type === 'Scopus' ? 'bg-[#D6C360] text-white' :
-                                journal.type === 'KCI' ? 'bg-[#64748b] text-white' :
-                                'bg-[#94a3b8] text-white'
-                              }`}>{journal.type}</span>
+                              <div className="hidden md:flex items-center gap-6 shrink-0">
+                                <span className={`px-6 py-2 rounded text-[10px] md:text-xs font-bold ${
+                                  journal.type === 'SCIE' || journal.type === 'SSCI' || journal.type === 'A&HCI' ? 'bg-[#D6B14D] text-white' :
+                                  journal.type === 'ESCI' || journal.type === 'SCOPUS' || journal.type === 'Scopus' ? 'bg-[#D6C360] text-white' :
+                                  'bg-[#94a3b8] text-white'
+                                }`}>{journal.type}</span>
+                                <span className="inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm whitespace-nowrap">{journal.since}</span>
+                              </div>
                             </a>
                           ))}
                         </div>
