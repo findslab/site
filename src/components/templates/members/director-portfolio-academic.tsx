@@ -1308,7 +1308,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
 
   const journals = useMemo(() => {
     if (!activitiesData) return []
-    return activitiesData.activities.filter(a => a.category === 'journal').sort((a, b) => (b.since || '').localeCompare(a.since || ''))
+    return activitiesData.activities.filter(a => a.category === 'journal').sort((a, b) => a.name.localeCompare(b.name))
   }, [activitiesData])
 
   const editorialBoards = useMemo(() => {
@@ -1700,18 +1700,20 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                     {expandedSections.editorialBoard && (
                       <div className="px-16 md:px-20 pb-16 md:pb-20 space-y-8">
                         {editorialBoards.map((item) => (
-                          <div key={item.id} className="flex flex-col md:flex-row md:items-center md:justify-between p-12 bg-white rounded-lg border border-gray-100 hover:border-[#D6B14D]/30 transition-colors gap-4 md:gap-8">
+                          <div key={item.id} className="flex flex-col md:flex-row md:items-center md:justify-between p-12 bg-white rounded-lg border border-gray-100 hover:border-[#E8889C]/30 hover:shadow-md transition-all gap-4 md:gap-12">
                             <div className="flex-1 min-w-0">
                               <p className="text-xs md:text-sm font-semibold text-gray-700">{item.name}</p>
                               {item.specialIssue && <p className="text-[10px] md:text-xs text-gray-400 mt-1">Special Issue: {item.specialIssue}</p>}
-                            </div>
-                            <div className="flex flex-col md:flex-row md:items-center gap-4 shrink-0">
-                              <div className="flex items-center gap-4">
-                                <span className="px-6 py-2 bg-[#D6B14D] text-white text-[10px] md:text-xs font-bold rounded">{item.type}</span>
-                                <span className="px-6 py-2 bg-[#FFBAC4] text-white text-[10px] md:text-xs font-bold rounded">{item.role}</span>
+                              <div className="flex items-center gap-6 mt-4 md:hidden">
+                                <span className="px-6 py-1 text-[9px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{item.type}</span>
+                                <span className="px-6 py-1 text-[9px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{item.role}</span>
+                                <span className="text-[10px] text-gray-400 font-medium">{item.since} – Present</span>
                               </div>
-                              <span className="md:hidden text-[10px] text-gray-400 font-medium">{item.since} – Present</span>
-                              <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap">{item.since} – Present</span>
+                            </div>
+                            <div className="hidden md:flex items-center gap-6 shrink-0">
+                              <span className="px-6 py-2 text-[9px] md:text-[10px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{item.type}</span>
+                              <span className="px-6 py-2 text-[9px] md:text-[10px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{item.role}</span>
+                              <span className="inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm whitespace-nowrap">{item.since} – Present</span>
                             </div>
                           </div>
                         ))}
@@ -1734,14 +1736,17 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                     {expandedSections.academicMemberships && (
                       <div className="px-16 md:px-20 pb-16 md:pb-20 space-y-8">
                         {memberships.map((item) => (
-                          <div key={item.id} className="flex flex-col md:flex-row md:items-center md:justify-between p-12 bg-white rounded-lg border border-gray-100 hover:border-[#D6B14D]/30 transition-colors gap-4 md:gap-8">
+                          <div key={item.id} className="flex flex-col md:flex-row md:items-center md:justify-between p-12 bg-white rounded-lg border border-gray-100 hover:border-[#E8889C]/30 hover:shadow-md transition-all gap-4 md:gap-12">
                             <div className="flex-1 min-w-0">
                               <p className="text-xs md:text-sm font-semibold text-gray-700">{item.name}</p>
+                              <div className="flex items-center gap-6 mt-4 md:hidden">
+                                <span className="px-6 py-1 text-[9px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{item.type}</span>
+                                <span className="text-[10px] text-gray-400 font-medium">{item.since} – Present</span>
+                              </div>
                             </div>
-                            <div className="flex flex-col md:flex-row md:items-center gap-4 shrink-0">
-                              <span className="px-6 py-2 bg-[#FFBAC4] text-white text-[10px] md:text-xs font-bold rounded self-start md:self-auto">{item.type}</span>
-                              <span className="md:hidden text-[10px] text-gray-400 font-medium">{item.since} – Present</span>
-                              <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap">{item.since} – Present</span>
+                            <div className="hidden md:flex items-center gap-6 shrink-0">
+                              <span className="px-6 py-2 text-[9px] md:text-[10px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{item.type}</span>
+                              <span className="inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm whitespace-nowrap">{item.since} – Present</span>
                             </div>
                           </div>
                         ))}
@@ -1846,26 +1851,13 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                         <div className="flex flex-col gap-6">
                           {journals.map((journal) => (
                             <a key={journal.id} href={journal.url} target="_blank" rel="noopener noreferrer"
-                              className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-[#D6B14D]/30 gap-4 md:gap-12">
-                              <div className="flex-1 min-w-0">
-                                <p className="text-xs md:text-sm font-semibold text-gray-700">{journal.name}</p>
-                                <div className="flex items-center gap-6 mt-4 md:hidden">
-                                  <span className={`px-6 py-1 rounded text-[9px] font-bold ${
-                                    journal.type === 'SCIE' || journal.type === 'SSCI' || journal.type === 'A&HCI' ? 'bg-[#D6B14D] text-white' :
-                                    journal.type === 'ESCI' || journal.type === 'SCOPUS' || journal.type === 'Scopus' ? 'bg-[#D6C360] text-white' :
-                                    'bg-[#94a3b8] text-white'
-                                  }`}>{journal.type}</span>
-                                  <span className="text-[10px] text-gray-400 font-medium">{journal.since}</span>
-                                </div>
-                              </div>
-                              <div className="hidden md:flex items-center gap-6 shrink-0">
-                                <span className={`px-6 py-2 rounded text-[10px] md:text-xs font-bold ${
-                                  journal.type === 'SCIE' || journal.type === 'SSCI' || journal.type === 'A&HCI' ? 'bg-[#D6B14D] text-white' :
-                                  journal.type === 'ESCI' || journal.type === 'SCOPUS' || journal.type === 'Scopus' ? 'bg-[#D6C360] text-white' :
-                                  'bg-[#94a3b8] text-white'
-                                }`}>{journal.type}</span>
-                                <span className="inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm whitespace-nowrap">{journal.since}</span>
-                              </div>
+                              className="flex flex-row items-center justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-[#D6B14D]/30 gap-8">
+                              <p className="flex-1 min-w-0 text-xs md:text-sm font-semibold text-gray-700">{journal.name}</p>
+                              <span className={`shrink-0 px-6 py-2 rounded text-[9px] md:text-[10px] font-bold ${
+                                journal.type === 'SCIE' || journal.type === 'SSCI' || journal.type === 'A&HCI' ? 'bg-[#D6B14D] text-white' :
+                                journal.type === 'ESCI' || journal.type === 'SCOPUS' || journal.type === 'Scopus' ? 'bg-[#D6C360] text-white' :
+                                'bg-[#94a3b8] text-white'
+                              }`}>{journal.type}</span>
                             </a>
                           ))}
                         </div>

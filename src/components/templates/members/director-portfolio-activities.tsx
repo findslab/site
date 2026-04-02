@@ -1388,7 +1388,7 @@ export const MembersDirectorPortfolioActivitiesTemplate = () => {
 
   const journals = useMemo(() => {
     if (!activitiesData) return []
-    return activitiesData.activities.filter(a => a.category === 'journal').sort((a, b) => (b.since || '').localeCompare(a.since || ''))
+    return activitiesData.activities.filter(a => a.category === 'journal').sort((a, b) => a.name.localeCompare(b.name))
   }, [activitiesData])
 
   const sessionChairs = useMemo(() => {
