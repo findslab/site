@@ -60,7 +60,7 @@
             "name": "5th International Conference on Artificial Intelligence, Information Processing and Cloud Computing (AIIPCC)",
             "publisher": "",
             "type": "Conference",
-            "period": "2025-12-18 – 2025-12-20",
+            "period": "2025-12",
             "url": "https://www.aiipcc.org/"
         },
         {
@@ -70,7 +70,7 @@
             "name_ko": "2025 한국정보기술학회 추계종합학술대회 2-OA 세션",
             "publisher": "Korean Institute of Information Technology",
             "type": "Session Chair",
-            "period": "2025-11-27 – 2025-11-29",
+            "period": "2025-11",
             "url": "https://ki-it.or.kr/board/maininfo/article/269934"
         },
         {
@@ -88,7 +88,7 @@
             "name": "3rd International Conference on Artificial Intelligence and Human-Computer Interaction (ArtInHCI)",
             "publisher": "IOS Press",
             "type": "Conference",
-            "period": "2025-10-21 – 2025-10-23",
+            "period": "2025-10",
             "url": "https://www.artinhci.com/2025/"
         },
         {
@@ -430,7 +430,7 @@
             "name": "30th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)",
             "publisher": "Association for Computing Machinery",
             "type": "Conference",
-            "period": "2024-08-25 – 2024-08-29",
+            "period": "2024-08",
             "url": "https://kdd.org/"
         },
         {
@@ -610,7 +610,7 @@
             "name_ko": "2018 전국 대학생 산업공학도 학술교류캠프 FIELD CAMP 컴페티션",
             "publisher": "Korean Institute of Industrial Engineers (KIIE)",
             "type": "Judge",
-            "period": "2018",
+            "period": "2018-08",
             "url": "",
             "id": 67
         },
@@ -620,7 +620,7 @@
             "name_ko": "2019 전국 대학생 산업공학도 학술교류캠프 FIELD CAMP 컴페티션",
             "publisher": "Korean Institute of Industrial Engineers (KIIE)",
             "type": "Judge",
-            "period": "2019",
+            "period": "2019-08",
             "url": "",
             "id": 68
         },
@@ -630,7 +630,7 @@
             "name_ko": "2022 전국 대학생 산업공학도 학술교류캠프 FIELD CAMP 컴페티션",
             "publisher": "Korean Institute of Industrial Engineers (KIIE)",
             "type": "Judge",
-            "period": "2022",
+            "period": "2022-08",
             "url": "",
             "id": 69
         },
@@ -640,7 +640,7 @@
             "name_ko": "2023 전국 대학생 산업공학도 학술교류캠프 FIELD CAMP 컴페티션",
             "publisher": "Korean Institute of Industrial Engineers (KIIE)",
             "type": "Judge",
-            "period": "2023",
+            "period": "2023-08",
             "url": "",
             "id": 70
         },
@@ -650,7 +650,7 @@
             "name_ko": "2024 전국 대학생 산업공학도 학술교류캠프 FIELD CAMP 컴페티션",
             "publisher": "Korean Institute of Industrial Engineers (KIIE)",
             "type": "Judge",
-            "period": "2024",
+            "period": "2024-08",
             "url": "",
             "id": 71
         },
@@ -660,7 +660,7 @@
             "name_ko": "2025 전국 대학생 산업공학도 학술교류캠프 FIELD CAMP 컴페티션",
             "publisher": "Korean Institute of Industrial Engineers (KIIE)",
             "type": "Judge",
-            "period": "2025",
+            "period": "2025-08",
             "url": "",
             "id": 72
         },
@@ -670,7 +670,7 @@
             "name_ko": "제3회 경희대학교 데이터분석/AI 학회 KHUDA DATATHON <KHU'DATA K-LIFESTYLE>",
             "publisher": "Kyung Hee University KHUDA",
             "type": "Judge",
-            "period": "2024",
+            "period": "2025-11",
             "url": "",
             "id": 73
         },
@@ -680,7 +680,7 @@
             "name_ko": "2025 동덕여자대학교 경영학과 학술제 <TREND: UP>",
             "publisher": "Dongduk Women's University",
             "type": "Judge",
-            "period": "2025",
+            "period": "2025-11",
             "url": "",
             "id": 74
         },
@@ -690,7 +690,7 @@
             "name_ko": "2026 가천대학교 대학성과관리센터 신입생 대상 가천핵심역량 진단 후기 보고서",
             "publisher": "Gachon University",
             "type": "Review Panel",
-            "period": "2026",
+            "period": "2026-04",
             "url": "",
             "id": 75
         }
