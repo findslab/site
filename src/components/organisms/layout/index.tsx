@@ -1,4 +1,4 @@
-import React, { memo, ReactNode, useState, useEffect } from 'react'
+import React, { memo, ReactNode, useState, useEffect, useRef, useCallback } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { ChevronDown, Menu, X, Mail, Copy, Check } from 'lucide-react'
 import clsx from 'clsx'
@@ -144,6 +144,21 @@ const LayoutOrganisms = ({ children }: props) => {
   const { showAlt: showAltText } = useLogoTextAnimation()
   const isHomePage = location.pathname === '/'
 
+  // Long press on logo (3s) to toggle dev mode on mobile
+  const longPressTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const handleLogoTouchStart = useCallback((e: React.TouchEvent) => {
+    longPressTimer.current = setTimeout(() => {
+      window.dispatchEvent(new CustomEvent('toggleDevMode'))
+      longPressTimer.current = null
+    }, 3000)
+  }, [])
+  const handleLogoTouchEnd = useCallback(() => {
+    if (longPressTimer.current) {
+      clearTimeout(longPressTimer.current)
+      longPressTimer.current = null
+    }
+  }, [])
+
   // 모바일 메뉴 열릴 때 body 스크롤 방지 (iOS 포함)
   useEffect(() => {
     if (mobileMenuOpen) {
@@ -216,7 +231,11 @@ const LayoutOrganisms = ({ children }: props) => {
         <div className="max-w-1480 mx-auto flex items-center justify-between px-16 md:px-20 py-10">
           {/* Logo with animated text - PC only animation, mobile static */}
           <Link to="/" className="flex items-center gap-12 md:gap-16" aria-label="FINDS Lab 홈으로 이동">
-            <img src={logoFinds} alt="FINDS Lab" className="h-40 md:max-h-59" decoding="async" />
+            <img src={logoFinds} alt="FINDS Lab" className="h-40 md:max-h-59" decoding="async"
+              onTouchStart={handleLogoTouchStart}
+              onTouchEnd={handleLogoTouchEnd}
+              onTouchCancel={handleLogoTouchEnd}
+            />
             
             {/* Mobile: Static FINDS Lab */}
             <span className="md:hidden text-lg font-bold">
