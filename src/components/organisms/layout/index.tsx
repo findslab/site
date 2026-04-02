@@ -146,16 +146,34 @@ const LayoutOrganisms = ({ children }: props) => {
 
   // Long press on logo (3s) to toggle dev mode on mobile
   const longPressTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+  const longPressTriggered = useRef(false)
   const handleLogoTouchStart = useCallback((e: React.TouchEvent) => {
+    longPressTriggered.current = false
     longPressTimer.current = setTimeout(() => {
+      longPressTriggered.current = true
       window.dispatchEvent(new CustomEvent('toggleDevMode'))
       longPressTimer.current = null
-    }, 3000)
+      // Vibrate feedback if available
+      if (navigator.vibrate) navigator.vibrate(50)
+    }, 2500)
   }, [])
   const handleLogoTouchEnd = useCallback(() => {
     if (longPressTimer.current) {
       clearTimeout(longPressTimer.current)
       longPressTimer.current = null
+    }
+  }, [])
+  const handleLogoTouchMove = useCallback(() => {
+    if (longPressTimer.current) {
+      clearTimeout(longPressTimer.current)
+      longPressTimer.current = null
+    }
+  }, [])
+  const handleLogoClick = useCallback((e: React.MouseEvent) => {
+    if (longPressTriggered.current) {
+      e.preventDefault()
+      e.stopPropagation()
+      longPressTriggered.current = false
     }
   }, [])
 
@@ -230,11 +248,14 @@ const LayoutOrganisms = ({ children }: props) => {
       <header className={`w-full bg-white/95 backdrop-blur-sm border-b border-gray-100 z-[9999] ${isHomePage ? 'sticky top-0' : ''}`} role="banner" style={{ paddingTop: 'env(safe-area-inset-top)' }}>
         <div className="max-w-1480 mx-auto flex items-center justify-between px-16 md:px-20 py-10">
           {/* Logo with animated text - PC only animation, mobile static */}
-          <Link to="/" className="flex items-center gap-12 md:gap-16" aria-label="FINDS Lab 홈으로 이동">
-            <img src={logoFinds} alt="FINDS Lab" className="h-40 md:max-h-59" decoding="async"
+          <Link to="/" className="flex items-center gap-12 md:gap-16" aria-label="FINDS Lab 홈으로 이동" onClick={handleLogoClick}>
+            <img src={logoFinds} alt="FINDS Lab" className="h-40 md:max-h-59 select-none" decoding="async"
               onTouchStart={handleLogoTouchStart}
               onTouchEnd={handleLogoTouchEnd}
               onTouchCancel={handleLogoTouchEnd}
+              onTouchMove={handleLogoTouchMove}
+              onContextMenu={(e) => e.preventDefault()}
+              draggable={false}
             />
             
             {/* Mobile: Static FINDS Lab */}
