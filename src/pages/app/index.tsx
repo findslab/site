@@ -229,16 +229,6 @@ const GlobalMusicPlayer = memo(() => {
     return () => { window.removeEventListener('keydown', onDown); window.removeEventListener('keyup', onUp) }
   }, [])
 
-  // Mobile: long press logo toggle
-  useEffect(() => {
-    const handler = () => {
-      setDevMode(prev => !prev)
-      setIsHidden(false)
-    }
-    window.addEventListener('toggleDevMode', handler)
-    return () => window.removeEventListener('toggleDevMode', handler)
-  }, [])
-
   const handleHidePlayer = () => {
     if (playerRef.current) playerRef.current.pauseVideo()
     setIsPlaying(false)

@@ -1,4 +1,4 @@
-import React, { memo, ReactNode, useState, useEffect, useRef, useCallback } from 'react'
+import React, { memo, ReactNode, useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { ChevronDown, Menu, X, Mail, Copy, Check } from 'lucide-react'
 import clsx from 'clsx'
@@ -144,39 +144,6 @@ const LayoutOrganisms = ({ children }: props) => {
   const { showAlt: showAltText } = useLogoTextAnimation()
   const isHomePage = location.pathname === '/'
 
-  // Long press on logo (3s) to toggle dev mode on mobile
-  const longPressTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
-  const longPressTriggered = useRef(false)
-  const handleLogoTouchStart = useCallback((e: React.TouchEvent) => {
-    longPressTriggered.current = false
-    longPressTimer.current = setTimeout(() => {
-      longPressTriggered.current = true
-      window.dispatchEvent(new CustomEvent('toggleDevMode'))
-      longPressTimer.current = null
-      // Vibrate feedback if available
-      if (navigator.vibrate) navigator.vibrate(50)
-    }, 2500)
-  }, [])
-  const handleLogoTouchEnd = useCallback(() => {
-    if (longPressTimer.current) {
-      clearTimeout(longPressTimer.current)
-      longPressTimer.current = null
-    }
-  }, [])
-  const handleLogoTouchMove = useCallback(() => {
-    if (longPressTimer.current) {
-      clearTimeout(longPressTimer.current)
-      longPressTimer.current = null
-    }
-  }, [])
-  const handleLogoClick = useCallback((e: React.MouseEvent) => {
-    if (longPressTriggered.current) {
-      e.preventDefault()
-      e.stopPropagation()
-      longPressTriggered.current = false
-    }
-  }, [])
-
   // 모바일 메뉴 열릴 때 body 스크롤 방지 (iOS 포함)
   useEffect(() => {
     if (mobileMenuOpen) {
@@ -248,15 +215,8 @@ const LayoutOrganisms = ({ children }: props) => {
       <header className={`w-full bg-white/95 backdrop-blur-sm border-b border-gray-100 z-[9999] ${isHomePage ? 'sticky top-0' : ''}`} role="banner" style={{ paddingTop: 'env(safe-area-inset-top)' }}>
         <div className="max-w-1480 mx-auto flex items-center justify-between px-16 md:px-20 py-10">
           {/* Logo with animated text - PC only animation, mobile static */}
-          <Link to="/" className="flex items-center gap-12 md:gap-16" aria-label="FINDS Lab 홈으로 이동" onClick={handleLogoClick}>
-            <img src={logoFinds} alt="FINDS Lab" className="h-40 md:max-h-59 select-none" decoding="async"
-              onTouchStart={handleLogoTouchStart}
-              onTouchEnd={handleLogoTouchEnd}
-              onTouchCancel={handleLogoTouchEnd}
-              onTouchMove={handleLogoTouchMove}
-              onContextMenu={(e) => e.preventDefault()}
-              draggable={false}
-            />
+          <Link to="/" className="flex items-center gap-12 md:gap-16" aria-label="FINDS Lab 홈으로 이동">
+            <img src={logoFinds} alt="FINDS Lab" className="h-40 md:max-h-59" decoding="async" />
             
             {/* Mobile: Static FINDS Lab */}
             <span className="md:hidden text-lg font-bold">

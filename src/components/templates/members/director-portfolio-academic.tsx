@@ -1314,10 +1314,9 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
   // Display period as YYYY-MM only (data keeps full dates)
   const toYearMonth = (dateStr: string) => {
     if (!dateStr) return ''
-    // Handle range like "2021-06-01 – 2021-08-31" → "2021-06 – 2021-08"
+    // Handle range like "2021-06-01 – 2021-08-31" → "2021-06"
     if (dateStr.includes(' – ')) {
-      const parts = dateStr.split(' – ')
-      return parts.map(p => p.slice(0, 7)).join(' – ')
+      return dateStr.split(' – ')[0].slice(0, 7)
     }
     // Handle single date "2025-11-27" → "2025-11" or already "2025-11" → "2025-11"
     return dateStr.slice(0, 7)
