@@ -1,6 +1,48 @@
 [
     {
         "type": "journal",
+        "indexing_group": "SSCI",
+        "code_label": "J",
+        "published_date": "2026-04-30",
+        "year": 2026,
+        "title": "Metric-Based Technical Indicators for Yield Forecasting",
+        "title_ko": "",
+        "authors": [
+            1,
+            20,
+            28,
+            29,
+            30,
+            2
+        ],
+        "author_marks": [
+            "1",
+            "2",
+            "2",
+            "2",
+            "2",
+            "*"
+        ],
+        "venue": "Pacific-Basin Finance Journal",
+        "venue_ko": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "English",
+        "awards": 0,
+        "citations": {
+            "apa": "Choi, I., Lim, S., Kim, S., Choi, Y., Han, S., & Kim, W. C. (2026). Metric-based technical indicators for yield forecasting. Pacific-Basin Finance Journal.",
+            "mla": "Choi, Insu, et al. \"Metric-Based Technical Indicators for Yield Forecasting.\" Pacific-Basin Finance Journal (2026).",
+            "chicago": "Choi, Insu, Soyoung Lim, Seoyeon Kim, Yeona Choi, Subin Han, and Woo Chang Kim. \"Metric-Based Technical Indicators for Yield Forecasting.\" Pacific-Basin Finance Journal (2026).",
+            "harvard": "Choi, I., Lim, S., Kim, S., Choi, Y., Han, S. and Kim, W.C. (2026) 'Metric-based technical indicators for yield forecasting', Pacific-Basin Finance Journal.",
+            "vancouver": "Choi I, Lim S, Kim S, Choi Y, Han S, Kim WC. Metric-based technical indicators for yield forecasting. Pacific-Basin Finance Journal. 2026.",
+            "korean": "Choi, I., Lim, S., Kim, S., Choi, Y., Han, S., & Kim, W. C. (2026). Metric-based technical indicators for yield forecasting. Pacific-Basin Finance Journal.",
+            "bibtex": "@article{choi2026metric,\n  title = {{Metric-Based Technical Indicators for Yield Forecasting}},\n  author = {Choi, Insu and Lim, Soyoung and Kim, Seoyeon and Choi, Yeona and Han, Subin and Kim, Woo Chang},\n  journal = {Pacific-Basin Finance Journal},\n  year = {2026}\n}"
+        }
+    },
+    {
+        "type": "journal",
         "indexing_group": "KCI",
         "code_label": "J",
         "published_date": "2026-05-31",
