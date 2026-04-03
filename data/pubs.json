@@ -175,7 +175,7 @@
         "type": "journal",
         "indexing_group": "SCIE",
         "code_label": "J",
-        "published_date": "2026-03-01",
+        "published_date": "2026-03-11",
         "year": 2026,
         "title": "Navigating the Flow: Unveiling Directional Information Transfer in Commodity Markets with Transfer Entropy and Moving Window Analysis",
         "authors": [
@@ -6848,7 +6848,7 @@
         "code_label": "C",
         "published_date": "2026-05-15",
         "year": 2026,
-        "title": "Assessing Statistical Credibility of Quantitative Investment Strategies",
+        "title": "Assessing Statistical Credibility of Quantitative Investment Strategies: A Literature Review on Multiple Comparison Adjustments, Probability-Based Performance Measurement, and Methodological Robustness",
         "title_ko": "투자전략의 통계적 신뢰성 평가에 관한 문헌 고찰",
         "authors": [
             1
@@ -7071,7 +7071,7 @@
         ],
         "author_marks": [
             "1",
-            "2",
+            "1",
             "*"
         ],
         "venue": "2026 Spring Conference of Korean Society of Industrial and Systems Engineering",
@@ -7109,8 +7109,8 @@
         ],
         "author_marks": [
             "1",
-            "2",
-            "3",
+            "1",
+            "1",
             "*"
         ],
         "venue": "2026 Spring Conference of Korean Society of Industrial and Systems Engineering",
@@ -7864,6 +7864,138 @@
             "vancouver": "Choi, I. Asymmetric Information Transfer in Volatility Magnitude Between the Global AI Infrastructure Market and KOSPI. 2026 Spring Conference of Korean Society of Career and Entrepreneurship Management. 2026.",
             "korean": "최인수. (2026). 글로벌 AI 인프라 시장과 KOSPI 간 변동성 수준의 비대칭적 정보 전이 분석. 2026 한국진로창업경영학회 춘계학술대회.",
             "bibtex": "@inproceedings{conf2026_182,\n  title = {{Asymmetric Information Transfer in Volatility Magnitude Between the Global AI Infrastructure Market and KOSPI}},\n  author = {Choi, Insu},\n  booktitle = {2026 Spring Conference of Korean Society of Career and Entrepreneurship Management},\n  year = {2026}\n}"
+        }
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-04-25",
+        "year": 2026,
+        "title": "Evaluating Tax-Loss Harvesting Strategies Across Global Tax Systems",
+        "title_ko": "글로벌 조세 제도에 따른 절세 매도 전략의 유효성",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Spring Conference of Korea Smart Media Society & Korea Digital Industry Society",
+        "venue_ko": "2026 한국스마트미디어학회&한국디지털산업학회 춘계학술대회",
+        "presentation": "oral",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "Choi, I. (2026). Evaluating Tax-Loss Harvesting Strategies Across Global Tax Systems: A Monte Carlo Simulation Centered on South Korea. 2026 Spring Conference of Korea Digital Industry Society.",
+            "mla": "Choi, Insu. \"Evaluating Tax-Loss Harvesting Strategies Across Global Tax Systems: A Monte Carlo Simulation Centered on South Korea.\" 2026 Spring Conference of Korea Digital Industry Society, 2026.",
+            "chicago": "Choi, Insu. \"Evaluating Tax-Loss Harvesting Strategies Across Global Tax Systems: A Monte Carlo Simulation Centered on South Korea.\" 2026 Spring Conference of Korea Digital Industry Society, 2026.",
+            "harvard": "Choi, I. (2026) 'Evaluating Tax-Loss Harvesting Strategies Across Global Tax Systems: A Monte Carlo Simulation Centered on South Korea', 2026 Spring Conference of Korea Digital Industry Society.",
+            "vancouver": "Choi I. Evaluating Tax-Loss Harvesting Strategies Across Global Tax Systems: A Monte Carlo Simulation Centered on South Korea. 2026 Spring Conference of Korea Digital Industry Society. 2026.",
+            "korean": "최인수. (2026). 글로벌 조세 제도에 따른 절세 매도(Tax-Loss Harvesting) 전략의 유효성: 한국 시장을 중심으로 한 몬테카를로 시뮬레이션 분석. 2026 한국디지털산업학회 춘계학술대회.",
+            "bibtex": "@inproceedings{choi2026digital,\n  title = {{Evaluating Tax-Loss Harvesting Strategies Across Global Tax Systems: A Monte Carlo Simulation Centered on South Korea}},\n  author = {Choi, Insu},\n  booktitle = {2026 Spring Conference of Korea Digital Industry Society},\n  year = {2026}\n}"
+        }
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-04-25",
+        "year": 2026,
+        "title": "Dynamic Multifractal Characteristics of Bitcoin Yields: High-Frequency Evidence Supporting the Adaptive Market Hypothesis",
+        "title_ko": "고빈도 데이터를 통한 비트코인 수익률의 동적 다중프랙탈 특성 분석: 적응적 시장 가설(AMH)을 중심으로",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Spring Conference of Korea Smart Media Society & Korea Digital Industry Society",
+        "venue_ko": "2026 한국스마트미디어학회&한국디지털산업학회 춘계학술대회",
+        "presentation": "poster",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "Choi, I. (2026). Dynamic Multifractal Characteristics of Bitcoin Yields: High-Frequency Evidence Supporting the Adaptive Market Hypothesis. 2026 Spring Conference of Korea Digital Industry Society.",
+            "mla": "Choi, Insu. \"Dynamic Multifractal Characteristics of Bitcoin Yields: High-Frequency Evidence Supporting the Adaptive Market Hypothesis.\" 2026 Spring Conference of Korea Digital Industry Society, 2026.",
+            "chicago": "Choi, Insu. \"Dynamic Multifractal Characteristics of Bitcoin Yields: High-Frequency Evidence Supporting the Adaptive Market Hypothesis.\" 2026 Spring Conference of Korea Digital Industry Society, 2026.",
+            "harvard": "Choi, I. (2026) 'Dynamic Multifractal Characteristics of Bitcoin Yields: High-Frequency Evidence Supporting the Adaptive Market Hypothesis', 2026 Spring Conference of Korea Digital Industry Society.",
+            "vancouver": "Choi I. Dynamic Multifractal Characteristics of Bitcoin Yields: High-Frequency Evidence Supporting the Adaptive Market Hypothesis. 2026 Spring Conference of Korea Digital Industry Society. 2026.",
+            "korean": "최인수. (2026). 고빈도 데이터를 통한 비트코인 수익률의 동적 다중프랙탈 특성 분석: 적응적 시장 가설(AMH)을 중심으로. 2026 한국디지털산업학회 춘계학술대회.",
+            "bibtex": "@inproceedings{choi2026digital,\n  title = {{Dynamic Multifractal Characteristics of Bitcoin Yields: High-Frequency Evidence Supporting the Adaptive Market Hypothesis}},\n  author = {Choi, Insu},\n  booktitle = {2026 Spring Conference of Korea Digital Industry Society},\n  year = {2026}\n}"
+        }
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-04-25",
+        "year": 2026,
+        "title": "Strategic Abstention in Trading: A Bayesian Approach to Selective Prediction for Reliable Market Trend Forecasting",
+        "title_ko": "신뢰도 기반 시장 방향성 예측을 위한 베이지안 선택적 예측 프레임워크",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Spring Conference of Korea Smart Media Society & Korea Digital Industry Society",
+        "venue_ko": "2026 한국스마트미디어학회&한국디지털산업학회 춘계학술대회",
+        "presentation": "poster",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "Choi, I. (2026). Strategic Abstention in Trading: A Bayesian Approach to Selective Prediction for Reliable Market Trend Forecasting. 2026 Spring Conference of Korea Digital Industry Society.",
+            "mla": "Choi, Insu. \"Strategic Abstention in Trading: A Bayesian Approach to Selective Prediction for Reliable Market Trend Forecasting.\" 2026 Spring Conference of Korea Digital Industry Society, 2026.",
+            "chicago": "Choi, Insu. \"Strategic Abstention in Trading: A Bayesian Approach to Selective Prediction for Reliable Market Trend Forecasting.\" 2026 Spring Conference of Korea Digital Industry Society, 2026.",
+            "harvard": "Choi, I. (2026) 'Strategic Abstention in Trading: A Bayesian Approach to Selective Prediction for Reliable Market Trend Forecasting', 2026 Spring Conference of Korea Digital Industry Society.",
+            "vancouver": "Choi I. Strategic Abstention in Trading: A Bayesian Approach to Selective Prediction for Reliable Market Trend Forecasting. 2026 Spring Conference of Korea Digital Industry Society. 2026.",
+            "korean": "최인수. (2026). 신뢰도 기반 시장 방향성 예측을 위한 베이지안 선택적 예측 프레임워크. 2026 한국디지털산업학회 춘계학술대회.",
+            "bibtex": "@inproceedings{choi2026digital,\n  title = {{Strategic Abstention in Trading: A Bayesian Approach to Selective Prediction for Reliable Market Trend Forecasting}},\n  author = {Choi, Insu},\n  booktitle = {2026 Spring Conference of Korea Digital Industry Society},\n  year = {2026}\n}"
+        }
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-04-25",
+        "year": 2026,
+        "title": "Identifying Market Shifts through Geometric Phase Analysis: Triangle Symmetry Breaking in Financial Time Series",
+        "title_ko": "금융 시계열의 기하학적 위상 분석: 삼각형 대칭성 붕괴를 활용한 임계 전이 감지",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Spring Conference of Korea Smart Media Society & Korea Digital Industry Society",
+        "venue_ko": "2026 한국스마트미디어학회&한국디지털산업학회 춘계학술대회",
+        "presentation": "poster",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "Choi, I. (2026). Identifying Market Shifts through Geometric Phase Analysis: Triangle Symmetry Breaking in Financial Time Series. 2026 Spring Conference of Korea Digital Industry Society.",
+            "mla": "Choi, Insu. \"Identifying Market Shifts through Geometric Phase Analysis: Triangle Symmetry Breaking in Financial Time Series.\" 2026 Spring Conference of Korea Digital Industry Society, 2026.",
+            "chicago": "Choi, Insu. \"Identifying Market Shifts through Geometric Phase Analysis: Triangle Symmetry Breaking in Financial Time Series.\" 2026 Spring Conference of Korea Digital Industry Society, 2026.",
+            "harvard": "Choi, I. (2026) 'Identifying Market Shifts through Geometric Phase Analysis: Triangle Symmetry Breaking in Financial Time Series', 2026 Spring Conference of Korea Digital Industry Society.",
+            "vancouver": "Choi I. Identifying Market Shifts through Geometric Phase Analysis: Triangle Symmetry Breaking in Financial Time Series. 2026 Spring Conference of Korea Digital Industry Society. 2026.",
+            "korean": "최인수. (2026). 금융 시계열의 기하학적 위상 분석: 삼각형 대칭성 붕괴를 활용한 임계 전이 감지. 2026 한국디지털산업학회 춘계학술대회.",
+            "bibtex": "@inproceedings{choi2026digital,\n  title = {{Identifying Market Shifts through Geometric Phase Analysis: Triangle Symmetry Breaking in Financial Time Series}},\n  author = {Choi, Insu},\n  booktitle = {2026 Spring Conference of Korea Digital Industry Society},\n  year = {2026}\n}"
         }
     }
 ]
