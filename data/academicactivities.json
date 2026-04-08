@@ -693,6 +693,15 @@
             "period": "2026-04",
             "url": "",
             "id": 75
+        },
+        {
+            "id": 76,
+            "category": "journal",
+            "name": "Frontiers in Computer Science",
+            "publisher": "Frontiers",
+            "type": "SCIE",
+            "since": "2026-04-08",
+            "url": "https://www.frontiersin.org/journals/computer-science"
         }
     ]
 }
