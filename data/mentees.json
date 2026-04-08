@@ -288,6 +288,10 @@
             {
                 "year": "2025",
                 "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+            },
+            {
+                "year": "2026",
+                "program": ""
             }
         ]
     },
@@ -332,6 +336,10 @@
             {
                 "year": "2025",
                 "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+            },
+            {
+                "year": "2026",
+                "program": ""
             }
         ]
     },
@@ -368,6 +376,10 @@
             {
                 "year": "2024",
                 "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+            },
+            {
+                "year": "2026",
+                "program": ""
             }
         ]
     },
@@ -1124,6 +1136,10 @@
             {
                 "year": "2025",
                 "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+            },
+            {
+                "year": "2026",
+                "program": ""
             }
         ]
     },
@@ -1140,6 +1156,10 @@
             {
                 "year": "2025",
                 "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+            },
+            {
+                "year": "2026",
+                "program": ""
             }
         ]
     },
@@ -1752,6 +1772,10 @@
             {
                 "year": "2025",
                 "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+            },
+            {
+                "year": "2026",
+                "program": ""
             }
         ]
     },
@@ -2628,6 +2652,234 @@
         "university": "가천대학교",
         "department": "기계·스마트·산업공학부 산업공학전공",
         "entryYear": "2022",
+        "participationYears": [
+            {
+                "year": "2026",
+                "program": ""
+            }
+        ]
+    },
+    "kang-donghee": {
+        "name": "강동희",
+        "university": "경희대학교",
+        "department": "산업경영공학과",
+        "entryYear": "2024",
+        "participationYears": [
+            {
+                "year": "2026",
+                "program": ""
+            }
+        ]
+    },
+    "lee-eunkyung": {
+        "name": "이은경",
+        "university": "경희대학교",
+        "department": "산업경영공학과",
+        "entryYear": "2024",
+        "participationYears": [
+            {
+                "year": "2026",
+                "program": ""
+            }
+        ]
+    },
+    "kim-hyunsu": {
+        "name": "김현수",
+        "university": "경희대학교",
+        "department": "산업경영공학과",
+        "entryYear": "2022",
+        "participationYears": [
+            {
+                "year": "2026",
+                "program": ""
+            }
+        ]
+    },
+    "shin-yunsu": {
+        "name": "신윤수",
+        "university": "경희대학교",
+        "department": "산업경영공학과",
+        "entryYear": "2022",
+        "participationYears": [
+            {
+                "year": "2026",
+                "program": ""
+            }
+        ]
+    },
+    "kim-dongwoo": {
+        "name": "김동우",
+        "university": "경희대학교",
+        "department": "산업경영공학과",
+        "entryYear": "2023",
+        "participationYears": [
+            {
+                "year": "2026",
+                "program": ""
+            }
+        ]
+    },
+    "kim-jungjin": {
+        "name": "김정진",
+        "university": "경희대학교",
+        "department": "산업경영공학과",
+        "entryYear": "2023",
+        "participationYears": [
+            {
+                "year": "2026",
+                "program": ""
+            }
+        ]
+    },
+    "kim-nagyun": {
+        "name": "김나균",
+        "university": "경희대학교",
+        "department": "산업경영공학과",
+        "entryYear": "2023",
+        "participationYears": [
+            {
+                "year": "2026",
+                "program": ""
+            }
+        ]
+    },
+    "park-seungyeol": {
+        "name": "박승열",
+        "university": "경희대학교",
+        "department": "산업경영공학과",
+        "entryYear": "2025",
+        "participationYears": [
+            {
+                "year": "2026",
+                "program": ""
+            }
+        ]
+    },
+    "park-juntae": {
+        "name": "박준태",
+        "university": "경희대학교",
+        "department": "산업경영공학과",
+        "entryYear": "2025",
+        "participationYears": [
+            {
+                "year": "2026",
+                "program": ""
+            }
+        ]
+    },
+    "shin-dongchan": {
+        "name": "신동찬",
+        "university": "경희대학교",
+        "department": "산업경영공학과",
+        "entryYear": "2025",
+        "participationYears": [
+            {
+                "year": "2026",
+                "program": ""
+            }
+        ]
+    },
+    "kang-yeonsu": {
+        "name": "강연수",
+        "university": "경희대학교",
+        "department": "산업경영공학과",
+        "entryYear": "2023",
+        "participationYears": [
+            {
+                "year": "2026",
+                "program": ""
+            }
+        ]
+    },
+    "hwang-taewon": {
+        "name": "황태원",
+        "university": "경희대학교",
+        "department": "산업경영공학과",
+        "entryYear": "2023",
+        "participationYears": [
+            {
+                "year": "2026",
+                "program": ""
+            }
+        ]
+    },
+    "choi-sumin": {
+        "name": "최수민",
+        "university": "경희대학교",
+        "department": "산업경영공학과",
+        "entryYear": "2025",
+        "participationYears": [
+            {
+                "year": "2026",
+                "program": ""
+            }
+        ]
+    },
+    "yoo-saebom": {
+        "name": "유새봄",
+        "university": "경희대학교",
+        "department": "산업경영공학과",
+        "entryYear": "2025",
+        "participationYears": [
+            {
+                "year": "2026",
+                "program": ""
+            }
+        ]
+    },
+    "park-seyoon": {
+        "name": "박세윤",
+        "university": "경희대학교",
+        "department": "산업경영공학과",
+        "entryYear": "2025",
+        "participationYears": [
+            {
+                "year": "2026",
+                "program": ""
+            }
+        ]
+    },
+    "choi-jungyoon": {
+        "name": "최정윤",
+        "university": "경희대학교",
+        "department": "산업경영공학과",
+        "entryYear": "2025",
+        "participationYears": [
+            {
+                "year": "2026",
+                "program": ""
+            }
+        ]
+    },
+    "hong-jungui": {
+        "name": "홍정의",
+        "university": "경희대학교",
+        "department": "산업경영공학과",
+        "entryYear": "2025",
+        "participationYears": [
+            {
+                "year": "2026",
+                "program": ""
+            }
+        ]
+    },
+    "kim-hyoeun": {
+        "name": "김효은",
+        "university": "경희대학교",
+        "department": "산업경영공학과",
+        "entryYear": "2025",
+        "participationYears": [
+            {
+                "year": "2026",
+                "program": ""
+            }
+        ]
+    },
+    "choi-yonghwan": {
+        "name": "최용환",
+        "university": "경희대학교",
+        "department": "산업경영공학과",
+        "entryYear": "2023",
         "participationYears": [
             {
                 "year": "2026",
