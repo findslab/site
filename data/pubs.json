@@ -6543,10 +6543,10 @@
         "type": "conference",
         "indexing_group": "Domestic Conference",
         "code_label": "C",
-        "published_date": "2026-06-01",
+        "published_date": "2026-06-20",
         "year": 2026,
         "title": "Correlation-Aware Graph Sparsification for Multivariate Time-Series Forecasting Using Graph Neural Networks",
-        "title_ko": "GNN 기반 다변량 시계열 예측을 위한 상관구조 인식 그래프 희소화 기법",
+        "title_ko": "그래프 신경망 기반 다변량 시계열 예측을 위한 상관구조 인식 그래프 희소화 기법",
         "authors": [
             1
         ],
@@ -7996,6 +7996,39 @@
             "vancouver": "Choi I. Identifying Market Shifts through Geometric Phase Analysis: Triangle Symmetry Breaking in Financial Time Series. 2026 Spring Conference of Korea Digital Industry Society. 2026.",
             "korean": "최인수. (2026). 금융 시계열의 기하학적 위상 분석: 삼각형 대칭성 붕괴를 활용한 임계 전이 감지. 2026 한국디지털산업학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026digital,\n  title = {{Identifying Market Shifts through Geometric Phase Analysis: Triangle Symmetry Breaking in Financial Time Series}},\n  author = {Choi, Insu},\n  booktitle = {2026 Spring Conference of Korea Digital Industry Society},\n  year = {2026}\n}"
+        }
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-05-28",
+        "year": 2026,
+        "title": "Analyzing Multi-Scale Tail-Risk Transmission in Global AI Equity Markets Using Wavelet-Based Effective Rényi Transfer Entropy",
+        "title_ko": "웨이블릿 분해 기반 유효 레니 전이 엔트로피를 활용한 글로벌 AI 주식시장의 다중 스케일 꼬리위험 전이 구조 분석",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Spring Conference of Korean Institute of Intelligent Systems",
+        "venue_ko": "2026 한국지능정보시스템학회 춘계학술대회",
+        "presentation": "oral",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "Choi, I. (2026). Analyzing multi-scale tail-risk transmission in global AI equity markets using wavelet-based effective Rényi transfer entropy. 2026 Spring Conference of Korean Institute of Intelligent Systems.",
+            "mla": "Choi, Insu. \"Analyzing Multi-Scale Tail-Risk Transmission in Global AI Equity Markets Using Wavelet-Based Effective Rényi Transfer Entropy.\" 2026 Spring Conference of Korean Institute of Intelligent Systems, 2026.",
+            "chicago": "Choi, Insu. \"Analyzing Multi-Scale Tail-Risk Transmission in Global AI Equity Markets Using Wavelet-Based Effective Rényi Transfer Entropy.\" 2026 Spring Conference of Korean Institute of Intelligent Systems, 2026.",
+            "harvard": "Choi, I. (2026) 'Analyzing multi-scale tail-risk transmission in global AI equity markets using wavelet-based effective Rényi transfer entropy', 2026 Spring Conference of Korean Institute of Intelligent Systems.",
+            "vancouver": "Choi I. Analyzing multi-scale tail-risk transmission in global AI equity markets using wavelet-based effective Rényi transfer entropy. 2026 Spring Conference of Korean Institute of Intelligent Systems. 2026.",
+            "korean": "최인수. (2026). 웨이블릿 분해 기반 유효 레니 전이 엔트로피를 활용한 글로벌 AI 주식시장의 다중 스케일 꼬리위험 전이 구조 분석. 2026 한국지능정보시스템학회 춘계학술대회.",
+            "bibtex": "@inproceedings{choi2026wavelet,\n  title = {{Analyzing Multi-Scale Tail-Risk Transmission in Global AI Equity Markets Using Wavelet-Based Effective Rényi Transfer Entropy}},\n  author = {Choi, Insu},\n  booktitle = {2026 Spring Conference of Korean Institute of Intelligent Systems},\n  year = {2026}\n}"
         }
     }
 ]
