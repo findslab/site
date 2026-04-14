@@ -6,6 +6,7 @@ import {Route, Routes, useLocation, Navigate, Link} from "react-router-dom";
 import {lazy, Suspense, useEffect, memo, useRef, useState} from "react";
 import { Music, Play, Pause, X, Home as HomeIcon, SkipBack, SkipForward, Minimize2, Maximize2, ListMusic } from 'lucide-react'
 import { useMusicPlayerStore } from '@/store/musicPlayer'
+import { useStoreLayout, useStoreLayoutValue } from '@/store/layout'
 
 const Home = lazy(() => import('../home').then((module) => ({ default: module.Home })));
 const Publications = lazy(() => import('../publications').then((module) => ({ default: module.Publications })));
@@ -66,7 +67,8 @@ const GlobalMusicPlayer = memo(() => {
   const [isCompact, setIsCompact] = useState(false)
   const [isHidden, setIsHidden] = useState(false)
   const [showQueue, setShowQueue] = useState(false)
-  const [devMode, setDevMode] = useState(false)
+  const { toggleDevMode } = useStoreLayout()
+  const { devMode } = useStoreLayoutValue()
   const keysPressed = useRef<Set<string>>(new Set())
   const queueRef = useRef<HTMLDivElement>(null)
   const location = useLocation()
@@ -219,7 +221,7 @@ const GlobalMusicPlayer = memo(() => {
       keysPressed.current.add(e.key.toLowerCase())
       if (keysPressed.current.has('j') && keysPressed.current.has('l')) {
         e.preventDefault()
-        setDevMode(prev => !prev)
+        toggleDevMode()
         setIsHidden(false)
       }
     }
