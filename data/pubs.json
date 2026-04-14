@@ -1,5 +1,32 @@
 [
     {
+        "type": "book",
+        "indexing_group": "Book",
+        "code_label": "B",
+        "published_date": "2026-03-01",
+        "year": 2026,
+        "title": "Designing Experiences: Centered on Engineering Portfolio Competitions",
+        "title_ko": "경험을 설계하다 — 공학 포트폴리오 경진대회를 중심으로",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "PubPle (Kyobo Book Centre)",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "Choi, I. (2026). 경험을 설계하다 — 공학 포트폴리오 경진대회를 중심으로. PubPle. .",
+            "mla": "Choi, Insu. <em>Designing Experiences: Centered on Engineering Portfolio Competitions</em>. PubPle, 2026. .",
+            "chicago": "Choi, Insu. <em>Designing Experiences: Centered on Engineering Portfolio Competitions</em>. PubPle, 2026. .",
+            "harvard": "Choi, I. (2026) <em>Designing experiences: Centered on engineering portfolio competitions</em>, PubPle. .",
+            "vancouver": "Choi I. Designing experiences: Centered on engineering portfolio competitions. PubPle; 2026. .",
+            "korean": "최인수. (2026). 경험을 설계하다 — 공학 포트폴리오 경진대회를 중심으로. 퍼플. .",
+            "bibtex": "@book{choi2026experience,\n  title = {{경험을 설계하다 --- 공학 포트폴리오 경진대회를 중심으로}},\n  author = {Choi, Insu},\n  publisher = {PubPle},\n  year = {2026},\n  note = {}\n}."
+        }
+    },
+    {
         "type": "journal",
         "indexing_group": "SSCI",
         "code_label": "J",
@@ -211,26 +238,23 @@
         "year": 2018,
         "title": "How to Make Your Own Student Portfolio: From Concept to Competition",
         "title_ko": "대학생을 위한 포트폴리오 가이드",
-        "edition": 2,
-        "edition_year": 2026,
         "authors": [
             1
         ],
         "author_marks": [
             "1"
         ],
-        "venue": "Wikidocs",
+        "venue": "Wikidocs (Online Published, Open Source)",
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I. (2026). 대학생을 위한 포트폴리오 가이드 (2nd ed.). Wikidocs.",
-            "mla": "Choi, Insu. <em>How to Make Your Own Student Portfolio: From Concept to Competition</em>. 2nd ed., Wikidocs, 2026.",
-            "chicago": "Choi, Insu. <em>How to Make Your Own Student Portfolio: From Concept to Competition</em>. 2nd ed. Wikidocs, 2026.",
-            "harvard": "Choi, I. (2026) <em>How to make your own student portfolio: From concept to competition</em>, 2nd edn, Wikidocs.",
-            "vancouver": "Choi I. How to make your own student portfolio: From concept to competition. 2nd ed. Wikidocs; 2026.",
-            "korean": "최인수. (2026). 나만의 학생 포트폴리오 만들기: 컨셉부터 대회까지 (제2판). 위키독스.",
-            "bibtex": "@book{choi2026대학생을,\n  title = {{대학생을 위한 포트폴리오 가이드}},\n  author = {Choi, I.},\n  publisher = {Wikidocs},\n  year = {2026},\n  edition = {2},\n}",
-            "apa_ko": "최인수 (2026). 대학생을 위한 포트폴리오 가이드 (제2판). 위키독스."
+            "apa": "Choi, I. (2018). 대학생을 위한 포트폴리오 가이드. Wikidocs. Online published, open source.",
+            "mla": "Choi, Insu. <em>How to Make Your Own Student Portfolio: From Concept to Competition</em>. Wikidocs, 2018. Online published, open source.",
+            "chicago": "Choi, Insu. <em>How to Make Your Own Student Portfolio: From Concept to Competition</em>. Wikidocs, 2018. Online published, open source.",
+            "harvard": "Choi, I. (2018) <em>How to make your own student portfolio: From concept to competition</em>, Wikidocs. Online published, open source.",
+            "vancouver": "Choi I. How to make your own student portfolio: From concept to competition. Wikidocs; 2018. Online published, open source.",
+            "korean": "최인수. (2018). 대학생을 위한 포트폴리오 가이드. 위키독스. 온라인 출판, 오픈소스.",
+            "bibtex": "@book{choi2018portfolio,\n  title = {{대학생을 위한 포트폴리오 가이드}},\n  author = {Choi, Insu},\n  publisher = {Wikidocs},\n  year = {2018},\n  note = {Online published, open source}\n}"
         }
     },
     {
@@ -6111,7 +6135,7 @@
         "code_label": "C",
         "published_date": "2020-11-13",
         "year": 2020,
-        "title": "Evaluating the Management Efficiency of Professional Volleyball Team from the Perspective of Teams' Operating Costs Using Bottom-Up Data Envelopment Analysis (DEA) and Analytic Hierarchy Process (AHP)",
+        "title": "Evaluating the Management Efficiency of Professional Volleyball Team from Perspective of Teams' Operating Costs Using Bottom-Up DEA and AHP – Focusing on V-League in Korea",
         "title_ko": "상향식 자료포락분석(DEA)과 계층분석(AHP)을 이용한 구단 운영비 관점에서 프로배구단의 경영효율성 평가",
         "authors": [
             1,
@@ -6129,13 +6153,13 @@
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I., Koo, M., & Kim, W. C. (2020, November 13). Evaluating the management efficiency of professional volleyball team from the perspective of teams' operating costs using bottom-up data envelopment analysis (DEA) and analytic hierarchy process (AHP) [Paper presentation]. 2020 Fall Conference of the Korean Institute of Industrial Engineers.",
-            "mla": "Choi, Insu, Minjin Koo, and Woo Chang Kim. \"Evaluating the Management Efficiency of Professional Volleyball Team from the Perspective of Teams' Operating Costs Using Bottom-Up Data Envelopment Analysis (DEA) and Analytic Hierarchy Process (AHP).\" 2020 Fall Conference of the Korean Institute of Industrial Engineers, 13 Nov. 2020.",
-            "chicago": "Choi, Insu, Minjin Koo, and Woo Chang Kim. \"Evaluating the Management Efficiency of Professional Volleyball Team from the Perspective of Teams' Operating Costs Using Bottom-Up Data Envelopment Analysis (DEA) and Analytic Hierarchy Process (AHP).\" Paper presented at the 2020 Fall Conference of the Korean Institute of Industrial Engineers, November 13, 2020.",
-            "harvard": "Choi, I., Koo, M. & Kim, W.C. (2020) 'Evaluating the management efficiency of professional volleyball team from the perspective of teams' operating costs using bottom-up data envelopment analysis (DEA) and analytic hierarchy process (AHP)', paper presented at the 2020 Fall Conference of the Korean Institute of Industrial Engineers, 13 November.",
-            "vancouver": "Choi I, Koo M, Kim WC. Evaluating the management efficiency of professional volleyball team from the perspective of teams' operating costs using bottom-up data envelopment analysis (DEA) and analytic hierarchy process (AHP). Paper presented at: 2020 Fall Conference of the Korean Institute of Industrial Engineers; 2020 Nov 13.",
-            "korean": "최인수, 구민진, 김우창. (2020). 상향식 자료포락분석(DEA)과 계층분석(AHP)을 이용한 구단 운영비 관점에서 프로배구단의 경영효율성 평가. 2020 대한산업공학회 추계학술대회 발표논문.",
-            "bibtex": "@inproceedings{choi2020evaluating,\n  title = {{Evaluating the Management Efficiency of Professional Volleyball Team from the Perspective of Teams' Operating Costs Using Bottom-Up Data Envelopment Analysis (DEA) and Analytic Hierarchy Process (AHP)}},\n  author = {Choi, I., Koo, M. and Kim, W. C.},\n  booktitle = {2020 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)},\n  year = {2020},\n}"
+            "apa": "Choi, I., Koo, M., & Kim, W. C. (2020). Evaluating the management efficiency of professional volleyball team from perspective of teams' operating costs using bottom-up DEA and AHP – Focusing on V-League in Korea. 2020 Fall Conference of the Korean Institute of Industrial Engineers (KIIE).",
+            "mla": "Choi, Insu, Minjin Koo, and Woo Chang Kim. \"Evaluating the Management Efficiency of Professional Volleyball Team from Perspective of Teams' Operating Costs Using Bottom-Up DEA and AHP – Focusing on V-League in Korea.\" 2020 Fall Conference of the Korean Institute of Industrial Engineers (KIIE), 2020.",
+            "chicago": "Choi, Insu, Minjin Koo, and Woo Chang Kim. \"Evaluating the Management Efficiency of Professional Volleyball Team from Perspective of Teams' Operating Costs Using Bottom-Up DEA and AHP – Focusing on V-League in Korea.\" 2020 Fall Conference of the Korean Institute of Industrial Engineers (KIIE), 2020.",
+            "harvard": "Choi, I., Koo, M. and Kim, W.C. (2020) 'Evaluating the management efficiency of professional volleyball team from perspective of teams' operating costs using bottom-up DEA and AHP – Focusing on V-League in Korea', 2020 Fall Conference of the Korean Institute of Industrial Engineers (KIIE).",
+            "vancouver": "Choi I, Koo M, Kim WC. Evaluating the management efficiency of professional volleyball team from perspective of teams' operating costs using bottom-up DEA and AHP – Focusing on V-League in Korea. 2020 Fall Conference of KIIE. 2020.",
+            "korean": "최인수, 구민진, 김우창. (2020). 상향식 자료포락분석(DEA)과 계층분석(AHP)을 이용한 구단 운영비 관점에서 프로배구단의 경영효율성 평가. 2020 대한산업공학회 추계학술대회.",
+            "bibtex": "@inproceedings{choi2020dea,\n  title = {{Evaluating the Management Efficiency of Professional Volleyball Team from Perspective of Teams' Operating Costs Using Bottom-Up DEA and AHP -- Focusing on V-League in Korea}},\n  author = {Choi, Insu and Koo, Minjin and Kim, Woo Chang},\n  booktitle = {2020 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)},\n  year = {2020}\n}"
         }
     },
     {
@@ -6175,7 +6199,7 @@
         "code_label": "C",
         "published_date": "2020-11-13",
         "year": 2020,
-        "title": "Developing a Themed Stock-Based Network Using Text Mining and Causal Relationship Network Analysis – from the Perspective of RegTech and SupTech",
+        "title": "Developing a Themed Stock-based Network Using Text Mining and Causal Relationship Network Analysis - From the Perspective of RegTech and SupTech",
         "title_ko": "텍스트 마이닝과 인과관계 네트워크 분석을 이용한 테마형 주식기반 네트워크 개발 – 레그테크와 섭테크의 관점에서",
         "authors": [
             1,
@@ -6713,7 +6737,7 @@
         "published_date": "2026-06-05",
         "year": 2026,
         "title": "Asymmetric Spillover Effects of Sentiment Measures and Search Attention on Equity Returns: A Microstructure Perspective Across Six Industry Sectors",
-        "title_ko": "빅데이터 심리지수(NSI)와 대중 관심(SVI)의 상호작용이 주식 수익률에 미치는 비대칭적 영향: 산업별 이질성을 중심으로",
+        "title_ko": "빅데이터 심리지수(NSI)와 대중 관심(SVI)의 상호작용이 주식 수익률에 미치는 비대칭적 영향",
         "authors": [
             145,
             1
