@@ -1,10 +1,9 @@
-import React, { memo, ReactNode, useState, useEffect, useRef, useCallback } from 'react'
+import React, { memo, ReactNode, useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { ChevronDown, Menu, X, Mail, Copy, Check } from 'lucide-react'
 import clsx from 'clsx'
 import logoFinds from '@/assets/images/brand/logo-finds.png'
 import { useStoreModal } from '@/store/modal'
-import { useStoreLayoutValue } from '@/store/layout'
 
 type props = {
   children?: ReactNode
@@ -142,46 +141,8 @@ const LayoutOrganisms = ({ children }: props) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [mobileSubMenu, setMobileSubMenu] = useState<string | null>(null)
   const { showModal } = useStoreModal()
-  const { devMode } = useStoreLayoutValue()
   const { showAlt: showAltText } = useLogoTextAnimation()
   const isHomePage = location.pathname === '/'
-
-  // Filter nav items: hide News/Notice when devMode is off
-  const filteredNavItems = navItems.map(item => {
-    if (item.name === 'Archives' && !devMode) {
-      return {
-        ...item,
-        children: item.children?.filter(c => c.name !== 'News' && c.name !== 'Notice')
-      }
-    }
-    return item
-  })
-
-  // Long press on logo (2.5s) to toggle dev mode on mobile
-  const longPressTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
-  const longPressTriggered = useRef(false)
-  const handleLogoTouchStart = useCallback(() => {
-    longPressTriggered.current = false
-    longPressTimer.current = setTimeout(() => {
-      longPressTriggered.current = true
-      window.dispatchEvent(new CustomEvent('toggleDevMode'))
-      longPressTimer.current = null
-      if (navigator.vibrate) navigator.vibrate(50)
-    }, 2500)
-  }, [])
-  const handleLogoTouchEnd = useCallback(() => {
-    if (longPressTimer.current) {
-      clearTimeout(longPressTimer.current)
-      longPressTimer.current = null
-    }
-  }, [])
-  const handleLogoClick = useCallback((e: React.MouseEvent) => {
-    if (longPressTriggered.current) {
-      e.preventDefault()
-      e.stopPropagation()
-      longPressTriggered.current = false
-    }
-  }, [])
 
   // 모바일 메뉴 열릴 때 body 스크롤 방지 (iOS 포함)
   useEffect(() => {
@@ -254,15 +215,8 @@ const LayoutOrganisms = ({ children }: props) => {
       <header className={`w-full bg-white/95 backdrop-blur-sm border-b border-gray-100 z-[9999] ${isHomePage ? 'sticky top-0' : ''}`} role="banner" style={{ paddingTop: 'env(safe-area-inset-top)' }}>
         <div className="max-w-1480 mx-auto flex items-center justify-between px-16 md:px-20 py-10">
           {/* Logo with animated text - PC only animation, mobile static */}
-          <Link to="/" className="flex items-center gap-12 md:gap-16" aria-label="FINDS Lab 홈으로 이동" onClick={handleLogoClick}>
-            <img src={logoFinds} alt="FINDS Lab" className="h-40 md:max-h-59 select-none" decoding="async"
-              onTouchStart={handleLogoTouchStart}
-              onTouchEnd={handleLogoTouchEnd}
-              onTouchCancel={handleLogoTouchEnd}
-              onTouchMove={handleLogoTouchEnd}
-              onContextMenu={(e) => e.preventDefault()}
-              draggable={false}
-            />
+          <Link to="/" className="flex items-center gap-12 md:gap-16" aria-label="FINDS Lab 홈으로 이동">
+            <img src={logoFinds} alt="FINDS Lab" className="h-40 md:max-h-59" decoding="async" />
             
             {/* Mobile: Static FINDS Lab */}
             <span className="md:hidden text-lg font-bold">
@@ -316,7 +270,7 @@ const LayoutOrganisms = ({ children }: props) => {
           {/* Desktop Navigation */}
           <nav className="hidden md:block" role="navigation" aria-label="메인 네비게이션">
             <ul className="flex items-center gap-40 xl:gap-60">
-              {filteredNavItems.map((item) => (
+              {navItems.map((item) => (
                 <li
                   key={item.name}
                   className="relative group"
@@ -391,7 +345,7 @@ const LayoutOrganisms = ({ children }: props) => {
         <div className="md:hidden fixed inset-0 bg-white z-[10000] overflow-y-auto" style={{ top: 'calc(61px + env(safe-area-inset-top))' }}>
           <nav className="px-16 py-16 max-w-1480 mx-auto">
             <ul className="flex flex-col gap-8">
-              {filteredNavItems.map((item) => (
+              {navItems.map((item) => (
                 <li key={item.name}>
                   {item.children ? (
                     <div>

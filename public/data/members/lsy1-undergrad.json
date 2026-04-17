@@ -8,12 +8,12 @@
         "ko": "Undergraduate Researcher",
         "en": "Undergraduate Researcher"
     },
-    "status": "alumni",
+    "status": "active",
     "avatar": "/website/images/members/LSY-1.webp",
-    "cohort": "1st Cohort (2025 Winter)",
+    "cohort": "1st Cohort (2025 Winter), 2nd Cohort (2026 Summer)",
     "period": {
         "start": "2025-12-22",
-        "end": "2026-03-01"
+        "end": "2026-11-30"
     },
     "contact": {
         "email": "lim.soyyeong@gmail.com"

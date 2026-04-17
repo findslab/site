@@ -959,10 +959,12 @@ export const MembersAlumniTemplate = () => {
                                     </div>
                                   </td>
                                   <td className="py-12 md:py-16 px-12 md:px-16">
-                                    <div className="group/tooltip relative inline-block">
-                                      <span className="px-10 md:px-12 py-4 md:py-5 text-[10px] md:text-xs font-bold rounded-full inline-block w-fit cursor-default transition-all duration-200 group-hover/tooltip:shadow-md" style={{backgroundColor: 'rgba(255,183,197,0.15)', color: '#C41E3A'}}>
-                                        {alumni.cohort || '-'}
-                                      </span>
+                                    <div className="group/tooltip relative inline-flex gap-4 flex-wrap">
+                                      {(alumni.cohort || '-').split(', ').map((c: string, ci: number) => (
+                                        <span key={ci} className="px-10 md:px-12 py-4 md:py-5 text-[10px] md:text-xs font-bold rounded-full inline-block w-fit cursor-default transition-all duration-200 hover:shadow-md" style={{backgroundColor: 'rgba(255,183,197,0.15)', color: '#C41E3A'}}>
+                                          {c}
+                                        </span>
+                                      ))}
                                       {alumni.cohortName && (
                                         <div className="absolute left-0 top-full mt-6 px-12 py-6 bg-gray-900 text-white text-[10px] font-medium rounded-lg whitespace-nowrap opacity-0 invisible group-hover/tooltip:opacity-100 group-hover/tooltip:visible transition-all duration-200 z-10 shadow-lg">
                                           {alumni.cohortName.match(/\(([^)]+)\)/)?.[1] || alumni.cohortName}
@@ -1041,9 +1043,11 @@ export const MembersAlumniTemplate = () => {
                               <div className="flex-1 min-w-0">
                                 <div className="flex items-center gap-6">
                                   <p className="text-sm font-bold text-gray-900">{alumni.name}</p>
-                                  <span className="px-6 py-1 text-[9px] font-bold rounded-full" style={{backgroundColor: 'rgba(255,183,197,0.15)', color: '#C41E3A'}}>
-                                    {alumni.cohort || '-'}
-                                  </span>
+                                  {(alumni.cohort || '-').split(', ').map((c: string, ci: number) => (
+                                    <span key={ci} className="px-6 py-1 text-[9px] font-bold rounded-full" style={{backgroundColor: 'rgba(255,183,197,0.15)', color: '#C41E3A'}}>
+                                      {c}
+                                    </span>
+                                  ))}
                                   {hasProjects && (
                                     <ChevronDown 
                                       size={14} 

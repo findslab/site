@@ -186,7 +186,32 @@ export const MembersCurrentTemplate = () => {
       'lsi1-undergrad.json',
       'ydh1-undergrad.json',
       'kbo1-undergrad.json',
-      'lsy1-undergrad.json'
+      'lsy1-undergrad.json',
+      'kng1-undergrad.json',
+      'kdw1-undergrad.json',
+      'kjj1-undergrad.json',
+      'psy2-undergrad.json',
+      'pjt1-undergrad.json',
+      'sdc1-undergrad.json',
+      'kdw2-undergrad.json',
+      'cjy2-undergrad.json',
+      'hjy1-undergrad.json',
+      'khe1-undergrad.json',
+      'csm1-undergrad.json',
+      'ysb1-undergrad.json',
+      'psy3-undergrad.json',
+      'kmg1-undergrad.json',
+      'lys2-undergrad.json',
+      'sys1-undergrad.json',
+      'khs2-undergrad.json',
+      'shj1-undergrad.json',
+      'ksy2-undergrad.json',
+      'cyh1-undergrad.json',
+      'kdh2-undergrad.json',
+      'sks2-undergrad.json',
+      'lek1-undergrad.json',
+      'kys1-undergrad.json',
+      'htw1-undergrad.json'
     ]
 
     Promise.all(

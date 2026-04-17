@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import { ChevronRight } from 'lucide-react'
 import Slider from '@/components/atoms/slider'
 import { parseMarkdown } from '@/utils/parseMarkdown'
-import { useStoreLayoutValue } from '@/store/layout'
 
 // Image Imports
 import icon8 from '@/assets/images/icons/8.png'
@@ -52,7 +51,6 @@ const heroSlides = [
 ]
 
 export const HomeTemplate = () => {
-  const { devMode } = useStoreLayoutValue()
   const [newsItems, setNewsItems] = useState<{ title: string; date: string; slug: string }[]>([])
   const [noticeItems, setNoticeItems] = useState<{ title: string; date: string; slug: string }[]>([])
   const [isLoaded, setIsLoaded] = useState(false)
@@ -292,7 +290,7 @@ export const HomeTemplate = () => {
       <section className="hidden md:block relative px-16 md:px-20 py-24 md:py-40">
         <div className="max-w-1480 mx-auto">
           <Slider loop autoplay autoplayDelay={5000} arrows dots>
-            {heroSlides.filter(slide => devMode || slide.id !== 3).map((slide) => (
+            {heroSlides.map((slide) => (
               <div key={slide.id} className="group/slide relative bg-white h-full rounded-2xl md:rounded-3xl px-20 md:px-48 lg:px-60 xl:px-100 py-24 md:py-44 lg:py-48 flex items-center justify-between overflow-hidden border border-gray-100">
                 {/* Subtle background accent */}
                 <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-transparent via-[#D6B14D]/30 to-transparent" />
@@ -357,7 +355,6 @@ export const HomeTemplate = () => {
       </section>
 
       {/* News & Notice Section */}
-      {devMode && (
       <section className="bg-gray-50 py-40 md:py-60 lg:py-80 px-16 md:px-20">
         <div className="max-w-1480 mx-auto">
           <div className="flex flex-col md:flex-row gap-32 md:gap-40 lg:gap-60">
@@ -475,7 +472,6 @@ export const HomeTemplate = () => {
           </div>
         </div>
       </section>
-      )}
     </div>
   )
 }
