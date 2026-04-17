@@ -7,9 +7,7 @@ import type { MemberData } from '@/types/data'
 const EXCLUDED_MEMBERS = [
   '박성수',
   '정유진',
-  '임소영',
   '이수인',
-  '신경수',
   '이태경',
   '심은',
   '하승민',
