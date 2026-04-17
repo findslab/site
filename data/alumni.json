@@ -1,450 +1,1213 @@
 {
-  "graduateAlumni": [],
-  "undergradAlumni": [
-    {
-      "name": "강병오",
-      "nameEn": "Byeong-Oh Kang",
-      "degrees": ["ur"],
-      "cohort": "1기",
-      "periods": {"ur": "2025-12-22 – 2026-03-01"},
-      "education": [{
-        "degree": "학부과정",
-        "degreeEn": "Undergraduate",
-        "dept": "컴퓨터공학과",
-        "deptEn": "Computer Science and Engineering",
-        "school": "경희대학교",
-        "schoolEn": "Kyung Hee University",
-        "year": "2019-03 -"
-      }],
-      "cohortName": "1st Cohort (2025 Winter)",
-      "currentPosition": "재학생",
-      "projects": ["Confidence Index-Based Trading Filter Framework (C-index)"]
-    },
-    {
-      "name": "고현우",
-      "nameEn": "Hyun-Woo Ko",
-      "degrees": ["ur"],
-      "cohort": "1기",
-      "periods": {"ur": "2025-12-22 – 2026-03-01"},
-      "education": [{
-        "degree": "학부과정",
-        "degreeEn": "Undergraduate",
-        "dept": "산업경영공학과",
-        "deptEn": "Industrial and Management Systems Engineering",
-        "school": "경희대학교",
-        "schoolEn": "Kyung Hee University",
-        "year": ""
-      }],
-      "cohortName": "1st Cohort (2025 Winter)",
-      "currentPosition": "재학생",
-      "projects": ["Technical Indicator-Based Stock Price Direction Prediction and Significance Analysis"]
-    },
-    {
-      "name": "김강현",
-      "nameEn": "Kang-Hyun Kim",
-      "degrees": ["ur"],
-      "cohort": "1기",
-      "periods": {"ur": "2025-12-22 – 2026-03-01"},
-      "education": [{
-        "degree": "학부과정",
-        "degreeEn": "Undergraduate",
-        "dept": "산업정보시스템공학과",
-        "deptEn": "Industrial and Information Systems Engineering",
-        "school": "숭실대학교",
-        "schoolEn": "Soongsil University",
-        "year": ""
-      }],
-      "cohortName": "1st Cohort (2025 Winter)",
-      "currentPosition": "재학생",
-      "projects": ["Risk Structuring and Portfolio Optimization in Market Stress Regimes"]
-    },
-    {
-      "name": "김다인",
-      "nameEn": "Da-In Kim",
-      "degrees": ["ur"],
-      "cohort": "1기",
-      "periods": {"ur": "2025-12-22 – 2026-03-01"},
-      "education": [{
-        "degree": "학부과정",
-        "degreeEn": "Undergraduate",
-        "dept": "산업데이터공학과",
-        "deptEn": "Industrial and Data Engineering",
-        "school": "홍익대학교",
-        "schoolEn": "Hongik University",
-        "year": ""
-      }],
-      "cohortName": "1st Cohort (2025 Winter)",
-      "currentPosition": "재학생",
-      "projects": ["Quality-Based Scheduling Framework with Stochastic Processing Time and Production Cost Using Multimodal RSW Data"]
-    },
-    {
-      "name": "김연후",
-      "nameEn": "Yeon-Hu Kim",
-      "degrees": ["ur"],
-      "cohort": "1기",
-      "periods": {"ur": "2025-12-22 – 2026-03-01"},
-      "education": [{
-        "degree": "학부과정",
-        "degreeEn": "Undergraduate",
-        "dept": "산업경영공학과",
-        "deptEn": "Industrial and Management Engineering",
-        "school": "한양대학교 ERICA 캠퍼스",
-        "schoolEn": "Hanyang University ERICA Campus",
-        "year": ""
-      }],
-      "cohortName": "1st Cohort (2025 Winter)",
-      "currentPosition": "재학생",
-      "projects": ["Analysis of Time-Varying Global Equity Market Risk Transmission Networks"]
-    },
-    {
-      "name": "김재엽",
-      "nameEn": "Jae-Yeop Kim",
-      "degrees": ["ur"],
-      "cohort": "1기",
-      "periods": {"ur": "2025-12-22 – 2026-03-01"},
-      "education": [{
-        "degree": "학부과정",
-        "degreeEn": "Undergraduate",
-        "dept": "산업공학과",
-        "deptEn": "Industrial Engineering",
-        "school": "한양대학교",
-        "schoolEn": "Hanyang University",
-        "year": ""
-      }],
-      "cohortName": "1st Cohort (2025 Winter)",
-      "currentPosition": "재학생",
-      "projects": ["Quality-Based Scheduling Framework with Stochastic Processing Time and Production Cost Using Multimodal RSW Data"]
-    },
-    {
-      "name": "박성수",
-      "nameEn": "Seong-Su Park",
-      "degrees": ["ur"],
-      "cohort": "1기",
-      "periods": {"ur": "2025-12-22 – 2026-03-01"},
-      "education": [{
-        "degree": "학부과정",
-        "degreeEn": "Undergraduate",
-        "dept": "산업경영공학과",
-        "deptEn": "Industrial and Management Systems Engineering",
-        "school": "경희대학교",
-        "schoolEn": "Kyung Hee University",
-        "year": ""
-      }],
-      "cohortName": "1st Cohort (2025 Winter)",
-      "currentPosition": "석사과정\n산업경영공학부\n고려대학교",
-      "currentPositionEn": "M.S. Student\nIndustrial and Management Engineering\nKorea University",
-      "projects": [
-        "Deciphering the Impact of COVID-19 on Korean Sector ETFs: Insights from an ARIMAX and Granger Causality",
-        "Fundamental-Driven Sub-Universe Construction for Portfolio Optimization: Evidence from the Korean Equity Market"
-      ]
-    },
-    {
-      "name": "신경수",
-      "nameEn": "Kyeong-Su Shin",
-      "degrees": ["ur"],
-      "cohort": "1기",
-      "periods": {"ur": "2025-12-22 – 2026-03-01"},
-      "education": [{
-        "degree": "학부과정",
-        "degreeEn": "Undergraduate",
-        "dept": "산업경영공학과",
-        "deptEn": "Industrial and Management Systems Engineering",
-        "school": "경희대학교",
-        "schoolEn": "Kyung Hee University",
-        "year": ""
-      }],
-      "cohortName": "1st Cohort (2025 Winter)",
-      "currentPosition": "재학생",
-      "projects": [
-        "Deciphering the Impact of COVID-19 on Korean Sector ETFs: Insights from an ARIMAX and Granger Causality"
-      ]
-    },
-    {
-      "name": "신정윤",
-      "nameEn": "Jeong-Yun Shin",
-      "degrees": ["ur"],
-      "cohort": "1기",
-      "periods": {"ur": "2025-12-22 – 2026-03-01"},
-      "education": [{
-        "degree": "학부과정",
-        "degreeEn": "Undergraduate",
-        "dept": "산업경영공학과",
-        "deptEn": "Industrial and Management Systems Engineering",
-        "school": "경희대학교",
-        "schoolEn": "Kyung Hee University",
-        "year": ""
-      }],
-      "cohortName": "1st Cohort (2025 Winter)",
-      "currentPosition": "재학생",
-      "projects": ["IP5 Fintech Patent-Based Trend Analysis: Focusing on the Impact of Generative AI and Open Banking APIs"]
-    },
-    {
-      "name": "심은",
-      "nameEn": "Eun Sim",
-      "degrees": ["ur"],
-      "cohort": "1기",
-      "periods": {"ur": "2025-12-22 – 2026-03-01"},
-      "education": [{
-        "degree": "학부과정",
-        "degreeEn": "Undergraduate",
-        "dept": "컴퓨터공학과",
-        "deptEn": "Computer Science and Engineering",
-        "school": "서강대학교",
-        "schoolEn": "Sogang University",
-        "year": ""
-      }],
-      "cohortName": "1st Cohort (2025 Winter)",
-      "currentPosition": "재학생",
-      "projects": [
-        "Housing–Fertility Interdependencies in South Korea: A Dynamic Analysis Across Regional Disparities and Temporal Shifts"
-      ]
-    },
-    {
-      "name": "양동훈",
-      "nameEn": "Dong-Hoon Yang",
-      "degrees": ["ur"],
-      "cohort": "1기",
-      "periods": {"ur": "2025-12-22 – 2026-03-01"},
-      "education": [{
-        "degree": "학부과정",
-        "degreeEn": "Undergraduate",
-        "dept": "산업경영공학과",
-        "deptEn": "Industrial Engineering",
-        "school": "인하대학교",
-        "schoolEn": "Inha University",
-        "year": ""
-      }],
-      "cohortName": "1st Cohort (2025 Winter)",
-      "currentPosition": "재학생",
-      "projects": ["Quality-Based Scheduling Framework with Stochastic Processing Time and Production Cost Using Multimodal RSW Data"]
-    },
-    {
-      "name": "이성준",
-      "nameEn": "Seong-Jun Lee",
-      "degrees": ["ur"],
-      "cohort": "1기",
-      "periods": {"ur": "2025-12-22 – 2026-03-01"},
-      "education": [{
-        "degree": "학부과정",
-        "degreeEn": "Undergraduate",
-        "dept": "산업경영공학과",
-        "deptEn": "Industrial and Management Systems Engineering",
-        "school": "경희대학교",
-        "schoolEn": "Kyung Hee University",
-        "year": ""
-      }],
-      "cohortName": "1st Cohort (2025 Winter)",
-      "currentPosition": "재학생",
-      "projects": ["Big Data-Based News Sentiment Index (NSI) and Search Volume Index (SVI) for Industry-Specific Business Cycle and Stock Price Forecasting: A Comparative Analysis with Economic Sentiment Index (ESI) Controlling for Macroeconomic and Financial Variables"]
-    },
-    {
-      "name": "이수인",
-      "nameEn": "Su-In Lee",
-      "degrees": ["ur"],
-      "cohort": "1기",
-      "periods": {"ur": "2025-12-22 – 2026-03-01"},
-      "education": [{
-        "degree": "학부과정",
-        "degreeEn": "Undergraduate",
-        "dept": "산업경영공학과",
-        "deptEn": "Industrial and Management Systems Engineering",
-        "school": "경희대학교",
-        "schoolEn": "Kyung Hee University",
-        "year": ""
-      }],
-      "cohortName": "1st Cohort (2025 Winter)",
-      "currentPosition": "석사과정\n산업공학과\n서울대학교",
-      "currentPositionEn": "M.S. Student\nIndustrial Engineering\nSeoul National University",
-      "projects": [
-        "Deciphering the Impact of COVID-19 on Korean Sector ETFs: Insights from an ARIMAX and Granger Causality"
-      ]
-    },
-    {
-      "name": "이유섭",
-      "nameEn": "Yu-Seop Lee",
-      "degrees": ["ur"],
-      "cohort": "1기",
-      "periods": {"ur": "2025-12-01 – 2026-02-01"},
-      "education": [{
-        "degree": "학부과정",
-        "degreeEn": "Undergraduate",
-        "dept": "산업및시스템공학과",
-        "deptEn": "Industrial and Systems Engineering",
-        "school": "한국과학기술원 (KAIST)",
-        "schoolEn": "KAIST",
-        "year": ""
-      }],
-      "cohortName": "1st Cohort (2025 Winter)",
-      "currentPosition": "재학생",
-      "projects": ["Mitigating Backtest Overfitting via Time-Series Data Augmentation"]
-    },
-    {
-      "name": "이채은",
-      "nameEn": "Chae-Eun Lee",
-      "degrees": ["ur"],
-      "cohort": "1기",
-      "periods": {"ur": "2025-12-22 – 2026-03-01"},
-      "education": [{
-        "degree": "학부과정",
-        "degreeEn": "Undergraduate",
-        "dept": "기계·스마트·산업공학부 산업공학전공",
-        "deptEn": "Mechanical, Smart and Industrial Engineering (Industrial Engineering Major)",
-        "school": "가천대학교",
-        "schoolEn": "Gachon University",
-        "year": ""
-      }],
-      "cohortName": "1st Cohort (2025 Winter)",
-      "currentPosition": "재학생",
-      "projects": ["Analysis of Survival Duration and Business Closure Risk Factors in Seoul Cafe Market"]
-    },
-    {
-      "name": "이태경",
-      "nameEn": "Tae-Kyeong Lee",
-      "degrees": ["ur"],
-      "cohort": "1기",
-      "periods": {"ur": "2025-12-22 – 2026-03-01"},
-      "education": [{
-        "degree": "학부과정",
-        "degreeEn": "Undergraduate",
-        "dept": "산업경영공학과",
-        "deptEn": "Industrial and Management Systems Engineering",
-        "school": "경희대학교",
-        "schoolEn": "Kyung Hee University",
-        "year": ""
-      }],
-      "cohortName": "1st Cohort (2025 Winter)",
-      "currentPosition": "석사과정\n기술경영전문대학원\n고려대학교",
-      "currentPositionEn": "M.S. Student\nGraduate School of Technology Management\nKorea University",
-      "projects": [
-        "Deciphering the Impact of COVID-19 on Korean Sector ETFs: Insights from an ARIMAX and Granger Causality",
-        "Symmetry-Aware Graph Neural Approaches for Data-Efficient Return Prediction in International Financial Market Indices",
-        "Stochastic Refinement of Correlation Structures: A Score-Based Generative Approach to Tail Risk Mitigation in Multi-Asset Portfolios",
-        "Fundamental-Driven Sub-Universe Construction for Portfolio Optimization: Evidence from the Korean Equity Market",
-        "Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation"
-      ]
-    },
-    {
-      "name": "임소영",
-      "nameEn": "So-Young Lim",
-      "degrees": ["ur"],
-      "cohort": "1기",
-      "periods": {"ur": "2025-12-22 – 2026-03-01"},
-      "education": [{
-        "degree": "학부과정",
-        "degreeEn": "Undergraduate",
-        "dept": "산업경영공학과",
-        "deptEn": "Industrial and Management Systems Engineering",
-        "school": "경희대학교",
-        "schoolEn": "Kyung Hee University",
-        "year": ""
-      }],
-      "cohortName": "1st Cohort (2025 Winter)",
-      "currentPosition": "재학생",
-      "projects": [
-        "Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation",
-        "Metric-Based Technical Indicators for Yield Forecasting"
-      ]
-    },
-    {
-      "name": "정유진",
-      "nameEn": "Yu-Jin Jeong",
-      "degrees": ["ur"],
-      "cohort": "1기",
-      "periods": {"ur": "2025-12-22 – 2026-03-01"},
-      "education": [{
-        "degree": "학부과정",
-        "degreeEn": "Undergraduate",
-        "dept": "산업경영공학과",
-        "deptEn": "Industrial and Management Systems Engineering",
-        "school": "경희대학교",
-        "schoolEn": "Kyung Hee University",
-        "year": ""
-      }],
-      "cohortName": "1st Cohort (2025 Winter)",
-      "currentPosition": "석사과정\n산업경영공학과\n경희대학교",
-      "currentPositionEn": "M.S. Student\nIndustrial and Management Systems Engineering\nKyung Hee University",
-      "projects": [
-        "Personalized Travel Policy Recommendation System Using Individual Demand Function Modeling: A Decision Support Framework for Tourism Policy Optimization"
-      ]
-    },
-    {
-      "name": "조윤수",
-      "nameEn": "Yun-Su Jo",
-      "degrees": ["ur"],
-      "cohort": "1기",
-      "periods": {"ur": "2025-12-22 – 2026-03-01"},
-      "education": [{
-        "degree": "학부과정",
-        "degreeEn": "Undergraduate",
-        "dept": "산업경영공학과",
-        "deptEn": "Industrial and Management Systems Engineering",
-        "school": "경희대학교",
-        "schoolEn": "Kyung Hee University",
-        "year": ""
-      }],
-      "cohortName": "1st Cohort (2025 Winter)",
-      "currentPosition": "재학생",
-      "projects": ["IP5 Fintech Patent-Based Trend Analysis: Focusing on the Impact of Generative AI and Open Banking APIs"]
-    },
-    {
-      "name": "최문혁",
-      "nameEn": "Mun-Hyeok Choi",
-      "degrees": ["ur"],
-      "cohort": "1기",
-      "periods": {"ur": "2025-12-22 – 2026-03-01"},
-      "education": [{
-        "degree": "학부과정",
-        "degreeEn": "Undergraduate",
-        "dept": "산업경영공학과",
-        "deptEn": "Industrial and Management Systems Engineering",
-        "school": "경희대학교",
-        "schoolEn": "Kyung Hee University",
-        "year": ""
-      }],
-      "cohortName": "1st Cohort (2025 Winter)",
-      "currentPosition": "재학생",
-      "projects": ["Co-Movement Analysis Between Global Shipping Indices and Korean Financial Markets: Lead-Lag Relationships, Causality, and Asymmetric Effects"]
-    },
-    {
-      "name": "최진우",
-      "nameEn": "Jin-Woo Choi",
-      "degrees": ["ur"],
-      "cohort": "1기",
-      "periods": {"ur": "2025-12-22 – 2026-03-01"},
-      "education": [{
-        "degree": "학부과정",
-        "degreeEn": "Undergraduate",
-        "dept": "산업경영공학과",
-        "deptEn": "Industrial and Management Systems Engineering",
-        "school": "경희대학교",
-        "schoolEn": "Kyung Hee University",
-        "year": ""
-      }],
-      "cohortName": "1st Cohort (2025 Winter)",
-      "currentPosition": "재학생",
-      "projects": [
-        "Assessing Prediction-Based Trading Strategies in Sector ETF Markets: A Comparative Study of Machine Learning and Time-Series Models"
-      ]
-    },
-    {
-      "name": "하승민",
-      "nameEn": "Seung-Min Ha",
-      "degrees": ["ur"],
-      "cohort": "1기",
-      "periods": {"ur": "2025-12-22 – 2026-03-01"},
-      "education": [{
-        "degree": "학부과정",
-        "degreeEn": "Undergraduate",
-        "dept": "산업정보시스템공학과",
-        "deptEn": "Industrial and Information Systems Engineering",
-        "school": "전북대학교",
-        "schoolEn": "Jeonbuk National University",
-        "year": ""
-      }],
-      "cohortName": "1st Cohort (2025 Winter)",
-      "currentPosition": "재학생",
-      "projects": [{"ko": "K-방산 리스크에 따른 주가 동조화 분석", "en": "An Analysis of Stock Price Synchronization Based on K-Defense Risk"}]
-    }
-  ],
-  "sinceDate": "2025-06-14"
+    "graduateAlumni": [],
+    "undergradAlumni": [
+        {
+            "name": "강병오",
+            "nameEn": "Byeong-Oh Kang",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "1기",
+            "periods": {
+                "ur": "2025-12-22 – 2026-03-01"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "컴퓨터공학과",
+                    "deptEn": "Computer Science and Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": "2019-03 -"
+                }
+            ],
+            "cohortName": "1st Cohort (2025 Winter)",
+            "currentPosition": "재학생",
+            "projects": [
+                "Confidence Index-Based Trading Filter Framework (C-index)"
+            ]
+        },
+        {
+            "name": "고현우",
+            "nameEn": "Hyun-Woo Ko",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "1기",
+            "periods": {
+                "ur": "2025-12-22 – 2026-03-01"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "1st Cohort (2025 Winter)",
+            "currentPosition": "재학생",
+            "projects": [
+                "Technical Indicator-Based Stock Price Direction Prediction and Significance Analysis"
+            ]
+        },
+        {
+            "name": "김강현",
+            "nameEn": "Kang-Hyun Kim",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "1기",
+            "periods": {
+                "ur": "2025-12-22 – 2026-03-01"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업정보시스템공학과",
+                    "deptEn": "Industrial and Information Systems Engineering",
+                    "school": "숭실대학교",
+                    "schoolEn": "Soongsil University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "1st Cohort (2025 Winter)",
+            "currentPosition": "재학생",
+            "projects": [
+                "Risk Structuring and Portfolio Optimization in Market Stress Regimes"
+            ]
+        },
+        {
+            "name": "김다인",
+            "nameEn": "Da-In Kim",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "1기",
+            "periods": {
+                "ur": "2025-12-22 – 2026-03-01"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업데이터공학과",
+                    "deptEn": "Industrial and Data Engineering",
+                    "school": "홍익대학교",
+                    "schoolEn": "Hongik University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "1st Cohort (2025 Winter)",
+            "currentPosition": "재학생",
+            "projects": [
+                "Quality-Based Scheduling Framework with Stochastic Processing Time and Production Cost Using Multimodal RSW Data"
+            ]
+        },
+        {
+            "name": "김연후",
+            "nameEn": "Yeon-Hu Kim",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "1기",
+            "periods": {
+                "ur": "2025-12-22 – 2026-03-01"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Engineering",
+                    "school": "한양대학교 ERICA 캠퍼스",
+                    "schoolEn": "Hanyang University ERICA Campus",
+                    "year": ""
+                }
+            ],
+            "cohortName": "1st Cohort (2025 Winter)",
+            "currentPosition": "재학생",
+            "projects": [
+                "Analysis of Time-Varying Global Equity Market Risk Transmission Networks"
+            ]
+        },
+        {
+            "name": "김재엽",
+            "nameEn": "Jae-Yeop Kim",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "1기",
+            "periods": {
+                "ur": "2025-12-22 – 2026-03-01"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업공학과",
+                    "deptEn": "Industrial Engineering",
+                    "school": "한양대학교",
+                    "schoolEn": "Hanyang University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "1st Cohort (2025 Winter)",
+            "currentPosition": "재학생",
+            "projects": [
+                "Quality-Based Scheduling Framework with Stochastic Processing Time and Production Cost Using Multimodal RSW Data"
+            ]
+        },
+        {
+            "name": "박성수",
+            "nameEn": "Seong-Su Park",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "1기",
+            "periods": {
+                "ur": "2025-12-22 – 2026-03-01"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "1st Cohort (2025 Winter)",
+            "currentPosition": "석사과정\n산업경영공학부\n고려대학교",
+            "currentPositionEn": "M.S. Student\nIndustrial and Management Engineering\nKorea University",
+            "projects": [
+                "Deciphering the Impact of COVID-19 on Korean Sector ETFs: Insights from an ARIMAX and Granger Causality",
+                "Fundamental-Driven Sub-Universe Construction for Portfolio Optimization: Evidence from the Korean Equity Market"
+            ]
+        },
+        {
+            "name": "신경수",
+            "nameEn": "Kyeong-Su Shin",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "1기, 2기",
+            "periods": {
+                "ur": "2025-12-22 – 2026-11-30"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "1st Cohort (2025 Winter), 2nd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": [
+                "Deciphering the Impact of COVID-19 on Korean Sector ETFs: Insights from an ARIMAX and Granger Causality"
+            ]
+        },
+        {
+            "name": "신정윤",
+            "nameEn": "Jeong-Yun Shin",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "1기",
+            "periods": {
+                "ur": "2025-12-22 – 2026-03-01"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "1st Cohort (2025 Winter)",
+            "currentPosition": "재학생",
+            "projects": [
+                "IP5 Fintech Patent-Based Trend Analysis: Focusing on the Impact of Generative AI and Open Banking APIs"
+            ]
+        },
+        {
+            "name": "심은",
+            "nameEn": "Eun Sim",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "1기",
+            "periods": {
+                "ur": "2025-12-22 – 2026-03-01"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "컴퓨터공학과",
+                    "deptEn": "Computer Science and Engineering",
+                    "school": "서강대학교",
+                    "schoolEn": "Sogang University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "1st Cohort (2025 Winter)",
+            "currentPosition": "재학생",
+            "projects": [
+                "Housing–Fertility Interdependencies in South Korea: A Dynamic Analysis Across Regional Disparities and Temporal Shifts"
+            ]
+        },
+        {
+            "name": "양동훈",
+            "nameEn": "Dong-Hoon Yang",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "1기",
+            "periods": {
+                "ur": "2025-12-22 – 2026-03-01"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial Engineering",
+                    "school": "인하대학교",
+                    "schoolEn": "Inha University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "1st Cohort (2025 Winter)",
+            "currentPosition": "재학생",
+            "projects": [
+                "Quality-Based Scheduling Framework with Stochastic Processing Time and Production Cost Using Multimodal RSW Data"
+            ]
+        },
+        {
+            "name": "이성준",
+            "nameEn": "Seong-Jun Lee",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "1기",
+            "periods": {
+                "ur": "2025-12-22 – 2026-03-01"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "1st Cohort (2025 Winter)",
+            "currentPosition": "재학생",
+            "projects": [
+                "Big Data-Based News Sentiment Index (NSI) and Search Volume Index (SVI) for Industry-Specific Business Cycle and Stock Price Forecasting: A Comparative Analysis with Economic Sentiment Index (ESI) Controlling for Macroeconomic and Financial Variables"
+            ]
+        },
+        {
+            "name": "이수인",
+            "nameEn": "Su-In Lee",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "1기",
+            "periods": {
+                "ur": "2025-12-22 – 2026-03-01"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "1st Cohort (2025 Winter)",
+            "currentPosition": "석사과정\n산업공학과\n서울대학교",
+            "currentPositionEn": "M.S. Student\nIndustrial Engineering\nSeoul National University",
+            "projects": [
+                "Deciphering the Impact of COVID-19 on Korean Sector ETFs: Insights from an ARIMAX and Granger Causality"
+            ]
+        },
+        {
+            "name": "이유섭",
+            "nameEn": "Yu-Seop Lee",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "1기",
+            "periods": {
+                "ur": "2025-12-01 – 2026-02-01"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업및시스템공학과",
+                    "deptEn": "Industrial and Systems Engineering",
+                    "school": "한국과학기술원 (KAIST)",
+                    "schoolEn": "KAIST",
+                    "year": ""
+                }
+            ],
+            "cohortName": "1st Cohort (2025 Winter)",
+            "currentPosition": "재학생",
+            "projects": [
+                "Mitigating Backtest Overfitting via Time-Series Data Augmentation"
+            ]
+        },
+        {
+            "name": "이채은",
+            "nameEn": "Chae-Eun Lee",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "1기",
+            "periods": {
+                "ur": "2025-12-22 – 2026-03-01"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "기계·스마트·산업공학부 산업공학전공",
+                    "deptEn": "Mechanical, Smart and Industrial Engineering (Industrial Engineering Major)",
+                    "school": "가천대학교",
+                    "schoolEn": "Gachon University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "1st Cohort (2025 Winter)",
+            "currentPosition": "재학생",
+            "projects": [
+                "Analysis of Survival Duration and Business Closure Risk Factors in Seoul Cafe Market"
+            ]
+        },
+        {
+            "name": "이태경",
+            "nameEn": "Tae-Kyeong Lee",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "1기",
+            "periods": {
+                "ur": "2025-12-22 – 2026-03-01"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "1st Cohort (2025 Winter)",
+            "currentPosition": "석사과정\n기술경영전문대학원\n고려대학교",
+            "currentPositionEn": "M.S. Student\nGraduate School of Technology Management\nKorea University",
+            "projects": [
+                "Deciphering the Impact of COVID-19 on Korean Sector ETFs: Insights from an ARIMAX and Granger Causality",
+                "Symmetry-Aware Graph Neural Approaches for Data-Efficient Return Prediction in International Financial Market Indices",
+                "Stochastic Refinement of Correlation Structures: A Score-Based Generative Approach to Tail Risk Mitigation in Multi-Asset Portfolios",
+                "Fundamental-Driven Sub-Universe Construction for Portfolio Optimization: Evidence from the Korean Equity Market",
+                "Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation"
+            ]
+        },
+        {
+            "name": "임소영",
+            "nameEn": "So-Young Lim",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "1기, 2기",
+            "periods": {
+                "ur": "2025-12-22 – 2026-11-30"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "1st Cohort (2025 Winter), 2nd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": [
+                "Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation",
+                "Metric-Based Technical Indicators for Yield Forecasting"
+            ]
+        },
+        {
+            "name": "정유진",
+            "nameEn": "Yu-Jin Jeong",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "1기",
+            "periods": {
+                "ur": "2025-12-22 – 2026-03-01"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "1st Cohort (2025 Winter)",
+            "currentPosition": "석사과정\n산업경영공학과\n경희대학교",
+            "currentPositionEn": "M.S. Student\nIndustrial and Management Systems Engineering\nKyung Hee University",
+            "projects": [
+                "Personalized Travel Policy Recommendation System Using Individual Demand Function Modeling: A Decision Support Framework for Tourism Policy Optimization"
+            ]
+        },
+        {
+            "name": "조윤수",
+            "nameEn": "Yun-Su Jo",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "1기",
+            "periods": {
+                "ur": "2025-12-22 – 2026-03-01"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "1st Cohort (2025 Winter)",
+            "currentPosition": "재학생",
+            "projects": [
+                "IP5 Fintech Patent-Based Trend Analysis: Focusing on the Impact of Generative AI and Open Banking APIs"
+            ]
+        },
+        {
+            "name": "최문혁",
+            "nameEn": "Mun-Hyeok Choi",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "1기",
+            "periods": {
+                "ur": "2025-12-22 – 2026-03-01"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "1st Cohort (2025 Winter)",
+            "currentPosition": "재학생",
+            "projects": [
+                "Co-Movement Analysis Between Global Shipping Indices and Korean Financial Markets: Lead-Lag Relationships, Causality, and Asymmetric Effects"
+            ]
+        },
+        {
+            "name": "최진우",
+            "nameEn": "Jin-Woo Choi",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "1기",
+            "periods": {
+                "ur": "2025-12-22 – 2026-03-01"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "1st Cohort (2025 Winter)",
+            "currentPosition": "재학생",
+            "projects": [
+                "Assessing Prediction-Based Trading Strategies in Sector ETF Markets: A Comparative Study of Machine Learning and Time-Series Models"
+            ]
+        },
+        {
+            "name": "하승민",
+            "nameEn": "Seung-Min Ha",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "1기",
+            "periods": {
+                "ur": "2025-12-22 – 2026-03-01"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업정보시스템공학과",
+                    "deptEn": "Industrial and Information Systems Engineering",
+                    "school": "전북대학교",
+                    "schoolEn": "Jeonbuk National University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "1st Cohort (2025 Winter)",
+            "currentPosition": "재학생",
+            "projects": [
+                {
+                    "ko": "K-방산 리스크에 따른 주가 동조화 분석",
+                    "en": "An Analysis of Stock Price Synchronization Based on K-Defense Risk"
+                }
+            ]
+        },
+        {
+            "name": "김나균",
+            "nameEn": "Na-Gyun Kim",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "2기",
+            "periods": {
+                "ur": "2026-05-01 – 2026-11-30"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": "2023-03 -"
+                }
+            ],
+            "cohortName": "2nd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": []
+        },
+        {
+            "name": "김동우",
+            "nameEn": "Dong-Woo Kim",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "2기",
+            "periods": {
+                "ur": "2026-05-01 – 2026-11-30"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": "2023-03 -"
+                }
+            ],
+            "cohortName": "2nd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": []
+        },
+        {
+            "name": "김동완",
+            "nameEn": "Dong-Wan Kim",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "2기",
+            "periods": {
+                "ur": "2026-05-01 – 2026-11-30"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": "2022-03 -"
+                }
+            ],
+            "cohortName": "2nd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": []
+        },
+        {
+            "name": "김민균",
+            "nameEn": "Min-Gyun Kim",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "2기",
+            "periods": {
+                "ur": "2026-05-01 – 2026-11-30"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": "2024-03 -"
+                }
+            ],
+            "cohortName": "2nd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": []
+        },
+        {
+            "name": "김상연",
+            "nameEn": "Sang-Yeon Kim",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "2기",
+            "periods": {
+                "ur": "2026-05-01 – 2026-11-30"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": "2024-03 -"
+                }
+            ],
+            "cohortName": "2nd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": []
+        },
+        {
+            "name": "김정진",
+            "nameEn": "Jeong-Jin Kim",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "2기",
+            "periods": {
+                "ur": "2026-05-01 – 2026-11-30"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": "2023-03 -"
+                }
+            ],
+            "cohortName": "2nd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": []
+        },
+        {
+            "name": "김현수",
+            "nameEn": "Hyun-Su Kim",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "2기",
+            "periods": {
+                "ur": "2026-05-01 – 2026-11-30"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": "2022-03 -"
+                }
+            ],
+            "cohortName": "2nd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": []
+        },
+        {
+            "name": "김효은",
+            "nameEn": "Hyo-Eun Kim",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "2기",
+            "periods": {
+                "ur": "2026-05-01 – 2026-11-30"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": "2025-03 -"
+                }
+            ],
+            "cohortName": "2nd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": []
+        },
+        {
+            "name": "박세윤",
+            "nameEn": "Se-Yoon Park",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "2기",
+            "periods": {
+                "ur": "2026-05-01 – 2026-11-30"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": "2025-03 -"
+                }
+            ],
+            "cohortName": "2nd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": []
+        },
+        {
+            "name": "박승열",
+            "nameEn": "Seung-Yeol Park",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "2기",
+            "periods": {
+                "ur": "2026-05-01 – 2026-11-30"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": "2025-03 -"
+                }
+            ],
+            "cohortName": "2nd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": []
+        },
+        {
+            "name": "박준태",
+            "nameEn": "Jun-Tae Park",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "2기",
+            "periods": {
+                "ur": "2026-05-01 – 2026-11-30"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": "2025-03 -"
+                }
+            ],
+            "cohortName": "2nd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": []
+        },
+        {
+            "name": "손형진",
+            "nameEn": "Hyung-Jin Son",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "2기",
+            "periods": {
+                "ur": "2026-05-01 – 2026-11-30"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": "2022-03 -"
+                }
+            ],
+            "cohortName": "2nd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": []
+        },
+        {
+            "name": "신동찬",
+            "nameEn": "Dong-Chan Shin",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "2기",
+            "periods": {
+                "ur": "2026-05-01 – 2026-11-30"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": "2025-03 -"
+                }
+            ],
+            "cohortName": "2nd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": []
+        },
+        {
+            "name": "신윤수",
+            "nameEn": "Yun-Su Shin",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "2기",
+            "periods": {
+                "ur": "2026-05-01 – 2026-11-30"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": "2022-03 -"
+                }
+            ],
+            "cohortName": "2nd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": []
+        },
+        {
+            "name": "유새봄",
+            "nameEn": "Sae-Bom Yoo",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "2기",
+            "periods": {
+                "ur": "2026-05-01 – 2026-11-30"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": "2025-03 -"
+                }
+            ],
+            "cohortName": "2nd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": []
+        },
+        {
+            "name": "이요셉",
+            "nameEn": "Yo-Sep Lee",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "2기",
+            "periods": {
+                "ur": "2026-05-01 – 2026-11-30"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": "2024-03 -"
+                }
+            ],
+            "cohortName": "2nd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": []
+        },
+        {
+            "name": "이은경",
+            "nameEn": "Eun-Kyung Lee",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "2기",
+            "periods": {
+                "ur": "2026-05-01 – 2026-11-30"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": "2024-03 -"
+                }
+            ],
+            "cohortName": "2nd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": []
+        },
+        {
+            "name": "강동희",
+            "nameEn": "Dong-Hee Kang",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "2기",
+            "periods": {
+                "ur": "2026-05-01 – 2026-11-30"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": "2024-03 -"
+                }
+            ],
+            "cohortName": "2nd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": []
+        },
+        {
+            "name": "강연수",
+            "nameEn": "Yeon-Su Kang",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "2기",
+            "periods": {
+                "ur": "2026-05-01 – 2026-11-30"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": "2023-03 -"
+                }
+            ],
+            "cohortName": "2nd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": []
+        },
+        {
+            "name": "최수민",
+            "nameEn": "Su-Min Choi",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "2기",
+            "periods": {
+                "ur": "2026-05-01 – 2026-11-30"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": "2025-03 -"
+                }
+            ],
+            "cohortName": "2nd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": []
+        },
+        {
+            "name": "최용환",
+            "nameEn": "Yong-Hwan Choi",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "2기",
+            "periods": {
+                "ur": "2026-05-01 – 2026-11-30"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": "2023-03 -"
+                }
+            ],
+            "cohortName": "2nd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": []
+        },
+        {
+            "name": "최정윤",
+            "nameEn": "Jeong-Yoon Choi",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "2기",
+            "periods": {
+                "ur": "2026-05-01 – 2026-11-30"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": "2025-03 -"
+                }
+            ],
+            "cohortName": "2nd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": []
+        },
+        {
+            "name": "홍정의",
+            "nameEn": "Jeong-Ui Hong",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "2기",
+            "periods": {
+                "ur": "2026-05-01 – 2026-11-30"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": "2025-03 -"
+                }
+            ],
+            "cohortName": "2nd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": []
+        },
+        {
+            "name": "황태원",
+            "nameEn": "Tae-Won Hwang",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "2기",
+            "periods": {
+                "ur": "2026-05-01 – 2026-11-30"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": "2023-03 -"
+                }
+            ],
+            "cohortName": "2nd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": []
+        }
+    ],
+    "sinceDate": "2025-06-14"
 }

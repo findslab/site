@@ -1,0 +1,39 @@
+{
+    "id": "csm1-undergrad",
+    "name": {
+        "ko": "최수민"
+    },
+    "degree": "undergrad",
+    "role": {
+        "ko": "Undergraduate Researcher",
+        "en": "Undergraduate Researcher"
+    },
+    "status": "active",
+    "avatar": "/site/images/members/CSM1.webp",
+    "cohort": "2nd Cohort (2026 Summer)",
+    "period": {
+        "start": "2026-05-01",
+        "end": "2026-11-30"
+    },
+    "contact": {
+        "email": ""
+    },
+    "research": {
+        "interests": [],
+        "project": {
+            "ko": "",
+            "en": ""
+        }
+    },
+    "education": [
+        {
+            "degree": "Undergraduate",
+            "field": "산업경영공학과",
+            "field_en": "Industrial and Management Systems Engineering",
+            "school": "경희대학교",
+            "school_en": "Kyung Hee University",
+            "expected": "Present",
+            "start": "2025-03"
+        }
+    ]
+}
