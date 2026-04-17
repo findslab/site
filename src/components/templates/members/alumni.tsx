@@ -30,10 +30,10 @@ const AlumniAvatar = ({ size = 'md' }: { size?: 'sm' | 'md' }) => {
 }
 
 // Alumni Photo component for expanded section - 3.5:4.5 ratio (PC only)
-const AlumniPhoto = ({ nameEn, baseUrl }: { nameEn?: string, baseUrl: string }) => {
+const AlumniPhoto = ({ nameEn, baseUrl, avatar }: { nameEn?: string, baseUrl: string, avatar?: string }) => {
   const [imgError, setImgError] = useState(false)
   const initials = getInitialsFromEnglishName(nameEn)
-  const imgPath = initials ? `${baseUrl}images/members/${initials}-1.webp` : ''
+  const imgPath = avatar ? `${baseUrl}images/members/${avatar}.webp` : (initials ? `${baseUrl}images/members/${initials}-1.webp` : '')
   
   if (!initials || imgError) return null
   
@@ -107,6 +107,7 @@ type AlumniMember = {
   thesis?: Record<string, Thesis>
   projects?: (string | { ko: string; en: string })[]
   company?: string
+  avatar?: string
 }
 
 type AlumniData = {
@@ -486,7 +487,7 @@ export const MembersAlumniTemplate = () => {
                 {phdExpanded && (
                   <>
                     {/* Desktop Table View */}
-                    <div className="hidden md:block overflow-x-auto rounded-2xl border border-gray-100">
+                    <div className="hidden md:block overflow-x-auto overflow-y-visible rounded-2xl border border-gray-100">
                       <table className="w-full min-w-[700px] table-fixed">
                         <thead>
                           <tr className="bg-gray-50/80">
@@ -691,7 +692,7 @@ export const MembersAlumniTemplate = () => {
                 {msExpanded && (
                   <>
                     {/* Desktop Table View */}
-                    <div className="hidden md:block overflow-x-auto rounded-2xl border border-gray-100">
+                    <div className="hidden md:block overflow-x-auto overflow-y-visible rounded-2xl border border-gray-100">
                       <table className="w-full min-w-[700px] table-fixed">
                         <thead>
                           <tr className="bg-gray-50/80">
@@ -896,7 +897,7 @@ export const MembersAlumniTemplate = () => {
                 {undergradExpanded && (
                   <>
                     {/* Desktop Table View */}
-                    <div className="hidden md:block overflow-x-auto rounded-2xl border border-gray-100">
+                    <div className="hidden md:block overflow-x-auto overflow-y-visible rounded-2xl border border-gray-100">
                       <table className="w-full min-w-[800px] table-fixed">
                         <thead>
                           <tr className="bg-gray-50/80">
@@ -990,7 +991,7 @@ export const MembersAlumniTemplate = () => {
                                     <td colSpan={5} className="py-16 px-16">
                                       <div className="ml-48 flex items-start gap-16 p-16 rounded-xl bg-white border border-gray-100">
                                         {/* Photo - 3.5:4.5 ratio */}
-                                        <AlumniPhoto nameEn={alumni.nameEn} baseUrl={baseUrl} />
+                                        <AlumniPhoto nameEn={alumni.nameEn} baseUrl={baseUrl} avatar={alumni.avatar} />
                                         <div className="flex-1 min-w-0">
                                           <div className="flex items-center gap-8 mb-10">
                                             <FileText size={14} className="shrink-0" style={{color: '#FFBAC4'}}/>
@@ -1064,7 +1065,7 @@ export const MembersAlumniTemplate = () => {
                               <div className="px-14 py-12 border-t border-gray-50">
                                 <div className="flex items-start gap-12 p-12 rounded-lg bg-gray-50 border border-gray-100">
                                   {/* Photo - 3.5:4.5 ratio */}
-                                  <AlumniPhoto nameEn={alumni.nameEn} baseUrl={baseUrl} />
+                                  <AlumniPhoto nameEn={alumni.nameEn} baseUrl={baseUrl} avatar={alumni.avatar} />
                                   <div className="flex-1 min-w-0">
                                     <div className="flex items-center gap-6 mb-8">
                                       <FileText size={12} className="shrink-0" style={{color: '#FFBAC4'}}/>

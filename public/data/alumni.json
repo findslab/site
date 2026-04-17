@@ -217,11 +217,9 @@
             "currentPosition": "재학생",
             "projects": [
                 "Deciphering the Impact of COVID-19 on Korean Sector ETFs: Insights from an ARIMAX and Granger Causality",
-                {
-                    "title": "[수료 시 표기]",
-                    "titleEn": "[To be updated upon completion]"
-                }
-            ]
+                "[수료 시 표기]"
+            ],
+            "avatar": "SKS-2"
         },
         {
             "name": "신정윤",
@@ -471,7 +469,8 @@
             "projects": [
                 "Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation",
                 "Metric-Based Technical Indicators for Yield Forecasting"
-            ]
+            ],
+            "avatar": "LSY-1"
         },
         {
             "name": "정유진",
@@ -606,10 +605,7 @@
             "cohortName": "1st Cohort (2025 Winter)",
             "currentPosition": "재학생",
             "projects": [
-                {
-                    "ko": "K-방산 리스크에 따른 주가 동조화 분석",
-                    "en": "An Analysis of Stock Price Synchronization Based on K-Defense Risk"
-                }
+                ""
             ]
         },
         {
@@ -636,10 +632,7 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                {
-                    "title": "[수료 시 표기]",
-                    "titleEn": "[To be updated upon completion]"
-                }
+                "[수료 시 표기]"
             ]
         },
         {
@@ -666,11 +659,9 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                {
-                    "title": "[수료 시 표기]",
-                    "titleEn": "[To be updated upon completion]"
-                }
-            ]
+                "[수료 시 표기]"
+            ],
+            "avatar": "KDW-1"
         },
         {
             "name": "김동완",
@@ -696,11 +687,9 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                {
-                    "title": "[수료 시 표기]",
-                    "titleEn": "[To be updated upon completion]"
-                }
-            ]
+                "[수료 시 표기]"
+            ],
+            "avatar": "KDW-2"
         },
         {
             "name": "김민균",
@@ -726,11 +715,9 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                {
-                    "title": "[수료 시 표기]",
-                    "titleEn": "[To be updated upon completion]"
-                }
-            ]
+                "[수료 시 표기]"
+            ],
+            "avatar": "KMG-1"
         },
         {
             "name": "김상연",
@@ -756,11 +743,9 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                {
-                    "title": "[수료 시 표기]",
-                    "titleEn": "[To be updated upon completion]"
-                }
-            ]
+                "[수료 시 표기]"
+            ],
+            "avatar": "KSY-2"
         },
         {
             "name": "김정진",
@@ -786,11 +771,9 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                {
-                    "title": "[수료 시 표기]",
-                    "titleEn": "[To be updated upon completion]"
-                }
-            ]
+                "[수료 시 표기]"
+            ],
+            "avatar": "KJJ-1"
         },
         {
             "name": "김현수",
@@ -816,11 +799,9 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                {
-                    "title": "[수료 시 표기]",
-                    "titleEn": "[To be updated upon completion]"
-                }
-            ]
+                "[수료 시 표기]"
+            ],
+            "avatar": "KHS-2"
         },
         {
             "name": "김효은",
@@ -846,11 +827,9 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                {
-                    "title": "[수료 시 표기]",
-                    "titleEn": "[To be updated upon completion]"
-                }
-            ]
+                "[수료 시 표기]"
+            ],
+            "avatar": "KHE-1"
         },
         {
             "name": "박세윤",
@@ -876,11 +855,9 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                {
-                    "title": "[수료 시 표기]",
-                    "titleEn": "[To be updated upon completion]"
-                }
-            ]
+                "[수료 시 표기]"
+            ],
+            "avatar": "PSY-3"
         },
         {
             "name": "박승열",
@@ -906,11 +883,9 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                {
-                    "title": "[수료 시 표기]",
-                    "titleEn": "[To be updated upon completion]"
-                }
-            ]
+                "[수료 시 표기]"
+            ],
+            "avatar": "PSY-2"
         },
         {
             "name": "박준태",
@@ -936,10 +911,7 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                {
-                    "title": "[수료 시 표기]",
-                    "titleEn": "[To be updated upon completion]"
-                }
+                "[수료 시 표기]"
             ]
         },
         {
@@ -966,11 +938,9 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                {
-                    "title": "[수료 시 표기]",
-                    "titleEn": "[To be updated upon completion]"
-                }
-            ]
+                "[수료 시 표기]"
+            ],
+            "avatar": "SHJ-1"
         },
         {
             "name": "신동찬",
@@ -996,10 +966,7 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                {
-                    "title": "[수료 시 표기]",
-                    "titleEn": "[To be updated upon completion]"
-                }
+                "[수료 시 표기]"
             ]
         },
         {
@@ -1026,11 +993,9 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                {
-                    "title": "[수료 시 표기]",
-                    "titleEn": "[To be updated upon completion]"
-                }
-            ]
+                "[수료 시 표기]"
+            ],
+            "avatar": "SYS-1"
         },
         {
             "name": "유새봄",
@@ -1056,11 +1021,9 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                {
-                    "title": "[수료 시 표기]",
-                    "titleEn": "[To be updated upon completion]"
-                }
-            ]
+                "[수료 시 표기]"
+            ],
+            "avatar": "YSB-1"
         },
         {
             "name": "이요셉",
@@ -1086,11 +1049,9 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                {
-                    "title": "[수료 시 표기]",
-                    "titleEn": "[To be updated upon completion]"
-                }
-            ]
+                "[수료 시 표기]"
+            ],
+            "avatar": "LYS-2"
         },
         {
             "name": "이은경",
@@ -1116,11 +1077,9 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                {
-                    "title": "[수료 시 표기]",
-                    "titleEn": "[To be updated upon completion]"
-                }
-            ]
+                "[수료 시 표기]"
+            ],
+            "avatar": "LEK-1"
         },
         {
             "name": "강동희",
@@ -1146,11 +1105,9 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                {
-                    "title": "[수료 시 표기]",
-                    "titleEn": "[To be updated upon completion]"
-                }
-            ]
+                "[수료 시 표기]"
+            ],
+            "avatar": "KDH-2"
         },
         {
             "name": "강연수",
@@ -1176,11 +1133,9 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                {
-                    "title": "[수료 시 표기]",
-                    "titleEn": "[To be updated upon completion]"
-                }
-            ]
+                "[수료 시 표기]"
+            ],
+            "avatar": "KYS-1"
         },
         {
             "name": "최수민",
@@ -1206,11 +1161,9 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                {
-                    "title": "[수료 시 표기]",
-                    "titleEn": "[To be updated upon completion]"
-                }
-            ]
+                "[수료 시 표기]"
+            ],
+            "avatar": "CSM-1"
         },
         {
             "name": "최용환",
@@ -1236,11 +1189,9 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                {
-                    "title": "[수료 시 표기]",
-                    "titleEn": "[To be updated upon completion]"
-                }
-            ]
+                "[수료 시 표기]"
+            ],
+            "avatar": "CYH-1"
         },
         {
             "name": "최정윤",
@@ -1266,11 +1217,9 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                {
-                    "title": "[수료 시 표기]",
-                    "titleEn": "[To be updated upon completion]"
-                }
-            ]
+                "[수료 시 표기]"
+            ],
+            "avatar": "CJY-2"
         },
         {
             "name": "홍정의",
@@ -1296,11 +1245,9 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                {
-                    "title": "[수료 시 표기]",
-                    "titleEn": "[To be updated upon completion]"
-                }
-            ]
+                "[수료 시 표기]"
+            ],
+            "avatar": "HJY-1"
         },
         {
             "name": "황태원",
@@ -1326,11 +1273,9 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                {
-                    "title": "[수료 시 표기]",
-                    "titleEn": "[To be updated upon completion]"
-                }
-            ]
+                "[수료 시 표기]"
+            ],
+            "avatar": "HTW-1"
         }
     ],
     "sinceDate": "2025-06-14"
