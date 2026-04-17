@@ -216,7 +216,11 @@
             "cohortName": "1st Cohort (2025 Winter), 2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                "Deciphering the Impact of COVID-19 on Korean Sector ETFs: Insights from an ARIMAX and Granger Causality"
+                "Deciphering the Impact of COVID-19 on Korean Sector ETFs: Insights from an ARIMAX and Granger Causality",
+                {
+                    "title": "[수료 시 표기]",
+                    "titleEn": "[To be updated upon completion]"
+                }
             ]
         },
         {
@@ -631,7 +635,12 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": []
+            "projects": [
+                {
+                    "title": "[수료 시 표기]",
+                    "titleEn": "[To be updated upon completion]"
+                }
+            ]
         },
         {
             "name": "김동우",
@@ -656,7 +665,12 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": []
+            "projects": [
+                {
+                    "title": "[수료 시 표기]",
+                    "titleEn": "[To be updated upon completion]"
+                }
+            ]
         },
         {
             "name": "김동완",
@@ -681,7 +695,12 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": []
+            "projects": [
+                {
+                    "title": "[수료 시 표기]",
+                    "titleEn": "[To be updated upon completion]"
+                }
+            ]
         },
         {
             "name": "김민균",
@@ -706,7 +725,12 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": []
+            "projects": [
+                {
+                    "title": "[수료 시 표기]",
+                    "titleEn": "[To be updated upon completion]"
+                }
+            ]
         },
         {
             "name": "김상연",
@@ -731,7 +755,12 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": []
+            "projects": [
+                {
+                    "title": "[수료 시 표기]",
+                    "titleEn": "[To be updated upon completion]"
+                }
+            ]
         },
         {
             "name": "김정진",
@@ -756,7 +785,12 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": []
+            "projects": [
+                {
+                    "title": "[수료 시 표기]",
+                    "titleEn": "[To be updated upon completion]"
+                }
+            ]
         },
         {
             "name": "김현수",
@@ -781,7 +815,12 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": []
+            "projects": [
+                {
+                    "title": "[수료 시 표기]",
+                    "titleEn": "[To be updated upon completion]"
+                }
+            ]
         },
         {
             "name": "김효은",
@@ -806,7 +845,12 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": []
+            "projects": [
+                {
+                    "title": "[수료 시 표기]",
+                    "titleEn": "[To be updated upon completion]"
+                }
+            ]
         },
         {
             "name": "박세윤",
@@ -831,7 +875,12 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": []
+            "projects": [
+                {
+                    "title": "[수료 시 표기]",
+                    "titleEn": "[To be updated upon completion]"
+                }
+            ]
         },
         {
             "name": "박승열",
@@ -856,7 +905,12 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": []
+            "projects": [
+                {
+                    "title": "[수료 시 표기]",
+                    "titleEn": "[To be updated upon completion]"
+                }
+            ]
         },
         {
             "name": "박준태",
@@ -881,7 +935,12 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": []
+            "projects": [
+                {
+                    "title": "[수료 시 표기]",
+                    "titleEn": "[To be updated upon completion]"
+                }
+            ]
         },
         {
             "name": "손형진",
@@ -906,7 +965,12 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": []
+            "projects": [
+                {
+                    "title": "[수료 시 표기]",
+                    "titleEn": "[To be updated upon completion]"
+                }
+            ]
         },
         {
             "name": "신동찬",
@@ -931,7 +995,12 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": []
+            "projects": [
+                {
+                    "title": "[수료 시 표기]",
+                    "titleEn": "[To be updated upon completion]"
+                }
+            ]
         },
         {
             "name": "신윤수",
@@ -956,7 +1025,12 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": []
+            "projects": [
+                {
+                    "title": "[수료 시 표기]",
+                    "titleEn": "[To be updated upon completion]"
+                }
+            ]
         },
         {
             "name": "유새봄",
@@ -981,7 +1055,12 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": []
+            "projects": [
+                {
+                    "title": "[수료 시 표기]",
+                    "titleEn": "[To be updated upon completion]"
+                }
+            ]
         },
         {
             "name": "이요셉",
@@ -1006,7 +1085,12 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": []
+            "projects": [
+                {
+                    "title": "[수료 시 표기]",
+                    "titleEn": "[To be updated upon completion]"
+                }
+            ]
         },
         {
             "name": "이은경",
@@ -1031,7 +1115,12 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": []
+            "projects": [
+                {
+                    "title": "[수료 시 표기]",
+                    "titleEn": "[To be updated upon completion]"
+                }
+            ]
         },
         {
             "name": "강동희",
@@ -1056,7 +1145,12 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": []
+            "projects": [
+                {
+                    "title": "[수료 시 표기]",
+                    "titleEn": "[To be updated upon completion]"
+                }
+            ]
         },
         {
             "name": "강연수",
@@ -1081,7 +1175,12 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": []
+            "projects": [
+                {
+                    "title": "[수료 시 표기]",
+                    "titleEn": "[To be updated upon completion]"
+                }
+            ]
         },
         {
             "name": "최수민",
@@ -1106,7 +1205,12 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": []
+            "projects": [
+                {
+                    "title": "[수료 시 표기]",
+                    "titleEn": "[To be updated upon completion]"
+                }
+            ]
         },
         {
             "name": "최용환",
@@ -1131,7 +1235,12 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": []
+            "projects": [
+                {
+                    "title": "[수료 시 표기]",
+                    "titleEn": "[To be updated upon completion]"
+                }
+            ]
         },
         {
             "name": "최정윤",
@@ -1156,7 +1265,12 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": []
+            "projects": [
+                {
+                    "title": "[수료 시 표기]",
+                    "titleEn": "[To be updated upon completion]"
+                }
+            ]
         },
         {
             "name": "홍정의",
@@ -1181,7 +1295,12 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": []
+            "projects": [
+                {
+                    "title": "[수료 시 표기]",
+                    "titleEn": "[To be updated upon completion]"
+                }
+            ]
         },
         {
             "name": "황태원",
@@ -1206,7 +1325,12 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": []
+            "projects": [
+                {
+                    "title": "[수료 시 표기]",
+                    "titleEn": "[To be updated upon completion]"
+                }
+            ]
         }
     ],
     "sinceDate": "2025-06-14"
