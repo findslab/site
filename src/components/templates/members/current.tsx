@@ -511,21 +511,7 @@ export const MembersCurrentTemplate = () => {
                             </div>
                           </div>
 
-                          {member.research.interests.length > 0 && (
-                            <div className="mt-12 md:mt-[16px]">
-                              <p className="text-[10px] md:text-[12px] text-gray-500 mb-6 md:mb-[8px]">Research Interests</p>
-                              <div className="flex flex-wrap gap-4 md:gap-[6px]">
-                                {member.research.interests.slice(0, 4).map((interest, idx) => (
-                                  <span
-                                    key={idx}
-                                    className="px-8 md:px-[10px] py-[3px] md:py-[4px] bg-gray-100 rounded-full text-[10px] md:text-xs text-gray-600"
-                                  >
-                                    {interest}
-                                  </span>
-                                ))}
-                              </div>
-                            </div>
-                          )}
+                          {/* Research interests hidden from card - visible in profile page */}
 
                           <div className="mt-12 md:mt-[16px] pt-12 md:pt-[16px] border-t border-gray-100 flex items-center gap-8 md:gap-[12px]">
                             {member.contact.email && (
