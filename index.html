@@ -38,21 +38,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Nanum+Pen+Script&display=swap" rel="stylesheet"/>
     <title>FINDS Lab - 가천대학교 경영대학 금융·빅데이터학부 빅데이터경영전공 금융데이터인텔리전스 연구실</title>
-    <script type="module" crossorigin src="/site/assets/index-C2h8A32X.js"></script>
+    <script type="module" crossorigin src="/site/assets/index-BuzZZwas.js"></script>
     <link rel="modulepreload" crossorigin href="/site/assets/vendor-CCJnzKah.js">
     <link rel="modulepreload" crossorigin href="/site/assets/query-Bq8WcfNt.js">
     <link rel="modulepreload" crossorigin href="/site/assets/ui-yT2AlJxB.js">
-    <link rel="stylesheet" crossorigin href="/site/assets/index-Bya8WLvI.css">
+    <link rel="stylesheet" crossorigin href="/site/assets/index-Cvzdejsc.css">
   </head>
   <body>
     <div id="root"></div>
     <script>
       // GitHub Pages SPA 라우팅 처리 - 404.html에서 저장한 경로로 이동
       (function() {
-        const redirectPath = sessionStorage.getItem('redirectPath');
+        var redirectPath = sessionStorage.getItem('redirectPath');
         if (redirectPath) {
           sessionStorage.removeItem('redirectPath');
-          window.history.replaceState(null, '', redirectPath);
+          var host = window.location.hostname;
+          var isGitHubPages = host.endsWith('.github.io');
+          var basePath = isGitHubPages ? '/site' : '';
+          window.history.replaceState(null, '', basePath + redirectPath);
         }
       })();
     </script>
