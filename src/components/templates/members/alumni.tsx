@@ -487,7 +487,7 @@ export const MembersAlumniTemplate = () => {
                 {phdExpanded && (
                   <>
                     {/* Desktop Table View */}
-                    <div className="hidden md:block overflow-x-auto overflow-y-visible rounded-2xl border border-gray-100">
+                    <div className="hidden md:block overflow-hidden rounded-2xl border border-gray-100">
                       <table className="w-full min-w-[700px] table-fixed">
                         <thead>
                           <tr className="bg-gray-50/80">
@@ -692,7 +692,7 @@ export const MembersAlumniTemplate = () => {
                 {msExpanded && (
                   <>
                     {/* Desktop Table View */}
-                    <div className="hidden md:block overflow-x-auto overflow-y-visible rounded-2xl border border-gray-100">
+                    <div className="hidden md:block overflow-hidden rounded-2xl border border-gray-100">
                       <table className="w-full min-w-[700px] table-fixed">
                         <thead>
                           <tr className="bg-gray-50/80">
@@ -897,7 +897,7 @@ export const MembersAlumniTemplate = () => {
                 {undergradExpanded && (
                   <>
                     {/* Desktop Table View */}
-                    <div className="hidden md:block overflow-x-auto overflow-y-visible rounded-2xl border border-gray-100">
+                    <div className="hidden md:block overflow-hidden rounded-2xl border border-gray-100">
                       <table className="w-full min-w-[800px] table-fixed">
                         <thead>
                           <tr className="bg-gray-50/80">

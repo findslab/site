@@ -44,10 +44,13 @@
     <script>
       // GitHub Pages SPA 라우팅 처리 - 404.html에서 저장한 경로로 이동
       (function() {
-        const redirectPath = sessionStorage.getItem('redirectPath');
+        var redirectPath = sessionStorage.getItem('redirectPath');
         if (redirectPath) {
           sessionStorage.removeItem('redirectPath');
-          window.history.replaceState(null, '', redirectPath);
+          var host = window.location.hostname;
+          var isGitHubPages = host.endsWith('.github.io');
+          var basePath = isGitHubPages ? '/site' : '';
+          window.history.replaceState(null, '', basePath + redirectPath);
         }
       })();
     </script>
