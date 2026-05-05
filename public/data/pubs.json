@@ -5,6 +5,138 @@
         "code_label": "J",
         "published_date": "2026-05-31",
         "year": 2026,
+        "title": "Efficient Computation of Lead-Lag Signature Features for Financial Time Series Forecasting",
+        "title_ko": "",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "Journal of Forecasting",
+        "venue_ko": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "10.1002/for.70176",
+        "language": "English",
+        "awards": 0,
+        "citations": {
+            "apa": "Choi, I. (2026). Efficient computation of lead-lag signature features for financial time series forecasting. Journal of Forecasting. https://doi.org/10.1002/for.70176",
+            "mla": "Choi, Insu. \"Efficient Computation of Lead-Lag Signature Features for Financial Time Series Forecasting.\" Journal of Forecasting (2026). https://doi.org/10.1002/for.70176",
+            "chicago": "Choi, Insu. \"Efficient Computation of Lead-Lag Signature Features for Financial Time Series Forecasting.\" Journal of Forecasting (2026). https://doi.org/10.1002/for.70176",
+            "harvard": "Choi, I. (2026) 'Efficient computation of lead-lag signature features for financial time series forecasting', Journal of Forecasting. doi: 10.1002/for.70176.",
+            "vancouver": "Choi I. Efficient computation of lead-lag signature features for financial time series forecasting. Journal of Forecasting. 2026. doi: 10.1002/for.70176.",
+            "korean": "Choi, I. (2026). Efficient computation of lead-lag signature features for financial time series forecasting. Journal of Forecasting. https://doi.org/10.1002/for.70176",
+            "bibtex": "@article{choi2026leadlag,\n  title = {{Efficient Computation of Lead-Lag Signature Features for Financial Time Series Forecasting}},\n  author = {Choi, Insu},\n  journal = {Journal of Forecasting},\n  year = {2026},\n  doi = {10.1002/for.70176}\n}"
+        }
+    },
+    {
+        "type": "journal",
+        "indexing_group": "KCI",
+        "code_label": "J",
+        "published_date": "2026-05-31",
+        "year": 2026,
+        "title": "Structural Change Analysis of K-Defense Stock Correlation Networks in Response to Geopolitical Events",
+        "title_ko": "지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석",
+        "authors": [
+            156,
+            1
+        ],
+        "author_marks": [
+            "1",
+            "1,*"
+        ],
+        "venue": "Journal of Industrial Convergence",
+        "venue_ko": "산업융합연구",
+        "volume": "24",
+        "issue": "5",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "하승민, 최인수. (2026). 지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석. 산업융합연구, 24(5).",
+            "mla": "하승민, 최인수. \"지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석.\" 산업융합연구 24.5 (2026).",
+            "chicago": "하승민, 최인수. \"지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석.\" 산업융합연구 24, no. 5 (2026).",
+            "harvard": "하승민, 최인수 (2026) '지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석', 산업융합연구, 24(5).",
+            "vancouver": "Ha SM, Choi I. 지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석. 산업융합연구. 2026;24(5).",
+            "korean": "하승민, 최인수. (2026). 지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석. 산업융합연구, 24(5).",
+            "bibtex": "@article{ha2026kdefense,\n  title = {{지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석}},\n  author = {Ha, Seung-Min and Choi, Insu},\n  journal = {산업융합연구},\n  volume = {24},\n  number = {5},\n  year = {2026}\n}"
+        }
+    },
+    {
+        "type": "journal",
+        "indexing_group": "KCI",
+        "code_label": "J",
+        "published_date": "2026-06-30",
+        "year": 2026,
+        "title": "Dynamic Analysis of Directional Spillover Networks Between Oceanian and Asian Stock Markets Based on TVP-VAR",
+        "title_ko": "TVP-VAR 기반 오세아니아 및 아시아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석",
+        "authors": [
+            40,
+            1
+        ],
+        "author_marks": [
+            "1",
+            "1,*"
+        ],
+        "venue": "Korean Management Science Review",
+        "venue_ko": "경영과학",
+        "volume": "43",
+        "issue": "2",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "장소은, 최인수. (2026). TVP-VAR 기반 오세아니아 및 아시아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석. 경영과학, 43(2).",
+            "mla": "장소은, 최인수. \"TVP-VAR 기반 오세아니아 및 아시아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석.\" 경영과학 43.2 (2026).",
+            "chicago": "장소은, 최인수. \"TVP-VAR 기반 오세아니아 및 아시아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석.\" 경영과학 43, no. 2 (2026).",
+            "harvard": "장소은, 최인수 (2026) 'TVP-VAR 기반 오세아니아 및 아시아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석', 경영과학, 43(2).",
+            "vancouver": "Jang S, Choi I. TVP-VAR 기반 오세아니아 및 아시아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석. 경영과학. 2026;43(2).",
+            "korean": "장소은, 최인수. (2026). TVP-VAR 기반 오세아니아 및 아시아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석. 경영과학, 43(2).",
+            "bibtex": "@article{jang2026tvpvar,\n  title = {{TVP-VAR 기반 오세아니아 및 아시아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석}},\n  author = {Jang, Soeun and Choi, Insu},\n  journal = {경영과학},\n  volume = {43},\n  number = {2},\n  year = {2026}\n}"
+        }
+    },
+    {
+        "type": "journal",
+        "indexing_group": "KCI",
+        "code_label": "J",
+        "published_date": "2026-08-31",
+        "year": 2026,
+        "title": "Analyzing Diversification Effects of Graph-Based Asset Selection",
+        "title_ko": "그래프 기반 자산선택의 분산효과 분석",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "Korean Management Review",
+        "venue_ko": "경영학연구",
+        "volume": "55",
+        "issue": "4",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "최인수. (2026). 그래프 기반 자산선택의 분산효과 분석. 경영학연구, 55(4).",
+            "mla": "최인수. \"그래프 기반 자산선택의 분산효과 분석.\" 경영학연구 55.4 (2026).",
+            "chicago": "최인수. \"그래프 기반 자산선택의 분산효과 분석.\" 경영학연구 55, no. 4 (2026).",
+            "harvard": "최인수 (2026) '그래프 기반 자산선택의 분산효과 분석', 경영학연구, 55(4).",
+            "vancouver": "Choi I. 그래프 기반 자산선택의 분산효과 분석. 경영학연구. 2026;55(4).",
+            "korean": "최인수. (2026). 그래프 기반 자산선택의 분산효과 분석. 경영학연구, 55(4).",
+            "bibtex": "@article{choi2026graph,\n  title = {{그래프 기반 자산선택의 분산효과 분석}},\n  author = {Choi, Insu},\n  journal = {Korean Management Review},\n  volume = {55},\n  number = {4},\n  year = {2026}\n}"
+        }
+    },
+    {
+        "type": "journal",
+        "indexing_group": "SSCI",
+        "code_label": "J",
+        "published_date": "2026-05-31",
+        "year": 2026,
         "title": "Regime-Dependent Savings Retention Across Emerging Markets — Rolling-Window Adaptive Elastic Net Evidence from a Cross-Country Panel",
         "title_ko": "",
         "authors": [
@@ -67,7 +199,7 @@
         "type": "journal",
         "indexing_group": "SCIE",
         "code_label": "J",
-        "published_date": "2026-04-30",
+        "published_date": "2026-04-29",
         "year": 2026,
         "title": "Asymmetric and Time-Varying Lag Structures in Bitcoin's Kimchi Premium: Rolling-Window Evidence from Granger Causality and Transfer Entropy",
         "title_ko": "",
@@ -79,20 +211,20 @@
         ],
         "venue": "Mathematics",
         "venue_ko": "",
-        "volume": "",
-        "issue": "",
-        "pages": "",
-        "doi": "",
+        "volume": "14",
+        "issue": "9",
+        "pages": "1501",
+        "doi": "10.3390/math14091501",
         "language": "English",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I. (2026). Asymmetric and Time-Varying Lag Structures in Bitcoin's Kimchi Premium: Rolling-Window Evidence from Granger Causality and Transfer Entropy. Mathematics.",
-            "mla": "Insu Choi. \"Asymmetric and Time-Varying Lag Structures in Bitcoin's Kimchi Premium: Rolling-Window Evidence from Granger Causality and Transfer Entropy.\" Mathematics (2026).",
-            "chicago": "Insu Choi. \"Asymmetric and Time-Varying Lag Structures in Bitcoin's Kimchi Premium: Rolling-Window Evidence from Granger Causality and Transfer Entropy.\" Mathematics (2026).",
-            "harvard": "Choi, I. (2026) 'asymmetric and time-varying lag structures in bitcoin's kimchi premium: rolling-window evidence from granger causality and transfer entropy', Mathematics.",
-            "vancouver": "Choi I. Asymmetric and Time-Varying Lag Structures in Bitcoin's Kimchi Premium: Rolling-Window Evidence from Granger Causality and Transfer Entropy. Mathematics. 2026.",
-            "korean": "최인수. (2026). Asymmetric and Time-Varying Lag Structures in Bitcoin's Kimchi Premium: Rolling-Window Evidence from Granger Causality and Transfer Entropy. Mathematics.",
-            "bibtex": "@article{choi2026asymmetric,\n  title = {{Asymmetric and Time-Varying Lag Structures in Bitcoin's Kimchi Premium: Rolling-Window Evidence from Granger Causality and Transfer Entropy}},\n  author = {Insu Choi},\n  journal = {Mathematics},\n  year = {2026}\n}"
+            "apa": "Choi, I. (2026). Asymmetric and time-varying lag structures in Bitcoin's Kimchi Premium: Rolling-window evidence from Granger causality and transfer entropy. Mathematics, 14(9), 1501.",
+            "mla": "Choi, Insu. \"Asymmetric and Time-Varying Lag Structures in Bitcoin's Kimchi Premium: Rolling-Window Evidence from Granger Causality and Transfer Entropy.\" Mathematics 14.9 (2026): 1501.",
+            "chicago": "Choi, Insu. \"Asymmetric and Time-Varying Lag Structures in Bitcoin's Kimchi Premium: Rolling-Window Evidence from Granger Causality and Transfer Entropy.\" Mathematics 14, no. 9 (2026): 1501.",
+            "harvard": "Choi, I. (2026) 'Asymmetric and time-varying lag structures in Bitcoin's Kimchi Premium: Rolling-window evidence from Granger causality and transfer entropy', Mathematics, 14(9), p. 1501.",
+            "vancouver": "Choi I. Asymmetric and time-varying lag structures in Bitcoin's Kimchi Premium: Rolling-window evidence from Granger causality and transfer entropy. Mathematics. 2026;14(9):1501.",
+            "korean": "Choi, I. (2026). Asymmetric and time-varying lag structures in Bitcoin's Kimchi Premium: Rolling-window evidence from Granger causality and transfer entropy. Mathematics, 14(9), 1501.",
+            "bibtex": "@article{choi2026kimchi,\n  title = {{Asymmetric and Time-Varying Lag Structures in Bitcoin's Kimchi Premium: Rolling-Window Evidence from Granger Causality and Transfer Entropy}},\n  author = {Choi, Insu},\n  journal = {Mathematics},\n  volume = {14},\n  number = {9},\n  pages = {1501},\n  year = {2026},\n  doi = {10.3390/math14091501}\n}"
         }
     },
     {
