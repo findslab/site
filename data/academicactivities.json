@@ -702,6 +702,16 @@
             "type": "SCIE",
             "since": "2026-04-08",
             "url": "https://www.frontiersin.org/journals/computer-science"
+        },
+        {
+            "id": 77,
+            "category": "chair",
+            "name": "2026 Spring Conference of the Korean Institute of Intelligent Systems, Poster Session FA-P1",
+            "name_ko": "2026 한국지능시스템학회 춘계학술대회, 포스터세션 FA-P1",
+            "publisher": "Korean Institute of Intelligent Systems (KIIS)",
+            "type": "Session Chair",
+            "period": "2026-05-15",
+            "url": ""
         }
     ]
 }
