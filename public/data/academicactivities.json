@@ -722,6 +722,16 @@
             "type": "Session Chair",
             "period": "2026-05-28",
             "url": ""
+        },
+        {
+            "id": 79,
+            "category": "chair",
+            "name": "2026 Spring Joint Conference of Management Information Systems Associations H2 Session",
+            "name_ko": "2026 경영정보관련 학회 춘계통합학술대회 H2 세션",
+            "publisher": "Management Information Systems Associations",
+            "type": "Session Chair",
+            "period": "2026-06-05",
+            "url": ""
         }
     ]
 }
