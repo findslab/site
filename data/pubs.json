@@ -74,12 +74,12 @@
         "title": "Dynamic Analysis of Directional Spillover Networks Between Oceanian and Asian Stock Markets Based on TVP-VAR",
         "title_ko": "TVP-VAR 기반 오세아니아 및 아시아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석",
         "authors": [
-            1,
-            40
+            40,
+            1
         ],
         "author_marks": [
-            "1,*",
-            "2"
+            "1",
+            "*"
         ],
         "venue": "Korean Management Science Review",
         "venue_ko": "경영과학",
