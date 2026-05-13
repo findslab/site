@@ -712,6 +712,16 @@
             "type": "Session Chair",
             "period": "2026-05-15",
             "url": ""
+        },
+        {
+            "id": 78,
+            "category": "chair",
+            "name": "2026 Spring Conference of the Korea Intelligent Information Systems Society, Session K2",
+            "name_ko": "2026 한국지능정보시스템학회 춘계학술대회, K2 세션",
+            "publisher": "Korea Intelligent Information Systems Society (KIISS)",
+            "type": "Session Chair",
+            "period": "2026-05-28",
+            "url": ""
         }
     ]
 }
