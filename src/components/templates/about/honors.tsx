@@ -509,7 +509,11 @@ export const AboutHonorsTemplate = () => {
                                 {item.winners.map((winner, idx) => (
                                   <span
                                     key={idx}
-                                    className="px-8 md:px-[10px] py-3 md:py-[4px] bg-gray-100 rounded-full text-[10px] md:text-[12px] text-gray-700 font-semibold"
+                                    className={`px-8 md:px-[10px] py-3 md:py-[4px] rounded-full text-[10px] md:text-[12px] font-semibold ${
+                                      winner.name === '최인수' || winner.name === 'Insu Choi'
+                                        ? 'bg-[#D6B14D]/15 text-[#D6B14D]'
+                                        : 'bg-gray-100 text-gray-700'
+                                    }`}
                                   >
                                     {winner.name}
                                   </span>
