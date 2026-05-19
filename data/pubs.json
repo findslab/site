@@ -1,6 +1,70 @@
 [
     {
         "type": "journal",
+        "indexing_group": "SCIE",
+        "code_label": "J",
+        "published_date": "2026-05-25",
+        "year": 2026,
+        "title": "Wasserstein Distance-Based Feature Engineering for Enhancing Forecasting and Asset Allocation Insights",
+        "title_ko": "",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "International Journal of Computational Intelligence Systems",
+        "venue_ko": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "English",
+        "awards": 0,
+        "citations": {
+            "apa": "Choi, I. (2026). Wasserstein distance-based feature engineering for enhancing forecasting and asset allocation insights. International Journal of Computational Intelligence Systems.",
+            "mla": "Choi, Insu. \"Wasserstein Distance-Based Feature Engineering for Enhancing Forecasting and Asset Allocation Insights.\" International Journal of Computational Intelligence Systems (2026).",
+            "chicago": "Choi, Insu. \"Wasserstein Distance-Based Feature Engineering for Enhancing Forecasting and Asset Allocation Insights.\" International Journal of Computational Intelligence Systems (2026).",
+            "harvard": "Choi, I. (2026) 'Wasserstein distance-based feature engineering for enhancing forecasting and asset allocation insights', International Journal of Computational Intelligence Systems.",
+            "vancouver": "Choi I. Wasserstein distance-based feature engineering for enhancing forecasting and asset allocation insights. International Journal of Computational Intelligence Systems. 2026.",
+            "korean": "Choi, I. (2026). Wasserstein distance-based feature engineering for enhancing forecasting and asset allocation insights. International Journal of Computational Intelligence Systems.",
+            "bibtex": "@article{choi2026wasserstein,\n  title = {{Wasserstein Distance-Based Feature Engineering for Enhancing Forecasting and Asset Allocation Insights}},\n  author = {Choi, Insu},\n  journal = {International Journal of Computational Intelligence Systems},\n  year = {2026}\n}"
+        }
+    },
+    {
+        "type": "journal",
+        "indexing_group": "SSCI",
+        "code_label": "J",
+        "published_date": "2026-06-01",
+        "year": 2026,
+        "title": "Strong Clustering and Weak Barriers at Round Numbers in Bitcoin Markets",
+        "title_ko": "",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "Research in International Business and Finance",
+        "venue_ko": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "English",
+        "awards": 0,
+        "citations": {
+            "apa": "Choi, I. (2026). Strong clustering and weak barriers at round numbers in Bitcoin markets. Research in International Business and Finance.",
+            "mla": "Choi, Insu. \"Strong Clustering and Weak Barriers at Round Numbers in Bitcoin Markets.\" Research in International Business and Finance (2026).",
+            "chicago": "Choi, Insu. \"Strong Clustering and Weak Barriers at Round Numbers in Bitcoin Markets.\" Research in International Business and Finance (2026).",
+            "harvard": "Choi, I. (2026) 'Strong clustering and weak barriers at round numbers in Bitcoin markets', Research in International Business and Finance.",
+            "vancouver": "Choi I. Strong clustering and weak barriers at round numbers in Bitcoin markets. Research in International Business and Finance. 2026.",
+            "korean": "Choi, I. (2026). Strong clustering and weak barriers at round numbers in Bitcoin markets. Research in International Business and Finance.",
+            "bibtex": "@article{choi2026clustering,\n  title = {{Strong Clustering and Weak Barriers at Round Numbers in Bitcoin Markets}},\n  author = {Choi, Insu},\n  journal = {Research in International Business and Finance},\n  year = {2026}\n}"
+        }
+    },
+    {
+        "type": "journal",
         "indexing_group": "SSCI",
         "code_label": "J",
         "published_date": "2026-05-31",
