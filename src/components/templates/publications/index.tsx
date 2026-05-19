@@ -1187,9 +1187,9 @@ export const PublicationsTemplate = () => {
                                         {/* Row 2: Oral/Poster */}
                                         {pub.presentation_type && (
                                           <div className={`w-full py-3 text-center rounded-md ${
-                                            pub.presentation_type === 'oral' ? 'bg-[#D6B14D]/10 border border-[#D6B14D]/30' : 'bg-[#D6C360]/10 border border-[#D6C360]/30'
+                                            pub.presentation_type === 'oral' ? 'bg-[#FFBAC4]/20 border border-[#FFBAC4]/40' : 'bg-[#FFE4E9]/60 border border-[#FFE4E9]'
                                           }`}>
-                                            <span className="text-[9px] font-bold" style={{color: pub.presentation_type === 'oral' ? '#D6B14D' : '#D6C360'}}>
+                                            <span className="text-[9px] font-bold" style={{color: pub.presentation_type === 'oral' ? '#C41E3A' : '#E8889C'}}>
                                               {pub.presentation_type === 'oral' ? 'Oral' : 'Poster'}
                                             </span>
                                           </div>
