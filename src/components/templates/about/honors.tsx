@@ -512,6 +512,8 @@ export const AboutHonorsTemplate = () => {
                                     className={`px-8 md:px-[10px] py-3 md:py-[4px] rounded-full text-[10px] md:text-[12px] font-semibold ${
                                       winner.name === '최인수' || winner.name === 'Insu Choi'
                                         ? 'bg-[#D6B14D]/15 text-[#D6B14D]'
+                                        : winner.level === 'lab_intern'
+                                        ? 'bg-[#E8889C]/15 text-[#E8889C]'
                                         : 'bg-gray-100 text-gray-700'
                                     }`}
                                   >

@@ -6838,7 +6838,6 @@
         ],
         "venue": "2026 Spring Conference of the Korean Data and Information Science Society",
         "venue_ko": "2026 한국데이터정보과학회 춘계학술논문발표회",
-        "presentation": "oral",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -6853,7 +6852,8 @@
             "vancouver": "Choi I. A Literature Review on Statistical Reliability Assessment of Investment Strategies. 2026 Spring Conference of the Korean Data and Information Science Society. 2026.",
             "korean": "최인수. (2026). 투자전략의 통계적 신뢰성 평가에 관한 문헌 고찰. 2026 한국데이터정보과학회 춘계학술논문발표회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{A Literature Review on Statistical Reliability Assessment of Investment Strategies}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korean Data and Information Science Society},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "oral"
     },
     {
         "type": "conference",
@@ -6877,7 +6877,6 @@
         ],
         "venue": "2026 Spring Conference of the Korean Data and Information Science Society",
         "venue_ko": "2026 한국데이터정보과학회 춘계학술논문발표회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -6892,7 +6891,8 @@
             "vancouver": "Ahn H Lee TK Lim S Choi I. Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation. 2026 Spring Conference of the Korean Data and Information Science Society. 2026.",
             "korean": "안형민, 이태경, 임소영, 최인수. (2026). 대규모 언어 모형을 활용한 동적 위험 예산 배분: 맥락 인식 적응형 포트폴리오 배분 프레임워크. 2026 한국데이터정보과학회 춘계학술논문발표회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation}},\n  author = {Hyungmin Ahn, Tae Kyoung Lee, Soyoung Lim, and Insu Choi},\n  booktitle = {2026 Spring Conference of the Korean Data and Information Science Society},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -6910,7 +6910,6 @@
         ],
         "venue": "2026 Spring Conference of the Korean Institute of Intelligent Systems",
         "venue_ko": "2026 한국지능시스템학회 춘계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -6925,7 +6924,8 @@
             "vancouver": "Choi I. Conditional Effectiveness of Time-Series Image Encoding for Volatility Forecasting: An Empirical Analysis of Multiple Visual Representations and Deep Learning Fusion Models. 2026 Spring Conference of the Korean Institute of Intelligent Systems. 2026.",
             "korean": "최인수. (2026). 시계열 이미지 인코딩 기반 변동성 예측의 조건부 유효성: 다중 시각화 표현과 딥러닝 융합 모델의 실증 분석. 2026 한국지능시스템학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Conditional Effectiveness of Time-Series Image Encoding for Volatility Forecasting: An Empirical Analysis of Multiple Visual Representations and Deep Learning Fusion Models}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korean Institute of Intelligent Systems},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -6943,7 +6943,6 @@
         ],
         "venue": "2026 Spring Conference of the Korean Institute of Intelligent Systems",
         "venue_ko": "2026 한국지능시스템학회 춘계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -6958,7 +6957,8 @@
             "vancouver": "Choi I. Efficient Estimation of Granger Causality Networks Using Partial-Correlation-Based Vectorization Algorithms with Financial Market Applications. 2026 Spring Conference of the Korean Institute of Intelligent Systems. 2026.",
             "korean": "최인수. (2026). 편상관 기반 벡터화 알고리즘을 활용한 그레인저 인과 네트워크의 효율적 추정과 금융시장 응용. 2026 한국지능시스템학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Efficient Estimation of Granger Causality Networks Using Partial-Correlation-Based Vectorization Algorithms with Financial Market Applications}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korean Institute of Intelligent Systems},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -6976,7 +6976,6 @@
         ],
         "venue": "2026 Spring Conference of the Korean Institute of Intelligent Systems",
         "venue_ko": "2026 한국지능시스템학회 춘계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -6991,7 +6990,8 @@
             "vancouver": "Choi I. Analyzing Information Flow Structures Across Global Equity Markets via Transfer Entropy and Convergent Cross Mapping. 2026 Spring Conference of the Korean Institute of Intelligent Systems. 2026.",
             "korean": "최인수. (2026). 전이 엔트로피와 수렴교차사상을 활용한 글로벌 주식시장 간 정보 흐름 구조 분석. 2026 한국지능시스템학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Analyzing Information Flow Structures Across Global Equity Markets via Transfer Entropy and Convergent Cross Mapping}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korean Institute of Intelligent Systems},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -7009,7 +7009,6 @@
         ],
         "venue": "2026 Spring Conference of the Korean Institute of Intelligent Systems",
         "venue_ko": "2026 한국지능시스템학회 춘계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7024,7 +7023,8 @@
             "vancouver": "Choi I. A Literature Review on Transparency and Fairness in Financial Machine Learning. 2026 Spring Conference of the Korean Institute of Intelligent Systems. 2026.",
             "korean": "최인수. (2026). 금융 기계학습의 투명성과 공정성에 대한 문헌 고찰. 2026 한국지능시스템학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{A Literature Review on Transparency and Fairness in Financial Machine Learning}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korean Institute of Intelligent Systems},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -7042,7 +7042,6 @@
         ],
         "venue": "2026 Spring Conference of the Korean Institute of Intelligent Systems",
         "venue_ko": "2026 한국지능시스템학회 춘계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7057,7 +7056,8 @@
             "vancouver": "Choi I. Financial Market Regime Identification Through Competing Stochastic Process Model Comparison. 2026 Spring Conference of the Korean Institute of Intelligent Systems. 2026.",
             "korean": "최인수. (2026). 경쟁 확률과정 모형 비교를 통한 금융 시장 국면 식별. 2026 한국지능시스템학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Financial Market Regime Identification Through Competing Stochastic Process Model Comparison}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korean Institute of Intelligent Systems},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -7075,7 +7075,6 @@
         ],
         "venue": "2026 Spring Conference of the Korean Institute of Intelligent Systems",
         "venue_ko": "2026 한국지능시스템학회 춘계학술대회",
-        "presentation": "oral",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7090,7 +7089,8 @@
             "vancouver": "Choi I. Network Structure Analysis of Price Leadership and Information Spillovers Across Global Energy Futures Markets. 2026 Spring Conference of the Korean Institute of Intelligent Systems. 2026.",
             "korean": "최인수. (2026). 글로벌 에너지 선물시장 간 가격 선도 관계와 정보 파급의 네트워크 구조 분석. 2026 한국지능시스템학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Network Structure Analysis of Price Leadership and Information Spillovers Across Global Energy Futures Markets}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korean Institute of Intelligent Systems},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "oral"
     },
     {
         "type": "conference",
@@ -7108,7 +7108,6 @@
         ],
         "venue": "2026 Spring Conference of the Korean Society for Career and Entrepreneurship Management",
         "venue_ko": "2026 한국진로창업경영학회 춘계학술대회",
-        "presentation": "oral",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7123,7 +7122,8 @@
             "vancouver": "Choi I. Information Transmission Analysis of Volatility Magnitude Between Global AI Infrastructure Markets and KOSPI. 2026 Spring Conference of the Korean Society for Career and Entrepreneurship Management. 2026.",
             "korean": "최인수. (2026). 글로벌 AI 인프라 시장과 KOSPI 간의 변동성 크기의 정보 전이 분석. 2026 한국진로창업경영학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Information Transmission Analysis of Volatility Magnitude Between Global AI Infrastructure Markets and KOSPI}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korean Society for Career and Entrepreneurship Management},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "oral"
     },
     {
         "type": "conference",
@@ -7141,7 +7141,6 @@
         ],
         "venue": "2026 Spring Conference of the Korea Intelligent Information Systems Society",
         "venue_ko": "2026 한국지능정보시스템학회 춘계학술대회",
-        "presentation": "oral",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7156,7 +7155,8 @@
             "vancouver": "Choi I. Analyzing Multi-Scale Tail-Risk Transmission in Global AI Equity Markets Using Wavelet-Based Effective Rényi Transfer Entropy. 2026 Spring Conference of the Korea Intelligent Information Systems Society. 2026.",
             "korean": "최인수. (2026). 웨이블릿 분해 기반 유효 레니 전이 엔트로피를 활용한 글로벌 AI 주식시장의 다중 스케일 꼬리위험 전이 구조 분석. 2026 한국지능정보시스템학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Analyzing Multi-Scale Tail-Risk Transmission in Global AI Equity Markets Using Wavelet-Based Effective Rényi Transfer Entropy}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korea Intelligent Information Systems Society},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "oral"
     },
     {
         "type": "conference",
@@ -7174,7 +7174,6 @@
         ],
         "venue": "2026 Spring Conference of the Korea IT Service Society",
         "venue_ko": "2026 한국IT서비스학회 춘계학술대회",
-        "presentation": "oral",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7189,7 +7188,8 @@
             "vancouver": "Choi I. Improving Financial Time Series Trading Strategy Performance Using Curriculum Learning-Based Signal Processing. 2026 Spring Conference of the Korea IT Service Society. 2026.",
             "korean": "최인수. (2026). 커리큘럼 학습 기반 신호 처리를 활용한 금융 시계열 트레이딩 전략의 성과 개선. 2026 한국IT서비스학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Improving Financial Time Series Trading Strategy Performance Using Curriculum Learning-Based Signal Processing}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korea IT Service Society},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "oral"
     },
     {
         "type": "conference",
@@ -7207,7 +7207,6 @@
         ],
         "venue": "2026 Spring Conference of the Korean Society of Industrial Information Systems",
         "venue_ko": "2026 한국산업정보학회 춘계학술대회",
-        "presentation": "oral",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7222,7 +7221,8 @@
             "vancouver": "Choi I. Persistent Price Discrepancies in the Korean Financial Market Centered on Precious Metals and Bitcoin. 2026 Spring Conference of the Korean Society of Industrial Information Systems. 2026.",
             "korean": "최인수. (2026). 귀금속과 비트코인을 중심으로 한 한국 금융시장의 지속적 가격 괴리 현상. 2026 한국산업정보학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Persistent Price Discrepancies in the Korean Financial Market Centered on Precious Metals and Bitcoin}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korean Society of Industrial Information Systems},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "oral"
     },
     {
         "type": "conference",
@@ -7240,7 +7240,6 @@
         ],
         "venue": "2026 Spring Conference of the Korean Society of Industrial Information Systems",
         "venue_ko": "2026 한국산업정보학회 춘계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7255,7 +7254,8 @@
             "vancouver": "Choi I. Identifying Linear and Nonlinear Information Transfer Mechanisms in Agricultural Futures Markets Conditional on Inflation. 2026 Spring Conference of the Korean Society of Industrial Information Systems. 2026.",
             "korean": "최인수. (2026). 인플레이션 조건부 농산물 선물시장의 선형·비선형 정보 전이 메커니즘 식별. 2026 한국산업정보학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Identifying Linear and Nonlinear Information Transfer Mechanisms in Agricultural Futures Markets Conditional on Inflation}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korean Society of Industrial Information Systems},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -7273,7 +7273,6 @@
         ],
         "venue": "2026 Spring Conference of the Korean Society of Industrial Information Systems",
         "venue_ko": "2026 한국산업정보학회 춘계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7288,7 +7287,8 @@
             "vancouver": "Choi I. Failure Factors in Deep Learning-Based Calendar Effect Detection and Regime-Dependent Market Inefficiency Analysis from an Explainable AI Perspective. 2026 Spring Conference of the Korean Society of Industrial Information Systems. 2026.",
             "korean": "최인수. (2026). 설명 가능 인공지능 관점에서 본 딥러닝 기반 달력 효과 포착 실패 요인과 국면 의존 시장 비효율성 분석. 2026 한국산업정보학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Failure Factors in Deep Learning-Based Calendar Effect Detection and Regime-Dependent Market Inefficiency Analysis from an Explainable AI Perspective}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korean Society of Industrial Information Systems},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -7306,7 +7306,6 @@
         ],
         "venue": "2026 Spring Conference of the Korean Society of Industrial Information Systems",
         "venue_ko": "2026 한국산업정보학회 춘계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7321,7 +7320,8 @@
             "vancouver": "Choi I. Performance Analysis of Financial Return Direction Prediction Combining Learnable Activation Functions with Linear-Nonlinear Hybrid Decomposition. 2026 Spring Conference of the Korean Society of Industrial Information Systems. 2026.",
             "korean": "최인수. (2026). 학습 가능 활성화 함수와 선형-비선형 혼합 분해를 결합한 금융 수익률 방향 예측 성과 분석. 2026 한국산업정보학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Performance Analysis of Financial Return Direction Prediction Combining Learnable Activation Functions with Linear-Nonlinear Hybrid Decomposition}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korean Society of Industrial Information Systems},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -7339,7 +7339,6 @@
         ],
         "venue": "2026 Spring Conference of the Korean Society of Industrial Information Systems",
         "venue_ko": "2026 한국산업정보학회 춘계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7354,7 +7353,8 @@
             "vancouver": "Choi I. Limits of Portfolio Diversification Under Extreme Tail Dependence. 2026 Spring Conference of the Korean Society of Industrial Information Systems. 2026.",
             "korean": "최인수. (2026). 극단적 꼬리 의존성 하에서 포트폴리오 분산 효과의 한계. 2026 한국산업정보학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Limits of Portfolio Diversification Under Extreme Tail Dependence}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korean Society of Industrial Information Systems},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -7372,7 +7372,6 @@
         ],
         "venue": "2026 Spring Conference of the Korean Society of Industrial Information Systems",
         "venue_ko": "2026 한국산업정보학회 춘계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7387,7 +7386,8 @@
             "vancouver": "Choi I. Empirical Analysis of Regime-Specific Capital Mobility and the Feldstein-Horioka Puzzle in Emerging Markets Using Rolling-Window Adaptive Elastic Net. 2026 Spring Conference of the Korean Society of Industrial Information Systems. 2026.",
             "korean": "최인수. (2026). 이동창 기반 적응적 엘라스틱넷을 활용한 신흥시장의 국면별 자본이동성과 펠드스타인-호리오카 퍼즐 실증 분석. 2026 한국산업정보학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Empirical Analysis of Regime-Specific Capital Mobility and the Feldstein-Horioka Puzzle in Emerging Markets Using Rolling-Window Adaptive Elastic Net}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korean Society of Industrial Information Systems},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -7407,7 +7407,6 @@
         ],
         "venue": "2026 Spring Conference of the Society of Korea Industrial and Systems Engineering",
         "venue_ko": "2026 한국산업경영시스템학회 춘계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7422,7 +7421,8 @@
             "vancouver": "Kim KH Choi I. Structural Sensitivity of CVaR-Based Portfolio Optimization: How Stress Scenario Specification Affects Optimal Allocation. 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering. 2026.",
             "korean": "김강현, 최인수. (2026). CVaR 기반 포트폴리오 최적화의 구조적 민감도 분석: 스트레스 시나리오 설정이 최적 배분에 미치는 영향. 2026 한국산업경영시스템학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Structural Sensitivity of CVaR-Based Portfolio Optimization: How Stress Scenario Specification Affects Optimal Allocation}},\n  author = {Kang Hyun Kim, and Insu Choi},\n  booktitle = {2026 Spring Conference of the Society of Korea Industrial and Systems Engineering},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -7442,7 +7442,6 @@
         ],
         "venue": "2026 Spring Conference of the Society of Korea Industrial and Systems Engineering",
         "venue_ko": "2026 한국산업경영시스템학회 춘계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7457,7 +7456,8 @@
             "vancouver": "Choi M Choi I. Uncertainty Propagation and Information Flow Between Maritime Logistics Cost Indices and the Korean Capital Market. 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering. 2026.",
             "korean": "최문혁, 최인수. (2026). 해상 물류 비용 지표와 한국 자본시장 간 불확실성 전파와 정보 흐름 분석. 2026 한국산업경영시스템학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Uncertainty Propagation and Information Flow Between Maritime Logistics Cost Indices and the Korean Capital Market}},\n  author = {Mun-Hyeok Choi, and Insu Choi},\n  booktitle = {2026 Spring Conference of the Society of Korea Industrial and Systems Engineering},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -7477,7 +7477,6 @@
         ],
         "venue": "2026 Spring Conference of the Society of Korea Industrial and Systems Engineering",
         "venue_ko": "2026 한국산업경영시스템학회 춘계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7492,7 +7491,8 @@
             "vancouver": "Yeonhu K Choi I. Comparing Tail Risk Spillover Structures in Global Equity Markets: A VaR Versus CVaR Network Approach. 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering. 2026.",
             "korean": "김연후, 최인수. (2026). VaR 네트워크와 CVaR 네트워크를 활용한 글로벌 주식시장 꼬리 위험 전이 구조 비교. 2026 한국산업경영시스템학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Comparing Tail Risk Spillover Structures in Global Equity Markets: A VaR Versus CVaR Network Approach}},\n  author = {Kim Yeonhu, and Insu Choi},\n  booktitle = {2026 Spring Conference of the Society of Korea Industrial and Systems Engineering},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -7512,7 +7512,6 @@
         ],
         "venue": "2026 Spring Conference of the Society of Korea Industrial and Systems Engineering",
         "venue_ko": "2026 한국산업경영시스템학회 춘계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7527,7 +7526,8 @@
             "vancouver": "Seung-Min H Choi I. Constructing a Stock Price Network of Korean Defense Industry Firms. 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering. 2026.",
             "korean": "하승민, 최인수. (2026). 국내 방위산업 주식의 주가 네트워크 구축. 2026 한국산업경영시스템학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Constructing a Stock Price Network of Korean Defense Industry Firms}},\n  author = {Ha Seung-Min, and Insu Choi},\n  booktitle = {2026 Spring Conference of the Society of Korea Industrial and Systems Engineering},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -7547,7 +7547,6 @@
         ],
         "venue": "2026 Spring Conference of the Society of Korea Industrial and Systems Engineering",
         "venue_ko": "2026 한국산업경영시스템학회 춘계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7562,7 +7561,8 @@
             "vancouver": "Choi J Choi I. Evaluating Prediction-Driven Trading Strategies in Sector ETFs: A Comparison of Machine Learning and Time-Series Models. 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering. 2026.",
             "korean": "최진우, 최인수. (2026). 섹터 ETF 시장에서 예측 기반 매매 전략 평가: 기계학습과 시계열 모형의 비교. 2026 한국산업경영시스템학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Evaluating Prediction-Driven Trading Strategies in Sector ETFs: A Comparison of Machine Learning and Time-Series Models}},\n  author = {Jeenu Choi, and Insu Choi},\n  booktitle = {2026 Spring Conference of the Society of Korea Industrial and Systems Engineering},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -7582,7 +7582,6 @@
         ],
         "venue": "2026 Spring Conference of the Society of Korea Industrial and Systems Engineering",
         "venue_ko": "2026 한국산업경영시스템학회 춘계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7597,7 +7596,8 @@
             "vancouver": "Ko H Choi I. Predicting Stock Price Direction with Technical Indicators and Statistical Significance Testing. 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering. 2026.",
             "korean": "고현우, 최인수. (2026). 기술적 분석 지표를 활용한 주가 변동 방향 예측과 통계적 유의성 검증. 2026 한국산업경영시스템학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Predicting Stock Price Direction with Technical Indicators and Statistical Significance Testing}},\n  author = {Hyunwoo Ko, and Insu Choi},\n  booktitle = {2026 Spring Conference of the Society of Korea Industrial and Systems Engineering},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -7615,7 +7615,6 @@
         ],
         "venue": "2026 Spring Conference of the Society of Korea Industrial and Systems Engineering",
         "venue_ko": "2026 한국산업경영시스템학회 춘계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7630,7 +7629,8 @@
             "vancouver": "Choi I. Geometric Triangle Centers as Features for Financial Time Series Prediction: Theoretical Foundations and Empirical Validation. 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering. 2026.",
             "korean": "최인수. (2026). 기하학적 삼각형 중심점을 활용한 금융 시계열 예측 특징량의 이론적 기반과 실증 검증. 2026 한국산업경영시스템학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Geometric Triangle Centers as Features for Financial Time Series Prediction: Theoretical Foundations and Empirical Validation}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Society of Korea Industrial and Systems Engineering},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -7648,7 +7648,6 @@
         ],
         "venue": "2026 Summer Conference of the Korea Institute of Information Technology",
         "venue_ko": "2026 한국정보기술학회 하계종합학술대회",
-        "presentation": "oral",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7663,7 +7662,8 @@
             "vancouver": "Choi I. Measuring Topological Complexity in Financial Time Series: A Langton's Ant Approach on Gramian Angular Fields. 2026 Summer Conference of the Korea Institute of Information Technology. 2026.",
             "korean": "최인수. (2026). 그래미안 각도장 기반 랭턴 개미 접근법을 활용한 금융 시계열의 위상 복잡도 측정. 2026 한국정보기술학회 하계종합학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Measuring Topological Complexity in Financial Time Series: A Langton's Ant Approach on Gramian Angular Fields}},\n  author = {Insu Choi},\n  booktitle = {2026 Summer Conference of the Korea Institute of Information Technology},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "oral"
     },
     {
         "type": "conference",
@@ -7681,7 +7681,6 @@
         ],
         "venue": "2026 Summer Conference of the Korea Institute of Information Technology",
         "venue_ko": "2026 한국정보기술학회 하계종합학술대회",
-        "presentation": "oral",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7696,7 +7695,8 @@
             "vancouver": "Choi I. Adaptive Target Learning in Financial Time Series Classification via Differentiable Reward-Aligned Labeling. 2026 Summer Conference of the Korea Institute of Information Technology. 2026.",
             "korean": "최인수. (2026). 미분 가능 보상 정합 레이블링 기반 금융 시계열 분류의 적응적 예측 대상 학습. 2026 한국정보기술학회 하계종합학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Adaptive Target Learning in Financial Time Series Classification via Differentiable Reward-Aligned Labeling}},\n  author = {Insu Choi},\n  booktitle = {2026 Summer Conference of the Korea Institute of Information Technology},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "oral"
     },
     {
         "type": "conference",
@@ -7714,7 +7714,6 @@
         ],
         "venue": "2026 Summer Conference of the Korea Institute of Information Technology",
         "venue_ko": "2026 한국정보기술학회 하계종합학술대회",
-        "presentation": "oral",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7729,7 +7728,8 @@
             "vancouver": "Choi I. Spontaneous Feature Extraction from Nonstationary Financial Signals via Cellular Automata and Hilbert Space-Filling Curves. 2026 Summer Conference of the Korea Institute of Information Technology. 2026.",
             "korean": "최인수. (2026). 셀룰러 오토마타 역학과 힐베르트 공간충전 곡선을 활용한 비정상 금융 신호의 자발적 특징 추출. 2026 한국정보기술학회 하계종합학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Spontaneous Feature Extraction from Nonstationary Financial Signals via Cellular Automata and Hilbert Space-Filling Curves}},\n  author = {Insu Choi},\n  booktitle = {2026 Summer Conference of the Korea Institute of Information Technology},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "oral"
     },
     {
         "type": "conference",
@@ -7747,7 +7747,6 @@
         ],
         "venue": "2026 Summer Conference of the Korea Institute of Information Technology",
         "venue_ko": "2026 한국정보기술학회 하계종합학술대회",
-        "presentation": "oral",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7762,7 +7761,8 @@
             "vancouver": "Choi I. Persistence of Calendar Effects in the Korean Stock Market: Evidence from Ensemble Machine Learning Models. 2026 Summer Conference of the Korea Institute of Information Technology. 2026.",
             "korean": "최인수. (2026). 다중 기계학습 모형을 활용한 한국 주식시장 달력 효과의 지속성 검증. 2026 한국정보기술학회 하계종합학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Persistence of Calendar Effects in the Korean Stock Market: Evidence from Ensemble Machine Learning Models}},\n  author = {Insu Choi},\n  booktitle = {2026 Summer Conference of the Korea Institute of Information Technology},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "oral"
     },
     {
         "type": "conference",
@@ -7780,7 +7780,6 @@
         ],
         "venue": "2026 Spring Joint Conference of Management Information Systems Associations",
         "venue_ko": "2026 경영정보관련 학회 춘계통합학술대회",
-        "presentation": "oral",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7795,7 +7794,8 @@
             "vancouver": "Choi I. Strong Clustering and Weak Barriers at Round Numbers in Bitcoin Markets. 2026 Spring Joint Conference of Management Information Systems Associations. 2026.",
             "korean": "최인수. (2026). 암호화폐 시장 심리적 가격대의 군집 현상과 지지 효과에 관한 실증 분석. 2026 경영정보관련 학회 춘계통합학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Strong Clustering and Weak Barriers at Round Numbers in Bitcoin Markets}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Joint Conference of Management Information Systems Associations},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "oral"
     },
     {
         "type": "conference",
@@ -7813,7 +7813,6 @@
         ],
         "venue": "2026 Spring Joint Conference of KIIE, KORMS, and KSS",
         "venue_ko": "2026 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7828,7 +7827,8 @@
             "vancouver": "Choi I. Simulation-Based Analysis of Capital Efficiency in Fractional Share Investing. 2026 Spring Joint Conference of KIIE, KORMS, and KSS. 2026.",
             "korean": "최인수. (2026). 소수점 투자의 자본 효율성에 관한 모의실험 기반 분석. 2026 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Simulation-Based Analysis of Capital Efficiency in Fractional Share Investing}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Joint Conference of KIIE, KORMS, and KSS},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -7848,7 +7848,6 @@
         ],
         "venue": "2026 Spring Joint Conference of KIIE, KORMS, and KSS",
         "venue_ko": "2026 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7863,7 +7862,8 @@
             "vancouver": "Yuseop L Choi I. Enhancing Backtest Reliability Through Time-Series Resampling Techniques. 2026 Spring Joint Conference of KIIE, KORMS, and KSS. 2026.",
             "korean": "이유섭, 최인수. (2026). 시계열 재표본 기법을 활용한 모의검증 신뢰도 제고 방안. 2026 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Enhancing Backtest Reliability Through Time-Series Resampling Techniques}},\n  author = {Lee Yuseop, and Insu Choi},\n  booktitle = {2026 Spring Joint Conference of KIIE, KORMS, and KSS},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -7883,7 +7883,6 @@
         ],
         "venue": "2026 Spring Joint Conference of KIIE, KORMS, and KSS",
         "venue_ko": "2026 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7898,7 +7897,8 @@
             "vancouver": "Lee C Choi I. Survival Analysis and Early Warning Model for Café Businesses in Seoul Metropolitan Area. 2026 Spring Joint Conference of KIIE, KORMS, and KSS. 2026.",
             "korean": "이채은, 최인수. (2026). 서울특별시 카페 상권의 생존 분석과 폐업 조기경보 모형. 2026 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Survival Analysis and Early Warning Model for Café Businesses in Seoul Metropolitan Area}},\n  author = {Chae-Eun Lee, and Insu Choi},\n  booktitle = {2026 Spring Joint Conference of KIIE, KORMS, and KSS},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -7916,7 +7916,6 @@
         ],
         "venue": "2026 Spring Joint Conference of KIIE, KORMS, and KSS",
         "venue_ko": "2026 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회",
-        "presentation": "oral",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7931,7 +7930,8 @@
             "vancouver": "Choi I. Topological Structure, Contagion Pathways, and Measurement Methodologies in Financial Networks: A Survey on Systemic Risk and Macroprudential Policy. 2026 Spring Joint Conference of KIIE, KORMS, and KSS. 2026.",
             "korean": "최인수. (2026). 금융 네트워크의 위상 구조·전염 경로·측정 방법론 동향: 체계적 위험과 거시건전성 정책을 중심으로. 2026 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Topological Structure, Contagion Pathways, and Measurement Methodologies in Financial Networks: A Survey on Systemic Risk and Macroprudential Policy}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Joint Conference of KIIE, KORMS, and KSS},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "oral"
     },
     {
         "type": "conference",
@@ -7949,7 +7949,6 @@
         ],
         "venue": "2026 Spring Joint Conference of KIIE, KORMS, and KSS",
         "venue_ko": "2026 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -7964,7 +7963,8 @@
             "vancouver": "Choi I. A Literature Review on the Effects of Cognitive, Emotional, and Social Behavioral Biases of Individual Investors on Investment Performance. 2026 Spring Joint Conference of KIIE, KORMS, and KSS. 2026.",
             "korean": "최인수. (2026). 개인 투자자의 인지적·정서적·사회적 행동 편향이 투자 성과에 미치는 영향에 관한 문헌 연구. 2026 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{A Literature Review on the Effects of Cognitive, Emotional, and Social Behavioral Biases of Individual Investors on Investment Performance}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Joint Conference of KIIE, KORMS, and KSS},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -7988,7 +7988,6 @@
         ],
         "venue": "2026 Spring Joint Conference of KIIE, KORMS, and KSS",
         "venue_ko": "2026 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8003,7 +8002,8 @@
             "vancouver": "Kim D Kim J Yang D Choi I. Multimodal Quality Risk Quantification and Modality Contribution Analysis Framework. 2026 Spring Joint Conference of KIIE, KORMS, and KSS. 2026.",
             "korean": "김다인, 김재엽, 양동훈, 최인수. (2026). 멀티모달 품질 리스크 정량화 및 모달리티 기여도 분석 프레임워크. 2026 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Multimodal Quality Risk Quantification and Modality Contribution Analysis Framework}},\n  author = {Dain Kim, Jaeyeob Kim, Donghoon Yang, and Insu Choi},\n  booktitle = {2026 Spring Joint Conference of KIIE, KORMS, and KSS},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -8021,7 +8021,6 @@
         ],
         "venue": "2026 Spring Joint Conference of KIIE, KORMS, and KSS",
         "venue_ko": "2026 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회",
-        "presentation": "oral",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8036,7 +8035,8 @@
             "vancouver": "Choi I. A Systematic Literature Review on Data-Driven Modeling of Financial Dependence Structures. 2026 Spring Joint Conference of KIIE, KORMS, and KSS. 2026.",
             "korean": "최인수. (2026). 금융 의존 구조의 데이터 기반 모형화에 관한 체계적 문헌 고찰. 2026 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{A Systematic Literature Review on Data-Driven Modeling of Financial Dependence Structures}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Joint Conference of KIIE, KORMS, and KSS},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "oral"
     },
     {
         "type": "conference",
@@ -8056,7 +8056,6 @@
         ],
         "venue": "2026 Spring Joint Conference of KIIE, KORMS, and KSS",
         "venue_ko": "2026 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8071,7 +8070,8 @@
             "vancouver": "Lee SJ Choi I. Asymmetric Effects of Big Data Sentiment Index and Public Attention on Stock Returns. 2026 Spring Joint Conference of KIIE, KORMS, and KSS. 2026.",
             "korean": "이성준, 최인수. (2026). 빅데이터 심리지수(NSI)와 대중 관심(SVI)의 상호작용이 주식 수익률에 미치는 비대칭적 영향. 2026 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Asymmetric Effects of Big Data Sentiment Index and Public Attention on Stock Returns}},\n  author = {Sung Jun Lee, and Insu Choi},\n  booktitle = {2026 Spring Joint Conference of KIIE, KORMS, and KSS},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -8089,7 +8089,6 @@
         ],
         "venue": "2026 Spring Conference of the Korean Academic Society of Business Administration",
         "venue_ko": "2026 대한경영학회 춘계학술대회",
-        "presentation": "oral",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8104,7 +8103,8 @@
             "vancouver": "Choi I. Correlation-Aware Graph Sparsification for Multivariate Time-Series Forecasting Using Graph Neural Networks. 2026 Spring Conference of the Korean Academic Society of Business Administration. 2026.",
             "korean": "최인수. (2026). 그래프 신경망 기반 다변량 시계열 예측을 위한 상관구조 인식 그래프 희소화 기법. 2026 대한경영학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Correlation-Aware Graph Sparsification for Multivariate Time-Series Forecasting Using Graph Neural Networks}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korean Academic Society of Business Administration},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "oral"
     },
     {
         "type": "conference",
@@ -8122,7 +8122,6 @@
         ],
         "venue": "2026 Summer Conference of the Korean Data Analysis Society",
         "venue_ko": "2026 한국자료분석학회 하계학술논문발표대회",
-        "presentation": "oral",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8137,7 +8136,8 @@
             "vancouver": "Choi I. Market Microstructure Analysis of Information, Volume, and Volatility in the Korean Stock Market. 2026 Summer Conference of the Korean Data Analysis Society. 2026.",
             "korean": "최인수. (2026). 한국 주식시장의 정보·거래량·변동성에 관한 시장 미시구조 분석. 2026 한국자료분석학회 하계학술논문발표대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Market Microstructure Analysis of Information, Volume, and Volatility in the Korean Stock Market}},\n  author = {Insu Choi},\n  booktitle = {2026 Summer Conference of the Korean Data Analysis Society},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "oral"
     },
     {
         "type": "conference",
@@ -8155,7 +8155,6 @@
         ],
         "venue": "2026 Summer Conference of the Korean Data Analysis Society",
         "venue_ko": "2026 한국자료분석학회 하계학술논문발표대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8170,7 +8169,8 @@
             "vancouver": "Choi I. Threshold Regression Analysis of Credit Supply Conditions and Housing Finance Accessibility in Korea. 2026 Summer Conference of the Korean Data Analysis Society. 2026.",
             "korean": "최인수. (2026). 신용공급 여건과 한국 주택금융 접근성의 임계 회귀 분석. 2026 한국자료분석학회 하계학술논문발표대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Threshold Regression Analysis of Credit Supply Conditions and Housing Finance Accessibility in Korea}},\n  author = {Insu Choi},\n  booktitle = {2026 Summer Conference of the Korean Data Analysis Society},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -8188,7 +8188,6 @@
         ],
         "venue": "2026 Summer Conference of the Korean Data Analysis Society",
         "venue_ko": "2026 한국자료분석학회 하계학술논문발표대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8203,7 +8202,8 @@
             "vancouver": "Choi I. Multi-Asset Empirical Analysis of Return Differentials Between Dollar-Cost Averaging and Lump-Sum Investing. 2026 Summer Conference of the Korean Data Analysis Society. 2026.",
             "korean": "최인수. (2026). 분할매수와 일시매수의 수익 격차에 관한 다중자산 실증 분석. 2026 한국자료분석학회 하계학술논문발표대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Multi-Asset Empirical Analysis of Return Differentials Between Dollar-Cost Averaging and Lump-Sum Investing}},\n  author = {Insu Choi},\n  booktitle = {2026 Summer Conference of the Korean Data Analysis Society},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -8221,7 +8221,6 @@
         ],
         "venue": "2026 Summer Conference of the Korean Data Analysis Society",
         "venue_ko": "2026 한국자료분석학회 하계학술논문발표대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8236,7 +8235,8 @@
             "vancouver": "Choi I. A Systematic Review of User Experience in Data-Driven Financial Services. 2026 Summer Conference of the Korean Data Analysis Society. 2026.",
             "korean": "최인수. (2026). 데이터 기반 금융서비스 사용자 경험에 관한 체계적 고찰. 2026 한국자료분석학회 하계학술논문발표대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{A Systematic Review of User Experience in Data-Driven Financial Services}},\n  author = {Insu Choi},\n  booktitle = {2026 Summer Conference of the Korean Data Analysis Society},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -8254,7 +8254,6 @@
         ],
         "venue": "2026 Summer Conference of the Korean Data Analysis Society",
         "venue_ko": "2026 한국자료분석학회 하계학술논문발표대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8269,7 +8268,8 @@
             "vancouver": "Choi I. A Scoping Review of Irrational Financial Decision-Making in the Digital Era. 2026 Summer Conference of the Korean Data Analysis Society. 2026.",
             "korean": "최인수. (2026). 디지털 시대 금융 의사결정 비합리성에 관한 주제범위 검토. 2026 한국자료분석학회 하계학술논문발표대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{A Scoping Review of Irrational Financial Decision-Making in the Digital Era}},\n  author = {Insu Choi},\n  booktitle = {2026 Summer Conference of the Korean Data Analysis Society},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -8287,7 +8287,6 @@
         ],
         "venue": "2026 Summer Conference of the Korean Data Analysis Society",
         "venue_ko": "2026 한국자료분석학회 하계학술논문발표대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8302,7 +8301,8 @@
             "vancouver": "Choi I. An Integrative Review of Security Threats and Regulatory Governance in Digital Financial Markets. 2026 Summer Conference of the Korean Data Analysis Society. 2026.",
             "korean": "최인수. (2026). 디지털 금융시장 보안 위협과 규제 거버넌스에 관한 통합적 검토. 2026 한국자료분석학회 하계학술논문발표대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{An Integrative Review of Security Threats and Regulatory Governance in Digital Financial Markets}},\n  author = {Insu Choi},\n  booktitle = {2026 Summer Conference of the Korean Data Analysis Society},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -8320,7 +8320,6 @@
         ],
         "venue": "2026 Summer Conference of the Korea Society of Computer Information",
         "venue_ko": "2026 한국컴퓨터정보학회 하계학술대회",
-        "presentation": "oral",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8335,7 +8334,8 @@
             "vancouver": "Choi I. Market Segmentation and Cross-Asset Premium Dynamics: Evidence from Korea's Precious Metals and Cryptocurrency Markets. 2026 Summer Conference of the Korea Society of Computer Information. 2026.",
             "korean": "최인수. (2026). 한국 귀금속·암호화폐 시장의 분절성과 프리미엄의 동태성에 관한 연구. 2026 한국컴퓨터정보학회 하계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Market Segmentation and Cross-Asset Premium Dynamics: Evidence from Korea's Precious Metals and Cryptocurrency Markets}},\n  author = {Insu Choi},\n  booktitle = {2026 Summer Conference of the Korea Society of Computer Information},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "oral"
     },
     {
         "type": "conference",
@@ -8353,7 +8353,6 @@
         ],
         "venue": "2026 Summer Conference of the Korea Society of Computer Information",
         "venue_ko": "2026 한국컴퓨터정보학회 하계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8368,7 +8367,8 @@
             "vancouver": "Choi I. A Microstructure Empirical Analysis of Spot Bitcoin ETF Institutionalization. 2026 Summer Conference of the Korea Society of Computer Information. 2026.",
             "korean": "최인수. (2026). 현물 비트코인 ETF 제도화에 관한 미시구조 실증분석. 2026 한국컴퓨터정보학회 하계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{A Microstructure Empirical Analysis of Spot Bitcoin ETF Institutionalization}},\n  author = {Insu Choi},\n  booktitle = {2026 Summer Conference of the Korea Society of Computer Information},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -8386,7 +8386,6 @@
         ],
         "venue": "2026 Summer Conference of the Korea Society of Computer Information",
         "venue_ko": "2026 한국컴퓨터정보학회 하계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8401,7 +8400,8 @@
             "vancouver": "Choi I. Path Signature-Based Financial Time Series Forecasting: An Efficient Computational Algorithm. 2026 Summer Conference of the Korea Society of Computer Information. 2026.",
             "korean": "최인수. (2026). 경로 시그니처 기반 금융시계열 예측의 자산군별 효용 분석. 2026 한국컴퓨터정보학회 하계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Path Signature-Based Financial Time Series Forecasting: An Efficient Computational Algorithm}},\n  author = {Insu Choi},\n  booktitle = {2026 Summer Conference of the Korea Society of Computer Information},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -8419,7 +8419,6 @@
         ],
         "venue": "2026 Summer Conference of the Korea Society of Computer Information",
         "venue_ko": "2026 한국컴퓨터정보학회 하계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8434,7 +8433,8 @@
             "vancouver": "Choi I. Measurement Error and Jumps in Bitcoin Realized Volatility: An Empirical Analysis of Regime Dependence. 2026 Summer Conference of the Korea Society of Computer Information. 2026.",
             "korean": "최인수. (2026). 비트코인 실현변동성의 측정오차와 점프에 관한 체제 의존성 실증분석. 2026 한국컴퓨터정보학회 하계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Measurement Error and Jumps in Bitcoin Realized Volatility: An Empirical Analysis of Regime Dependence}},\n  author = {Insu Choi},\n  booktitle = {2026 Summer Conference of the Korea Society of Computer Information},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -8452,7 +8452,6 @@
         ],
         "venue": "2026 Summer Conference of the Korea Society of Computer Information",
         "venue_ko": "2026 한국컴퓨터정보학회 하계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8467,7 +8466,8 @@
             "vancouver": "Choi I. Visibility Graph Neural Networks for Differentiable Portfolio Optimization. 2026 Summer Conference of the Korea Society of Computer Information. 2026.",
             "korean": "최인수. (2026). 가시성 그래프 신경망 기반의 미분가능 포트폴리오 최적화. 2026 한국컴퓨터정보학회 하계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Visibility Graph Neural Networks for Differentiable Portfolio Optimization}},\n  author = {Insu Choi},\n  booktitle = {2026 Summer Conference of the Korea Society of Computer Information},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -8485,7 +8485,6 @@
         ],
         "venue": "2026 Spring Conference of the Korea Society of Industrial Convergence",
         "venue_ko": "2026 한국산업융합학회 춘계학술대회",
-        "presentation": "oral",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8500,7 +8499,8 @@
             "vancouver": "Choi I. Performance Advantage of Graph Attention Networks in Global Stock Index Forecasting Using Correlation-Based Market Graphs. 2026 Spring Conference of the Korea Society of Industrial Convergence. 2026.",
             "korean": "최인수. (2026). 상관관계 기반 시장 그래프를 활용한 글로벌 주가지수 예측에서 그래프 주의 네트워크의 성과 우위 분석. 2026 한국산업융합학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Performance Advantage of Graph Attention Networks in Global Stock Index Forecasting Using Correlation-Based Market Graphs}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korea Society of Industrial Convergence},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "oral"
     },
     {
         "type": "conference",
@@ -8518,7 +8518,6 @@
         ],
         "venue": "2026 Spring Conference of the Korea Society of Industrial Convergence",
         "venue_ko": "2026 한국산업융합학회 춘계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8533,7 +8532,8 @@
             "vancouver": "Choi I. Search Volume-Based K-Pop Content Interest Index and Stock Price Co-movement Analysis. 2026 Spring Conference of the Korea Society of Industrial Convergence. 2026.",
             "korean": "최인수. (2026). 검색량 기반 K-Pop 콘텐츠 관심도 지표와 주가 연동성 분석. 2026 한국산업융합학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Search Volume-Based K-Pop Content Interest Index and Stock Price Co-movement Analysis}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korea Society of Industrial Convergence},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -8551,7 +8551,6 @@
         ],
         "venue": "2026 Spring Conference of the Korea Society of Industrial Convergence",
         "venue_ko": "2026 한국산업융합학회 춘계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8566,7 +8565,8 @@
             "vancouver": "Choi I. A Systematic Literature Review on Performance Conditions of Machine Learning in Financial Forecasting. 2026 Spring Conference of the Korea Society of Industrial Convergence. 2026.",
             "korean": "최인수. (2026). 금융 예측에서 기계학습의 성과 조건에 관한 체계적 문헌 고찰. 2026 한국산업융합학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{A Systematic Literature Review on Performance Conditions of Machine Learning in Financial Forecasting}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korea Society of Industrial Convergence},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -8584,7 +8584,6 @@
         ],
         "venue": "2026 Spring Conference of the Korea Society of Industrial Convergence",
         "venue_ko": "2026 한국산업융합학회 춘계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8599,7 +8598,8 @@
             "vancouver": "Choi I. Curvature-Based Graph Utilization for Decomposable Portfolio Allocation. 2026 Spring Conference of the Korea Society of Industrial Convergence. 2026.",
             "korean": "최인수. (2026). 분해 가능한 포트폴리오 배분을 위한 곡률 기반 그래프 활용. 2026 한국산업융합학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Curvature-Based Graph Utilization for Decomposable Portfolio Allocation}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korea Society of Industrial Convergence},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -8617,7 +8617,6 @@
         ],
         "venue": "2026 Spring Conference of the Korea Society of Industrial Convergence",
         "venue_ko": "2026 한국산업융합학회 춘계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8632,7 +8631,8 @@
             "vancouver": "Choi I. Heterogeneous Savings-Investment Linkage Structures in Asian Economies via Information-Theoretic Measures. 2026 Spring Conference of the Korea Society of Industrial Convergence. 2026.",
             "korean": "최인수. (2026). 정보이론 측도를 활용한 아시아 경제권의 이질적 저축-투자 연계 구조 분석. 2026 한국산업융합학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Heterogeneous Savings-Investment Linkage Structures in Asian Economies via Information-Theoretic Measures}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korea Society of Industrial Convergence},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -8650,7 +8650,6 @@
         ],
         "venue": "2026 Spring Conference of the Korea Society of Industrial Convergence",
         "venue_ko": "2026 한국산업융합학회 춘계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8665,7 +8664,8 @@
             "vancouver": "Choi I. Trends in AI-Responsive Curriculum Restructuring at Korean Business Schools. 2026 Spring Conference of the Korea Society of Industrial Convergence. 2026.",
             "korean": "최인수. (2026). 한국 경영대학의 인공지능 대응 교육과정 재편 동향. 2026 한국산업융합학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Trends in AI-Responsive Curriculum Restructuring at Korean Business Schools}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korea Society of Industrial Convergence},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -8683,7 +8683,6 @@
         ],
         "venue": "2026 Integrated Spring Conference of Management Associations",
         "venue_ko": "2026 경영학회 통합 춘계학술대회",
-        "presentation": "oral",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8698,7 +8697,8 @@
             "vancouver": "Choi I. Comparative Analysis of Linear and Nonlinear Information Flows in Multi-Asset Markets. 2026 Integrated Spring Conference of Management Associations. 2026.",
             "korean": "최인수. (2026). 다자산 시장의 선형 및 비선형 정보 흐름의 비교 분석. 2026 경영학회 통합 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Comparative Analysis of Linear and Nonlinear Information Flows in Multi-Asset Markets}},\n  author = {Insu Choi},\n  booktitle = {2026 Integrated Spring Conference of Management Associations},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "oral"
     },
     {
         "type": "conference",
@@ -8716,7 +8716,6 @@
         ],
         "venue": "2026 Summer Conference of the Society of CAD/CAM Engineers",
         "venue_ko": "2026 한국CDE학회 하계학술대회",
-        "presentation": "oral",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8731,7 +8730,8 @@
             "vancouver": "Choi I. Nonlinear Network Dynamics and Synchronization Phenomena in Cryptocurrency-Macro Asset Systems. 2026 Summer Conference of the Society of CAD/CAM Engineers. 2026.",
             "korean": "최인수. (2026). 암호화폐–거시자산 시스템의 비선형 네트워크 동역학과 동기화 현상. 2026 한국CDE학회 하계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Nonlinear Network Dynamics and Synchronization Phenomena in Cryptocurrency-Macro Asset Systems}},\n  author = {Insu Choi},\n  booktitle = {2026 Summer Conference of the Society of CAD/CAM Engineers},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "oral"
     },
     {
         "type": "conference",
@@ -8749,7 +8749,6 @@
         ],
         "venue": "2026 Spring Conference of Korea Smart Media Society & Korea Digital Industry Society",
         "venue_ko": "2026 한국스마트미디어학회&한국디지털산업학회 춘계학술대회",
-        "presentation": "oral",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8764,7 +8763,8 @@
             "vancouver": "Choi I. Evaluating Tax-Loss Harvesting Strategies Across Global Tax Systems. 2026 Spring Conference of Korea Smart Media Society & Korea Digital Industry Society. 2026.",
             "korean": "최인수. (2026). 글로벌 조세 제도에 따른 절세 매도 전략의 유효성. 2026 한국스마트미디어학회&한국디지털산업학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Evaluating Tax-Loss Harvesting Strategies Across Global Tax Systems}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of Korea Smart Media Society & Korea Digital Industry Society},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "oral"
     },
     {
         "type": "conference",
@@ -8782,7 +8782,6 @@
         ],
         "venue": "2026 Spring Conference of Korea Smart Media Society & Korea Digital Industry Society",
         "venue_ko": "2026 한국스마트미디어학회&한국디지털산업학회 춘계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8797,7 +8796,8 @@
             "vancouver": "Choi I. Dynamic Multifractal Characteristics of Bitcoin Yields: High-Frequency Evidence Supporting the Adaptive Market Hypothesis. 2026 Spring Conference of Korea Smart Media Society & Korea Digital Industry Society. 2026.",
             "korean": "최인수. (2026). 고빈도 데이터를 통한 비트코인 수익률의 동적 다중프랙탈 특성 분석: 적응적 시장 가설(AMH)을 중심으로. 2026 한국스마트미디어학회&한국디지털산업학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Dynamic Multifractal Characteristics of Bitcoin Yields: High-Frequency Evidence Supporting the Adaptive Market Hypothesis}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of Korea Smart Media Society & Korea Digital Industry Society},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -8815,7 +8815,6 @@
         ],
         "venue": "2026 Spring Conference of Korea Smart Media Society & Korea Digital Industry Society",
         "venue_ko": "2026 한국스마트미디어학회&한국디지털산업학회 춘계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8830,7 +8829,8 @@
             "vancouver": "Choi I. Strategic Abstention in Trading: A Bayesian Approach to Selective Prediction for Reliable Market Trend Forecasting. 2026 Spring Conference of Korea Smart Media Society & Korea Digital Industry Society. 2026.",
             "korean": "최인수. (2026). 신뢰도 기반 시장 방향성 예측을 위한 베이지안 선택적 예측 프레임워크. 2026 한국스마트미디어학회&한국디지털산업학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Strategic Abstention in Trading: A Bayesian Approach to Selective Prediction for Reliable Market Trend Forecasting}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of Korea Smart Media Society & Korea Digital Industry Society},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -8848,7 +8848,6 @@
         ],
         "venue": "2026 Spring Conference of Korea Smart Media Society & Korea Digital Industry Society",
         "venue_ko": "2026 한국스마트미디어학회&한국디지털산업학회 춘계학술대회",
-        "presentation": "poster",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8863,7 +8862,8 @@
             "vancouver": "Choi I. Early Detection of Financial Market Phase Transitions through Triangle Symmetry Breaking. 2026 Spring Conference of Korea Smart Media Society & Korea Digital Industry Society. 2026.",
             "korean": "최인수. (2026). 기하학적 대칭성 붕괴에 기반한 금융 시계열 국면 전이 조기 감지. 2026 한국스마트미디어학회&한국디지털산업학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Early Detection of Financial Market Phase Transitions through Triangle Symmetry Breaking}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of Korea Smart Media Society & Korea Digital Industry Society},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "poster"
     },
     {
         "type": "conference",
@@ -8881,7 +8881,6 @@
         ],
         "venue": "2026 Spring Conference of the Korean Association for Policy Studies",
         "venue_ko": "2026 한국정책학회 춘계학술대회",
-        "presentation": "oral",
         "volume": "",
         "issue": "",
         "pages": "",
@@ -8896,6 +8895,7 @@
             "vancouver": "Choi I. A Literature Review on Cognitive Frameworks, Explainability, and Visualization for Adaptive Decision Support Systems in the AI Era. 2026 Spring Conference of the Korean Association for Policy Studies. 2026.",
             "korean": "최인수. (2026). 인공지능 시대 적응형 의사결정 지원 체계의 인지 틀·설명가능성·시각화에 관한 문헌 고찰. 2026 한국정책학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{A Literature Review on Cognitive Frameworks, Explainability, and Visualization for Adaptive Decision Support Systems in the AI Era}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korean Association for Policy Studies},\n  year = {2026}\n}"
-        }
+        },
+        "presentation_type": "oral"
     }
 ]

@@ -1056,7 +1056,7 @@
       "winners": [
         {
           "name": "임소영",
-          "level": "undergrad"
+          "level": "lab_intern"
         },
         {
           "name": "안형민",
@@ -1064,7 +1064,65 @@
         },
         {
           "name": "이태경",
+          "level": "lab_intern"
+        },
+        {
+          "name": "김가연",
           "level": "undergrad"
+        },
+        {
+          "name": "임성훈",
+          "level": "undergrad"
+        },
+        {
+          "name": "최인수",
+          "level": "phd"
+        }
+      ]
+    },
+    {
+      "type": "award",
+      "icon": "🏆",
+      "title": "장려상",
+      "title_en": "Encouragement Award",
+      "event": "제24회 한국산업경영시스템학회 대학생프로젝트경진대회",
+      "organization": "한국산업경영시스템학회",
+      "date": "May 29",
+      "winners": [
+        {
+          "name": "김다인",
+          "level": "lab_intern"
+        },
+        {
+          "name": "김재엽",
+          "level": "lab_intern"
+        },
+        {
+          "name": "양동훈",
+          "level": "lab_intern"
+        },
+        {
+          "name": "최인수",
+          "level": "phd"
+        }
+      ]
+    },
+    {
+      "type": "award",
+      "icon": "🏆",
+      "title": "장려상",
+      "title_en": "Encouragement Award",
+      "event": "제24회 한국산업경영시스템학회 대학생프로젝트경진대회",
+      "organization": "한국산업경영시스템학회",
+      "date": "May 29",
+      "winners": [
+        {
+          "name": "조윤수",
+          "level": "lab_intern"
+        },
+        {
+          "name": "신정윤",
+          "level": "lab_intern"
         },
         {
           "name": "최인수",
