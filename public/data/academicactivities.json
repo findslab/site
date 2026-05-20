@@ -732,6 +732,15 @@
             "type": "Session Chair",
             "period": "2026-06-05",
             "url": ""
+        },
+        {
+            "id": 80,
+            "category": "journal",
+            "name": "Emission Control Science and Technology",
+            "publisher": "Springer",
+            "type": "Scopus",
+            "since": "2026-05-20",
+            "url": "https://www.springer.com/journal/40825"
         }
     ]
 }

@@ -185,6 +185,15 @@ export const AboutHonorsTemplate = () => {
         (item.event && item.event.toLowerCase().includes(term))
       )
     }
+    // Sort by date descending (most recent first within year)
+    const monthOrder: Record<string, number> = { Jan: 1, Feb: 2, Mar: 3, Apr: 4, May: 5, Jun: 6, Jul: 7, Aug: 8, Sep: 9, Oct: 10, Nov: 11, Dec: 12 }
+    filtered.sort((a, b) => {
+      const aMonth = monthOrder[a.date?.split(' ')[0] || ''] || 0
+      const aDay = parseInt(a.date?.split(' ')[1] || '0')
+      const bMonth = monthOrder[b.date?.split(' ')[0] || ''] || 0
+      const bDay = parseInt(b.date?.split(' ')[1] || '0')
+      return bMonth !== aMonth ? bMonth - aMonth : bDay - aDay
+    })
     return filtered
   }
 
@@ -512,6 +521,10 @@ export const AboutHonorsTemplate = () => {
                                     className={`px-8 md:px-[10px] py-3 md:py-[4px] rounded-full text-[10px] md:text-[12px] font-semibold ${
                                       winner.name === '최인수' || winner.name === 'Insu Choi'
                                         ? 'bg-[#D6B14D]/15 text-[#D6B14D]'
+                                        : winner.level === 'doctoral'
+                                        ? 'bg-[#D6C360]/15 text-[#D6C360]'
+                                        : winner.level === 'master'
+                                        ? 'bg-[#B8962D]/15 text-[#B8962D]'
                                         : winner.level === 'lab_intern'
                                         ? 'bg-[#E8889C]/15 text-[#E8889C]'
                                         : 'bg-gray-100 text-gray-700'
