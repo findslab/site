@@ -16,7 +16,7 @@ const ResumeModal = () => (
         <div className="flex flex-col md:flex-row md:justify-between gap-4 md:gap-16">
           <div className="min-w-0 flex-1 md:pr-12">
             <p className="text-xs font-semibold text-gray-900"><span className="font-bold">Assistant Professor</span>, Gachon University</p>
-            <p className="text-xs text-gray-500">Big Data Business Management Major, Department of Finance & Big Data, College of Business</p>
+            <p className="text-xs text-gray-500">Big Data Business Management Major, Department of Finance and Big Data, College of Business</p>
           </div>
           <span className="text-xs text-gray-400 shrink-0 md:w-[140px] md:text-right">2026-03 – Present</span>
         </div>

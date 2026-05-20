@@ -81,7 +81,7 @@ export const directorInfo = {
   email: 'insu.choi@gachon.ac.kr',
   organization: 'Gachon University',
   organizationKo: '가천대학교',
-  department: 'Big Data Business Management Major, Department of Finance & Big Data, College of Business',
+  department: 'Big Data Business Management Major, Department of Finance and Big Data, College of Business',
   departmentKo: '빅데이터경영전공',
 }
 
