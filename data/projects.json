@@ -1,5 +1,35 @@
 [
     {
+        "titleKo": "금융시장 위험 정보의 생성·전이·구조 변화에 관한 다층적 실증 연구",
+        "titleEn": "A Multi-layered Empirical Study on the Generation, Transmission, and Structural Dynamics of Risk Information in Financial Markets",
+        "period": "2026-06-15 – 2027-06-14",
+        "status": "ongoing",
+        "fundingAgency": "Gachon University",
+        "fundingAgencyKo": "가천대학교",
+        "programName": "2026학년도 가천대학교 인문사회연구자과제",
+        "programNameEn": "2026 Gachon University Humanities and Social Sciences Research Grant",
+        "roles": {
+            "principalInvestigator": "최인수",
+            "leadResearcher": "",
+            "researchers": []
+        }
+    },
+    {
+        "titleKo": "경험을 설계하다 / 경험을 증명하다 — 공학 포트폴리오의 이론·제작 및 활용",
+        "titleEn": "Designing and Proving Experience: A Two-Volume Guide to Engineering Portfolio Development and Application",
+        "period": "2026-06-15 – 2027-06-14",
+        "status": "ongoing",
+        "fundingAgency": "Gachon University",
+        "fundingAgencyKo": "가천대학교",
+        "programName": "2026학년도 제1차 가천대학교 저술출판과제",
+        "programNameEn": "2026 Gachon University Publication Grant (1st Round)",
+        "roles": {
+            "principalInvestigator": "최인수",
+            "leadResearcher": "",
+            "researchers": []
+        }
+    },
+    {
         "titleEn": "Research Group Support for Promoting Generative AI-Integrated Instruction",
         "titleKo": "생성형 AI 활용 수업 활성화를 위한 연구회 지원 사업",
         "period": "2026-03-01 – 2027-02-28",

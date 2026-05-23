@@ -27,7 +27,6 @@
             "chicago": "Choi, Insu. \"Wasserstein Distance-Based Feature Engineering for Enhancing Forecasting and Asset Allocation Insights.\" International Journal of Computational Intelligence Systems (2026).",
             "harvard": "Choi, I. (2026) 'Wasserstein distance-based feature engineering for enhancing forecasting and asset allocation insights', International Journal of Computational Intelligence Systems.",
             "vancouver": "Choi I. Wasserstein distance-based feature engineering for enhancing forecasting and asset allocation insights. International Journal of Computational Intelligence Systems. 2026.",
-            "korean": "Choi, I. (2026). Wasserstein distance-based feature engineering for enhancing forecasting and asset allocation insights. International Journal of Computational Intelligence Systems.",
             "bibtex": "@article{choi2026wasserstein,\n  title = {{Wasserstein Distance-Based Feature Engineering for Enhancing Forecasting and Asset Allocation Insights}},\n  author = {Choi, Insu},\n  journal = {International Journal of Computational Intelligence Systems},\n  year = {2026}\n}"
         }
     },
@@ -59,7 +58,6 @@
             "chicago": "Choi, Insu. \"Strong Clustering and Weak Barriers at Round Numbers in Bitcoin Markets.\" Research in International Business and Finance (2026).",
             "harvard": "Choi, I. (2026) 'Strong clustering and weak barriers at round numbers in Bitcoin markets', Research in International Business and Finance.",
             "vancouver": "Choi I. Strong clustering and weak barriers at round numbers in Bitcoin markets. Research in International Business and Finance. 2026.",
-            "korean": "Choi, I. (2026). Strong clustering and weak barriers at round numbers in Bitcoin markets. Research in International Business and Finance.",
             "bibtex": "@article{choi2026clustering,\n  title = {{Strong Clustering and Weak Barriers at Round Numbers in Bitcoin Markets}},\n  author = {Choi, Insu},\n  journal = {Research in International Business and Finance},\n  year = {2026}\n}"
         }
     },
@@ -91,7 +89,6 @@
             "chicago": "Choi, Insu. \"Efficient Computation of Lead-Lag Signature Features for Financial Time Series Forecasting.\" Journal of Forecasting (2026). https://doi.org/10.1002/for.70176",
             "harvard": "Choi, I. (2026) 'Efficient computation of lead-lag signature features for financial time series forecasting', Journal of Forecasting. doi: 10.1002/for.70176.",
             "vancouver": "Choi I. Efficient computation of lead-lag signature features for financial time series forecasting. Journal of Forecasting. 2026. doi: 10.1002/for.70176.",
-            "korean": "Choi, I. (2026). Efficient computation of lead-lag signature features for financial time series forecasting. Journal of Forecasting. https://doi.org/10.1002/for.70176",
             "bibtex": "@article{choi2026leadlag,\n  title = {{Efficient Computation of Lead-Lag Signature Features for Financial Time Series Forecasting}},\n  author = {Choi, Insu},\n  journal = {Journal of Forecasting},\n  year = {2026},\n  doi = {10.1002/for.70176}\n}"
         }
     },
@@ -223,7 +220,6 @@
             "chicago": "Insu Choi. \"Regime-Dependent Savings Retention Across Emerging Markets — Rolling-Window Adaptive Elastic Net Evidence from a Cross-Country Panel.\" Empirica (2026).",
             "harvard": "Choi, I. (2026) 'regime-dependent savings retention across emerging markets — rolling-window adaptive elastic net evidence from a cross-country panel', Empirica.",
             "vancouver": "Choi I. Regime-Dependent Savings Retention Across Emerging Markets — Rolling-Window Adaptive Elastic Net Evidence from a Cross-Country Panel. Empirica. 2026.",
-            "korean": "최인수. (2026). Regime-Dependent Savings Retention Across Emerging Markets — Rolling-Window Adaptive Elastic Net Evidence from a Cross-Country Panel. Empirica.",
             "bibtex": "@article{choi2026regime-dependent,\n  title = {{Regime-Dependent Savings Retention Across Emerging Markets — Rolling-Window Adaptive Elastic Net Evidence from a Cross-Country Panel}},\n  author = {Insu Choi},\n  journal = {Empirica},\n  year = {2026}\n}"
         }
     },
@@ -287,7 +283,6 @@
             "chicago": "Choi, Insu. \"Asymmetric and Time-Varying Lag Structures in Bitcoin's Kimchi Premium: Rolling-Window Evidence from Granger Causality and Transfer Entropy.\" Mathematics 14, no. 9 (2026): 1501.",
             "harvard": "Choi, I. (2026) 'Asymmetric and time-varying lag structures in Bitcoin's Kimchi Premium: Rolling-window evidence from Granger causality and transfer entropy', Mathematics, 14(9), p. 1501.",
             "vancouver": "Choi I. Asymmetric and time-varying lag structures in Bitcoin's Kimchi Premium: Rolling-window evidence from Granger causality and transfer entropy. Mathematics. 2026;14(9):1501.",
-            "korean": "Choi, I. (2026). Asymmetric and time-varying lag structures in Bitcoin's Kimchi Premium: Rolling-window evidence from Granger causality and transfer entropy. Mathematics, 14(9), 1501.",
             "bibtex": "@article{choi2026kimchi,\n  title = {{Asymmetric and Time-Varying Lag Structures in Bitcoin's Kimchi Premium: Rolling-Window Evidence from Granger Causality and Transfer Entropy}},\n  author = {Choi, Insu},\n  journal = {Mathematics},\n  volume = {14},\n  number = {9},\n  pages = {1501},\n  year = {2026},\n  doi = {10.3390/math14091501}\n}"
         }
     },
@@ -295,10 +290,10 @@
         "type": "book",
         "indexing_group": "Book",
         "code_label": "B",
-        "published_date": "2026-03-01",
+        "published_date": "2026-10-31",
         "year": 2026,
-        "title": "Designing Experiences: Centered on Engineering Portfolio Competitions",
-        "title_ko": "경험을 설계하다 — 공학 포트폴리오 경진대회를 중심으로",
+        "title": "Designing Experiences: Theory and Creation of Engineering Portfolios",
+        "title_ko": "경험을 설계하다 — 공학 포트폴리오의 이론과 제작",
         "authors": [
             1
         ],
@@ -309,13 +304,40 @@
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I. (2026). 경험을 설계하다 — 공학 포트폴리오 경진대회를 중심으로. PubPle (Kyobo Book Centre).",
-            "mla": "Insu Choi. Designing Experiences: Centered on Engineering Portfolio Competitions. PubPle (Kyobo Book Centre), 2026.",
-            "chicago": "Insu Choi. Designing Experiences: Centered on Engineering Portfolio Competitions. PubPle (Kyobo Book Centre), 2026.",
-            "harvard": "Choi, I. (2026) Designing Experiences: Centered on Engineering Portfolio Competitions, PubPle (Kyobo Book Centre).",
-            "vancouver": "Choi I. Designing Experiences: Centered on Engineering Portfolio Competitions. PubPle (Kyobo Book Centre); 2026.",
-            "korean": "최인수. (2026). 경험을 설계하다 — 공학 포트폴리오 경진대회를 중심으로. PubPle (Kyobo Book Centre).",
-            "bibtex": "@book{choi2026book,\n  title = {{경험을 설계하다 — 공학 포트폴리오 경진대회를 중심으로}},\n  author = {Insu Choi},\n  publisher = {PubPle (Kyobo Book Centre)},\n  year = {2026}\n}"
+            "apa": "최인수. (2026). 경험을 설계하다 — 공학 포트폴리오의 이론과 제작. 퍼플.",
+            "mla": "최인수. 경험을 설계하다 — 공학 포트폴리오의 이론과 제작. 퍼플, 2026.",
+            "chicago": "최인수. 경험을 설계하다 — 공학 포트폴리오의 이론과 제작. 퍼플, 2026.",
+            "harvard": "최인수 (2026) 경험을 설계하다 — 공학 포트폴리오의 이론과 제작, 퍼플.",
+            "vancouver": "Choi I. 경험을 설계하다 — 공학 포트폴리오의 이론과 제작. PubPle; 2026.",
+            "korean": "최인수. (2026). 경험을 설계하다 — 공학 포트폴리오의 이론과 제작. 퍼플.",
+            "bibtex": "@book{choi2026designing,\n  title = {{경험을 설계하다 --- 공학 포트폴리오의 이론과 제작}},\n  author = {Choi, Insu},\n  publisher = {PubPle},\n  year = {2026}\n}"
+        }
+    },
+    {
+        "type": "book",
+        "indexing_group": "Book",
+        "code_label": "B",
+        "published_date": "2026-10-31",
+        "year": 2026,
+        "title": "Proving Experiences: From Engineering Portfolio Competitions to Application",
+        "title_ko": "경험을 증명하다 — 공학 포트폴리오의 경진대회에서 활용까지",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "PubPle (Kyobo Book Centre)",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "최인수. (2026). 경험을 증명하다 — 공학 포트폴리오의 경진대회에서 활용까지. 퍼플.",
+            "mla": "최인수. 경험을 증명하다 — 공학 포트폴리오의 경진대회에서 활용까지. 퍼플, 2026.",
+            "chicago": "최인수. 경험을 증명하다 — 공학 포트폴리오의 경진대회에서 활용까지. 퍼플, 2026.",
+            "harvard": "최인수 (2026) 경험을 증명하다 — 공학 포트폴리오의 경진대회에서 활용까지, 퍼플.",
+            "vancouver": "Choi I. 경험을 증명하다 — 공학 포트폴리오의 경진대회에서 활용까지. PubPle; 2026.",
+            "korean": "최인수. (2026). 경험을 증명하다 — 공학 포트폴리오의 경진대회에서 활용까지. 퍼플.",
+            "bibtex": "@book{choi2026proving,\n  title = {{경험을 증명하다 --- 공학 포트폴리오의 경진대회에서 활용까지}},\n  author = {Choi, Insu},\n  publisher = {PubPle},\n  year = {2026}\n}"
         }
     },
     {
@@ -356,7 +378,6 @@
             "chicago": "Insu Choi, Soyoung Lim, Seoyeon Kim, Yeona Choi, Subin Han, and Woo Chang Kim. \"Metric-Based Technical Indicators for Yield Forecasting.\" Pacific-Basin Finance Journal (2026).",
             "harvard": "Choi, I., Lim, S., Kim, S., Choi, Y., Han, S., Kim, W. (2026) 'metric-based technical indicators for yield forecasting', Pacific-Basin Finance Journal.",
             "vancouver": "Choi I Lim S Kim S Choi Y Han S Kim WC. Metric-Based Technical Indicators for Yield Forecasting. Pacific-Basin Finance Journal. 2026.",
-            "korean": "최인수, 임소영, 김서연, 최연아, 한수빈, 김우창. (2026). Metric-Based Technical Indicators for Yield Forecasting. Pacific-Basin Finance Journal.",
             "bibtex": "@article{choi2026metric-based,\n  title = {{Metric-Based Technical Indicators for Yield Forecasting}},\n  author = {Insu Choi, Soyoung Lim, Seoyeon Kim, Yeona Choi, Subin Han, and Woo Chang Kim},\n  journal = {Pacific-Basin Finance Journal},\n  year = {2026}\n}"
         }
     },
@@ -454,7 +475,6 @@
             "chicago": "Insu Choi, and Woo Chang Kim. \"Beyond Linear Insights in the Feldstein–Horioka Puzzle: Delving Into Monotonic and Nonlinear Statistical Dependencies With Moving Windows.\" International Finance (2026).",
             "harvard": "Choi, I., Kim, W. (2026) 'beyond linear insights in the feldstein–horioka puzzle: delving into monotonic and nonlinear statistical dependencies with moving windows', International Finance.",
             "vancouver": "Choi I Kim WC. Beyond Linear Insights in the Feldstein–Horioka Puzzle: Delving Into Monotonic and Nonlinear Statistical Dependencies With Moving Windows. International Finance. 2026.",
-            "korean": "최인수, 김우창. (2026). Beyond Linear Insights in the Feldstein–Horioka Puzzle: Delving Into Monotonic and Nonlinear Statistical Dependencies With Moving Windows. International Finance.",
             "bibtex": "@article{choi2026beyond,\n  title = {{Beyond Linear Insights in the Feldstein–Horioka Puzzle: Delving Into Monotonic and Nonlinear Statistical Dependencies With Moving Windows}},\n  author = {Insu Choi, and Woo Chang Kim},\n  journal = {International Finance},\n  year = {2026}\n}"
         }
     },
@@ -515,7 +535,6 @@
             "chicago": "Insu Choi, and Woo Chang Kim. \"Navigating the Flow: Unveiling Directional Information Transfer in Commodity Markets with Transfer Entropy and Moving Window Analysis.\" Complexity (2026).",
             "harvard": "Choi, I., Kim, W. (2026) 'navigating the flow: unveiling directional information transfer in commodity markets with transfer entropy and moving window analysis', Complexity.",
             "vancouver": "Choi I Kim WC. Navigating the Flow: Unveiling Directional Information Transfer in Commodity Markets with Transfer Entropy and Moving Window Analysis. Complexity. 2026.",
-            "korean": "최인수, 김우창. (2026). Navigating the Flow: Unveiling Directional Information Transfer in Commodity Markets with Transfer Entropy and Moving Window Analysis. Complexity.",
             "bibtex": "@article{choi2026navigating,\n  title = {{Navigating the Flow: Unveiling Directional Information Transfer in Commodity Markets with Transfer Entropy and Moving Window Analysis}},\n  author = {Insu Choi, and Woo Chang Kim},\n  journal = {Complexity},\n  year = {2026}\n}"
         },
         "volume": "2026",
@@ -1138,7 +1157,8 @@
             "chicago": "Choi, Insu, Stephan Kim, Jang Ho Kim, and Woo Chang Kim. \"Dynamic Influence and Centrality Analysis Among Industry Sectors Using Time-Varying Regression Coefficients Estimated via Kalman Filtering.\" Paper presented at the 2025 Spring Conference of the Korean Institute of Industrial Engineers, Korean Operations Research and Management Science Society, and Korea Society for Simulation, June 18, 2025.",
             "harvard": "Choi, I., Kim, S., Kim, J.H. & Kim, W.C. (2025) 'Dynamic influence and centrality analysis among industry sectors using time-varying regression coefficients estimated via Kalman filtering', paper presented at the 2025 Spring Conference of the Korean Institute of Industrial Engineers, Korean Operations Research and Management Science Society, and Korea Society for Simulation, 18 June.",
             "vancouver": "Choi I, Kim S, Kim JH, Kim WC. Dynamic influence and centrality analysis among industry sectors using time-varying regression coefficients estimated via Kalman filtering. Paper presented at: 2025 Spring Conference of the Korean Institute of Industrial Engineers, Korean Operations Research and Management Science Society, and Korea Society for Simulation; 2025 June 18.",
-            "bibtex": "@inproceedings{choi2025dynamic,\n  title = {{Dynamic Influence and Centrality Analysis Among Industry Sectors Using Time-Varying Regression Coefficients Estimated via Kalman Filtering}},\n  author = {Choi, I., Kim, S., Kim, J. H. and Kim, W. C.},\n  booktitle = {2025 Spring Conference of the Korean Institute of Industrial Engineers (KIIE), Korean Operations Research and Management Science Society (KORMS), and Korea Society for Simulation (KSS)},\n  year = {2025},\n}"
+            "bibtex": "@inproceedings{choi2025dynamic,\n  title = {{Dynamic Influence and Centrality Analysis Among Industry Sectors Using Time-Varying Regression Coefficients Estimated via Kalman Filtering}},\n  author = {Choi, I., Kim, S., Kim, J. H. and Kim, W. C.},\n  booktitle = {2025 Spring Conference of the Korean Institute of Industrial Engineers (KIIE), Korean Operations Research and Management Science Society (KORMS), and Korea Society for Simulation (KSS)},\n  year = {2025},\n}",
+            "korean": "최인수, Stephan Kim, 김장호, 김우창. (2025). 칼만 추정 기반 시간가변 회귀계수를 활용한 산업 섹터 간 동적 영향력 및 중심성 분석. 2025 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회."
         }
     },
     {
@@ -1170,7 +1190,8 @@
             "chicago": "Yun, Wonje, Insu Choi, and Woo Chang Kim. \"Accelerating Transfer Entropy Estimation via Large-Scale Parallel Processing.\" Paper presented at the 2025 Spring Conference of the Korean Institute of Industrial Engineers, Korean Operations Research and Management Science Society, and Korea Society for Simulation, June 18, 2025.",
             "harvard": "Yun, W., Choi, I. & Kim, W.C. (2025) 'Accelerating transfer entropy estimation via large-scale parallel processing', paper presented at the 2025 Spring Conference of the Korean Institute of Industrial Engineers, Korean Operations Research and Management Science Society, and Korea Society for Simulation, 18 June.",
             "vancouver": "Yun W, Choi I, Kim WC. Accelerating transfer entropy estimation via large-scale parallel processing. Paper presented at: 2025 Spring Conference of the Korean Institute of Industrial Engineers, Korean Operations Research and Management Science Society, and Korea Society for Simulation; 2025 June 18.",
-            "bibtex": "@inproceedings{yun2025accelerating,\n  title = {{Accelerating Transfer Entropy Estimation via Large-Scale Parallel Processing}},\n  author = {Yun, W., Choi, I. and Kim, W. C.},\n  booktitle = {2025 Spring Conference of the Korean Institute of Industrial Engineers (KIIE), Korean Operations Research and Management Science Society (KORMS), and Korea Society for Simulation (KSS)},\n  year = {2025},\n}"
+            "bibtex": "@inproceedings{yun2025accelerating,\n  title = {{Accelerating Transfer Entropy Estimation via Large-Scale Parallel Processing}},\n  author = {Yun, W., Choi, I. and Kim, W. C.},\n  booktitle = {2025 Spring Conference of the Korean Institute of Industrial Engineers (KIIE), Korean Operations Research and Management Science Society (KORMS), and Korea Society for Simulation (KSS)},\n  year = {2025},\n}",
+            "korean": "윤원제, 최인수, 김우창. (2025). Accelerating Transfer Entropy Estimation via Large-Scale Parallel Processing. 2025 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회."
         }
     },
     {
@@ -1202,7 +1223,8 @@
             "chicago": "Lee, Tae Kyoung, Insu Choi, and Woo Chang Kim. \"Enhancing Data Efficiency for Return Prediction Using a Graph Neural Network Approach in International Financial Market Indices.\" Paper presented at the 2025 Spring Conference of the Korean Institute of Industrial Engineers, Korean Operations Research and Management Science Society, and Korea Society for Simulation, June 18, 2025.",
             "harvard": "Lee, T.K., Choi, I. & Kim, W.C. (2025) 'Enhancing data efficiency for return prediction using a graph neural network approach in international financial market indices', paper presented at the 2025 Spring Conference of the Korean Institute of Industrial Engineers, Korean Operations Research and Management Science Society, and Korea Society for Simulation, 18 June.",
             "vancouver": "Lee TK, Choi I, Kim WC. Enhancing data efficiency for return prediction using a graph neural network approach in international financial market indices. Paper presented at: 2025 Spring Conference of the Korean Institute of Industrial Engineers, Korean Operations Research and Management Science Society, and Korea Society for Simulation; 2025 June 18.",
-            "bibtex": "@inproceedings{lee2025enhancing,\n  title = {{Enhancing Data Efficiency for Return Prediction Using a Graph Neural Network Approach in International Financial Market Indices}},\n  author = {Lee, T. K., Choi, I. and Kim, W. C.},\n  booktitle = {2025 Spring Conference of the Korean Institute of Industrial Engineers (KIIE), Korean Operations Research and Management Science Society (KORMS), and Korea Society for Simulation (KSS)},\n  year = {2025},\n}"
+            "bibtex": "@inproceedings{lee2025enhancing,\n  title = {{Enhancing Data Efficiency for Return Prediction Using a Graph Neural Network Approach in International Financial Market Indices}},\n  author = {Lee, T. K., Choi, I. and Kim, W. C.},\n  booktitle = {2025 Spring Conference of the Korean Institute of Industrial Engineers (KIIE), Korean Operations Research and Management Science Society (KORMS), and Korea Society for Simulation (KSS)},\n  year = {2025},\n}",
+            "korean": "이태경, 최인수, 김우창. (2025). 국제 금융 시장 지수의 그래프 신경망 접근법 기반을 통한 수익률 예측을 위한 데이터 효율성 제고. 2025 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회."
         }
     },
     {
@@ -1565,7 +1587,8 @@
             "chicago": "Choi, Insu, and Woo Chang Kim. \"A Study on the Use of Spatiotemporal Graphs Based on Linear and Nonlinear Statistical Dependencies in Financial Time Series Forecasting.\" Paper presented at the 2024 Fall International Conference of Korea Intelligent Information Systems Society, November 1, 2024.",
             "harvard": "Choi, I. & Kim, W.C. (2024) 'A study on the use of spatiotemporal graphs based on linear and nonlinear statistical dependencies in financial time series forecasting', paper presented at the 2024 Fall International Conference of Korea Intelligent Information Systems Society, 1 November.",
             "vancouver": "Choi I, Kim WC. A study on the use of spatiotemporal graphs based on linear and nonlinear statistical dependencies in financial time series forecasting. Paper presented at: 2024 Fall International Conference of Korea Intelligent Information Systems Society; 2024 Nov 1.",
-            "bibtex": "@inproceedings{choi2024a,\n  title = {{A Study on the Use of Spatiotemporal Graphs Based on Linear and Nonlinear Statistical Dependencies in Financial Time Series Forecasting}},\n  author = {Choi, I. and Kim, W. C.},\n  booktitle = {2024 Fall International Conference of the Korean Intelligent Information Systems Society (KIISS) and Asia-Pacific Conference on Information Management (APCIM) 2024},\n  year = {2024},\n}"
+            "bibtex": "@inproceedings{choi2024a,\n  title = {{A Study on the Use of Spatiotemporal Graphs Based on Linear and Nonlinear Statistical Dependencies in Financial Time Series Forecasting}},\n  author = {Choi, I. and Kim, W. C.},\n  booktitle = {2024 Fall International Conference of the Korean Intelligent Information Systems Society (KIISS) and Asia-Pacific Conference on Information Management (APCIM) 2024},\n  year = {2024},\n}",
+            "korean": "최인수, 김우창. (2024). 금융 시계열 예측에서의 선형 및 비선형 통계적 상호 의존성 기반의 시공간 그래프 활용에 대한 연구. 2024 한국지능정보시스템학회 추계국제학술대회."
         }
     },
     {
@@ -2092,7 +2115,12 @@
         "citations": {
             "apa": "Choi, I., An, S., Shim, E., Lim, S., Choi, Y., & Kim, W. C. (2024). Comparative Analysis of Regional Economy and Real Estate Market Indicators on Birth Rates Using Explainable Machine Learning and Multivariate Models. Presented (in Korean) at the 2024 Summer Conference of the Korean Data Analysis Society.",
             "apa_ko": "최인수, 안수아, 심은, 임소영, 최연아, 김우창 (2024). 설명 가능한 기계 학습 모형과 다변량 모형을 활용한 지역 경제와 부동산 시장 지표가 출산율에 미치는 영향의 비교 분석. 2024 한국자료분석학회 하계학술논문발표대회. (발표 언어: 한국어)",
-            "bibtex": "@inproceedings{choi2024comparative,\n  title = {{Comparative Analysis of Regional Economy and Real Estate Market Indicators on Birth Rates Using Explainable Machine Learning and Multivariate Models}},\n  author = {Choi, I., An, S., Shim, E., Lim, S., Choi, Y. and Kim, W. C.},\n  booktitle = {2024 Summer Conference of the Korean Data Analysis Society (KDAS)},\n  year = {2024},\n}"
+            "bibtex": "@inproceedings{choi2024comparative,\n  title = {{Comparative Analysis of Regional Economy and Real Estate Market Indicators on Birth Rates Using Explainable Machine Learning and Multivariate Models}},\n  author = {Choi, I., An, S., Shim, E., Lim, S., Choi, Y. and Kim, W. C.},\n  booktitle = {2024 Summer Conference of the Korean Data Analysis Society (KDAS)},\n  year = {2024},\n}",
+            "mla": "Insu Choi, Sua An, Eun Shim, Soyoung Lim, Yeona Choi, and Woo Chang Kim. \"Comparative Analysis of Regional Economy and Real Estate Market Indicators on Birth Rates Using Explainable Machine Learning and Multivariate Models.\" 2024 Summer Conference of the Korean Data Analysis Society (KDAS) . (2024).",
+            "chicago": "Insu Choi, Sua An, Eun Shim, Soyoung Lim, Yeona Choi, and Woo Chang Kim. \"Comparative Analysis of Regional Economy and Real Estate Market Indicators on Birth Rates Using Explainable Machine Learning and Multivariate Models.\" 2024 Summer Conference of the Korean Data Analysis Society (KDAS) , no.  (2024).",
+            "harvard": "Choi, I., An, S., Shim, E., Lim, S., Choi, Y., Kim, W. (2024) 'comparative analysis of regional economy and real estate market indicators on birth rates using explainable machine learning and multivariate models', 2024 Summer Conference of the Korean Data Analysis Society (KDAS).",
+            "vancouver": "Choi I An S Shim E Lim S Choi Y Kim WC. Comparative Analysis of Regional Economy and Real Estate Market Indicators on Birth Rates Using Explainable Machine Learning and Multivariate Models. 2024 Summer Conference of the Korean Data Analysis Society (KDAS). 2024.",
+            "korean": "최인수, 안수아, 심은, 임소영, 최연아, 김우창. (2024). 설명 가능한 기계 학습 모형과 다변량 모형을 활용한 지역 경제와 부동산 시장 지표가 출산율에 미치는 영향의 비교 분석. 2024 한국자료분석학회 하계학술논문발표대회."
         }
     },
     {
@@ -2374,7 +2402,8 @@
             "chicago": "Kim, Sangmok, Insu Choi, and Woo Chang Kim. \"Study on Strategies for Responding to Volatile Markets: Focusing on Consistent Volatility Avoidance Strategies.\" Paper presented at the 2024 Spring Conference of the Korean Institute of Industrial Engineers, Korean Operations Research and Management Science Society, and Korea Society for Simulation, May 2, 2024.",
             "harvard": "Kim, S., Choi, I. & Kim, W.C. (2024) 'Study on strategies for responding to volatile markets: Focusing on consistent volatility avoidance strategies', paper presented at the 2024 Spring Conference of the Korean Institute of Industrial Engineers, Korean Operations Research and Management Science Society, and Korea Society for Simulation, 2 May.",
             "vancouver": "Kim S, Choi I, Kim WC. Study on strategies for responding to volatile markets: Focusing on consistent volatility avoidance strategies. Paper presented at: 2024 Spring Conference of the Korean Institute of Industrial Engineers, Korean Operations Research and Management Science Society, and Korea Society for Simulation; 2024 May 2.",
-            "bibtex": "@inproceedings{kim2024study,\n  title = {{Study on Strategies for Responding to Volatile Markets: Focusing on Consistent Volatility Avoidance Strategies}},\n  author = {Kim, S., Choi, I. and Kim, W. C.},\n  booktitle = {2024 Spring Conference of the Korean Institute of Industrial Engineers (KIIE), Korean Operations Research and Management Science Society (KORMS), and Korea Society for Simulation (KSS)},\n  year = {2024},\n}"
+            "bibtex": "@inproceedings{kim2024study,\n  title = {{Study on Strategies for Responding to Volatile Markets: Focusing on Consistent Volatility Avoidance Strategies}},\n  author = {Kim, S., Choi, I. and Kim, W. C.},\n  booktitle = {2024 Spring Conference of the Korean Institute of Industrial Engineers (KIIE), Korean Operations Research and Management Science Society (KORMS), and Korea Society for Simulation (KSS)},\n  year = {2024},\n}",
+            "korean": "김상목, 최인수, 김우창. (2024). 변동성 장세 대응 방법에 관한 연구 – 일관된 변동성 회피 전략을 중심으로. 2024 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회."
         }
     },
     {
@@ -2412,7 +2441,8 @@
             "chicago": "Choi, Insu, Eun Shim, Sua An, Soyoung Lim, Yeona Choi, and Woo Chang Kim. \"Regional Analysis of Housing Prices and Birth Rate Trends Through Linear and Information-Theoretic Statistical Dependencies.\" Paper presented at the 2024 Spring Joint Conference of the Korean Institute of Industrial Engineers and Korean Operations Research and Management Science Society, May 2, 2024.",
             "harvard": "Choi, I., Shim, E., An, S., Lim, S., Choi, Y. & Kim, W.C. (2024) 'Regional analysis of housing prices and birth rate trends through linear and information-theoretic statistical dependencies', paper presented at the 2024 Spring Joint Conference of the Korean Institute of Industrial Engineers and Korean Operations Research and Management Science Society, 2 May.",
             "vancouver": "Choi I, Shim E, An S, Lim S, Choi Y, Kim WC. Regional analysis of housing prices and birth rate trends through linear and information-theoretic statistical dependencies. Paper presented at: 2024 Spring Joint Conference of the Korean Institute of Industrial Engineers and Korean Operations Research and Management Science Society; 2024 May 2.",
-            "bibtex": "@inproceedings{choi2024regional,\n  title = {{Regional Analysis of Housing Prices and Birth Rate Trends Through Linear and Information-Theoretic Statistical Dependencies}},\n  author = {Choi, I., Shim, E., An, S., Lim, S., Choi, Y. and Kim, W. C.},\n  booktitle = {2024 Spring Joint Conference of the Korean Institute of Industrial Engineers (KIIE) and Korean Operations Research and Management Science Society (KORMS)},\n  year = {2024},\n}"
+            "bibtex": "@inproceedings{choi2024regional,\n  title = {{Regional Analysis of Housing Prices and Birth Rate Trends Through Linear and Information-Theoretic Statistical Dependencies}},\n  author = {Choi, I., Shim, E., An, S., Lim, S., Choi, Y. and Kim, W. C.},\n  booktitle = {2024 Spring Joint Conference of the Korean Institute of Industrial Engineers (KIIE) and Korean Operations Research and Management Science Society (KORMS)},\n  year = {2024},\n}",
+            "korean": "최인수, 심은, 안수아, 임소영, 최연아, 김우창. (2024). 선형 및 정보이론 통계적 상호의존성을 통한 주택가격과 출산율 추이에 대한 지역별 분석. 2024 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회."
         }
     },
     {
@@ -2636,7 +2666,8 @@
             "chicago": "Choi, Insu, Yoojin Jeong, Doyoon Kim, Joonyong Lee, Yongsoo Jung, and Woo Chang Kim. \"Analyzing South Korea's Household Finance via Panel Data.\" Paper presented at the 2023 Winter Conference of the Korean Data Analysis Society, January 25, 2024.",
             "harvard": "Choi, I., Jeong, Y., Kim, D., Lee, J., Jung, Y. & Kim, W.C. (2024) 'Analyzing South Korea's household finance via panel data', paper presented at the 2023 Winter Conference of the Korean Data Analysis Society, 25 January.",
             "vancouver": "Choi I, Jeong Y, Kim D, Lee J, Jung Y, Kim WC. Analyzing South Korea's household finance via panel data. Paper presented at: 2023 Winter Conference of the Korean Data Analysis Society; 2024 Jan 25.",
-            "bibtex": "@inproceedings{choi2024analyzing,\n  title = {{Analyzing South Korea's Household Finance via Panel Data}},\n  author = {Choi, I., Jeong, Y., Kim, D., Lee, J., Jung, Y. and Kim, W. C.},\n  booktitle = {2023 Winter Conference of the Korean Data Analysis Society (KDAS)},\n  year = {2024},\n}"
+            "bibtex": "@inproceedings{choi2024analyzing,\n  title = {{Analyzing South Korea's Household Finance via Panel Data}},\n  author = {Choi, I., Jeong, Y., Kim, D., Lee, J., Jung, Y. and Kim, W. C.},\n  booktitle = {2023 Winter Conference of the Korean Data Analysis Society (KDAS)},\n  year = {2024},\n}",
+            "korean": "최인수, 정유진, 김도윤, 이준용, 정용수, 김우창. (2024). Analyzing South Korea's Household Finance via Panel Data. 2023 한국자료분석학회 동계학술논문발표대회."
         }
     },
     {
@@ -2918,7 +2949,8 @@
             "chicago": "Choi, Insu, and Woo Chang Kim. \"Verifying Financial Time-Series Prediction Importance Based on Wasserstein Distance Characteristics Between Distributions.\" Paper presented at the 2023 Fall International Conference of the Korea Society of Management Information Systems, November 25, 2023.",
             "harvard": "Choi, I. & Kim, W.C. (2023) 'Verifying financial time-series prediction importance based on Wasserstein distance characteristics between distributions', paper presented at the 2023 Fall International Conference of the Korea Society of Management Information Systems, 25 November.",
             "vancouver": "Choi I, Kim WC. Verifying financial time-series prediction importance based on Wasserstein distance characteristics between distributions. Paper presented at: 2023 Fall International Conference of the Korea Society of Management Information Systems; 2023 Nov 25.",
-            "bibtex": "@inproceedings{choi2023verifying,\n  title = {{Verifying financial time-series prediction importance based on Wasserstein distance characteristics between distributions}},\n  author = {Choi, I. and Kim, W. C.},\n  booktitle = {2023 Fall International Conference of the Korea Society of Management Information Systems (KMIS)},\n  year = {2023},\n}"
+            "bibtex": "@inproceedings{choi2023verifying,\n  title = {{Verifying financial time-series prediction importance based on Wasserstein distance characteristics between distributions}},\n  author = {Choi, I. and Kim, W. C.},\n  booktitle = {2023 Fall International Conference of the Korea Society of Management Information Systems (KMIS)},\n  year = {2023},\n}",
+            "korean": "최인수, 김우창. (2023). 분포 간 Wasserstein 거리 특성을 기반으로 한 금융 시계열 예측 중요성 검증. 2023 한국경영정보학회 추계국제학술대회."
         }
     },
     {
@@ -3806,7 +3838,8 @@
             "chicago": "Choi, Insu, Woosung Koh, Gimin Kang, Yoontae Jang, and Woo Chang Kim. \"Linear and Monotonic Statistical Dependency-Oriented Financial Asset Return Prediction via Diffusion Recurrent Graph Learning-Based Spatiotemporal Graph Learning.\" Paper presented at the 2023 4th Korea Artificial Intelligence Conference, September 21, 2023.",
             "harvard": "Choi, I., Koh, W., Kang, G., Jang, Y. & Kim, W.C. (2023) 'Linear and monotonic statistical dependency-oriented financial asset return prediction via diffusion recurrent graph learning-based spatiotemporal graph learning', paper presented at the 2023 4th Korea Artificial Intelligence Conference, 21 September.",
             "vancouver": "Choi I, Koh W, Kang G, Jang Y, Kim WC. Linear and monotonic statistical dependency-oriented financial asset return prediction via diffusion recurrent graph learning-based spatiotemporal graph learning. Paper presented at: 2023 4th Korea Artificial Intelligence Conference; 2023 Sept 21.",
-            "bibtex": "@inproceedings{choi2023linear,\n  title = {{Linear and Monotonic Statistical Dependency-Oriented Financial Asset Return Prediction via Diffusion Recurrent Graph Learning-Based Spatiotemporal Graph Learning}},\n  author = {Choi, I., Koh, W., Kang, G., Jang, Y. and Kim, W. C.},\n  booktitle = {2023 4th Korea Artificial Intelligence Conference},\n  year = {2023},\n}"
+            "bibtex": "@inproceedings{choi2023linear,\n  title = {{Linear and Monotonic Statistical Dependency-Oriented Financial Asset Return Prediction via Diffusion Recurrent Graph Learning-Based Spatiotemporal Graph Learning}},\n  author = {Choi, I., Koh, W., Kang, G., Jang, Y. and Kim, W. C.},\n  booktitle = {2023 4th Korea Artificial Intelligence Conference},\n  year = {2023},\n}",
+            "korean": "최인수, 고우성, 강기민, 장윤태, 김우창. (2023). 시공간 그래프 학습을 통한 금융 자산 간의 선형 및 단조 통계 의존성 기반 수익률 예측 및 추론. 2023 제4회 한국인공지능학술대회."
         }
     },
     {
@@ -3967,7 +4000,8 @@
             "chicago": "Choi, Insu, and Woo Chang Kim. \"An Explainable Financial Portfolio Provision Service Framework Based on Investment Clusters and Product Networks.\" Paper presented at the 2023 Summer International Conference of the Korean Association for Policy Studies, June 15, 2023.",
             "harvard": "Choi, I. & Kim, W.C. (2023) 'An explainable financial portfolio provision service framework based on investment clusters and product networks', paper presented at the 2023 Summer International Conference of the Korean Association for Policy Studies, 15 June.",
             "vancouver": "Choi I, Kim WC. An explainable financial portfolio provision service framework based on investment clusters and product networks. Paper presented at: 2023 Summer International Conference of the Korean Association for Policy Studies; 2023 June 15.",
-            "bibtex": "@inproceedings{choi2023an,\n  title = {{An explainable financial portfolio provision service framework based on investment clusters and product networks}},\n  author = {Choi, I. and Kim, W. C.},\n  booktitle = {2023 Summer International Conference of the Korean Association for Policy Studies (KAPS)},\n  year = {2023},\n}"
+            "bibtex": "@inproceedings{choi2023an,\n  title = {{An explainable financial portfolio provision service framework based on investment clusters and product networks}},\n  author = {Choi, I. and Kim, W. C.},\n  booktitle = {2023 Summer International Conference of the Korean Association for Policy Studies (KAPS)},\n  year = {2023},\n}",
+            "korean": "최인수, 김우창. (2023). 투자 군집과 상품 네트워크를 바탕으로 한 설명 가능한 금융 포트폴리오 제공 서비스 프레임워크 개발. 2023 한국정책학회 하계국제학술대회."
         }
     },
     {
@@ -5177,7 +5211,8 @@
             "chicago": "Choi, Insu, Joonhyup Lee, Younghwan Cho, Hyunsu Choi, and Woo Chang Kim. \"An Analysis of the Information Flow of Thematic Cryptocurrencies and Tokens Using Transfer Entropy and Network Topology.\" Paper presented at the 2022 Spring Conference of the Korea Intelligent Information Systems Society, June 22, 2022.",
             "harvard": "Choi, I., Lee, J., Cho, Y., Choi, H. & Kim, W.C. (2022) 'An analysis of the information flow of thematic cryptocurrencies and tokens using transfer entropy and network topology', paper presented at the 2022 Spring Conference of the Korea Intelligent Information Systems Society, 22 June.",
             "vancouver": "Choi I, Lee J, Cho Y, Choi H, Kim WC. An analysis of the information flow of thematic cryptocurrencies and tokens using transfer entropy and network topology. Paper presented at: 2022 Spring Conference of the Korea Intelligent Information Systems Society; 2022 June 22.",
-            "bibtex": "@inproceedings{choi2022an,\n  title = {{An Analysis of the Information Flow of Thematic Cryptocurrencies and Tokens Using Transfer Entropy and Network Topology}},\n  author = {Choi, I., Lee, J., Cho, Y., Choi, H. and Kim, W. C.},\n  booktitle = {2022 Spring Conference of the Korea Intelligent Information Systems Society (KIISS)},\n  year = {2022},\n}"
+            "bibtex": "@inproceedings{choi2022an,\n  title = {{An Analysis of the Information Flow of Thematic Cryptocurrencies and Tokens Using Transfer Entropy and Network Topology}},\n  author = {Choi, I., Lee, J., Cho, Y., Choi, H. and Kim, W. C.},\n  booktitle = {2022 Spring Conference of the Korea Intelligent Information Systems Society (KIISS)},\n  year = {2022},\n}",
+            "korean": "최인수, 이준협, 조영환, 최현수, 김우창. (2022). 전이 엔트로피 및 네트워크 위상을 활용한 테마별 암호화폐 및 토큰의 시스템적 위험의 정보 흐름 분석. 2022 한국지능정보시스템학회 춘계학술대회."
         }
     },
     {
@@ -5689,7 +5724,7 @@
     },
     {
         "type": "conference",
-        "indexing_group": "International Conference",
+        "indexing_group": "Domestic Conference",
         "code_label": "C",
         "published_date": "2021-12-20",
         "year": 2021,
@@ -5704,7 +5739,7 @@
             "2",
             "*"
         ],
-        "venue": "2021 Korean Association of Financial Engineering – Sungkyunkwan University International Conference on Finance",
+        "venue": "2021 Winter Domestic Conference of the Korean Society of Financial Engineering",
         "presentation_type": "oral",
         "language": "English",
         "awards": 0,
@@ -5715,7 +5750,8 @@
             "harvard": "Choi, I., Yun, W. & Kim, W.C. (2021) 'Forecasting exchange rate fluctuations using nonlinear causal network analysis and deep learning techniques', paper presented at the 2021 Korean Association of Financial Engineering – Sungkyunkwan University International Conference on Finance, 20 December.",
             "vancouver": "Choi I, Yun W, Kim WC. Forecasting exchange rate fluctuations using nonlinear causal network analysis and deep learning techniques. Paper presented at: 2021 Korean Association of Financial Engineering – Sungkyunkwan University International Conference on Finance; 2021 Dec 20.",
             "bibtex": "@inproceedings{choi2021forecasting,\n  title = {{Forecasting exchange rate fluctuations using nonlinear causal network analysis and deep learning techniques}},\n  author = {Choi, I., Yun, W. and Kim, W. C.},\n  booktitle = {2021 Korean Association of Financial Engineering – Sungkyunkwan University International Conference on Finance},\n  year = {2021},\n}"
-        }
+        },
+        "venue_ko": "2021 한국금융공학회 동계국내학술대회"
     },
     {
         "type": "conference",
