@@ -13,7 +13,7 @@
             "leadResearcher": "",
             "researchers": []
         },
-        "type": "academic"
+        "type": "institutional"
     },
     {
         "titleKo": "경험을 설계하다 / 경험을 증명하다 — 공학 포트폴리오의 이론·제작 및 활용",
@@ -29,7 +29,7 @@
             "leadResearcher": "",
             "researchers": []
         },
-        "type": "academic"
+        "type": "institutional"
     },
     {
         "titleEn": "Research Group Support for Promoting Generative AI-Integrated Instruction",
@@ -380,7 +380,7 @@
         "titleKo": "설명 가능한 인공지능(XAI) 및 앱 사용 분석을 활용한 모바일 결제 행동 예측 연구",
         "period": "2023-09-01 – 2025-05-31",
         "fundingAgency": "Konkuk University",
-        "fundingAgencyKo": "건국대학교 경영학과",
+        "fundingAgencyKo": "건국대학교",
         "amount": "N/A",
         "type": "academic",
         "language": "ko",
@@ -395,7 +395,7 @@
         "titleKo": "설명 가능한 인공지능(XAI) 기반의 대량 감정평가 모형 연구\n— 한국 주거용 부동산 시장 내 기계학습 적용 사례를 중심으로",
         "period": "2024-07-01 – 2025-11-30",
         "fundingAgency": "Konkuk University",
-        "fundingAgencyKo": "건국대학교 경영학과",
+        "fundingAgencyKo": "건국대학교",
         "amount": "N/A",
         "type": "academic",
         "language": "ko",
