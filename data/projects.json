@@ -12,7 +12,8 @@
             "principalInvestigator": "최인수",
             "leadResearcher": "",
             "researchers": []
-        }
+        },
+        "type": "academic"
     },
     {
         "titleKo": "경험을 설계하다 / 경험을 증명하다 — 공학 포트폴리오의 이론·제작 및 활용",
@@ -27,7 +28,8 @@
             "principalInvestigator": "최인수",
             "leadResearcher": "",
             "researchers": []
-        }
+        },
+        "type": "academic"
     },
     {
         "titleEn": "Research Group Support for Promoting Generative AI-Integrated Instruction",
