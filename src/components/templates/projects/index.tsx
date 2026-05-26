@@ -241,10 +241,13 @@ export const ProjectsTemplate = () => {
         // 2025년 6월 14일 이후 시작된 프로젝트만 표시
         const cutoffDate = new Date('2025-06-14')
         
+        const now = new Date()
         const filteredProjects = data.filter((p) => {
           const periodParts = p.period.split('–')
           const startDateStr = periodParts[0].trim()
           const startDate = new Date(startDateStr)
+          // Hide if start date is in the future
+          if (startDate > now) return false
           return startDate >= cutoffDate
         })
         setProjects(filteredProjects)
