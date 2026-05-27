@@ -741,6 +741,15 @@
             "type": "Scopus",
             "since": "2026-05-20",
             "url": "https://www.springer.com/journal/40825"
+        },
+        {
+            "id": 81,
+            "category": "membership",
+            "name": "Financial Information Society of Korea",
+            "publisher": "Financial Information Society of Korea",
+            "type": "Lifetime Member",
+            "since": "2026-05-27",
+            "url": ""
         }
     ]
 }
