@@ -960,18 +960,24 @@ export const MembersAlumniTemplate = () => {
                                     </div>
                                   </td>
                                   <td className="py-12 md:py-16 px-12 md:px-16">
-                                    <div className="group/tooltip relative inline-flex gap-4 flex-wrap">
-                                      {(alumni.cohort || '-').split(', ').map((c: string, ci: number) => (
-                                        <span key={ci} className="px-10 md:px-12 py-4 md:py-5 text-[10px] md:text-xs font-bold rounded-full inline-block w-fit cursor-default transition-all duration-200 hover:shadow-md" style={{backgroundColor: 'rgba(255,183,197,0.15)', color: '#C41E3A'}}>
-                                          {c}
-                                        </span>
-                                      ))}
-                                      {alumni.cohortName && (
-                                        <div className="absolute left-0 top-full mt-6 px-12 py-6 bg-gray-900 text-white text-[10px] font-medium rounded-lg whitespace-nowrap opacity-0 invisible group-hover/tooltip:opacity-100 group-hover/tooltip:visible transition-all duration-200 z-10 shadow-lg">
-                                          {alumni.cohortName.match(/\(([^)]+)\)/)?.[1] || alumni.cohortName}
-                                          <div className="absolute left-4 bottom-full w-0 h-0 border-l-5 border-r-5 border-b-5 border-transparent border-b-gray-900" />
-                                        </div>
-                                      )}
+                                    <div className="inline-flex gap-4 flex-wrap">
+                                      {(alumni.cohort || '-').split(', ').map((c: string, ci: number) => {
+                                        const cohortNames = (alumni.cohortName || '').split(', ')
+                                        const thisTooltip = cohortNames[ci]?.match(/\(([^)]+)\)/)?.[1] || cohortNames[ci] || ''
+                                        return (
+                                          <div key={ci} className="group/badge relative">
+                                            <span className="px-10 md:px-12 py-4 md:py-5 text-[10px] md:text-xs font-bold rounded-full inline-block w-fit cursor-default transition-all duration-200 hover:shadow-md" style={{backgroundColor: 'rgba(255,183,197,0.15)', color: '#C41E3A'}}>
+                                              {c}
+                                            </span>
+                                            {thisTooltip && (
+                                              <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-6 px-12 py-6 bg-gray-900 text-white text-[10px] font-medium rounded-lg whitespace-nowrap opacity-0 invisible group-hover/badge:opacity-100 group-hover/badge:visible transition-all duration-200 z-50 shadow-lg pointer-events-none">
+                                                {thisTooltip}
+                                                <div className="absolute left-1/2 -translate-x-1/2 top-full w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-gray-900" />
+                                              </div>
+                                            )}
+                                          </div>
+                                        )
+                                      })}
                                     </div>
                                   </td>
                                   <td className="py-12 md:py-16 px-12 md:px-16">
