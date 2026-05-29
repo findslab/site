@@ -750,6 +750,16 @@
             "type": "Lifetime Member",
             "since": "2026-05-27",
             "url": ""
+        },
+        {
+            "id": 82,
+            "category": "chair",
+            "name": "2026 Summer Conference of the Korea Institute of Information Technology, Session 1-OB",
+            "name_ko": "2026 한국정보기술학회 하계종합학술대회 1-OB 세션",
+            "publisher": "Korea Institute of Information Technology (KIIT)",
+            "type": "Session Chair",
+            "period": "2026-06-04",
+            "url": ""
         }
     ]
 }
