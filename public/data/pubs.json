@@ -211,7 +211,7 @@
         "volume": "",
         "issue": "",
         "pages": "",
-        "doi": "",
+        "doi": "10.1007/s10663-026-09686-2",
         "language": "English",
         "awards": 0,
         "citations": {
@@ -6903,12 +6903,16 @@
             141,
             8,
             20,
+            158,
+            159,
             1
         ],
         "author_marks": [
             "1",
             "1",
             "1",
+            "2",
+            "2",
             "*"
         ],
         "venue": "2026 Spring Conference of the Korean Data and Information Science Society (KDISS)",

@@ -1,12 +1,16 @@
 // Common Resume Modal Component - shared across all director pages
-const ResumeModal = () => (
+import { useStoreLayoutValue } from '@/store/layout'
+
+const ResumeModal = () => {
+  const { devMode } = useStoreLayoutValue()
+  return (
   <div className="p-16 md:p-24 max-h-[70vh] overflow-y-auto overflow-x-hidden">
     {/* Header */}
     <div className="text-center mb-24 pb-20 border-b border-gray-200">
       <h2 className="text-lg md:text-xl font-bold text-gray-900 mb-6">Insu Choi</h2>
       <p className="text-sm text-gray-600"><span className="font-bold">Assistant Professor</span>, Gachon University</p>
       <p className="text-sm text-gray-600"><span className="font-bold">Director</span>, FINDS Lab</p>
-      <p className="text-sm text-gray-600"><span className="font-bold">Director</span>, JL Creatives & Contents</p>
+      {devMode && <p className="text-sm text-gray-600"><span className="font-bold">Director</span>, JL Creatives & Contents</p>}
     </div>
 
     {/* Academic Positions */}
@@ -235,6 +239,7 @@ const ResumeModal = () => (
       </div>
     </section>
   </div>
-)
+  )
+}
 
 export default ResumeModal
