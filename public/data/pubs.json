@@ -6918,7 +6918,7 @@
         "pages": "",
         "doi": "",
         "language": "Korean",
-        "awards": 0,
+        "awards": 1,
         "citations": {
             "apa": "Ahn, H., Lee, T., Lim, S., Choi, I. (2026). Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation. 2026 Spring Conference of the Korean Data and Information Science Society.",
             "mla": "Hyungmin Ahn, Tae Kyoung Lee, Soyoung Lim, and Insu Choi. \"Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation.\" 2026 Spring Conference of the Korean Data and Information Science Society, 2026.",
@@ -6928,7 +6928,15 @@
             "korean": "안형민, 이태경, 임소영, 최인수. (2026). 대규모 언어 모형을 활용한 동적 위험 예산 배분: 맥락 인식 적응형 포트폴리오 배분 프레임워크. 2026 한국데이터정보과학회 춘계학술논문발표회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation}},\n  author = {Hyungmin Ahn, Tae Kyoung Lee, Soyoung Lim, and Insu Choi},\n  booktitle = {2026 Spring Conference of the Korean Data and Information Science Society},\n  year = {2026}\n}"
         },
-        "presentation_type": "poster"
+        "presentation_type": "poster",
+        "award_details": {
+            "prize": "Encouragement Award",
+            "prize_ko": "장려상",
+            "category": "Student Paper Presentation Competition",
+            "category_ko": "학생논문 발표대회",
+            "organization": "Korean Data and Information Science Society",
+            "organization_ko": "한국데이터정보과학회"
+        }
     },
     {
         "type": "conference",
@@ -7291,7 +7299,15 @@
             "korean": "최인수. (2026). 인플레이션 조건부 농산물 선물시장의 선형·비선형 정보 전이 메커니즘 식별. 2026 한국산업정보학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Identifying Linear and Nonlinear Information Transfer Mechanisms in Agricultural Futures Markets Conditional on Inflation}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korean Society of Industrial Information Systems},\n  year = {2026}\n}"
         },
-        "presentation_type": "poster"
+        "presentation_type": "poster",
+        "award_details": {
+            "prize": "Best Paper Award",
+            "prize_ko": "우수논문상",
+            "category": "",
+            "category_ko": "",
+            "organization": "Korean Society of Industrial Information Systems",
+            "organization_ko": "한국산업정보학회"
+        }
     },
     {
         "type": "conference",
@@ -8933,5 +8949,40 @@
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{A Literature Review on Cognitive Frameworks, Explainability, and Visualization for Adaptive Decision Support Systems in the AI Era}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korean Association for Policy Studies},\n  year = {2026}\n}"
         },
         "presentation_type": "oral"
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-06-26",
+        "year": 2026,
+        "title": "C-index: A Trading Signal Reliability Filter Using XAI Feature Ranking Consensus",
+        "title_ko": "C-index: XAI Feature Ranking 합의도를 활용한 거래 신호 신뢰도 필터",
+        "authors": [
+            55,
+            1
+        ],
+        "author_marks": [
+            "1",
+            "*"
+        ],
+        "venue": "2026 Summer Conference of the Korean Data Analysis Society (KDAS)",
+        "venue_ko": "2026 한국자료분석학회 하계학술논문발표대회",
+        "presentation_type": "poster",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "강병오, 최인수. (2026). C-index: XAI Feature Ranking 합의도를 활용한 거래 신호 신뢰도 필터. 2026 한국자료분석학회 하계학술논문발표대회.",
+            "mla": "강병오, 최인수. \"C-index: XAI Feature Ranking 합의도를 활용한 거래 신호 신뢰도 필터.\" 2026 한국자료분석학회 하계학술논문발표대회, 2026.",
+            "chicago": "강병오, 최인수. \"C-index: XAI Feature Ranking 합의도를 활용한 거래 신호 신뢰도 필터.\" 2026 한국자료분석학회 하계학술논문발표대회, 2026.",
+            "harvard": "강병오, 최인수 (2026) 'C-index: XAI Feature Ranking 합의도를 활용한 거래 신호 신뢰도 필터', 2026 한국자료분석학회 하계학술논문발표대회.",
+            "vancouver": "Kang B, Choi I. C-index: XAI Feature Ranking 합의도를 활용한 거래 신호 신뢰도 필터. 2026 한국자료분석학회 하계학술논문발표대회. 2026.",
+            "korean": "강병오, 최인수. (2026). C-index: XAI Feature Ranking 합의도를 활용한 거래 신호 신뢰도 필터. 2026 한국자료분석학회 하계학술논문발표대회.",
+            "bibtex": "@inproceedings{kang2026cindex,\n  title = {{C-index: A Trading Signal Reliability Filter Using XAI Feature Ranking Consensus}},\n  author = {Kang, Byungoh and Choi, Insu},\n  booktitle = {2026 Summer Conference of the Korean Data Analysis Society (KDAS)},\n  year = {2026}\n}"
+        }
     }
 ]
