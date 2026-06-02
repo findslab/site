@@ -49,7 +49,7 @@
         "volume": "",
         "issue": "",
         "pages": "",
-        "doi": "",
+        "doi": "10.1016/j.ribaf.2026.103494",
         "language": "English",
         "awards": 0,
         "citations": {
@@ -196,7 +196,7 @@
         "type": "journal",
         "indexing_group": "SSCI",
         "code_label": "J",
-        "published_date": "2026-05-22",
+        "published_date": "2026-05-30",
         "year": 2026,
         "title": "Regime-Dependent Savings Retention Across Emerging Markets — Rolling-Window Adaptive Elastic Net Evidence from a Cross-Country Panel",
         "title_ko": "",
@@ -211,7 +211,7 @@
         "volume": "",
         "issue": "",
         "pages": "",
-        "doi": "",
+        "doi": "10.1007/s10663-026-09686-2",
         "language": "English",
         "awards": 0,
         "citations": {
@@ -6903,12 +6903,16 @@
             141,
             8,
             20,
+            158,
+            159,
             1
         ],
         "author_marks": [
             "1",
             "1",
             "1",
+            "2",
+            "2",
             "*"
         ],
         "venue": "2026 Spring Conference of the Korean Data and Information Science Society (KDISS)",
@@ -8725,8 +8729,8 @@
         "code_label": "C",
         "published_date": "2026-08-20",
         "year": 2026,
-        "title": "Comparative Analysis of Linear and Nonlinear Information Flows in Multi-Asset Markets",
-        "title_ko": "다자산 시장의 선형 및 비선형 정보 흐름의 비교 분석",
+        "title": "POLARIS: A Robust CVaR–KL Portfolio Framework with LLM-Inspired Priors under Policy Uncertainty",
+        "title_ko": "POLARIS: LLM 기반 사전분포를 결합한 강건 CVaR–KL 포트폴리오 프레임워크",
         "authors": [
             1
         ],
