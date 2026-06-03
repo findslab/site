@@ -149,12 +149,12 @@ const ResumeModal = () => {
         </div>
         <div>
           <div className="flex flex-col md:flex-row md:justify-between gap-4 md:gap-16 mb-4">
-            <p className="text-xs font-semibold text-gray-900 min-w-0 flex-1 md:pr-12">Monte Carlo Simulation of Fractional Share Investment Efficiency in High-Priced Stock Markets</p>
-            <span className="text-xs text-gray-400 shrink-0 md:w-[140px] md:text-right">2025-09 – 2026-02</span>
+            <p className="text-xs font-semibold text-gray-900 min-w-0 flex-1 md:pr-12">Portfolio Efficiency under Fractional Trading in High-Priced Stock Markets</p>
+            <span className="text-xs text-gray-400 shrink-0 md:w-[140px] md:text-right">2026-03 – 2027-02</span>
           </div>
           <ul className="text-xs text-gray-600 space-y-3 ml-12">
             <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Principal Investigator</li>
-            <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Funded by <strong className="text-gray-700">Korea Securities Depository</strong></li>
+            <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Funded by <strong className="text-gray-700">Gachon University</strong></li>
           </ul>
         </div>
         <div>
