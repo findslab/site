@@ -3,6 +3,37 @@
         "type": "journal",
         "indexing_group": "SCIE",
         "code_label": "J",
+        "published_date": "2026-06-05",
+        "year": 2026,
+        "title": "Intrinsic Multifractality and Adaptive Efficiency in Bitcoin: Disentangling Sources of Scaling Complexity Across Market Regimes",
+        "title_ko": "",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "Physica A: Statistical Mechanics and its Applications",
+        "venue_ko": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "10.1016/j.physa.2026.131735",
+        "language": "English",
+        "awards": 0,
+        "citations": {
+            "apa": "Choi, I. (2026). Intrinsic multifractality and adaptive efficiency in Bitcoin: Disentangling sources of scaling complexity across market regimes. Physica A: Statistical Mechanics and its Applications.",
+            "mla": "Choi, Insu. \"Intrinsic Multifractality and Adaptive Efficiency in Bitcoin: Disentangling Sources of Scaling Complexity Across Market Regimes.\" Physica A: Statistical Mechanics and its Applications (2026).",
+            "chicago": "Choi, Insu. \"Intrinsic Multifractality and Adaptive Efficiency in Bitcoin: Disentangling Sources of Scaling Complexity Across Market Regimes.\" Physica A: Statistical Mechanics and its Applications (2026).",
+            "harvard": "Choi, I. (2026) 'Intrinsic multifractality and adaptive efficiency in Bitcoin: Disentangling sources of scaling complexity across market regimes', Physica A: Statistical Mechanics and its Applications.",
+            "vancouver": "Choi I. Intrinsic multifractality and adaptive efficiency in Bitcoin: Disentangling sources of scaling complexity across market regimes. Physica A: Statistical Mechanics and its Applications. 2026.",
+            "bibtex": "@article{choi2026multifractality,\n  title = {{Intrinsic Multifractality and Adaptive Efficiency in Bitcoin: Disentangling Sources of Scaling Complexity Across Market Regimes}},\n  author = {Choi, Insu},\n  journal = {Physica A: Statistical Mechanics and its Applications},\n  year = {2026}\n}"
+        }
+    },
+    {
+        "type": "journal",
+        "indexing_group": "SCIE",
+        "code_label": "J",
         "published_date": "2026-05-25",
         "year": 2026,
         "title": "Wasserstein Distance-Based Feature Engineering for Enhancing Forecasting and Asset Allocation Insights",
@@ -369,7 +400,7 @@
         "volume": "",
         "issue": "",
         "pages": "",
-        "doi": "",
+        "doi": "10.1016/j.pacfin.2026.103169",
         "language": "English",
         "awards": 0,
         "citations": {
@@ -553,7 +584,7 @@
             1
         ],
         "author_marks": [
-            "1"
+            "1,*"
         ],
         "venue": "Wikidocs (Online Published, Open Source)",
         "language": "Korean",
@@ -1149,7 +1180,7 @@
         "venue": "2025 Spring Conference of the Korean Institute of Industrial Engineers (KIIE), Korean Operations Research and Management Science Society (KORMS), and Korea Society for Simulation (KSS)",
         "venue_ko": "2025 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회",
         "presentation_type": "poster",
-        "language": "English",
+        "language": "Korean",
         "awards": 0,
         "citations": {
             "apa": "Choi, I., Kim, S., Kim, J. H., & Kim, W. C. (2025, June 18). Dynamic influence and centrality analysis among industry sectors using time-varying regression coefficients estimated via Kalman filtering [Paper presentation]. 2025 Spring Conference of the Korean Institute of Industrial Engineers, Korean Operations Research and Management Science Society, and Korea Society for Simulation.",
@@ -1168,7 +1199,7 @@
         "published_date": "2025-06-18",
         "year": 2025,
         "title": "Accelerating Transfer Entropy Estimation via Large-Scale Parallel Processing",
-        "title_ko": "Accelerating Transfer Entropy Estimation via Large-Scale Parallel Processing",
+        "title_ko": "",
         "authors": [
             73,
             1,
@@ -1579,7 +1610,7 @@
         "venue": "2024 Fall International Conference of the Korean Intelligent Information Systems Society (KIISS) and Asia-Pacific Conference on Information Management (APCIM) 2024",
         "venue_ko": "2024 한국지능정보시스템학회 추계국제학술대회",
         "presentation_type": "oral",
-        "language": "English",
+        "language": "Korean",
         "awards": 0,
         "citations": {
             "apa": "Choi, I., & Kim, W. C. (2024, November 1). A study on the use of spatiotemporal graphs based on linear and nonlinear statistical dependencies in financial time series forecasting [Paper presentation]. 2024 Fall International Conference of Korea Intelligent Information Systems Society.",
@@ -2394,7 +2425,7 @@
         "venue": "2024 Spring Conference of the Korean Institute of Industrial Engineers (KIIE), Korean Operations Research and Management Science Society (KORMS), and Korea Society for Simulation (KSS)",
         "venue_ko": "2024 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회",
         "presentation_type": "poster",
-        "language": "English",
+        "language": "Korean",
         "awards": 0,
         "citations": {
             "apa": "Kim, S., Choi, I., & Kim, W. C. (2024, May 2). Study on strategies for responding to volatile markets: Focusing on consistent volatility avoidance strategies [Paper presentation]. 2024 Spring Conference of the Korean Institute of Industrial Engineers, Korean Operations Research and Management Science Society, and Korea Society for Simulation.",
@@ -2433,7 +2464,7 @@
         "venue": "2024 Spring Joint Conference of the Korean Institute of Industrial Engineers (KIIE) and Korean Operations Research and Management Science Society (KORMS)",
         "venue_ko": "2024 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회",
         "presentation_type": "poster",
-        "language": "English",
+        "language": "Korean",
         "awards": 0,
         "citations": {
             "apa": "Choi, I., Shim, E., An, S., Lim, S., Choi, Y., & Kim, W. C. (2024, May 2). Regional analysis of housing prices and birth rate trends through linear and information-theoretic statistical dependencies [Paper presentation]. 2024 Spring Joint Conference of the Korean Institute of Industrial Engineers and Korean Operations Research and Management Science Society.",
@@ -2638,7 +2669,7 @@
         "published_date": "2024-01-25",
         "year": 2024,
         "title": "Analyzing South Korea's Household Finance via Panel Data",
-        "title_ko": "Analyzing South Korea's Household Finance via Panel Data",
+        "title_ko": "",
         "authors": [
             1,
             24,
@@ -3830,7 +3861,7 @@
         "venue": "2023 4th Korea Artificial Intelligence Conference",
         "venue_ko": "2023 제4회 한국인공지능학술대회",
         "presentation_type": "oral",
-        "language": "English",
+        "language": "Korean",
         "awards": 0,
         "citations": {
             "apa": "Choi, I., Koh, W., Kang, G., Jang, Y., & Kim, W. C. (2023, September 21). Linear and monotonic statistical dependency-oriented financial asset return prediction via diffusion recurrent graph learning-based spatiotemporal graph learning [Paper presentation]. 2023 4th Korea Artificial Intelligence Conference.",
@@ -3984,7 +4015,7 @@
         "venue": "2023 Summer International Conference of the Korean Association for Policy Studies (KAPS)",
         "venue_ko": "2023 한국정책학회 하계국제학술대회",
         "presentation_type": "poster",
-        "language": "English",
+        "language": "Korean",
         "awards": 1,
         "award_details": {
             "prize": "3rd Prize",
@@ -5749,7 +5780,8 @@
             "chicago": "Choi, Insu, Wonje Yun, and Woo Chang Kim. \"Forecasting Exchange Rate Fluctuations Using Nonlinear Causal Network Analysis and Deep Learning Techniques.\" Paper presented at the 2021 Korean Association of Financial Engineering – Sungkyunkwan University International Conference on Finance, December 20, 2021.",
             "harvard": "Choi, I., Yun, W. & Kim, W.C. (2021) 'Forecasting exchange rate fluctuations using nonlinear causal network analysis and deep learning techniques', paper presented at the 2021 Korean Association of Financial Engineering – Sungkyunkwan University International Conference on Finance, 20 December.",
             "vancouver": "Choi I, Yun W, Kim WC. Forecasting exchange rate fluctuations using nonlinear causal network analysis and deep learning techniques. Paper presented at: 2021 Korean Association of Financial Engineering – Sungkyunkwan University International Conference on Finance; 2021 Dec 20.",
-            "bibtex": "@inproceedings{choi2021forecasting,\n  title = {{Forecasting exchange rate fluctuations using nonlinear causal network analysis and deep learning techniques}},\n  author = {Choi, I., Yun, W. and Kim, W. C.},\n  booktitle = {2021 Korean Association of Financial Engineering – Sungkyunkwan University International Conference on Finance},\n  year = {2021},\n}"
+            "bibtex": "@inproceedings{choi2021forecasting,\n  title = {{Forecasting exchange rate fluctuations using nonlinear causal network analysis and deep learning techniques}},\n  author = {Choi, I., Yun, W. and Kim, W. C.},\n  booktitle = {2021 Korean Association of Financial Engineering – Sungkyunkwan University International Conference on Finance},\n  year = {2021},\n}",
+            "korean": "최인수, 윤원제, 김우창. (2021). Forecasting Exchange Rate Fluctuations Using Nonlinear Causal Network Analysis and Deep Learning Techniques. 2021 한국금융공학회 동계국내학술대회."
         },
         "venue_ko": "2021 한국금융공학회 동계국내학술대회"
     },
