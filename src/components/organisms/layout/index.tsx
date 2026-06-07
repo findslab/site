@@ -1,4 +1,4 @@
-import React, { memo, ReactNode, useState, useEffect } from 'react'
+import React, { memo, ReactNode, useState, useEffect, useRef } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { ChevronDown, Menu, X, Mail, Copy, Check } from 'lucide-react'
 import clsx from 'clsx'
@@ -197,12 +197,22 @@ const LayoutOrganisms = ({ children }: props) => {
     return location.pathname === item.path
   }
 
+  const menuCloseTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+
   const handleMouseEnter = (name: string) => {
+    if (menuCloseTimer.current) {
+      clearTimeout(menuCloseTimer.current)
+      menuCloseTimer.current = null
+    }
     setOpenMenu(name)
   }
 
   const handleMouseLeave = () => {
-    setOpenMenu(null)
+    if (menuCloseTimer.current) clearTimeout(menuCloseTimer.current)
+    menuCloseTimer.current = setTimeout(() => {
+      setOpenMenu(null)
+      menuCloseTimer.current = null
+    }, 200)
   }
 
   const toggleMobileSubMenu = (name: string) => {

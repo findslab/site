@@ -435,13 +435,13 @@
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I. (2026). Trend Analysis in Financial Information Visualization Research: A Systematic Literature Review. Information Systems Review.",
-            "mla": "Insu Choi. \"Trend Analysis in Financial Information Visualization Research: A Systematic Literature Review.\" Information Systems Review (2026).",
-            "chicago": "Insu Choi. \"Trend Analysis in Financial Information Visualization Research: A Systematic Literature Review.\" Information Systems Review (2026).",
-            "harvard": "Choi, I. (2026) 'trend analysis in financial information visualization research: a systematic literature review', Information Systems Review.",
-            "vancouver": "Choi I. Trend Analysis in Financial Information Visualization Research: A Systematic Literature Review. Information Systems Review. 2026.",
-            "korean": "최인수. (2026). 금융 정보 시각화 연구의 동향 분석: 체계적 문헌 고찰. 경영정보학연구.",
-            "bibtex": "@article{choi2026trend,\n  title = {{Trend Analysis in Financial Information Visualization Research: A Systematic Literature Review}},\n  author = {Insu Choi},\n  journal = {Information Systems Review},\n  year = {2026}\n}"
+            "apa": "Choi, I. (2026). Trend Analysis in Financial Information Visualization Research: A Systematic Literature Review. Information Systems Review, 28(2).",
+            "mla": "Insu Choi. \"Trend Analysis in Financial Information Visualization Research: A Systematic Literature Review.\" Information Systems Review 28.2 (2026).",
+            "chicago": "Insu Choi. \"Trend Analysis in Financial Information Visualization Research: A Systematic Literature Review.\" Information Systems Review 28, no. 2 (2026).",
+            "harvard": "Choi, I. (2026) 'Trend Analysis in Financial Information Visualization Research: A Systematic Literature Review', Information Systems Review, 28(2).",
+            "vancouver": "Choi I. Trend Analysis in Financial Information Visualization Research: A Systematic Literature Review. Information Systems Review. 2026;28(2).",
+            "bibtex": "@article{ref2026trend,\n  title = {{Trend Analysis in Financial Information Visualization Research: A Systematic Literature Review}},\n  author = {Insu Choi},\n  journal = {Information Systems Review},\n  volume = {28},\n  number = {2},\n  year = {2026}\n}",
+            "korean": "최인수. (2026). 금융 정보 시각화 연구의 동향 분석: 체계적 문헌 고찰. 경영정보학연구, 28(2)."
         }
     },
     {
@@ -467,13 +467,13 @@
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I. (2026). Measure Matters: Moving-Window Analysis of Financial Network Topology. Journal of the Korea Management Engineers Society.",
-            "mla": "Insu Choi. \"Measure Matters: Moving-Window Analysis of Financial Network Topology.\" Journal of the Korea Management Engineers Society (2026).",
-            "chicago": "Insu Choi. \"Measure Matters: Moving-Window Analysis of Financial Network Topology.\" Journal of the Korea Management Engineers Society (2026).",
-            "harvard": "Choi, I. (2026) 'measure matters: moving-window analysis of financial network topology', Journal of the Korea Management Engineers Society.",
-            "vancouver": "Choi I. Measure Matters: Moving-Window Analysis of Financial Network Topology. Journal of the Korea Management Engineers Society. 2026.",
-            "korean": "최인수. (2026). 이동창 기반 금융 네트워크 분석에서 상호의존성 측도 선택의 영향. 한국경영공학회지.",
-            "bibtex": "@article{choi2026measure,\n  title = {{Measure Matters: Moving-Window Analysis of Financial Network Topology}},\n  author = {Insu Choi},\n  journal = {Journal of the Korea Management Engineers Society},\n  year = {2026}\n}"
+            "apa": "Choi, I. (2026). Measure Matters: Moving-Window Analysis of Financial Network Topology. Journal of the Korea Management Engineers Society, 31(1), 49-68.",
+            "mla": "Insu Choi. \"Measure Matters: Moving-Window Analysis of Financial Network Topology.\" Journal of the Korea Management Engineers Society 31.1 (2026): 49-68.",
+            "chicago": "Insu Choi. \"Measure Matters: Moving-Window Analysis of Financial Network Topology.\" Journal of the Korea Management Engineers Society 31, no. 1 (2026): 49-68.",
+            "harvard": "Choi, I. (2026) 'Measure Matters: Moving-Window Analysis of Financial Network Topology', Journal of the Korea Management Engineers Society, 31(1), 49-68.",
+            "vancouver": "Choi I. Measure Matters: Moving-Window Analysis of Financial Network Topology. Journal of the Korea Management Engineers Society. 2026;31(1):49-68.",
+            "bibtex": "@article{ref2026measure,\n  title = {{Measure Matters: Moving-Window Analysis of Financial Network Topology}},\n  author = {Insu Choi},\n  journal = {Journal of the Korea Management Engineers Society},\n  volume = {31},\n  number = {1},\n  year = {2026}\n}",
+            "korean": "최인수. (2026). 이동창 기반 금융 네트워크 분석에서 상호의존성 측도 선택의 영향. 한국경영공학회지, 31(1), 49-68."
         }
     },
     {
@@ -501,12 +501,12 @@
         "language": "English",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I., Kim, W. (2026). Beyond Linear Insights in the Feldstein–Horioka Puzzle: Delving Into Monotonic and Nonlinear Statistical Dependencies With Moving Windows. International Finance.",
-            "mla": "Insu Choi, and Woo Chang Kim. \"Beyond Linear Insights in the Feldstein–Horioka Puzzle: Delving Into Monotonic and Nonlinear Statistical Dependencies With Moving Windows.\" International Finance (2026).",
-            "chicago": "Insu Choi, and Woo Chang Kim. \"Beyond Linear Insights in the Feldstein–Horioka Puzzle: Delving Into Monotonic and Nonlinear Statistical Dependencies With Moving Windows.\" International Finance (2026).",
-            "harvard": "Choi, I., Kim, W. (2026) 'beyond linear insights in the feldstein–horioka puzzle: delving into monotonic and nonlinear statistical dependencies with moving windows', International Finance.",
-            "vancouver": "Choi I Kim WC. Beyond Linear Insights in the Feldstein–Horioka Puzzle: Delving Into Monotonic and Nonlinear Statistical Dependencies With Moving Windows. International Finance. 2026.",
-            "bibtex": "@article{choi2026beyond,\n  title = {{Beyond Linear Insights in the Feldstein–Horioka Puzzle: Delving Into Monotonic and Nonlinear Statistical Dependencies With Moving Windows}},\n  author = {Insu Choi, and Woo Chang Kim},\n  journal = {International Finance},\n  year = {2026}\n}"
+            "apa": "Choi, I., Kim, W. (2026). Beyond Linear Insights in the Feldstein–Horioka Puzzle: Delving Into Monotonic and Nonlinear Statistical Dependencies With Moving Windows. International Finance, 29(2). https://doi.org/https://doi.org/10.1111/infi.70029",
+            "mla": "Insu Choi, and Woo Chang Kim. \"Beyond Linear Insights in the Feldstein–Horioka Puzzle: Delving Into Monotonic and Nonlinear Statistical Dependencies With Moving Windows.\" International Finance 29.2 (2026).",
+            "chicago": "Insu Choi, and Woo Chang Kim. \"Beyond Linear Insights in the Feldstein–Horioka Puzzle: Delving Into Monotonic and Nonlinear Statistical Dependencies With Moving Windows.\" International Finance 29, no. 2 (2026).",
+            "harvard": "Choi, I., Kim, W. (2026) 'Beyond Linear Insights in the Feldstein–Horioka Puzzle: Delving Into Monotonic and Nonlinear Statistical Dependencies With Moving Windows', International Finance, 29(2).",
+            "vancouver": "Choi I Kim WC. Beyond Linear Insights in the Feldstein–Horioka Puzzle: Delving Into Monotonic and Nonlinear Statistical Dependencies With Moving Windows. International Finance. 2026;29(2).",
+            "bibtex": "@article{ref2026beyond,\n  title = {{Beyond Linear Insights in the Feldstein–Horioka Puzzle: Delving Into Monotonic and Nonlinear Statistical Dependencies With Moving Windows}},\n  author = {Insu Choi, and Woo Chang Kim},\n  journal = {International Finance},\n  volume = {29},\n  number = {2},\n  year = {2026},\n  doi = {https://doi.org/10.1111/infi.70029}\n}"
         }
     },
     {
@@ -532,13 +532,13 @@
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I. (2026). Day-of-the-Week and Holiday Effects in the Korean Stock Market. Journal of the Korean Data and Information Science Society.",
-            "mla": "Insu Choi. \"Day-of-the-Week and Holiday Effects in the Korean Stock Market.\" Journal of the Korean Data and Information Science Society (2026).",
-            "chicago": "Insu Choi. \"Day-of-the-Week and Holiday Effects in the Korean Stock Market.\" Journal of the Korean Data and Information Science Society (2026).",
-            "harvard": "Choi, I. (2026) 'day-of-the-week and holiday effects in the korean stock market', Journal of the Korean Data and Information Science Society.",
-            "vancouver": "Choi I. Day-of-the-Week and Holiday Effects in the Korean Stock Market. Journal of the Korean Data and Information Science Society. 2026.",
-            "korean": "최인수. (2026). 한국 주식시장의 요일 효과 및 공휴일 효과에 관한 실증연구. 한국데이터정보과학회지.",
-            "bibtex": "@article{choi2026day-of-the-week,\n  title = {{Day-of-the-Week and Holiday Effects in the Korean Stock Market}},\n  author = {Insu Choi},\n  journal = {Journal of the Korean Data and Information Science Society},\n  year = {2026}\n}"
+            "apa": "Choi, I. (2026). Day-of-the-Week and Holiday Effects in the Korean Stock Market. Journal of the Korean Data and Information Science Society, 37(2).",
+            "mla": "Insu Choi. \"Day-of-the-Week and Holiday Effects in the Korean Stock Market.\" Journal of the Korean Data and Information Science Society 37.2 (2026).",
+            "chicago": "Insu Choi. \"Day-of-the-Week and Holiday Effects in the Korean Stock Market.\" Journal of the Korean Data and Information Science Society 37, no. 2 (2026).",
+            "harvard": "Choi, I. (2026) 'Day-of-the-Week and Holiday Effects in the Korean Stock Market', Journal of the Korean Data and Information Science Society, 37(2).",
+            "vancouver": "Choi I. Day-of-the-Week and Holiday Effects in the Korean Stock Market. Journal of the Korean Data and Information Science Society. 2026;37(2).",
+            "bibtex": "@article{ref2026day-of-the,\n  title = {{Day-of-the-Week and Holiday Effects in the Korean Stock Market}},\n  author = {Insu Choi},\n  journal = {Journal of the Korean Data and Information Science Society},\n  volume = {37},\n  number = {2},\n  year = {2026}\n}",
+            "korean": "최인수. (2026). 한국 주식시장의 요일 효과 및 공휴일 효과에 관한 실증연구. 한국데이터정보과학회지, 37(2)."
         }
     },
     {
@@ -694,12 +694,12 @@
         "language": "English",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I., & Shim, E. (2025). Housing–fertility interdependencies in South Korea: A dynamic analysis across regional disparities and temporal shifts. <em>Asian Journal of Social Science</em>. Advance online publication. https://doi.org/10.1016/j.ajss.2025.100221",
-            "mla": "Choi, Insu, and Eun Shim. \"Housing–Fertility Interdependencies in South Korea: A Dynamic Analysis across Regional Disparities and Temporal Shifts.\" <em>Asian Journal of Social Science</em>, 2025. Advance online publication. https://doi.org/10.1016/j.ajss.2025.100221",
-            "chicago": "Choi, Insu, and Eun Shim. \"Housing–Fertility Interdependencies in South Korea: A Dynamic Analysis across Regional Disparities and Temporal Shifts.\" <em>Asian Journal of Social Science</em> (2025). Advance online publication. https://doi.org/10.1016/j.ajss.2025.100221",
-            "harvard": "Choi, I. & Shim, E. (2025) 'Housing–fertility interdependencies in South Korea: A dynamic analysis across regional disparities and temporal shifts', <em>Asian Journal of Social Science</em>, advance online publication.",
-            "vancouver": "Choi I, Shim E. Housing–fertility interdependencies in South Korea: A dynamic analysis across regional disparities and temporal shifts. Asian Journal of Social Science. 2025. Advance online publication. https://doi.org/10.1016/j.ajss.2025.100221",
-            "bibtex": "@article{choi2025housingfertility,\n  title = {{Housing–Fertility Interdependencies in South Korea: A Dynamic Analysis across Regional Disparities and Temporal Shifts}},\n  author = {Choi, I. and Shim, E.},\n  journal = {Asian Journal of Social Science},\n  volume = {53},\n  number = {4},\n  pages = {100221},\n  year = {2025},\n  doi = {10.1016/j.ajss.2025.100221},\n}"
+            "apa": "Choi, I., Shim, E. (2025). Housing–Fertility Interdependencies in South Korea: A Dynamic Analysis Across Regional Disparities and Temporal Shifts. Asian Journal of Social Science, 53(4), 100221. https://doi.org/10.1016/j.ajss.2025.100221",
+            "mla": "Insu Choi, and Eun Shim. \"Housing–Fertility Interdependencies in South Korea: A Dynamic Analysis Across Regional Disparities and Temporal Shifts.\" Asian Journal of Social Science 53.4 (2025): 100221.",
+            "chicago": "Insu Choi, and Eun Shim. \"Housing–Fertility Interdependencies in South Korea: A Dynamic Analysis Across Regional Disparities and Temporal Shifts.\" Asian Journal of Social Science 53, no. 4 (2025): 100221.",
+            "harvard": "Choi, I., Shim, E. (2025) 'Housing–Fertility Interdependencies in South Korea: A Dynamic Analysis Across Regional Disparities and Temporal Shifts', Asian Journal of Social Science, 53(4), 100221.",
+            "vancouver": "Choi I Shim E. Housing–Fertility Interdependencies in South Korea: A Dynamic Analysis Across Regional Disparities and Temporal Shifts. Asian Journal of Social Science. 2025;53(4):100221.",
+            "bibtex": "@article{ref2025housing–fe,\n  title = {{Housing–Fertility Interdependencies in South Korea: A Dynamic Analysis Across Regional Disparities and Temporal Shifts}},\n  author = {Insu Choi, and Eun Shim},\n  journal = {Asian Journal of Social Science},\n  volume = {53},\n  number = {4},\n  year = {2025},\n  doi = {10.1016/j.ajss.2025.100221}\n}"
         }
     },
     {
@@ -4572,19 +4572,19 @@
             "*"
         ],
         "venue": "Annals of Operations Research",
-        "volume": 352,
-        "issue": 3,
+        "volume": "352",
+        "issue": "3",
         "pages": "745-780",
         "doi": "10.1007/s10479-022-05101-8",
         "language": "English",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I., Yun, W., & Kim, W. C. (2025). Improving data efficiency for analyzing global exchange rate fluctuations based on nonlinear causal network-based clustering. <em>Annals of Operations Research</em>, <em>352</em>(3), 745-780. https://doi.org/10.1007/s10479-022-05101-8",
-            "mla": "Choi, Insu, Wonje Yun, and Woo Chang Kim. \"Improving Data Efficiency for Analyzing Global Exchange Rate Fluctuations Based on Nonlinear Causal Network-Based Clustering.\" <em>Annals of Operations Research</em>, vol. 352, no. 3, 2025, pp. 745-780. doi:10.1007/s10479-022-05101-8.",
-            "chicago": "Choi, Insu, Wonje Yun, and Woo Chang Kim. \"Improving Data Efficiency for Analyzing Global Exchange Rate Fluctuations Based on Nonlinear Causal Network-Based Clustering.\" <em>Annals of Operations Research</em> 352, no. 3 (2025): 745-780. https://doi.org/10.1007/s10479-022-05101-8.",
-            "harvard": "Choi, I., Yun, W. & Kim, W.C. (2025) 'Improving data efficiency for analyzing global exchange rate fluctuations based on nonlinear causal network-based clustering', <em>Annals of Operations Research</em>, vol. 352, no. 3, pp. 745-780.",
-            "vancouver": "Choi I, Yun W, Kim WC. Improving data efficiency for analyzing global exchange rate fluctuations based on nonlinear causal network-based clustering. Annals of Operations Research. 2025;352(3):745-780.",
-            "bibtex": "@article{choi2025improving,\n  title = {{Improving Data Efficiency for Analyzing Global Exchange Rate Fluctuations Based on Nonlinear Causal Network-Based Clustering}},\n  author = {Choi, I., Yun, W. and Kim, W. C.},\n  journal = {Annals of Operations Research},\n  volume = {352},\n  number = {3},\n  pages = {745-780},\n  year = {2025},\n  doi = {10.1007/s10479-022-05101-8},\n}"
+            "apa": "Choi, I., Yun, W., Kim, W. (2025). Improving Data Efficiency for Analyzing Global Exchange Rate Fluctuations Based on Nonlinear Causal Network-Based Clustering. Annals of Operations Research, 352(3), 745-780. https://doi.org/10.1007/s10479-022-05101-8",
+            "mla": "Insu Choi, Wonje Yun, and Woo Chang Kim. \"Improving Data Efficiency for Analyzing Global Exchange Rate Fluctuations Based on Nonlinear Causal Network-Based Clustering.\" Annals of Operations Research 352.3 (2025): 745-780.",
+            "chicago": "Insu Choi, Wonje Yun, and Woo Chang Kim. \"Improving Data Efficiency for Analyzing Global Exchange Rate Fluctuations Based on Nonlinear Causal Network-Based Clustering.\" Annals of Operations Research 352, no. 3 (2025): 745-780.",
+            "harvard": "Choi, I., Yun, W., Kim, W. (2025) 'Improving Data Efficiency for Analyzing Global Exchange Rate Fluctuations Based on Nonlinear Causal Network-Based Clustering', Annals of Operations Research, 352(3), 745-780.",
+            "vancouver": "Choi I Yun W Kim WC. Improving Data Efficiency for Analyzing Global Exchange Rate Fluctuations Based on Nonlinear Causal Network-Based Clustering. Annals of Operations Research. 2025;352(3):745-780.",
+            "bibtex": "@article{ref2025improving,\n  title = {{Improving Data Efficiency for Analyzing Global Exchange Rate Fluctuations Based on Nonlinear Causal Network-Based Clustering}},\n  author = {Insu Choi, Wonje Yun, and Woo Chang Kim},\n  journal = {Annals of Operations Research},\n  volume = {352},\n  number = {3},\n  year = {2025},\n  doi = {10.1007/s10479-022-05101-8}\n}"
         }
     },
     {
