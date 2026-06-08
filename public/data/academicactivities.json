@@ -760,6 +760,15 @@
             "type": "Session Chair",
             "period": "2026-06-04",
             "url": ""
+        },
+        {
+            "id": 85,
+            "category": "journal",
+            "name": "SN Business & Economics",
+            "publisher": "Springer Nature",
+            "type": "Scopus",
+            "since": "2026-06-08",
+            "url": "https://www.springer.com/journal/43546"
         }
     ]
 }
