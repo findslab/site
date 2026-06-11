@@ -1,6 +1,103 @@
 [
     {
         "type": "journal",
+        "indexing_group": "KCI",
+        "code_label": "J",
+        "published_date": "2026-07-31",
+        "year": 2026,
+        "title": "Asymmetric Effects of Base Rate Changes on Regional Apartment Prices: An Analysis Using NARDL and XGBoost-SHAP Models",
+        "title_ko": "기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포(NARDL)와 XGBoost-SHAP 모형을 활용한 분석",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "Journal of Real Estate Analysis",
+        "venue_ko": "부동산분석",
+        "volume": "12",
+        "issue": "2",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "최인수. (2026). 기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포(NARDL)와 XGBoost-SHAP 모형을 활용한 분석. 부동산분석, 12(2).",
+            "mla": "최인수. \"기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포(NARDL)와 XGBoost-SHAP 모형을 활용한 분석.\" 부동산분석 12.2 (2026).",
+            "chicago": "최인수. \"기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포(NARDL)와 XGBoost-SHAP 모형을 활용한 분석.\" 부동산분석 12, no. 2 (2026).",
+            "harvard": "최인수 (2026) '기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포(NARDL)와 XGBoost-SHAP 모형을 활용한 분석', 부동산분석, 12(2).",
+            "vancouver": "Choi I. 기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포(NARDL)와 XGBoost-SHAP 모형을 활용한 분석. 부동산분석. 2026;12(2).",
+            "korean": "최인수. (2026). 기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포(NARDL)와 XGBoost-SHAP 모형을 활용한 분석. 부동산분석, 12(2).",
+            "bibtex": "@article{choi2026baserate,\n  title = {{Asymmetric Effects of Base Rate Changes on Regional Apartment Prices: An Analysis Using NARDL and XGBoost-SHAP Models}},\n  author = {Choi, Insu},\n  journal = {Journal of Real Estate Analysis},\n  volume = {12},\n  number = {2},\n  year = {2026}\n}"
+        }
+    },
+    {
+        "type": "journal",
+        "indexing_group": "KCI",
+        "code_label": "J",
+        "published_date": "2026-06-30",
+        "year": 2026,
+        "title": "Cafe Survival Analysis and Closure Prediction Models Based on Capital Tier and Competitive Density: Focusing on Seoul",
+        "title_ko": "자본 체급과 경쟁 밀도 기반 카페 생존 분석 및 폐업 예측 모형 — 서울특별시를 중심으로",
+        "authors": [
+            162,
+            1
+        ],
+        "author_marks": [
+            "1",
+            "*"
+        ],
+        "venue": "Journal of the Korean Society for Quality Management",
+        "venue_ko": "한국경영공학회지",
+        "volume": "31",
+        "issue": "2",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "이채은, 최인수. (2026). 자본 체급과 경쟁 밀도 기반 카페 생존 분석 및 폐업 예측 모형 — 서울특별시를 중심으로. 한국경영공학회지, 31(2).",
+            "mla": "이채은, 최인수. \"자본 체급과 경쟁 밀도 기반 카페 생존 분석 및 폐업 예측 모형 — 서울특별시를 중심으로.\" 한국경영공학회지 31.2 (2026).",
+            "chicago": "이채은, 최인수. \"자본 체급과 경쟁 밀도 기반 카페 생존 분석 및 폐업 예측 모형 — 서울특별시를 중심으로.\" 한국경영공학회지 31, no. 2 (2026).",
+            "harvard": "이채은, 최인수 (2026) '자본 체급과 경쟁 밀도 기반 카페 생존 분석 및 폐업 예측 모형 — 서울특별시를 중심으로', 한국경영공학회지, 31(2).",
+            "vancouver": "Lee CE, Choi I. 자본 체급과 경쟁 밀도 기반 카페 생존 분석 및 폐업 예측 모형 — 서울특별시를 중심으로. 한국경영공학회지. 2026;31(2).",
+            "korean": "이채은, 최인수. (2026). 자본 체급과 경쟁 밀도 기반 카페 생존 분석 및 폐업 예측 모형 — 서울특별시를 중심으로. 한국경영공학회지, 31(2).",
+            "bibtex": "@article{lee2026cafe,\n  title = {{Cafe Survival Analysis and Closure Prediction Models Based on Capital Tier and Competitive Density: Focusing on Seoul}},\n  author = {Lee, Chae-Eun and Choi, Insu},\n  journal = {Journal of the Korean Society for Quality Management},\n  volume = {31},\n  number = {2},\n  year = {2026}\n}"
+        }
+    },
+    {
+        "type": "journal",
+        "indexing_group": "SSCI",
+        "code_label": "J",
+        "published_date": "2026-06-30",
+        "year": 2026,
+        "title": "Efficient Computation of Granger Causality Networks via Partial Correlation: A Vectorized Algorithm with Applications to Financial Markets",
+        "title_ko": "",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "Journal of Economic Interaction and Coordination",
+        "venue_ko": "",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "English",
+        "awards": 0,
+        "citations": {
+            "apa": "Choi, I. (2026). Efficient computation of Granger causality networks via partial correlation: A vectorized algorithm with applications to financial markets. Journal of Economic Interaction and Coordination.",
+            "mla": "Choi, Insu. \"Efficient Computation of Granger Causality Networks via Partial Correlation: A Vectorized Algorithm with Applications to Financial Markets.\" Journal of Economic Interaction and Coordination (2026).",
+            "chicago": "Choi, Insu. \"Efficient Computation of Granger Causality Networks via Partial Correlation: A Vectorized Algorithm with Applications to Financial Markets.\" Journal of Economic Interaction and Coordination (2026).",
+            "harvard": "Choi, I. (2026) 'Efficient computation of Granger causality networks via partial correlation: A vectorized algorithm with applications to financial markets', Journal of Economic Interaction and Coordination.",
+            "vancouver": "Choi I. Efficient computation of Granger causality networks via partial correlation: A vectorized algorithm with applications to financial markets. Journal of Economic Interaction and Coordination. 2026.",
+            "bibtex": "@article{choi2026granger,\n  title = {{Efficient Computation of Granger Causality Networks via Partial Correlation: A Vectorized Algorithm with Applications to Financial Markets}},\n  author = {Choi, Insu},\n  journal = {Journal of Economic Interaction and Coordination},\n  year = {2026}\n}"
+        }
+    },
+    {
+        "type": "journal",
         "indexing_group": "SCIE",
         "code_label": "J",
         "published_date": "2026-06-05",
@@ -8561,7 +8658,7 @@
         "type": "conference",
         "indexing_group": "Domestic Conference",
         "code_label": "C",
-        "published_date": "2026-07-10",
+        "published_date": "2026-07-09",
         "year": 2026,
         "title": "Performance Advantage of Graph Attention Networks in Global Stock Index Forecasting Using Correlation-Based Market Graphs",
         "title_ko": "상관관계 기반 시장 그래프를 활용한 글로벌 주가지수 예측에서 그래프 주의 네트워크의 성과 우위 분석",
@@ -8594,7 +8691,7 @@
         "type": "conference",
         "indexing_group": "Domestic Conference",
         "code_label": "C",
-        "published_date": "2026-07-10",
+        "published_date": "2026-07-09",
         "year": 2026,
         "title": "Search Volume-Based K-Pop Content Interest Index and Stock Price Co-movement Analysis",
         "title_ko": "검색량 기반 K-Pop 콘텐츠 관심도 지표와 주가 연동성 분석",
@@ -8627,7 +8724,7 @@
         "type": "conference",
         "indexing_group": "Domestic Conference",
         "code_label": "C",
-        "published_date": "2026-07-10",
+        "published_date": "2026-07-09",
         "year": 2026,
         "title": "A Systematic Literature Review on Performance Conditions of Machine Learning in Financial Forecasting",
         "title_ko": "금융 예측에서 기계학습의 성과 조건에 관한 체계적 문헌 고찰",
@@ -8660,7 +8757,7 @@
         "type": "conference",
         "indexing_group": "Domestic Conference",
         "code_label": "C",
-        "published_date": "2026-07-10",
+        "published_date": "2026-07-09",
         "year": 2026,
         "title": "Curvature-Based Graph Utilization for Decomposable Portfolio Allocation",
         "title_ko": "분해 가능한 포트폴리오 배분을 위한 곡률 기반 그래프 활용",
@@ -8693,7 +8790,7 @@
         "type": "conference",
         "indexing_group": "Domestic Conference",
         "code_label": "C",
-        "published_date": "2026-07-10",
+        "published_date": "2026-07-09",
         "year": 2026,
         "title": "Heterogeneous Savings-Investment Linkage Structures in Asian Economies via Information-Theoretic Measures",
         "title_ko": "정보이론 측도를 활용한 아시아 경제권의 이질적 저축-투자 연계 구조 분석",
@@ -8726,7 +8823,7 @@
         "type": "conference",
         "indexing_group": "Domestic Conference",
         "code_label": "C",
-        "published_date": "2026-07-10",
+        "published_date": "2026-07-09",
         "year": 2026,
         "title": "Trends in AI-Responsive Curriculum Restructuring at Korean Business Schools",
         "title_ko": "한국 경영대학의 인공지능 대응 교육과정 재편 동향",
