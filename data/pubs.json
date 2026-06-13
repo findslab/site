@@ -6,7 +6,7 @@
         "published_date": "2026-07-31",
         "year": 2026,
         "title": "Asymmetric Effects of Base Rate Changes on Regional Apartment Prices: An Analysis Using NARDL and XGBoost-SHAP Models",
-        "title_ko": "기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포(NARDL)와 XGBoost-SHAP 모형을 활용한 분석",
+        "title_ko": "기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포와 XGBoost-SHAP 모형을 활용한 분석",
         "authors": [
             1
         ],
@@ -22,12 +22,12 @@
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "최인수. (2026). 기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포(NARDL)와 XGBoost-SHAP 모형을 활용한 분석. 부동산분석, 12(2).",
-            "mla": "최인수. \"기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포(NARDL)와 XGBoost-SHAP 모형을 활용한 분석.\" 부동산분석 12.2 (2026).",
-            "chicago": "최인수. \"기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포(NARDL)와 XGBoost-SHAP 모형을 활용한 분석.\" 부동산분석 12, no. 2 (2026).",
-            "harvard": "최인수 (2026) '기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포(NARDL)와 XGBoost-SHAP 모형을 활용한 분석', 부동산분석, 12(2).",
-            "vancouver": "Choi I. 기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포(NARDL)와 XGBoost-SHAP 모형을 활용한 분석. 부동산분석. 2026;12(2).",
-            "korean": "최인수. (2026). 기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포(NARDL)와 XGBoost-SHAP 모형을 활용한 분석. 부동산분석, 12(2).",
+            "apa": "최인수. (2026). 기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포와 XGBoost-SHAP 모형을 활용한 분석. 부동산분석, 12(2).",
+            "mla": "최인수. \"기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포와 XGBoost-SHAP 모형을 활용한 분석.\" 부동산분석 12.2 (2026).",
+            "chicago": "최인수. \"기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포와 XGBoost-SHAP 모형을 활용한 분석.\" 부동산분석 12, no. 2 (2026).",
+            "harvard": "최인수 (2026) '기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포와 XGBoost-SHAP 모형을 활용한 분석', 부동산분석, 12(2).",
+            "vancouver": "Choi I. 기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포와 XGBoost-SHAP 모형을 활용한 분석. 부동산분석. 2026;12(2).",
+            "korean": "최인수. (2026). 기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포와 XGBoost-SHAP 모형을 활용한 분석. 부동산분석, 12(2).",
             "bibtex": "@article{choi2026baserate,\n  title = {{Asymmetric Effects of Base Rate Changes on Regional Apartment Prices: An Analysis Using NARDL and XGBoost-SHAP Models}},\n  author = {Choi, Insu},\n  journal = {Journal of Real Estate Analysis},\n  volume = {12},\n  number = {2},\n  year = {2026}\n}"
         }
     },
@@ -273,7 +273,7 @@
         "venue": "Korean Management Science Review",
         "venue_ko": "경영과학",
         "volume": "43",
-        "issue": "3",
+        "issue": "2",
         "pages": "",
         "doi": "",
         "language": "Korean",
@@ -8323,171 +8323,6 @@
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Market Microstructure Analysis of Information, Volume, and Volatility in the Korean Stock Market}},\n  author = {Insu Choi},\n  booktitle = {2026 Summer Conference of the Korean Data Analysis Society},\n  year = {2026}\n}"
         },
         "presentation_type": "oral"
-    },
-    {
-        "type": "conference",
-        "indexing_group": "Domestic Conference",
-        "code_label": "C",
-        "published_date": "2026-06-26",
-        "year": 2026,
-        "title": "Threshold Regression Analysis of Credit Supply Conditions and Housing Finance Accessibility in Korea",
-        "title_ko": "신용공급 여건과 한국 주택금융 접근성의 임계 회귀 분석",
-        "authors": [
-            1
-        ],
-        "author_marks": [
-            "1,*"
-        ],
-        "venue": "2026 Summer Conference of the Korean Data Analysis Society (KDAS)",
-        "venue_ko": "2026 한국자료분석학회 하계학술논문발표대회",
-        "volume": "",
-        "issue": "",
-        "pages": "",
-        "doi": "",
-        "language": "Korean",
-        "awards": 0,
-        "citations": {
-            "apa": "Choi, I. (2026). Threshold Regression Analysis of Credit Supply Conditions and Housing Finance Accessibility in Korea. 2026 Summer Conference of the Korean Data Analysis Society.",
-            "mla": "Insu Choi. \"Threshold Regression Analysis of Credit Supply Conditions and Housing Finance Accessibility in Korea.\" 2026 Summer Conference of the Korean Data Analysis Society, 2026.",
-            "chicago": "Insu Choi. \"Threshold Regression Analysis of Credit Supply Conditions and Housing Finance Accessibility in Korea.\" 2026 Summer Conference of the Korean Data Analysis Society, 2026.",
-            "harvard": "Choi, I. (2026) 'threshold regression analysis of credit supply conditions and housing finance accessibility in korea', 2026 Summer Conference of the Korean Data Analysis Society.",
-            "vancouver": "Choi I. Threshold Regression Analysis of Credit Supply Conditions and Housing Finance Accessibility in Korea. 2026 Summer Conference of the Korean Data Analysis Society. 2026.",
-            "korean": "최인수. (2026). 신용공급 여건과 한국 주택금융 접근성의 임계 회귀 분석. 2026 한국자료분석학회 하계학술논문발표대회.",
-            "bibtex": "@inproceedings{choi2026conf,\n  title = {{Threshold Regression Analysis of Credit Supply Conditions and Housing Finance Accessibility in Korea}},\n  author = {Insu Choi},\n  booktitle = {2026 Summer Conference of the Korean Data Analysis Society},\n  year = {2026}\n}"
-        },
-        "presentation_type": "poster"
-    },
-    {
-        "type": "conference",
-        "indexing_group": "Domestic Conference",
-        "code_label": "C",
-        "published_date": "2026-06-26",
-        "year": 2026,
-        "title": "Multi-Asset Empirical Analysis of Return Differentials Between Dollar-Cost Averaging and Lump-Sum Investing",
-        "title_ko": "분할매수와 일시매수의 수익 격차에 관한 다중자산 실증 분석",
-        "authors": [
-            1
-        ],
-        "author_marks": [
-            "1,*"
-        ],
-        "venue": "2026 Summer Conference of the Korean Data Analysis Society (KDAS)",
-        "venue_ko": "2026 한국자료분석학회 하계학술논문발표대회",
-        "volume": "",
-        "issue": "",
-        "pages": "",
-        "doi": "",
-        "language": "Korean",
-        "awards": 0,
-        "citations": {
-            "apa": "Choi, I. (2026). Multi-Asset Empirical Analysis of Return Differentials Between Dollar-Cost Averaging and Lump-Sum Investing. 2026 Summer Conference of the Korean Data Analysis Society.",
-            "mla": "Insu Choi. \"Multi-Asset Empirical Analysis of Return Differentials Between Dollar-Cost Averaging and Lump-Sum Investing.\" 2026 Summer Conference of the Korean Data Analysis Society, 2026.",
-            "chicago": "Insu Choi. \"Multi-Asset Empirical Analysis of Return Differentials Between Dollar-Cost Averaging and Lump-Sum Investing.\" 2026 Summer Conference of the Korean Data Analysis Society, 2026.",
-            "harvard": "Choi, I. (2026) 'multi-asset empirical analysis of return differentials between dollar-cost averaging and lump-sum investing', 2026 Summer Conference of the Korean Data Analysis Society.",
-            "vancouver": "Choi I. Multi-Asset Empirical Analysis of Return Differentials Between Dollar-Cost Averaging and Lump-Sum Investing. 2026 Summer Conference of the Korean Data Analysis Society. 2026.",
-            "korean": "최인수. (2026). 분할매수와 일시매수의 수익 격차에 관한 다중자산 실증 분석. 2026 한국자료분석학회 하계학술논문발표대회.",
-            "bibtex": "@inproceedings{choi2026conf,\n  title = {{Multi-Asset Empirical Analysis of Return Differentials Between Dollar-Cost Averaging and Lump-Sum Investing}},\n  author = {Insu Choi},\n  booktitle = {2026 Summer Conference of the Korean Data Analysis Society},\n  year = {2026}\n}"
-        },
-        "presentation_type": "poster"
-    },
-    {
-        "type": "conference",
-        "indexing_group": "Domestic Conference",
-        "code_label": "C",
-        "published_date": "2026-06-26",
-        "year": 2026,
-        "title": "A Systematic Review of User Experience in Data-Driven Financial Services",
-        "title_ko": "데이터 기반 금융서비스 사용자 경험에 관한 체계적 고찰",
-        "authors": [
-            1
-        ],
-        "author_marks": [
-            "1,*"
-        ],
-        "venue": "2026 Summer Conference of the Korean Data Analysis Society (KDAS)",
-        "venue_ko": "2026 한국자료분석학회 하계학술논문발표대회",
-        "volume": "",
-        "issue": "",
-        "pages": "",
-        "doi": "",
-        "language": "Korean",
-        "awards": 0,
-        "citations": {
-            "apa": "Choi, I. (2026). A Systematic Review of User Experience in Data-Driven Financial Services. 2026 Summer Conference of the Korean Data Analysis Society.",
-            "mla": "Insu Choi. \"A Systematic Review of User Experience in Data-Driven Financial Services.\" 2026 Summer Conference of the Korean Data Analysis Society, 2026.",
-            "chicago": "Insu Choi. \"A Systematic Review of User Experience in Data-Driven Financial Services.\" 2026 Summer Conference of the Korean Data Analysis Society, 2026.",
-            "harvard": "Choi, I. (2026) 'a systematic review of user experience in data-driven financial services', 2026 Summer Conference of the Korean Data Analysis Society.",
-            "vancouver": "Choi I. A Systematic Review of User Experience in Data-Driven Financial Services. 2026 Summer Conference of the Korean Data Analysis Society. 2026.",
-            "korean": "최인수. (2026). 데이터 기반 금융서비스 사용자 경험에 관한 체계적 고찰. 2026 한국자료분석학회 하계학술논문발표대회.",
-            "bibtex": "@inproceedings{choi2026conf,\n  title = {{A Systematic Review of User Experience in Data-Driven Financial Services}},\n  author = {Insu Choi},\n  booktitle = {2026 Summer Conference of the Korean Data Analysis Society},\n  year = {2026}\n}"
-        },
-        "presentation_type": "poster"
-    },
-    {
-        "type": "conference",
-        "indexing_group": "Domestic Conference",
-        "code_label": "C",
-        "published_date": "2026-06-26",
-        "year": 2026,
-        "title": "A Scoping Review of Irrational Financial Decision-Making in the Digital Era",
-        "title_ko": "디지털 시대 금융 의사결정 비합리성에 관한 주제범위 검토",
-        "authors": [
-            1
-        ],
-        "author_marks": [
-            "1,*"
-        ],
-        "venue": "2026 Summer Conference of the Korean Data Analysis Society (KDAS)",
-        "venue_ko": "2026 한국자료분석학회 하계학술논문발표대회",
-        "volume": "",
-        "issue": "",
-        "pages": "",
-        "doi": "",
-        "language": "Korean",
-        "awards": 0,
-        "citations": {
-            "apa": "Choi, I. (2026). A Scoping Review of Irrational Financial Decision-Making in the Digital Era. 2026 Summer Conference of the Korean Data Analysis Society.",
-            "mla": "Insu Choi. \"A Scoping Review of Irrational Financial Decision-Making in the Digital Era.\" 2026 Summer Conference of the Korean Data Analysis Society, 2026.",
-            "chicago": "Insu Choi. \"A Scoping Review of Irrational Financial Decision-Making in the Digital Era.\" 2026 Summer Conference of the Korean Data Analysis Society, 2026.",
-            "harvard": "Choi, I. (2026) 'a scoping review of irrational financial decision-making in the digital era', 2026 Summer Conference of the Korean Data Analysis Society.",
-            "vancouver": "Choi I. A Scoping Review of Irrational Financial Decision-Making in the Digital Era. 2026 Summer Conference of the Korean Data Analysis Society. 2026.",
-            "korean": "최인수. (2026). 디지털 시대 금융 의사결정 비합리성에 관한 주제범위 검토. 2026 한국자료분석학회 하계학술논문발표대회.",
-            "bibtex": "@inproceedings{choi2026conf,\n  title = {{A Scoping Review of Irrational Financial Decision-Making in the Digital Era}},\n  author = {Insu Choi},\n  booktitle = {2026 Summer Conference of the Korean Data Analysis Society},\n  year = {2026}\n}"
-        },
-        "presentation_type": "poster"
-    },
-    {
-        "type": "conference",
-        "indexing_group": "Domestic Conference",
-        "code_label": "C",
-        "published_date": "2026-06-26",
-        "year": 2026,
-        "title": "An Integrative Review of Security Threats and Regulatory Governance in Digital Financial Markets",
-        "title_ko": "디지털 금융시장 보안 위협과 규제 거버넌스에 관한 통합적 검토",
-        "authors": [
-            1
-        ],
-        "author_marks": [
-            "1,*"
-        ],
-        "venue": "2026 Summer Conference of the Korean Data Analysis Society (KDAS)",
-        "venue_ko": "2026 한국자료분석학회 하계학술논문발표대회",
-        "volume": "",
-        "issue": "",
-        "pages": "",
-        "doi": "",
-        "language": "Korean",
-        "awards": 0,
-        "citations": {
-            "apa": "Choi, I. (2026). An Integrative Review of Security Threats and Regulatory Governance in Digital Financial Markets. 2026 Summer Conference of the Korean Data Analysis Society.",
-            "mla": "Insu Choi. \"An Integrative Review of Security Threats and Regulatory Governance in Digital Financial Markets.\" 2026 Summer Conference of the Korean Data Analysis Society, 2026.",
-            "chicago": "Insu Choi. \"An Integrative Review of Security Threats and Regulatory Governance in Digital Financial Markets.\" 2026 Summer Conference of the Korean Data Analysis Society, 2026.",
-            "harvard": "Choi, I. (2026) 'an integrative review of security threats and regulatory governance in digital financial markets', 2026 Summer Conference of the Korean Data Analysis Society.",
-            "vancouver": "Choi I. An Integrative Review of Security Threats and Regulatory Governance in Digital Financial Markets. 2026 Summer Conference of the Korean Data Analysis Society. 2026.",
-            "korean": "최인수. (2026). 디지털 금융시장 보안 위협과 규제 거버넌스에 관한 통합적 검토. 2026 한국자료분석학회 하계학술논문발표대회.",
-            "bibtex": "@inproceedings{choi2026conf,\n  title = {{An Integrative Review of Security Threats and Regulatory Governance in Digital Financial Markets}},\n  author = {Insu Choi},\n  booktitle = {2026 Summer Conference of the Korean Data Analysis Society},\n  year = {2026}\n}"
-        },
-        "presentation_type": "poster"
     },
     {
         "type": "conference",
