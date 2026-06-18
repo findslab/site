@@ -552,7 +552,11 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
     const visitingProjects = remaining2.filter(p => p.roles.visitingResearcher === '최인수')
     const visitingSet = new Set(visitingProjects.map(p => p.titleEn))
     const remaining3 = remaining2.filter(p => !visitingSet.has(p.titleEn))
-    const researcherProjects = remaining3.filter(p => p.roles.researchers?.includes('최인수'))
+    const researcherProjects = remaining3.filter(p => {
+      const rs = p.roles.researchers
+      if (!rs) return false
+      return rs.some((r: any) => (typeof r === 'string' ? r === '최인수' : r?.name === '최인수'))
+    })
     return {
       total: projects.length,
       government: projects.filter(p => p.type === 'government').length,
