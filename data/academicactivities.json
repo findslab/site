@@ -769,6 +769,15 @@
             "type": "Scopus",
             "since": "2026-06-08",
             "url": "https://www.springer.com/journal/43546"
+        },
+        {
+            "id": 86,
+            "category": "journal",
+            "name": "Quality & Quantity",
+            "publisher": "Springer",
+            "type": "Scopus",
+            "since": "2026-06-18",
+            "url": "https://www.springer.com/journal/11135"
         }
     ]
 }
