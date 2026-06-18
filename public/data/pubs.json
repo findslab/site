@@ -5,7 +5,7 @@
         "code_label": "J",
         "published_date": "2026-07-31",
         "year": 2026,
-        "title": "Asymmetric Effects of Base Rate Changes on Regional Apartment Prices: An Analysis Using NARDL and XGBoost-SHAP Models",
+        "title": "Asymmetric Effects of Base Rate Changes on Regional Apartment Prices in Korea: An Application of Nonlinear Autoregressive Distributed Lag and XGBoost-SHAP Models",
         "title_ko": "기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포와 XGBoost-SHAP 모형을 활용한 분석",
         "authors": [
             1
@@ -28,7 +28,7 @@
             "harvard": "최인수 (2026) '기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포와 XGBoost-SHAP 모형을 활용한 분석', 부동산분석, 12(2).",
             "vancouver": "Choi I. 기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포와 XGBoost-SHAP 모형을 활용한 분석. 부동산분석. 2026;12(2).",
             "korean": "최인수. (2026). 기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포와 XGBoost-SHAP 모형을 활용한 분석. 부동산분석, 12(2).",
-            "bibtex": "@article{choi2026baserate,\n  title = {{Asymmetric Effects of Base Rate Changes on Regional Apartment Prices: An Analysis Using NARDL and XGBoost-SHAP Models}},\n  author = {Choi, Insu},\n  journal = {Journal of Real Estate Analysis},\n  volume = {12},\n  number = {2},\n  year = {2026}\n}"
+            "bibtex": "@article{choi2026baserate,\n  title = {{Asymmetric Effects of Base Rate Changes on Regional Apartment Prices in Korea: An Application of Nonlinear Autoregressive Distributed Lag and XGBoost-SHAP Models}},\n  author = {Choi, Insu},\n  journal = {Journal of Real Estate Analysis},\n  volume = {12},\n  number = {2},\n  year = {2026}\n}"
         }
     },
     {
@@ -7224,7 +7224,7 @@
         "pages": "",
         "doi": "",
         "language": "Korean",
-        "awards": 0,
+        "awards": 1,
         "citations": {
             "apa": "Choi, I. (2026). Financial Market Regime Identification Through Competing Stochastic Process Model Comparison. 2026 Spring Conference of the Korean Institute of Intelligent Systems.",
             "mla": "Insu Choi. \"Financial Market Regime Identification Through Competing Stochastic Process Model Comparison.\" 2026 Spring Conference of the Korean Institute of Intelligent Systems, 2026.",
@@ -7234,7 +7234,15 @@
             "korean": "최인수. (2026). 경쟁 확률과정 모형 비교를 통한 금융 시장 국면 식별. 2026 한국지능시스템학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Financial Market Regime Identification Through Competing Stochastic Process Model Comparison}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korean Institute of Intelligent Systems},\n  year = {2026}\n}"
         },
-        "presentation_type": "poster"
+        "presentation_type": "poster",
+        "award_details": {
+            "prize": "Best Paper Award",
+            "prize_ko": "우수논문상",
+            "category": "",
+            "category_ko": "",
+            "organization": "Korean Institute of Intelligent Systems",
+            "organization_ko": "한국지능시스템학회"
+        }
     },
     {
         "type": "conference",
@@ -8918,6 +8926,39 @@
             "vancouver": "Kang B, Choi I. C-index: XAI Feature Ranking 합의도를 활용한 거래 신호 신뢰도 필터. 2026 한국자료분석학회 하계학술논문발표대회. 2026.",
             "korean": "강병오, 최인수. (2026). C-index: XAI Feature Ranking 합의도를 활용한 거래 신호 신뢰도 필터. 2026 한국자료분석학회 하계학술논문발표대회.",
             "bibtex": "@inproceedings{kang2026cindex,\n  title = {{C-index: A Trading Signal Reliability Filter Using XAI Feature Ranking Consensus}},\n  author = {Kang, Byungoh and Choi, Insu},\n  booktitle = {2026 Summer Conference of the Korean Data Analysis Society (KDAS)},\n  year = {2026}\n}"
+        }
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-09-18",
+        "year": 2026,
+        "title": "A Multidimensional Typology of Household Financial Health Using Rank-Ensemble K-Means Clustering",
+        "title_ko": "순위 기반 앙상블 K-평균 군집분석을 이용한 가계 재정건전성의 다차원적 유형화",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Fiscal Panel Academic Conference of the Korea Institute of Public Finance (KIPF)",
+        "venue_ko": "2026 한국조세재정연구원 재정패널 학술대회",
+        "presentation_type": "oral",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "최인수. (2026). 순위 기반 앙상블 K-평균 군집분석을 이용한 가계 재정건전성의 다차원적 유형화. 2026 한국조세재정연구원 재정패널 학술대회.",
+            "mla": "최인수. \"순위 기반 앙상블 K-평균 군집분석을 이용한 가계 재정건전성의 다차원적 유형화.\" 2026 한국조세재정연구원 재정패널 학술대회, 2026.",
+            "chicago": "최인수. \"순위 기반 앙상블 K-평균 군집분석을 이용한 가계 재정건전성의 다차원적 유형화.\" 2026 한국조세재정연구원 재정패널 학술대회, 2026.",
+            "harvard": "최인수 (2026) '순위 기반 앙상블 K-평균 군집분석을 이용한 가계 재정건전성의 다차원적 유형화', 2026 한국조세재정연구원 재정패널 학술대회.",
+            "vancouver": "Choi I. 순위 기반 앙상블 K-평균 군집분석을 이용한 가계 재정건전성의 다차원적 유형화. 2026 한국조세재정연구원 재정패널 학술대회. 2026.",
+            "korean": "최인수. (2026). 순위 기반 앙상블 K-평균 군집분석을 이용한 가계 재정건전성의 다차원적 유형화. 2026 한국조세재정연구원 재정패널 학술대회.",
+            "bibtex": "@inproceedings{choi2026household,\n  title = {{A Multidimensional Typology of Household Financial Health Using Rank-Ensemble K-Means Clustering}},\n  author = {Choi, Insu},\n  booktitle = {2026 Fiscal Panel Academic Conference of the Korea Institute of Public Finance (KIPF)},\n  year = {2026}\n}"
         }
     }
 ]

@@ -1144,6 +1144,21 @@
           "level": "phd"
         }
       ]
+    },
+    {
+      "type": "award",
+      "icon": "🏆",
+      "title": "우수논문상",
+      "title_en": "Best Paper Award",
+      "event": "2026 한국지능시스템학회 춘계학술대회",
+      "organization": "한국지능시스템학회",
+      "date": "May 16",
+      "winners": [
+        {
+          "name": "최인수",
+          "level": "phd"
+        }
+      ]
     }
   ]
 }
