@@ -56,6 +56,7 @@ const NoticeDetailModal = ({ id, title, date }: { id: string; title?: string; da
   const [content, setContent] = useState<string>('')
   const [loading, setLoading] = useState(true)
   const [metadata, setMetadata] = useState<{ title?: string; date?: string; author?: string }>({})
+  const [attachments, setAttachments] = useState<{ name: string; file: string }[]>([])
 
   useEffect(() => {
     const baseUrl = import.meta.env.BASE_URL || '/'
@@ -67,6 +68,30 @@ const NoticeDetailModal = ({ id, title, date }: { id: string; title?: string; da
         if (!data.date && id.match(/^\d{4}-\d{2}-\d{2}/)) {
           data.date = id.slice(0, 10)
         }
+
+        // attachments 파싱 (중첩 YAML 리스트 - parseMarkdown이 처리 못 함)
+        const fmMatch = text.match(/^---\s*\n([\s\S]*?)\n---/)
+        const parsedAttachments: { name: string; file: string }[] = []
+        if (fmMatch) {
+          const fm = fmMatch[1]
+          const attBlock = fm.match(/attachments:\s*\n([\s\S]*?)(?:\n\w|$)/)
+          if (attBlock) {
+            const lines = attBlock[1].split('\n')
+            let cur: { name?: string; file?: string } = {}
+            for (const line of lines) {
+              const nameM = line.match(/-\s*name:\s*"?([^"]+)"?/)
+              const fileM = line.match(/file:\s*"?([^"]+)"?/)
+              if (nameM) {
+                if (cur.name && cur.file) parsedAttachments.push(cur as { name: string; file: string })
+                cur = { name: nameM[1].trim() }
+              } else if (fileM) {
+                cur.file = fileM[1].trim()
+              }
+            }
+            if (cur.name && cur.file) parsedAttachments.push(cur as { name: string; file: string })
+          }
+        }
+        setAttachments(parsedAttachments)
 
         setMetadata({ 
           title: data.title as string || title, 
@@ -124,6 +149,35 @@ const NoticeDetailModal = ({ id, title, date }: { id: string; title?: string; da
           "
           dangerouslySetInnerHTML={{ __html: content }}
         />
+
+        {attachments.length > 0 && (
+          <div className="mt-28 pt-20 border-t border-gray-200">
+            <h3 className="text-[13px] font-bold text-gray-900 mb-12">첨부파일</h3>
+            <div className="space-y-8">
+              {attachments.map((att, idx) => {
+                const baseUrl = import.meta.env.BASE_URL || '/'
+                const href = `${baseUrl}data/notice/${encodeURIComponent(att.file)}`
+                return (
+                  <a
+                    key={idx}
+                    href={href}
+                    download={att.file}
+                    className="flex items-center gap-10 px-14 py-10 bg-gray-50 hover:bg-primary/5 border border-gray-200 hover:border-primary/30 rounded-lg transition-all group/att"
+                  >
+                    <span className="flex items-center justify-center w-32 h-32 rounded-md bg-primary/10 text-primary shrink-0">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                    </span>
+                    <span className="flex-1 min-w-0">
+                      <span className="block text-[13px] font-semibold text-gray-800 group-hover/att:text-primary transition-colors">{att.name}</span>
+                      <span className="block text-[11px] text-gray-400 truncate">{att.file}</span>
+                    </span>
+                    <span className="text-[11px] text-gray-400 group-hover/att:text-primary transition-colors shrink-0">다운로드</span>
+                  </a>
+                )
+              })}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   )
