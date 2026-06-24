@@ -971,6 +971,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
     academicMemberships: true,
     programCommittee: true,
     sessionChair: true,
+    discussant: true,
     journalReviewer: true,
     conferenceReviewer: true,
     projects: true,
@@ -1344,7 +1345,12 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
 
   const sessionChairs = useMemo(() => {
     if (!activitiesData) return []
-    return activitiesData.activities.filter(a => a.category === 'chair')
+    return activitiesData.activities.filter(a => a.category === 'chair')      .sort((a, b) => (b.period || b.since || '').localeCompare(a.period || a.since || ''))
+  }, [activitiesData])
+
+  const discussants = useMemo(() => {
+    if (!activitiesData) return []
+    return activitiesData.activities.filter(a => a.category === 'discussant')
       .sort((a, b) => (b.period || b.since || '').localeCompare(a.period || a.since || ''))
   }, [activitiesData])
 
@@ -1839,6 +1845,43 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                                   <span className="md:hidden block text-[10px] text-gray-400 font-medium mt-2">{toYearMonth(chair.period || chair.since || '')}</span>
                                 </div>
                                 <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap">{toYearMonth(chair.period || chair.since || '')}</span>
+                              </a>
+                            ))}
+                          </div>
+                        ) : (
+                          <div className="py-8 text-xs text-gray-400">Coming soon...</div>
+                        )}
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Discussant */}
+                  <div className="border-b border-gray-100">
+                    <button
+                      onClick={() => toggleSection('discussant')}
+                      className="w-full flex items-center justify-between p-16 md:p-20 hover:bg-gray-50 transition-colors"
+                    >
+                      <div className="flex items-center gap-8">
+                        <p className="text-sm md:text-base font-bold text-gray-900">Discussant</p>
+                        <span className="px-8 py-2 bg-[#E8889C] text-white text-[10px] font-bold rounded-full">{discussants.length}</span>
+                      </div>
+                      <ChevronDown size={16} className={`text-gray-400 transition-transform duration-300 ${expandedSections.discussant ? 'rotate-180' : ''}`}/>
+                    </button>
+                    {expandedSections.discussant && (
+                      <div className="px-16 md:px-20 pb-16 md:pb-20">
+                        {discussants.length > 0 ? (
+                          <div className="flex flex-col gap-6">
+                            {discussants.map((d) => (
+                              <a key={d.id} href={d.url || '#'} target="_blank" rel="noopener noreferrer"
+                                className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-[#D6B14D]/30 gap-4 md:gap-12">
+                                <div className="flex-1 min-w-0">
+                                  <p className="text-xs md:text-sm font-semibold text-gray-700">{d.name}</p>
+                                  {d.name_ko && (
+                                    <p className="text-[10px] md:text-xs text-gray-500 mt-2">{d.name_ko}</p>
+                                  )}
+                                  <span className="md:hidden block text-[10px] text-gray-400 font-medium mt-2">{toYearMonth(d.period || d.since || '')}</span>
+                                </div>
+                                <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap">{toYearMonth(d.period || d.since || '')}</span>
                               </a>
                             ))}
                           </div>

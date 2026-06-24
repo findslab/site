@@ -209,7 +209,7 @@ export type ReviewerData = {
 // Academic Activities data types (new unified format)
 export type AcademicActivity = {
   id: number
-  category: 'journal' | 'conference' | 'chair' | 'committee' | 'editorial' | 'membership'
+  category: 'journal' | 'conference' | 'chair' | 'committee' | 'editorial' | 'membership' | 'discussant'
   name: string
   name_ko?: string
   publisher?: string
