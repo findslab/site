@@ -778,6 +778,26 @@
             "type": "Scopus",
             "since": "2026-06-18",
             "url": "https://www.springer.com/journal/11135"
+        },
+        {
+            "id": 87,
+            "category": "chair",
+            "name": "2026 Spring Conference of the Korea Society of Industrial Convergence — Session P-II-A",
+            "name_ko": "2026 한국산업융합학회 춘계학술대회 P-II-A 세션",
+            "publisher": "Korea Society of Industrial Convergence (KSIC)",
+            "type": "Session Chair",
+            "period": "2026-07-09",
+            "url": ""
+        },
+        {
+            "id": 88,
+            "category": "discussant",
+            "name": "2026 28th Integrated Conference of the Korean Academy of Management — Korean Business Management Association Academic Session 9",
+            "name_ko": "2026 제28회 한국경영학회 융합학술대회 한국산업경영학회 학술세션9 세션",
+            "publisher": "Korean Academy of Management (KAM)",
+            "type": "Discussant",
+            "period": "2026-08-20",
+            "url": ""
         }
     ]
 }
