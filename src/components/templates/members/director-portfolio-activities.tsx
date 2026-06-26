@@ -109,7 +109,7 @@ import logoDading from '@/assets/images/logos/dading.png'
 const education = [
   {
     school: 'Korea Advanced Institute of Science and Technology (KAIST)',
-    period: '2025-02',
+    period: '2021-03 – 2025-02',
     degree: 'Doctor of Philosophy in Engineering (Ph.D. in Engineering)',
     field: 'Industrial and Systems Engineering',
     location: 'Korea Advanced Institute of Science and Technology (KAIST)',
@@ -124,7 +124,7 @@ const education = [
   },
   {
     school: 'Korea Advanced Institute of Science and Technology (KAIST)',
-    period: '2021-02',
+    period: '2018-02 – 2021-02',
     degree: 'Master of Science (M.S.)',
     field: 'Industrial and Systems Engineering',
     location: 'Korea Advanced Institute of Science and Technology (KAIST)',
@@ -135,7 +135,7 @@ const education = [
   },
   {
     school: 'Kyung Hee University',
-    period: '2018-02',
+    period: '2013-02 – 2018-02',
     degree: 'Bachelor of Engineering (B.E.)',
     field: 'Industrial and Management Systems Engineering',
     location: 'Kyung Hee University',

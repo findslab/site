@@ -96,7 +96,7 @@ import logoJl from '@/assets/images/logos/jl.png'
 const education = [
   {
     school: 'Korea Advanced Institute of Science and Technology (KAIST)',
-    period: '2025-02',
+    period: '2021-03 – 2025-02',
     degree: 'Doctor of Philosophy in Engineering (Ph.D. in Engineering)',
     field: 'Industrial and Systems Engineering',
     advisors: [
@@ -111,7 +111,7 @@ const education = [
   },
   {
     school: 'Korea Advanced Institute of Science and Technology (KAIST)',
-    period: '2021-02',
+    period: '2018-02 – 2021-02',
     degree: 'Master of Science (M.S.)',
     field: 'Industrial and Systems Engineering',
     advisors: [
@@ -123,7 +123,7 @@ const education = [
   },
   {
     school: 'Kyung Hee University',
-    period: '2018-02',
+    period: '2013-02 – 2018-02',
     degree: 'Bachelor of Engineering (B.E.)',
     field: 'Industrial and Management Systems Engineering',
     advisors: [
@@ -1760,6 +1760,9 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                           <div key={item.id} className="flex flex-col md:flex-row md:items-center md:justify-between p-12 bg-white rounded-lg border border-gray-100 hover:border-[#E8889C]/30 hover:shadow-md transition-all gap-4 md:gap-12">
                             <div className="flex-1 min-w-0">
                               <p className="text-xs md:text-sm font-semibold text-gray-700">{item.name}</p>
+                              {item.name_ko && (
+                                <p className="text-[10px] md:text-xs text-gray-500 mt-2">{item.name_ko}</p>
+                              )}
                               <div className="flex items-center gap-6 mt-4 md:hidden">
                                 <span className="px-6 py-1 text-[9px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{item.type}</span>
                                 <span className="text-[10px] text-gray-400 font-medium">{toYearMonth(item.since || '')} – Present</span>

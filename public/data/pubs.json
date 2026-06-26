@@ -5,6 +5,38 @@
         "code_label": "J",
         "published_date": "2026-07-31",
         "year": 2026,
+        "title": "A Study on Macro-Asset ETF Price Prediction Models Using Inter-Asset Correlation-Based Supervised Feature Selection",
+        "title_ko": "자산 간 상관관계 기반 지도학습 특성선택을 활용한 거시 자산 ETF 가격 예측 모형 연구",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "Journal of the Korean Data and Information Science Society",
+        "venue_ko": "한국데이터정보과학회지",
+        "volume": "37",
+        "issue": "4",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "최인수. (2026). 자산 간 상관관계 기반 지도학습 특성선택을 활용한 거시 자산 ETF 가격 예측 모형 연구. 한국데이터정보과학회지, 37(4).",
+            "mla": "최인수. \"자산 간 상관관계 기반 지도학습 특성선택을 활용한 거시 자산 ETF 가격 예측 모형 연구.\" 한국데이터정보과학회지 37.4 (2026).",
+            "chicago": "최인수. \"자산 간 상관관계 기반 지도학습 특성선택을 활용한 거시 자산 ETF 가격 예측 모형 연구.\" 한국데이터정보과학회지 37, no. 4 (2026).",
+            "harvard": "최인수 (2026) '자산 간 상관관계 기반 지도학습 특성선택을 활용한 거시 자산 ETF 가격 예측 모형 연구', 한국데이터정보과학회지, 37(4).",
+            "vancouver": "Choi I. 자산 간 상관관계 기반 지도학습 특성선택을 활용한 거시 자산 ETF 가격 예측 모형 연구. 한국데이터정보과학회지. 2026;37(4).",
+            "korean": "최인수. (2026). 자산 간 상관관계 기반 지도학습 특성선택을 활용한 거시 자산 ETF 가격 예측 모형 연구. 한국데이터정보과학회지, 37(4).",
+            "bibtex": "@article{choi2026etf,\n  title = {{A Study on Macro-Asset ETF Price Prediction Models Using Inter-Asset Correlation-Based Supervised Feature Selection}},\n  author = {Choi, Insu},\n  journal = {Journal of the Korean Data and Information Science Society},\n  volume = {37},\n  number = {4},\n  year = {2026}\n}"
+        }
+    },
+    {
+        "type": "journal",
+        "indexing_group": "KCI",
+        "code_label": "J",
+        "published_date": "2026-07-31",
+        "year": 2026,
         "title": "Effects of Generative-Model-Based Synthetic Time-Series Data Augmentation on Backtest Overfitting Evaluation: A Comparative Analysis of Generative Moment Matching Networks (GMMN), Variational Autoencoders (VAE), and the Stationary Bootstrap",
         "title_ko": "생성모형 기반 합성 시계열 자료 증강이 백테스팅 과적합 평가에 미치는 영향: 생성 모멘트 일치 신경망(GMMN), 변분 자동부호기(VAE), 정상 부트스트랩의 비교 분석",
         "authors": [

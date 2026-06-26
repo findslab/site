@@ -94,7 +94,7 @@ import logoJl from '@/assets/images/logos/jl.png'
 const education = [
   {
     school: 'Korea Advanced Institute of Science and Technology (KAIST)',
-    period: '2025-02',
+    period: '2021-03 – 2025-02',
     degree: 'Doctor of Philosophy in Engineering (Ph.D. in Engineering)',
     field: 'Industrial and Systems Engineering',
     advisors: [
@@ -109,7 +109,7 @@ const education = [
   },
   {
     school: 'Korea Advanced Institute of Science and Technology (KAIST)',
-    period: '2021-02',
+    period: '2018-02 – 2021-02',
     degree: 'Master of Science (M.S.)',
     field: 'Industrial and Systems Engineering',
     advisors: [
@@ -121,7 +121,7 @@ const education = [
   },
   {
     school: 'Kyung Hee University',
-    period: '2018-02',
+    period: '2013-02 – 2018-02',
     degree: 'Bachelor of Engineering (B.E.)',
     field: 'Industrial and Management Systems Engineering',
     advisors: [
@@ -1618,6 +1618,9 @@ export const MembersDirectorAcademicTemplate = () => {
                           <div key={item.id} className="flex flex-col md:flex-row md:items-center md:justify-between p-12 bg-white rounded-lg border border-gray-100 hover:border-[#D6B14D]/30 transition-colors gap-4 md:gap-8">
                             <div className="flex-1 min-w-0">
                               <p className="text-xs md:text-sm font-semibold text-gray-700">{item.name}</p>
+                              {item.name_ko && (
+                                <p className="text-[10px] md:text-xs text-gray-500 mt-2">{item.name_ko}</p>
+                              )}
                             </div>
                             <div className="flex flex-col md:flex-row md:items-center gap-4 shrink-0">
                               <span className="px-6 py-2 bg-[#FFBAC4] text-white text-[10px] md:text-xs font-bold rounded self-start md:self-auto">{item.type}</span>
