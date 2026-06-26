@@ -745,11 +745,12 @@
         {
             "id": 81,
             "category": "membership",
-            "name": "Financial Information Society of Korea",
+            "name": "Financial Information Society of Korea (FISK)",
             "publisher": "Financial Information Society of Korea",
             "type": "Lifetime Member",
             "since": "2026-05-27",
-            "url": ""
+            "url": "",
+            "name_ko": "한국금융정보학회"
         },
         {
             "id": 82,
