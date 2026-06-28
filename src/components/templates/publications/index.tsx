@@ -728,18 +728,26 @@ export const PublicationsTemplate = () => {
                   
                   {/* Chart Area */}
                   <div className="relative h-[200px]">
-                    {/* Y-axis labels */}
-                    <div className="absolute left-0 top-0 bottom-24 w-32 flex flex-col justify-between text-[10px] text-gray-400">
-                      <span>{Math.max(...yearlyChartData.map(d => d.total))}</span>
-                      <span>{Math.round(Math.max(...yearlyChartData.map(d => d.total)) / 2)}</span>
-                      <span>0</span>
-                    </div>
+                    {(() => {
+                      const rawMax = Math.max(...yearlyChartData.map(d => d.total), 0)
+                      const chartMax = Math.max(10, Math.ceil(rawMax / 10) * 10)
+                      const tickCount = chartMax / 10
+                      const ticks = Array.from({ length: tickCount + 1 }, (_, i) => chartMax - i * 10)
+                      return (
+                        <div className="absolute left-0 top-0 bottom-24 w-32 flex flex-col justify-between text-[10px] text-gray-400">
+                          {ticks.map((t) => (
+                            <span key={t}>{t}</span>
+                          ))}
+                        </div>
+                      )
+                    })()}
                     
                     {/* Chart */}
                     <div className="ml-40 h-full flex items-end gap-2 pb-24 border-l border-b border-gray-100">
                       {yearlyChartData.map((data, index) => {
-                        const maxTotal = Math.max(...yearlyChartData.map(d => d.total))
-                        const heightScale = 160 / maxTotal
+                        const rawMax = Math.max(...yearlyChartData.map(d => d.total), 0)
+                        const maxTotal = Math.max(10, Math.ceil(rawMax / 10) * 10)
+                        const heightScale = 176 / maxTotal
                         
                         return (
                           <div key={data.year} className="flex-1 flex flex-col items-center group relative">

@@ -209,6 +209,9 @@ export const MembersAlumniTemplate = () => {
           const aCohort = parseInt(a.cohort?.match(/\d+/)?.[0] || '0')
           const bCohort = parseInt(b.cohort?.match(/\d+/)?.[0] || '0')
           comparison = aCohort - bCohort
+          if (comparison === 0) {
+            comparison = (a.name || '').localeCompare(b.name || '', 'ko')
+          }
           break
         case 'period':
           const aPeriod = a.periods?.ur?.split(' ~ ')[0] || ''

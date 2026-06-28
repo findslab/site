@@ -97,30 +97,26 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
       return JSON.parse(cleaned)
     }
 
-    // Load member data
+    // Load member data, then match alumni projects by Korean name
     safeJsonFetch(`${baseUrl}data/members/${memberId}.json`)
       .then((data: MemberData) => {
         setMember(data)
         setLoading(false)
+
+        // Load alumni.json to get projects (match by Korean name)
+        safeJsonFetch(`${baseUrl}data/alumni.json`)
+          .then((alumniData: { undergradAlumni?: Array<{ name: string; projects?: string[] }>; graduateAlumni?: Array<{ name: string; projects?: string[] }> }) => {
+            const all = [...(alumniData.undergradAlumni || []), ...(alumniData.graduateAlumni || [])]
+            const match = all.find(a => a.name === data.name?.ko)
+            if (match?.projects && match.projects.length > 0) {
+              setAlumniProjects(match.projects)
+            }
+          })
+          .catch(() => {})
       })
       .catch((err) => {
         console.error('Failed to load member detail:', err)
         setLoading(false)
-      })
-
-    // Load alumni.json to get projects
-    safeJsonFetch(`${baseUrl}data/alumni.json`)
-      .then((alumniData: { members: Array<{ name: string; nameEn: string; projects?: string[] }> }) => {
-        // Find matching alumni by name
-        const matchingAlumni = alumniData.members.find(a => 
-          memberId.toLowerCase().includes(a.nameEn?.toLowerCase().replace(/[^a-z]/g, '').slice(0, 3) || '')
-        )
-        if (matchingAlumni?.projects) {
-          setAlumniProjects(matchingAlumni.projects)
-        }
-      })
-      .catch(() => {
-        // Silently fail - alumni data is optional
       })
   }, [memberId, baseUrl])
 
@@ -255,10 +251,10 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
                 {/* Period - plain text on mobile, badge on desktop */}
                 <div className="md:hidden flex items-center gap-8 text-xs text-gray-500">
                   <Calendar size={12} className="text-gray-400"/>
-                  <span>{member.period.start} – {member.period.expected_graduation || 'Present'}</span>
+                  <span>{member.period.start} – {member.period.end || member.period.expected_graduation || 'Present'}</span>
                 </div>
                 <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] font-bold text-gray-600 shadow-sm whitespace-nowrap">
-                  {member.period.start} – {member.period.expected_graduation || 'Present'}
+                  {member.period.start} – {member.period.end || member.period.expected_graduation || 'Present'}
                 </span>
               </div>
 

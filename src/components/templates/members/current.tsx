@@ -289,9 +289,22 @@ export const MembersCurrentTemplate = () => {
         grouped.undergrad.push(m)
       }
     })
-    // Sort each group by Korean name (가나다순)
+    // Sort each group by cohort (기수) first, then Korean name (가나다순)
+    const firstCohortNum = (m: MemberData): number => {
+      const c = m.cohort || ''
+      const nums = (c.match(/(\d+)(?:st|nd|rd|th)/g) || []).map((s) => parseInt(s))
+      if (nums.length > 0) return Math.min(...nums)
+      const kr = (c.match(/(\d+)기/g) || []).map((s) => parseInt(s))
+      if (kr.length > 0) return Math.min(...kr)
+      return 999
+    }
     Object.keys(grouped).forEach((key) => {
-      grouped[key].sort((a, b) => a.name.ko.localeCompare(b.name.ko, 'ko'))
+      grouped[key].sort((a, b) => {
+        const ca = firstCohortNum(a)
+        const cb = firstCohortNum(b)
+        if (ca !== cb) return ca - cb
+        return a.name.ko.localeCompare(b.name.ko, 'ko')
+      })
     })
     return grouped
   }, [members])
