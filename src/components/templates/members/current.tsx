@@ -208,7 +208,24 @@ export const MembersCurrentTemplate = () => {
       'kdh2-undergrad.json',
       'sks2-undergrad.json',
       'kys1-undergrad.json',
-      'htw1-undergrad.json'
+      'htw1-undergrad.json',
+      'kdi2-undergrad.json',
+      'jym1-undergrad.json',
+      'lcm1-undergrad.json',
+      'sjy2-undergrad.json',
+      'pjh1-undergrad.json',
+      'kjw1-undergrad.json',
+      'ljh1-undergrad.json',
+      'ssh1-undergrad.json',
+      'jyj2-undergrad.json',
+      'hdw1-undergrad.json',
+      'lma1-undergrad.json',
+      'ysy1-undergrad.json',
+      'hjw1-undergrad.json',
+      'ojw1-undergrad.json',
+      'hye1-undergrad.json',
+      'bcw1-undergrad.json',
+      'jhw1-undergrad.json'
     ]
 
     Promise.all(
@@ -493,6 +510,21 @@ export const MembersCurrentTemplate = () => {
                                 >
                                   {member.name.ko}
                                 </h4>
+                                {member.cohort && (() => {
+                                  const cohortNums = (member.cohort.match(/(\d+)(?:st|nd|rd|th)/g) || [])
+                                    .map((s: string) => s.replace(/\D/g, '') + '기')
+                                  const fallback = member.cohort.match(/\d+기/g) || []
+                                  const badges = cohortNums.length > 0 ? cohortNums : fallback
+                                  return badges.map((c: string, i: number) => (
+                                    <span
+                                      key={i}
+                                      className="px-6 md:px-[8px] py-[2px] rounded-full text-[10px] md:text-xs font-bold"
+                                      style={{ backgroundColor: 'rgba(255,183,197,0.18)', color: '#C41E3A' }}
+                                    >
+                                      {c}
+                                    </span>
+                                  ))
+                                })()}
                                 <span 
                                   className={`px-6 md:px-[8px] py-[2px] rounded-full text-[10px] md:text-xs font-bold ${degreeColors[groupKey]}`}
                                   style={degreeBgStyles[groupKey]}

@@ -106,7 +106,7 @@
             "cohortName": "1st Cohort (2025 Winter)",
             "currentPosition": "재학생",
             "projects": [
-                "Quality-Based Scheduling Framework with Stochastic Processing Time and Production Cost Using Multimodal RSW Data"
+                "Calibrated Multimodal Fusion for Quality Risk Estimation in Resistance Spot Welding: Dempster–Shafer versus Voting"
             ]
         },
         {
@@ -142,9 +142,9 @@
             "degrees": [
                 "ur"
             ],
-            "cohort": "1기",
+            "cohort": "1기, 3기",
             "periods": {
-                "ur": "2025-12-22 – 2026-03-01"
+                "ur": "2025-12-22 – 2026-08-31"
             },
             "education": [
                 {
@@ -157,11 +157,13 @@
                     "year": ""
                 }
             ],
-            "cohortName": "1st Cohort (2025 Winter)",
+            "cohortName": "1st Cohort (2025 Winter), 3rd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                "Quality-Based Scheduling Framework with Stochastic Processing Time and Production Cost Using Multimodal RSW Data"
-            ]
+                "Calibrated Multimodal Fusion for Quality Risk Estimation in Resistance Spot Welding: Dempster–Shafer versus Voting",
+                "[수료 시 표기]"
+            ],
+            "avatar": "KJY-1"
         },
         {
             "name": "박성수",
@@ -299,7 +301,7 @@
             "cohortName": "1st Cohort (2025 Winter)",
             "currentPosition": "재학생",
             "projects": [
-                "Quality-Based Scheduling Framework with Stochastic Processing Time and Production Cost Using Multimodal RSW Data"
+                "Calibrated Multimodal Fusion for Quality Risk Estimation in Resistance Spot Welding: Dempster–Shafer versus Voting"
             ]
         },
         {
@@ -1249,6 +1251,473 @@
                 "[수료 시 표기]"
             ],
             "avatar": "HTW-1"
+        },
+        {
+            "name": "김도이",
+            "nameEn": "Doi Kim",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "3기",
+            "periods": {
+                "ur": "2026-07-01 – 2026-08-31"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "경제학과",
+                    "deptEn": "Economics",
+                    "school": "가천대학교",
+                    "schoolEn": "Gachon University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "3rd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": [
+                "[수료 시 표기]"
+            ]
+        },
+        {
+            "name": "정유민",
+            "nameEn": "Yumin Jeong",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "3기",
+            "periods": {
+                "ur": "2026-07-01 – 2026-08-31"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "금융·빅데이터학부",
+                    "deptEn": "Finance and Big Data",
+                    "school": "가천대학교",
+                    "schoolEn": "Gachon University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "3rd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": [
+                "[수료 시 표기]"
+            ]
+        },
+        {
+            "name": "이채민",
+            "nameEn": "Chaemin Lee",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "3기",
+            "periods": {
+                "ur": "2026-07-01 – 2026-08-31"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "금융·빅데이터학부",
+                    "deptEn": "Finance and Big Data",
+                    "school": "가천대학교",
+                    "schoolEn": "Gachon University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "3rd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": [
+                "[수료 시 표기]"
+            ]
+        },
+        {
+            "name": "신지영",
+            "nameEn": "Jiyoung Shin",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "3기",
+            "periods": {
+                "ur": "2026-07-01 – 2026-08-31"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "금융·빅데이터학부",
+                    "deptEn": "Finance and Big Data",
+                    "school": "가천대학교",
+                    "schoolEn": "Gachon University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "3rd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": [
+                "[수료 시 표기]"
+            ]
+        },
+        {
+            "name": "백지형",
+            "nameEn": "Jihyeong Baek",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "3기",
+            "periods": {
+                "ur": "2026-07-01 – 2026-08-31"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업경영공학과",
+                    "deptEn": "Industrial and Management Systems Engineering",
+                    "school": "경희대학교",
+                    "schoolEn": "Kyung Hee University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "3rd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": [
+                "[수료 시 표기]"
+            ]
+        },
+        {
+            "name": "김지우",
+            "nameEn": "Jiwoo Kim",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "3기",
+            "periods": {
+                "ur": "2026-07-01 – 2026-08-31"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "금융·빅데이터학부",
+                    "deptEn": "Finance and Big Data",
+                    "school": "가천대학교",
+                    "schoolEn": "Gachon University",
+                    "year": "",
+                    "doubleMajor": "의료산업경영학과, 응용통계학과",
+                    "doubleMajorEn": "Healthcare Industry Management, Applied Statistics"
+                }
+            ],
+            "cohortName": "3rd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": [
+                "[수료 시 표기]"
+            ]
+        },
+        {
+            "name": "이정현",
+            "nameEn": "Jeonghyeon Lee",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "3기",
+            "periods": {
+                "ur": "2026-07-01 – 2026-08-31"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "금융·빅데이터학부",
+                    "deptEn": "Finance and Big Data",
+                    "school": "가천대학교",
+                    "schoolEn": "Gachon University",
+                    "year": "",
+                    "doubleMajor": "회계·세무학과",
+                    "doubleMajorEn": "Accounting & Taxation"
+                }
+            ],
+            "cohortName": "3rd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": [
+                "[수료 시 표기]"
+            ]
+        },
+        {
+            "name": "신수현",
+            "nameEn": "Suhyeon Shin",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "3기",
+            "periods": {
+                "ur": "2026-07-01 – 2026-08-31"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "금융·빅데이터학부",
+                    "deptEn": "Finance and Big Data",
+                    "school": "가천대학교",
+                    "schoolEn": "Gachon University",
+                    "year": "",
+                    "doubleMajor": "경제학과",
+                    "doubleMajorEn": "Economics"
+                }
+            ],
+            "cohortName": "3rd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": [
+                "[수료 시 표기]"
+            ]
+        },
+        {
+            "name": "정연진",
+            "nameEn": "Yeonjin Jeong",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "3기",
+            "periods": {
+                "ur": "2026-07-01 – 2026-08-31"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "금융·빅데이터학부",
+                    "deptEn": "Finance and Big Data",
+                    "school": "가천대학교",
+                    "schoolEn": "Gachon University",
+                    "year": "",
+                    "doubleMajor": "경제학과",
+                    "doubleMajorEn": "Economics"
+                }
+            ],
+            "cohortName": "3rd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": [
+                "[수료 시 표기]"
+            ]
+        },
+        {
+            "name": "황다원",
+            "nameEn": "Dawon Hwang",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "3기",
+            "periods": {
+                "ur": "2026-07-01 – 2026-08-31"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업정보시스템공학과",
+                    "deptEn": "Industrial and Information Systems Engineering",
+                    "school": "숭실대학교",
+                    "schoolEn": "Soongsil University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "3rd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": [
+                "[수료 시 표기]"
+            ]
+        },
+        {
+            "name": "이민아",
+            "nameEn": "Mina Lee",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "3기",
+            "periods": {
+                "ur": "2026-07-01 – 2026-08-31"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업정보시스템공학과",
+                    "deptEn": "Industrial and Information Systems Engineering",
+                    "school": "숭실대학교",
+                    "schoolEn": "Soongsil University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "3rd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": [
+                "[수료 시 표기]"
+            ]
+        },
+        {
+            "name": "윤서영",
+            "nameEn": "Seoyoung Yoon",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "3기",
+            "periods": {
+                "ur": "2026-07-01 – 2026-08-31"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "산업시스템공학과",
+                    "deptEn": "Industrial & Systems Engineering",
+                    "school": "동국대학교",
+                    "schoolEn": "Dongguk University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "3rd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": [
+                "[수료 시 표기]"
+            ]
+        },
+        {
+            "name": "호정욱",
+            "nameEn": "Jeongwook Ho",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "3기",
+            "periods": {
+                "ur": "2026-07-01 – 2026-08-31"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "경영학과",
+                    "deptEn": "Business Administration",
+                    "school": "가천대학교",
+                    "schoolEn": "Gachon University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "3rd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": [
+                "[수료 시 표기]"
+            ]
+        },
+        {
+            "name": "오지원",
+            "nameEn": "Jiwon Oh",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "3기",
+            "periods": {
+                "ur": "2026-07-01 – 2026-08-31"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "금융·빅데이터학부",
+                    "deptEn": "Finance and Big Data",
+                    "school": "가천대학교",
+                    "schoolEn": "Gachon University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "3rd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": [
+                "[수료 시 표기]"
+            ]
+        },
+        {
+            "name": "황예은",
+            "nameEn": "Yeeun Hwang",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "3기",
+            "periods": {
+                "ur": "2026-07-01 – 2026-08-31"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "금융·빅데이터학부",
+                    "deptEn": "Finance and Big Data",
+                    "school": "가천대학교",
+                    "schoolEn": "Gachon University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "3rd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": [
+                "[수료 시 표기]"
+            ]
+        },
+        {
+            "name": "방채원",
+            "nameEn": "Chaewon Bang",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "3기",
+            "periods": {
+                "ur": "2026-07-01 – 2026-08-31"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "금융·빅데이터학부",
+                    "deptEn": "Finance and Big Data",
+                    "school": "가천대학교",
+                    "schoolEn": "Gachon University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "3rd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": [
+                "[수료 시 표기]"
+            ]
+        },
+        {
+            "name": "정하원",
+            "nameEn": "Hawon Jeong",
+            "degrees": [
+                "ur"
+            ],
+            "cohort": "3기",
+            "periods": {
+                "ur": "2026-07-01 – 2026-08-31"
+            },
+            "education": [
+                {
+                    "degree": "학부과정",
+                    "degreeEn": "Undergraduate",
+                    "dept": "금융·빅데이터학부",
+                    "deptEn": "Finance and Big Data",
+                    "school": "가천대학교",
+                    "schoolEn": "Gachon University",
+                    "year": ""
+                }
+            ],
+            "cohortName": "3rd Cohort (2026 Summer)",
+            "currentPosition": "재학생",
+            "projects": [
+                "[수료 시 표기]"
+            ]
         }
     ],
     "sinceDate": "2025-06-14"

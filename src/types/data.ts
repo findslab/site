@@ -73,6 +73,8 @@ export type MemberData = {
     en: string
   }
   status: 'active' | 'alumni'
+  cohort?: string
+  cohortName?: string
   period: {
     start: string
     expected_graduation?: string
@@ -130,6 +132,8 @@ export type AlumniMember = {
     schoolEn?: string
     dept?: string
     deptEn?: string
+    doubleMajor?: string
+    doubleMajorEn?: string
     year: string
   }[]
   thesis?: {
