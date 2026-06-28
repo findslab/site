@@ -727,27 +727,27 @@ export const PublicationsTemplate = () => {
                   </div>
                   
                   {/* Chart Area */}
-                  <div className="relative h-[200px]">
+                  <div className="relative h-[200px] mb-24">
                     {(() => {
                       const rawMax = Math.max(...yearlyChartData.map(d => d.total), 0)
                       const chartMax = Math.max(10, Math.ceil(rawMax / 10) * 10)
                       const tickCount = chartMax / 10
                       const ticks = Array.from({ length: tickCount + 1 }, (_, i) => chartMax - i * 10)
                       return (
-                        <div className="absolute left-0 top-0 bottom-24 w-32 flex flex-col justify-between text-[10px] text-gray-400">
+                        <div className="absolute left-0 top-0 bottom-0 w-32 flex flex-col justify-between text-[10px] text-gray-400">
                           {ticks.map((t) => (
-                            <span key={t}>{t}</span>
+                            <span key={t} className="leading-none -translate-y-1/2 first:translate-y-0 last:translate-y-0">{t}</span>
                           ))}
                         </div>
                       )
                     })()}
                     
                     {/* Chart */}
-                    <div className="ml-40 h-full flex items-end gap-2 pb-24 border-l border-b border-gray-100">
+                    <div className="ml-40 h-full flex items-end gap-2 border-l border-b border-gray-100">
                       {yearlyChartData.map((data, index) => {
                         const rawMax = Math.max(...yearlyChartData.map(d => d.total), 0)
                         const maxTotal = Math.max(10, Math.ceil(rawMax / 10) * 10)
-                        const heightScale = 176 / maxTotal
+                        const heightScale = 200 / maxTotal
                         
                         return (
                           <div key={data.year} className="flex-1 flex flex-col items-center group relative">
@@ -795,7 +795,7 @@ export const PublicationsTemplate = () => {
                             </div>
                             
                             {/* Year Label */}
-                            <span className="text-[9px] text-gray-400 mt-8 group-hover:text-[#D6B14D] transition-colors font-medium">
+                            <span className="absolute top-full text-[9px] text-gray-400 mt-6 group-hover:text-[#D6B14D] transition-colors font-medium">
                               {data.year}
                             </span>
                             

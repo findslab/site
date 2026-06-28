@@ -252,9 +252,6 @@ export const MembersAlumniTemplate = () => {
         <span className="font-bold text-gray-900">{edu.school}</span>
         {' '}
         <span className="font-semibold text-gray-700">{edu.dept}</span>
-        {edu.doubleMajor && (
-          <span className="text-gray-500 text-xs"> · {edu.doubleMajor} (복수전공)</span>
-        )}
       </span>
     )
   }
