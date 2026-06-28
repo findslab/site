@@ -5,7 +5,7 @@
         "code_label": "J",
         "published_date": "2026-07-31",
         "year": 2026,
-        "title": "A Study on Macro-Asset ETF Price Prediction Models Using Inter-Asset Correlation-Based Supervised Feature Selection",
+        "title": "Macro ETF Price Prediction Using Cross-Asset Correlation-Based Supervised Feature Selection",
         "title_ko": "자산 간 상관관계 기반 지도학습 특성선택을 활용한 거시 자산 ETF 가격 예측 모형 연구",
         "authors": [
             1
@@ -28,7 +28,7 @@
             "harvard": "최인수 (2026) '자산 간 상관관계 기반 지도학습 특성선택을 활용한 거시 자산 ETF 가격 예측 모형 연구', 한국데이터정보과학회지, 37(4).",
             "vancouver": "Choi I. 자산 간 상관관계 기반 지도학습 특성선택을 활용한 거시 자산 ETF 가격 예측 모형 연구. 한국데이터정보과학회지. 2026;37(4).",
             "korean": "최인수. (2026). 자산 간 상관관계 기반 지도학습 특성선택을 활용한 거시 자산 ETF 가격 예측 모형 연구. 한국데이터정보과학회지, 37(4).",
-            "bibtex": "@article{choi2026etf,\n  title = {{A Study on Macro-Asset ETF Price Prediction Models Using Inter-Asset Correlation-Based Supervised Feature Selection}},\n  author = {Choi, Insu},\n  journal = {Journal of the Korean Data and Information Science Society},\n  volume = {37},\n  number = {4},\n  year = {2026}\n}"
+            "bibtex": "@article{choi2026etf,\n  title = {{Macro ETF Price Prediction Using Cross-Asset Correlation-Based Supervised Feature Selection}},\n  author = {Choi, Insu},\n  journal = {Journal of the Korean Data and Information Science Society},\n  volume = {37},\n  number = {4},\n  year = {2026}\n}"
         }
     },
     {

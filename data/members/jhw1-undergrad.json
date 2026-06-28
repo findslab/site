@@ -1,0 +1,35 @@
+{
+    "id": "jhw1-undergrad",
+    "name": {
+        "ko": "정하원"
+    },
+    "degree": "undergrad",
+    "role": {
+        "ko": "Undergraduate Researcher",
+        "en": "Undergraduate Researcher"
+    },
+    "status": "active",
+    "avatar": "",
+    "cohort": "3rd Cohort (2026 Summer)",
+    "period": {
+        "start": "2026-07-01",
+        "end": "2026-08-31"
+    },
+    "contact": {
+        "email": ""
+    },
+    "research": {
+        "interests": []
+    },
+    "education": [
+        {
+            "degree": "Undergraduate",
+            "field": "금융·빅데이터학부",
+            "field_en": "Finance and Big Data",
+            "school": "가천대학교",
+            "school_en": "Gachon University",
+            "expected": "Present",
+            "start": "2022-03"
+        }
+    ]
+}

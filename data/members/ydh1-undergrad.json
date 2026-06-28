@@ -25,8 +25,8 @@
             "Operational Excellence"
         ],
         "project": {
-            "ko": "멀티모달 RSW 데이터를 활용한 품질 기반 확률적 공정시간 및 생산 비용을 고려한 스케줄링 프레임워크",
-            "en": "A Scheduling Framework Considering Quality-Based Stochastic Processing Time and Production Cost Using Multimodal RSW Data"
+            "ko": "저항 점용접 품질 위험 추정을 위한 보정된 멀티모달 융합: 뎀스터–셰이퍼 대 보팅",
+            "en": "Calibrated Multimodal Fusion for Quality Risk Estimation in Resistance Spot Welding: Dempster–Shafer versus Voting"
         }
     },
     "education": [
