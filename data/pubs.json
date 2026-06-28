@@ -37,8 +37,8 @@
         "code_label": "J",
         "published_date": "2026-07-31",
         "year": 2026,
-        "title": "Effects of Generative-Model-Based Synthetic Time-Series Data Augmentation on Backtest Overfitting Evaluation: A Comparative Analysis of Generative Moment Matching Networks (GMMN), Variational Autoencoders (VAE), and the Stationary Bootstrap",
-        "title_ko": "생성모형 기반 합성 시계열 자료 증강이 백테스팅 과적합 평가에 미치는 영향: 생성 모멘트 일치 신경망(GMMN), 변분 자동부호기(VAE), 정상 부트스트랩의 비교 분석",
+        "title": "Effects of Generative-Model-Based Synthetic Time-Series Data Augmentation on Backtest Overfitting Evaluation",
+        "title_ko": "생성모형 기반 합성 시계열 자료 증강이 백테스팅 과적합 평가에 미치는 영향",
         "authors": [
             155,
             1
@@ -56,13 +56,13 @@
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "이유섭, 최인수. (2026). 생성모형 기반 합성 시계열 자료 증강이 백테스팅 과적합 평가에 미치는 영향: 생성 모멘트 일치 신경망(GMMN), 변분 자동부호기(VAE), 정상 부트스트랩의 비교 분석. 한국정보기술학회논문지, 24(10).",
-            "mla": "이유섭, 최인수. \"생성모형 기반 합성 시계열 자료 증강이 백테스팅 과적합 평가에 미치는 영향: 생성 모멘트 일치 신경망(GMMN), 변분 자동부호기(VAE), 정상 부트스트랩의 비교 분석.\" 한국정보기술학회논문지 24.10 (2026).",
-            "chicago": "이유섭, 최인수. \"생성모형 기반 합성 시계열 자료 증강이 백테스팅 과적합 평가에 미치는 영향: 생성 모멘트 일치 신경망(GMMN), 변분 자동부호기(VAE), 정상 부트스트랩의 비교 분석.\" 한국정보기술학회논문지 24, no. 10 (2026).",
-            "harvard": "이유섭, 최인수 (2026) '생성모형 기반 합성 시계열 자료 증강이 백테스팅 과적합 평가에 미치는 영향: 생성 모멘트 일치 신경망(GMMN), 변분 자동부호기(VAE), 정상 부트스트랩의 비교 분석', 한국정보기술학회논문지, 24(10).",
-            "vancouver": "Lee Y, Choi I. 생성모형 기반 합성 시계열 자료 증강이 백테스팅 과적합 평가에 미치는 영향: 생성 모멘트 일치 신경망(GMMN), 변분 자동부호기(VAE), 정상 부트스트랩의 비교 분석. 한국정보기술학회논문지. 2026;24(10).",
-            "korean": "이유섭, 최인수. (2026). 생성모형 기반 합성 시계열 자료 증강이 백테스팅 과적합 평가에 미치는 영향: 생성 모멘트 일치 신경망(GMMN), 변분 자동부호기(VAE), 정상 부트스트랩의 비교 분석. 한국정보기술학회논문지, 24(10).",
-            "bibtex": "@article{lee2026synthetic,\n  title = {{Effects of Generative-Model-Based Synthetic Time-Series Data Augmentation on Backtest Overfitting Evaluation: A Comparative Analysis of Generative Moment Matching Networks (GMMN), Variational Autoencoders (VAE), and the Stationary Bootstrap}},\n  author = {Lee, Yuseop and Choi, Insu},\n  journal = {Journal of Korean Institute of Information Technology},\n  volume = {24},\n  number = {10},\n  year = {2026}\n}"
+            "apa": "이유섭, 최인수. (2026). 생성모형 기반 합성 시계열 자료 증강이 백테스팅 과적합 평가에 미치는 영향. 한국정보기술학회논문지, 24(10).",
+            "mla": "이유섭, 최인수. \"생성모형 기반 합성 시계열 자료 증강이 백테스팅 과적합 평가에 미치는 영향.\" 한국정보기술학회논문지 24.10 (2026).",
+            "chicago": "이유섭, 최인수. \"생성모형 기반 합성 시계열 자료 증강이 백테스팅 과적합 평가에 미치는 영향.\" 한국정보기술학회논문지 24, no. 10 (2026).",
+            "harvard": "이유섭, 최인수 (2026) '생성모형 기반 합성 시계열 자료 증강이 백테스팅 과적합 평가에 미치는 영향', 한국정보기술학회논문지, 24(10).",
+            "vancouver": "Lee Y, Choi I. 생성모형 기반 합성 시계열 자료 증강이 백테스팅 과적합 평가에 미치는 영향. 한국정보기술학회논문지. 2026;24(10).",
+            "korean": "이유섭, 최인수. (2026). 생성모형 기반 합성 시계열 자료 증강이 백테스팅 과적합 평가에 미치는 영향. 한국정보기술학회논문지, 24(10).",
+            "bibtex": "@article{lee2026synthetic,\n  title = {{Effects of Generative-Model-Based Synthetic Time-Series Data Augmentation on Backtest Overfitting Evaluation}},\n  author = {Lee, Yuseop and Choi, Insu},\n  journal = {Journal of Korean Institute of Information Technology},\n  volume = {24},\n  number = {10},\n  year = {2026}\n}"
         }
     },
     {
