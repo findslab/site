@@ -1,7 +1,8 @@
 {
     "id": "pjh1-undergrad",
     "name": {
-        "ko": "백지형"
+        "ko": "백지형",
+        "en": "Jeehyung Baek"
     },
     "degree": "undergrad",
     "role": {
@@ -9,7 +10,7 @@
         "en": "Undergraduate Researcher"
     },
     "status": "active",
-    "avatar": "",
+    "avatar": "/website/images/members/PJH-1.webp",
     "cohort": "3rd Cohort (2026 Summer)",
     "period": {
         "start": "2026-07-01",

@@ -1,7 +1,8 @@
 {
     "id": "jyj2-undergrad",
     "name": {
-        "ko": "정연진"
+        "ko": "정연진",
+        "en": "Yeonjin Jung"
     },
     "degree": "undergrad",
     "role": {
@@ -9,7 +10,7 @@
         "en": "Undergraduate Researcher"
     },
     "status": "active",
-    "avatar": "",
+    "avatar": "/website/images/members/JYJ-2.webp",
     "cohort": "3rd Cohort (2026 Summer)",
     "period": {
         "start": "2026-07-01",

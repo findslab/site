@@ -1,7 +1,8 @@
 {
     "id": "sjy2-undergrad",
     "name": {
-        "ko": "신지영"
+        "ko": "신지영",
+        "en": "Ji Young Shin"
     },
     "degree": "undergrad",
     "role": {
@@ -9,7 +10,7 @@
         "en": "Undergraduate Researcher"
     },
     "status": "active",
-    "avatar": "",
+    "avatar": "/website/images/members/SJY-2.webp",
     "cohort": "3rd Cohort (2026 Summer)",
     "period": {
         "start": "2026-07-01",

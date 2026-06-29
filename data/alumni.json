@@ -1254,7 +1254,7 @@
         },
         {
             "name": "김도이",
-            "nameEn": "Doi Kim",
+            "nameEn": "Do Yi Kim",
             "degrees": [
                 "ur"
             ],
@@ -1277,7 +1277,8 @@
             "currentPosition": "재학생",
             "projects": [
                 "[수료 시 표기]"
-            ]
+            ],
+            "avatar": "KDY-1"
         },
         {
             "name": "정유민",
@@ -1304,7 +1305,8 @@
             "currentPosition": "재학생",
             "projects": [
                 "[수료 시 표기]"
-            ]
+            ],
+            "avatar": "JYM-1"
         },
         {
             "name": "이채민",
@@ -1331,11 +1333,12 @@
             "currentPosition": "재학생",
             "projects": [
                 "[수료 시 표기]"
-            ]
+            ],
+            "avatar": "LCM-1"
         },
         {
             "name": "신지영",
-            "nameEn": "Jiyoung Shin",
+            "nameEn": "Ji Young Shin",
             "degrees": [
                 "ur"
             ],
@@ -1358,11 +1361,12 @@
             "currentPosition": "재학생",
             "projects": [
                 "[수료 시 표기]"
-            ]
+            ],
+            "avatar": "SJY-2"
         },
         {
             "name": "백지형",
-            "nameEn": "Jihyeong Baek",
+            "nameEn": "Jeehyung Baek",
             "degrees": [
                 "ur"
             ],
@@ -1385,7 +1389,8 @@
             "currentPosition": "재학생",
             "projects": [
                 "[수료 시 표기]"
-            ]
+            ],
+            "avatar": "PJH-1"
         },
         {
             "name": "김지우",
@@ -1414,7 +1419,8 @@
             "currentPosition": "재학생",
             "projects": [
                 "[수료 시 표기]"
-            ]
+            ],
+            "avatar": "KJW-1"
         },
         {
             "name": "이정현",
@@ -1443,11 +1449,12 @@
             "currentPosition": "재학생",
             "projects": [
                 "[수료 시 표기]"
-            ]
+            ],
+            "avatar": "LJH-1"
         },
         {
             "name": "신수현",
-            "nameEn": "Suhyeon Shin",
+            "nameEn": "Soohyun Shin",
             "degrees": [
                 "ur"
             ],
@@ -1472,11 +1479,12 @@
             "currentPosition": "재학생",
             "projects": [
                 "[수료 시 표기]"
-            ]
+            ],
+            "avatar": "SSH-1"
         },
         {
             "name": "정연진",
-            "nameEn": "Yeonjin Jeong",
+            "nameEn": "Yeonjin Jung",
             "degrees": [
                 "ur"
             ],
@@ -1501,7 +1509,8 @@
             "currentPosition": "재학생",
             "projects": [
                 "[수료 시 표기]"
-            ]
+            ],
+            "avatar": "JYJ-2"
         },
         {
             "name": "황다원",
@@ -1528,7 +1537,8 @@
             "currentPosition": "재학생",
             "projects": [
                 "[수료 시 표기]"
-            ]
+            ],
+            "avatar": "HDW-1"
         },
         {
             "name": "이민아",
@@ -1555,7 +1565,8 @@
             "currentPosition": "재학생",
             "projects": [
                 "[수료 시 표기]"
-            ]
+            ],
+            "avatar": "LMA-1"
         },
         {
             "name": "윤서영",
@@ -1582,11 +1593,12 @@
             "currentPosition": "재학생",
             "projects": [
                 "[수료 시 표기]"
-            ]
+            ],
+            "avatar": "YSY-1"
         },
         {
             "name": "호정욱",
-            "nameEn": "Jeongwook Ho",
+            "nameEn": "Jung-Uk Ho",
             "degrees": [
                 "ur"
             ],
@@ -1609,7 +1621,8 @@
             "currentPosition": "재학생",
             "projects": [
                 "[수료 시 표기]"
-            ]
+            ],
+            "avatar": "HJU-1"
         },
         {
             "name": "오지원",

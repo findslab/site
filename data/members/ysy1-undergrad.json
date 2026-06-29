@@ -1,7 +1,8 @@
 {
     "id": "ysy1-undergrad",
     "name": {
-        "ko": "윤서영"
+        "ko": "윤서영",
+        "en": "Seoyoung Yoon"
     },
     "degree": "undergrad",
     "role": {
@@ -9,7 +10,7 @@
         "en": "Undergraduate Researcher"
     },
     "status": "active",
-    "avatar": "",
+    "avatar": "/website/images/members/YSY-1.webp",
     "cohort": "3rd Cohort (2026 Summer)",
     "period": {
         "start": "2026-07-01",

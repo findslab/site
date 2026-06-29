@@ -1,7 +1,8 @@
 {
     "id": "hjw1-undergrad",
     "name": {
-        "ko": "호정욱"
+        "ko": "호정욱",
+        "en": "Jung-Uk Ho"
     },
     "degree": "undergrad",
     "role": {
@@ -9,7 +10,7 @@
         "en": "Undergraduate Researcher"
     },
     "status": "active",
-    "avatar": "",
+    "avatar": "/website/images/members/HJU-1.webp",
     "cohort": "3rd Cohort (2026 Summer)",
     "period": {
         "start": "2026-07-01",
