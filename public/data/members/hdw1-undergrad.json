@@ -1,7 +1,8 @@
 {
     "id": "hdw1-undergrad",
     "name": {
-        "ko": "황다원"
+        "ko": "황다원",
+        "en": "Dawon Hwang"
     },
     "degree": "undergrad",
     "role": {
@@ -9,7 +10,7 @@
         "en": "Undergraduate Researcher"
     },
     "status": "active",
-    "avatar": "",
+    "avatar": "/website/images/members/HDW-1.webp",
     "cohort": "3rd Cohort (2026 Summer)",
     "period": {
         "start": "2026-07-01",

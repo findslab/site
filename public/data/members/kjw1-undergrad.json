@@ -1,7 +1,8 @@
 {
     "id": "kjw1-undergrad",
     "name": {
-        "ko": "김지우"
+        "ko": "김지우",
+        "en": "Jiwoo Kim"
     },
     "degree": "undergrad",
     "role": {
@@ -9,7 +10,7 @@
         "en": "Undergraduate Researcher"
     },
     "status": "active",
-    "avatar": "",
+    "avatar": "/website/images/members/KJW-1.webp",
     "cohort": "3rd Cohort (2026 Summer)",
     "period": {
         "start": "2026-07-01",

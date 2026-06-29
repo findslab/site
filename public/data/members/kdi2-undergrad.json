@@ -1,7 +1,8 @@
 {
     "id": "kdi2-undergrad",
     "name": {
-        "ko": "김도이"
+        "ko": "김도이",
+        "en": "Do Yi Kim"
     },
     "degree": "undergrad",
     "role": {
@@ -9,7 +10,7 @@
         "en": "Undergraduate Researcher"
     },
     "status": "active",
-    "avatar": "",
+    "avatar": "/website/images/members/KDY-1.webp",
     "cohort": "3rd Cohort (2026 Summer)",
     "period": {
         "start": "2026-07-01",
