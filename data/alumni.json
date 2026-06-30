@@ -160,8 +160,7 @@
             "cohortName": "1st Cohort (2025 Winter), 3rd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                "Calibrated Multimodal Fusion for Quality Risk Estimation in Resistance Spot Welding: Dempster–Shafer versus Voting",
-                "[수료 시 표기]"
+                "Calibrated Multimodal Fusion for Quality Risk Estimation in Resistance Spot Welding: Dempster–Shafer versus Voting"
             ],
             "avatar": "KJY-1"
         },
@@ -218,8 +217,7 @@
             "cohortName": "1st Cohort (2025 Winter), 2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                "Deciphering the Impact of COVID-19 on Korean Sector ETFs: Insights from an ARIMAX and Granger Causality",
-                "[수료 시 표기]"
+                "Deciphering the Impact of COVID-19 on Korean Sector ETFs: Insights from an ARIMAX and Granger Causality"
             ],
             "avatar": "SKS-2"
         },
@@ -943,7 +941,9 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                "[수료 시 표기]"
+                "An Asset Allocation Model Leveraging Sentence-Level Sentiment Analysis in Analyst Reports: Integrating Sentiment Analysis, Factor Modeling, and the Black-Litterman Model-Based Framework",
+                "Spillover Effects and Event Period Responses Among U.S. Market Sectors Using the DCC-GARCH Model",
+                "Lag Prediction to U.S. Presidential Election Impact Events Using Language Models"
             ],
             "avatar": "SHJ-1"
         },
