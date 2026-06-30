@@ -1,7 +1,8 @@
 {
     "id": "sdc1-undergrad",
     "name": {
-        "ko": "신동찬"
+        "ko": "신동찬",
+        "en": "Dongchan Shin"
     },
     "degree": "undergrad",
     "role": {

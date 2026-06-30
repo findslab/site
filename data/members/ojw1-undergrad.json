@@ -1,7 +1,8 @@
 {
     "id": "ojw1-undergrad",
     "name": {
-        "ko": "오지원"
+        "ko": "오지원",
+        "en": "Jiwon Oh"
     },
     "degree": "undergrad",
     "role": {
@@ -9,7 +10,7 @@
         "en": "Undergraduate Researcher"
     },
     "status": "active",
-    "avatar": "",
+    "avatar": "/website/images/members/OJW-1.webp",
     "cohort": "3rd Cohort (2026 Summer)",
     "period": {
         "start": "2026-07-01",
