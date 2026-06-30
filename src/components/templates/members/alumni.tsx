@@ -278,8 +278,11 @@ export const MembersAlumniTemplate = () => {
       )
     }
     
-    // Simple position (재학생)
-    return <span className="text-gray-600 text-sm">{position}</span>
+    // Simple position: 재학생 stays plain; company names bold like school
+    if (position === '재학생') {
+      return <span className="text-gray-600 text-sm">{position}</span>
+    }
+    return <span className="font-bold text-gray-900 text-sm">{position}</span>
   }
 
   // Check if alumni has position change (Pre != Post)
