@@ -272,10 +272,11 @@
                 }
             ],
             "cohortName": "1st Cohort (2025 Winter)",
-            "currentPosition": "재학생",
+            "currentPosition": "석·박사통합과정\n산업경영공학부\n고려대학교",
             "projects": [
                 "Housing–Fertility Interdependencies in South Korea: A Dynamic Analysis Across Regional Disparities and Temporal Shifts"
-            ]
+            ],
+            "currentPositionEn": "Combined M.S.-Ph.D. Student\nIndustrial and Management Engineering\nKorea University"
         },
         {
             "name": "양동훈",
@@ -467,12 +468,13 @@
                 }
             ],
             "cohortName": "1st Cohort (2025 Winter), 2nd Cohort (2026 Summer)",
-            "currentPosition": "재학생",
+            "currentPosition": "리벨리온",
             "projects": [
                 "Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation",
                 "Metric-Based Technical Indicators for Yield Forecasting"
             ],
-            "avatar": "LSY-1"
+            "avatar": "LSY-1",
+            "currentPositionEn": "Rebellions"
         },
         {
             "name": "정유진",
@@ -947,7 +949,7 @@
         },
         {
             "name": "신동찬",
-            "nameEn": "Dong-Chan Shin",
+            "nameEn": "Dongchan Shin",
             "degrees": [
                 "ur"
             ],
@@ -970,7 +972,8 @@
             "currentPosition": "재학생",
             "projects": [
                 "[수료 시 표기]"
-            ]
+            ],
+            "avatar": "SDC-1"
         },
         {
             "name": "신윤수",
@@ -1649,11 +1652,12 @@
             "currentPosition": "재학생",
             "projects": [
                 "[수료 시 표기]"
-            ]
+            ],
+            "avatar": "OJW-1"
         },
         {
             "name": "황예은",
-            "nameEn": "Yeeun Hwang",
+            "nameEn": "Ye Eun Hwang",
             "degrees": [
                 "ur"
             ],
@@ -1676,7 +1680,8 @@
             "currentPosition": "재학생",
             "projects": [
                 "[수료 시 표기]"
-            ]
+            ],
+            "avatar": "HYE-1"
         },
         {
             "name": "방채원",
@@ -1703,11 +1708,12 @@
             "currentPosition": "재학생",
             "projects": [
                 "[수료 시 표기]"
-            ]
+            ],
+            "avatar": "BCW-1"
         },
         {
             "name": "정하원",
-            "nameEn": "Hawon Jeong",
+            "nameEn": "Hawon Joung",
             "degrees": [
                 "ur"
             ],
@@ -1730,7 +1736,8 @@
             "currentPosition": "재학생",
             "projects": [
                 "[수료 시 표기]"
-            ]
+            ],
+            "avatar": "JHW-1"
         }
     ],
     "sinceDate": "2025-06-14"
