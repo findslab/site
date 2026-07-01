@@ -1,7 +1,8 @@
 {
     "id": "pjt1-undergrad",
     "name": {
-        "ko": "박준태"
+        "ko": "박준태",
+        "en": "Juntae Park"
     },
     "degree": "undergrad",
     "role": {
