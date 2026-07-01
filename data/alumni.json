@@ -892,7 +892,7 @@
         },
         {
             "name": "박준태",
-            "nameEn": "Jun-Tae Park",
+            "nameEn": "Juntae Park",
             "degrees": [
                 "ur"
             ],
@@ -915,7 +915,8 @@
             "currentPosition": "재학생",
             "projects": [
                 "[수료 시 표기]"
-            ]
+            ],
+            "avatar": "PJT-1"
         },
         {
             "name": "손형진",
