@@ -332,6 +332,15 @@ export const ProjectsTemplate = () => {
     return acc
   }, {} as Record<string, Project[]>)
 
+  // 각 연도 그룹 내에서 시작일 내림차순 (최신이 위로)
+  Object.keys(projectsByYear).forEach((year) => {
+    projectsByYear[year].sort((a, b) => {
+      const aStart = a.period.split('–')[0].trim()
+      const bStart = b.period.split('–')[0].trim()
+      return new Date(bStart).getTime() - new Date(aStart).getTime()
+    })
+  })
+
   const years = Object.keys(projectsByYear).sort((a, b) => parseInt(b) - parseInt(a))
   const currentYear = new Date().getFullYear().toString()
   const hasActiveFilters = searchQuery.trim() !== '' || filters.type.length > 0 || filters.status.length > 0

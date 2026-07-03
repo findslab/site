@@ -1173,6 +1173,11 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
       if (!grouped[year]) grouped[year] = []
       grouped[year].push(p)
     })
+    Object.keys(grouped).forEach((year) => {
+      grouped[year].sort((a, b) =>
+        new Date(b.period.split('–')[0].trim()).getTime() - new Date(a.period.split('–')[0].trim()).getTime()
+      )
+    })
     return grouped
   }, [projects, projectSearchTerm])
 
