@@ -406,5 +406,20 @@
             "visitingResearcher": "최인수",
             "researchers": []
         }
+    },
+    {
+        "titleKo": "보험산업의 금융시장 안정화 기능과 시스템적 위험 전이 구조에 관한 실증분석 — 선형 계량모형과 비선형 인과지표의 교차확인을 통한 한·미 비교",
+        "titleEn": "Empirical Analysis of the Financial Market Stabilization Function and Systemic Risk Transmission Structure of the Insurance Industry: A Korea-U.S. Comparison via Cross-Validation of Linear Econometric Models and Nonlinear Causal Indicators",
+        "period": "2026-07-01 – 2026-12-31",
+        "status": "ongoing",
+        "fundingAgency": "Daisin Kim Choong-Ho Memorial Foundation",
+        "fundingAgencyKo": "대산신용호기념사업회",
+        "programName": "2026년 대산신용호기념사업회 보험학연구지원 연구과제",
+        "programNameEn": "2026 Daisin Kim Choong-Ho Memorial Foundation Insurance Research Grant",
+        "type": "institution",
+        "language": "ko",
+        "roles": {
+            "principalInvestigator": "최인수"
+        }
     }
 ]
