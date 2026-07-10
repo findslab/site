@@ -48,7 +48,9 @@ const formatDate = (dateStr: string, year?: string): string => {
   
   const monthMap: Record<string, string> = {
     'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr': '04', 'May': '05', 'Jun': '06',
-    'Jul': '07', 'Aug': '08', 'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12'
+    'Jul': '07', 'Aug': '08', 'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12',
+    'January': '01', 'February': '02', 'March': '03', 'April': '04', 'June': '06',
+    'July': '07', 'August': '08', 'September': '09', 'October': '10', 'November': '11', 'December': '12'
   }
   const parts = dateStr.split(' ')
   if (parts.length === 2) {
@@ -109,7 +111,9 @@ export const AboutHonorsTemplate = () => {
         
         const monthMap: Record<string, number> = {
           'Jan': 0, 'Feb': 1, 'Mar': 2, 'Apr': 3, 'May': 4, 'Jun': 5,
-          'Jul': 6, 'Aug': 7, 'Sep': 8, 'Oct': 9, 'Nov': 10, 'Dec': 11
+          'Jul': 6, 'Aug': 7, 'Sep': 8, 'Oct': 9, 'Nov': 10, 'Dec': 11,
+          'January': 0, 'February': 1, 'March': 2, 'April': 3, 'June': 5,
+          'July': 6, 'August': 7, 'September': 8, 'October': 9, 'November': 10, 'December': 11
         }
         
         Object.entries(data).forEach(([year, items]) => {
@@ -186,7 +190,7 @@ export const AboutHonorsTemplate = () => {
       )
     }
     // Sort by date descending (most recent first within year)
-    const monthOrder: Record<string, number> = { Jan: 1, Feb: 2, Mar: 3, Apr: 4, May: 5, Jun: 6, Jul: 7, Aug: 8, Sep: 9, Oct: 10, Nov: 11, Dec: 12 }
+    const monthOrder: Record<string, number> = { Jan: 1, Feb: 2, Mar: 3, Apr: 4, May: 5, Jun: 6, Jul: 7, Aug: 8, Sep: 9, Oct: 10, Nov: 11, Dec: 12, January: 1, February: 2, March: 3, April: 4, June: 6, July: 7, August: 8, September: 9, October: 10, November: 11, December: 12 }
     filtered.sort((a, b) => {
       const aMonth = monthOrder[a.date?.split(' ')[0] || ''] || 0
       const aDay = parseInt(a.date?.split(' ')[1] || '0')
