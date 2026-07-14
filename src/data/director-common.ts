@@ -101,3 +101,17 @@ export const sortLecturePeriods = (periods: string[]): string[] => {
     return numA - numB
   })
 }
+
+// Director name constant (single source of truth for matching)
+export const DIRECTOR_NAME_KO = '최인수'
+
+// Check whether the director appears in a project's researchers list.
+// Handles both legacy string entries and {name, lab} object entries.
+export const isDirectorInResearchers = (
+  researchers: Array<string | { name?: string }> | undefined
+): boolean => {
+  if (!researchers) return false
+  return researchers.some((r) =>
+    typeof r === 'string' ? r === DIRECTOR_NAME_KO : r?.name === DIRECTOR_NAME_KO
+  )
+}

@@ -1,4 +1,5 @@
 import {memo, useState, useEffect, useRef} from 'react'
+import { DIRECTOR_NAME_KO } from '@/data/director-common'
 import {Link} from 'react-router-dom'
 import {Home, Calendar, School, Landmark, FlaskConical, Briefcase, ChevronDown, ChevronUp, Folder, TrendingUp, SlidersHorizontal, X, Search, CheckCircle, Factory} from 'lucide-react'
 import banner4 from '@/assets/images/banner/4.webp'
@@ -838,7 +839,7 @@ export const ProjectsTemplate = () => {
                                       <div className="mt-12 pt-12 border-t border-gray-100">
                                         <div className="flex flex-col gap-6">
                                           {/* Principal Investigator - only show if exists */}
-                                          {project.roles.principalInvestigator === '최인수' && (
+                                          {project.roles.principalInvestigator === DIRECTOR_NAME_KO && (
                                             <div className="flex items-center gap-6">
                                               <span className="shrink-0 px-8 py-3 bg-gray-900 text-white text-[9px] md:text-[10px] font-bold rounded-md">
                                                 Principal Investigator

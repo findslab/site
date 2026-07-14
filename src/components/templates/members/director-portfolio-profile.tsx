@@ -37,7 +37,7 @@ import {
 } from 'lucide-react'
 import {useStoreModal} from '@/store/modal'
 import type {HonorsData} from '@/types/data'
-import {citationStats, affiliations, researchInterests} from '@/data/director-common'
+import {citationStats, affiliations, researchInterests, isDirectorInResearchers, DIRECTOR_NAME_KO} from '@/data/director-common'
 
 // Scroll animation hook
 const useScrollAnimation = () => {
@@ -449,6 +449,11 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
       if (!grouped[year]) grouped[year] = []
       grouped[year].push(p)
     })
+    Object.keys(grouped).forEach((year) => {
+      grouped[year].sort((a, b) =>
+        new Date(b.period.split('–')[0].trim()).getTime() - new Date(a.period.split('–')[0].trim()).getTime()
+      )
+    })
     return grouped
   }, [projects, projectSearchTerm])
 
@@ -543,20 +548,16 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
     taCourses.reduce((sum, course) => sum + course.periods.length, 0), [taCourses])
 
   const projectStats = useMemo(() => {
-    const piProjects = projects.filter(p => p.roles.principalInvestigator === '최인수')
+    const piProjects = projects.filter(p => p.roles.principalInvestigator === DIRECTOR_NAME_KO)
     const piIds = new Set(piProjects.map((_, i) => i))
     const remaining1 = projects.filter((_, i) => !piIds.has(i))
-    const leadProjects = remaining1.filter(p => p.roles.leadResearcher === '최인수')
+    const leadProjects = remaining1.filter(p => p.roles.leadResearcher === DIRECTOR_NAME_KO)
     const leadSet = new Set(leadProjects.map(p => p.titleEn))
     const remaining2 = remaining1.filter(p => !leadSet.has(p.titleEn))
-    const visitingProjects = remaining2.filter(p => p.roles.visitingResearcher === '최인수')
+    const visitingProjects = remaining2.filter(p => p.roles.visitingResearcher === DIRECTOR_NAME_KO)
     const visitingSet = new Set(visitingProjects.map(p => p.titleEn))
     const remaining3 = remaining2.filter(p => !visitingSet.has(p.titleEn))
-    const researcherProjects = remaining3.filter(p => {
-      const rs = p.roles.researchers
-      if (!rs) return false
-      return rs.some((r: any) => (typeof r === 'string' ? r === '최인수' : r?.name === '최인수'))
-    })
+    const researcherProjects = remaining3.filter(p => isDirectorInResearchers(p.roles.researchers))
     return {
       total: projects.length,
       government: projects.filter(p => p.type === 'government').length,

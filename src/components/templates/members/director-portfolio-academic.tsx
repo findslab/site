@@ -39,7 +39,7 @@ import {
 import {useStoreModal} from '@/store/modal'
 import type {AcademicActivitiesData, Publication} from '@/types/data'
 import type {AuthorsData} from '@/types/data'
-import {citationStats, affiliations, researchInterests, scholarConfig} from '@/data/director-common'
+import {citationStats, affiliations, researchInterests, scholarConfig, isDirectorInResearchers, DIRECTOR_NAME_KO} from '@/data/director-common'
 
 // Scholar data type
 type ScholarData = {
@@ -1194,7 +1194,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
   // Project statistics for the stats card
   const projectStats = useMemo(() => {
     // Priority-based exclusive counting: PI > Lead > Visiting > Researcher
-    const piProjects = projects.filter(p => p.roles.principalInvestigator === '최인수')
+    const piProjects = projects.filter(p => p.roles.principalInvestigator === DIRECTOR_NAME_KO)
     const piIds = new Set(piProjects.map((_, i) => i))
     
     const remaining1 = projects.filter((_, i) => !piIds.has(i))
@@ -1202,21 +1202,17 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
       const lr = p.roles.leadResearcher
       if (!lr) return false
       if (typeof lr === 'string') return lr.includes('최인수')
-      if (Array.isArray(lr)) return lr.some((r: any) => r.name === '최인수')
+      if (Array.isArray(lr)) return lr.some((r: any) => r.name === DIRECTOR_NAME_KO)
       return false
     })
     const leadSet = new Set(leadProjects.map(p => p.titleEn))
     
     const remaining2 = remaining1.filter(p => !leadSet.has(p.titleEn))
-    const visitingProjects = remaining2.filter(p => p.roles.visitingResearcher === '최인수')
+    const visitingProjects = remaining2.filter(p => p.roles.visitingResearcher === DIRECTOR_NAME_KO)
     const visitingSet = new Set(visitingProjects.map(p => p.titleEn))
     
     const remaining3 = remaining2.filter(p => !visitingSet.has(p.titleEn))
-    const researcherProjects = remaining3.filter(p => {
-      const rs = p.roles.researchers
-      if (!rs) return false
-      return rs.some((r: any) => (typeof r === 'string' ? r === '최인수' : r?.name === '최인수'))
-    })
+    const researcherProjects = remaining3.filter(p => isDirectorInResearchers(p.roles.researchers))
     
     return {
     total: projects.length,
@@ -2082,16 +2078,16 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                             const isOngoing = endDateStr === 'Present' || endDateStr === '현재' || (endDateStr ? new Date(endDateStr) >= new Date() : false)
                             // Determine director's role
                             const getDirectorRole = () => {
-                              if (project.roles.principalInvestigator === '최인수') return 'Principal Investigator'
+                              if (project.roles.principalInvestigator === DIRECTOR_NAME_KO) return 'Principal Investigator'
                               if ((() => {
                                 const lr = project.roles.leadResearcher
                                 if (!lr) return false
                                 if (typeof lr === 'string') return lr.includes('최인수')
-                                if (Array.isArray(lr)) return lr.some((r: any) => r.name === '최인수')
+                                if (Array.isArray(lr)) return lr.some((r: any) => r.name === DIRECTOR_NAME_KO)
                                 return false
                               })()) return 'Lead Researcher'
-                              if (project.roles.visitingResearcher === '최인수') return 'Visiting Researcher'
-                              if (project.roles.researchers?.some((r: any) => (typeof r === 'string' ? r === '최인수' : r?.name === '최인수'))) return 'Researcher'
+                              if (project.roles.visitingResearcher === DIRECTOR_NAME_KO) return 'Visiting Researcher'
+                              if (isDirectorInResearchers(project.roles.researchers)) return 'Researcher'
                               return 'Researcher'
                             }
                             const roleColor: Record<string, string> = {

@@ -46,7 +46,7 @@ import {
 } from 'lucide-react'
 import {useStoreModal} from '@/store/modal'
 import type {HonorsData, AcademicActivitiesData} from '@/types/data'
-import {citationStats, affiliations, researchInterests, scholarConfig} from '@/data/director-common'
+import {citationStats, affiliations, researchInterests, scholarConfig, isDirectorInResearchers, DIRECTOR_NAME_KO} from '@/data/director-common'
 
 // Scholar data type
 type ScholarData = {
@@ -434,26 +434,22 @@ export const MembersDirectorTemplate = () => {
 
   // Project Statistics
   const projectStats = useMemo(() => {
-    const piProjects = projects.filter(p => p.roles.principalInvestigator === '최인수')
+    const piProjects = projects.filter(p => p.roles.principalInvestigator === DIRECTOR_NAME_KO)
     const piIds = new Set(piProjects.map((_, i) => i))
     const remaining1 = projects.filter((_, i) => !piIds.has(i))
     const leadProjects = remaining1.filter(p => {
       const lr = p.roles.leadResearcher
       if (!lr) return false
       if (typeof lr === 'string') return lr.includes('최인수')
-      if (Array.isArray(lr)) return lr.some((r: any) => r.name === '최인수')
+      if (Array.isArray(lr)) return lr.some((r: any) => r.name === DIRECTOR_NAME_KO)
       return false
     })
     const leadSet = new Set(leadProjects.map(p => p.titleEn))
     const remaining2 = remaining1.filter(p => !leadSet.has(p.titleEn))
-    const visitingProjects = remaining2.filter(p => p.roles.visitingResearcher === '최인수')
+    const visitingProjects = remaining2.filter(p => p.roles.visitingResearcher === DIRECTOR_NAME_KO)
     const visitingSet = new Set(visitingProjects.map(p => p.titleEn))
     const remaining3 = remaining2.filter(p => !visitingSet.has(p.titleEn))
-    const researcherProjects = remaining3.filter(p => {
-      const rs = p.roles.researchers
-      if (!rs) return false
-      return rs.some((r: any) => (typeof r === 'string' ? r === '최인수' : r?.name === '최인수'))
-    })
+    const researcherProjects = remaining3.filter(p => isDirectorInResearchers(p.roles.researchers))
     return {
       total: projects.length,
       government: projects.filter(p => p.type === 'government').length,
