@@ -290,7 +290,7 @@
         "type": "journal",
         "indexing_group": "KCI",
         "code_label": "J",
-        "published_date": "2026-05-31",
+        "published_date": "2026-07-31",
         "year": 2026,
         "title": "Structural Change Analysis of K-Defense Stock Correlation Networks in Response to Geopolitical Events",
         "title_ko": "지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석",
@@ -305,19 +305,19 @@
         "venue": "Journal of Industrial Convergence",
         "venue_ko": "산업융합연구",
         "volume": "24",
-        "issue": "5",
+        "issue": "7",
         "pages": "",
         "doi": "",
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "하승민, 최인수. (2026). 지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석. 산업융합연구, 24(5).",
-            "mla": "하승민, 최인수. \"지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석.\" 산업융합연구 24.5 (2026).",
-            "chicago": "하승민, 최인수. \"지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석.\" 산업융합연구 24, no. 5 (2026).",
-            "harvard": "하승민, 최인수 (2026) '지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석', 산업융합연구, 24(5).",
-            "vancouver": "Ha SM, Choi I. 지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석. 산업융합연구. 2026;24(5).",
-            "korean": "하승민, 최인수. (2026). 지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석. 산업융합연구, 24(5).",
-            "bibtex": "@article{ha2026kdefense,\n  title = {{지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석}},\n  author = {Ha, Seung-Min and Choi, Insu},\n  journal = {산업융합연구},\n  volume = {24},\n  number = {5},\n  year = {2026}\n}"
+            "apa": "하승민, 최인수. (2026). 지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석. 산업융합연구, 24(7).",
+            "mla": "하승민, 최인수. \"지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석.\" 산업융합연구 24.7 (2026).",
+            "chicago": "하승민, 최인수. \"지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석.\" 산업융합연구 24, no. 7 (2026).",
+            "harvard": "하승민, 최인수 (2026) '지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석', 산업융합연구, 24(7).",
+            "vancouver": "Ha SM, Choi I. 지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석. 산업융합연구. 2026;24(7).",
+            "korean": "하승민, 최인수. (2026). 지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석. 산업융합연구, 24(7).",
+            "bibtex": "@article{ha2026kdefense,\n  title = {{지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석}},\n  author = {Ha, Seung-Min and Choi, Insu},\n  journal = {산업융합연구},\n  volume = {24},\n  number = {7},\n  year = {2026}\n}"
         }
     },
     {
