@@ -8419,7 +8419,7 @@
         "pages": "",
         "doi": "",
         "language": "Korean",
-        "awards": 0,
+        "awards": 1,
         "citations": {
             "apa": "Choi, I. (2026). Market Segmentation and Cross-Asset Premium Dynamics: Evidence from Korea's Precious Metals and Cryptocurrency Markets. 2026 Summer Conference of the Korea Society of Computer Information.",
             "mla": "Insu Choi. \"Market Segmentation and Cross-Asset Premium Dynamics: Evidence from Korea's Precious Metals and Cryptocurrency Markets.\" 2026 Summer Conference of the Korea Society of Computer Information, 2026.",
@@ -8429,7 +8429,15 @@
             "korean": "최인수. (2026). 한국 귀금속·암호화폐 시장의 분절성과 프리미엄의 동태성에 관한 연구. 2026 한국컴퓨터정보학회 하계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Market Segmentation and Cross-Asset Premium Dynamics: Evidence from Korea's Precious Metals and Cryptocurrency Markets}},\n  author = {Insu Choi},\n  booktitle = {2026 Summer Conference of the Korea Society of Computer Information},\n  year = {2026}\n}"
         },
-        "presentation_type": "oral"
+        "presentation_type": "oral",
+        "award_details": {
+            "prize": "Best Paper Award",
+            "prize_ko": "우수논문상",
+            "category": "",
+            "category_ko": "",
+            "organization": "Korean Society of Computer Information",
+            "organization_ko": "한국컴퓨터정보학회"
+        }
     },
     {
         "type": "conference",
