@@ -2,6 +2,38 @@
     {
         "role": "Lecturer",
         "periods": [
+            "2026 Fall"
+        ],
+        "school": "Gachon University",
+        "courses": [
+            {
+                "en": "Artificial Intelligence (15117001)",
+                "ko": "인공지능 (15117001)"
+            }
+        ],
+        "credits": {
+            "2026 Fall": 3
+        }
+    },
+    {
+        "role": "Lecturer",
+        "periods": [
+            "2026 Fall"
+        ],
+        "school": "Gachon University",
+        "courses": [
+            {
+                "en": "Principles and Applications of Deep Learning (61524001)",
+                "ko": "딥러닝의 원리와 응용 (61524001)"
+            }
+        ],
+        "credits": {
+            "2026 Fall": 3
+        }
+    },
+    {
+        "role": "Lecturer",
+        "periods": [
             "2026 Spring"
         ],
         "school": "Gachon University",
