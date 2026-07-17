@@ -103,7 +103,7 @@
         "code_label": "J",
         "published_date": "2026-06-30",
         "year": 2026,
-        "title": "Cafe Survival Analysis and Closure Prediction Models Based on Capital Tier and Competitive Density: Focusing on Seoul",
+        "title": "Survival Analysis and Closure Prediction Model for Seoul’s Café Market Based on Brand Capital and Competition Density",
         "title_ko": "자본 체급과 경쟁 밀도 기반 카페 생존 분석 및 폐업 예측 모형 — 서울특별시를 중심으로",
         "authors": [
             162,
@@ -117,18 +117,18 @@
         "venue_ko": "한국경영공학회지",
         "volume": "31",
         "issue": "2",
-        "pages": "",
-        "doi": "",
+        "pages": "45-57",
+        "doi": "10.35373/KMES.31.2.4",
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "이채은, 최인수. (2026). 자본 체급과 경쟁 밀도 기반 카페 생존 분석 및 폐업 예측 모형 — 서울특별시를 중심으로. 한국경영공학회지, 31(2).",
+            "apa": "이채은, 최인수. (2026). 자본 체급과 경쟁 밀도 기반 카페 생존 분석 및 폐업 예측 모형 — 서울특별시를 중심으로. 한국경영공학회지, 31(2), 45-57. https://doi.org/10.35373/KMES.31.2.4",
             "mla": "이채은, 최인수. \"자본 체급과 경쟁 밀도 기반 카페 생존 분석 및 폐업 예측 모형 — 서울특별시를 중심으로.\" 한국경영공학회지 31.2 (2026).",
             "chicago": "이채은, 최인수. \"자본 체급과 경쟁 밀도 기반 카페 생존 분석 및 폐업 예측 모형 — 서울특별시를 중심으로.\" 한국경영공학회지 31, no. 2 (2026).",
-            "harvard": "이채은, 최인수 (2026) '자본 체급과 경쟁 밀도 기반 카페 생존 분석 및 폐업 예측 모형 — 서울특별시를 중심으로', 한국경영공학회지, 31(2).",
-            "vancouver": "Lee CE, Choi I. 자본 체급과 경쟁 밀도 기반 카페 생존 분석 및 폐업 예측 모형 — 서울특별시를 중심으로. 한국경영공학회지. 2026;31(2).",
-            "korean": "이채은, 최인수. (2026). 자본 체급과 경쟁 밀도 기반 카페 생존 분석 및 폐업 예측 모형 — 서울특별시를 중심으로. 한국경영공학회지, 31(2).",
-            "bibtex": "@article{lee2026cafe,\n  title = {{Cafe Survival Analysis and Closure Prediction Models Based on Capital Tier and Competitive Density: Focusing on Seoul}},\n  author = {Lee, Chae-Eun and Choi, Insu},\n  journal = {Journal of the Korean Society for Quality Management},\n  volume = {31},\n  number = {2},\n  year = {2026}\n}"
+            "harvard": "이채은, 최인수 (2026) '자본 체급과 경쟁 밀도 기반 카페 생존 분석 및 폐업 예측 모형 — 서울특별시를 중심으로', 한국경영공학회지, 31(2), 45-57. https://doi.org/10.35373/KMES.31.2.4",
+            "vancouver": "Lee CE, Choi I. 자본 체급과 경쟁 밀도 기반 카페 생존 분석 및 폐업 예측 모형 — 서울특별시를 중심으로. 한국경영공학회지. 2026;31(2), 45-57.",
+            "korean": "이채은, 최인수. (2026). 자본 체급과 경쟁 밀도 기반 카페 생존 분석 및 폐업 예측 모형 — 서울특별시를 중심으로. 한국경영공학회지, 31(2), 45-57.",
+            "bibtex": "@article{lee2026cafe,\n  title = {{Survival Analysis and Closure Prediction Model for Seoul’s Café Market Based on Brand Capital and Competition Density}},\n  author = {Lee, Chae-Eun and Choi, Insu},\n  journal = {Journal of the Korean Society for Quality Management},\n  volume = {31},\n  number = {2},\n  year = {2026}\n}"
         }
     },
     {
@@ -150,14 +150,14 @@
         "volume": "",
         "issue": "",
         "pages": "",
-        "doi": "",
+        "doi": "10.1007/s11403-026-00494-2",
         "language": "English",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I. (2026). Efficient computation of Granger causality networks via partial correlation: A vectorized algorithm with applications to financial markets. Journal of Economic Interaction and Coordination.",
+            "apa": "Choi, I. (2026). Efficient computation of Granger causality networks via partial correlation: A vectorized algorithm with applications to financial markets. Journal of Economic Interaction and Coordination. https://doi.org/10.1007/s11403-026-00494-2",
             "mla": "Choi, Insu. \"Efficient Computation of Granger Causality Networks via Partial Correlation: A Vectorized Algorithm with Applications to Financial Markets.\" Journal of Economic Interaction and Coordination (2026).",
             "chicago": "Choi, Insu. \"Efficient Computation of Granger Causality Networks via Partial Correlation: A Vectorized Algorithm with Applications to Financial Markets.\" Journal of Economic Interaction and Coordination (2026).",
-            "harvard": "Choi, I. (2026) 'Efficient computation of Granger causality networks via partial correlation: A vectorized algorithm with applications to financial markets', Journal of Economic Interaction and Coordination.",
+            "harvard": "Choi, I. (2026) 'Efficient computation of Granger causality networks via partial correlation: A vectorized algorithm with applications to financial markets', Journal of Economic Interaction and Coordination. https://doi.org/10.1007/s11403-026-00494-2",
             "vancouver": "Choi I. Efficient computation of Granger causality networks via partial correlation: A vectorized algorithm with applications to financial markets. Journal of Economic Interaction and Coordination. 2026.",
             "bibtex": "@article{choi2026granger,\n  title = {{Efficient Computation of Granger Causality Networks via Partial Correlation: A Vectorized Algorithm with Applications to Financial Markets}},\n  author = {Choi, Insu},\n  journal = {Journal of Economic Interaction and Coordination},\n  year = {2026}\n}"
         }
@@ -340,17 +340,17 @@
         "venue_ko": "경영과학",
         "volume": "43",
         "issue": "2",
-        "pages": "",
+        "pages": "97-110",
         "doi": "",
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "장소은, 최인수. (2026). TVP-VAR 기반 오세아니아 및 아시아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석. 경영과학, 43(2).",
+            "apa": "장소은, 최인수. (2026). TVP-VAR 기반 오세아니아 및 아시아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석. 경영과학, 43(2), 97-110.",
             "mla": "장소은, 최인수. \"TVP-VAR 기반 오세아니아 및 아시아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석.\" 경영과학 43.2 (2026).",
             "chicago": "장소은, 최인수. \"TVP-VAR 기반 오세아니아 및 아시아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석.\" 경영과학 43, no. 2 (2026).",
-            "harvard": "장소은, 최인수 (2026) 'TVP-VAR 기반 오세아니아 및 아시아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석', 경영과학, 43(2).",
-            "vancouver": "Jang S, Choi I. TVP-VAR 기반 오세아니아 및 아시아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석. 경영과학. 2026;43(2).",
-            "korean": "장소은, 최인수. (2026). TVP-VAR 기반 오세아니아 및 아시아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석. 경영과학, 43(2).",
+            "harvard": "장소은, 최인수 (2026) 'TVP-VAR 기반 오세아니아 및 아시아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석', 경영과학, 43(2), 97-110.",
+            "vancouver": "Jang S, Choi I. TVP-VAR 기반 오세아니아 및 아시아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석. 경영과학. 2026;43(2), 97-110.",
+            "korean": "장소은, 최인수. (2026). TVP-VAR 기반 오세아니아 및 아시아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석. 경영과학, 43(2), 97-110.",
             "bibtex": "@article{jang2026tvpvar,\n  title = {{TVP-VAR 기반 오세아니아 및 아시아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석}},\n  author = {Jang, Soeun and Choi, Insu},\n  journal = {경영과학},\n  volume = {43},\n  number = {2},\n  year = {2026}\n}"
         }
     },
@@ -372,15 +372,15 @@
         "venue_ko": "경영학연구",
         "volume": "55",
         "issue": "3",
-        "pages": "",
-        "doi": "",
+        "pages": "1391-1408",
+        "doi": "10.17287/kmr.2026.55.3.1391",
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "최인수. (2026). 그래프 기반 자산선택의 분산효과 분석. 경영학연구, 55(4).",
+            "apa": "최인수. (2026). 그래프 기반 자산선택의 분산효과 분석. 경영학연구, 55(4). https://doi.org/10.17287/kmr.2026.55.3.1391",
             "mla": "최인수. \"그래프 기반 자산선택의 분산효과 분석.\" 경영학연구 55.4 (2026).",
             "chicago": "최인수. \"그래프 기반 자산선택의 분산효과 분석.\" 경영학연구 55, no. 4 (2026).",
-            "harvard": "최인수 (2026) '그래프 기반 자산선택의 분산효과 분석', 경영학연구, 55(4).",
+            "harvard": "최인수 (2026) '그래프 기반 자산선택의 분산효과 분석', 경영학연구, 55(4). https://doi.org/10.17287/kmr.2026.55.3.1391",
             "vancouver": "Choi I. 그래프 기반 자산선택의 분산효과 분석. 경영학연구. 2026;55(4).",
             "korean": "최인수. (2026). 그래프 기반 자산선택의 분산효과 분석. 경영학연구, 55(4).",
             "bibtex": "@article{choi2026graph,\n  title = {{그래프 기반 자산선택의 분산효과 분석}},\n  author = {Choi, Insu},\n  journal = {Korean Management Review},\n  volume = {55},\n  number = {4},\n  year = {2026}\n}"
@@ -593,18 +593,18 @@
         "venue_ko": "경영정보학연구",
         "volume": "28",
         "issue": "2",
-        "pages": "",
-        "doi": "",
+        "pages": "129-147",
+        "doi": "10.14329/isr.2026.28.2.129",
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I. (2026). Trend Analysis in Financial Information Visualization Research: A Systematic Literature Review. Information Systems Review, 28(2).",
+            "apa": "Choi, I. (2026). Trend Analysis in Financial Information Visualization Research: A Systematic Literature Review. Information Systems Review, 28(2), 129-147. https://doi.org/10.14329/isr.2026.28.2.129",
             "mla": "Insu Choi. \"Trend Analysis in Financial Information Visualization Research: A Systematic Literature Review.\" Information Systems Review 28.2 (2026).",
             "chicago": "Insu Choi. \"Trend Analysis in Financial Information Visualization Research: A Systematic Literature Review.\" Information Systems Review 28, no. 2 (2026).",
-            "harvard": "Choi, I. (2026) 'Trend Analysis in Financial Information Visualization Research: A Systematic Literature Review', Information Systems Review, 28(2).",
-            "vancouver": "Choi I. Trend Analysis in Financial Information Visualization Research: A Systematic Literature Review. Information Systems Review. 2026;28(2).",
+            "harvard": "Choi, I. (2026) 'Trend Analysis in Financial Information Visualization Research: A Systematic Literature Review', Information Systems Review, 28(2), 129-147. https://doi.org/10.14329/isr.2026.28.2.129",
+            "vancouver": "Choi I. Trend Analysis in Financial Information Visualization Research: A Systematic Literature Review. Information Systems Review. 2026;28(2), 129-147.",
             "bibtex": "@article{ref2026trend,\n  title = {{Trend Analysis in Financial Information Visualization Research: A Systematic Literature Review}},\n  author = {Insu Choi},\n  journal = {Information Systems Review},\n  volume = {28},\n  number = {2},\n  year = {2026}\n}",
-            "korean": "최인수. (2026). 금융 정보 시각화 연구의 동향 분석: 체계적 문헌 고찰. 경영정보학연구, 28(2)."
+            "korean": "최인수. (2026). 금융 정보 시각화 연구의 동향 분석: 체계적 문헌 고찰. 경영정보학연구, 28(2), 129-147."
         }
     },
     {
@@ -625,18 +625,18 @@
         "venue_ko": "한국경영공학회지",
         "volume": "31",
         "issue": "1",
-        "pages": "48-68",
-        "doi": "",
+        "pages": "49-68",
+        "doi": "10.35373/KMES.31.1.4",
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I. (2026). Measure Matters: Moving-Window Analysis of Financial Network Topology. Journal of the Korea Management Engineers Society, 31(1), 48-68.",
-            "mla": "Insu Choi. \"Measure Matters: Moving-Window Analysis of Financial Network Topology.\" Journal of the Korea Management Engineers Society 31.1 (2026): 48-68.",
-            "chicago": "Insu Choi. \"Measure Matters: Moving-Window Analysis of Financial Network Topology.\" Journal of the Korea Management Engineers Society 31, no. 1 (2026): 48-68.",
-            "harvard": "Choi, I. (2026) 'Measure Matters: Moving-Window Analysis of Financial Network Topology', Journal of the Korea Management Engineers Society, 31(1), 48-68.",
-            "vancouver": "Choi I. Measure Matters: Moving-Window Analysis of Financial Network Topology. Journal of the Korea Management Engineers Society. 2026;31(1):48-68.",
-            "bibtex": "@article{ref2026measure,\n  title = {{Measure Matters: Moving-Window Analysis of Financial Network Topology}},\n  author = {Insu Choi},\n  journal = {Journal of the Korea Management Engineers Society},\n  volume = {31},\n  pages = {48-68},\n  year = {2026}\n}",
-            "korean": "최인수. (2026). 이동창 기반 금융 네트워크 분석에서 상호의존성 측도 선택의 영향. 한국경영공학회지, 31(1), 48-68."
+            "apa": "Choi, I. (2026). Measure Matters: Moving-Window Analysis of Financial Network Topology. Journal of the Korea Management Engineers Society, 31(1), 49-68. https://doi.org/10.35373/KMES.31.1.4",
+            "mla": "Insu Choi. \"Measure Matters: Moving-Window Analysis of Financial Network Topology.\" Journal of the Korea Management Engineers Society 31.1 (2026): 49-68.",
+            "chicago": "Insu Choi. \"Measure Matters: Moving-Window Analysis of Financial Network Topology.\" Journal of the Korea Management Engineers Society 31, no. 1 (2026): 49-68.",
+            "harvard": "Choi, I. (2026) 'Measure Matters: Moving-Window Analysis of Financial Network Topology', Journal of the Korea Management Engineers Society, 31(1), 49-68. https://doi.org/10.35373/KMES.31.1.4",
+            "vancouver": "Choi I. Measure Matters: Moving-Window Analysis of Financial Network Topology. Journal of the Korea Management Engineers Society. 2026;31(1):49-68.",
+            "bibtex": "@article{ref2026measure,\n  title = {{Measure Matters: Moving-Window Analysis of Financial Network Topology}},\n  author = {Insu Choi},\n  journal = {Journal of the Korea Management Engineers Society},\n  volume = {31},\n  pages = {49-68},\n  year = {2026}\n}",
+            "korean": "최인수. (2026). 이동창 기반 금융 네트워크 분석에서 상호의존성 측도 선택의 영향. 한국경영공학회지, 31(1), 49-68."
         }
     },
     {
