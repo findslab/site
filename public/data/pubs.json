@@ -8604,8 +8604,8 @@
         },
         "presentation_type": "oral",
         "award_details": {
-            "prize": "Best Paper Presentation Award",
-            "prize_ko": "우수논문발표상",
+            "prize": "Best Paper Presentation Award (Oral Session)",
+            "prize_ko": "우수논문발표상 (구두 부문)",
             "category": "(O-II-B) Intelligent Safety Systems",
             "category_ko": "(O-II-B) 지능 안전 시스템",
             "organization": "Korea Society of Industrial Convergence",
@@ -8711,8 +8711,8 @@
         },
         "presentation_type": "poster",
         "award_details": {
-            "prize": "Best Paper Presentation Award",
-            "prize_ko": "우수논문발표상",
+            "prize": "Best Paper Presentation Award (Poster Session)",
+            "prize_ko": "우수논문발표상 (포스터 부문)",
             "category": "(P-II-A) Finance and Business Convergence Research",
             "category_ko": "(P-II-A) 금융·경영 융합연구",
             "organization": "Korea Society of Industrial Convergence",
