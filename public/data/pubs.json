@@ -8592,7 +8592,7 @@
         "pages": "",
         "doi": "",
         "language": "Korean",
-        "awards": 0,
+        "awards": 1,
         "citations": {
             "apa": "Choi, I. (2026). Performance Advantage of Graph Attention Networks in Global Stock Index Forecasting Using Correlation-Based Market Graphs. 2026 Spring Conference of the Korea Society of Industrial Convergence.",
             "mla": "Insu Choi. \"Performance Advantage of Graph Attention Networks in Global Stock Index Forecasting Using Correlation-Based Market Graphs.\" 2026 Spring Conference of the Korea Society of Industrial Convergence, 2026.",
@@ -8602,7 +8602,15 @@
             "korean": "최인수. (2026). 상관관계 기반 시장 그래프를 활용한 글로벌 주가지수 예측에서 그래프 주의 네트워크의 성과 우위 분석. 2026 한국산업융합학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Performance Advantage of Graph Attention Networks in Global Stock Index Forecasting Using Correlation-Based Market Graphs}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korea Society of Industrial Convergence},\n  year = {2026}\n}"
         },
-        "presentation_type": "oral"
+        "presentation_type": "oral",
+        "award_details": {
+            "prize": "Best Paper Presentation Award",
+            "prize_ko": "우수논문발표상",
+            "category": "(O-II-B) Intelligent Safety Systems",
+            "category_ko": "(O-II-B) 지능 안전 시스템",
+            "organization": "Korea Society of Industrial Convergence",
+            "organization_ko": "한국산업융합학회"
+        }
     },
     {
         "type": "conference",
@@ -8691,7 +8699,7 @@
         "pages": "",
         "doi": "",
         "language": "Korean",
-        "awards": 0,
+        "awards": 1,
         "citations": {
             "apa": "Choi, I. (2026). Curvature-Based Graph Utilization for Decomposable Portfolio Allocation. 2026 Spring Conference of the Korea Society of Industrial Convergence.",
             "mla": "Insu Choi. \"Curvature-Based Graph Utilization for Decomposable Portfolio Allocation.\" 2026 Spring Conference of the Korea Society of Industrial Convergence, 2026.",
@@ -8701,7 +8709,15 @@
             "korean": "최인수. (2026). 분해 가능한 포트폴리오 배분을 위한 곡률 기반 그래프 활용. 2026 한국산업융합학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Curvature-Based Graph Utilization for Decomposable Portfolio Allocation}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korea Society of Industrial Convergence},\n  year = {2026}\n}"
         },
-        "presentation_type": "poster"
+        "presentation_type": "poster",
+        "award_details": {
+            "prize": "Best Paper Presentation Award",
+            "prize_ko": "우수논문발표상",
+            "category": "(P-II-A) Finance and Business Convergence Research",
+            "category_ko": "(P-II-A) 금융·경영 융합연구",
+            "organization": "Korea Society of Industrial Convergence",
+            "organization_ko": "한국산업융합학회"
+        }
     },
     {
         "type": "conference",
