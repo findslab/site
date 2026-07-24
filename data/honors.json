@@ -1197,8 +1197,8 @@
     {
       "type": "award",
       "icon": "🏆",
-      "title": "우수논문발표상",
-      "title_en": "Best Paper Presentation Award",
+      "title": "우수논문발표상 (구두 부문)",
+      "title_en": "Best Paper Presentation Award (Oral Session)",
       "event": "2026 한국산업융합학회 춘계학술대회",
       "organization": "한국산업융합학회",
       "date": "Jul 10",
@@ -1212,11 +1212,26 @@
     {
       "type": "award",
       "icon": "🏆",
-      "title": "우수논문발표상",
-      "title_en": "Best Paper Presentation Award",
+      "title": "우수논문발표상 (포스터 부문)",
+      "title_en": "Best Paper Presentation Award (Poster Session)",
       "event": "2026 한국산업융합학회 춘계학술대회",
       "organization": "한국산업융합학회",
       "date": "Jul 10",
+      "winners": [
+        {
+          "name": "최인수",
+          "level": "phd"
+        }
+      ]
+    },
+    {
+      "type": "award",
+      "icon": "🏆",
+      "title": "최우수논문상",
+      "title_en": "Best Paper Award",
+      "event": "2026 한국경영학회 융합학술대회",
+      "organization": "한국경영학회",
+      "date": "Aug 20",
       "winners": [
         {
           "name": "최인수",
