@@ -423,8 +423,8 @@
         "code_label": "J",
         "published_date": "2026-07-31",
         "year": 2026,
-        "title": "Dynamic Relationship Between Trade Openness and Economic Growth Using Adaptive Elastic Net Rolling-Window Approach",
-        "title_ko": "적응적 엘라스틱넷 이동 창 기법을 활용한 무역 개방도와 경제성장의 동태적 관계 분석",
+        "title": "Time-Varying Relationship Between Trade Openness and Economic Growth: Evidence from Regularized Rolling-Window Regression",
+        "title_ko": "정규화 이동 창 회귀를 활용한 무역 개방도와 경제성장의 시변적 관계 분석",
         "authors": [
             1
         ],
@@ -440,13 +440,13 @@
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I. (2026). Dynamic Relationship Between Trade Openness and Economic Growth Using Adaptive Elastic Net Rolling-Window Approach. 한국정보기술학회논문지, 24(7).",
-            "mla": "Insu Choi. \"Dynamic Relationship Between Trade Openness and Economic Growth Using Adaptive Elastic Net Rolling-Window Approach.\" 한국정보기술학회논문지 24.7 (2026).",
-            "chicago": "Insu Choi. \"Dynamic Relationship Between Trade Openness and Economic Growth Using Adaptive Elastic Net Rolling-Window Approach.\" 한국정보기술학회논문지 24, no. 7 (2026).",
-            "harvard": "Choi, I. (2026) 'Dynamic Relationship Between Trade Openness and Economic Growth Using Adaptive Elastic Net Rolling-Window Approach', 한국정보기술학회논문지, 24(7).",
-            "vancouver": "Choi I. Dynamic Relationship Between Trade Openness and Economic Growth Using Adaptive Elastic Net Rolling-Window Approach. 한국정보기술학회논문지. 2026;24(7).",
-            "korean": "최인수. (2026). 적응적 엘라스틱넷 이동 창 기법을 활용한 무역 개방도와 경제성장의 동태적 관계 분석. 한국정보기술학회논문지, 24(7).",
-            "bibtex": "@article{ref2026trade,\n  title = {{Dynamic Relationship Between Trade Openness and Economic Growth Using Adaptive Elastic Net Rolling-Window Approach}},\n  author = {Insu Choi},\n  journal = {Journal of Korean Institute of Information Technology},\n  volume = {24},\n  number = {7},\n  year = {2026}\n}"
+            "apa": "Choi, I. (2026). Time-Varying Relationship Between Trade Openness and Economic Growth: Evidence from Regularized Rolling-Window Regression. 한국정보기술학회논문지, 24(7).",
+            "mla": "Insu Choi. \"Time-Varying Relationship Between Trade Openness and Economic Growth: Evidence from Regularized Rolling-Window Regression.\" 한국정보기술학회논문지 24.7 (2026).",
+            "chicago": "Insu Choi. \"Time-Varying Relationship Between Trade Openness and Economic Growth: Evidence from Regularized Rolling-Window Regression.\" 한국정보기술학회논문지 24, no. 7 (2026).",
+            "harvard": "Choi, I. (2026) 'Time-Varying Relationship Between Trade Openness and Economic Growth: Evidence from Regularized Rolling-Window Regression', 한국정보기술학회논문지, 24(7).",
+            "vancouver": "Choi I. Time-Varying Relationship Between Trade Openness and Economic Growth: Evidence from Regularized Rolling-Window Regression. 한국정보기술학회논문지. 2026;24(7).",
+            "korean": "최인수. (2026). 정규화 이동 창 회귀를 활용한 무역 개방도와 경제성장의 시변적 관계 분석. 한국정보기술학회논문지, 24(7).",
+            "bibtex": "@article{ref2026trade,\n  title = {{Time-Varying Relationship Between Trade Openness and Economic Growth: Evidence from Regularized Rolling-Window Regression}},\n  author = {Insu Choi},\n  journal = {Journal of Korean Institute of Information Technology},\n  volume = {24},\n  number = {7},\n  year = {2026}\n}"
         }
     },
     {
@@ -8606,8 +8606,8 @@
         "award_details": {
             "prize": "Best Paper Presentation Award (Oral Session)",
             "prize_ko": "우수논문발표상 (구두 부문)",
-            "category": "(O-II-B) Intelligent Safety Systems",
-            "category_ko": "(O-II-B) 지능 안전 시스템",
+            "category": "Intelligent Safety Systems Track",
+            "category_ko": "지능 안전 시스템 부문",
             "organization": "Korea Society of Industrial Convergence",
             "organization_ko": "한국산업융합학회"
         }
@@ -8713,8 +8713,8 @@
         "award_details": {
             "prize": "Best Paper Presentation Award (Poster Session)",
             "prize_ko": "우수논문발표상 (포스터 부문)",
-            "category": "(P-II-A) Finance and Business Convergence Research",
-            "category_ko": "(P-II-A) 금융·경영 융합연구",
+            "category": "Finance and Business Convergence Research Track",
+            "category_ko": "금융·경영 융합연구 부문",
             "organization": "Korea Society of Industrial Convergence",
             "organization_ko": "한국산업융합학회"
         }
@@ -8799,24 +8799,32 @@
         "author_marks": [
             "1,*"
         ],
-        "venue": "2026 Integrated Spring Conference of the Korean Academy of Management (KAM)",
-        "venue_ko": "2026 경영학회 통합 춘계학술대회",
+        "venue": "2026 Summer Conference of the Korean Academic Society of Business Administration (KASBA)",
+        "venue_ko": "2026 한국경영학회 융합학술대회",
         "volume": "",
         "issue": "",
         "pages": "",
         "doi": "",
         "language": "Korean",
-        "awards": 0,
+        "awards": 1,
         "citations": {
             "apa": "Choi, I. (2026). Comparative Analysis of Linear and Nonlinear Information Flows in Multi-Asset Markets. 2026 Integrated Spring Conference of Management Associations.",
             "mla": "Insu Choi. \"Comparative Analysis of Linear and Nonlinear Information Flows in Multi-Asset Markets.\" 2026 Integrated Spring Conference of Management Associations, 2026.",
             "chicago": "Insu Choi. \"Comparative Analysis of Linear and Nonlinear Information Flows in Multi-Asset Markets.\" 2026 Integrated Spring Conference of Management Associations, 2026.",
             "harvard": "Choi, I. (2026) 'comparative analysis of linear and nonlinear information flows in multi-asset markets', 2026 Integrated Spring Conference of Management Associations.",
             "vancouver": "Choi I. Comparative Analysis of Linear and Nonlinear Information Flows in Multi-Asset Markets. 2026 Integrated Spring Conference of Management Associations. 2026.",
-            "korean": "최인수. (2026). 다자산 시장의 선형 및 비선형 정보 흐름의 비교 분석. 2026 경영학회 통합 춘계학술대회.",
+            "korean": "최인수. (2026). 다자산 시장의 선형 및 비선형 정보 흐름의 비교 분석. 2026 한국경영학회 융합학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Comparative Analysis of Linear and Nonlinear Information Flows in Multi-Asset Markets}},\n  author = {Insu Choi},\n  booktitle = {2026 Integrated Spring Conference of Management Associations},\n  year = {2026}\n}"
         },
-        "presentation_type": "oral"
+        "presentation_type": "oral",
+        "award_details": {
+            "prize": "Best Paper Award",
+            "prize_ko": "최우수논문상",
+            "category": "",
+            "category_ko": "",
+            "organization": "Korean Academic Society of Business Administration",
+            "organization_ko": "한국경영학회"
+        }
     },
     {
         "type": "conference",

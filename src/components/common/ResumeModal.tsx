@@ -140,7 +140,7 @@ const ResumeModal = () => {
         <div>
           <div className="flex flex-col md:flex-row md:justify-between gap-4 md:gap-16 mb-4">
             <p className="text-xs font-semibold text-gray-900 min-w-0 flex-1 md:pr-12">Empirical Analysis of the Insurance Industry's Financial Market Stabilization Function and Systemic Risk Transmission: A Korea–U.S. Comparison</p>
-            <span className="text-xs text-gray-400 shrink-0 md:w-[140px] md:text-right">2026-07 – 2026-12</span>
+            <span className="text-xs text-gray-400 shrink-0 md:w-[140px] md:text-right">2026-07 – 2027-06</span>
           </div>
           <ul className="text-xs text-gray-600 space-y-3 ml-12">
             <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Principal Investigator</li>

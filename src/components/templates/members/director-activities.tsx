@@ -1113,6 +1113,19 @@ export const MembersDirectorActivitiesTemplate = () => {
   }, [])
   const [emailCopied, setEmailCopied] = useState(false)
   const [honorsData, setHonorsData] = useState<HonorsData | null>(null)
+
+  // Sort honors items by date descending (same as About > Honors page)
+  const sortHonorItems = <T extends { date?: string }>(items: T[]): T[] => {
+    const monthOrder: Record<string, number> = { Jan: 1, Feb: 2, Mar: 3, Apr: 4, May: 5, Jun: 6, Jul: 7, Aug: 8, Sep: 9, Oct: 10, Nov: 11, Dec: 12, January: 1, February: 2, March: 3, April: 4, June: 6, July: 7, August: 8, September: 9, October: 10, November: 11, December: 12 }
+    return [...items].sort((a, b) => {
+      const aMonth = monthOrder[a.date?.split(' ')[0] || ''] || 0
+      const aDay = parseInt(a.date?.split(' ')[1] || '0')
+      const bMonth = monthOrder[b.date?.split(' ')[0] || ''] || 0
+      const bDay = parseInt(b.date?.split(' ')[1] || '0')
+      return bMonth !== aMonth ? bMonth - aMonth : bDay - aDay
+    })
+  }
+
   const [expandedYears, setExpandedYears] = useState<Set<string>>(new Set(['2026', '2025', '2024', '2023', '2022', '2021', '2020', '2019', '2018', '2017', '2016', '2015', '2014', '2013']))
   const [expandedSections, setExpandedSections] = useState<{[key: string]: boolean}>({
     honorsAwards: true,
@@ -1662,9 +1675,6 @@ export const MembersDirectorActivitiesTemplate = () => {
                           >
                             <div className="flex items-center gap-12 flex-wrap">
                               <span className={`text-lg font-bold ${isCurrentYear ? 'text-[#9A7D1F]' : 'text-gray-800'}`}>{year}</span>
-                              {isCurrentYear && (
-                                <span className="px-8 py-2 bg-[#D6B14D] text-white text-[10px] md:text-xs font-semibold rounded-full">NEW</span>
-                              )}
                               <span className="px-10 py-4 bg-white rounded-full text-[10px] font-medium shadow-sm">
                                 <span className="font-bold" style={{color: '#D6B14D'}}>{honors.length}</span>
                                 <span className="text-gray-500"> {honors.length === 1 ? 'Honor' : 'Honors'}</span>
@@ -1681,7 +1691,7 @@ export const MembersDirectorActivitiesTemplate = () => {
 
                           {isExpanded && (
                             <div className="flex flex-col">
-                              {items.map((item, idx) => (
+                              {sortHonorItems(items).map((item, idx) => (
                                 <div
                                   key={idx}
                                   className="flex items-start gap-12 p-16 bg-white border-t border-gray-100"

@@ -1223,6 +1223,21 @@
           "level": "phd"
         }
       ]
+    },
+    {
+      "type": "award",
+      "icon": "🏆",
+      "title": "최우수논문상",
+      "title_en": "Best Paper Award",
+      "event": "2026 한국경영학회 융합학술대회",
+      "organization": "한국경영학회",
+      "date": "Aug 20",
+      "winners": [
+        {
+          "name": "최인수",
+          "level": "phd"
+        }
+      ]
     }
   ]
 }
