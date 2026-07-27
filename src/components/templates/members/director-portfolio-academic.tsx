@@ -2158,8 +2158,8 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                                     {/* Title + Period (Desktop: Period on right) */}
                                     <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 md:gap-16">
                                       <div className="flex-1 min-w-0">
-                                        <p className="text-sm md:text-base font-bold text-gray-900 whitespace-pre-line">{project.titleKo}</p>
-                                        <p className="text-xs md:text-sm text-gray-600 mt-3 whitespace-pre-line">{project.titleEn}</p>
+                                        <p className="text-sm md:text-md font-bold text-gray-900 leading-relaxed whitespace-pre-line">{project.titleKo}</p>
+                                        <p className="text-xs md:text-sm text-gray-600 mt-4 leading-relaxed whitespace-pre-line">{project.titleEn}</p>
                                         <p className="text-xs md:text-sm text-gray-500 mt-3 whitespace-pre-line"><span className="font-bold">{project.language === 'ko' && project.fundingAgencyKo ? project.fundingAgencyKo : project.fundingAgency}</span></p>
                                         {/* Mobile: Period as text */}
                                         <p className="md:hidden text-[10px] text-gray-400 font-medium mt-4">{project.period}</p>

@@ -1,200 +1,235 @@
 {
-  "shuffle": true,
-  "items": [
-    {
-      "url": "https://youtu.be/6ZUIwj3FgUY?si=GdrHxz9noK5taOWW",
-      "artist": "IVE",
-      "title": "I AM"
-    },
-    {
-      "url": "https://youtu.be/YaEG2aWJnZ8?si=_CEw-Q_pOcdLO7jj",
-      "artist": "Sia",
-      "title": "Unstoppable"
-    },
-    {
-      "url": "https://youtu.be/0Oi8jDMvd_w?si=_PTmX3W-hJJq2yB9",
-      "artist": "AKMU",
-      "title": "200%"
-    },
-    {
-      "url": "https://youtu.be/m3DZsBw5bnE?si=G-aXpUQNZB6VD7MX",
-      "artist": "AKMU",
-      "title": "어떻게 이별까지 사랑하겠어, 널 사랑하는 거지"
-    },
-    {
-      "url": "https://youtu.be/Dx_fKPBPYUI?si=3nG0u1iNOJ0vq_1N",
-      "artist": "米津玄師",
-      "title": "LOSER"
-    },
-    {
-      "url": "https://youtu.be/D1PvIWdJ8xo?si=ujLJQirOpbmzgHDX",
-      "artist": "IU",
-      "title": "Blueming"
-    },
-    {
-      "url": "https://youtu.be/SX_ViT4Ra7k?si=ToUxC-1GjObGyZ7x",
-      "artist": "米津玄師",
-      "title": "Lemon"
-    },
-    {
-      "url": "https://youtu.be/pfGI91CFtRg?si=jxWYY-skEz4slqx8",
-      "artist": "あいみょん",
-      "title": "ハルノヒ"
-    },
-    {
-      "url": "https://youtu.be/bnVUHWCynig?si=Y5wKWu0qPa6jwPrY",
-      "artist": "Beyoncé",
-      "title": "Halo"
-    },
-    {
-      "url": "https://youtu.be/a2GujJZfXpg?si=vMsJPRIAe4buYCCr",
-      "artist": "RADWIMPS",
-      "title": "スパークル"
-    },
-    {
-      "url": "https://youtu.be/wfCcs0vLysk?si=8ZpBUNp5tVNY1SDE",
-      "artist": "Mrs. GREEN APPLE",
-      "title": "Inferno"
-    },
-    {
-      "url": "https://youtu.be/bMviw4mXEDg?si=jmqaKwgxG517IlLM",
-      "artist": "Mrs. GREEN APPLE",
-      "title": "僕のこと"
-    },
-    {
-      "url": "https://youtu.be/pG6iaOMV46I?si=I68Qrmulym4r1wwp",
-      "artist": "IVE",
-      "title": "Kitsch"
-    },
-    {
-      "url": "https://youtu.be/POe9SOEKotk?si=wkhWwaRFJmqvjseI",
-      "artist": "BLACKPINK",
-      "title": "Shut Down"
-    },
-    {
-      "url": "https://youtu.be/UM9XNpgrqVk?si=UccUiZ-QFS1YKc04",
-      "artist": "Vaundy",
-      "title": "怪獣の花唄"
-    },
-    {
-      "url": "https://youtu.be/EmeW6li6bbo?si=gX_waF28v5l_C8DT",
-      "artist": "NMIXX",
-      "title": "Blue Valentine"
-    },
-    {
-      "url": "https://youtu.be/f2Pee5hnO-E?si=YId-vfYHyQX56_X",
-      "artist": "Sondia",
-      "title": "어른"
-    },
-    {
-      "url": "https://youtu.be/M6gcoDN9jBc?si=ECwE9urH0tAHPza6",
-      "artist": "King Gnu",
-      "title": "逆夢"
-    },
-    {
-      "url": "https://youtu.be/KQIsk0ba5q0?si=ynziq1jcQbxAAZwv",
-      "artist": "Loren Allred",
-      "title": "Never Enough"
-    },
-    {
-      "url": "https://youtu.be/rYEDA3JcQqw?si=JZUvlxrN_joHcvUb",
-      "artist": "Adele",
-      "title": "Rolling in the Deep"
-    },
-    {
-      "url": "https://youtu.be/yebNIHKAC4A?si=sSok5jKvXYYJqhGM",
-      "artist": "HUNTR/X",
-      "title": "Golden"
-    },
-    {
-      "url": "https://youtu.be/aRDURmIYBZ4?si=WIxHFcEMp7EKdsuS",
-      "artist": "緑黄色社会",
-      "title": "Mela!"
-    },
-    {
-      "url": "https://youtu.be/pcKR0LPwoYs?si=PNXrw-y9QSuwTiDL",
-      "artist": "찬열, 펀치",
-      "title": "Stay With Me"
-    },
-    {
-      "url": "https://youtu.be/fmI_Ndrxy14?si=7QyFI3-kHxnOVYgL",
-      "artist": "Imagine Dragons",
-      "title": "Warriors"
-    },
-    {
-      "url": "https://youtu.be/fKopy74weus?si=XPR8nQZKGX7qZJY4",
-      "artist": "Imagine Dragons",
-      "title": "Thunder"
-    },
-    {
-      "url": "https://youtu.be/QwVjTlTdIDQ?si=iPdSrR3yAHxHNdcw",
-      "artist": "Billy Joel",
-      "title": "Piano Man"
-    },
-    {
-      "url": "https://music.youtube.com/watch?v=KMdTrqzEI0I&si=N5FECGFRFI_I-Dwm",
-      "artist": "星野源",
-      "title": "恋"
-    },
-    {
-      "url": "https://youtu.be/9kaCAbIXuyg?si=YXkgr77_bfHgoB-_",
-      "artist": "G-DRAGON",
-      "title": "무제(無題)"
-    },
-    {
-      "url": "https://youtu.be/TgOu00Mf3kI?si=SXnvbU3hHV9uPubN",
-      "artist": "IU",
-      "title": "eight (Prod. & Feat. SUGA of BTS)"
-    },
-    {
-      "url": "https://youtu.be/ZjIPFe0hE4Y?si=0HtlToY3tdow9_rC",
-      "artist": "조유진, 박기영",
-      "title": "나에게로의 초대"
-    },
-    {
-      "url": "https://youtu.be/mw5VIEIvuMI?si=J9GQDPxp23KQEsHO",
-      "artist": "Naomi Scott",
-      "title": "Speechless"
-    },
-    {
-      "url": "https://music.youtube.com/watch?v=honPlOzVRCU&si=RO94CHPoMVgXXWMW",
-      "artist": "Beyoncé",
-      "title": "Listen"
-    },
-    {
-      "url": "https://youtu.be/1Lmy7qwmSMc?si=8IEpD76Zn7tUCOTM",
-      "artist": "IVE",
-      "title": "BLACKHOLE"
-    },
-    {
-      "url": "https://youtu.be/3-l7rpY1Fp0?si=vAfRgZustSYhs_M9",
-      "artist": "가을 (IVE)",
-      "title": "Odd"
-    },
-    {
-      "url": "https://youtu.be/2vjPBrBU-TM?si=QL8kdj7WhcFeemsr",
-      "artist": "Sia",
-      "title": "Chandelier"
-    },
-    {
-      "url": "https://youtu.be/XCFLqGPN3v4?si=8ljnZxj143Sg00TE",
-      "artist": "ZARD",
-      "title": "揺れる想い"
-    },
-    {
-      "url": "https://youtu.be/0-aX8bEjK-A?si=POsjXjlA8n9sGFxX",
-      "artist": "ZARD",
-      "title": "星のかがやきよ"
-    },
-    {
-      "url": "https://youtu.be/9XttLI0oH0I?si=4qQjHFxrYdUzeEsL",
-      "artist": "RESCENE",
-      "title": "Love Attack"
-    },
-    {
-      "url": "https://youtu.be/MC6-82GRK5I?si=T7ERAMTZWmERyU9i",
-      "artist": "RESCENE",
-      "title": "Bloom"
-    }
-  ]
+    "shuffle": true,
+    "items": [
+        {
+            "url": "https://youtu.be/9XttLI0oH0I?si=4qQjHFxrYdUzeEsL",
+            "artist": "RESCENE",
+            "title": "Love Attack"
+        },
+        {
+            "url": "https://youtu.be/6ZUIwj3FgUY?si=GdrHxz9noK5taOWW",
+            "artist": "IVE",
+            "title": "I AM"
+        },
+        {
+            "url": "https://youtu.be/YaEG2aWJnZ8?si=_CEw-Q_pOcdLO7jj",
+            "artist": "Sia",
+            "title": "Unstoppable"
+        },
+        {
+            "url": "https://youtu.be/0Oi8jDMvd_w?si=_PTmX3W-hJJq2yB9",
+            "artist": "AKMU",
+            "title": "200%"
+        },
+        {
+            "url": "https://youtu.be/m3DZsBw5bnE?si=G-aXpUQNZB6VD7MX",
+            "artist": "AKMU",
+            "title": "어떻게 이별까지 사랑하겠어, 널 사랑하는 거지"
+        },
+        {
+            "url": "https://youtu.be/Dx_fKPBPYUI?si=3nG0u1iNOJ0vq_1N",
+            "artist": "米津玄師",
+            "title": "LOSER"
+        },
+        {
+            "url": "https://youtu.be/D1PvIWdJ8xo?si=ujLJQirOpbmzgHDX",
+            "artist": "IU",
+            "title": "Blueming"
+        },
+        {
+            "url": "https://youtu.be/SX_ViT4Ra7k?si=ToUxC-1GjObGyZ7x",
+            "artist": "米津玄師",
+            "title": "Lemon"
+        },
+        {
+            "url": "https://youtu.be/pfGI91CFtRg?si=jxWYY-skEz4slqx8",
+            "artist": "あいみょん",
+            "title": "ハルノヒ"
+        },
+        {
+            "url": "https://youtu.be/bnVUHWCynig?si=Y5wKWu0qPa6jwPrY",
+            "artist": "Beyoncé",
+            "title": "Halo"
+        },
+        {
+            "url": "https://youtu.be/a2GujJZfXpg?si=vMsJPRIAe4buYCCr",
+            "artist": "RADWIMPS",
+            "title": "スパークル"
+        },
+        {
+            "url": "https://youtu.be/wfCcs0vLysk?si=8ZpBUNp5tVNY1SDE",
+            "artist": "Mrs. GREEN APPLE",
+            "title": "Inferno"
+        },
+        {
+            "url": "https://youtu.be/bMviw4mXEDg?si=jmqaKwgxG517IlLM",
+            "artist": "Mrs. GREEN APPLE",
+            "title": "僕のこと"
+        },
+        {
+            "url": "https://youtu.be/pG6iaOMV46I?si=I68Qrmulym4r1wwp",
+            "artist": "IVE",
+            "title": "Kitsch"
+        },
+        {
+            "url": "https://youtu.be/POe9SOEKotk?si=wkhWwaRFJmqvjseI",
+            "artist": "BLACKPINK",
+            "title": "Shut Down"
+        },
+        {
+            "url": "https://youtu.be/UM9XNpgrqVk?si=UccUiZ-QFS1YKc04",
+            "artist": "Vaundy",
+            "title": "怪獣の花唄"
+        },
+        {
+            "url": "https://youtu.be/EmeW6li6bbo?si=gX_waF28v5l_C8DT",
+            "artist": "NMIXX",
+            "title": "Blue Valentine"
+        },
+        {
+            "url": "https://youtu.be/f2Pee5hnO-E?si=YId-vfYHyQX56_X",
+            "artist": "Sondia",
+            "title": "어른"
+        },
+        {
+            "url": "https://youtu.be/M6gcoDN9jBc?si=ECwE9urH0tAHPza6",
+            "artist": "King Gnu",
+            "title": "逆夢"
+        },
+        {
+            "url": "https://youtu.be/KQIsk0ba5q0?si=ynziq1jcQbxAAZwv",
+            "artist": "Loren Allred",
+            "title": "Never Enough"
+        },
+        {
+            "url": "https://youtu.be/rYEDA3JcQqw?si=JZUvlxrN_joHcvUb",
+            "artist": "Adele",
+            "title": "Rolling in the Deep"
+        },
+        {
+            "url": "https://youtu.be/yebNIHKAC4A?si=sSok5jKvXYYJqhGM",
+            "artist": "HUNTR/X",
+            "title": "Golden"
+        },
+        {
+            "url": "https://youtu.be/aRDURmIYBZ4?si=WIxHFcEMp7EKdsuS",
+            "artist": "緑黄色社会",
+            "title": "Mela!"
+        },
+        {
+            "url": "https://youtu.be/pcKR0LPwoYs?si=PNXrw-y9QSuwTiDL",
+            "artist": "찬열, 펀치",
+            "title": "Stay With Me"
+        },
+        {
+            "url": "https://youtu.be/fmI_Ndrxy14?si=7QyFI3-kHxnOVYgL",
+            "artist": "Imagine Dragons",
+            "title": "Warriors"
+        },
+        {
+            "url": "https://youtu.be/fKopy74weus?si=XPR8nQZKGX7qZJY4",
+            "artist": "Imagine Dragons",
+            "title": "Thunder"
+        },
+        {
+            "url": "https://youtu.be/QwVjTlTdIDQ?si=iPdSrR3yAHxHNdcw",
+            "artist": "Billy Joel",
+            "title": "Piano Man"
+        },
+        {
+            "url": "https://music.youtube.com/watch?v=KMdTrqzEI0I&si=N5FECGFRFI_I-Dwm",
+            "artist": "星野源",
+            "title": "恋"
+        },
+        {
+            "url": "https://youtu.be/9kaCAbIXuyg?si=YXkgr77_bfHgoB-_",
+            "artist": "G-DRAGON",
+            "title": "무제(無題)"
+        },
+        {
+            "url": "https://youtu.be/TgOu00Mf3kI?si=SXnvbU3hHV9uPubN",
+            "artist": "IU",
+            "title": "eight (Prod. & Feat. SUGA of BTS)"
+        },
+        {
+            "url": "https://youtu.be/ZjIPFe0hE4Y?si=0HtlToY3tdow9_rC",
+            "artist": "조유진, 박기영",
+            "title": "나에게로의 초대"
+        },
+        {
+            "url": "https://youtu.be/mw5VIEIvuMI?si=J9GQDPxp23KQEsHO",
+            "artist": "Naomi Scott",
+            "title": "Speechless"
+        },
+        {
+            "url": "https://music.youtube.com/watch?v=honPlOzVRCU&si=RO94CHPoMVgXXWMW",
+            "artist": "Beyoncé",
+            "title": "Listen"
+        },
+        {
+            "url": "https://youtu.be/1Lmy7qwmSMc?si=8IEpD76Zn7tUCOTM",
+            "artist": "IVE",
+            "title": "BLACKHOLE"
+        },
+        {
+            "url": "https://youtu.be/3-l7rpY1Fp0?si=vAfRgZustSYhs_M9",
+            "artist": "가을 (IVE)",
+            "title": "Odd"
+        },
+        {
+            "url": "https://youtu.be/2vjPBrBU-TM?si=QL8kdj7WhcFeemsr",
+            "artist": "Sia",
+            "title": "Chandelier"
+        },
+        {
+            "url": "https://youtu.be/XCFLqGPN3v4?si=8ljnZxj143Sg00TE",
+            "artist": "ZARD",
+            "title": "揺れる想い"
+        },
+        {
+            "url": "https://music.youtube.com/watch?v=4oA6L0-exWo&si=BBBV1o_X8j5eTGUF",
+            "artist": "ZARD",
+            "title": "星のかがやきよ"
+        },
+        {
+            "url": "https://youtu.be/MC6-82GRK5I?si=T7ERAMTZWmERyU9i",
+            "artist": "RESCENE",
+            "title": "Bloom"
+        },
+        {
+            "url": "https://music.youtube.com/watch?v=_ivLUJ3R62U&si=OayGPvNd3-i44mia",
+            "artist": "RESCENE",
+            "title": "Crash"
+        },
+        {
+            "url": "https://youtu.be/ZbO9PBdFRdc?si=4t-2u3PvvncJRbgl",
+            "artist": "RESCENE",
+            "title": "Deja Vu"
+        },
+        {
+            "url": "https://music.youtube.com/watch?v=oP-WPpwBz80&si=heCcOyAmDVo155gX",
+            "artist": "RESCENE",
+            "title": "Pinball"
+        },
+        {
+            "url": "https://music.youtube.com/watch?v=0kZRjyGUQc0&si=1qF2PnkHqW0rFtBd",
+            "artist": "RESCENE",
+            "title": "Love Echo"
+        },
+        {
+            "url": "https://youtu.be/6Ycn9qZK09I?si=4pkWt87Owg3QUSNX",
+            "artist": "NMIXX",
+            "title": "Heavy Serenade"
+        },
+        {
+            "url": "https://music.youtube.com/watch?v=UyebyTbqFMY&si=HMJFzxXeVkWg27_o",
+            "artist": "Sam Ryder",
+            "title": "Tiny Riot"
+        },
+        {
+            "url": "https://music.youtube.com/watch?v=NbKH4iZqq1Y&si=EeZzs5Xu2JtwJUba",
+            "artist": "WOODZ",
+            "title": "Drowning"
+        }
+    ]
 }

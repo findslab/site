@@ -277,7 +277,7 @@ const activities = [
   },
   {
     name: 'FBA',
-    hidden: true,
+    hidden: false,
     logo: logoFba,
     fullName: 'FBA Quantitative Research Group',
     fullNameKo: '',
@@ -1742,7 +1742,7 @@ export const MembersDirectorActivitiesTemplate = () => {
               </button>
 
               {expandedSections.activities && (
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-16 p-20 md:p-24 border-t border-gray-100">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-16 p-20 md:p-24 border-t border-gray-100">
                 {activities.filter(a => !a.hidden).map((act) => (
                   <button
                     key={act.name}
