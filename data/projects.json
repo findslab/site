@@ -421,5 +421,18 @@
         "roles": {
             "principalInvestigator": "최인수"
         }
+    },
+    {
+        "titleKo": "순위 기반 앙상블 K-평균 군집분석을 이용한 가계 재정건전성의 다차원적 유형화",
+        "titleEn": "A Multidimensional Typology of Household Financial Health Using Rank-Ensemble K-Means Clustering",
+        "period": "2026-05-19 – 2026-09-18",
+        "status": "ongoing",
+        "fundingAgency": "Korea Institute of Public Finance",
+        "fundingAgencyKo": "한국조세재정연구원",
+        "type": "government",
+        "language": "ko",
+        "roles": {
+            "principalInvestigator": "최인수"
+        }
     }
 ]
