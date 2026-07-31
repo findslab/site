@@ -1552,7 +1552,7 @@ export const MembersDirectorActivitiesTemplate = () => {
                   <div className="min-w-0">
                     <p className="text-[10px] md:text-xs font-bold text-gray-400 mb-2">Position</p>
                     <p className="text-xs md:text-sm font-semibold text-gray-800">Director</p>
-                    <p className="text-[10px] md:text-xs text-gray-500">FINDS Lab</p>
+                    <p className="text-[10px] md:text-xs text-gray-500">FINDS (Financial Data Intelligence & Solutions) Lab</p>
                   </div>
                 </div>
 

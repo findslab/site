@@ -799,6 +799,15 @@
             "type": "Discussant",
             "period": "2026-08-20",
             "url": ""
+        },
+        {
+            "id": 89,
+            "category": "journal",
+            "name": "Applied Economics Letters",
+            "publisher": "Taylor & Francis",
+            "type": "SSCI",
+            "since": "2026-07-29",
+            "url": "https://www.tandfonline.com/journals/rael20"
         }
     ]
 }
