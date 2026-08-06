@@ -808,6 +808,24 @@
             "type": "SSCI",
             "since": "2026-07-29",
             "url": "https://www.tandfonline.com/journals/rael20"
+        },
+        {
+            "id": 90,
+            "category": "journal",
+            "name": "Communications in Nonlinear Science and Numerical Simulation",
+            "publisher": "Elsevier",
+            "type": "SCIE",
+            "since": "2026-08-04",
+            "url": "https://www.sciencedirect.com/journal/communications-in-nonlinear-science-and-numerical-simulation"
+        },
+        {
+            "id": 91,
+            "category": "journal",
+            "name": "Discover Sustainability",
+            "publisher": "Springer",
+            "type": "ESCI",
+            "since": "2026-08-06",
+            "url": "https://link.springer.com/journal/43621"
         }
     ]
 }
