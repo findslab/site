@@ -2125,7 +2125,7 @@
         "citations": {
             "apa": "Choi, I., Koh, W., Kang, G., Jang, Y., & Kim, W. C. (2024, August 5). Encoding temporal statistical-space priors via augmented representation under data scarcity [Paper presentation]. <em>3rd International Workshop on Spatio-Temporal Reasoning and Learning (STRL 2024), The 33rd International Joint Conference on Artificial Intelligence (IJCAI 2024)</em>.",
             "mla": "Choi, Insu, et al. \"Encoding Temporal Statistical-Space Priors via Augmented Representation Under Data Scarcity.\" <em>3rd International Workshop on Spatio-Temporal Reasoning and Learning (STRL 2024), The 33rd International Joint Conference on Artificial Intelligence (IJCAI 2024)</em>, 5 Aug. 2024.",
-            "chicago": "Choi, Insu, Woosung Koh, Gimin Kang, Yoontae Jang, and Woo Chang Kim. \"Encoding Temporal Statistical-Space Priors via Augmented Representation Under Data Scarcity.\" Paper presented at the <em>3rd International Workshop on Spatio-Temporal Reasoning and Learning (STRL 2024), The 33rd International Joint Conference on Artificial Intelligence (IJCAI 2024)</em>, August 5, 2024.",
+            "chicago": "Choi, Insu, Woosung Koh, Gimin Kang, Yuntae Jang, and Woo Chang Kim. \"Encoding Temporal Statistical-Space Priors via Augmented Representation Under Data Scarcity.\" Paper presented at the <em>3rd International Workshop on Spatio-Temporal Reasoning and Learning (STRL 2024), The 33rd International Joint Conference on Artificial Intelligence (IJCAI 2024)</em>, August 5, 2024.",
             "harvard": "Choi, I., Koh, W., Kang, G., Jang, Y. & Kim, W.C. (2024) 'Encoding temporal statistical-space priors via augmented representation under data scarcity', paper presented at the <em>3rd International Workshop on Spatio-Temporal Reasoning and Learning (STRL 2024), The 33rd International Joint Conference on Artificial Intelligence (IJCAI 2024)</em>, 5 August.",
             "vancouver": "Choi I, Koh W, Kang G, Jang Y, Kim WC. Encoding temporal statistical-space priors via augmented representation under data scarcity. Paper presented at: 3rd International Workshop on Spatio-Temporal Reasoning and Learning (STRL 2024), The 33rd International Joint Conference on Artificial Intelligence (IJCAI 2024); 2024 Aug 5.",
             "bibtex": "@inproceedings{choi2024encoding,\n  title = {{Encoding Temporal Statistical-Space Priors via Augmented Representation Under Data Scarcity}},\n  author = {Choi, I., Koh, W., Kang, G., Jang, Y. and Kim, W. C.},\n  booktitle = {3rd International Workshop on Spatio-Temporal Reasoning and Learning (STRL 2024), The 33rd International Joint Conference on Artificial Intelligence (IJCAI 2024)},\n  year = {2024},\n}"
@@ -2790,7 +2790,7 @@
         "citations": {
             "apa": "Koh, W., Choi, I., Jang, Y., Kang, G., & Kim, W. C. (2024, February 26). Curriculum learning and imitation learning for model-free control on financial time-series [Paper presentation]. <em>AI for Time Series Analysis (AI4TS) Workshop, The 38th Annual AAAI Conference on Artificial Intelligence (AAAI 2024)</em>.",
             "mla": "Koh, Woosung, et al. \"Curriculum Learning and Imitation Learning for Model-Free Control on Financial Time-Series.\" <em>AI for Time Series Analysis (AI4TS) Workshop, The 38th Annual AAAI Conference on Artificial Intelligence (AAAI 2024)</em>, 26 Feb. 2024.",
-            "chicago": "Koh, Woosung, Insu Choi, Yoontae Jang, Gimin Kang, and Woo Chang Kim. \"Curriculum Learning and Imitation Learning for Model-Free Control on Financial Time-Series.\" Paper presented at the <em>AI for Time Series Analysis (AI4TS) Workshop, The 38th Annual AAAI Conference on Artificial Intelligence (AAAI 2024)</em>, February 26, 2024.",
+            "chicago": "Koh, Woosung, Insu Choi, Yuntae Jang, Gimin Kang, and Woo Chang Kim. \"Curriculum Learning and Imitation Learning for Model-Free Control on Financial Time-Series.\" Paper presented at the <em>AI for Time Series Analysis (AI4TS) Workshop, The 38th Annual AAAI Conference on Artificial Intelligence (AAAI 2024)</em>, February 26, 2024.",
             "harvard": "Koh, W., Choi, I., Jang, Y., Kang, G. & Kim, W.C. (2024) 'Curriculum learning and imitation learning for model-free control on financial time-series', paper presented at the <em>AI for Time Series Analysis (AI4TS) Workshop, The 38th Annual AAAI Conference on Artificial Intelligence (AAAI 2024)</em>, 26 February.",
             "vancouver": "Koh W, Choi I, Jang Y, Kang G, Kim WC. Curriculum learning and imitation learning for model-free control on financial time-series. Paper presented at: AI for Time Series Analysis (AI4TS) Workshop, The 38th Annual AAAI Conference on Artificial Intelligence (AAAI 2024); 2024 Feb 26.",
             "bibtex": "@inproceedings{koh2024curriculum,\n  title = {{Curriculum Learning and Imitation Learning for Model-Free Control on Financial Time-Series}},\n  author = {Koh, W., Choi, I., Jang, Y., Kang, G. and Kim, W. C.},\n  booktitle = {AI for Time Series Analysis (AI4TS) Workshop, The 38th Annual AAAI Conference on Artificial Intelligence (AAAI 2024)},\n  year = {2024},\n}"
@@ -4029,7 +4029,7 @@
         "citations": {
             "apa": "Choi, I., Koh, W., Kang, G., Jang, Y., & Kim, W. C. (2023, September 21). Linear and monotonic statistical dependency-oriented financial asset return prediction via diffusion recurrent graph learning-based spatiotemporal graph learning [Paper presentation]. <em>2023 4th Korea Artificial Intelligence Conference</em>.",
             "mla": "Choi, Insu, et al. \"Linear and Monotonic Statistical Dependency-Oriented Financial Asset Return Prediction via Diffusion Recurrent Graph Learning-Based Spatiotemporal Graph Learning.\" <em>2023 4th Korea Artificial Intelligence Conference</em>, 21 Sept. 2023.",
-            "chicago": "Choi, Insu, Woosung Koh, Gimin Kang, Yoontae Jang, and Woo Chang Kim. \"Linear and Monotonic Statistical Dependency-Oriented Financial Asset Return Prediction via Diffusion Recurrent Graph Learning-Based Spatiotemporal Graph Learning.\" Paper presented at the <em>2023 4th Korea Artificial Intelligence Conference</em>, September 21, 2023.",
+            "chicago": "Choi, Insu, Woosung Koh, Gimin Kang, Yuntae Jang, and Woo Chang Kim. \"Linear and Monotonic Statistical Dependency-Oriented Financial Asset Return Prediction via Diffusion Recurrent Graph Learning-Based Spatiotemporal Graph Learning.\" Paper presented at the <em>2023 4th Korea Artificial Intelligence Conference</em>, September 21, 2023.",
             "harvard": "Choi, I., Koh, W., Kang, G., Jang, Y. & Kim, W.C. (2023) 'Linear and monotonic statistical dependency-oriented financial asset return prediction via diffusion recurrent graph learning-based spatiotemporal graph learning', paper presented at the <em>2023 4th Korea Artificial Intelligence Conference</em>, 21 September.",
             "vancouver": "Choi I, Koh W, Kang G, Jang Y, Kim WC. Linear and monotonic statistical dependency-oriented financial asset return prediction via diffusion recurrent graph learning-based spatiotemporal graph learning. Paper presented at: 2023 4th Korea Artificial Intelligence Conference; 2023 Sept 21.",
             "bibtex": "@inproceedings{choi2023linear,\n  title = {{Linear and Monotonic Statistical Dependency-Oriented Financial Asset Return Prediction via Diffusion Recurrent Graph Learning-Based Spatiotemporal Graph Learning}},\n  author = {Choi, I., Koh, W., Kang, G., Jang, Y. and Kim, W. C.},\n  booktitle = {2023 4th Korea Artificial Intelligence Conference},\n  year = {2023},\n}",
@@ -4405,7 +4405,7 @@
         "citations": {
             "apa": "Choi, I., Lee, G., Koh, W., Jang, Y., Kang, G., Lee, D., Roh, Y., Lee, J., & Kim, W. C. (2023, June 1). Investigating the relationship between macroeconomic indicators and financial markets: A brief survey [Paper presentation]. 2023 Spring Joint Conference of the Korean Institute of Industrial Engineers and Korean Operations Research and Management Science Society.",
             "mla": "Choi, Insu, et al. \"Investigating the Relationship Between Macroeconomic Indicators and Financial Markets: A Brief Survey.\" 2023 Spring Joint Conference of the Korean Institute of Industrial Engineers and Korean Operations Research and Management Science Society, 1 June 2023.",
-            "chicago": "Choi, Insu, Geunyoung Lee, Woosung Koh, Yoontae Jang, Gimin Kang, Doyoung Lee, Yoojin Roh, Jiyoon Lee, and Woo Chang Kim. \"Investigating the Relationship Between Macroeconomic Indicators and Financial Markets: A Brief Survey.\" Paper presented at the 2023 Spring Joint Conference of the Korean Institute of Industrial Engineers and Korean Operations Research and Management Science Society, June 1, 2023.",
+            "chicago": "Choi, Insu, Geunyoung Lee, Woosung Koh, Yuntae Jang, Gimin Kang, Doyoung Lee, Yoojin Roh, Jiyoon Lee, and Woo Chang Kim. \"Investigating the Relationship Between Macroeconomic Indicators and Financial Markets: A Brief Survey.\" Paper presented at the 2023 Spring Joint Conference of the Korean Institute of Industrial Engineers and Korean Operations Research and Management Science Society, June 1, 2023.",
             "harvard": "Choi, I., Lee, G., Koh, W., Jang, Y., Kang, G., Lee, D., Roh, Y., Lee, J. & Kim, W.C. (2023) 'Investigating the relationship between macroeconomic indicators and financial markets: A brief survey', paper presented at the 2023 Spring Joint Conference of the Korean Institute of Industrial Engineers and Korean Operations Research and Management Science Society, 1 June.",
             "vancouver": "Choi I, Lee G, Koh W, Jang Y, Kang G, Lee D, Roh Y, Lee J, Kim WC. Investigating the relationship between macroeconomic indicators and financial markets: A brief survey. Paper presented at: 2023 Spring Joint Conference of the Korean Institute of Industrial Engineers and Korean Operations Research and Management Science Society; 2023 June 1.",
             "korean": "최인수, 이근영, 고우성, 장윤태, 강기민, 이도영, 노유진, 이지윤, 김우창. (2023). 거시경제 지표를 활용한 금융 시장 분석에 관한 조사 연구. 2023 대한산업공학회–한국경영과학회 춘계공동학술대회 발표논문.",
@@ -4522,7 +4522,7 @@
         "citations": {
             "apa": "Choi, I., Koh, W., Kang, G., Jang, Y., Roh, Y., Lee, J., & Kim, W. C. (2023, May 19). Explainable prediction model of exchange rates via spatiotemporal network topology and graph neural networks [Paper presentation]. <em>2023 Spring Conference of Korean Information Processing Society (ASK 2023)</em>.",
             "mla": "Choi, Insu, et al. \"Explainable Prediction Model of Exchange Rates via Spatiotemporal Network Topology and Graph Neural Networks.\" <em>2023 Spring Conference of Korean Information Processing Society (ASK 2023)</em>, 19 May 2023.",
-            "chicago": "Choi, Insu, Woosung Koh, Gimin Kang, Yoontae Jang, Yoojin Roh, Jiyoon Lee, and Woo Chang Kim. \"Explainable Prediction Model of Exchange Rates via Spatiotemporal Network Topology and Graph Neural Networks.\" Paper presented at the <em>2023 Spring Conference of Korean Information Processing Society (ASK 2023)</em>, May 19, 2023.",
+            "chicago": "Choi, Insu, Woosung Koh, Gimin Kang, Yuntae Jang, Yoojin Roh, Jiyoon Lee, and Woo Chang Kim. \"Explainable Prediction Model of Exchange Rates via Spatiotemporal Network Topology and Graph Neural Networks.\" Paper presented at the <em>2023 Spring Conference of Korean Information Processing Society (ASK 2023)</em>, May 19, 2023.",
             "harvard": "Choi, I., Koh, W., Kang, G., Jang, Y., Roh, Y., Lee, J. & Kim, W.C. (2023) 'Explainable prediction model of exchange rates via spatiotemporal network topology and graph neural networks', paper presented at the <em>2023 Spring Conference of Korean Information Processing Society (ASK 2023)</em>, 19 May.",
             "vancouver": "Choi I, Koh W, Kang G, Jang Y, Roh Y, Lee J, Kim WC. Explainable prediction model of exchange rates via spatiotemporal network topology and graph neural networks. Paper presented at: 2023 Spring Conference of Korean Information Processing Society (ASK 2023); 2023 May 19.",
             "korean": "최인수, 고우성, 강기민, 장윤태, 노유진, 이지윤, 김우창. (2023). 시공간 의존성 네트워크 위상 및 그래프 신경망을 활용한 설명 가능한 환율 변화 예측 모형 개발. 2023 한국정보처리학회 춘계학술발표대회 (ASK 2023) 발표논문.",
@@ -5087,7 +5087,7 @@
         "citations": {
             "apa": "Choi, I., Jang, Y., Cho, K., Cho, Y., & Kim, W. C. (2022, November 4). A review on financial market forecasting using machine learning [Paper presentation]. 2022 Fall Conference of the Korean Institute of Industrial Engineers.",
             "mla": "Choi, Insu, et al. \"A Review on Financial Market Forecasting Using Machine Learning.\" 2022 Fall Conference of the Korean Institute of Industrial Engineers, 4 Nov. 2022.",
-            "chicago": "Choi, Insu, Yoontae Jang, Kyungmo Cho, Younghwan Cho, and Woo Chang Kim. \"A Review on Financial Market Forecasting Using Machine Learning.\" Paper presented at the 2022 Fall Conference of the Korean Institute of Industrial Engineers, November 4, 2022.",
+            "chicago": "Choi, Insu, Yuntae Jang, Kyungmo Cho, Younghwan Cho, and Woo Chang Kim. \"A Review on Financial Market Forecasting Using Machine Learning.\" Paper presented at the 2022 Fall Conference of the Korean Institute of Industrial Engineers, November 4, 2022.",
             "harvard": "Choi, I., Jang, Y., Cho, K., Cho, Y. & Kim, W.C. (2022) 'A review on financial market forecasting using machine learning', paper presented at the 2022 Fall Conference of the Korean Institute of Industrial Engineers, 4 November.",
             "vancouver": "Choi I, Jang Y, Cho K, Cho Y, Kim WC. A review on financial market forecasting using machine learning. Paper presented at: 2022 Fall Conference of the Korean Institute of Industrial Engineers; 2022 Nov 4.",
             "korean": "최인수, 장윤태, 조경모, 조영환, 김우창. (2022). 기계 학습을 활용한 금융 시장 예측 – 논문 리뷰를 중심으로. 2022 대한산업공학회 추계학술대회 발표논문.",
@@ -9065,6 +9065,42 @@
             "vancouver": "Choi I. 순위 기반 앙상블 K-평균 군집분석을 이용한 가계 재정건전성의 다차원적 유형화. 2026 한국조세재정연구원 재정패널 학술대회. 2026.",
             "korean": "최인수. (2026). 순위 기반 앙상블 K-평균 군집분석을 이용한 가계 재정건전성의 다차원적 유형화. 2026 한국조세재정연구원 재정패널 학술대회.",
             "bibtex": "@inproceedings{choi2026household,\n  title = {{A Multidimensional Typology of Household Financial Health Using Rank-Ensemble K-Means Clustering}},\n  author = {Choi, Insu},\n  booktitle = {2026 Fiscal Panel Academic Conference of the Korea Institute of Public Finance (KIPF)},\n  year = {2026}\n}"
+        }
+    },
+    {
+        "type": "journal",
+        "indexing_group": "SCIE",
+        "code_label": "J",
+        "published_date": "2026-07-25",
+        "year": 2026,
+        "title": "A Taxonomy of Heterogeneous Statistical Interdependencies for Graph-Based Financial Time Series Prediction",
+        "authors": [
+            1,
+            4,
+            6,
+            7,
+            2
+        ],
+        "author_marks": [
+            "1,*",
+            "1",
+            "",
+            "",
+            "*"
+        ],
+        "venue": "Engineering Applications of Artificial Intelligence",
+        "volume": "",
+        "pages": "",
+        "doi": "",
+        "language": "English",
+        "awards": 0,
+        "citations": {
+            "apa": "Choi, I., Koh, W., Kang, G., Jang, Y., & Kim, W. C. (2026). A taxonomy of heterogeneous statistical interdependencies for graph-based financial time series prediction. <em>Engineering Applications of Artificial Intelligence</em>.",
+            "mla": "Choi, Insu, et al. \"A Taxonomy of Heterogeneous Statistical Interdependencies for Graph-Based Financial Time Series Prediction.\" <em>Engineering Applications of Artificial Intelligence</em>, 2026.",
+            "chicago": "Choi, Insu, Woosung Koh, Gimin Kang, Yuntae Jang, and Woo Chang Kim. \"A Taxonomy of Heterogeneous Statistical Interdependencies for Graph-Based Financial Time Series Prediction.\" <em>Engineering Applications of Artificial Intelligence</em> (2026).",
+            "harvard": "Choi, I., Koh, W., Kang, G., Jang, Y. & Kim, W.C. (2026) 'A taxonomy of heterogeneous statistical interdependencies for graph-based financial time series prediction', <em>Engineering Applications of Artificial Intelligence</em>.",
+            "vancouver": "Choi I, Koh W, Kang G, Jang Y, Kim WC. A taxonomy of heterogeneous statistical interdependencies for graph-based financial time series prediction. Engineering Applications of Artificial Intelligence. 2026.",
+            "bibtex": "@article{choi2026taxonomy,\n  title = {{A Taxonomy of Heterogeneous Statistical Interdependencies for Graph-Based Financial Time Series Prediction}},\n  author = {Choi, I., Koh, W., Kang, G., Jang, Y. and Kim, W. C.},\n  journal = {Engineering Applications of Artificial Intelligence},\n  year = {2026},\n}"
         }
     }
 ]
