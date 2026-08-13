@@ -9071,7 +9071,7 @@
         "type": "journal",
         "indexing_group": "SCIE",
         "code_label": "J",
-        "published_date": "2026-07-25",
+        "published_date": "2026-07-27",
         "year": 2026,
         "title": "A Taxonomy of Heterogeneous Statistical Interdependencies for Graph-Based Financial Time Series Prediction",
         "authors": [
@@ -9091,16 +9091,16 @@
         "venue": "Engineering Applications of Artificial Intelligence",
         "volume": "",
         "pages": "",
-        "doi": "",
+        "doi": "10.1016/j.engappai.2026.115832",
         "language": "English",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I., Koh, W., Kang, G., Jang, Y., & Kim, W. C. (2026). A taxonomy of heterogeneous statistical interdependencies for graph-based financial time series prediction. <em>Engineering Applications of Artificial Intelligence</em>.",
+            "apa": "Choi, I., Koh, W., Kang, G., Jang, Y., & Kim, W. C. (2026). A taxonomy of heterogeneous statistical interdependencies for graph-based financial time series prediction. <em>Engineering Applications of Artificial Intelligence</em>. https://doi.org/10.1016/j.engappai.2026.115832",
             "mla": "Choi, Insu, et al. \"A Taxonomy of Heterogeneous Statistical Interdependencies for Graph-Based Financial Time Series Prediction.\" <em>Engineering Applications of Artificial Intelligence</em>, 2026.",
             "chicago": "Choi, Insu, Woosung Koh, Gimin Kang, Yuntae Jang, and Woo Chang Kim. \"A Taxonomy of Heterogeneous Statistical Interdependencies for Graph-Based Financial Time Series Prediction.\" <em>Engineering Applications of Artificial Intelligence</em> (2026).",
-            "harvard": "Choi, I., Koh, W., Kang, G., Jang, Y. & Kim, W.C. (2026) 'A taxonomy of heterogeneous statistical interdependencies for graph-based financial time series prediction', <em>Engineering Applications of Artificial Intelligence</em>.",
+            "harvard": "Choi, I., Koh, W., Kang, G., Jang, Y. & Kim, W.C. (2026) 'A taxonomy of heterogeneous statistical interdependencies for graph-based financial time series prediction', <em>Engineering Applications of Artificial Intelligence</em>. https://doi.org/10.1016/j.engappai.2026.115832",
             "vancouver": "Choi I, Koh W, Kang G, Jang Y, Kim WC. A taxonomy of heterogeneous statistical interdependencies for graph-based financial time series prediction. Engineering Applications of Artificial Intelligence. 2026.",
-            "bibtex": "@article{choi2026taxonomy,\n  title = {{A Taxonomy of Heterogeneous Statistical Interdependencies for Graph-Based Financial Time Series Prediction}},\n  author = {Choi, I., Koh, W., Kang, G., Jang, Y. and Kim, W. C.},\n  journal = {Engineering Applications of Artificial Intelligence},\n  year = {2026},\n}"
+            "bibtex": "@article{choi2026taxonomy,\n  title = {{A Taxonomy of Heterogeneous Statistical Interdependencies for Graph-Based Financial Time Series Prediction}},\n  author = {Choi, I., Koh, W., Kang, G., Jang, Y. and Kim, W. C.},\n  journal = {Engineering Applications of Artificial Intelligence},\n  year = {2026},\n  doi = {10.1016/j.engappai.2026.115832},\n}"
         }
     }
 ]

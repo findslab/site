@@ -1305,32 +1305,32 @@ export const MembersDirectorAcademicTemplate = () => {
 
   const editorialBoards = useMemo(() => {
     if (!activitiesData) return []
-    return activitiesData.activities.filter(a => a.category === 'editorial')
+    return activitiesData.activities.filter(a => a.category === 'editorial').sort((a, b) => (b.period || b.since || '').localeCompare(a.period || a.since || ''))
   }, [activitiesData])
 
   const memberships = useMemo(() => {
     if (!activitiesData) return []
-    return activitiesData.activities.filter(a => a.category === 'membership')
+    return activitiesData.activities.filter(a => a.category === 'membership').sort((a, b) => (b.period || b.since || '').localeCompare(a.period || a.since || ''))
   }, [activitiesData])
 
   const committees = useMemo(() => {
     if (!activitiesData) return []
-    return activitiesData.activities.filter(a => a.category === 'committee')
+    return activitiesData.activities.filter(a => a.category === 'committee').sort((a, b) => (b.period || b.since || '').localeCompare(a.period || a.since || ''))
   }, [activitiesData])
 
   const sessionChairs = useMemo(() => {
     if (!activitiesData) return []
-    return activitiesData.activities.filter(a => a.category === 'chair')
+    return activitiesData.activities.filter(a => a.category === 'chair').sort((a, b) => (b.period || b.since || '').localeCompare(a.period || a.since || ''))
   }, [activitiesData])
 
   const discussants = useMemo(() => {
     if (!activitiesData) return []
-    return activitiesData.activities.filter(a => a.category === 'discussant')
+    return activitiesData.activities.filter(a => a.category === 'discussant').sort((a, b) => (b.period || b.since || '').localeCompare(a.period || a.since || ''))
   }, [activitiesData])
 
   const conferenceReviewers = useMemo(() => {
     if (!activitiesData) return []
-    return activitiesData.activities.filter(a => a.category === 'conference')
+    return activitiesData.activities.filter(a => a.category === 'conference').sort((a, b) => (b.period || b.since || '').localeCompare(a.period || a.since || ''))
   }, [activitiesData])
 
   return (

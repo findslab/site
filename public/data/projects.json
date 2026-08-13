@@ -434,5 +434,20 @@
         "roles": {
             "principalInvestigator": "최인수"
         }
+    },
+    {
+        "titleEn": "2026-1 Teaching Innovation Portfolio Selection (General Track) — Business Intelligence and Analytics",
+        "titleKo": "2026-1학기 수업 혁신 포트폴리오 선정 (일반 트랙) — 비즈니스 인텔리전스와 분석",
+        "period": "2026-03-01 – 2026-08-06",
+        "fundingAgency": "Center for Teaching and Learning, Gachon University",
+        "fundingAgencyKo": "가천대학교 교수학습개발센터",
+        "amount": "",
+        "type": "institution",
+        "language": "ko",
+        "roles": {
+            "principalInvestigator": "최인수",
+            "leadResearcher": [],
+            "researchers": []
+        }
     }
 ]

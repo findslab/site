@@ -1330,12 +1330,12 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
 
   const editorialBoards = useMemo(() => {
     if (!activitiesData) return []
-    return activitiesData.activities.filter(a => a.category === 'editorial')
+    return activitiesData.activities.filter(a => a.category === 'editorial').sort((a, b) => (b.period || b.since || '').localeCompare(a.period || a.since || ''))
   }, [activitiesData])
 
   const memberships = useMemo(() => {
     if (!activitiesData) return []
-    return activitiesData.activities.filter(a => a.category === 'membership')
+    return activitiesData.activities.filter(a => a.category === 'membership').sort((a, b) => (b.period || b.since || '').localeCompare(a.period || a.since || ''))
   }, [activitiesData])
 
   const committees = useMemo(() => {
