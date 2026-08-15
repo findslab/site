@@ -272,11 +272,11 @@ export const HomeTemplate = () => {
           
           {/* Text */}
           <div className="text-center">
-            <h1 className="text-[23px] font-bold leading-none" style={{ letterSpacing: '0.14em', textIndent: '0.14em' }}>
+            <h1 className="text-[23px] font-bold leading-none tracking-tight">
               <span style={{ color: '#D6B14D' }}>FINDS</span>{' '}
-              <span className="text-gray-900">LAB</span>
+              <span className="text-gray-900">Lab</span>
             </h1>
-            <div className="mt-13 text-[10px] font-semibold" style={{ letterSpacing: '0.16em', textIndent: '0.16em' }}>
+            <div className="mt-13 text-[10px] font-semibold tracking-wide">
               <span style={{ color: '#D6B14D' }}>F</span>
               <span style={{ color: '#E8D688' }}>inancial </span>
               <span style={{ color: '#D6B14D' }}>D</span>
