@@ -1,4 +1,4 @@
-import { memo, useState, useEffect } from 'react'
+import { memo, useState, useEffect, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { ChevronRight } from 'lucide-react'
 import Slider from '@/components/atoms/slider'
@@ -57,6 +57,32 @@ export const HomeTemplate = () => {
   const [showWelcome, setShowWelcome] = useState(true)
   const [loadStartTime] = useState(Date.now())
   const [logoTapped, setLogoTapped] = useState(false)
+
+  // Loader: scattered data points that converge into an ordered ring
+  const dataPoints = useMemo(() => {
+    const N = 12
+    const ordered = Array.from({ length: N }, (_, i) => {
+      const a = (i / N) * Math.PI * 2 - Math.PI / 2
+      return [100 + Math.cos(a) * 43, 100 + Math.sin(a) * 43] as [number, number]
+    })
+    const rnd = (min: number, max: number) => min + Math.random() * (max - min)
+    return ordered.map(([ex, ey], i) => {
+      const w = Array.from({ length: 3 }, () => {
+        const a = rnd(0, Math.PI * 2)
+        const r = rnd(14, 72)
+        return [
+          Number((100 + Math.cos(a) * r).toFixed(1)),
+          Number((100 + Math.sin(a) * r).toFixed(1)),
+        ] as [number, number]
+      })
+      const [nx, ny] = ordered[(i + 1) % N]
+      return {
+        w,
+        ex: Number(ex.toFixed(1)), ey: Number(ey.toFixed(1)),
+        nx: Number(nx.toFixed(1)), ny: Number(ny.toFixed(1)),
+      }
+    })
+  }, [])
 
   useEffect(() => {
     const fetchLatest = async () => {
@@ -151,114 +177,124 @@ export const HomeTemplate = () => {
         
         {/* Central Animation Container */}
         <div className="relative flex flex-col items-center">
-          {/* Hexagon Network Animation */}
-          <div className="relative w-[140px] h-[140px] mb-32">
-            {/* Rotating outer ring */}
-            <svg className="absolute inset-0 w-full h-full" style={{ animation: 'spin 12s linear infinite' }} viewBox="0 0 100 100">
-              <circle cx="50" cy="50" r="46" fill="none" stroke="url(#ringGradient)" strokeWidth="0.5" strokeDasharray="6 6" opacity="0.5" />
+          {/* Compass — data scattered, then aligned to a direction */}
+          <div className="relative w-[172px] h-[172px] mb-32">
+            {/* fixed indicator (does not rotate) */}
+            <div className="absolute -top-10 left-1/2 -translate-x-1/2 w-px h-14 bg-[#B8962D] z-10">
+              <span className="absolute -bottom-3 left-1/2 -translate-x-1/2 w-3 h-3 rounded-full bg-[#B8962D]" />
+            </div>
+
+            {/* knurled bezel */}
+            <svg className="absolute inset-0 w-full h-full" viewBox="0 0 200 200"
+                 style={{ animation: 'cpDrift 18s linear infinite' }}>
+              <circle cx="100" cy="100" r="86" fill="none" stroke="#18181b"
+                      strokeWidth="9" opacity="0.12" strokeDasharray="3 6.006" />
+            </svg>
+
+            {/* dial face */}
+            <svg className="absolute inset-0 w-full h-full" viewBox="0 0 200 200">
               <defs>
-                <linearGradient id="ringGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stopColor="#D6B14D" />
+                <linearGradient id="cpFace" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stopColor="rgba(214,177,77,0.07)" />
+                  <stop offset="100%" stopColor="rgba(184,150,45,0.02)" />
+                </linearGradient>
+                <linearGradient id="cpNeedle" x1="50%" y1="0%" x2="50%" y2="100%">
+                  <stop offset="0%" stopColor="#E8D688" />
                   <stop offset="100%" stopColor="#B8962D" />
                 </linearGradient>
               </defs>
+              <circle cx="100" cy="100" r="80" fill="none" stroke="#D6B14D" strokeWidth="1" opacity="0.28" />
+              <circle cx="100" cy="100" r="58" fill="url(#cpFace)" stroke="#D6B14D" strokeWidth="1" opacity="0.38" />
+              <g stroke="#D6B14D">
+                {Array.from({ length: 36 }, (_, i) => {
+                  const major = i % 9 === 0
+                  const a = (i / 36) * Math.PI * 2 - Math.PI / 2
+                  const r1 = major ? 68 : 72
+                  return (
+                    <line key={i}
+                      x1={(100 + Math.cos(a) * r1).toFixed(2)} y1={(100 + Math.sin(a) * r1).toFixed(2)}
+                      x2={(100 + Math.cos(a) * 79).toFixed(2)} y2={(100 + Math.sin(a) * 79).toFixed(2)}
+                      strokeWidth={major ? 1.4 : 0.7} opacity={major ? 0.55 : 0.22} />
+                  )
+                })}
+              </g>
+              <g fontSize="10.5" fontWeight="600" fill="#9A7D1F" textAnchor="middle">
+                <text x="100" y="34" style={{ animation: 'cpLock 5.2s ease-in-out infinite' }}>N</text>
+                <text x="167" y="104" opacity="0.24">E</text>
+                <text x="100" y="174" opacity="0.24">S</text>
+                <text x="33" y="104" opacity="0.24">W</text>
+              </g>
+              {/* ring of light released on lock */}
+              <circle cx="100" cy="100" r="58" fill="none" stroke="#D6B14D" strokeWidth="1.2"
+                      style={{ transformOrigin: '100px 100px', animation: 'cpFlash 5.2s ease-out infinite' }} />
             </svg>
-            
-            {/* Counter-rotating middle ring */}
-            <svg className="absolute inset-0 w-full h-full" style={{ animation: 'spin 8s linear infinite reverse' }} viewBox="0 0 100 100">
-              <circle cx="50" cy="50" r="36" fill="none" stroke="#D6B14D" strokeWidth="0.3" strokeDasharray="3 9" opacity="0.3" />
+
+            {/* data points: scattered -> ordered */}
+            <svg className="absolute inset-0 w-full h-full" viewBox="0 0 200 200">
+              <g>
+                {dataPoints.map((d, i) => (
+                  <line key={`l-${i}`} x1={d.ex} y1={d.ey} x2={d.nx} y2={d.ny}
+                    stroke="#D6B14D" strokeWidth="0.6" strokeDasharray="60" strokeDashoffset="60"
+                    style={{ animation: 'cpDraw 5.2s ease-out infinite', animationDelay: `${i * 0.02}s` }} />
+                ))}
+              </g>
+              <g>
+                {dataPoints.map((d, i) => (
+                  <circle key={`d-${i}`} cx={d.w[0][0]} cy={d.w[0][1]} r="1.5" fill="#D6B14D">
+                    <animate attributeName="cx" dur="5.2s" repeatCount="indefinite"
+                      keyTimes="0;0.30;0.58;0.72;0.84;1"
+                      values={`${d.w[0][0]};${d.w[1][0]};${d.w[2][0]};${d.w[2][0]};${d.ex};${d.ex}`} />
+                    <animate attributeName="cy" dur="5.2s" repeatCount="indefinite"
+                      keyTimes="0;0.30;0.58;0.72;0.84;1"
+                      values={`${d.w[0][1]};${d.w[1][1]};${d.w[2][1]};${d.w[2][1]};${d.ey};${d.ey}`} />
+                    <animate attributeName="r" dur="5.2s" repeatCount="indefinite"
+                      keyTimes="0;0.58;0.72;0.84;0.90;1"
+                      values="1.5;1.7;1.8;2.9;2.2;2.4" />
+                    <animate attributeName="opacity" dur="5.2s" repeatCount="indefinite"
+                      keyTimes="0;0.30;0.58;0.72;0.84;0.90;1"
+                      values="0.16;0.22;0.3;0.4;1;0.85;0.9" />
+                  </circle>
+                ))}
+              </g>
             </svg>
-            
-            {/* Central hexagon */}
-            <svg className="absolute inset-0 w-full h-full" viewBox="0 0 100 100">
-              {/* Outer hexagon with gradient stroke */}
-              <polygon 
-                points="50,18 78,34 78,66 50,82 22,66 22,34" 
-                fill="none" 
-                stroke="url(#hexGradient)"
-                strokeWidth="1.2"
-                opacity="0.9"
-              >
-                <animate attributeName="opacity" values="0.6;0.9;0.6" dur="3s" repeatCount="indefinite" />
-              </polygon>
-              
-              {/* Inner hexagon with fill */}
-              <polygon 
-                points="50,28 68,39 68,61 50,72 32,61 32,39" 
-                fill="url(#hexFill)"
-                stroke="#D6B14D" 
-                strokeWidth="0.6"
-                opacity="0.8"
-              />
-              
-              {/* Gradient definitions */}
-              <defs>
-                <linearGradient id="hexGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stopColor="#D6B14D" />
-                  <stop offset="50%" stopColor="#E8D688" />
-                  <stop offset="100%" stopColor="#B8962D" />
-                </linearGradient>
-                <linearGradient id="hexFill" x1="0%" y1="0%" x2="100%" y2="100%">
-                  <stop offset="0%" stopColor="rgba(214,177,77,0.08)" />
-                  <stop offset="100%" stopColor="rgba(184,150,45,0.03)" />
-                </linearGradient>
-              </defs>
-              
-              {/* Center dot with glow */}
-              <circle cx="50" cy="50" r="3" fill="#D6B14D">
-                <animate attributeName="r" values="3;4;3" dur="2s" repeatCount="indefinite" />
-              </circle>
-              <circle cx="50" cy="50" r="6" fill="none" stroke="#D6B14D" strokeWidth="0.3" opacity="0.4">
-                <animate attributeName="r" values="4;10;4" dur="2s" repeatCount="indefinite" />
-                <animate attributeName="opacity" values="0.4;0;0.4" dur="2s" repeatCount="indefinite" />
-              </circle>
-              
-              {/* Connection lines from center to vertices - subtle */}
-              {[
-                [50, 18], [78, 34], [78, 66], [50, 82], [22, 66], [22, 34]
-              ].map(([x, y], i) => (
-                <line key={`line-${i}`} x1="50" y1="50" x2={x} y2={y} stroke="#D6B14D" strokeWidth="0.3" opacity="0.2" />
-              ))}
-              
-              {/* Node points on hexagon vertices */}
-              {[
-                [50, 18], [78, 34], [78, 66], [50, 82], [22, 66], [22, 34]
-              ].map(([x, y], i) => (
-                <g key={i}>
-                  <circle cx={x} cy={y} r="2.5" fill="#D6B14D">
-                    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite" begin={`${i * 0.3}s`} />
-                  </circle>
-                  <circle cx={x} cy={y} r="5" fill="none" stroke="#D6B14D" strokeWidth="0.4" opacity="0">
-                    <animate attributeName="r" values="2.5;8;2.5" dur="2.5s" repeatCount="indefinite" begin={`${i * 0.3}s`} />
-                    <animate attributeName="opacity" values="0.5;0;0.5" dur="2.5s" repeatCount="indefinite" begin={`${i * 0.3}s`} />
-                  </circle>
-                </g>
-              ))}
+
+            {/* needle */}
+            <svg className="absolute inset-0 w-full h-full" viewBox="0 0 200 200">
+              <g style={{ transformOrigin: '100px 100px', animation: 'cpSeek 5.2s cubic-bezier(.65,0,.35,1) infinite' }}>
+                <path d="M100 40 L106 100 L100 109 L94 100 Z" fill="url(#cpNeedle)" />
+                <path d="M100 160 L94 100 L100 91 L106 100 Z" fill="#D6B14D" opacity="0.2" />
+              </g>
+              <circle cx="100" cy="100" r="6.2" fill="#D6B14D"
+                      style={{ transformOrigin: '100px 100px', animation: 'cpHub 5.2s ease-in-out infinite' }} />
+              <circle cx="100" cy="100" r="2.5" fill="#fff" opacity="0.92" />
             </svg>
           </div>
           
           {/* Text */}
           <div className="text-center">
-            <h1 
-              className="text-lg font-semibold tracking-[0.05em] mb-6"
-              style={{ 
-                background: 'linear-gradient(135deg, #D6B14D 0%, #9A7D1F 100%)',
-                WebkitBackgroundClip: 'text',
-                WebkitTextFillColor: 'transparent',
-              }}
-            >
-              FINDS Lab
+            <h1 className="text-[23px] font-bold leading-none" style={{ letterSpacing: '0.14em', textIndent: '0.14em' }}>
+              <span style={{ color: '#D6B14D' }}>FINDS</span>{' '}
+              <span className="text-gray-900">LAB</span>
             </h1>
-            <p className="text-[10px] text-gray-300 tracking-[0.2em] uppercase font-light">
-              Loading
-              <span className="inline-flex ml-2 gap-0.5">
-                <span className="w-1 h-1 rounded-full bg-gray-300" style={{ animation: 'pulse 1.4s ease-in-out infinite', animationDelay: '0ms' }} />
-                <span className="w-1 h-1 rounded-full bg-gray-300" style={{ animation: 'pulse 1.4s ease-in-out infinite', animationDelay: '200ms' }} />
-                <span className="w-1 h-1 rounded-full bg-gray-300" style={{ animation: 'pulse 1.4s ease-in-out infinite', animationDelay: '400ms' }} />
-              </span>
-            </p>
+            <div className="mt-13 text-[10px] font-semibold" style={{ letterSpacing: '0.16em', textIndent: '0.16em' }}>
+              <span style={{ color: '#D6B14D' }}>F</span>
+              <span style={{ color: '#E8D688' }}>inancial </span>
+              <span style={{ color: '#D6B14D' }}>D</span>
+              <span style={{ color: '#E8D688' }}>ata </span>
+              <span style={{ color: '#D6B14D' }}>I</span>
+              <span style={{ color: '#E8D688' }}>ntelligence &amp; </span>
+              <span style={{ color: '#D6B14D' }}>S</span>
+              <span style={{ color: '#E8D688' }}>olutions </span>
+              <span className="text-gray-900/70">Laboratory</span>
+            </div>
           </div>
-          
+
+          {/* hairline progress */}
+          <div className="mt-24 w-168 h-px bg-[#e3ded8] overflow-hidden">
+            <span className="block h-full w-0 bg-[#D6B14D]"
+                  style={{ animation: 'cpFill 5.2s cubic-bezier(.4,0,.2,1) infinite' }} />
+          </div>
+
           {/* Bottom decorative line */}
           <div className="absolute -bottom-20 w-64 h-px bg-gradient-to-r from-transparent via-[#D6B14D]/20 to-transparent" />
         </div>
@@ -278,6 +314,48 @@ export const HomeTemplate = () => {
           @keyframes pulse {
             0%, 100% { opacity: 0.3; transform: scale(1); }
             50% { opacity: 1; transform: scale(1.2); }
+          }
+          @keyframes cpDrift { to { transform: rotate(360deg); } }
+          @keyframes cpSeek {
+            0%   { transform: rotate(0deg); }
+            16%  { transform: rotate(206deg); }
+            23%  { transform: rotate(206deg); }
+            42%  { transform: rotate(498deg); }
+            50%  { transform: rotate(498deg); }
+            74%  { transform: rotate(741deg); }
+            81%  { transform: rotate(710deg); }
+            87%  { transform: rotate(728deg); }
+            92%  { transform: rotate(716deg); }
+            96%  { transform: rotate(723deg); }
+            100% { transform: rotate(720deg); }
+          }
+          @keyframes cpLock {
+            0%, 72% { opacity: 0.26; }
+            80%     { opacity: 1; }
+            88%     { opacity: 0.6; }
+            96%, 100% { opacity: 1; }
+          }
+          @keyframes cpHub {
+            0%, 72% { opacity: 0.55; }
+            81%     { opacity: 1; }
+            100%    { opacity: 0.85; }
+          }
+          @keyframes cpFlash {
+            0%, 73% { opacity: 0; transform: scale(0.5); }
+            79%     { opacity: 0.55; transform: scale(1); }
+            90%, 100% { opacity: 0; transform: scale(1.45); }
+          }
+          @keyframes cpDraw {
+            0%, 74% { opacity: 0; stroke-dashoffset: 60; }
+            86%     { opacity: 0.4; stroke-dashoffset: 0; }
+            100%    { opacity: 0.28; stroke-dashoffset: 0; }
+          }
+          @keyframes cpFill {
+            0% { width: 0; } 23% { width: 31%; } 50% { width: 59%; }
+            79% { width: 90%; } 100% { width: 100%; }
+          }
+          @media (prefers-reduced-motion: reduce) {
+            [style*="cpSeek"] { animation-duration: 14s !important; animation-timing-function: linear !important; }
           }
         `}</style>
       </div>

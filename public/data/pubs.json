@@ -913,7 +913,7 @@
             24
         ],
         "author_marks": [
-            "1, *",
+            "1,*",
             "2",
             "2",
             "2",
@@ -2295,10 +2295,10 @@
         ],
         "author_marks": [
             "1",
-            "",
-            "",
-            "",
-            "",
+            "2",
+            "2",
+            "2",
+            "2",
             "*"
         ],
         "venue": "2024 Summer Conference of the Korean Data Analysis Society (KDAS)",
@@ -9071,7 +9071,7 @@
         "type": "journal",
         "indexing_group": "SCIE",
         "code_label": "J",
-        "published_date": "2026-07-27",
+        "published_date": "2026-10-15",
         "year": 2026,
         "title": "A Taxonomy of Heterogeneous Statistical Interdependencies for Graph-Based Financial Time Series Prediction",
         "authors": [
@@ -9084,23 +9084,56 @@
         "author_marks": [
             "1,*",
             "1",
-            "",
-            "",
+            "2",
+            "2",
             "*"
         ],
         "venue": "Engineering Applications of Artificial Intelligence",
-        "volume": "",
-        "pages": "",
+        "volume": "182",
+        "pages": "115832",
         "doi": "10.1016/j.engappai.2026.115832",
         "language": "English",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I., Koh, W., Kang, G., Jang, Y., & Kim, W. C. (2026). A taxonomy of heterogeneous statistical interdependencies for graph-based financial time series prediction. <em>Engineering Applications of Artificial Intelligence</em>. https://doi.org/10.1016/j.engappai.2026.115832",
-            "mla": "Choi, Insu, et al. \"A Taxonomy of Heterogeneous Statistical Interdependencies for Graph-Based Financial Time Series Prediction.\" <em>Engineering Applications of Artificial Intelligence</em>, 2026.",
-            "chicago": "Choi, Insu, Woosung Koh, Gimin Kang, Yuntae Jang, and Woo Chang Kim. \"A Taxonomy of Heterogeneous Statistical Interdependencies for Graph-Based Financial Time Series Prediction.\" <em>Engineering Applications of Artificial Intelligence</em> (2026).",
-            "harvard": "Choi, I., Koh, W., Kang, G., Jang, Y. & Kim, W.C. (2026) 'A taxonomy of heterogeneous statistical interdependencies for graph-based financial time series prediction', <em>Engineering Applications of Artificial Intelligence</em>. https://doi.org/10.1016/j.engappai.2026.115832",
-            "vancouver": "Choi I, Koh W, Kang G, Jang Y, Kim WC. A taxonomy of heterogeneous statistical interdependencies for graph-based financial time series prediction. Engineering Applications of Artificial Intelligence. 2026.",
-            "bibtex": "@article{choi2026taxonomy,\n  title = {{A Taxonomy of Heterogeneous Statistical Interdependencies for Graph-Based Financial Time Series Prediction}},\n  author = {Choi, I., Koh, W., Kang, G., Jang, Y. and Kim, W. C.},\n  journal = {Engineering Applications of Artificial Intelligence},\n  year = {2026},\n  doi = {10.1016/j.engappai.2026.115832},\n}"
+            "apa": "Choi, I., Koh, W., Kang, G., Jang, Y., & Kim, W. C. (2026). A taxonomy of heterogeneous statistical interdependencies for graph-based financial time series prediction. <em>Engineering Applications of Artificial Intelligence</em>, <em>182</em>, 115832. https://doi.org/10.1016/j.engappai.2026.115832",
+            "mla": "Choi, Insu, et al. \"A Taxonomy of Heterogeneous Statistical Interdependencies for Graph-Based Financial Time Series Prediction.\" <em>Engineering Applications of Artificial Intelligence</em>, vol. 182, 2026, p. 115832.",
+            "chicago": "Choi, Insu, Woosung Koh, Gimin Kang, Yuntae Jang, and Woo Chang Kim. \"A Taxonomy of Heterogeneous Statistical Interdependencies for Graph-Based Financial Time Series Prediction.\" <em>Engineering Applications of Artificial Intelligence</em> 182 (2026): 115832.",
+            "harvard": "Choi, I., Koh, W., Kang, G., Jang, Y. & Kim, W.C. (2026) 'A taxonomy of heterogeneous statistical interdependencies for graph-based financial time series prediction', <em>Engineering Applications of Artificial Intelligence</em>, 182, 115832. https://doi.org/10.1016/j.engappai.2026.115832",
+            "vancouver": "Choi I, Koh W, Kang G, Jang Y, Kim WC. A taxonomy of heterogeneous statistical interdependencies for graph-based financial time series prediction. Engineering Applications of Artificial Intelligence. 2026;182:115832.",
+            "bibtex": "@article{choi2026taxonomy,\n  title = {{A Taxonomy of Heterogeneous Statistical Interdependencies for Graph-Based Financial Time Series Prediction}},\n  author = {Choi, I., Koh, W., Kang, G., Jang, Y. and Kim, W. C.},\n  journal = {Engineering Applications of Artificial Intelligence},\n  volume = {182},\n  pages = {115832},\n  year = {2026},\n  doi = {10.1016/j.engappai.2026.115832},\n}"
+        },
+        "issue": "Part 2"
+    },
+    {
+        "type": "journal",
+        "indexing_group": "KCI",
+        "code_label": "J",
+        "published_date": "2026-10-31",
+        "year": 2026,
+        "title": "An Empirical Study On The Effects Of Label Design And Sample Overlap In The Stock Direction Prediction Problem Using Technical Indicators",
+        "title_ko": "기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "Journal of the Korean Data Analysis Society",
+        "venue_ko": "한국자료분석학회지",
+        "volume": "28",
+        "issue": "5",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "최인수. (2026). 기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구. <em>한국자료분석학회지</em>, <em>28</em>(5).",
+            "mla": "최인수. \"기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구.\" <em>한국자료분석학회지</em> 28.5 (2026).",
+            "chicago": "최인수. \"기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구.\" <em>한국자료분석학회지</em> 28, no. 5 (2026).",
+            "harvard": "최인수 (2026) '기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구', <em>한국자료분석학회지</em>, 28(5).",
+            "vancouver": "Choi I. 기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구. 한국자료분석학회지. 2026;28(5).",
+            "korean": "최인수. (2026). 기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구. 한국자료분석학회지, 28(5).",
+            "bibtex": "@article{choi2026label,\n  title = {{An Empirical Study On The Effects Of Label Design And Sample Overlap In The Stock Direction Prediction Problem Using Technical Indicators}},\n  author = {Choi, Insu},\n  journal = {Journal of the Korean Data Analysis Society},\n  volume = {28},\n  number = {5},\n  year = {2026},\n}"
         }
     }
 ]
