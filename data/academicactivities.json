@@ -826,6 +826,15 @@
             "type": "ESCI",
             "since": "2026-08-06",
             "url": "https://link.springer.com/journal/43621"
+        },
+        {
+            "id": 92,
+            "category": "journal",
+            "name": "SAGE Open",
+            "publisher": "SAGE Publications",
+            "type": "SSCI",
+            "since": "2026-08-07",
+            "url": "https://journals.sagepub.com/home/sgo"
         }
     ]
 }
