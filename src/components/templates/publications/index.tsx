@@ -20,6 +20,7 @@ import type { Publication, AuthorsData } from '@/types/data'
 
 // Image Imports
 import banner3 from '@/assets/images/banner/3.webp'
+import banner3m from '@/assets/images/banner/3m.webp'
 
 // Scroll animation hook
 const useScrollAnimation = () => {
@@ -592,17 +593,22 @@ export const PublicationsTemplate = () => {
   return (
     <div className="flex flex-col bg-white">
       {/* Banner - About FINDS 스타일 */}
-      <div className="relative w-full h-[200px] md:h-[420px] overflow-hidden">
+      <div className="relative w-full h-[clamp(190px,26vw,440px)] overflow-hidden">
         {/* Background Image with Overlay */}
         <div
-          className="absolute inset-0 bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
+          className="absolute inset-0 bg-cover bg-center md:hidden"
+          style={{ backgroundImage: `url(${banner3m})` }}
+        />
+        <div
+          className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
           style={{ backgroundImage: `url(${banner3})` }}
         />
         
         {/* Luxurious Gold Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/40 to-[#D6A076]/30" />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#D6A076]/20" />
+        <div className="absolute inset-0" style={{background: 'radial-gradient(ellipse 55% 70% at 50% 50%, rgba(0,0,0,0.34) 0%, transparent 70%)'}} />
         <div className="absolute inset-0" style={{backgroundColor: 'rgba(214, 177, 77, 0.08)'}} />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent" />
         
         {/* Decorative Elements */}
         <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#D6B14D]/50 to-transparent" />

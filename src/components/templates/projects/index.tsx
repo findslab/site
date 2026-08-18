@@ -3,6 +3,7 @@ import { DIRECTOR_NAME_KO } from '@/data/director-common'
 import {Link} from 'react-router-dom'
 import {Home, Calendar, School, Landmark, FlaskConical, Briefcase, ChevronDown, ChevronUp, Folder, TrendingUp, SlidersHorizontal, X, Search, CheckCircle, Factory} from 'lucide-react'
 import banner4 from '@/assets/images/banner/4.webp'
+import banner4m from '@/assets/images/banner/4m.webp'
 
 // Scroll animation hook
 const useScrollAnimation = () => {
@@ -363,14 +364,19 @@ export const ProjectsTemplate = () => {
   return (
     <div className="flex flex-col bg-white">
       {/* Banner */}
-      <div className="relative w-full h-[200px] md:h-[420px] overflow-hidden">
+      <div className="relative w-full h-[clamp(190px,26vw,440px)] overflow-hidden">
         <div
-          className="absolute inset-0 bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
+          className="absolute inset-0 bg-cover bg-center md:hidden"
+          style={{backgroundImage: `url(${banner4m})`}}
+        />
+        <div
+          className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
           style={{backgroundImage: `url(${banner4})`}}
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/40 to-[#D6A076]/30" />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#D6A076]/20" />
+        <div className="absolute inset-0" style={{background: 'radial-gradient(ellipse 55% 70% at 50% 50%, rgba(0,0,0,0.34) 0%, transparent 70%)'}} />
         <div className="absolute inset-0" style={{backgroundColor: 'rgba(214, 177, 77, 0.08)'}} />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent" />
         <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#D6B14D]/50 to-transparent" />
         <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
         <div className="absolute top-1/4 right-[15%] w-32 h-32 rounded-full bg-[#D6B14D]/10 blur-3xl animate-pulse" />

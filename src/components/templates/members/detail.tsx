@@ -17,6 +17,7 @@ import type {MemberData} from '@/types/data'
 
 // Image Imports
 import banner2 from '@/assets/images/banner/2.webp'
+import banner2m from '@/assets/images/banner/2m.webp'
 
 // Email Popup Component
 const EmailPopup = ({ email, onClose, degree }: { email: string; onClose: () => void; degree?: string }) => {
@@ -125,7 +126,11 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
       <div className="flex flex-col bg-white min-h-screen">
         <div className="relative w-full h-200 md:h-332 overflow-hidden">
           <div
-            className="absolute inset-0 bg-cover bg-center"
+            className="absolute inset-0 bg-cover bg-center md:hidden"
+            style={{backgroundImage: `url(${banner2m})`}}
+          />
+          <div
+            className="absolute inset-0 hidden md:block bg-cover bg-center"
             style={{backgroundImage: `url(${banner2})`}}
           />
           <div className="absolute inset-0 bg-black/40"/>
@@ -143,7 +148,11 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
       <div className="flex flex-col bg-white min-h-screen">
         <div className="relative w-full h-200 md:h-332 overflow-hidden">
           <div
-            className="absolute inset-0 bg-cover bg-center"
+            className="absolute inset-0 bg-cover bg-center md:hidden"
+            style={{backgroundImage: `url(${banner2m})`}}
+          />
+          <div
+            className="absolute inset-0 hidden md:block bg-cover bg-center"
             style={{backgroundImage: `url(${banner2})`}}
           />
           <div className="absolute inset-0 bg-black/40"/>
@@ -182,7 +191,11 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
       {/* Banner */}
       <div className="relative w-full h-200 md:h-332 overflow-hidden">
         <div
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 bg-cover bg-center md:hidden"
+          style={{backgroundImage: `url(${banner2m})`}}
+        />
+        <div
+          className="absolute inset-0 hidden md:block bg-cover bg-center"
           style={{backgroundImage: `url(${banner2})`}}
         />
         <div className="absolute inset-0 bg-black/40"/>

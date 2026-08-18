@@ -290,7 +290,7 @@ const LayoutOrganisms = ({ children }: props) => {
                   <Link
                     to={item.path}
                     className={clsx(
-                      'relative flex items-center gap-4 text-md whitespace-nowrap transition-all duration-300 pt-8 pb-4',
+                      'nav-glow relative flex items-center gap-4 text-md whitespace-nowrap transition-all duration-300 pt-8 pb-4',
                       isActive(item)
                         ? 'font-semibold text-primary'
                         : 'font-medium text-gray-900 hover:text-primary'
@@ -342,7 +342,7 @@ const LayoutOrganisms = ({ children }: props) => {
           {/* Contact Us Button - Desktop */}
           <button
             onClick={handleContactClick}
-            className="hidden md:flex shrink-0 items-center gap-8 px-20 py-12 bg-primary text-white text-sm font-bold whitespace-nowrap rounded-xl hover:bg-primary/90 transition-all duration-300 shadow-sm hover:shadow-md cursor-pointer"
+            className="cta-glow hidden md:flex shrink-0 items-center gap-8 px-20 py-12 bg-primary text-white text-sm font-bold whitespace-nowrap rounded-xl hover:bg-primary/90 transition-all duration-300 shadow-sm cursor-pointer"
           >
             <Mail size={16} />
             Contact Us

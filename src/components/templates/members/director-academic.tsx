@@ -78,6 +78,7 @@ type Lecture = {
 
 // Image Imports
 import banner2 from '@/assets/images/banner/2.webp'
+import banner2m from '@/assets/images/banner/2m.webp'
 import directorImg from '@/assets/images/members/director.webp'
 import logoKaist from '@/assets/images/logos/kaist.png'
 import logoKyunghee from '@/assets/images/logos/kyunghee.png'
@@ -1336,14 +1337,19 @@ export const MembersDirectorAcademicTemplate = () => {
   return (
     <div className="flex flex-col bg-white">
       {/* Banner */}
-      <div className="relative w-full h-[200px] md:h-[420px] overflow-hidden">
+      <div className="relative w-full h-[clamp(190px,26vw,440px)] overflow-hidden">
         <div
-          className="absolute inset-0 bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
+          className="absolute inset-0 bg-cover bg-center md:hidden"
+          style={{backgroundImage: `url(${banner2m})`}}
+        />
+        <div
+          className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
           style={{backgroundImage: `url(${banner2})`}}
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/40 to-[#D6A076]/30" />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#D6A076]/20" />
+        <div className="absolute inset-0" style={{background: 'radial-gradient(ellipse 55% 70% at 50% 50%, rgba(0,0,0,0.34) 0%, transparent 70%)'}} />
         <div className="absolute inset-0" style={{backgroundColor: 'rgba(214, 177, 77, 0.08)'}} />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent" />
         <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-[#D6B14D]/50 to-transparent" />
         <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-white/20 to-transparent" />
         <div className="absolute top-1/4 right-[15%] w-32 h-32 rounded-full bg-[#D6B14D]/10 blur-3xl animate-pulse" />
