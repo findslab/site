@@ -83,19 +83,20 @@
         "venue_ko": "부동산분석",
         "volume": "12",
         "issue": "2",
-        "pages": "",
-        "doi": "",
+        "pages": "139-157",
+        "doi": "10.30902/jrea.2026.12.2.139",
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "최인수. (2026). 기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포와 XGBoost-SHAP 모형을 활용한 분석. <em>부동산분석</em>, <em>12</em>(2).",
-            "mla": "최인수. \"기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포와 XGBoost-SHAP 모형을 활용한 분석.\" <em>부동산분석</em> 12.2 (2026).",
-            "chicago": "최인수. \"기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포와 XGBoost-SHAP 모형을 활용한 분석.\" <em>부동산분석</em> 12, no. 2 (2026).",
-            "harvard": "최인수 (2026) '기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포와 XGBoost-SHAP 모형을 활용한 분석', <em>부동산분석</em>, 12(2).",
-            "vancouver": "Choi I. 기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포와 XGBoost-SHAP 모형을 활용한 분석. 부동산분석. 2026;12(2).",
-            "korean": "최인수. (2026). 기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포와 XGBoost-SHAP 모형을 활용한 분석. 부동산분석, 12(2).",
-            "bibtex": "@article{choi2026baserate,\n  title = {{Asymmetric Effects of Base Rate Changes on Regional Apartment Prices in Korea: An Application of Nonlinear Autoregressive Distributed Lag and XGBoost-SHAP Models}},\n  author = {Choi, Insu},\n  journal = {Journal of Real Estate Analysis},\n  volume = {12},\n  number = {2},\n  year = {2026}\n}"
-        }
+            "apa": "최인수. (2026). 기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포와 XGBoost-SHAP 모형을 활용한 분석. <em>부동산분석</em>, <em>12</em>(2), 139-157. https://doi.org/10.30902/jrea.2026.12.2.139",
+            "mla": "최인수. \"기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포와 XGBoost-SHAP 모형을 활용한 분석.\" <em>부동산분석</em> 12.2 (2026): 139-157.",
+            "chicago": "최인수. \"기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포와 XGBoost-SHAP 모형을 활용한 분석.\" <em>부동산분석</em> 12, no. 2 (2026): 139-157.",
+            "harvard": "최인수 (2026) '기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포와 XGBoost-SHAP 모형을 활용한 분석', <em>부동산분석</em>, 12(2), pp. 139-157. https://doi.org/10.30902/jrea.2026.12.2.139",
+            "vancouver": "Choi I. 기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포와 XGBoost-SHAP 모형을 활용한 분석. 부동산분석. 2026;12(2):139-157.",
+            "korean": "최인수. (2026). 기준금리 변동이 지역별 아파트 가격에 미치는 비대칭적 영향: 비선형 자기회귀시차분포와 XGBoost-SHAP 모형을 활용한 분석. 부동산분석, 12(2), 139-157.",
+            "bibtex": "@article{choi2026asymmetric,\n  title = {{Asymmetric Effects of Base Rate Changes on Regional Apartment Prices in Korea: An Application of Nonlinear Autoregressive Distributed Lag and XGBoost-SHAP Models}},\n  author = {Choi, Insu},\n  journal = {Journal of Real Estate Analysis},\n  volume = {12},\n  number = {2},\n  pages = {139--157},\n  year = {2026},\n  publisher = {Korea Real Estate Board},\n  doi = {10.30902/jrea.2026.12.2.139},\n}"
+        },
+        "publisher": "한국부동산원"
     },
     {
         "type": "journal",
