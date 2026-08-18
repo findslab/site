@@ -279,7 +279,7 @@ const LayoutOrganisms = ({ children }: props) => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:block" role="navigation" aria-label="메인 네비게이션">
-            <ul className="flex items-center gap-40 xl:gap-60">
+            <ul className="flex items-center gap-16 lg:gap-28 xl:gap-48">
               {navItems.map((item) => (
                 <li
                   key={item.name}
@@ -290,7 +290,7 @@ const LayoutOrganisms = ({ children }: props) => {
                   <Link
                     to={item.path}
                     className={clsx(
-                      'relative flex items-center gap-4 text-md transition-all duration-300 pt-8 pb-4',
+                      'relative flex items-center gap-4 text-md whitespace-nowrap transition-all duration-300 pt-8 pb-4',
                       isActive(item)
                         ? 'font-semibold text-primary'
                         : 'font-medium text-gray-900 hover:text-primary'
@@ -342,7 +342,7 @@ const LayoutOrganisms = ({ children }: props) => {
           {/* Contact Us Button - Desktop */}
           <button
             onClick={handleContactClick}
-            className="hidden md:flex items-center gap-8 px-20 py-12 bg-primary text-white text-sm font-bold rounded-xl hover:bg-primary/90 transition-all duration-300 shadow-sm hover:shadow-md cursor-pointer"
+            className="hidden md:flex shrink-0 items-center gap-8 px-20 py-12 bg-primary text-white text-sm font-bold whitespace-nowrap rounded-xl hover:bg-primary/90 transition-all duration-300 shadow-sm hover:shadow-md cursor-pointer"
           >
             <Mail size={16} />
             Contact Us
