@@ -210,19 +210,19 @@
         ],
         "venue": "International Journal of Computational Intelligence Systems",
         "venue_ko": "",
-        "volume": "",
+        "volume": "19",
         "issue": "",
-        "pages": "",
+        "pages": "286",
         "doi": "10.1007/s44196-026-01382-0",
         "language": "English",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I. (2026). Wasserstein distance-based feature engineering for enhancing forecasting and asset allocation insights. <em>International Journal of Computational Intelligence Systems</em>.",
-            "mla": "Choi, Insu. \"Wasserstein Distance-Based Feature Engineering for Enhancing Forecasting and Asset Allocation Insights.\" <em>International Journal of Computational Intelligence Systems</em> (2026).",
-            "chicago": "Choi, Insu. \"Wasserstein Distance-Based Feature Engineering for Enhancing Forecasting and Asset Allocation Insights.\" <em>International Journal of Computational Intelligence Systems</em> (2026).",
-            "harvard": "Choi, I. (2026) 'Wasserstein distance-based feature engineering for enhancing forecasting and asset allocation insights', <em>International Journal of Computational Intelligence Systems</em>.",
-            "vancouver": "Choi I. Wasserstein distance-based feature engineering for enhancing forecasting and asset allocation insights. International Journal of Computational Intelligence Systems. 2026.",
-            "bibtex": "@article{choi2026wasserstein,\n  title = {{Wasserstein Distance-Based Feature Engineering for Enhancing Forecasting and Asset Allocation Insights}},\n  author = {Choi, Insu},\n  journal = {International Journal of Computational Intelligence Systems},\n  year = {2026}\n}"
+            "apa": "Choi, I. (2026). Wasserstein distance-based feature engineering for enhancing forecasting and asset allocation insights. <em>International Journal of Computational Intelligence Systems</em>, <em>19</em>, 286. https://doi.org/10.1007/s44196-026-01382-0",
+            "mla": "Choi, Insu. \"Wasserstein Distance-Based Feature Engineering for Enhancing Forecasting and Asset Allocation Insights.\" <em>International Journal of Computational Intelligence Systems</em>, vol. 19, 2026, article 286.",
+            "chicago": "Choi, Insu. \"Wasserstein Distance-Based Feature Engineering for Enhancing Forecasting and Asset Allocation Insights.\" <em>International Journal of Computational Intelligence Systems</em> 19 (2026): 286.",
+            "harvard": "Choi, I. (2026) 'Wasserstein distance-based feature engineering for enhancing forecasting and asset allocation insights', <em>International Journal of Computational Intelligence Systems</em>, 19, 286. https://doi.org/10.1007/s44196-026-01382-0",
+            "vancouver": "Choi I. Wasserstein distance-based feature engineering for enhancing forecasting and asset allocation insights. International Journal of Computational Intelligence Systems. 2026;19:286.",
+            "bibtex": "@article{choi2026wasserstein,\n  title = {{Wasserstein Distance-Based Feature Engineering for Enhancing Forecasting and Asset Allocation Insights}},\n  author = {Choi, Insu},\n  journal = {International Journal of Computational Intelligence Systems},\n  volume = {19},\n  pages = {286},\n  year = {2026},\n  doi = {10.1007/s44196-026-01382-0},\n}"
         }
     },
     {
@@ -660,17 +660,17 @@
         "venue_ko": "",
         "volume": "29",
         "issue": "2",
-        "pages": "",
+        "pages": "310-331",
         "doi": "10.1111/infi.70029",
         "language": "English",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I., Kim, W. (2026). Beyond Linear Insights in the Feldstein–Horioka Puzzle: Delving Into Monotonic and Nonlinear Statistical Dependencies With Moving Windows. <em>International Finance</em>, <em>29</em>(2). https://doi.org/https://doi.org/10.1111/infi.70029",
-            "mla": "Insu Choi, and Woo Chang Kim. \"Beyond Linear Insights in the Feldstein–Horioka Puzzle: Delving Into Monotonic and Nonlinear Statistical Dependencies With Moving Windows.\" <em>International Finance</em> 29.2 (2026).",
-            "chicago": "Insu Choi, and Woo Chang Kim. \"Beyond Linear Insights in the Feldstein–Horioka Puzzle: Delving Into Monotonic and Nonlinear Statistical Dependencies With Moving Windows.\" <em>International Finance</em> 29, no. 2 (2026).",
-            "harvard": "Choi, I., Kim, W. (2026) 'Beyond Linear Insights in the Feldstein–Horioka Puzzle: Delving Into Monotonic and Nonlinear Statistical Dependencies With Moving Windows', <em>International Finance</em>, 29(2).",
-            "vancouver": "Choi I Kim WC. Beyond Linear Insights in the Feldstein–Horioka Puzzle: Delving Into Monotonic and Nonlinear Statistical Dependencies With Moving Windows. International Finance. 2026;29(2).",
-            "bibtex": "@article{ref2026beyond,\n  title = {{Beyond Linear Insights in the Feldstein–Horioka Puzzle: Delving Into Monotonic and Nonlinear Statistical Dependencies With Moving Windows}},\n  author = {Insu Choi, and Woo Chang Kim},\n  journal = {International Finance},\n  volume = {29},\n  number = {2},\n  year = {2026},\n  doi = {https://doi.org/10.1111/infi.70029}\n}"
+            "apa": "Choi, I., & Kim, W. C. (2026). Beyond linear insights in the Feldstein–Horioka puzzle: Delving into monotonic and nonlinear statistical dependencies with moving windows. <em>International Finance</em>, <em>29</em>(2), 310-331. https://doi.org/10.1111/infi.70029",
+            "mla": "Choi, Insu, and Woo Chang Kim. \"Beyond Linear Insights in the Feldstein–Horioka Puzzle: Delving Into Monotonic and Nonlinear Statistical Dependencies With Moving Windows.\" <em>International Finance</em>, vol. 29, no. 2, 2026, pp. 310-331.",
+            "chicago": "Choi, Insu, and Woo Chang Kim. \"Beyond Linear Insights in the Feldstein–Horioka Puzzle: Delving Into Monotonic and Nonlinear Statistical Dependencies With Moving Windows.\" <em>International Finance</em> 29, no. 2 (2026): 310-331.",
+            "harvard": "Choi, I. & Kim, W.C. (2026) 'Beyond linear insights in the Feldstein–Horioka puzzle: Delving into monotonic and nonlinear statistical dependencies with moving windows', <em>International Finance</em>, 29(2), pp. 310-331. https://doi.org/10.1111/infi.70029",
+            "vancouver": "Choi I, Kim WC. Beyond linear insights in the Feldstein–Horioka puzzle: Delving into monotonic and nonlinear statistical dependencies with moving windows. International Finance. 2026;29(2):310-31.",
+            "bibtex": "@article{choi2026beyond,\n  title = {{Beyond Linear Insights in the Feldstein–Horioka Puzzle: Delving Into Monotonic and Nonlinear Statistical Dependencies With Moving Windows}},\n  author = {Choi, Insu and Kim, Woo Chang},\n  journal = {International Finance},\n  volume = {29},\n  number = {2},\n  pages = {310--331},\n  year = {2026},\n  doi = {10.1111/infi.70029},\n}"
         }
     },
     {
