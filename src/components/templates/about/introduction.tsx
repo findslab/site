@@ -410,8 +410,8 @@ export const AboutIntroductionTemplate = () => {
                         {/* Image */}
                         <div
                           className={`
-                            flex items-center justify-center 
-                            rounded-xl md:rounded-2xl p-16 md:p-24
+                            relative overflow-hidden aspect-[3/2]
+                            rounded-xl md:rounded-2xl
                             ${index % 2 === 1 ? 'md:order-1' : ''}
                           `}
                           style={{ background: 'rgba(255, 249, 230, 0.05)', border: '1px solid rgba(214, 177, 77, 0.1)' }}
@@ -419,7 +419,7 @@ export const AboutIntroductionTemplate = () => {
                           <img
                             src={area.image}
                             alt={area.titleEn}
-                            className="w-full h-auto max-w-[200px] md:max-w-[300px] object-contain"
+                            className="absolute inset-0 w-full h-full object-cover"
                           />
                         </div>
                       </div>
