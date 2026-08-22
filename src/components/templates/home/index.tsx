@@ -242,16 +242,16 @@ export const HomeTemplate = () => {
                 {dataPoints.map((d, i) => (
                   <circle key={`d-${i}`} cx={d.w[0][0]} cy={d.w[0][1]} r="1.5" fill="#D6B14D">
                     <animate attributeName="cx" dur="5.2s" repeatCount="indefinite"
-                      keyTimes="0;0.30;0.58;0.72;0.84;1"
+                      keyTimes="0;0.22;0.42;0.52;0.66;1"
                       values={`${d.w[0][0]};${d.w[1][0]};${d.w[2][0]};${d.w[2][0]};${d.ex};${d.ex}`} />
                     <animate attributeName="cy" dur="5.2s" repeatCount="indefinite"
-                      keyTimes="0;0.30;0.58;0.72;0.84;1"
+                      keyTimes="0;0.22;0.42;0.52;0.66;1"
                       values={`${d.w[0][1]};${d.w[1][1]};${d.w[2][1]};${d.w[2][1]};${d.ey};${d.ey}`} />
                     <animate attributeName="r" dur="5.2s" repeatCount="indefinite"
-                      keyTimes="0;0.58;0.72;0.84;0.90;1"
+                      keyTimes="0;0.42;0.52;0.66;0.74;1"
                       values="1.5;1.7;1.8;2.9;2.2;2.4" />
                     <animate attributeName="opacity" dur="5.2s" repeatCount="indefinite"
-                      keyTimes="0;0.30;0.58;0.72;0.84;0.90;1"
+                      keyTimes="0;0.22;0.42;0.52;0.66;0.74;1"
                       values="0.16;0.22;0.3;0.4;1;0.85;0.9" />
                   </circle>
                 ))}
@@ -317,42 +317,48 @@ export const HomeTemplate = () => {
           }
           @keyframes cpDrift { to { transform: rotate(360deg); } }
           @keyframes cpSeek {
-            0%   { transform: rotate(0deg); }
-            16%  { transform: rotate(206deg); }
-            23%  { transform: rotate(206deg); }
-            42%  { transform: rotate(498deg); }
-            50%  { transform: rotate(498deg); }
-            74%  { transform: rotate(741deg); }
-            81%  { transform: rotate(710deg); }
-            87%  { transform: rotate(728deg); }
-            92%  { transform: rotate(716deg); }
-            96%  { transform: rotate(723deg); }
+            /* 가속하며 두 바퀴 회전 */
+            0%   { transform: rotate(0deg);   animation-timing-function: cubic-bezier(.4,0,.9,.6); }
+            12%  { transform: rotate(150deg); animation-timing-function: linear; }
+            34%  { transform: rotate(520deg); animation-timing-function: cubic-bezier(.15,.6,.35,1); }
+            /* 정북을 살짝 지나침 */
+            54%  { transform: rotate(736deg); animation-timing-function: ease-in-out; }
+            /* 반대쪽으로 약하게, 점점 잦아들며 정북으로 수렴 */
+            63%  { transform: rotate(709deg); animation-timing-function: ease-in-out; }
+            71%  { transform: rotate(727deg); animation-timing-function: ease-in-out; }
+            78%  { transform: rotate(715deg); animation-timing-function: ease-in-out; }
+            84%  { transform: rotate(723deg); animation-timing-function: ease-in-out; }
+            88%  { transform: rotate(718deg); animation-timing-function: ease-in-out; }
+            91%  { transform: rotate(721deg); animation-timing-function: ease-in-out; }
+            94%  { transform: rotate(720deg); animation-timing-function: linear; }
+            /* 정북에서 정지 */
             100% { transform: rotate(720deg); }
           }
           @keyframes cpLock {
-            0%, 72% { opacity: 0.26; }
-            80%     { opacity: 1; }
-            88%     { opacity: 0.6; }
-            96%, 100% { opacity: 1; }
+            0%, 48% { opacity: 0.26; }
+            56%     { opacity: 1; }
+            66%     { opacity: 0.55; }
+            76%     { opacity: 0.9; }
+            94%, 100% { opacity: 1; }
           }
           @keyframes cpHub {
-            0%, 72% { opacity: 0.55; }
-            81%     { opacity: 1; }
-            100%    { opacity: 0.85; }
+            0%, 48% { opacity: 0.55; }
+            57%     { opacity: 1; }
+            94%,100% { opacity: 0.9; }
           }
           @keyframes cpFlash {
-            0%, 73% { opacity: 0; transform: scale(0.5); }
-            79%     { opacity: 0.55; transform: scale(1); }
-            90%, 100% { opacity: 0; transform: scale(1.45); }
+            0%, 50% { opacity: 0; transform: scale(0.5); }
+            57%     { opacity: 0.55; transform: scale(1); }
+            72%, 100% { opacity: 0; transform: scale(1.45); }
           }
           @keyframes cpDraw {
-            0%, 74% { opacity: 0; stroke-dashoffset: 60; }
-            86%     { opacity: 0.4; stroke-dashoffset: 0; }
+            0%, 56% { opacity: 0; stroke-dashoffset: 60; }
+            74%     { opacity: 0.4; stroke-dashoffset: 0; }
             100%    { opacity: 0.28; stroke-dashoffset: 0; }
           }
           @keyframes cpFill {
-            0% { width: 0; } 23% { width: 31%; } 50% { width: 59%; }
-            79% { width: 90%; } 100% { width: 100%; }
+            0% { width: 0; } 20% { width: 28%; } 45% { width: 58%; }
+            70% { width: 88%; } 94%, 100% { width: 100%; }
           }
           @media (prefers-reduced-motion: reduce) {
             [style*="cpSeek"] { animation-duration: 14s !important; animation-timing-function: linear !important; }

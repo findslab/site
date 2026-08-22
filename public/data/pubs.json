@@ -3532,8 +3532,8 @@
         "award_details": {
             "prize": "1st Prize",
             "prize_ko": "우수연구상",
-            "category": "Poster Session",
-            "category_ko": "포스터 발표 부문",
+            "category": "",
+            "category_ko": "",
             "organization": "Korean Society of Industrial and Systems Engineering",
             "organization_ko": "한국산업경영시스템학회"
         },
@@ -5008,8 +5008,8 @@
         "award_details": {
             "prize": "1st Prize",
             "prize_ko": "우수연구상",
-            "category": "Oral Presentation Session",
-            "category_ko": "구두 발표 부문",
+            "category": "",
+            "category_ko": "",
             "organization": "Korean Society of Industrial and Systems Engineering",
             "organization_ko": "한국산업경영시스템학회"
         },
@@ -5358,8 +5358,8 @@
         "award_details": {
             "prize": "4th Prize",
             "prize_ko": "장려상",
-            "category": "Best Paper Award for Posters",
-            "category_ko": "우수연구 포스터 부문",
+            "category": "Poster Presentation Session",
+            "category_ko": "포스터 발표 부문",
             "organization": "Korean Statistical Society",
             "organization_ko": "한국통계학회"
         },
@@ -8605,10 +8605,10 @@
         },
         "presentation_type": "oral",
         "award_details": {
-            "prize": "Best Paper Presentation Award (Oral Session)",
-            "prize_ko": "우수논문발표상 (구두 부문)",
-            "category": "Intelligent Safety Systems Track",
-            "category_ko": "지능 안전 시스템 부문",
+            "prize": "Best Paper Presentation Award",
+            "prize_ko": "우수논문발표상",
+            "category": "Oral Presentation Session",
+            "category_ko": "구두 발표 부문",
             "organization": "Korea Society of Industrial Convergence",
             "organization_ko": "한국산업융합학회"
         }
@@ -8712,10 +8712,10 @@
         },
         "presentation_type": "poster",
         "award_details": {
-            "prize": "Best Paper Presentation Award (Poster Session)",
-            "prize_ko": "우수논문발표상 (포스터 부문)",
-            "category": "Finance and Business Convergence Research Track",
-            "category_ko": "금융·경영 융합연구 부문",
+            "prize": "Best Paper Presentation Award",
+            "prize_ko": "우수논문발표상",
+            "category": "Poster Presentation Session",
+            "category_ko": "포스터 발표 부문",
             "organization": "Korea Society of Industrial Convergence",
             "organization_ko": "한국산업융합학회"
         }
@@ -9029,8 +9029,8 @@
         "award_details": {
             "prize": "Encouragement Award",
             "prize_ko": "장려상",
-            "category": "Poster Session",
-            "category_ko": "포스터 부문",
+            "category": "",
+            "category_ko": "",
             "organization": "Korean Data Analysis Society",
             "organization_ko": "한국자료분석학회"
         }

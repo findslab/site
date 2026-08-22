@@ -395,7 +395,7 @@
     {
       "type": "award",
       "icon": "🏆",
-      "title": "장려상",
+      "title": "장려상 (포스터 발표 부문)",
       "event": "2022 한국통계학회 하계학술논문발표회 우수연구 포스터 부문",
       "organization": "한국통계학회",
       "date": "Jun 25",
@@ -1197,8 +1197,8 @@
     {
       "type": "award",
       "icon": "🏆",
-      "title": "우수논문발표상 (구두 부문)",
-      "title_en": "Best Paper Presentation Award (Oral Session)",
+      "title": "우수논문발표상 (구두 발표 부문)",
+      "title_en": "Best Paper Presentation Award (Oral Presentation Session)",
       "event": "2026 한국산업융합학회 춘계학술대회",
       "organization": "한국산업융합학회",
       "date": "Jul 10",
@@ -1212,8 +1212,8 @@
     {
       "type": "award",
       "icon": "🏆",
-      "title": "우수논문발표상 (포스터 부문)",
-      "title_en": "Best Paper Presentation Award (Poster Session)",
+      "title": "우수논문발표상 (포스터 발표 부문)",
+      "title_en": "Best Paper Presentation Award (Poster Presentation Session)",
       "event": "2026 한국산업융합학회 춘계학술대회",
       "organization": "한국산업융합학회",
       "date": "Jul 10",
