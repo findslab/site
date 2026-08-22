@@ -1,6 +1,6 @@
 import ResumeModal from '@/components/common/ResumeModal'
 import {memo, useState, useEffect, useMemo, useRef, useCallback} from 'react'
-import {Link, useLocation} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import {
   Mail,
   Phone,
@@ -16,10 +16,7 @@ import {
   Check,
   User,
   Activity,
-  Award,
   Landmark,
-  FlaskConical,
-  Calendar,
   BookOpen,
   Search,
   Network,
@@ -27,18 +24,12 @@ import {
   ZoomOut,
   Maximize2,
   X,
-  Folder,
-  Factory,
   School,
-  Crown,
-  ShieldCheck,
-  Compass,
-  Microscope,
 } from 'lucide-react'
 import {useStoreModal} from '@/store/modal'
 import type {AcademicActivitiesData, Publication} from '@/types/data'
 import type {AuthorsData} from '@/types/data'
-import {citationStats, affiliations, researchInterests, scholarConfig, isDirectorInResearchers, DIRECTOR_NAME_KO} from '@/data/director-common'
+import {citationStats, isDirectorInResearchers, DIRECTOR_NAME_KO} from '@/data/director-common'
 
 // Scholar data type
 type ScholarData = {
@@ -47,6 +38,8 @@ type ScholarData = {
     totalCitations: number
     hIndex: number
     i10Index: number
+    eIndex: number
+    mQuotient: number
     i5Index: number
     gIndex: number
   }
@@ -1045,11 +1038,12 @@ export const MembersDirectorAcademicTemplate = () => {
              stat.key === 'i10Index' ? scholarData.metrics.i10Index :
              stat.key === 'i5Index' ? scholarData.metrics.i5Index :
              stat.key === 'gIndex' ? scholarData.metrics.gIndex :
+             stat.key === 'eIndex' ? scholarData.metrics.eIndex :
+             stat.key === 'mQuotient' ? scholarData.metrics.mQuotient :
              stat.count
     }))
   }, [scholarData])
   const {showModal} = useStoreModal()
-  const location = useLocation()
   const directorEmail = 'ischoi@gachon.ac.kr'
 
   // Fetch Projects, Lectures, and Publications data

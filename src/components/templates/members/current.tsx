@@ -152,7 +152,6 @@ export const MembersCurrentTemplate = () => {
   const [openEmailPopup, setOpenEmailPopup] = useState<string | null>(null)
   const [hoveredMember, setHoveredMember] = useState<string | null>(null)
   const baseUrl = import.meta.env.BASE_URL || '/'
-  const contentAnimation = useScrollAnimation()
 
   useEffect(() => {
     const safeJsonFetch = async (url: string) => {

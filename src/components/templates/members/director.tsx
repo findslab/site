@@ -1,6 +1,6 @@
 import ResumeModal from '@/components/common/ResumeModal'
-import {memo, useState, useEffect, useMemo, useRef, useCallback} from 'react'
-import {Link, useLocation} from 'react-router-dom'
+import {memo, useState, useEffect, useMemo, useRef} from 'react'
+import {Link} from 'react-router-dom'
 import {
   Mail,
   Phone,
@@ -10,43 +10,13 @@ import {
   Building,
   ChevronRight,
   ChevronDown,
-  ChevronUp,
-  ChevronLeft,
   Home,
   Copy,
   Check,
-  User,
-  Activity,
-  Award,
-  Medal,
-  Trophy,
-  Landmark,
-  GraduationCap,
-  Calendar,
-  BookOpen,
-  PenTool,
-  UserCheck,
-  Bookmark,
-  FileText,
-  Search,
-  Folder,
-  Factory,
-  School,
-  FlaskConical,
-  Crown,
-  ShieldCheck,
-  Compass,
-  Microscope,
-  Newspaper,
-  BadgeCheck,
-  ClipboardList,
-  Mic,
-  FileSearch,
-  Globe,
 } from 'lucide-react'
 import {useStoreModal} from '@/store/modal'
 import type {HonorsData, AcademicActivitiesData} from '@/types/data'
-import {citationStats, affiliations, researchInterests, scholarConfig, isDirectorInResearchers, DIRECTOR_NAME_KO} from '@/data/director-common'
+import {citationStats, researchInterests, isDirectorInResearchers, DIRECTOR_NAME_KO} from '@/data/director-common'
 
 // Scholar data type
 type ScholarData = {
@@ -55,6 +25,8 @@ type ScholarData = {
     totalCitations: number
     hIndex: number
     i10Index: number
+    eIndex: number
+    mQuotient: number
     i5Index: number
     gIndex: number
   }
@@ -323,11 +295,12 @@ export const MembersDirectorTemplate = () => {
              stat.key === 'i10Index' ? scholarData.metrics.i10Index :
              stat.key === 'i5Index' ? scholarData.metrics.i5Index :
              stat.key === 'gIndex' ? scholarData.metrics.gIndex :
+             stat.key === 'eIndex' ? scholarData.metrics.eIndex :
+             stat.key === 'mQuotient' ? scholarData.metrics.mQuotient :
              stat.count
     }))
   }, [scholarData])
   const {showModal} = useStoreModal()
-  const location = useLocation()
   const directorEmail = 'ischoi@gachon.ac.kr'
 
   // Fetch Projects, Lectures, and Publications data
@@ -1103,7 +1076,7 @@ export const MembersDirectorTemplate = () => {
                         <span className="text-[10px] md:text-sm font-semibold text-gray-500">{liveCitationStats[0]?.label || 'Citations'}</span>
                       </div>
                     </div>
-                    <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
+                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 md:gap-12">
                       {liveCitationStats.slice(1).map((stat, index) => (
                         <div key={index} className="group relative bg-white border border-gray-100 rounded-2xl p-16 md:p-20 hover:border-[#D6B14D]/40 hover:shadow-lg hover:shadow-[#D6B14D]/10 transition-all duration-300">
                           <div className="absolute top-0 left-16 right-16 h-[2px] bg-gradient-to-r from-[#D6B14D]/60 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />

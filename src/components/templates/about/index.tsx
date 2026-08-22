@@ -1,6 +1,6 @@
 import { memo, useState, useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
-import { Home, MapPin } from 'lucide-react'
+import { Home } from 'lucide-react'
 
 // Image Imports
 import banner1 from '@/assets/images/banner/1.webp'
@@ -33,7 +33,6 @@ const useScrollAnimation = () => {
 }
 
 export const LocationTemplate = () => {
-  const contentAnimation = useScrollAnimation()
 
   return (
     <div className="flex flex-col bg-white scroll-mt-[80px]">

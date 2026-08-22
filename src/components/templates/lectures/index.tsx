@@ -163,7 +163,6 @@ export const LecturesTemplate = () => {
     year: [],
   })
   const [expandedYear, setExpandedYear] = useState<string | null>(null)
-  const contentAnimation = useScrollAnimation()
 
   // 데이터 로드
   useEffect(() => {

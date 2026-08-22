@@ -102,8 +102,6 @@ const researchAreas = [
 ]
 
 export const AboutResearchTemplate = () => {
-  const heroAnimation = useScrollAnimation()
-  const contentAnimation = useScrollAnimation()
 
   return (
     <div className="flex flex-col bg-white">

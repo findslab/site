@@ -70,7 +70,6 @@ export const AboutHonorsTemplate = () => {
   const [expandedYears, setExpandedYears] = useState<Set<string>>(new Set())
   const [loading, setLoading] = useState(true)
   const [statsExpanded, setStatsExpanded] = useState(true)
-  const contentAnimation = useScrollAnimation()
 
   const filterOptions: { key: 'honor' | 'award'; label: string; color: { bg: string; text: string } }[] = [
     { key: 'honor', label: 'Honors', color: { bg: '#D6B14D', text: '#FFFFFF' } },

@@ -192,7 +192,6 @@ export const ArchivesNoticeTemplate = () => {
   const [isFilterOpen, setIsFilterOpen] = useState(false)
   const { showModal } = useStoreModal()
   const [searchParams, setSearchParams] = useSearchParams()
-  const contentAnimation = useScrollAnimation()
 
   const allTags: NoticeTag[] = ['Announcements', 'Recruitment', 'General']
 

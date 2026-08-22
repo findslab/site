@@ -83,41 +83,36 @@ const ResumeModal = () => {
     {/* Selected Publications */}
     <section className="mb-20">
       <h3 className="text-sm font-bold text-primary mb-12">Selected Publications</h3>
-      <p className="text-xs text-gray-600 mb-8">20+ peer-reviewed journal articles published in SSCI/SCIE indexed journals. Representative journals include:</p>
+      <p className="text-xs text-gray-600 mb-8">20+ peer-reviewed journal articles. Representative journals include:</p>
       <ul className="text-xs text-gray-600 space-y-6 ml-12">
         <li className="flex items-start gap-6">
           <span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />
           <span>
             <strong>International Review of Financial Analysis</strong>
-            <span className="block md:inline text-gray-400 md:ml-4">[SSCI, Top 2.4% as of 2024]</span>
           </span>
         </li>
         <li className="flex items-start gap-6">
           <span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />
           <span>
             <strong>Engineering Applications of Artificial Intelligence</strong>
-            <span className="block md:inline text-gray-400 md:ml-4">[SCIE, Top 2.5% as of 2024]</span>
           </span>
         </li>
         <li className="flex items-start gap-6">
           <span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />
           <span>
             <strong>Research in International Business and Finance</strong>
-            <span className="block md:inline text-gray-400 md:ml-4">[SSCI, Top 4.5% as of 2023]</span>
           </span>
         </li>
         <li className="flex items-start gap-6">
           <span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />
           <span>
             <strong>International Review of Economics & Finance</strong>
-            <span className="block md:inline text-gray-400 md:ml-4">[SSCI, Top 9.6% as of 2024]</span>
           </span>
         </li>
         <li className="flex items-start gap-6">
           <span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />
           <span>
             <strong>Knowledge-Based Systems</strong>
-            <span className="block md:inline text-gray-400 md:ml-4">[SCIE, Top 13.5% as of 2024]</span>
           </span>
         </li>
       </ul>
@@ -130,7 +125,7 @@ const ResumeModal = () => {
         <div>
           <div className="flex flex-col md:flex-row md:justify-between gap-4 md:gap-16 mb-4">
             <p className="text-xs font-semibold text-gray-900 min-w-0 flex-1 md:pr-12">A Multi-layered Empirical Study on the Generation, Transmission, and Structural Dynamics of Risk Information in Financial Markets</p>
-            <span className="text-xs text-gray-400 shrink-0 md:w-[140px] md:text-right">2026-06 – 2027-06</span>
+            <span className="text-xs text-gray-400 shrink-0 md:w-[140px] md:text-right">2026-05 – 2027-05</span>
           </div>
           <ul className="text-xs text-gray-600 space-y-3 ml-12">
             <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Principal Investigator</li>
@@ -140,7 +135,7 @@ const ResumeModal = () => {
         <div>
           <div className="flex flex-col md:flex-row md:justify-between gap-4 md:gap-16 mb-4">
             <p className="text-xs font-semibold text-gray-900 min-w-0 flex-1 md:pr-12">Empirical Analysis of the Insurance Industry's Financial Market Stabilization Function and Systemic Risk Transmission: A Korea–U.S. Comparison</p>
-            <span className="text-xs text-gray-400 shrink-0 md:w-[140px] md:text-right">2026-07 – 2027-06</span>
+            <span className="text-xs text-gray-400 shrink-0 md:w-[140px] md:text-right">2026-06 – 2027-06</span>
           </div>
           <ul className="text-xs text-gray-600 space-y-3 ml-12">
             <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Principal Investigator</li>
@@ -194,7 +189,7 @@ const ResumeModal = () => {
     <section className="mb-20">
       <h3 className="text-sm font-bold text-primary mb-12">Professional Service</h3>
       <p className="text-xs text-gray-600">
-        <strong>Reviewer:</strong> International Review of Financial Analysis, Finance Research Letters, Knowledge-Based Systems, Machine Learning with Applications, Annals of Operations Research, and 40+ journals
+        <strong>Reviewer:</strong> International Review of Economics &amp; Finance, Finance Research Letters, Expert Systems with Applications, Knowledge-Based Systems, Annals of Operations Research
       </p>
     </section>
 
@@ -207,6 +202,8 @@ const ResumeModal = () => {
           <ul className="text-xs text-gray-600 space-y-3 ml-12">
             <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Financial Investment</li>
             <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Business Intelligence and Analytics</li>
+            <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Artificial Intelligence</li>
+            <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Principles and Applications of Deep Learning</li>
           </ul>
         </div>
         <div>

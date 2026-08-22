@@ -294,7 +294,6 @@ export const PublicationsTemplate = () => {
   const [isFilterOpen, setIsFilterOpen] = useState(false)
   const [loading, setLoading] = useState(true)
   const { showModal } = useStoreModal()
-  const contentAnimation = useScrollAnimation()
 
   const toggleYear = (year: number) => {
     const isMobile = window.innerWidth < 768

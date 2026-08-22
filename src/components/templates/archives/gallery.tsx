@@ -143,7 +143,6 @@ export const ArchivesGalleryTemplate = () => {
   const [isFilterOpen, setIsFilterOpen] = useState(false)
   const { showModal } = useStoreModal()
   const baseUrl = import.meta.env.BASE_URL || '/'
-  const contentAnimation = useScrollAnimation()
 
   const allCategories: GalleryCategory[] = ['Events', 'Conferences', 'Celebrations', 'Design', 'General']
 

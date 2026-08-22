@@ -143,7 +143,6 @@ export const MembersAlumniTemplate = () => {
   const [expandedAlumni, setExpandedAlumni] = useState<Set<string>>(new Set())
   const [undergradSortKey, setUndergradSortKey] = useState<'name' | 'cohort' | 'period' | 'preMajor' | 'postPosition'>('cohort')
   const [undergradSortDir, setUndergradSortDir] = useState<'asc' | 'desc'>('asc')
-  const contentAnimation = useScrollAnimation()
   const baseUrl = import.meta.env.BASE_URL || '/'
 
   const handleUndergradSort = (key: 'name' | 'cohort' | 'period' | 'preMajor' | 'postPosition') => {

@@ -85,7 +85,6 @@ export const ArchivesPlaylistTemplate = () => {
   const [showListPanel, setShowListPanel] = useState(true) // 기본값: 리스트 뷰
   const playerRef = useRef<YTPlayer | null>(null)
   const playerContainerRef = useRef<HTMLDivElement>(null)
-  const contentAnimation = useScrollAnimation()
   
   // Refs for accessing current state in callbacks
   const playlistsRef = useRef<PlaylistItem[]>([])

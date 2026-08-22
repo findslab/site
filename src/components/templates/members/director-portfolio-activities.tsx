@@ -3,11 +3,9 @@ import {memo, useState, useEffect, useMemo, useCallback, useRef} from 'react'
 import {Link} from 'react-router-dom'
 import {
   Mail,
-  Phone,
   MapPin,
   ExternalLink,
   Briefcase,
-  Award,
   Medal,
   Trophy,
   Building,

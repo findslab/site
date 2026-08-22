@@ -1,7 +1,7 @@
 import {memo, useState, useEffect, useRef} from 'react'
 import { DIRECTOR_NAME_KO } from '@/data/director-common'
 import {Link} from 'react-router-dom'
-import {Home, Calendar, School, Landmark, FlaskConical, Briefcase, ChevronDown, ChevronUp, Folder, TrendingUp, SlidersHorizontal, X, Search, CheckCircle, Factory} from 'lucide-react'
+import {Home, School, Landmark, FlaskConical, Briefcase, ChevronDown, ChevronUp, Folder, TrendingUp, SlidersHorizontal, X, Search, CheckCircle, Factory} from 'lucide-react'
 import banner4 from '@/assets/images/banner/4.webp'
 import banner4m from '@/assets/images/banner/4m.webp'
 
@@ -219,7 +219,6 @@ export const ProjectsTemplate = () => {
     type: [],
     status: [],
   })
-  const contentAnimation = useScrollAnimation()
 
   const toggleYear = (year: string) => {
     const isMobile = window.innerWidth < 768

@@ -7,7 +7,6 @@ import {
   MapPin,
   ExternalLink,
   Briefcase,
-  Award,
   Medal,
   Trophy,
   Building,

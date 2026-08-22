@@ -1,6 +1,6 @@
 import React, { memo, useState, useEffect, useRef } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
-import { Calendar, Home, User, Search, SlidersHorizontal} from 'lucide-react'
+import { Calendar, Home, Search, SlidersHorizontal} from 'lucide-react'
 import { useStoreModal } from '@/store/modal'
 import { parseMarkdown, processJekyllContent } from '@/utils/parseMarkdown'
 
@@ -141,7 +141,6 @@ export const ArchivesNewsTemplate = () => {
   const [isFilterOpen, setIsFilterOpen] = useState(false)
   const { showModal } = useStoreModal()
   const [searchParams, setSearchParams] = useSearchParams()
-  const contentAnimation = useScrollAnimation()
 
   const allTags: NewsTag[] = ['Honors', 'Awards', 'Events', 'General']
 

@@ -1,6 +1,6 @@
 import ResumeModal from '@/components/common/ResumeModal'
-import {memo, useState, useEffect, useMemo, useRef, useCallback} from 'react'
-import {Link, useLocation} from 'react-router-dom'
+import {memo, useState, useEffect, useMemo, useRef} from 'react'
+import {Link} from 'react-router-dom'
 import {
   Mail,
   Phone,
@@ -8,7 +8,6 @@ import {
   ExternalLink,
   Briefcase,
   Building,
-  ChevronRight,
   ChevronDown,
   ChevronUp,
   ChevronLeft,
@@ -21,23 +20,12 @@ import {
   Award,
   Medal,
   Trophy,
-  Landmark,
   GraduationCap,
-  Calendar,
   BookOpen,
-  Search,
-  Folder,
-  Factory,
-  School,
-  FlaskConical,
-  Crown,
-  ShieldCheck,
-  Compass,
-  Microscope,
 } from 'lucide-react'
 import {useStoreModal} from '@/store/modal'
 import type {HonorsData} from '@/types/data'
-import {citationStats, affiliations, researchInterests, isDirectorInResearchers, DIRECTOR_NAME_KO} from '@/data/director-common'
+import {researchInterests, isDirectorInResearchers, DIRECTOR_NAME_KO} from '@/data/director-common'
 
 // Scroll animation hook
 const useScrollAnimation = () => {
@@ -336,7 +324,6 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
     {label: 'Int\'l Conf', count: 0}, {label: 'KCI', count: 0}, {label: 'Dom. Conf', count: 0}
   ])
   const {showModal} = useStoreModal()
-  const location = useLocation()
   const directorEmail = 'ischoi@gachon.ac.kr'
 
   // Fetch Projects, Lectures, and Publications data
