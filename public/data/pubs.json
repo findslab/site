@@ -17,18 +17,18 @@
         "venue_ko": "한국데이터정보과학회지",
         "volume": "37",
         "issue": "4",
-        "pages": "",
-        "doi": "",
+        "pages": "667-682",
+        "doi": "10.7465/jkdi.2026.37.4.667",
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "최인수. (2026). 자산 간 상관관계 기반 지도학습 특성선택을 활용한 거시 자산 ETF 가격 예측 모형 연구. <em>한국데이터정보과학회지</em>, <em>37</em>(4).",
-            "mla": "최인수. \"자산 간 상관관계 기반 지도학습 특성선택을 활용한 거시 자산 ETF 가격 예측 모형 연구.\" <em>한국데이터정보과학회지</em> 37.4 (2026).",
-            "chicago": "최인수. \"자산 간 상관관계 기반 지도학습 특성선택을 활용한 거시 자산 ETF 가격 예측 모형 연구.\" <em>한국데이터정보과학회지</em> 37, no. 4 (2026).",
-            "harvard": "최인수 (2026) '자산 간 상관관계 기반 지도학습 특성선택을 활용한 거시 자산 ETF 가격 예측 모형 연구', <em>한국데이터정보과학회지</em>, 37(4).",
-            "vancouver": "Choi I. 자산 간 상관관계 기반 지도학습 특성선택을 활용한 거시 자산 ETF 가격 예측 모형 연구. 한국데이터정보과학회지. 2026;37(4).",
-            "korean": "최인수. (2026). 자산 간 상관관계 기반 지도학습 특성선택을 활용한 거시 자산 ETF 가격 예측 모형 연구. 한국데이터정보과학회지, 37(4).",
-            "bibtex": "@article{choi2026etf,\n  title = {{Macro ETF Price Prediction Using Cross-Asset Correlation-Based Supervised Feature Selection}},\n  author = {Choi, Insu},\n  journal = {Journal of the Korean Data and Information Science Society},\n  volume = {37},\n  number = {4},\n  year = {2026}\n}"
+            "apa": "최인수. (2026). 자산 간 상관관계 기반 지도학습 특성선택을 활용한 거시 자산 ETF 가격 예측 모형 연구. <em>한국데이터정보과학회지</em>, <em>37</em>(4), 667-682. https://doi.org/10.7465/jkdi.2026.37.4.667",
+            "mla": "최인수. \"자산 간 상관관계 기반 지도학습 특성선택을 활용한 거시 자산 ETF 가격 예측 모형 연구.\" <em>한국데이터정보과학회지</em> 37.4 (2026): 667-682.",
+            "chicago": "최인수. \"자산 간 상관관계 기반 지도학습 특성선택을 활용한 거시 자산 ETF 가격 예측 모형 연구.\" <em>한국데이터정보과학회지</em> 37, no. 4 (2026): 667-682.",
+            "harvard": "최인수 (2026) '자산 간 상관관계 기반 지도학습 특성선택을 활용한 거시 자산 ETF 가격 예측 모형 연구', <em>한국데이터정보과학회지</em>, 37(4), pp. 667-682. https://doi.org/10.7465/jkdi.2026.37.4.667",
+            "vancouver": "Choi I. 자산 간 상관관계 기반 지도학습 특성선택을 활용한 거시 자산 ETF 가격 예측 모형 연구. 한국데이터정보과학회지. 2026;37(4):667-682.",
+            "korean": "최인수. (2026). 자산 간 상관관계 기반 지도학습 특성선택을 활용한 거시 자산 ETF 가격 예측 모형 연구. 한국데이터정보과학회지, 37(4), 667-682.",
+            "bibtex": "@article{choi2026,\n  title = {{Macro ETF Price Prediction Using Cross-Asset Correlation-Based Supervised Feature Selection}},\n  author = {Choi, Insu},\n  journal = {Journal of the Korean Data and Information Science Society},\n  volume = {37},\n  number = {4},\n  pages = {667--682},\n  year = {2026},\n  doi = {10.7465/jkdi.2026.37.4.667},\n}"
         }
     },
     {
@@ -136,7 +136,7 @@
         "type": "journal",
         "indexing_group": "SSCI",
         "code_label": "J",
-        "published_date": "2026-06-30",
+        "published_date": "2026-08-08",
         "year": 2026,
         "title": "Efficient Computation of Granger Causality Networks via Partial Correlation: A Vectorized Algorithm with Applications to Financial Markets",
         "title_ko": "",
@@ -179,19 +179,19 @@
         ],
         "venue": "Physica A: Statistical Mechanics and its Applications",
         "venue_ko": "",
-        "volume": "",
+        "volume": "697",
         "issue": "",
-        "pages": "",
+        "pages": "131735",
         "doi": "10.1016/j.physa.2026.131735",
         "language": "English",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I. (2026). Intrinsic multifractality and adaptive efficiency in Bitcoin: Disentangling sources of scaling complexity across market regimes. <em>Physica A: Statistical Mechanics and its Applications</em>.",
-            "mla": "Choi, Insu. \"Intrinsic Multifractality and Adaptive Efficiency in Bitcoin: Disentangling Sources of Scaling Complexity Across Market Regimes.\" <em>Physica A: Statistical Mechanics and its Applications</em> (2026).",
-            "chicago": "Choi, Insu. \"Intrinsic Multifractality and Adaptive Efficiency in Bitcoin: Disentangling Sources of Scaling Complexity Across Market Regimes.\" <em>Physica A: Statistical Mechanics and its Applications</em> (2026).",
-            "harvard": "Choi, I. (2026) 'Intrinsic multifractality and adaptive efficiency in Bitcoin: Disentangling sources of scaling complexity across market regimes', <em>Physica A: Statistical Mechanics and its Applications</em>.",
-            "vancouver": "Choi I. Intrinsic multifractality and adaptive efficiency in Bitcoin: Disentangling sources of scaling complexity across market regimes. Physica A: Statistical Mechanics and its Applications. 2026.",
-            "bibtex": "@article{choi2026multifractality,\n  title = {{Intrinsic Multifractality and Adaptive Efficiency in Bitcoin: Disentangling Sources of Scaling Complexity Across Market Regimes}},\n  author = {Choi, Insu},\n  journal = {Physica A: Statistical Mechanics and its Applications},\n  year = {2026}\n}"
+            "apa": "Choi, I. (2026). Intrinsic multifractality and adaptive efficiency in Bitcoin: Disentangling sources of scaling complexity across market regimes. <em>Physica A: Statistical Mechanics and its Applications</em>, <em>697</em>, 131735. https://doi.org/10.1016/j.physa.2026.131735",
+            "mla": "Choi, Insu. \"Intrinsic Multifractality and Adaptive Efficiency in Bitcoin: Disentangling Sources of Scaling Complexity Across Market Regimes.\" <em>Physica A: Statistical Mechanics and its Applications</em>, vol. 697, 2026, article 131735.",
+            "chicago": "Choi, Insu. \"Intrinsic Multifractality and Adaptive Efficiency in Bitcoin: Disentangling Sources of Scaling Complexity Across Market Regimes.\" <em>Physica A: Statistical Mechanics and its Applications</em> 697 (2026): 131735.",
+            "harvard": "Choi, I. (2026) 'Intrinsic multifractality and adaptive efficiency in Bitcoin: Disentangling sources of scaling complexity across market regimes', <em>Physica A: Statistical Mechanics and its Applications</em>, 697, 131735. https://doi.org/10.1016/j.physa.2026.131735",
+            "vancouver": "Choi I. Intrinsic multifractality and adaptive efficiency in Bitcoin: Disentangling sources of scaling complexity across market regimes. Physica A: Statistical Mechanics and its Applications. 2026;697:131735.",
+            "bibtex": "@article{choi2026bitcoin,\n  title = {{Intrinsic Multifractality and Adaptive Efficiency in Bitcoin: Disentangling Sources of Scaling Complexity Across Market Regimes}},\n  author = {Choi, Insu},\n  journal = {Physica A: Statistical Mechanics and its Applications},\n  volume = {697},\n  pages = {131735},\n  year = {2026},\n  doi = {10.1016/j.physa.2026.131735},\n}"
         }
     },
     {
@@ -307,18 +307,18 @@
         "venue_ko": "산업융합연구",
         "volume": "24",
         "issue": "7",
-        "pages": "",
-        "doi": "",
+        "pages": "1-12",
+        "doi": "10.22678/JIC.2026.24.07.001",
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "하승민, 최인수. (2026). 지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석. <em>산업융합연구</em>, <em>24</em>(7).",
-            "mla": "하승민, 최인수. \"지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석.\" <em>산업융합연구</em> 24.7 (2026).",
-            "chicago": "하승민, 최인수. \"지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석.\" <em>산업융합연구</em> 24, no. 7 (2026).",
-            "harvard": "하승민, 최인수 (2026) '지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석', <em>산업융합연구</em>, 24(7).",
-            "vancouver": "Ha SM, Choi I. 지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석. 산업융합연구. 2026;24(7).",
-            "korean": "하승민, 최인수. (2026). 지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석. 산업융합연구, 24(7).",
-            "bibtex": "@article{ha2026kdefense,\n  title = {{지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석}},\n  author = {Ha, Seung-Min and Choi, Insu},\n  journal = {산업융합연구},\n  volume = {24},\n  number = {7},\n  year = {2026}\n}"
+            "apa": "하승민, & 최인수. (2026). 지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석. <em>산업융합연구</em>, <em>24</em>(7), 1-12. https://doi.org/10.22678/JIC.2026.24.07.001",
+            "mla": "하승민, 최인수. \"지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석.\" <em>산업융합연구</em> 24.7 (2026): 1-12.",
+            "chicago": "하승민, 최인수. \"지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석.\" <em>산업융합연구</em> 24, no. 7 (2026): 1-12.",
+            "harvard": "하승민 & 최인수 (2026) '지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석', <em>산업융합연구</em>, 24(7), pp. 1-12. https://doi.org/10.22678/JIC.2026.24.07.001",
+            "vancouver": "Ha SM, Choi I. 지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석. 산업융합연구. 2026;24(7):1-12.",
+            "korean": "하승민, 최인수. (2026). 지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석. 산업융합연구, 24(7), 1-12.",
+            "bibtex": "@article{ha2026defense,\n  title = {{Structural Change Analysis of K-Defense Stock Correlation Networks in Response to Geopolitical Events}},\n  author = {Ha, Seungmin and Choi, Insu},\n  journal = {Journal of Industrial Convergence},\n  volume = {24},\n  number = {7},\n  pages = {1--12},\n  year = {2026},\n  doi = {10.22678/JIC.2026.24.07.001},\n}"
         }
     },
     {
@@ -342,17 +342,17 @@
         "volume": "43",
         "issue": "2",
         "pages": "97-110",
-        "doi": "",
+        "doi": "10.7737/KMSR.2026.43.2.097",
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "장소은, 최인수. (2026). TVP-VAR 기반 오세아니아 및 아시아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석. <em>경영과학</em>, <em>43</em>(2), 97-110.",
-            "mla": "장소은, 최인수. \"TVP-VAR 기반 오세아니아 및 아시아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석.\" <em>경영과학</em> 43.2 (2026).",
-            "chicago": "장소은, 최인수. \"TVP-VAR 기반 오세아니아 및 아시아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석.\" <em>경영과학</em> 43, no. 2 (2026).",
-            "harvard": "장소은, 최인수 (2026) 'TVP-VAR 기반 오세아니아 및 아시아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석', <em>경영과학</em>, 43(2), 97-110.",
-            "vancouver": "Jang S, Choi I. TVP-VAR 기반 오세아니아 및 아시아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석. 경영과학. 2026;43(2), 97-110.",
-            "korean": "장소은, 최인수. (2026). TVP-VAR 기반 오세아니아 및 아시아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석. 경영과학, 43(2), 97-110.",
-            "bibtex": "@article{jang2026tvpvar,\n  title = {{TVP-VAR 기반 오세아니아 및 아시아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석}},\n  author = {Jang, Soeun and Choi, Insu},\n  journal = {경영과학},\n  volume = {43},\n  number = {2},\n  year = {2026}\n}"
+            "apa": "장소은, & 최인수. (2026). TVP-VAR 기반 아시아 및 오세아니아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석. <em>경영과학</em>, <em>43</em>(2), 97-110. https://doi.org/10.7737/KMSR.2026.43.2.097",
+            "mla": "장소은, 최인수. \"TVP-VAR 기반 아시아 및 오세아니아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석.\" <em>경영과학</em> 43.2 (2026): 97-110.",
+            "chicago": "장소은, 최인수. \"TVP-VAR 기반 아시아 및 오세아니아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석.\" <em>경영과학</em> 43, no. 2 (2026): 97-110.",
+            "harvard": "장소은 & 최인수 (2026) 'TVP-VAR 기반 아시아 및 오세아니아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석', <em>경영과학</em>, 43(2), pp. 97-110. https://doi.org/10.7737/KMSR.2026.43.2.097",
+            "vancouver": "Jang SE, Choi I. TVP-VAR 기반 아시아 및 오세아니아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석. 경영과학. 2026;43(2):97-110.",
+            "korean": "장소은, 최인수. (2026). TVP-VAR 기반 아시아 및 오세아니아 주식시장 간 방향성 스필오버 네트워크의 동태적 분석. 경영과학, 43(2), 97-110.",
+            "bibtex": "@article{jang2026tvpvar,\n  title = {{Dynamic Analysis of Directional Spillover Networks Between Asian and Oceanian Stock Markets Based on TVP-VAR}},\n  author = {Jang, Soeun and Choi, Insu},\n  journal = {Korean Management Science Review},\n  volume = {43},\n  number = {2},\n  pages = {97--110},\n  year = {2026},\n  doi = {10.7737/KMSR.2026.43.2.097},\n}"
         }
     },
     {
@@ -403,19 +403,19 @@
         ],
         "venue": "Empirica",
         "venue_ko": "",
-        "volume": "",
+        "volume": "53",
         "issue": "",
-        "pages": "1-28",
+        "pages": "711-738",
         "doi": "10.1007/s10663-026-09686-2",
         "language": "English",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I. (2026). Regime-Dependent Savings Retention Across Emerging Markets — Rolling-Window Adaptive Elastic Net Evidence from a Cross-Country Panel. <em>Empirica</em>, 1-28. https://doi.org/10.1007/s10663-026-09686-2",
-            "mla": "Insu Choi. \"Regime-Dependent Savings Retention Across Emerging Markets — Rolling-Window Adaptive Elastic Net Evidence from a Cross-Country Panel.\" <em>Empirica</em> (2026): 1-28.",
-            "chicago": "Insu Choi. \"Regime-Dependent Savings Retention Across Emerging Markets — Rolling-Window Adaptive Elastic Net Evidence from a Cross-Country Panel.\" <em>Empirica</em> (2026): 1-28.",
-            "harvard": "Choi, I. (2026) 'Regime-Dependent Savings Retention Across Emerging Markets — Rolling-Window Adaptive Elastic Net Evidence from a Cross-Country Panel', <em>Empirica</em>, 1-28.",
-            "vancouver": "Choi I. Regime-Dependent Savings Retention Across Emerging Markets — Rolling-Window Adaptive Elastic Net Evidence from a Cross-Country Panel. Empirica. 2026:1-28.",
-            "bibtex": "@article{ref2026regime-d,\n  title = {{Regime-Dependent Savings Retention Across Emerging Markets — Rolling-Window Adaptive Elastic Net Evidence from a Cross-Country Panel}},\n  author = {Insu Choi},\n  journal = {Empirica},\n  pages = {1-28},\n  year = {2026},\n  doi = {10.1007/s10663-026-09686-2}\n}"
+            "apa": "Choi, I. (2026). Regime-dependent savings retention across emerging markets: Rolling-window adaptive elastic net evidence from a cross-country panel. <em>Empirica</em>, <em>53</em>, 711-738. https://doi.org/10.1007/s10663-026-09686-2",
+            "mla": "Choi, Insu. \"Regime-Dependent Savings Retention Across Emerging Markets — Rolling-Window Adaptive Elastic Net Evidence from a Cross-Country Panel.\" <em>Empirica</em>, vol. 53, 2026, pp. 711-738.",
+            "chicago": "Choi, Insu. \"Regime-Dependent Savings Retention Across Emerging Markets — Rolling-Window Adaptive Elastic Net Evidence from a Cross-Country Panel.\" <em>Empirica</em> 53 (2026): 711-738.",
+            "harvard": "Choi, I. (2026) 'Regime-dependent savings retention across emerging markets: Rolling-window adaptive elastic net evidence from a cross-country panel', <em>Empirica</em>, 53, pp. 711-738. https://doi.org/10.1007/s10663-026-09686-2",
+            "vancouver": "Choi I. Regime-dependent savings retention across emerging markets: Rolling-window adaptive elastic net evidence from a cross-country panel. Empirica. 2026;53:711-38.",
+            "bibtex": "@article{choi2026empirica,\n  title = {{Regime-Dependent Savings Retention Across Emerging Markets — Rolling-Window Adaptive Elastic Net Evidence from a Cross-Country Panel}},\n  author = {Choi, Insu},\n  journal = {Empirica},\n  volume = {53},\n  pages = {711--738},\n  year = {2026},\n  publisher = {Springer},\n  doi = {10.1007/s10663-026-09686-2},\n}"
         }
     },
     {
@@ -436,18 +436,18 @@
         "venue_ko": "한국정보기술학회논문지",
         "volume": "24",
         "issue": "7",
-        "pages": "",
-        "doi": "",
+        "pages": "61-71",
+        "doi": "10.14801/jkiit.2026.24.7.61",
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I. (2026). Time-Varying Relationship Between Trade Openness and Economic Growth: Evidence from Regularized Rolling-Window Regression. <em>한국정보기술학회논문지</em>, <em>24</em>(7).",
-            "mla": "Insu Choi. \"Time-Varying Relationship Between Trade Openness and Economic Growth: Evidence from Regularized Rolling-Window Regression.\" <em>한국정보기술학회논문지</em> 24.7 (2026).",
-            "chicago": "Insu Choi. \"Time-Varying Relationship Between Trade Openness and Economic Growth: Evidence from Regularized Rolling-Window Regression.\" <em>한국정보기술학회논문지</em> 24, no. 7 (2026).",
-            "harvard": "Choi, I. (2026) 'Time-Varying Relationship Between Trade Openness and Economic Growth: Evidence from Regularized Rolling-Window Regression', <em>한국정보기술학회논문지</em>, 24(7).",
-            "vancouver": "Choi I. Time-Varying Relationship Between Trade Openness and Economic Growth: Evidence from Regularized Rolling-Window Regression. 한국정보기술학회논문지. 2026;24(7).",
-            "korean": "최인수. (2026). 정규화 이동 창 회귀를 활용한 무역 개방도와 경제성장의 시변적 관계 분석. 한국정보기술학회논문지, 24(7).",
-            "bibtex": "@article{ref2026trade,\n  title = {{Time-Varying Relationship Between Trade Openness and Economic Growth: Evidence from Regularized Rolling-Window Regression}},\n  author = {Insu Choi},\n  journal = {Journal of Korean Institute of Information Technology},\n  volume = {24},\n  number = {7},\n  year = {2026}\n}"
+            "apa": "최인수. (2026). 정규화 이동 창 회귀를 활용한 무역 개방도와 경제성장의 시변적 관계 분석. <em>한국정보기술학회논문지</em>, <em>24</em>(7), 61-71. https://doi.org/10.14801/jkiit.2026.24.7.61",
+            "mla": "최인수. \"정규화 이동 창 회귀를 활용한 무역 개방도와 경제성장의 시변적 관계 분석.\" <em>한국정보기술학회논문지</em> 24.7 (2026): 61-71.",
+            "chicago": "최인수. \"정규화 이동 창 회귀를 활용한 무역 개방도와 경제성장의 시변적 관계 분석.\" <em>한국정보기술학회논문지</em> 24, no. 7 (2026): 61-71.",
+            "harvard": "최인수 (2026) '정규화 이동 창 회귀를 활용한 무역 개방도와 경제성장의 시변적 관계 분석', <em>한국정보기술학회논문지</em>, 24(7), pp. 61-71. https://doi.org/10.14801/jkiit.2026.24.7.61",
+            "vancouver": "Choi I. 정규화 이동 창 회귀를 활용한 무역 개방도와 경제성장의 시변적 관계 분석. 한국정보기술학회논문지. 2026;24(7):61-71.",
+            "korean": "최인수. (2026). 정규화 이동 창 회귀를 활용한 무역 개방도와 경제성장의 시변적 관계 분석. 한국정보기술학회논문지, 24(7), 61-71.",
+            "bibtex": "@article{choi2026,\n  title = {{Time-Varying Relationship Between Trade Openness and Economic Growth: Evidence from Regularized Rolling-Window Regression}},\n  author = {Choi, Insu},\n  journal = {Journal of Korean Institute of Information Technology},\n  volume = {24},\n  number = {7},\n  pages = {61--71},\n  year = {2026},\n  doi = {10.14801/jkiit.2026.24.7.61},\n}"
         }
     },
     {
@@ -561,19 +561,19 @@
         ],
         "venue": "Pacific-Basin Finance Journal",
         "venue_ko": "",
-        "volume": "",
+        "volume": "98",
         "issue": "",
         "pages": "103169",
         "doi": "10.1016/j.pacfin.2026.103169",
         "language": "English",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I., Lim, S., Kim, S., Choi, Y., Han, S., Kim, W. (2026). Metric-Based Technical Indicators for Yield Forecasting. <em>Pacific-Basin Finance Journal</em>, 103169. https://doi.org/10.1016/j.pacfin.2026.103169",
-            "mla": "Insu Choi, Soyoung Lim, Seoyeon Kim, Yeona Choi, Subin Han, and Woo Chang Kim. \"Metric-Based Technical Indicators for Yield Forecasting.\" <em>Pacific-Basin Finance Journal</em> (2026): 103169.",
-            "chicago": "Insu Choi, Soyoung Lim, Seoyeon Kim, Yeona Choi, Subin Han, and Woo Chang Kim. \"Metric-Based Technical Indicators for Yield Forecasting.\" <em>Pacific-Basin Finance Journal</em> (2026): 103169.",
-            "harvard": "Choi, I., Lim, S., Kim, S., Choi, Y., Han, S., Kim, W. (2026) 'Metric-Based Technical Indicators for Yield Forecasting', <em>Pacific-Basin Finance Journal</em>, 103169.",
-            "vancouver": "Choi I Lim S Kim S Choi Y Han S Kim WC. Metric-Based Technical Indicators for Yield Forecasting. Pacific-Basin Finance Journal. 2026:103169.",
-            "bibtex": "@article{ref2026metric-b,\n  title = {{Metric-Based Technical Indicators for Yield Forecasting}},\n  author = {Insu Choi, Soyoung Lim, Seoyeon Kim, Yeona Choi, Subin Han, and Woo Chang Kim},\n  journal = {Pacific-Basin Finance Journal},\n  pages = {103169},\n  year = {2026},\n  doi = {10.1016/j.pacfin.2026.103169}\n}"
+            "apa": "Choi, I., Lim, S., Kim, S., Choi, Y., Han, S., & Kim, W. C. (2026). Metric-based technical indicators for yield forecasting. <em>Pacific-Basin Finance Journal</em>, <em>98</em>, 103169. https://doi.org/10.1016/j.pacfin.2026.103169",
+            "mla": "Choi, Insu, et al. \"Metric-Based Technical Indicators for Yield Forecasting.\" <em>Pacific-Basin Finance Journal</em>, vol. 98, 2026, article 103169.",
+            "chicago": "Choi, Insu, Soyeong Lim, Seoyeon Kim, Yeona Choi, Subin Han, and Woo Chang Kim. \"Metric-Based Technical Indicators for Yield Forecasting.\" <em>Pacific-Basin Finance Journal</em> 98 (2026): 103169.",
+            "harvard": "Choi, I., Lim, S., Kim, S., Choi, Y., Han, S. & Kim, W.C. (2026) 'Metric-based technical indicators for yield forecasting', <em>Pacific-Basin Finance Journal</em>, 98, 103169. https://doi.org/10.1016/j.pacfin.2026.103169",
+            "vancouver": "Choi I, Lim S, Kim S, Choi Y, Han S, Kim WC. Metric-based technical indicators for yield forecasting. Pacific-Basin Finance Journal. 2026;98:103169.",
+            "bibtex": "@article{choi2026metric,\n  title = {{Metric-Based Technical Indicators for Yield Forecasting}},\n  author = {Choi, Insu and Lim, Soyeong and Kim, Seoyeon and Choi, Yeona and Han, Subin and Kim, Woo Chang},\n  journal = {Pacific-Basin Finance Journal},\n  volume = {98},\n  pages = {103169},\n  year = {2026},\n  doi = {10.1016/j.pacfin.2026.103169},\n}"
         }
     },
     {
@@ -692,17 +692,17 @@
         "volume": "37",
         "issue": "2",
         "pages": "215-225",
-        "doi": "",
+        "doi": "10.7465/jkdi.2026.37.2.215",
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I. (2026). Day-of-the-Week and Holiday Effects in the Korean Stock Market. <em>Journal of the Korean Data and Information Science Society</em>, <em>37</em>(2), 215-225.",
-            "mla": "Insu Choi. \"Day-of-the-Week and Holiday Effects in the Korean Stock Market.\" <em>Journal of the Korean Data and Information Science Society</em> 37.2 (2026): 215-225.",
-            "chicago": "Insu Choi. \"Day-of-the-Week and Holiday Effects in the Korean Stock Market.\" <em>Journal of the Korean Data and Information Science Society</em> 37, no. 2 (2026): 215-225.",
-            "harvard": "Choi, I. (2026) 'Day-of-the-Week and Holiday Effects in the Korean Stock Market', <em>Journal of the Korean Data and Information Science Society</em>, 37(2), 215-225.",
-            "vancouver": "Choi I. Day-of-the-Week and Holiday Effects in the Korean Stock Market. Journal of the Korean Data and Information Science Society. 2026;37(2):215-225.",
-            "bibtex": "@article{ref2026day-of-t,\n  title = {{Day-of-the-Week and Holiday Effects in the Korean Stock Market}},\n  author = {Insu Choi},\n  journal = {Journal of the Korean Data and Information Science Society},\n  volume = {37},\n  pages = {215-225},\n  year = {2026}\n}",
-            "korean": "최인수. (2026). 한국 주식시장의 요일 효과 및 공휴일 효과에 관한 실증연구. 한국데이터정보과학회지, 37(2), 215-225."
+            "apa": "최인수. (2026). 한국 주식시장의 요일 효과 및 공휴일 효과에 관한 실증연구. <em>한국데이터정보과학회지</em>, <em>37</em>(2), 215-225. https://doi.org/10.7465/jkdi.2026.37.2.215",
+            "mla": "최인수. \"한국 주식시장의 요일 효과 및 공휴일 효과에 관한 실증연구.\" <em>한국데이터정보과학회지</em> 37.2 (2026): 215-225.",
+            "chicago": "최인수. \"한국 주식시장의 요일 효과 및 공휴일 효과에 관한 실증연구.\" <em>한국데이터정보과학회지</em> 37, no. 2 (2026): 215-225.",
+            "harvard": "최인수 (2026) '한국 주식시장의 요일 효과 및 공휴일 효과에 관한 실증연구', <em>한국데이터정보과학회지</em>, 37(2), pp. 215-225. https://doi.org/10.7465/jkdi.2026.37.2.215",
+            "vancouver": "Choi I. 한국 주식시장의 요일 효과 및 공휴일 효과에 관한 실증연구. 한국데이터정보과학회지. 2026;37(2):215-25.",
+            "korean": "최인수. (2026). 한국 주식시장의 요일 효과 및 공휴일 효과에 관한 실증연구. 한국데이터정보과학회지, 37(2), 215-225.",
+            "bibtex": "@article{choi2026dayofweek,\n  title = {{Day-of-the-Week and Holiday Effects in the Korean Stock Market}},\n  author = {Choi, Insu},\n  journal = {Journal of the Korean Data and Information Science Society},\n  volume = {37},\n  number = {2},\n  pages = {215--225},\n  year = {2026},\n  doi = {10.7465/jkdi.2026.37.2.215},\n}"
         }
     },
     {
@@ -2041,7 +2041,7 @@
         "type": "journal",
         "indexing_group": "SCIE",
         "code_label": "J",
-        "published_date": "2024-12-01",
+        "published_date": "2024-12-03",
         "year": 2024,
         "title": "Unlocking ETF Price Forecasting: Exploring the Interconnections with Statistical Dependence-Based Graphs and xAI Techniques",
         "authors": [
@@ -9109,7 +9109,7 @@
         "type": "journal",
         "indexing_group": "KCI",
         "code_label": "J",
-        "published_date": "2026-10-31",
+        "published_date": "2026-08-31",
         "year": 2026,
         "title": "An Empirical Study On The Effects Of Label Design And Sample Overlap In The Stock Direction Prediction Problem Using Technical Indicators",
         "title_ko": "기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구",
@@ -9122,19 +9122,51 @@
         "venue": "Journal of the Korean Data Analysis Society",
         "venue_ko": "한국자료분석학회지",
         "volume": "28",
-        "issue": "5",
+        "issue": "4",
+        "pages": "1659-1677",
+        "doi": "10.37727/jkdas.2026.28.4.1659",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "최인수. (2026). 기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구. <em>한국자료분석학회지</em>, <em>28</em>(4), 1659-1677. https://doi.org/10.37727/jkdas.2026.28.4.1659",
+            "mla": "최인수. \"기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구.\" <em>한국자료분석학회지</em> 28.4 (2026): 1659-1677.",
+            "chicago": "최인수. \"기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구.\" <em>한국자료분석학회지</em> 28, no. 4 (2026): 1659-1677.",
+            "harvard": "최인수 (2026) '기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구', <em>한국자료분석학회지</em>, 28(4), pp. 1659-1677. https://doi.org/10.37727/jkdas.2026.28.4.1659",
+            "vancouver": "Choi I. 기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구. 한국자료분석학회지. 2026;28(4):1659-1677.",
+            "korean": "최인수. (2026). 기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구. 한국자료분석학회지, 28(4), 1659-1677.",
+            "bibtex": "@article{choi2026,\n  title = {{An Empirical Study On The Effects Of Label Design And Sample Overlap In The Stock Direction Prediction Problem Using Technical Indicators}},\n  author = {Choi, Insu},\n  journal = {Journal of the Korean Data Analysis Society},\n  volume = {28},\n  number = {4},\n  pages = {1659--1677},\n  year = {2026},\n  doi = {10.37727/jkdas.2026.28.4.1659},\n}"
+        }
+    },
+    {
+        "type": "journal",
+        "indexing_group": "KCI",
+        "code_label": "J",
+        "published_date": "2026-11-30",
+        "year": 2026,
+        "title": "Improving Financial Time-Series Trading Strategy Performance Using Curriculum-Based Difficulty-Calibrated Signal Processing",
+        "title_ko": "커리큘럼 기반 난이도 보정 신호 처리를 활용한 금융 시계열 트레이딩 전략의 성과 개선",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "Journal of Korean Institute of Information Technology",
+        "venue_ko": "한국정보기술학회논문지",
+        "volume": "24",
+        "issue": "11",
         "pages": "",
         "doi": "",
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "최인수. (2026). 기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구. <em>한국자료분석학회지</em>, <em>28</em>(5).",
-            "mla": "최인수. \"기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구.\" <em>한국자료분석학회지</em> 28.5 (2026).",
-            "chicago": "최인수. \"기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구.\" <em>한국자료분석학회지</em> 28, no. 5 (2026).",
-            "harvard": "최인수 (2026) '기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구', <em>한국자료분석학회지</em>, 28(5).",
-            "vancouver": "Choi I. 기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구. 한국자료분석학회지. 2026;28(5).",
-            "korean": "최인수. (2026). 기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구. 한국자료분석학회지, 28(5).",
-            "bibtex": "@article{choi2026label,\n  title = {{An Empirical Study On The Effects Of Label Design And Sample Overlap In The Stock Direction Prediction Problem Using Technical Indicators}},\n  author = {Choi, Insu},\n  journal = {Journal of the Korean Data Analysis Society},\n  volume = {28},\n  number = {5},\n  year = {2026},\n}"
+            "apa": "최인수. (2026). 커리큘럼 기반 난이도 보정 신호 처리를 활용한 금융 시계열 트레이딩 전략의 성과 개선. <em>한국정보기술학회논문지</em>, <em>24</em>(11).",
+            "mla": "최인수. \"커리큘럼 기반 난이도 보정 신호 처리를 활용한 금융 시계열 트레이딩 전략의 성과 개선.\" <em>한국정보기술학회논문지</em> 24.11 (2026).",
+            "chicago": "최인수. \"커리큘럼 기반 난이도 보정 신호 처리를 활용한 금융 시계열 트레이딩 전략의 성과 개선.\" <em>한국정보기술학회논문지</em> 24, no. 11 (2026).",
+            "harvard": "최인수 (2026) '커리큘럼 기반 난이도 보정 신호 처리를 활용한 금융 시계열 트레이딩 전략의 성과 개선', <em>한국정보기술학회논문지</em>, 24(11).",
+            "vancouver": "Choi I. 커리큘럼 기반 난이도 보정 신호 처리를 활용한 금융 시계열 트레이딩 전략의 성과 개선. 한국정보기술학회논문지. 2026;24(11).",
+            "korean": "최인수. (2026). 커리큘럼 기반 난이도 보정 신호 처리를 활용한 금융 시계열 트레이딩 전략의 성과 개선. 한국정보기술학회논문지, 24(11).",
+            "bibtex": "@article{choi2026curriculum,\n  title = {{Improving Financial Time-Series Trading Strategy Performance Using Curriculum-Based Difficulty-Calibrated Signal Processing}},\n  author = {Choi, Insu},\n  journal = {Journal of Korean Institute of Information Technology},\n  volume = {24},\n  number = {11},\n  year = {2026},\n}"
         }
     }
 ]
