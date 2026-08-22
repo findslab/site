@@ -2415,7 +2415,7 @@
             "chicago": "Choi, Insu, and Woo Chang Kim. \"Study on the Linear Causal Relationship of Stock-Related External Factors on Returns.\" Paper presented at the 2024 Summer Conference of the Korean Institute of Information Technology, May 23, 2024.",
             "harvard": "Choi, I. & Kim, W.C. (2024) 'Study on the linear causal relationship of stock-related external factors on returns', paper presented at the 2024 Summer Conference of the Korean Institute of Information Technology, 23 May.",
             "vancouver": "Choi I, Kim WC. Study on the linear causal relationship of stock-related external factors on returns. Paper presented at: 2024 Summer Conference of the Korean Institute of Information Technology; 2024 May 23.",
-            "korean": "최인수, 김우창. (2024). 수익률 측정 통계량에 따른 네트워크 형태의 차이에 관한 연구. 2024 한국정보기술학회 하계종합학술대회 발표논문.",
+            "korean": "최인수, 김우창. (2024). 주식 관련 외부 요인의 수익률의 선형적 인과관계에 대한 연구. 2024 한국정보기술학회 하계종합학술대회 발표논문.",
             "bibtex": "@inproceedings{choi2024study,\n  title = {{Study on the Linear Causal Relationship of Stock-Related External Factors on Returns}},\n  author = {Choi, I. and Kim, W. C.},\n  booktitle = {2024 Summer Conference of the Korean Institute of Information Technology (KIIT)},\n  year = {2024},\n}"
         }
     },
@@ -5571,13 +5571,13 @@
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I., Kim, M., Lee, D., Lim, W., Ahn, T., & Kim, W. C. (2022, June 3). Analyzing the possibility of incorporating cryptocurrency ETF into the Korean financial market: From the perspective of systemic risk and mean-variance portfolio theory [Paper presentation]. 2022 Spring Joint Conference of the Korean Institute of Industrial Engineers and Korean Operations Research and Management Science Society.",
-            "mla": "Choi, Insu, et al. \"Analyzing the Possibility of Incorporating Cryptocurrency ETF Into the Korean Financial Market: From the Perspective of Systemic Risk and Mean-Variance Portfolio Theory.\" 2022 Spring Joint Conference of the Korean Institute of Industrial Engineers and Korean Operations Research and Management Science Society, 3 June 2022.",
-            "chicago": "Choi, Insu, Minseok Kim, Doyoung Lee, Woosang Lim, Taechan Ahn, and Woo Chang Kim. \"Analyzing the Possibility of Incorporating Cryptocurrency ETF Into the Korean Financial Market: From the Perspective of Systemic Risk and Mean-Variance Portfolio Theory.\" Paper presented at the 2022 Spring Joint Conference of the Korean Institute of Industrial Engineers and Korean Operations Research and Management Science Society, June 3, 2022.",
-            "harvard": "Choi, I., Kim, M., Lee, D., Lim, W., Ahn, T. & Kim, W.C. (2022) 'Analyzing the possibility of incorporating cryptocurrency ETF into the Korean financial market: From the perspective of systemic risk and mean-variance portfolio theory', paper presented at the 2022 Spring Joint Conference of the Korean Institute of Industrial Engineers and Korean Operations Research and Management Science Society, 3 June.",
-            "vancouver": "Choi I, Kim M, Lee D, Lim W, Ahn T, Kim WC. Analyzing the possibility of incorporating cryptocurrency ETF into the Korean financial market: From the perspective of systemic risk and mean-variance portfolio theory. Paper presented at: 2022 Spring Joint Conference of the Korean Institute of Industrial Engineers and Korean Operations Research and Management Science Society; 2022 June 3.",
+            "apa": "Choi, I., Kim, M., Lee, D., Lim, W., Ahn, T., & Kim, W. C. (2022, June 3). Feasibility of cryptocurrency ETF adoption in the Korean market: Perspectives from systemic risk and mean-variance portfolio theory [Paper presentation]. 2022 Spring Joint Conference of the Korean Institute of Industrial Engineers and Korean Operations Research and Management Science Society.",
+            "mla": "Choi, Insu, et al. \"Feasibility of Cryptocurrency ETF Adoption in the Korean Market: Perspectives from Systemic Risk and Mean-Variance Portfolio Theory.\" 2022 Spring Joint Conference of the Korean Institute of Industrial Engineers and Korean Operations Research and Management Science Society, 3 June 2022.",
+            "chicago": "Choi, Insu, Minseok Kim, Doyoung Lee, Woosang Lim, Taechan Ahn, and Woo Chang Kim. \"Feasibility of Cryptocurrency ETF Adoption in the Korean Market: Perspectives from Systemic Risk and Mean-Variance Portfolio Theory.\" Paper presented at the 2022 Spring Joint Conference of the Korean Institute of Industrial Engineers and Korean Operations Research and Management Science Society, June 3, 2022.",
+            "harvard": "Choi, I., Kim, M., Lee, D., Lim, W., Ahn, T. & Kim, W.C. (2022) 'Feasibility of cryptocurrency ETF adoption in the Korean market: Perspectives from systemic risk and mean-variance portfolio theory', paper presented at the 2022 Spring Joint Conference of the Korean Institute of Industrial Engineers and Korean Operations Research and Management Science Society, 3 June.",
+            "vancouver": "Choi I, Kim M, Lee D, Lim W, Ahn T, Kim WC. Feasibility of cryptocurrency ETF adoption in the Korean market: Perspectives from systemic risk and mean-variance portfolio theory. Paper presented at: 2022 Spring Joint Conference of the Korean Institute of Industrial Engineers and Korean Operations Research and Management Science Society; 2022 June 3.",
             "korean": "최인수, 김민석, 이도영, 임우상, 안태찬, 김우창. (2022). 국내 시장에서의 암호화폐 ETF 도입 가능성 분석 – 시스템 리스크와 평균–분산 포트폴리오 이론의 관점에서. 2022 대한산업공학회–한국경영과학회 춘계공동학술대회 발표논문.",
-            "bibtex": "@inproceedings{choi2022analyzing,\n  title = {{Analyzing the Possibility of Incorporating Cryptocurrency ETF Into the Korean Financial Market: From the Perspective of Systemic Risk and Mean-Variance Portfolio Theory}},\n  author = {Choi, I., Kim, M., Lee, D., Lim, W., Ahn, T. and Kim, W. C.},\n  booktitle = {2022 Spring Joint Conference of the Korean Institute of Industrial Engineers (KIIE) and Korean Operations Research and Management Science Society (KORMS)},\n  year = {2022},\n}"
+            "bibtex": "@inproceedings{choi2022feasibility,\n  title = {{Feasibility of Cryptocurrency ETF Adoption in the Korean Market: Perspectives from Systemic Risk and Mean-Variance Portfolio Theory}},\n  author = {Choi, I., Kim, M., Lee, D., Lim, W., Ahn, T. and Kim, W. C.},\n  booktitle = {2022 Spring Joint Conference of the Korean Institute of Industrial Engineers (KIIE) and Korean Operations Research and Management Science Society (KORMS)},\n  year = {2022},\n}"
         }
     },
     {
@@ -6708,13 +6708,13 @@
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I., & Kim, W. C. (2020, November 13). Empirical analysis of politically-themed stocks using text mining approaches and entropy-based network dynamics – Focus on the Republic of Korea's case [Paper presentation]. 2020 Fall Conference of the Korean Institute of Industrial Engineers.",
-            "mla": "Choi, Insu, and Woo Chang Kim. \"Empirical Analysis of Politically-Themed Stocks Using Text Mining Approaches and Entropy-Based Network Dynamics – Focus on the Republic of Korea's Case.\" 2020 Fall Conference of the Korean Institute of Industrial Engineers, 13 Nov. 2020.",
-            "chicago": "Choi, Insu, and Woo Chang Kim. \"Empirical Analysis of Politically-Themed Stocks Using Text Mining Approaches and Entropy-Based Network Dynamics – Focus on the Republic of Korea's Case.\" Paper presented at the 2020 Fall Conference of the Korean Institute of Industrial Engineers, November 13, 2020.",
-            "harvard": "Choi, I. & Kim, W.C. (2020) 'Empirical analysis of politically-themed stocks using text mining approaches and entropy-based network dynamics – Focus on the Republic of Korea's case', paper presented at the 2020 Fall Conference of the Korean Institute of Industrial Engineers, 13 November.",
-            "vancouver": "Choi I, Kim WC. Empirical analysis of politically-themed stocks using text mining approaches and entropy-based network dynamics – Focus on the Republic of Korea's case. Paper presented at: 2020 Fall Conference of the Korean Institute of Industrial Engineers; 2020 Nov 13.",
+            "apa": "Choi, I., & Kim, W. C. (2020, November 13). An empirical investigation of political theme stocks via text analytics and entropy-based network analysis: Evidence from Korea [Paper presentation]. 2020 Fall Conference of the Korean Institute of Industrial Engineers.",
+            "mla": "Choi, Insu, and Woo Chang Kim. \"An Empirical Investigation of Political Theme Stocks via Text Analytics and Entropy-Based Network Analysis: Evidence from Korea.\" 2020 Fall Conference of the Korean Institute of Industrial Engineers, 13 Nov. 2020.",
+            "chicago": "Choi, Insu, and Woo Chang Kim. \"An Empirical Investigation of Political Theme Stocks via Text Analytics and Entropy-Based Network Analysis: Evidence from Korea.\" Paper presented at the 2020 Fall Conference of the Korean Institute of Industrial Engineers, November 13, 2020.",
+            "harvard": "Choi, I. & Kim, W.C. (2020) 'An empirical investigation of political theme stocks via text analytics and entropy-based network analysis: Evidence from Korea', paper presented at the 2020 Fall Conference of the Korean Institute of Industrial Engineers, 13 November.",
+            "vancouver": "Choi I, Kim WC. An empirical investigation of political theme stocks via text analytics and entropy-based network analysis: Evidence from Korea. Paper presented at: 2020 Fall Conference of the Korean Institute of Industrial Engineers; 2020 Nov 13.",
             "korean": "최인수, 김우창. (2020). 텍스트마이닝과 엔트로피 기반의 네트워크 분석을 활용한 정치 테마주에 대한 실증적 분석 – 한국의 사례를 중심으로. 2020 대한산업공학회 추계학술대회 발표논문.",
-            "bibtex": "@inproceedings{choi2020empirical,\n  title = {{Empirical Analysis of Politically-Themed Stocks Using Text Mining Approaches and Entropy-Based Network Dynamics – Focus on the Republic of Korea's Case}},\n  author = {Choi, I. and Kim, W. C.},\n  booktitle = {2020 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)},\n  year = {2020},\n}"
+            "bibtex": "@inproceedings{choi2020political,\n  title = {{An Empirical Investigation of Political Theme Stocks via Text Analytics and Entropy-Based Network Analysis: Evidence from Korea}},\n  author = {Choi, I. and Kim, W. C.},\n  booktitle = {2020 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)},\n  year = {2020},\n}"
         }
     },
     {
@@ -7044,11 +7044,11 @@
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "Choi, E., Kim, S., Min, K., Bae, J., Jeong, K., Shin, J., Lee, D., Yoon, J., Park, S. P., Kim, W. C., Kim, J., Lee, C. H., Cha, M., Bae, H., Choi, I., Yoon, H. J., Jeong, H., & Kim, Y. (2019). <em>Unlock revolution: How data and AI will change the world</em>. Maekyung Publishing Corporation.",
-            "mla": "Choi, Eunsoo, et al. <em>Unlock Revolution: How Data and AI Will Change the World</em>. Maekyung Publishing Corporation, 2019.",
-            "chicago": "Choi, Eunsoo, Soohyeong Kim, Kyungyeong Min, Joonwoo Bae, Kyungwoon Jeong, Jiseon Shin, Dongin Lee, et al. <em>Unlock Revolution: How Data and AI Will Change the World</em>. Maekyung Publishing Corporation, 2019.",
-            "harvard": "Choi, E., Kim, S., Min, K., Bae, J., Jeong, K., Shin, J., Lee, D., Yoon, J., Park, S.P., Kim, W.C., Kim, J., Lee, C.H., Cha, M., Bae, H., Choi, I., Yoon, H.J., Jeong, H. & Kim, Y. (2019) <em>Unlock revolution: How data and AI will change the world</em>, Maekyung Publishing Corporation.",
-            "vancouver": "Choi E, Kim S, Min K, Bae J, Jeong K, Shin J, Lee D, Yoon J, Park SP, Kim WC, Kim J, Lee CH, Cha M, Bae H, Choi I, Yoon HJ, Jeong H, Kim Y. Unlock revolution: How data and AI will change the world. Maekyung Publishing Corporation; 2019.",
+            "apa": "Choi, E., Kim, S., Min, K., Bae, J., Jeong, K., Shin, J., Lee, D., Yoon, J., Park, S. P., Kim, W. C., Kim, J., Lee, C. H., Cha, M., Bae, H., Choi, I., Yoon, H. J., Jeong, H., & Kim, Y. (2019). <em>UNLOCK revolution: Data and AI change the world</em>. Maekyung Publishing Corporation.",
+            "mla": "Choi, Eunsoo, et al. <em>UNLOCK Revolution: Data and AI Change the World</em>. Maekyung Publishing Corporation, 2019.",
+            "chicago": "Choi, Eunsoo, Soohyeong Kim, Kyungyeong Min, Joonwoo Bae, Kyungwoon Jeong, Jiseon Shin, Dongin Lee, et al. <em>UNLOCK Revolution: Data and AI Change the World</em>. Maekyung Publishing Corporation, 2019.",
+            "harvard": "Choi, E., Kim, S., Min, K., Bae, J., Jeong, K., Shin, J., Lee, D., Yoon, J., Park, S.P., Kim, W.C., Kim, J., Lee, C.H., Cha, M., Bae, H., Choi, I., Yoon, H.J., Jeong, H. & Kim, Y. (2019) <em>UNLOCK revolution: Data and AI change the world</em>, Maekyung Publishing Corporation.",
+            "vancouver": "Choi E, Kim S, Min K, Bae J, Jeong K, Shin J, Lee D, Yoon J, Park SP, Kim WC, Kim J, Lee CH, Cha M, Bae H, Choi I, Yoon HJ, Jeong H, Kim Y. UNLOCK revolution: Data and AI change the world. Maekyung Publishing Corporation; 2019.",
             "korean": "최은수, MBN 빅데이터·AI 보고서팀 (김수형, 민경영, 배준우, 정경운, 신지선, 이동인, 윤진호) & KAIST 연구팀 (박성필, 김우창, 김지희, 이충환, 차미영, 배형립, 최인수, 윤형준, 정현규, 김예진). (2019). UNLOCK 혁명: 데이터·AI, 세상을 바꾸다. 매경출판.",
             "bibtex": "@book{choi2019unlock,\n  title = {{UNLOCK 혁명: 데이터·AI, 세상을 바꾸다}},\n  author = {Choi, E., Kim, S., Min, K., Bae, J., Jeong, K., Shin, J., Lee, D., Yoon, J., Park, S. P., Kim, W. C., Kim, J., Lee, C. H., Cha, M., Bae, H., Choi, I., Yoon, H. J., Jeong, H. and Kim, Y.},\n  publisher = {Maekyung Publishing Corporation},\n  year = {2019},\n  isbn = {9791164840625},\n}"
         },
@@ -8047,13 +8047,13 @@
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I. (2026). Strong Clustering and Weak Barriers at Round Numbers in Bitcoin Markets. 2026 Spring Joint Conference of Management Information Systems Associations.",
-            "mla": "Insu Choi. \"Strong Clustering and Weak Barriers at Round Numbers in Bitcoin Markets.\" 2026 Spring Joint Conference of Management Information Systems Associations, 2026.",
-            "chicago": "Insu Choi. \"Strong Clustering and Weak Barriers at Round Numbers in Bitcoin Markets.\" 2026 Spring Joint Conference of Management Information Systems Associations, 2026.",
-            "harvard": "Choi, I. (2026) 'strong clustering and weak barriers at round numbers in bitcoin markets', 2026 Spring Joint Conference of Management Information Systems Associations.",
-            "vancouver": "Choi I. Strong Clustering and Weak Barriers at Round Numbers in Bitcoin Markets. 2026 Spring Joint Conference of Management Information Systems Associations. 2026.",
+            "apa": "Choi, I. (2026). Psychological Price Clustering and Support-Resistance Effects at Round Numbers in Cryptocurrency Markets. 2026 Spring Joint Conference of Management Information Systems Associations.",
+            "mla": "Insu Choi. \"Psychological Price Clustering and Support-Resistance Effects at Round Numbers in Cryptocurrency Markets.\" 2026 Spring Joint Conference of Management Information Systems Associations, 2026.",
+            "chicago": "Insu Choi. \"Psychological Price Clustering and Support-Resistance Effects at Round Numbers in Cryptocurrency Markets.\" 2026 Spring Joint Conference of Management Information Systems Associations, 2026.",
+            "harvard": "Choi, I. (2026) 'psychological price clustering and support-resistance effects at round numbers in cryptocurrency markets', 2026 Spring Joint Conference of Management Information Systems Associations.",
+            "vancouver": "Choi I. Psychological Price Clustering and Support-Resistance Effects at Round Numbers in Cryptocurrency Markets. 2026 Spring Joint Conference of Management Information Systems Associations. 2026.",
             "korean": "최인수. (2026). 암호화폐 시장 심리적 가격대의 군집 현상과 지지 효과에 관한 실증 분석. 2026 경영정보관련 학회 춘계통합학술대회.",
-            "bibtex": "@inproceedings{choi2026conf,\n  title = {{Strong Clustering and Weak Barriers at Round Numbers in Bitcoin Markets}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Joint Conference of Management Information Systems Associations},\n  year = {2026}\n}"
+            "bibtex": "@inproceedings{choi2026conf,\n  title = {{Psychological Price Clustering and Support-Resistance Effects at Round Numbers in Cryptocurrency Markets}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Joint Conference of Management Information Systems Associations},\n  year = {2026}\n}"
         },
         "presentation_type": "oral"
     },
@@ -8809,13 +8809,13 @@
         "language": "Korean",
         "awards": 1,
         "citations": {
-            "apa": "Choi, I. (2026). Comparative Analysis of Linear and Nonlinear Information Flows in Multi-Asset Markets. 2026 Integrated Spring Conference of Management Associations.",
-            "mla": "Insu Choi. \"Comparative Analysis of Linear and Nonlinear Information Flows in Multi-Asset Markets.\" 2026 Integrated Spring Conference of Management Associations, 2026.",
-            "chicago": "Insu Choi. \"Comparative Analysis of Linear and Nonlinear Information Flows in Multi-Asset Markets.\" 2026 Integrated Spring Conference of Management Associations, 2026.",
-            "harvard": "Choi, I. (2026) 'comparative analysis of linear and nonlinear information flows in multi-asset markets', 2026 Integrated Spring Conference of Management Associations.",
-            "vancouver": "Choi I. Comparative Analysis of Linear and Nonlinear Information Flows in Multi-Asset Markets. 2026 Integrated Spring Conference of Management Associations. 2026.",
-            "korean": "최인수. (2026). 다자산 시장의 선형 및 비선형 정보 흐름의 비교 분석. 2026 한국경영학회 융합학술대회.",
-            "bibtex": "@inproceedings{choi2026conf,\n  title = {{Comparative Analysis of Linear and Nonlinear Information Flows in Multi-Asset Markets}},\n  author = {Insu Choi},\n  booktitle = {2026 Integrated Spring Conference of Management Associations},\n  year = {2026}\n}"
+            "apa": "Choi, I. (2026). POLARIS: A Robust CVaR–KL Portfolio Framework with LLM-Inspired Priors under Policy Uncertainty. 2026 Integrated Spring Conference of Management Associations.",
+            "mla": "Insu Choi. \"POLARIS: A Robust CVaR–KL Portfolio Framework with LLM-Inspired Priors under Policy Uncertainty.\" 2026 Integrated Spring Conference of Management Associations, 2026.",
+            "chicago": "Insu Choi. \"POLARIS: A Robust CVaR–KL Portfolio Framework with LLM-Inspired Priors under Policy Uncertainty.\" 2026 Integrated Spring Conference of Management Associations, 2026.",
+            "harvard": "Choi, I. (2026) 'polaris: a robust cvar–kl portfolio framework with llm-inspired priors under policy uncertainty', 2026 Integrated Spring Conference of Management Associations.",
+            "vancouver": "Choi I. POLARIS: A Robust CVaR–KL Portfolio Framework with LLM-Inspired Priors under Policy Uncertainty. 2026 Integrated Spring Conference of Management Associations. 2026.",
+            "korean": "최인수. (2026). POLARIS: LLM 기반 사전분포를 결합한 강건 CVaR–KL 포트폴리오 프레임워크. 2026 한국경영학회 융합학술대회.",
+            "bibtex": "@inproceedings{choi2026conf,\n  title = {{POLARIS: A Robust CVaR–KL Portfolio Framework with LLM-Inspired Priors under Policy Uncertainty}},\n  author = {Insu Choi},\n  booktitle = {2026 Integrated Spring Conference of Management Associations},\n  year = {2026}\n}"
         },
         "presentation_type": "oral",
         "award_details": {
@@ -8982,13 +8982,13 @@
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I. (2026). A Literature Review on Cognitive Frameworks, Explainability, and Visualization for Adaptive Decision Support Systems in the AI Era. 2026 Spring Conference of the Korean Association for Policy Studies.",
-            "mla": "Insu Choi. \"A Literature Review on Cognitive Frameworks, Explainability, and Visualization for Adaptive Decision Support Systems in the AI Era.\" 2026 Spring Conference of the Korean Association for Policy Studies, 2026.",
-            "chicago": "Insu Choi. \"A Literature Review on Cognitive Frameworks, Explainability, and Visualization for Adaptive Decision Support Systems in the AI Era.\" 2026 Spring Conference of the Korean Association for Policy Studies, 2026.",
-            "harvard": "Choi, I. (2026) 'a literature review on cognitive frameworks, explainability, and visualization for adaptive decision support systems in the ai era', 2026 Spring Conference of the Korean Association for Policy Studies.",
-            "vancouver": "Choi I. A Literature Review on Cognitive Frameworks, Explainability, and Visualization for Adaptive Decision Support Systems in the AI Era. 2026 Spring Conference of the Korean Association for Policy Studies. 2026.",
-            "korean": "최인수. (2026). 인공지능 시대 적응형 의사결정 지원 체계의 인지 틀·설명가능성·시각화에 관한 문헌 고찰. 2026 한국정책학회 춘계학술대회.",
-            "bibtex": "@inproceedings{choi2026conf,\n  title = {{A Literature Review on Cognitive Frameworks, Explainability, and Visualization for Adaptive Decision Support Systems in the AI Era}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korean Association for Policy Studies},\n  year = {2026}\n}"
+            "apa": "Choi, I. (2026). A Governance Framework for Financial Policy Decision Support Systems in the AI Transformation Era: An Integrated Approach to Explainability, Uncertainty Visualization, and Cognitive Fit. 2026 Spring Conference of the Korean Association for Policy Studies.",
+            "mla": "Insu Choi. \"A Governance Framework for Financial Policy Decision Support Systems in the AI Transformation Era: An Integrated Approach to Explainability, Uncertainty Visualization, and Cognitive Fit.\" 2026 Spring Conference of the Korean Association for Policy Studies, 2026.",
+            "chicago": "Insu Choi. \"A Governance Framework for Financial Policy Decision Support Systems in the AI Transformation Era: An Integrated Approach to Explainability, Uncertainty Visualization, and Cognitive Fit.\" 2026 Spring Conference of the Korean Association for Policy Studies, 2026.",
+            "harvard": "Choi, I. (2026) 'a governance framework for financial policy decision support systems in the ai transformation era: an integrated approach to explainability, uncertainty visualization, and cognitive fit', 2026 Spring Conference of the Korean Association for Policy Studies.",
+            "vancouver": "Choi I. A Governance Framework for Financial Policy Decision Support Systems in the AI Transformation Era: An Integrated Approach to Explainability, Uncertainty Visualization, and Cognitive Fit. 2026 Spring Conference of the Korean Association for Policy Studies. 2026.",
+            "korean": "최인수. (2026). AI 대전환 시대의 금융정책 의사결정지원시스템 거버넌스 프레임워크: 설명가능성, 불확실성 시각화, 인지적합의 통합적 접근. 2026 한국정책학회 춘계학술대회.",
+            "bibtex": "@inproceedings{choi2026conf,\n  title = {{A Governance Framework for Financial Policy Decision Support Systems in the AI Transformation Era: An Integrated Approach to Explainability, Uncertainty Visualization, and Cognitive Fit}},\n  author = {Insu Choi},\n  booktitle = {2026 Spring Conference of the Korean Association for Policy Studies},\n  year = {2026}\n}"
         },
         "presentation_type": "oral"
     },
