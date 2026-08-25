@@ -129,7 +129,7 @@ const ResumeModal = () => {
           </div>
           <ul className="text-xs text-gray-600 space-y-3 ml-12">
             <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Principal Investigator</li>
-            <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Funded by <strong className="text-gray-700">National Research Foundation of Korea</strong> (RS-2026-25602195)</li>
+            <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" /><span>Funded by <strong className="text-gray-700">National Research Foundation of Korea</strong></span></li>
           </ul>
         </div>
 
@@ -140,7 +140,7 @@ const ResumeModal = () => {
           </div>
           <ul className="text-xs text-gray-600 space-y-3 ml-12">
             <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Principal Investigator</li>
-            <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Funded by <strong className="text-gray-700">Gachon University</strong></li>
+            <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" /><span>Funded by <strong className="text-gray-700">Gachon University</strong></span></li>
           </ul>
         </div>
         <div>
@@ -150,7 +150,7 @@ const ResumeModal = () => {
           </div>
           <ul className="text-xs text-gray-600 space-y-3 ml-12">
             <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Principal Investigator</li>
-            <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Funded by <strong className="text-gray-700">Daesan Shin Yong-Ho Memorial Foundation</strong></li>
+            <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" /><span>Funded by <strong className="text-gray-700">Daesan Shin Yong-Ho Memorial Foundation</strong></span></li>
           </ul>
         </div>
         <div>
@@ -160,7 +160,7 @@ const ResumeModal = () => {
           </div>
           <ul className="text-xs text-gray-600 space-y-3 ml-12">
             <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Principal Investigator</li>
-            <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Funded by <strong className="text-gray-700">Gachon University</strong></li>
+            <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" /><span>Funded by <strong className="text-gray-700">Gachon University</strong></span></li>
           </ul>
         </div>
         <div>
@@ -170,7 +170,7 @@ const ResumeModal = () => {
           </div>
           <ul className="text-xs text-gray-600 space-y-3 ml-12">
             <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Lead Researcher</li>
-            <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Funded by <strong className="text-gray-700">Bank of Korea</strong></li>
+            <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" /><span>Funded by <strong className="text-gray-700">Bank of Korea</strong></span></li>
           </ul>
         </div>
         <div>
@@ -180,7 +180,7 @@ const ResumeModal = () => {
           </div>
           <ul className="text-xs text-gray-600 space-y-3 ml-12">
             <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Lead Researcher</li>
-            <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Funded by <strong className="text-gray-700">Shinhan Bank</strong></li>
+            <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" /><span>Funded by <strong className="text-gray-700">Shinhan Bank</strong></span></li>
           </ul>
         </div>
       </div>

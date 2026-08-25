@@ -9168,5 +9168,37 @@
             "korean": "최인수. (2026). 커리큘럼 기반 난이도 보정 신호 처리를 활용한 금융 시계열 트레이딩 전략의 성과 개선. 한국정보기술학회논문지, 24(11).",
             "bibtex": "@article{choi2026curriculum,\n  title = {{Improving Financial Time-Series Trading Strategy Performance Using Curriculum-Based Difficulty-Calibrated Signal Processing}},\n  author = {Choi, Insu},\n  journal = {Journal of Korean Institute of Information Technology},\n  volume = {24},\n  number = {11},\n  year = {2026},\n}"
         }
+    },
+    {
+        "type": "journal",
+        "indexing_group": "KCI",
+        "code_label": "J",
+        "published_date": "2026-11-30",
+        "year": 2026,
+        "title": "An Analysis of Heterogeneous Credit-Condition Transmission across Dwelling-Size Segments Using Public Housing-Finance Data",
+        "title_ko": "공공 주택금융 데이터를 이용한 평형 구간별 신용여건 전이의 이질성 분석",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "Journal of Korean Institute of Information Technology",
+        "venue_ko": "한국정보기술학회논문지",
+        "volume": "24",
+        "issue": "11",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "최인수. (2026). 공공 주택금융 데이터를 이용한 평형 구간별 신용여건 전이의 이질성 분석. <em>한국정보기술학회논문지</em>, <em>24</em>(11).",
+            "mla": "최인수. \"공공 주택금융 데이터를 이용한 평형 구간별 신용여건 전이의 이질성 분석.\" <em>한국정보기술학회논문지</em> 24.11 (2026).",
+            "chicago": "최인수. \"공공 주택금융 데이터를 이용한 평형 구간별 신용여건 전이의 이질성 분석.\" <em>한국정보기술학회논문지</em> 24, no. 11 (2026).",
+            "harvard": "최인수 (2026) '공공 주택금융 데이터를 이용한 평형 구간별 신용여건 전이의 이질성 분석', <em>한국정보기술학회논문지</em>, 24(11).",
+            "vancouver": "Choi I. 공공 주택금융 데이터를 이용한 평형 구간별 신용여건 전이의 이질성 분석. 한국정보기술학회논문지. 2026;24(11).",
+            "korean": "최인수. (2026). 공공 주택금융 데이터를 이용한 평형 구간별 신용여건 전이의 이질성 분석. 한국정보기술학회논문지, 24(11).",
+            "bibtex": "@article{choi2026housing,\n  title = {{An Analysis of Heterogeneous Credit-Condition Transmission across Dwelling-Size Segments Using Public Housing-Finance Data}},\n  author = {Choi, Insu},\n  journal = {Journal of Korean Institute of Information Technology},\n  volume = {24},\n  number = {11},\n  year = {2026},\n}"
+        }
     }
 ]
