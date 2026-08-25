@@ -449,5 +449,33 @@
             "leadResearcher": [],
             "researchers": []
         }
+    },
+    {
+        "titleEn": "Development of Interpretable Intrinsic Feature Extraction Technology for Trustworthy AI-Based Financial Decision-Making and Asset Management",
+        "titleKo": "신뢰 가능한 인공지능 기반 금융 의사결정 및 자산운용을 위한 해석가능 고유 특징 추출 기술 개발",
+        "period": "2026-09-01 – 2029-08-31",
+        "fundingAgency": "National Research Foundation of Korea (NRF)",
+        "fundingAgencyKo": "한국연구재단",
+        "programName": "개인기초연구(과기정통부) 우수연구-핵심연구(기본연구A)",
+        "programNameEn": "Basic Research Program (Ministry of Science and ICT) — Excellent Research / Core Research (Basic Research A)",
+        "grantNumber": "RS-2026-25602195",
+        "amount": "",
+        "type": "government",
+        "language": "ko",
+        "roles": {
+            "principalInvestigator": "최인수",
+            "leadResearcher": [
+                {
+                    "name": "최인수",
+                    "lab": true
+                }
+            ],
+            "researchers": [
+                {
+                    "name": "최인수",
+                    "lab": true
+                }
+            ]
+        }
     }
 ]

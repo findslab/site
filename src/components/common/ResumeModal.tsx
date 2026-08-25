@@ -124,6 +124,17 @@ const ResumeModal = () => {
       <div className="space-y-12">
         <div>
           <div className="flex flex-col md:flex-row md:justify-between gap-4 md:gap-16 mb-4">
+            <p className="text-xs font-semibold text-gray-900 min-w-0 flex-1 md:pr-12">Development of Interpretable Intrinsic Feature Extraction Technology for Trustworthy AI-Based Financial Decision-Making and Asset Management</p>
+            <span className="text-xs text-gray-400 shrink-0 md:w-[140px] md:text-right">2026-09 – 2029-08</span>
+          </div>
+          <ul className="text-xs text-gray-600 space-y-3 ml-12">
+            <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Principal Investigator</li>
+            <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Funded by <strong className="text-gray-700">National Research Foundation of Korea</strong> (RS-2026-25602195)</li>
+          </ul>
+        </div>
+
+        <div>
+          <div className="flex flex-col md:flex-row md:justify-between gap-4 md:gap-16 mb-4">
             <p className="text-xs font-semibold text-gray-900 min-w-0 flex-1 md:pr-12">A Multi-layered Empirical Study on the Generation, Transmission, and Structural Dynamics of Risk Information in Financial Markets</p>
             <span className="text-xs text-gray-400 shrink-0 md:w-[140px] md:text-right">2026-05 – 2027-05</span>
           </div>
@@ -150,16 +161,6 @@ const ResumeModal = () => {
           <ul className="text-xs text-gray-600 space-y-3 ml-12">
             <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Principal Investigator</li>
             <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Funded by <strong className="text-gray-700">Gachon University</strong></li>
-          </ul>
-        </div>
-        <div>
-          <div className="flex flex-col md:flex-row md:justify-between gap-4 md:gap-16 mb-4">
-            <p className="text-xs font-semibold text-gray-900 min-w-0 flex-1 md:pr-12">Portfolio Risk Assessment and Investment Transparency with Explainable AI</p>
-            <span className="text-xs text-gray-400 shrink-0 md:w-[140px] md:text-right">2025-05 – 2025-09</span>
-          </div>
-          <ul className="text-xs text-gray-600 space-y-3 ml-12">
-            <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Principal Investigator</li>
-            <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Funded by <strong className="text-gray-700">Korea Institute of Public Finance</strong></li>
           </ul>
         </div>
         <div>
