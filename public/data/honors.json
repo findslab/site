@@ -1238,6 +1238,29 @@
           "level": "phd"
         }
       ]
+    },
+    {
+      "type": "award",
+      "icon": "🏆",
+      "title": "대상 (기획예산처 장관상)",
+      "title_en": "Grand Prize (Minister of Planning and Budget Award)",
+      "event": "2026년 대학(원)생 재정데이터 분석 경진대회",
+      "organization": "한국재정정보원, 기획예산처, 한국능률협회컨설팅",
+      "date": "Aug 25",
+      "winners": [
+        {
+          "name": "이채민",
+          "level": "lab_intern"
+        },
+        {
+          "name": "정유민",
+          "level": "lab_intern"
+        },
+        {
+          "name": "김도이",
+          "level": "lab_intern"
+        }
+      ]
     }
   ]
 }
