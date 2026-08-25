@@ -9175,8 +9175,8 @@
         "code_label": "J",
         "published_date": "2026-11-30",
         "year": 2026,
-        "title": "An Analysis of Heterogeneous Credit-Condition Transmission across Dwelling-Size Segments Using Public Housing-Finance Data",
-        "title_ko": "공공 주택금융 데이터를 이용한 평형 구간별 신용여건 전이의 이질성 분석",
+        "title": "Forecasting Dwelling-Size-Specific Housing Affordability with Explainable Machine Learning: Assessing the Predictive Contribution of Disaggregated Information",
+        "title_ko": "설명 가능한 기계학습을 이용한 평형 구간별 주택구입부담지수 예측과 세분화 정보의 기여도 평가",
         "authors": [
             1
         ],
@@ -9192,13 +9192,13 @@
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "최인수. (2026). 공공 주택금융 데이터를 이용한 평형 구간별 신용여건 전이의 이질성 분석. <em>한국정보기술학회논문지</em>, <em>24</em>(11).",
-            "mla": "최인수. \"공공 주택금융 데이터를 이용한 평형 구간별 신용여건 전이의 이질성 분석.\" <em>한국정보기술학회논문지</em> 24.11 (2026).",
-            "chicago": "최인수. \"공공 주택금융 데이터를 이용한 평형 구간별 신용여건 전이의 이질성 분석.\" <em>한국정보기술학회논문지</em> 24, no. 11 (2026).",
-            "harvard": "최인수 (2026) '공공 주택금융 데이터를 이용한 평형 구간별 신용여건 전이의 이질성 분석', <em>한국정보기술학회논문지</em>, 24(11).",
-            "vancouver": "Choi I. 공공 주택금융 데이터를 이용한 평형 구간별 신용여건 전이의 이질성 분석. 한국정보기술학회논문지. 2026;24(11).",
-            "korean": "최인수. (2026). 공공 주택금융 데이터를 이용한 평형 구간별 신용여건 전이의 이질성 분석. 한국정보기술학회논문지, 24(11).",
-            "bibtex": "@article{choi2026housing,\n  title = {{An Analysis of Heterogeneous Credit-Condition Transmission across Dwelling-Size Segments Using Public Housing-Finance Data}},\n  author = {Choi, Insu},\n  journal = {Journal of Korean Institute of Information Technology},\n  volume = {24},\n  number = {11},\n  year = {2026},\n}"
+            "apa": "최인수. (2026). 설명 가능한 기계학습을 이용한 평형 구간별 주택구입부담지수 예측과 세분화 정보의 기여도 평가. <em>한국정보기술학회논문지</em>, <em>24</em>(11).",
+            "mla": "최인수. \"설명 가능한 기계학습을 이용한 평형 구간별 주택구입부담지수 예측과 세분화 정보의 기여도 평가.\" <em>한국정보기술학회논문지</em> 24.11 (2026).",
+            "chicago": "최인수. \"설명 가능한 기계학습을 이용한 평형 구간별 주택구입부담지수 예측과 세분화 정보의 기여도 평가.\" <em>한국정보기술학회논문지</em> 24, no. 11 (2026).",
+            "harvard": "최인수 (2026) '설명 가능한 기계학습을 이용한 평형 구간별 주택구입부담지수 예측과 세분화 정보의 기여도 평가', <em>한국정보기술학회논문지</em>, 24(11).",
+            "vancouver": "Choi I. 설명 가능한 기계학습을 이용한 평형 구간별 주택구입부담지수 예측과 세분화 정보의 기여도 평가. 한국정보기술학회논문지. 2026;24(11).",
+            "korean": "최인수. (2026). 설명 가능한 기계학습을 이용한 평형 구간별 주택구입부담지수 예측과 세분화 정보의 기여도 평가. 한국정보기술학회논문지, 24(11).",
+            "bibtex": "@article{choi2026housing,\n  title = {{Forecasting Dwelling-Size-Specific Housing Affordability with Explainable Machine Learning: Assessing the Predictive Contribution of Disaggregated Information}},\n  author = {Choi, Insu},\n  journal = {Journal of Korean Institute of Information Technology},\n  volume = {24},\n  number = {11},\n  year = {2026},\n}"
         }
     }
 ]
