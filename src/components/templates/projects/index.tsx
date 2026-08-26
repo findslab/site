@@ -243,12 +243,14 @@ export const ProjectsTemplate = () => {
         const cutoffDate = new Date('2025-06-14')
         
         const now = new Date()
+        // 개시 7일 전부터 미리 노출
+        const previewWindow = new Date(now.getTime() + 7 * 24 * 60 * 60 * 1000)
         const filteredProjects = data.filter((p) => {
           const periodParts = p.period.split('–')
           const startDateStr = periodParts[0].trim()
           const startDate = new Date(startDateStr)
-          // Hide if start date is in the future
-          if (startDate > now) return false
+          // 시작이 7일보다 더 남았으면 숨김
+          if (startDate > previewWindow) return false
           return startDate >= cutoffDate
         })
         setProjects(filteredProjects)

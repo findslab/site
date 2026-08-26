@@ -124,7 +124,7 @@ const ResumeModal = () => {
       <div className="space-y-12">
         <div>
           <div className="flex flex-col md:flex-row md:justify-between gap-4 md:gap-16 mb-4">
-            <p className="text-xs font-semibold text-gray-900 min-w-0 flex-1 md:pr-12">Development of Interpretable Intrinsic Feature Extraction Technology for Trustworthy AI-Based Financial Decision-Making and Asset Management</p>
+            <p className="text-xs font-semibold text-gray-900 min-w-0 flex-1 md:pr-12">Development of Lucid Stylized Inherent Feature Extraction Technology for Transparent AI-Based Financial Intelligence and Asset Management</p>
             <span className="text-xs text-gray-400 shrink-0 md:w-[140px] md:text-right">2026-09 – 2029-08</span>
           </div>
           <ul className="text-xs text-gray-600 space-y-3 ml-12">
