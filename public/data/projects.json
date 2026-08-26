@@ -110,18 +110,8 @@
         "language": "ko",
         "roles": {
             "principalInvestigator": "최인수",
-            "leadResearcher": [
-                {
-                    "name": "최인수",
-                    "lab": true
-                }
-            ],
-            "researchers": [
-                {
-                    "name": "최인수",
-                    "lab": true
-                }
-            ]
+            "leadResearcher": [],
+            "researchers": []
         }
     },
     {
@@ -135,18 +125,8 @@
         "language": "ko",
         "roles": {
             "principalInvestigator": "최인수",
-            "leadResearcher": [
-                {
-                    "name": "최인수",
-                    "lab": true
-                }
-            ],
-            "researchers": [
-                {
-                    "name": "최인수",
-                    "lab": true
-                }
-            ]
+            "leadResearcher": [],
+            "researchers": []
         }
     },
     {
@@ -166,12 +146,7 @@
                     "lab": true
                 }
             ],
-            "researchers": [
-                {
-                    "name": "최인수",
-                    "lab": true
-                }
-            ]
+            "researchers": []
         }
     },
     {
@@ -191,12 +166,7 @@
                     "lab": true
                 }
             ],
-            "researchers": [
-                {
-                    "name": "최인수",
-                    "lab": true
-                }
-            ]
+            "researchers": []
         }
     },
     {
@@ -216,12 +186,7 @@
                     "lab": true
                 }
             ],
-            "researchers": [
-                {
-                    "name": "최인수",
-                    "lab": true
-                }
-            ]
+            "researchers": []
         }
     },
     {
@@ -235,18 +200,8 @@
         "language": "en",
         "roles": {
             "principalInvestigator": "최인수",
-            "leadResearcher": [
-                {
-                    "name": "최인수",
-                    "lab": true
-                }
-            ],
-            "researchers": [
-                {
-                    "name": "최인수",
-                    "lab": true
-                }
-            ]
+            "leadResearcher": [],
+            "researchers": []
         }
     },
     {
@@ -266,12 +221,7 @@
                     "lab": true
                 }
             ],
-            "researchers": [
-                {
-                    "name": "최인수",
-                    "lab": true
-                }
-            ]
+            "researchers": []
         }
     },
     {
@@ -291,12 +241,7 @@
                     "lab": true
                 }
             ],
-            "researchers": [
-                {
-                    "name": "최인수",
-                    "lab": true
-                }
-            ]
+            "researchers": []
         }
     },
     {
@@ -310,18 +255,8 @@
         "language": "en",
         "roles": {
             "principalInvestigator": "최인수",
-            "leadResearcher": [
-                {
-                    "name": "최인수",
-                    "lab": true
-                }
-            ],
-            "researchers": [
-                {
-                    "name": "최인수",
-                    "lab": true
-                }
-            ]
+            "leadResearcher": [],
+            "researchers": []
         }
     },
     {
@@ -463,18 +398,8 @@
         "language": "ko",
         "roles": {
             "principalInvestigator": "최인수",
-            "leadResearcher": [
-                {
-                    "name": "최인수",
-                    "lab": true
-                }
-            ],
-            "researchers": [
-                {
-                    "name": "최인수",
-                    "lab": true
-                }
-            ]
+            "leadResearcher": [],
+            "researchers": []
         }
     }
 ]
