@@ -34,9 +34,9 @@
         "language": "ko"
     },
     {
-        "titleEn": "Research Group Support for Promoting Generative AI-Integrated Instruction",
-        "titleKo": "생성형 AI 활용 수업 활성화를 위한 연구회 지원 사업",
-        "period": "2026-03-01 – 2027-02-28",
+        "titleEn": "2026-1 Research Group Support for Promoting Generative AI-Integrated Instruction",
+        "titleKo": "2026-1학기 생성형 AI 활용 수업 활성화를 위한 연구회 지원 사업",
+        "period": "2026-03-01 – 2026-08-31",
         "fundingAgency": "Gachon University",
         "fundingAgencyKo": "가천대학교",
         "amount": "",
@@ -281,7 +281,7 @@
         "fundingAgency": "Korea Advanced Institute of Science and Technology (KAIST)",
         "fundingAgencyKo": "한국과학기술원",
         "amount": "N/A",
-        "type": "industry",
+        "type": "institution",
         "language": "ko",
         "roles": {
             "principalInvestigator": "박성필",
@@ -371,8 +371,8 @@
         }
     },
     {
-        "titleEn": "2026-1 Teaching Innovation Portfolio Selection (General Track) — Business Intelligence and Analytics",
-        "titleKo": "2026-1학기 수업 혁신 포트폴리오 선정 (일반 트랙) — 비즈니스 인텔리전스와 분석",
+        "titleEn": "2026-1 Teaching Innovation Portfolio Program (General Track)",
+        "titleKo": "2026-1학기 수업 혁신 포트폴리오 프로그램 (일반 트랙)",
         "period": "2026-03-01 – 2026-08-06",
         "fundingAgency": "Center for Teaching and Learning, Gachon University",
         "fundingAgencyKo": "가천대학교 교수학습개발센터",

@@ -387,9 +387,18 @@ export const MembersDirectorTemplate = () => {
     fetch(`${baseUrl}data/honors.json`)
       .then(res => res.json())
       .then((data: HonorsData) => {
-        setHonorsData(data)
+        // 지도자 본인이 수상자인 항목만 집계 (학생 단독 수상 제외)
+        const filtered: HonorsData = {}
+        Object.keys(data).forEach((year) => {
+          const items = data[year].filter((item) =>
+            item.winners?.some((w: {name: string}) =>
+              w.name.includes(DIRECTOR_NAME_KO) || w.name.toLowerCase().includes('insu'))
+          )
+          if (items.length > 0) filtered[year] = items
+        })
+        setHonorsData(filtered)
         // All years expanded by default
-        const years = Object.keys(data).sort((a, b) => Number(b) - Number(a))
+        const years = Object.keys(filtered).sort((a, b) => Number(b) - Number(a))
         setExpandedYears(new Set(years))
       })
       .catch(console.error)
