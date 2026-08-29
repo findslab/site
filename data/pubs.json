@@ -9200,5 +9200,34 @@
             "korean": "최인수. (2026). 설명 가능한 기계학습을 이용한 평형 구간별 주택구입부담지수 예측과 세분화 정보의 기여도 평가. 한국정보기술학회논문지, 24(11).",
             "bibtex": "@article{choi2026housing,\n  title = {{Forecasting Dwelling-Size-Specific Housing Affordability with Explainable Machine Learning: Assessing the Predictive Contribution of Disaggregated Information}},\n  author = {Choi, Insu},\n  journal = {Journal of Korean Institute of Information Technology},\n  volume = {24},\n  number = {11},\n  year = {2026},\n}"
         }
+    },
+    {
+        "type": "journal",
+        "indexing_group": "SSCI",
+        "code_label": "J",
+        "published_date": "2026-08-29",
+        "year": 2026,
+        "title": "Measuring Cryptocurrency-Macro Spillovers: Calendar Alignment, Estimator Symmetry, and the Synchronization Regime Shift of 2020",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "The Quarterly Review of Economics and Finance",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "English",
+        "awards": 0,
+        "citations": {
+            "apa": "Choi, I. (2026). Measuring cryptocurrency-macro spillovers: Calendar alignment, estimator symmetry, and the synchronization regime shift of 2020. <em>The Quarterly Review of Economics and Finance</em>.",
+            "mla": "Choi, Insu. \"Measuring Cryptocurrency-Macro Spillovers: Calendar Alignment, Estimator Symmetry, and the Synchronization Regime Shift of 2020.\" <em>The Quarterly Review of Economics and Finance</em>, 2026.",
+            "chicago": "Choi, Insu. \"Measuring Cryptocurrency-Macro Spillovers: Calendar Alignment, Estimator Symmetry, and the Synchronization Regime Shift of 2020.\" <em>The Quarterly Review of Economics and Finance</em> (2026).",
+            "harvard": "Choi, I. (2026) 'Measuring cryptocurrency-macro spillovers: Calendar alignment, estimator symmetry, and the synchronization regime shift of 2020', <em>The Quarterly Review of Economics and Finance</em>.",
+            "vancouver": "Choi I. Measuring cryptocurrency-macro spillovers: Calendar alignment, estimator symmetry, and the synchronization regime shift of 2020. The Quarterly Review of Economics and Finance. 2026.",
+            "bibtex": "@article{choi2026spillovers,\n  title = {{Measuring Cryptocurrency-Macro Spillovers: Calendar Alignment, Estimator Symmetry, and the Synchronization Regime Shift of 2020}},\n  author = {Choi, Insu},\n  journal = {The Quarterly Review of Economics and Finance},\n  year = {2026},\n}"
+        }
     }
 ]
