@@ -34,42 +34,6 @@
         "language": "ko"
     },
     {
-        "titleEn": "2026-1 Research Group Support for Promoting Generative AI-Integrated Instruction",
-        "titleKo": "2026-1학기 생성형 AI 활용 수업 활성화를 위한 연구회 지원 사업",
-        "period": "2026-03-01 – 2026-08-31",
-        "fundingAgency": "Gachon University",
-        "fundingAgencyKo": "가천대학교",
-        "amount": "",
-        "type": "institution",
-        "language": "ko",
-        "roles": {
-            "principalInvestigator": "",
-            "leadResearcher": [
-                {
-                    "name": "곽찬희",
-                    "lab": false
-                },
-                {
-                    "name": "여영준",
-                    "lab": false
-                },
-                {
-                    "name": "이현탁",
-                    "lab": false
-                },
-                {
-                    "name": "조성우",
-                    "lab": false
-                },
-                {
-                    "name": "최인수",
-                    "lab": true
-                }
-            ],
-            "researchers": []
-        }
-    },
-    {
         "titleEn": "Portfolio Efficiency under Fractional Trading in High-Priced Stock Markets",
         "titleKo": "고가주 시장에서의 소수점 거래와 포트폴리오 효율성에 관한 연구",
         "period": "2026-03-01 – 2027-02-28",
@@ -368,21 +332,6 @@
         "language": "ko",
         "roles": {
             "principalInvestigator": "최인수"
-        }
-    },
-    {
-        "titleEn": "2026-1 Teaching Innovation Portfolio Program (General Track)",
-        "titleKo": "2026-1학기 수업 혁신 포트폴리오 프로그램 (일반 트랙)",
-        "period": "2026-03-01 – 2026-08-06",
-        "fundingAgency": "Center for Teaching and Learning, Gachon University",
-        "fundingAgencyKo": "가천대학교 교수학습개발센터",
-        "amount": "",
-        "type": "institution",
-        "language": "ko",
-        "roles": {
-            "principalInvestigator": "최인수",
-            "leadResearcher": [],
-            "researchers": []
         }
     },
     {
