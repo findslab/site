@@ -9111,7 +9111,7 @@
         "code_label": "J",
         "published_date": "2026-08-31",
         "year": 2026,
-        "title": "An Empirical Study On The Effects Of Label Design And Sample Overlap In The Stock Direction Prediction Problem Using Technical Indicators",
+        "title": "An Empirical Study on the Effects of Label Design and Sample Overlap in the Stock Direction Prediction Problem Using Technical Indicators",
         "title_ko": "기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구",
         "authors": [
             1
@@ -9134,7 +9134,7 @@
             "harvard": "최인수 (2026) '기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구', <em>한국자료분석학회지</em>, 28(4), pp. 1659-1677. https://doi.org/10.37727/jkdas.2026.28.4.1659",
             "vancouver": "Choi I. 기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구. 한국자료분석학회지. 2026;28(4):1659-1677.",
             "korean": "최인수. (2026). 기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구. 한국자료분석학회지, 28(4), 1659-1677.",
-            "bibtex": "@article{choi2026,\n  title = {{An Empirical Study On The Effects Of Label Design And Sample Overlap In The Stock Direction Prediction Problem Using Technical Indicators}},\n  author = {Choi, Insu},\n  journal = {Journal of the Korean Data Analysis Society},\n  volume = {28},\n  number = {4},\n  pages = {1659--1677},\n  year = {2026},\n  doi = {10.37727/jkdas.2026.28.4.1659},\n}"
+            "bibtex": "@article{choi2026,\n  title = {{An Empirical Study on the Effects of Label Design and Sample Overlap in the Stock Direction Prediction Problem Using Technical Indicators}},\n  author = {Choi, Insu},\n  journal = {Journal of the Korean Data Analysis Society},\n  volume = {28},\n  number = {4},\n  pages = {1659--1677},\n  year = {2026},\n  doi = {10.37727/jkdas.2026.28.4.1659},\n}"
         }
     },
     {
