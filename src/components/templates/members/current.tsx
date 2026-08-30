@@ -221,7 +221,6 @@ export const MembersCurrentTemplate = () => {
       'hdw1-undergrad.json',
       'lma1-undergrad.json',
       'ysy1-undergrad.json',
-      'hjw1-undergrad.json',
       'ojw1-undergrad.json',
       'hye1-undergrad.json',
       'bcw1-undergrad.json',

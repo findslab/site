@@ -86,6 +86,18 @@ import logoWorldquant from '@/assets/images/logos/worldquant.jpg'
 import logoEy from '@/assets/images/logos/ey.png'
 import logoJl from '@/assets/images/logos/jl.png'
 
+// 학교명 영문 → 국문
+const schoolKo = (s: string) => {
+  if (s.includes('KAIST') || s.includes('Korea Advanced')) return '한국과학기술원'
+  if (s.includes('Kyung Hee')) return '경희대학교'
+  if (s.includes('Gachon')) return '가천대학교'
+  if (s.includes('Dongduk')) return '동덕여자대학교'
+  if (s.includes('Kangnam')) return '강남대학교'
+  if (s.includes('Korea University Sejong')) return '고려대학교 세종캠퍼스'
+  if (s.includes('Korea University')) return '고려대학교'
+  return ''
+}
+
 // Static Data - Education
 const education = [
   {
@@ -798,7 +810,7 @@ export const MembersDirectorTemplate = () => {
                 <div className="grid grid-cols-1 gap-12 md:gap-16 mb-24">
                   <div className="flex gap-12 md:gap-16 p-16 md:p-20 bg-white border border-gray-100 rounded-xl hover:border-[#D6B14D]/30 hover:shadow-md transition-all">
                     <span className="size-28 md:size-32 bg-primary text-white text-sm md:text-base font-bold rounded-full flex items-center justify-center shrink-0">1</span>
-                    <div className="flex-1 min-w-0">
+                    <div className="flex-1 min-w-0 break-words">
                       <p className="font-semibold text-sm md:text-base mb-4" style={{color: '#D6B14D'}}>Financial Data Science</p>
                       <p className="text-gray-600 leading-relaxed text-xs md:text-sm">
                         Designing advanced asset strategies by orchestrating financial data with clairvoyant-guided modeling
@@ -807,7 +819,7 @@ export const MembersDirectorTemplate = () => {
                   </div>
                   <div className="flex gap-12 md:gap-16 p-16 md:p-20 bg-white border border-gray-100 rounded-xl hover:border-[#D6B14D]/30 hover:shadow-md transition-all">
                     <span className="size-28 md:size-32 bg-primary text-white text-sm md:text-base font-bold rounded-full flex items-center justify-center shrink-0">2</span>
-                    <div className="flex-1 min-w-0">
+                    <div className="flex-1 min-w-0 break-words">
                       <p className="font-semibold text-sm md:text-base mb-4" style={{color: '#D6B14D'}}>Business Analytics</p>
                       <p className="text-gray-600 leading-relaxed text-xs md:text-sm">
                         Fostering industrial convergence by intellectualizing complex data to enhance user-centric transparency
@@ -816,7 +828,7 @@ export const MembersDirectorTemplate = () => {
                   </div>
                   <div className="flex gap-12 md:gap-16 p-16 md:p-20 bg-white border border-gray-100 rounded-xl hover:border-[#D6B14D]/30 hover:shadow-md transition-all">
                     <span className="size-28 md:size-32 bg-primary text-white text-sm md:text-base font-bold rounded-full flex items-center justify-center shrink-0">3</span>
-                    <div className="flex-1 min-w-0">
+                    <div className="flex-1 min-w-0 break-words">
                       <p className="font-semibold text-sm md:text-base mb-4" style={{color: '#D6B14D'}}>Data-Informed Decision Making</p>
                       <p className="text-gray-600 leading-relaxed text-xs md:text-sm">
                         Empowering strategic choices by extracting iridescent insights to build lucid and trustworthy systems
@@ -884,14 +896,32 @@ export const MembersDirectorTemplate = () => {
                     <div className="absolute left-0 top-0 bottom-0 flex items-center -translate-x-1/2" style={{left: '-1px'}}>
                       <div className="size-12 md:size-16 bg-primary rounded-full border-3 md:border-4 border-white shadow-md transition-all duration-300 group-hover:scale-110 group-hover:shadow-lg group-hover:shadow-[#D6B14D]/30"/>
                     </div>
-                    <div className="flex flex-col md:flex-row items-start gap-12 md:gap-16 bg-white border border-gray-100 rounded-lg md:rounded-xl p-12 md:p-16 hover:shadow-lg hover:shadow-[#D6B14D]/10 hover:border-[#D6B14D]/40 hover:bg-gradient-to-r hover:from-white hover:to-primary/[0.02] transition-all duration-300 min-h-[100px] md:min-h-[110px]">
+                    <div className="flex flex-col md:flex-row items-start gap-12 md:gap-16 bg-white border border-gray-100 rounded-lg md:rounded-xl p-12 md:p-16 hover:shadow-lg hover:shadow-[#D6B14D]/10 hover:border-[#D6B14D]/40 hover:bg-gradient-to-r hover:from-white hover:to-primary/[0.02] transition-all duration-300">
                       <div className="flex-1 min-w-0 flex flex-col justify-center text-left">
                         <div className="flex flex-wrap items-center justify-start gap-6 md:gap-8 mb-4">
                           <span className="px-8 md:px-10 py-2 text-[10px] md:text-xs font-bold rounded-full bg-primary text-white">{edu.period}</span>
                         </div>
-                        <h4 className="text-sm md:text-base font-bold text-gray-900">{edu.degree.includes("(Ph.D.") ? <>{edu.degree.split(" (")[0]}<br className="md:hidden" /><span className="text-sm md:text-base text-gray-900 font-bold"> ({edu.degree.split(" (")[1]}</span></> : edu.degree}</h4>
-                        <p className="text-xs md:text-sm font-bold text-gray-600 break-words">{edu.field}</p>
-                        <p className="text-xs md:text-sm text-gray-500 font-bold break-words">{edu.school}</p>
+                        <h4 className="text-sm md:text-base font-bold text-gray-900 break-words">{edu.degree.includes("(Ph.D.") ? <>{edu.degree.split(" (")[0]}<br className="md:hidden" /><span className="text-sm md:text-base text-gray-900 font-bold"> ({edu.degree.split(" (")[1]}</span></> : edu.degree}</h4>
+                        <p className="mt-2 text-xs md:text-sm font-bold text-gray-600 break-words">{edu.field}</p>
+                        <p className="text-xs md:text-sm text-gray-600 font-bold break-words">
+                          {edu.school}
+                          {schoolKo(edu.school) && (
+                            <span className="ml-6 text-[10px] md:text-xs font-medium text-gray-400">{schoolKo(edu.school)}</span>
+                          )}
+                        </p>
+                        {(() => {
+                          const paper = ('dissertation' in edu ? edu.dissertation : undefined)
+                            ?? ('thesis' in edu ? edu.thesis : undefined)
+                          if (!paper) return null
+                          const label = 'dissertation' in edu ? 'DISSERTATION' : 'THESIS'
+                          return (
+                            <div className="mt-8 pt-8 border-t border-gray-100">
+                              <p className="text-[9px] md:text-[10px] font-bold tracking-widest text-gray-400 mb-3">{label}</p>
+                              <p className="text-[11px] md:text-xs text-gray-600 leading-relaxed break-words">{paper.en}</p>
+                              <p className="mt-2 text-[10px] md:text-[11px] text-gray-400 leading-relaxed break-words">{paper.ko}</p>
+                            </div>
+                          )
+                        })()}
                       </div>
                     </div>
                   </div>
@@ -928,7 +958,7 @@ export const MembersDirectorTemplate = () => {
                         emp.isCurrent ? 'bg-primary group-hover:shadow-[#D6B14D]/30' : 'bg-gray-300 group-hover:shadow-gray-300/50'
                       }`}/>
                     </div>
-                    <div className="flex flex-col md:flex-row items-start gap-12 md:gap-16 bg-white border border-gray-100 rounded-lg md:rounded-xl p-12 md:p-16 hover:shadow-lg hover:shadow-[#D6B14D]/10 hover:border-[#D6B14D]/40 hover:bg-gradient-to-r hover:from-white hover:to-primary/[0.02] transition-all duration-300 min-h-[100px] md:min-h-[110px]">
+                    <div className="flex flex-col md:flex-row items-start gap-12 md:gap-16 bg-white border border-gray-100 rounded-lg md:rounded-xl p-12 md:p-16 hover:shadow-lg hover:shadow-[#D6B14D]/10 hover:border-[#D6B14D]/40 hover:bg-gradient-to-r hover:from-white hover:to-primary/[0.02] transition-all duration-300">
                       <div className="flex-1 min-w-0 flex flex-col justify-center text-left">
                         <div className="flex flex-wrap items-center justify-start gap-6 md:gap-8 mb-4">
                           <span className={`px-8 md:px-10 py-2 text-[10px] md:text-xs font-bold rounded-full ${
@@ -937,15 +967,28 @@ export const MembersDirectorTemplate = () => {
                               : 'bg-gray-200 text-gray-700'
                           }`}>{emp.period}</span>
                         </div>
-                        <h4 className="text-sm md:text-base font-bold text-gray-900">{emp.position}</h4>
-                        {emp.organization && <p className="text-xs md:text-sm text-gray-500 font-bold break-words">{emp.organization}</p>}
-                        {emp.department && emp.department.includes(',') ? (
-                          <>
-                            <p className="text-[10px] md:text-sm font-medium text-gray-600 break-words">{emp.department.split(',')[0].trim()}</p>
-                            <p className="text-xs md:text-sm text-gray-500 break-words">{emp.department.split(',').slice(1).join(',').trim()}</p>
-                          </>
-                        ) : emp.department && (
-                          <p className="text-[10px] md:text-sm font-medium text-gray-600 break-words">{emp.department}</p>
+                        {/* 직위: 영문 주 표기 + 국문 보조 */}
+                        <h4 className="text-sm md:text-base font-bold text-gray-900 break-words">
+                          {emp.position}
+                          {emp.positionKo && (
+                            <span className="ml-6 text-[10px] md:text-xs font-medium text-gray-400 align-middle">{emp.positionKo}</span>
+                          )}
+                        </h4>
+                        {/* 기관 */}
+                        {emp.organization && (
+                          <p className="mt-2 text-xs md:text-sm text-gray-600 font-bold break-words">
+                            {emp.organization}
+                            {emp.organizationKo && emp.organizationKo !== emp.organization && (
+                              <span className="ml-6 text-[10px] md:text-xs font-medium text-gray-400">{emp.organizationKo}</span>
+                            )}
+                          </p>
+                        )}
+                        {/* 소속 부서 */}
+                        {emp.department && (
+                          <p className="mt-1 text-[11px] md:text-xs text-gray-500 leading-relaxed break-words">{emp.department}</p>
+                        )}
+                        {emp.departmentKo && (
+                          <p className="text-[10px] md:text-[11px] text-gray-400 leading-relaxed break-words">{emp.departmentKo}</p>
                         )}
                       </div>
                     </div>
@@ -1019,7 +1062,12 @@ export const MembersDirectorTemplate = () => {
                                     {course.courseNameKo && course.courseName !== course.courseNameKo && (
                                       <p className="text-xs md:text-sm text-gray-500 mt-2">{course.courseName}</p>
                                     )}
-                                    <p className="text-xs md:text-sm font-bold text-gray-500 mt-4">{getSchoolKo(course.school)}</p>
+                                    <p className="text-xs md:text-sm font-bold text-gray-600 mt-4 break-words">
+                                      {course.school}
+                                      {getSchoolKo(course.school) !== course.school && (
+                                        <span className="ml-6 text-[10px] md:text-xs font-medium text-gray-400">{getSchoolKo(course.school)}</span>
+                                      )}
+                                    </p>
                                   </div>
                                 </div>
                               </div>

@@ -201,7 +201,7 @@ const CollaborationNetwork = memo(() => {
   const [loading, setLoading] = useState(true)
   const [hoveredNode, setHoveredNode] = useState<string | null>(null)
   const [selectedNode, setSelectedNode] = useState<string | null>(null)
-  const [coworkRateThreshold, setCoworkRateThreshold] = useState(2) // 0-100%, default 2%
+  const [coworkRateThreshold, setCoworkRateThreshold] = useState(1) // 0-100%, default 1%
   const [totalPubsCount, setTotalPubsCount] = useState(0)
   
   // 모바일/데스크탑에 따른 기본 zoom 값
@@ -1722,7 +1722,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                       <div className="px-16 md:px-20 pb-16 md:pb-20 space-y-8">
                         {editorialBoards.map((item) => (
                           <div key={item.id} className="flex flex-col md:flex-row md:items-center md:justify-between p-12 bg-white rounded-lg border border-gray-100 hover:border-[#E8889C]/30 hover:shadow-md transition-all gap-4 md:gap-12">
-                            <div className="flex-1 min-w-0">
+                            <div className="flex-1 min-w-0 break-words">
                               <p className="text-xs md:text-sm font-semibold text-gray-700">{item.name}</p>
                               {item.specialIssue && <p className="text-[10px] md:text-xs text-gray-400 mt-1">Special Issue: {item.specialIssue}</p>}
                               <div className="flex items-center gap-6 mt-4 md:hidden">
@@ -1758,7 +1758,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                       <div className="px-16 md:px-20 pb-16 md:pb-20 space-y-8">
                         {memberships.map((item) => (
                           <div key={item.id} className="flex flex-col md:flex-row md:items-center md:justify-between p-12 bg-white rounded-lg border border-gray-100 hover:border-[#E8889C]/30 hover:shadow-md transition-all gap-4 md:gap-12">
-                            <div className="flex-1 min-w-0">
+                            <div className="flex-1 min-w-0 break-words">
                               <p className="text-xs md:text-sm font-semibold text-gray-700">{item.name}</p>
                               {item.name_ko && (
                                 <p className="text-[10px] md:text-xs text-gray-500 mt-2">{item.name_ko}</p>
@@ -1797,7 +1797,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                             {committees.map((comm) => (
                               <a key={comm.id} href={comm.url || '#'} target="_blank" rel="noopener noreferrer"
                                 className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-[#E8889C]/30 gap-4 md:gap-12">
-                                <div className="flex-1 min-w-0">
+                                <div className="flex-1 min-w-0 break-words">
                                   <p className="text-xs md:text-sm font-semibold text-gray-700">{comm.name}</p>
                                   {comm.name_ko && (
                                     <p className="text-[10px] md:text-xs text-gray-500 mt-2">{comm.name_ko}</p>
@@ -1840,14 +1840,14 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                             {sessionChairs.map((chair) => (
                               <a key={chair.id} href={chair.url || '#'} target="_blank" rel="noopener noreferrer"
                                 className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-[#D6B14D]/30 gap-4 md:gap-12">
-                                <div className="flex-1 min-w-0">
+                                <div className="flex-1 min-w-0 break-words">
                                   <p className="text-xs md:text-sm font-semibold text-gray-700">{chair.name}</p>
                                   {chair.name_ko && (
                                     <p className="text-[10px] md:text-xs text-gray-500 mt-2">{chair.name_ko}</p>
                                   )}
                                   <span className="md:hidden block text-[10px] text-gray-400 font-medium mt-2">{toYearMonth(chair.period || chair.since || '')}</span>
                                 </div>
-                                <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap">{toYearMonth(chair.period || chair.since || '')}</span>
+                                <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap md:min-w-[168px]">{toYearMonth(chair.period || chair.since || '')}</span>
                               </a>
                             ))}
                           </div>
@@ -1877,14 +1877,14 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                             {discussants.map((d) => (
                               <a key={d.id} href={d.url || '#'} target="_blank" rel="noopener noreferrer"
                                 className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-[#D6B14D]/30 gap-4 md:gap-12">
-                                <div className="flex-1 min-w-0">
+                                <div className="flex-1 min-w-0 break-words">
                                   <p className="text-xs md:text-sm font-semibold text-gray-700">{d.name}</p>
                                   {d.name_ko && (
                                     <p className="text-[10px] md:text-xs text-gray-500 mt-2">{d.name_ko}</p>
                                   )}
                                   <span className="md:hidden block text-[10px] text-gray-400 font-medium mt-2">{toYearMonth(d.period || d.since || '')}</span>
                                 </div>
-                                <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap">{toYearMonth(d.period || d.since || '')}</span>
+                                <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap md:min-w-[168px]">{toYearMonth(d.period || d.since || '')}</span>
                               </a>
                             ))}
                           </div>
@@ -1948,7 +1948,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                                 <span className="text-xs md:text-sm font-bold text-gray-700">{conf.name}</span>
                                 <span className="md:hidden text-[10px] text-gray-400 font-medium mt-2">{toYearMonth(conf.period || conf.since || '')}</span>
                               </div>
-                              <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap">
+                              <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap md:min-w-[168px]">
                                 {toYearMonth(conf.period || conf.since || '')}
                               </span>
                             </a>
@@ -2148,7 +2148,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                                     </div>
                                   </div>
                                   
-                                  <div className="flex-1 min-w-0">
+                                  <div className="flex-1 min-w-0 break-words">
                                     {/* Role badge - Desktop only */}
                                     <span className={`hidden md:inline-flex px-6 py-2 text-[10px] md:text-xs font-bold rounded-full mb-6 ${roleColor[directorRole] || 'bg-gray-500 text-white'}`}>
                                       {directorRole}
@@ -2156,7 +2156,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                                     
                                     {/* Title + Period (Desktop: Period on right) */}
                                     <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 md:gap-16">
-                                      <div className="flex-1 min-w-0">
+                                      <div className="flex-1 min-w-0 break-words">
                                         <p className="text-sm md:text-md font-bold text-gray-900 leading-relaxed whitespace-pre-line">{project.titleKo}</p>
                                         <p className="text-xs md:text-sm text-gray-600 mt-4 leading-relaxed whitespace-pre-line">{project.titleEn}</p>
                                         <p className="text-xs md:text-sm text-gray-500 mt-3 whitespace-pre-line"><span className="font-bold">{project.language === 'ko' && project.fundingAgencyKo ? project.fundingAgencyKo : project.fundingAgency}</span></p>
@@ -2164,7 +2164,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                                         <p className="md:hidden text-[10px] text-gray-400 font-medium mt-4">{project.period}</p>
                                       </div>
                                       {/* PC: Period badge - right aligned */}
-                                      <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap">
+                                      <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap md:min-w-[168px]">
                                         {project.period}
                                       </span>
                                     </div>

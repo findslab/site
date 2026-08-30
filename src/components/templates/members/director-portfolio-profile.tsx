@@ -768,7 +768,7 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                 <div className="grid grid-cols-1 gap-12 md:gap-16 mb-24">
                   <div className="flex gap-12 md:gap-16 p-16 md:p-20 bg-white border border-gray-100 rounded-xl hover:border-[#D6B14D]/30 hover:shadow-md transition-all">
                     <span className="size-28 md:size-32 bg-primary text-white text-sm md:text-base font-bold rounded-full flex items-center justify-center shrink-0">1</span>
-                    <div className="flex-1 min-w-0">
+                    <div className="flex-1 min-w-0 break-words">
                       <p className="font-semibold text-sm md:text-base mb-4" style={{color: '#D6B14D'}}>Financial Data Science</p>
                       <p className="text-gray-600 leading-relaxed text-xs md:text-sm">
                         Designing advanced asset strategies by orchestrating financial data with clairvoyant-guided modeling
@@ -777,7 +777,7 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                   </div>
                   <div className="flex gap-12 md:gap-16 p-16 md:p-20 bg-white border border-gray-100 rounded-xl hover:border-[#D6B14D]/30 hover:shadow-md transition-all">
                     <span className="size-28 md:size-32 bg-primary text-white text-sm md:text-base font-bold rounded-full flex items-center justify-center shrink-0">2</span>
-                    <div className="flex-1 min-w-0">
+                    <div className="flex-1 min-w-0 break-words">
                       <p className="font-semibold text-sm md:text-base mb-4" style={{color: '#D6B14D'}}>Business Analytics</p>
                       <p className="text-gray-600 leading-relaxed text-xs md:text-sm">
                         Fostering industrial convergence by intellectualizing complex data to enhance user-centric transparency
@@ -786,7 +786,7 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                   </div>
                   <div className="flex gap-12 md:gap-16 p-16 md:p-20 bg-white border border-gray-100 rounded-xl hover:border-[#D6B14D]/30 hover:shadow-md transition-all">
                     <span className="size-28 md:size-32 bg-primary text-white text-sm md:text-base font-bold rounded-full flex items-center justify-center shrink-0">3</span>
-                    <div className="flex-1 min-w-0">
+                    <div className="flex-1 min-w-0 break-words">
                       <p className="font-semibold text-sm md:text-base mb-4" style={{color: '#D6B14D'}}>Data-Informed Decision Making</p>
                       <p className="text-gray-600 leading-relaxed text-xs md:text-sm">
                         Empowering strategic choices by extracting iridescent insights to build lucid and trustworthy systems

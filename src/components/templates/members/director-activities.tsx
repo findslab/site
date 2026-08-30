@@ -1713,7 +1713,7 @@ export const MembersDirectorActivitiesTemplate = () => {
                                     )}
                                   </div>
                                   <div className="flex-1 min-w-0 flex flex-col md:flex-row md:items-start md:justify-between gap-8 md:gap-16">
-                                    <div className="flex-1 min-w-0">
+                                    <div className="flex-1 min-w-0 break-words">
                                       <h4 className="text-sm md:text-base font-bold text-gray-800 mb-4">{item.title}</h4>
                                       <p className="text-xs md:text-sm text-gray-600 font-medium mb-4">{item.event}</p>
                                       <p className="text-xs md:text-sm text-gray-500 font-medium">{item.organization}</p>
@@ -1823,7 +1823,7 @@ export const MembersDirectorActivitiesTemplate = () => {
                     <div className="size-56 bg-gray-50 rounded-xl p-8 flex items-center justify-center group-hover:bg-primary/5 transition-colors shrink-0">
                       <img loading="lazy" decoding="async" src={act.logo} alt={act.name} className="w-full h-full object-contain grayscale group-hover:grayscale-0 transition-all"/>
                     </div>
-                    <div className="flex-1 min-w-0">
+                    <div className="flex-1 min-w-0 break-words">
                       <h4 className="text-sm font-bold text-primary">{act.name}</h4>
                       {act.fullName && <p className="text-xs text-gray-500 mt-2 truncate">{act.fullName}</p>}
                       {act.fullNameKo && <p className="text-xs text-gray-400 font-semibold truncate">{act.fullNameKo}</p>}

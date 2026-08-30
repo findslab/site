@@ -200,7 +200,7 @@ const CollaborationNetwork = memo(() => {
   const [loading, setLoading] = useState(true)
   const [hoveredNode, setHoveredNode] = useState<string | null>(null)
   const [selectedNode, setSelectedNode] = useState<string | null>(null)
-  const [coworkRateThreshold, setCoworkRateThreshold] = useState(2) // 0-100%, default 2%
+  const [coworkRateThreshold, setCoworkRateThreshold] = useState(1) // 0-100%, default 1%
   const [totalPubsCount, setTotalPubsCount] = useState(0)
   
   // 모바일/데스크탑에 따른 기본 zoom 값
@@ -1584,7 +1584,7 @@ export const MembersDirectorAcademicTemplate = () => {
                       <div className="px-16 md:px-20 pb-16 md:pb-20 space-y-8">
                         {editorialBoards.map((item) => (
                           <div key={item.id} className="flex flex-col md:flex-row md:items-center md:justify-between p-12 bg-white rounded-lg border border-gray-100 hover:border-[#D6B14D]/30 transition-colors gap-4 md:gap-8">
-                            <div className="flex-1 min-w-0">
+                            <div className="flex-1 min-w-0 break-words">
                               <p className="text-xs md:text-sm font-semibold text-gray-700">{item.name}</p>
                               {item.specialIssue && <p className="text-[10px] md:text-xs text-gray-400 mt-1">Special Issue: {item.specialIssue}</p>}
                             </div>
@@ -1594,7 +1594,7 @@ export const MembersDirectorAcademicTemplate = () => {
                                 <span className="px-6 py-2 bg-[#FFBAC4] text-white text-[10px] md:text-xs font-bold rounded">{item.role}</span>
                               </div>
                               <span className="md:hidden text-[10px] text-gray-400 font-medium">{item.since} – Present</span>
-                              <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap">{item.since} – Present</span>
+                              <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap md:min-w-[168px]">{item.since} – Present</span>
                             </div>
                           </div>
                         ))}
@@ -1617,7 +1617,7 @@ export const MembersDirectorAcademicTemplate = () => {
                       <div className="px-16 md:px-20 pb-16 md:pb-20 space-y-8">
                         {memberships.map((item) => (
                           <div key={item.id} className="flex flex-col md:flex-row md:items-center md:justify-between p-12 bg-white rounded-lg border border-gray-100 hover:border-[#D6B14D]/30 transition-colors gap-4 md:gap-8">
-                            <div className="flex-1 min-w-0">
+                            <div className="flex-1 min-w-0 break-words">
                               <p className="text-xs md:text-sm font-semibold text-gray-700">{item.name}</p>
                               {item.name_ko && (
                                 <p className="text-[10px] md:text-xs text-gray-500 mt-2">{item.name_ko}</p>
@@ -1626,7 +1626,7 @@ export const MembersDirectorAcademicTemplate = () => {
                             <div className="flex flex-col md:flex-row md:items-center gap-4 shrink-0">
                               <span className="px-6 py-2 bg-[#FFBAC4] text-white text-[10px] md:text-xs font-bold rounded self-start md:self-auto">{item.type}</span>
                               <span className="md:hidden text-[10px] text-gray-400 font-medium">{item.since} – Present</span>
-                              <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap">{item.since} – Present</span>
+                              <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap md:min-w-[168px]">{item.since} – Present</span>
                             </div>
                           </div>
                         ))}
@@ -1654,7 +1654,7 @@ export const MembersDirectorAcademicTemplate = () => {
                             {committees.map((comm) => (
                               <a key={comm.id} href={comm.url || '#'} target="_blank" rel="noopener noreferrer"
                                 className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-[#E8889C]/30 gap-4 md:gap-12">
-                                <div className="flex-1 min-w-0">
+                                <div className="flex-1 min-w-0 break-words">
                                   <div className="flex items-center gap-6 mb-4">
                                     <span className="px-8 py-2 text-[9px] md:text-[10px] font-bold rounded-full" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>
                                       {comm.type}
@@ -1666,7 +1666,7 @@ export const MembersDirectorAcademicTemplate = () => {
                                   )}
                                   <span className="md:hidden block text-[10px] text-gray-400 font-medium mt-2">{comm.period || comm.since}</span>
                                 </div>
-                                <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap">{comm.period || comm.since}</span>
+                                <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap md:min-w-[168px]">{comm.period || comm.since}</span>
                               </a>
                             ))}
                           </div>
@@ -1695,14 +1695,14 @@ export const MembersDirectorAcademicTemplate = () => {
                             {sessionChairs.map((chair) => (
                               <a key={chair.id} href={chair.url || '#'} target="_blank" rel="noopener noreferrer"
                                 className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-[#D6B14D]/30 gap-4 md:gap-12">
-                                <div className="flex-1 min-w-0">
+                                <div className="flex-1 min-w-0 break-words">
                                   <p className="text-xs md:text-sm font-semibold text-gray-700">{chair.name}</p>
                                   {chair.name_ko && (
                                     <p className="text-[10px] md:text-xs text-gray-500 mt-2">{chair.name_ko}</p>
                                   )}
                                   <span className="md:hidden block text-[10px] text-gray-400 font-medium mt-2">{chair.period || chair.since}</span>
                                 </div>
-                                <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap">{chair.period || chair.since}</span>
+                                <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap md:min-w-[168px]">{chair.period || chair.since}</span>
                               </a>
                             ))}
                           </div>
@@ -1731,14 +1731,14 @@ export const MembersDirectorAcademicTemplate = () => {
                             {discussants.map((d) => (
                               <a key={d.id} href={d.url || '#'} target="_blank" rel="noopener noreferrer"
                                 className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-[#D6B14D]/30 gap-4 md:gap-12">
-                                <div className="flex-1 min-w-0">
+                                <div className="flex-1 min-w-0 break-words">
                                   <p className="text-xs md:text-sm font-semibold text-gray-700">{d.name}</p>
                                   {d.name_ko && (
                                     <p className="text-[10px] md:text-xs text-gray-500 mt-2">{d.name_ko}</p>
                                   )}
                                   <span className="md:hidden block text-[10px] text-gray-400 font-medium mt-2">{d.period || d.since}</span>
                                 </div>
-                                <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap">{d.period || d.since}</span>
+                                <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap md:min-w-[168px]">{d.period || d.since}</span>
                               </a>
                             ))}
                           </div>
@@ -1766,7 +1766,7 @@ export const MembersDirectorAcademicTemplate = () => {
                           {journals.map((journal) => (
                             <a key={journal.id} href={journal.url} target="_blank" rel="noopener noreferrer"
                               className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-[#D6B14D]/30 gap-4 md:gap-8">
-                              <div className="flex-1 min-w-0">
+                              <div className="flex-1 min-w-0 break-words">
                                 <p className="text-xs md:text-sm font-semibold text-gray-700">{journal.name}</p>
                               </div>
                               <span className={`px-6 py-2 rounded text-[10px] md:text-xs font-bold self-start md:self-auto ${
@@ -1803,7 +1803,7 @@ export const MembersDirectorAcademicTemplate = () => {
                                 <span className="text-xs font-bold text-gray-700">{conf.name}</span>
                                 <span className="md:hidden text-[10px] text-gray-400 font-medium mt-2">{conf.period || conf.since}</span>
                               </div>
-                              <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap">
+                              <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap md:min-w-[168px]">
                                 {conf.period || conf.since}
                               </span>
                             </a>
@@ -1998,7 +1998,7 @@ export const MembersDirectorAcademicTemplate = () => {
                                     </div>
                                   </div>
                                   
-                                  <div className="flex-1 min-w-0">
+                                  <div className="flex-1 min-w-0 break-words">
                                     {/* Role badge - Desktop only (mobile shows in top banner) */}
                                     <span className={`hidden md:inline-flex px-6 py-2 text-[9px] font-bold rounded-full mb-6 ${roleColor[directorRole] || 'bg-gray-500 text-white'}`}>
                                       {directorRole}
@@ -2006,7 +2006,7 @@ export const MembersDirectorAcademicTemplate = () => {
                                     
                                     {/* Title + Period (Desktop: Period on right) */}
                                     <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 md:gap-16">
-                                      <div className="flex-1 min-w-0">
+                                      <div className="flex-1 min-w-0 break-words">
                                         <p className="text-sm md:text-base font-bold text-gray-900 whitespace-pre-line">{project.titleKo}</p>
                                         <p className="text-xs md:text-sm text-gray-600 mt-3 whitespace-pre-line">{project.titleEn}</p>
                                         <p className="text-xs md:text-sm text-gray-500 mt-3 whitespace-pre-line"><span className="font-bold">{project.language === 'ko' && project.fundingAgencyKo ? project.fundingAgencyKo : project.fundingAgency}</span></p>
@@ -2014,7 +2014,7 @@ export const MembersDirectorAcademicTemplate = () => {
                                         <p className="md:hidden text-[10px] text-gray-400 font-medium mt-4">{project.period}</p>
                                       </div>
                                       {/* PC: Period badge - right aligned */}
-                                      <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap">
+                                      <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap md:min-w-[168px]">
                                         {project.period}
                                       </span>
                                     </div>
@@ -2107,7 +2107,7 @@ export const MembersDirectorAcademicTemplate = () => {
                                 <BookOpen size={18} style={{color: '#D6B14D'}} />
                               )}
                             </div>
-                            <div className="flex-1 min-w-0">
+                            <div className="flex-1 min-w-0 break-words">
                               <div className="flex flex-wrap items-center gap-6 mb-8">
                                 {course.periods.map((period, i) => (
                                   <span key={i} className="px-8 py-2 bg-primary/10 text-primary text-[10px] md:text-xs font-bold rounded-full">
@@ -2177,7 +2177,7 @@ export const MembersDirectorAcademicTemplate = () => {
                                 <BookOpen size={18} style={{color: '#E8889C'}} />
                               )}
                             </div>
-                            <div className="flex-1 min-w-0">
+                            <div className="flex-1 min-w-0 break-words">
                               <div className="flex flex-wrap items-center gap-6 mb-8">
                                 {course.periods.map((period, i) => (
                                   <span key={i} className="px-8 py-2 text-[10px] md:text-xs font-bold rounded-full" style={{backgroundColor: 'rgba(232,135,155,0.15)', color: '#E8889C'}}>
