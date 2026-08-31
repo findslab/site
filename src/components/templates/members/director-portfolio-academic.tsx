@@ -1914,7 +1914,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                             <a key={journal.id} href={journal.url} target="_blank" rel="noopener noreferrer"
                               className="flex flex-row items-center justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-[#D6B14D]/30 gap-8">
                               <p className="flex-1 min-w-0 text-xs md:text-sm font-semibold text-gray-700">{journal.name}</p>
-                              <span className={`shrink-0 px-6 py-2 rounded text-[9px] md:text-[10px] font-bold ${
+                              <span className={`shrink-0 whitespace-nowrap px-6 py-2 rounded text-[9px] md:text-[10px] font-bold ${
                                 journal.type === 'SCIE' || journal.type === 'SSCI' || journal.type === 'A&HCI' ? 'bg-[#D6B14D] text-white' :
                                 journal.type === 'ESCI' || journal.type === 'SCOPUS' || journal.type === 'Scopus' ? 'bg-[#D6C360] text-white' :
                                 'bg-[#94a3b8] text-white'

@@ -1769,7 +1769,7 @@ export const MembersDirectorAcademicTemplate = () => {
                               <div className="flex-1 min-w-0 break-words">
                                 <p className="text-xs md:text-sm font-semibold text-gray-700">{journal.name}</p>
                               </div>
-                              <span className={`px-6 py-2 rounded text-[10px] md:text-xs font-bold self-start md:self-auto ${
+                              <span className={`px-6 py-2 rounded text-[10px] md:text-xs font-bold self-start md:self-auto shrink-0 whitespace-nowrap ${
                                 journal.type === 'SCIE' || journal.type === 'SSCI' || journal.type === 'A&HCI' ? 'bg-[#D6B14D] text-white' :
                                 journal.type === 'ESCI' || journal.type === 'SCOPUS' || journal.type === 'Scopus' ? 'bg-[#D6C360] text-white' :
                                 journal.type === 'KCI' ? 'bg-[#64748b] text-white' :
