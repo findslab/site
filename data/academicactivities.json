@@ -835,6 +835,24 @@
             "type": "SSCI",
             "since": "2026-08-07",
             "url": "https://journals.sagepub.com/home/sgo"
+        },
+        {
+            "id": 93,
+            "category": "journal",
+            "name": "Empirica",
+            "publisher": "Springer",
+            "type": "SSCI",
+            "since": "2026-08-31",
+            "url": "https://link.springer.com/journal/10663"
+        },
+        {
+            "id": 94,
+            "category": "journal",
+            "name": "Finance Research Open",
+            "publisher": "Elsevier",
+            "type": "Other International",
+            "since": "2026-08-31",
+            "url": "https://www.sciencedirect.com/journal/finance-research-open"
         }
     ]
 }
