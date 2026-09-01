@@ -98,6 +98,25 @@ const schoolKo = (s: string) => {
   return ''
 }
 
+// 전공 영문 → 국문
+const fieldKo = (f: string) => {
+  if (f.includes('Industrial and Systems')) return '산업및시스템공학'
+  if (f.includes('Industrial and Management Systems')) return '산업경영공학'
+  return ''
+}
+
+// 학위 영문 → 국문
+const degreeKo = (d: string) => {
+  if (d.includes('Ph.D.') || d.includes('Doctor')) return '공학박사'
+  if (d.includes('M.S.') || d.includes('Master')) return '공학석사'
+  if (d.includes('B.E.') || d.includes('Bachelor')) return '공학사'
+  return ''
+}
+
+// 학력 한 줄 국문 표기 — "한국과학기술원 산업및시스템공학 공학박사"
+const educationKo = (school: string, field: string, degree: string) =>
+  [schoolKo(school), fieldKo(field), degreeKo(degree)].filter(Boolean).join(' ')
+
 // Static Data - Education
 const education = [
   {
@@ -163,7 +182,7 @@ const education = [
 const employment = [
   {position: 'Assistant Professor (Tenure-Track)', positionKo: '조교수', department: 'Department of Finance and Big Data (Big Data Business Management Major), College of Business', departmentKo: '경영대학 금융·빅데이터학부 빅데이터경영전공', organization: 'Gachon University', organizationKo: '가천대학교', period: '2026-03 – Present', logo: logoGcu, isCurrent: true},
   {position: 'Assistant Professor (Tenure-Track)', positionKo: '조교수', department: 'Division of Business Administration, College of Business', departmentKo: '경영대학 경영융합학부', organization: 'Dongduk Women\'s University', organizationKo: '동덕여자대학교', period: '2025-09 – 2026-02', logo: logoDwu, isCurrent: false},
-  {position: 'Director', positionKo: '연구실장', department: 'Financial Data Intelligence & Solutions Laboratory', departmentKo: '금융데이터인텔리전스연구실', organization: 'FINDS Lab', organizationKo: 'FINDS Lab', period: '2025-06 – Present', logo: logoFinds, isCurrent: true},
+  {position: 'Director', positionKo: '디렉터', department: 'Financial Data Intelligence & Solutions Laboratory', departmentKo: '금융인텔리전스연구실', organization: 'FINDS Lab', organizationKo: '', period: '2025-06 – Present', logo: logoFinds, isCurrent: true},
   {position: 'Postdoctoral Researcher', positionKo: '박사후연구원', department: 'Financial Technology Lab, Graduate School of Management of Technology', departmentKo: '기술경영전문대학원 금융기술연구실', organization: 'Korea University', organizationKo: '고려대학교', period: '2025-03 – 2025-08', logo: logoKorea, isCurrent: false},
   {position: 'Postdoctoral Researcher', positionKo: '박사후연구원', department: 'Financial Engineering Lab, Department of Industrial and Systems Engineering', departmentKo: '산업및시스템공학과 금융공학연구실', organization: 'Korea Advanced Institute of Science and Technology (KAIST)', organizationKo: '한국과학기술원', period: '2025-03 – 2025-08', logo: logoKaist, isCurrent: false},
   {position: 'Lecturer', positionKo: '강사', department: 'Department of Electronic and Semiconductor Engineering, College of Engineering', departmentKo: '공과대학 전자반도체공학부 (舊 인공지능융합공학부)', organization: 'Kangnam University', organizationKo: '강남대학교', period: '2025-03 – 2026-02', logo: logoKangnam, isCurrent: false},
@@ -904,8 +923,10 @@ export const MembersDirectorTemplate = () => {
                         <h4 className="text-sm md:text-base font-bold text-gray-900 break-words">{edu.degree.includes("(Ph.D.") ? <>{edu.degree.split(" (")[0]}<br className="md:hidden" /><span className="text-sm md:text-base text-gray-900 font-bold"> ({edu.degree.split(" (")[1]}</span></> : edu.degree}</h4>
                         <p className="mt-2 text-xs md:text-sm font-bold text-gray-600 break-words">{edu.field}</p>
                         <p className="text-xs md:text-sm text-gray-700 font-bold leading-snug break-words">{edu.school}</p>
-                        {schoolKo(edu.school) && (
-                          <p className="mt-1 text-[11px] md:text-xs text-gray-500 break-words">{schoolKo(edu.school)}</p>
+                        {educationKo(edu.school, edu.field, edu.degree) && (
+                          <p className="mt-3 pt-3 border-t border-gray-100 text-[11px] md:text-xs text-gray-500 break-words">
+                            {educationKo(edu.school, edu.field, edu.degree)}
+                          </p>
                         )}
 
                       </div>
@@ -963,10 +984,10 @@ export const MembersDirectorTemplate = () => {
                         {emp.department && (
                           <p className="mt-1 text-[11px] md:text-xs text-gray-500 leading-relaxed break-words">{emp.department}</p>
                         )}
-                        {/* 국문 표기 — 한 블록으로 분리해 크기 위계를 맞춤 */}
+                        {/* 국문 표기 — 기관 소속 직위 순으로 자연스럽게 연결 */}
                         {(emp.positionKo || emp.organizationKo || emp.departmentKo) && (
                           <p className="mt-6 pt-6 border-t border-gray-100 text-[11px] md:text-xs text-gray-500 leading-relaxed break-words">
-                            {[emp.organizationKo, emp.departmentKo, emp.positionKo].filter(Boolean).join(' · ')}
+                            {[emp.organizationKo, emp.departmentKo, emp.positionKo].filter(Boolean).join(' ')}
                           </p>
                         )}
                       </div>
