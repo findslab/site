@@ -144,7 +144,7 @@
             ],
             "cohort": "1기, 3기",
             "periods": {
-                "ur": "2026-06-22 – 2026-08-31"
+                "ur": "2025-12-22 – 2026-08-31"
             },
             "education": [
                 {
@@ -160,6 +160,7 @@
             "cohortName": "1st Cohort (2025 Winter), 3rd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
+                "Calibrated Multimodal Fusion for Quality Risk Estimation in Resistance Spot Welding: Dempster–Shafer versus Voting",
                 "Analysis of OHT Transport Performance and Layout Bottlenecks in Semiconductor FABs Using Integrated AMHS Simulation"
             ],
             "avatar": "KJY-1"
