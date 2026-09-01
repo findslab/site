@@ -903,25 +903,11 @@ export const MembersDirectorTemplate = () => {
                         </div>
                         <h4 className="text-sm md:text-base font-bold text-gray-900 break-words">{edu.degree.includes("(Ph.D.") ? <>{edu.degree.split(" (")[0]}<br className="md:hidden" /><span className="text-sm md:text-base text-gray-900 font-bold"> ({edu.degree.split(" (")[1]}</span></> : edu.degree}</h4>
                         <p className="mt-2 text-xs md:text-sm font-bold text-gray-600 break-words">{edu.field}</p>
-                        <p className="text-xs md:text-sm text-gray-600 font-bold break-words">
-                          {edu.school}
-                          {schoolKo(edu.school) && (
-                            <span className="ml-6 text-[10px] md:text-xs font-medium text-gray-400">{schoolKo(edu.school)}</span>
-                          )}
-                        </p>
-                        {(() => {
-                          const paper = ('dissertation' in edu ? edu.dissertation : undefined)
-                            ?? ('thesis' in edu ? edu.thesis : undefined)
-                          if (!paper) return null
-                          const label = 'dissertation' in edu ? 'DISSERTATION' : 'THESIS'
-                          return (
-                            <div className="mt-8 pt-8 border-t border-gray-100">
-                              <p className="text-[9px] md:text-[10px] font-bold tracking-widest text-gray-400 mb-3">{label}</p>
-                              <p className="text-[11px] md:text-xs text-gray-600 leading-relaxed break-words">{paper.en}</p>
-                              <p className="mt-2 text-[10px] md:text-[11px] text-gray-400 leading-relaxed break-words">{paper.ko}</p>
-                            </div>
-                          )
-                        })()}
+                        <p className="text-xs md:text-sm text-gray-700 font-bold leading-snug break-words">{edu.school}</p>
+                        {schoolKo(edu.school) && (
+                          <p className="mt-1 text-[11px] md:text-xs text-gray-500 break-words">{schoolKo(edu.school)}</p>
+                        )}
+
                       </div>
                     </div>
                   </div>
@@ -967,28 +953,21 @@ export const MembersDirectorTemplate = () => {
                               : 'bg-gray-200 text-gray-700'
                           }`}>{emp.period}</span>
                         </div>
-                        {/* 직위: 영문 주 표기 + 국문 보조 */}
-                        <h4 className="text-sm md:text-base font-bold text-gray-900 break-words">
-                          {emp.position}
-                          {emp.positionKo && (
-                            <span className="ml-6 text-[10px] md:text-xs font-medium text-gray-400 align-middle">{emp.positionKo}</span>
-                          )}
-                        </h4>
+                        {/* 직위 */}
+                        <h4 className="text-sm md:text-base font-bold text-gray-900 leading-snug break-words">{emp.position}</h4>
                         {/* 기관 */}
                         {emp.organization && (
-                          <p className="mt-2 text-xs md:text-sm text-gray-600 font-bold break-words">
-                            {emp.organization}
-                            {emp.organizationKo && emp.organizationKo !== emp.organization && (
-                              <span className="ml-6 text-[10px] md:text-xs font-medium text-gray-400">{emp.organizationKo}</span>
-                            )}
-                          </p>
+                          <p className="mt-3 text-xs md:text-sm font-bold text-gray-700 leading-snug break-words">{emp.organization}</p>
                         )}
-                        {/* 소속 부서 */}
+                        {/* 소속 */}
                         {emp.department && (
                           <p className="mt-1 text-[11px] md:text-xs text-gray-500 leading-relaxed break-words">{emp.department}</p>
                         )}
-                        {emp.departmentKo && (
-                          <p className="text-[10px] md:text-[11px] text-gray-400 leading-relaxed break-words">{emp.departmentKo}</p>
+                        {/* 국문 표기 — 한 블록으로 분리해 크기 위계를 맞춤 */}
+                        {(emp.positionKo || emp.organizationKo || emp.departmentKo) && (
+                          <p className="mt-6 pt-6 border-t border-gray-100 text-[11px] md:text-xs text-gray-500 leading-relaxed break-words">
+                            {[emp.organizationKo, emp.departmentKo, emp.positionKo].filter(Boolean).join(' · ')}
+                          </p>
                         )}
                       </div>
                     </div>
@@ -1062,12 +1041,10 @@ export const MembersDirectorTemplate = () => {
                                     {course.courseNameKo && course.courseName !== course.courseNameKo && (
                                       <p className="text-xs md:text-sm text-gray-500 mt-2">{course.courseName}</p>
                                     )}
-                                    <p className="text-xs md:text-sm font-bold text-gray-600 mt-4 break-words">
-                                      {course.school}
-                                      {getSchoolKo(course.school) !== course.school && (
-                                        <span className="ml-6 text-[10px] md:text-xs font-medium text-gray-400">{getSchoolKo(course.school)}</span>
-                                      )}
-                                    </p>
+                                    <p className="mt-4 text-xs md:text-sm font-bold text-gray-700 leading-snug break-words">{course.school}</p>
+                                    {getSchoolKo(course.school) !== course.school && (
+                                      <p className="mt-1 text-[11px] md:text-xs text-gray-500 break-words">{getSchoolKo(course.school)}</p>
+                                    )}
                                   </div>
                                 </div>
                               </div>
