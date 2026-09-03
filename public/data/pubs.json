@@ -9229,5 +9229,34 @@
             "vancouver": "Choi I. Measuring cryptocurrency-macro spillovers: Calendar alignment, estimator symmetry, and the synchronization regime shift of 2020. The Quarterly Review of Economics and Finance. 2026.",
             "bibtex": "@article{choi2026spillovers,\n  title = {{Measuring Cryptocurrency-Macro Spillovers: Calendar Alignment, Estimator Symmetry, and the Synchronization Regime Shift of 2020}},\n  author = {Choi, Insu},\n  journal = {The Quarterly Review of Economics and Finance},\n  year = {2026},\n}"
         }
+    },
+    {
+        "type": "journal",
+        "indexing_group": "SSCI",
+        "code_label": "J",
+        "published_date": "2026-09-03",
+        "year": 2026,
+        "title": "Déjà Vu in Iridescent Bloom: Bottom-Up Place Branding in the Complex Adaptive Reception of a RESCENE Member's Personal YouTube Channel",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "Systems",
+        "volume": "14",
+        "issue": "9",
+        "pages": "",
+        "doi": "",
+        "language": "English",
+        "awards": 0,
+        "citations": {
+            "apa": "Choi, I. (2026). Déjà vu in iridescent bloom: Bottom-up place branding in the complex adaptive reception of a RESCENE member's personal YouTube channel. <em>Systems</em>, <em>14</em>(9).",
+            "mla": "Choi, Insu. \"Déjà Vu in Iridescent Bloom: Bottom-Up Place Branding in the Complex Adaptive Reception of a RESCENE Member's Personal YouTube Channel.\" <em>Systems</em>, vol. 14, no. 9, 2026.",
+            "chicago": "Choi, Insu. \"Déjà Vu in Iridescent Bloom: Bottom-Up Place Branding in the Complex Adaptive Reception of a RESCENE Member's Personal YouTube Channel.\" <em>Systems</em> 14, no. 9 (2026).",
+            "harvard": "Choi, I. (2026) 'Déjà vu in iridescent bloom: Bottom-up place branding in the complex adaptive reception of a RESCENE member's personal YouTube channel', <em>Systems</em>, 14(9).",
+            "vancouver": "Choi I. Déjà vu in iridescent bloom: Bottom-up place branding in the complex adaptive reception of a RESCENE member's personal YouTube channel. Systems. 2026;14(9).",
+            "bibtex": "@article{choi2026dejavu,\n  title = {{Déjà Vu in Iridescent Bloom: Bottom-Up Place Branding in the Complex Adaptive Reception of a RESCENE Member's Personal YouTube Channel}},\n  author = {Choi, Insu},\n  journal = {Systems},\n  volume = {14},\n  number = {9},\n  year = {2026},\n}"
+        }
     }
 ]
