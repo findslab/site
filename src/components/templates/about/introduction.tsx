@@ -416,7 +416,7 @@ export const AboutIntroductionTemplate = () => {
                           `}
                           style={{ background: 'rgba(255, 249, 230, 0.05)', border: '1px solid rgba(214, 177, 77, 0.1)' }}
                         >
-                          <img
+                          <img loading="lazy" decoding="async"
                             src={area.image}
                             alt={area.titleEn}
                             className="w-full h-auto max-w-[240px] md:max-w-[340px] object-contain"

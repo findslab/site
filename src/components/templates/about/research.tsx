@@ -255,7 +255,7 @@ export const AboutResearchTemplate = () => {
                     ${index % 2 === 1 ? 'md:order-1' : ''}
                   `}
                 >
-                  <img
+                  <img loading="lazy" decoding="async"
                     src={area.image}
                     alt={area.titleEn}
                     className="w-full h-auto max-w-[240px] md:max-w-[360px] object-contain group-hover:scale-105 transition-transform duration-500"

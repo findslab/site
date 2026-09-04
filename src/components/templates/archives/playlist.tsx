@@ -548,7 +548,7 @@ export const ArchivesPlaylistTemplate = () => {
             <div className="flex items-center gap-12 flex-1 min-w-0">
               {/* Thumbnail - only in minimized mode */}
               {isMinimized && (
-                <img 
+                <img loading="lazy" decoding="async" 
                   src={currentVideo.thumbnail?.replace('maxresdefault', 'default')} 
                   alt={currentVideo.title}
                   className="w-40 h-40 object-cover rounded-md"

@@ -261,8 +261,8 @@ export const HomeTemplate = () => {
             {/* needle */}
             <svg className="absolute inset-0 w-full h-full" viewBox="0 0 200 200">
               <g style={{ transformOrigin: '100px 100px', animation: 'cpSeek 5.2s cubic-bezier(.65,0,.35,1) infinite' }}>
-                <path d="M100 40 L106 100 L100 109 L94 100 Z" fill="url(#cpNeedle)" />
-                <path d="M100 160 L94 100 L100 91 L106 100 Z" fill="#D6B14D" opacity="0.2" />
+                <path d="M100 52 L105.5 100 L100 108 L94.5 100 Z" fill="url(#cpNeedle)" />
+                <path d="M100 148 L94.5 100 L100 92 L105.5 100 Z" fill="#D6B14D" opacity="0.2" />
               </g>
               <circle cx="100" cy="100" r="6.2" fill="#D6B14D"
                       style={{ transformOrigin: '100px 100px', animation: 'cpHub 5.2s ease-in-out infinite' }} />

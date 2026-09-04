@@ -377,7 +377,7 @@ export const ArchivesGalleryTemplate = () => {
               >
                 <div className="aspect-[4/3] bg-[#f9fafb] flex items-center justify-center overflow-hidden">
                   {item.thumb ? (
-                    <img
+                    <img loading="lazy" decoding="async"
                       src={`${baseUrl}data/gallery/${item.id}/${item.thumb}`}
                       alt={item.title}
                       className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
