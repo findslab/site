@@ -178,17 +178,17 @@ export const HomeTemplate = () => {
         {/* Central Animation Container */}
         <div className="relative flex flex-col items-center">
           {/* Compass — data scattered, then aligned to a direction */}
-          <div className="relative w-[172px] h-[172px] mb-32">
+          <div className="relative w-[188px] h-[188px] mb-32">
             {/* fixed indicator (does not rotate) */}
-            <div className="absolute -top-10 left-1/2 -translate-x-1/2 w-px h-14 bg-[#B8962D] z-10">
+            <div className="absolute -top-12 left-1/2 -translate-x-1/2 w-px h-16 bg-[#B8962D] z-10">
               <span className="absolute -bottom-3 left-1/2 -translate-x-1/2 w-3 h-3 rounded-full bg-[#B8962D]" />
             </div>
 
             {/* knurled bezel */}
             <svg className="absolute inset-0 w-full h-full" viewBox="0 0 200 200"
                  style={{ animation: 'cpDrift 18s linear infinite' }}>
-              <circle cx="100" cy="100" r="86" fill="none" stroke="#18181b"
-                      strokeWidth="9" opacity="0.12" strokeDasharray="3 6.006" />
+              <circle cx="100" cy="100" r="94" fill="none" stroke="#18181b"
+                      strokeWidth="8" opacity="0.12" strokeDasharray="3.2 6.5" />
             </svg>
 
             {/* dial face */}
@@ -203,26 +203,27 @@ export const HomeTemplate = () => {
                   <stop offset="100%" stopColor="#B8962D" />
                 </linearGradient>
               </defs>
-              <circle cx="100" cy="100" r="80" fill="none" stroke="#D6B14D" strokeWidth="1" opacity="0.28" />
+              <circle cx="100" cy="100" r="88" fill="none" stroke="#D6B14D" strokeWidth="1" opacity="0.28" />
               <circle cx="100" cy="100" r="58" fill="url(#cpFace)" stroke="#D6B14D" strokeWidth="1" opacity="0.38" />
+              <circle cx="100" cy="100" r="70" fill="none" stroke="#D6B14D" strokeWidth="0.6" opacity="0.16" />
               <g stroke="#D6B14D">
                 {Array.from({ length: 36 }, (_, i) => {
                   const major = i % 9 === 0
                   const a = (i / 36) * Math.PI * 2 - Math.PI / 2
-                  const r1 = major ? 68 : 72
+                  const r1 = major ? 74 : 78
                   return (
                     <line key={i}
                       x1={(100 + Math.cos(a) * r1).toFixed(2)} y1={(100 + Math.sin(a) * r1).toFixed(2)}
-                      x2={(100 + Math.cos(a) * 79).toFixed(2)} y2={(100 + Math.sin(a) * 79).toFixed(2)}
-                      strokeWidth={major ? 1.4 : 0.7} opacity={major ? 0.55 : 0.22} />
+                      x2={(100 + Math.cos(a) * 84).toFixed(2)} y2={(100 + Math.sin(a) * 84).toFixed(2)}
+                      strokeWidth={major ? 1.4 : 0.7} opacity={major ? 0.5 : 0.2} />
                   )
                 })}
               </g>
-              <g fontSize="10.5" fontWeight="600" fill="#9A7D1F" textAnchor="middle">
-                <text x="100" y="34" style={{ animation: 'cpLock 5.2s ease-in-out infinite' }}>N</text>
-                <text x="167" y="104" opacity="0.24">E</text>
-                <text x="100" y="174" opacity="0.24">S</text>
-                <text x="33" y="104" opacity="0.24">W</text>
+              <g fontSize="11" fontWeight="700" fill="#9A7D1F" textAnchor="middle" letterSpacing="0.5">
+                <text x="100" y="40.5" style={{ animation: 'cpLock 5.2s ease-in-out infinite' }}>N</text>
+                <text x="163.5" y="104" opacity="0.26">E</text>
+                <text x="100" y="167.5" opacity="0.26">S</text>
+                <text x="36.5" y="104" opacity="0.26">W</text>
               </g>
               {/* ring of light released on lock */}
               <circle cx="100" cy="100" r="58" fill="none" stroke="#D6B14D" strokeWidth="1.2"
