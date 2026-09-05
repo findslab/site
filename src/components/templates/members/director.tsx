@@ -113,9 +113,11 @@ const degreeKo = (d: string) => {
   return ''
 }
 
-// 학력 한 줄 국문 표기 — "한국과학기술원 산업및시스템공학 공학박사"
-const educationKo = (school: string, field: string, degree: string) =>
-  [schoolKo(school), fieldKo(field), degreeKo(degree)].filter(Boolean).join(' ')
+// 학력 한 줄 국문 표기 — "경희대학교 산업경영공학 공학사 (수석 졸업)"
+const educationKo = (school: string, field: string, degree: string, honorKo?: string) => {
+  const base = [schoolKo(school), fieldKo(field), degreeKo(degree)].filter(Boolean).join(' ')
+  return base && honorKo ? `${base} (${honorKo})` : base
+}
 
 // Static Data - Education
 const education = [
@@ -164,6 +166,8 @@ const education = [
     degree: 'Bachelor of Engineering (B.E.)',
     field: 'Industrial and Management Systems Engineering',
     college: 'College of Engineering',
+    honor: 'Valedictorian',
+    honorKo: '수석 졸업',
     advisors: [
       {name: 'Jang Ho Kim', url: 'https://scholar.google.com/citations?user=uTiqWBMAAAAJ&hl=en'},
       {name: 'Myoung-Ju Park', url: 'https://scholar.google.com/citations?user=O8OYIzMAAAAJ&hl=en&oi=sra'}
@@ -919,13 +923,18 @@ export const MembersDirectorTemplate = () => {
                       <div className="flex-1 min-w-0 flex flex-col justify-center text-left">
                         <div className="flex flex-wrap items-center justify-start gap-6 md:gap-8 mb-4">
                           <span className="px-8 md:px-10 py-2 text-[10px] md:text-xs font-bold rounded-full bg-primary text-white">{edu.period}</span>
+                          {'honor' in edu && edu.honor && (
+                            <span className="px-8 md:px-10 py-2 text-[10px] md:text-xs font-bold rounded-full border border-primary/40 text-primary bg-primary/5 whitespace-nowrap">
+                              {edu.honor}
+                            </span>
+                          )}
                         </div>
                         <h4 className="text-sm md:text-base font-bold text-gray-900 break-words">{edu.degree.includes("(Ph.D.") ? <>{edu.degree.split(" (")[0]}<br className="md:hidden" /><span className="text-sm md:text-base text-gray-900 font-bold"> ({edu.degree.split(" (")[1]}</span></> : edu.degree}</h4>
                         <p className="mt-2 text-xs md:text-sm font-bold text-gray-600 break-words">{edu.field}</p>
                         <p className="text-xs md:text-sm text-gray-700 font-bold leading-snug break-words">{edu.school}</p>
-                        {educationKo(edu.school, edu.field, edu.degree) && (
+                        {educationKo(edu.school, edu.field, edu.degree, 'honorKo' in edu ? edu.honorKo : undefined) && (
                           <p className="mt-3 pt-3 border-t border-gray-100 text-[11px] md:text-xs text-gray-500 break-words">
-                            {educationKo(edu.school, edu.field, edu.degree)}
+                            {educationKo(edu.school, edu.field, edu.degree, 'honorKo' in edu ? edu.honorKo : undefined)}
                           </p>
                         )}
 
