@@ -536,6 +536,8 @@ export const AboutHonorsTemplate = () => {
                                         ? 'bg-[#B8962D]/15 text-[#B8962D]'
                                         : winner.level === 'lab_intern'
                                         ? 'bg-[#E8889C]/15 text-[#E8889C]'
+                                        : winner.level === 'mentee'
+                                        ? 'bg-[#D6A076]/18 text-[#B87A4A]'
                                         : 'bg-gray-100 text-gray-700'
                                     }`}
                                   >

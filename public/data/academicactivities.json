@@ -853,6 +853,16 @@
             "type": "Other International",
             "since": "2026-08-31",
             "url": "https://www.sciencedirect.com/journal/finance-research-open"
+        },
+        {
+            "id": 95,
+            "category": "journal",
+            "name": "Journal of the Korea Academia-Industrial Cooperation Society",
+            "name_ko": "한국산학기술학회논문지",
+            "publisher": "한국산학기술학회",
+            "type": "KCI",
+            "since": "2026-09-03",
+            "url": "https://www.kais.or.kr"
         }
     ]
 }
