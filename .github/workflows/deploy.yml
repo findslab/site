@@ -30,6 +30,15 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      # pubs.json 이 바뀌면 scholar.json 의 pubStats 를 자동으로 맞춰준다
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+
+      - name: Sync publication stats
+        run: python scripts/sync_pubstats.py
+
       - name: Build
         run: pnpm run build
 

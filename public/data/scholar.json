@@ -23,26 +23,24 @@
   },
   "citationsByYear": {},
   "pubStats": {
-    "totalPublications": 181,
-    "journals": 23,
-    "conferences": 154,
-    "books": 2,
+    "totalPublications": 266,
+    "journals": 49,
+    "conferences": 211,
+    "books": 4,
+    "reports": 2,
     "indexing": {
-      "scie": 9,
-      "ssci": 9,
+      "scie": 13,
+      "ssci": 17,
       "ahci": 0,
       "esci": 1,
       "scopus": 3,
-      "kci": 3,
-      "webOfScience": 19
-    },
-    "authorship": {
-      "firstAuthor": 0,
-      "corresponding": 0
+      "otherInternational": 1,
+      "kci": 17,
+      "webOfScience": 31
     },
     "firstPubYear": 2017,
     "publicationsByYear": {
-      "2026": 2,
+      "2026": 87,
       "2025": 25,
       "2024": 40,
       "2023": 50,
@@ -54,5 +52,5 @@
       "2017": 1
     }
   },
-  "note": "Manual update only. Edit public/data/scholar.json directly or run python scripts/fetch_scholar.py locally."
+  "note": "Manual update only. pubStats is reference-only; the site computes publication statistics live from pubs.json."
 }

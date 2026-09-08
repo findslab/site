@@ -8,7 +8,9 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "npm run build && gh-pages -d dist --dotfiles"
+    "deploy": "npm run build && gh-pages -d dist --dotfiles",
+    "sync:stats": "python3 scripts/sync_pubstats.py",
+    "check:stats": "python3 scripts/sync_pubstats.py --check"
   },
   "dependencies": {
     "@googlemaps/react-wrapper": "^1.2.0",
