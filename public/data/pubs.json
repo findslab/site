@@ -9726,5 +9726,108 @@
             "korean": "최인수. (2026). 실행가능성을 고려한 가격제한폭 도달 유형별 사후 수익률. 경영과학, 43(4).",
             "bibtex": "@article{choi2026pricelimit,\n  title = {{Post-Event Returns by Price-Limit Hit Type Considering Implementability}},\n  author = {Choi, Insu},\n  journal = {Korean Management Science Review},\n  volume = {43},\n  number = {4},\n  year = {2026},\n}"
         }
+    },
+    {
+        "type": "journal",
+        "indexing_group": "KCI",
+        "code_label": "J",
+        "published_date": "2026-12-31",
+        "year": 2026,
+        "title": "Testing the Informational Redundancy of Two Distance Matrices: An Application to Candle-Shape Asset Networks",
+        "title_ko": "두 거리행렬의 정보 중복성 검정: 캔들 형태 자산 네트워크에 대한 응용",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "Korean Journal of Applied Statistics",
+        "venue_ko": "응용통계연구",
+        "volume": "39",
+        "issue": "6",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "최인수. (2026). 두 거리행렬의 정보 중복성 검정: 캔들 형태 자산 네트워크에 대한 응용. <em>응용통계연구</em>, <em>39</em>(6).",
+            "mla": "최인수. \"두 거리행렬의 정보 중복성 검정: 캔들 형태 자산 네트워크에 대한 응용.\" <em>응용통계연구</em> 39.6 (2026).",
+            "chicago": "최인수. \"두 거리행렬의 정보 중복성 검정: 캔들 형태 자산 네트워크에 대한 응용.\" <em>응용통계연구</em> 39, no. 6 (2026).",
+            "harvard": "최인수 (2026) '두 거리행렬의 정보 중복성 검정: 캔들 형태 자산 네트워크에 대한 응용', <em>응용통계연구</em>, 39(6).",
+            "vancouver": "Choi I. 두 거리행렬의 정보 중복성 검정: 캔들 형태 자산 네트워크에 대한 응용. 응용통계연구. 2026;39(6).",
+            "korean": "최인수. (2026). 두 거리행렬의 정보 중복성 검정: 캔들 형태 자산 네트워크에 대한 응용. 응용통계연구, 39(6).",
+            "bibtex": "@article{choi2026redundancy,\n  title = {{Testing the Informational Redundancy of Two Distance Matrices: An Application to Candle-Shape Asset Networks}},\n  author = {Choi, Insu},\n  journal = {Korean Journal of Applied Statistics},\n  volume = {39},\n  number = {6},\n  year = {2026},\n}"
+        }
+    },
+    {
+        "type": "journal",
+        "indexing_group": "KCI",
+        "code_label": "J",
+        "published_date": "2026-12-31",
+        "year": 2026,
+        "title": "Industry Classification Consistency of Stock Typologies Derived from Latent Representations of Trading Patterns",
+        "title_ko": "거래패턴 잠재표현 기반 종목 유형화와 표준산업분류와의 정합성 분석",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "Journal of Korean Institute of Information Technology",
+        "venue_ko": "한국정보기술학회논문지",
+        "volume": "24",
+        "issue": "12",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "최인수. (2026). 거래패턴 잠재표현 기반 종목 유형화와 표준산업분류와의 정합성 분석. <em>한국정보기술학회논문지</em>, <em>24</em>(12).",
+            "mla": "최인수. \"거래패턴 잠재표현 기반 종목 유형화와 표준산업분류와의 정합성 분석.\" <em>한국정보기술학회논문지</em> 24.12 (2026).",
+            "chicago": "최인수. \"거래패턴 잠재표현 기반 종목 유형화와 표준산업분류와의 정합성 분석.\" <em>한국정보기술학회논문지</em> 24, no. 12 (2026).",
+            "harvard": "최인수 (2026) '거래패턴 잠재표현 기반 종목 유형화와 표준산업분류와의 정합성 분석', <em>한국정보기술학회논문지</em>, 24(12).",
+            "vancouver": "Choi I. 거래패턴 잠재표현 기반 종목 유형화와 표준산업분류와의 정합성 분석. 한국정보기술학회논문지. 2026;24(12).",
+            "korean": "최인수. (2026). 거래패턴 잠재표현 기반 종목 유형화와 표준산업분류와의 정합성 분석. 한국정보기술학회논문지, 24(12).",
+            "bibtex": "@article{choi2026typology,\n  title = {{Industry Classification Consistency of Stock Typologies Derived from Latent Representations of Trading Patterns}},\n  author = {Choi, Insu},\n  journal = {Journal of Korean Institute of Information Technology},\n  volume = {24},\n  number = {12},\n  year = {2026},\n}"
+        }
+    },
+    {
+        "type": "journal",
+        "indexing_group": "SCIE",
+        "code_label": "J",
+        "published_date": "2026-09-15",
+        "year": 2026,
+        "title": "Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation",
+        "authors": [
+            20,
+            141,
+            8,
+            158,
+            159,
+            1
+        ],
+        "author_marks": [
+            "1",
+            "1",
+            "1",
+            "2",
+            "2",
+            "*"
+        ],
+        "venue": "Applied Intelligence",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "English",
+        "awards": 0,
+        "citations": {
+            "apa": "Lim, S., Ahn, H., Lee, T. K., Kim, G., Lim, S., & Choi, I. (2026). Dynamic risk budgeting via large language models: A context-aware framework for adaptive portfolio allocation. <em>Applied Intelligence</em>.",
+            "mla": "Lim, Soyoung, et al. \"Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation.\" <em>Applied Intelligence</em>, 2026.",
+            "chicago": "Lim, Soyoung, Hyungmin Ahn, Tae Kyoung Lee, Gayeon Kim, Sunghun Lim, and Insu Choi. \"Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation.\" <em>Applied Intelligence</em> (2026).",
+            "harvard": "Lim, S., Ahn, H., Lee, T.K., Kim, G., Lim, S. & Choi, I. (2026) 'Dynamic risk budgeting via large language models: A context-aware framework for adaptive portfolio allocation', <em>Applied Intelligence</em>.",
+            "vancouver": "Lim S, Ahn H, Lee TK, Kim G, Lim S, Choi I. Dynamic risk budgeting via large language models: A context-aware framework for adaptive portfolio allocation. Applied Intelligence. 2026.",
+            "bibtex": "@article{lim2026dynamic,\n  title = {{Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation}},\n  author = {Lim, Soyoung and Ahn, Hyungmin and Lee, Tae Kyoung and Kim, Gayeon and Lim, Sunghun and Choi, Insu},\n  journal = {Applied Intelligence},\n  year = {2026},\n}"
+        }
     }
 ]
