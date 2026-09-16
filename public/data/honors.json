@@ -1261,6 +1261,21 @@
           "level": "lab_intern"
         }
       ]
+    },
+    {
+      "type": "award",
+      "icon": "🏆",
+      "title": "장려상",
+      "title_en": "Encouragement Award",
+      "event": "한국스마트미디어학회 학술대회 명칭 공모전",
+      "organization": "한국스마트미디어학회",
+      "date": "Sep 4",
+      "winners": [
+        {
+          "name": "최인수",
+          "level": "phd"
+        }
+      ]
     }
   ]
 }

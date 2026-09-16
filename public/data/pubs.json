@@ -9829,5 +9829,37 @@
             "vancouver": "Lim S, Ahn H, Lee TK, Kim G, Lim S, Choi I. Dynamic risk budgeting via large language models: A context-aware framework for adaptive portfolio allocation. Applied Intelligence. 2026.",
             "bibtex": "@article{lim2026dynamic,\n  title = {{Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation}},\n  author = {Lim, Soyoung and Ahn, Hyungmin and Lee, Tae Kyoung and Kim, Gayeon and Lim, Sunghun and Choi, Insu},\n  journal = {Applied Intelligence},\n  year = {2026},\n}"
         }
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-12-04",
+        "year": 2026,
+        "title": "Normalization Choices and the Measurement of Price Discreteness in Equity Markets",
+        "title_ko": "가격제한폭과 호가단위 임계점을 이용한 가격 이산성 지표 분석",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Fall Conference of the Knowledge Management Society Korea (KMSK)",
+        "venue_ko": "2026 한국지식경영학회 추계학술대회",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "Choi, I. (2026). Normalization Choices and the Measurement of Price Discreteness in Equity Markets. 2026 Fall Conference of the Knowledge Management Society Korea (KMSK).",
+            "mla": "Choi, Insu. \"Normalization Choices and the Measurement of Price Discreteness in Equity Markets.\" 2026 Fall Conference of the Knowledge Management Society Korea (KMSK), 2026.",
+            "chicago": "Choi, Insu. \"Normalization Choices and the Measurement of Price Discreteness in Equity Markets.\" Paper presented at 2026 Fall Conference of the Knowledge Management Society Korea (KMSK), 2026.",
+            "harvard": "Choi, I. (2026) 'Normalization Choices and the Measurement of Price Discreteness in Equity Markets', 2026 Fall Conference of the Knowledge Management Society Korea (KMSK).",
+            "vancouver": "Choi I. Normalization Choices and the Measurement of Price Discreteness in Equity Markets. 2026 Fall Conference of the Knowledge Management Society Korea (KMSK); 2026.",
+            "korean": "최인수. (2026). 가격제한폭과 호가단위 임계점을 이용한 가격 이산성 지표 분석. 2026 한국지식경영학회 추계학술대회.",
+            "bibtex": "@inproceedings{choi2026discreteness,\n  title = {{Normalization Choices and the Measurement of Price Discreteness in Equity Markets}},\n  author = {Choi, Insu},\n  booktitle = {2026 Fall Conference of the Knowledge Management Society Korea (KMSK)},\n  year = {2026},\n}"
+        }
     }
 ]
