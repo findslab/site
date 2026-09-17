@@ -9765,8 +9765,8 @@
         "code_label": "J",
         "published_date": "2026-12-31",
         "year": 2026,
-        "title": "Industry Classification Consistency of Stock Typologies Derived from Latent Representations of Trading Patterns",
-        "title_ko": "거래패턴 잠재표현 기반 종목 유형화와 표준산업분류와의 정합성 분석",
+        "title": "Autoencoder-Based Latent Representations of Trading Patterns for Stock Typology and Industry Classification Consistency",
+        "title_ko": "오토인코더 기반 거래패턴 잠재표현을 활용한 종목 유형화와 산업분류 정합성 분석",
         "authors": [
             1
         ],
@@ -9782,13 +9782,13 @@
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "최인수. (2026). 거래패턴 잠재표현 기반 종목 유형화와 표준산업분류와의 정합성 분석. <em>한국정보기술학회논문지</em>, <em>24</em>(12).",
-            "mla": "최인수. \"거래패턴 잠재표현 기반 종목 유형화와 표준산업분류와의 정합성 분석.\" <em>한국정보기술학회논문지</em> 24.12 (2026).",
-            "chicago": "최인수. \"거래패턴 잠재표현 기반 종목 유형화와 표준산업분류와의 정합성 분석.\" <em>한국정보기술학회논문지</em> 24, no. 12 (2026).",
-            "harvard": "최인수 (2026) '거래패턴 잠재표현 기반 종목 유형화와 표준산업분류와의 정합성 분석', <em>한국정보기술학회논문지</em>, 24(12).",
-            "vancouver": "Choi I. 거래패턴 잠재표현 기반 종목 유형화와 표준산업분류와의 정합성 분석. 한국정보기술학회논문지. 2026;24(12).",
-            "korean": "최인수. (2026). 거래패턴 잠재표현 기반 종목 유형화와 표준산업분류와의 정합성 분석. 한국정보기술학회논문지, 24(12).",
-            "bibtex": "@article{choi2026typology,\n  title = {{Industry Classification Consistency of Stock Typologies Derived from Latent Representations of Trading Patterns}},\n  author = {Choi, Insu},\n  journal = {Journal of Korean Institute of Information Technology},\n  volume = {24},\n  number = {12},\n  year = {2026},\n}"
+            "apa": "최인수. (2026). 오토인코더 기반 거래패턴 잠재표현을 활용한 종목 유형화와 산업분류 정합성 분석. <em>한국정보기술학회논문지</em>, <em>24</em>(12).",
+            "mla": "최인수. \"오토인코더 기반 거래패턴 잠재표현을 활용한 종목 유형화와 산업분류 정합성 분석.\" <em>한국정보기술학회논문지</em> 24.12 (2026).",
+            "chicago": "최인수. \"오토인코더 기반 거래패턴 잠재표현을 활용한 종목 유형화와 산업분류 정합성 분석.\" <em>한국정보기술학회논문지</em> 24, no. 12 (2026).",
+            "harvard": "최인수 (2026) '오토인코더 기반 거래패턴 잠재표현을 활용한 종목 유형화와 산업분류 정합성 분석', <em>한국정보기술학회논문지</em>, 24(12).",
+            "vancouver": "Choi I. 오토인코더 기반 거래패턴 잠재표현을 활용한 종목 유형화와 산업분류 정합성 분석. 한국정보기술학회논문지. 2026;24(12).",
+            "korean": "최인수. (2026). 오토인코더 기반 거래패턴 잠재표현을 활용한 종목 유형화와 산업분류 정합성 분석. 한국정보기술학회논문지, 24(12).",
+            "bibtex": "@article{choi2026typology,\n  title = {{Autoencoder-Based Latent Representations of Trading Patterns for Stock Typology and Industry Classification Consistency}},\n  author = {Choi, Insu},\n  journal = {Journal of Korean Institute of Information Technology},\n  volume = {24},\n  number = {12},\n  year = {2026},\n}"
         }
     },
     {
@@ -9860,6 +9860,82 @@
             "vancouver": "Choi I. Normalization Choices and the Measurement of Price Discreteness in Equity Markets. 2026 Fall Conference of the Knowledge Management Society Korea (KMSK); 2026.",
             "korean": "최인수. (2026). 가격제한폭과 호가단위 임계점을 이용한 가격 이산성 지표 분석. 2026 한국지식경영학회 추계학술대회.",
             "bibtex": "@inproceedings{choi2026discreteness,\n  title = {{Normalization Choices and the Measurement of Price Discreteness in Equity Markets}},\n  author = {Choi, Insu},\n  booktitle = {2026 Fall Conference of the Knowledge Management Society Korea (KMSK)},\n  year = {2026},\n}"
+        }
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-11-14",
+        "year": 2026,
+        "title": "An Empirical Study on the Tone of Corporate Disclosure Texts and Stock Price Reactions",
+        "title_ko": "기업 보고 텍스트의 어조와 주가반응에 관한 실증연구",
+        "authors": [
+            180,
+            1
+        ],
+        "author_marks": [
+            "1",
+            "*"
+        ],
+        "venue": "2026 Fall Conference of the Korean Data and Information Science Society (KDISS)",
+        "venue_ko": "2026 한국데이터정보과학회 추계학술논문발표회",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "presentation_type": "Oral",
+        "citations": {
+            "apa": "Shin, J. Y., Choi, I. (2026). An Empirical Study on the Tone of Corporate Disclosure Texts and Stock Price Reactions. 2026 Fall Conference of the Korean Data and Information Science Society (KDISS).",
+            "mla": "Ji Young Shin, Insu Choi. \"An Empirical Study on the Tone of Corporate Disclosure Texts and Stock Price Reactions.\" 2026 Fall Conference of the Korean Data and Information Science Society (KDISS), 2026.",
+            "chicago": "Ji Young Shin, Insu Choi. \"An Empirical Study on the Tone of Corporate Disclosure Texts and Stock Price Reactions.\" Paper presented at 2026 Fall Conference of the Korean Data and Information Science Society (KDISS), 2026.",
+            "harvard": "Shin, J. Y., Choi, I. (2026) 'An Empirical Study on the Tone of Corporate Disclosure Texts and Stock Price Reactions', 2026 Fall Conference of the Korean Data and Information Science Society (KDISS).",
+            "vancouver": "Shin JY, Choi I. An Empirical Study on the Tone of Corporate Disclosure Texts and Stock Price Reactions. 2026 Fall Conference of the Korean Data and Information Science Society (KDISS); 2026.",
+            "korean": "신지영, 최인수. (2026). 기업 보고 텍스트의 어조와 주가반응에 관한 실증연구. 2026 한국데이터정보과학회 추계학술논문발표회.",
+            "bibtex": "@inproceedings{shin2026tone,\n  title = {{An Empirical Study on the Tone of Corporate Disclosure Texts and Stock Price Reactions}},\n  author = {Shin, Ji Young and Choi, Insu},\n  booktitle = {2026 Fall Conference of the Korean Data and Information Science Society (KDISS)},\n  year = {2026},\n}"
+        }
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-11-14",
+        "year": 2026,
+        "title": "Exchange Rate Volatility Transmission to Interest Rates and the Disconnect in Business Cycle Predictability",
+        "title_ko": "환율변동성의 금리시장 전달과 경기 예측력의 단절에 관한 연구",
+        "authors": [
+            183,
+            184,
+            181,
+            182,
+            1
+        ],
+        "author_marks": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "*"
+        ],
+        "venue": "2026 Fall Conference of the Korean Data and Information Science Society (KDISS)",
+        "venue_ko": "2026 한국데이터정보과학회 추계학술논문발표회",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "presentation_type": "Oral",
+        "citations": {
+            "apa": "Joung, H., Bang, C., Oh, J., Hwang, Y. E., Choi, I. (2026). Exchange Rate Volatility Transmission to Interest Rates and the Disconnect in Business Cycle Predictability. 2026 Fall Conference of the Korean Data and Information Science Society (KDISS).",
+            "mla": "Hawon Joung, Chaewon Bang, Jiwon Oh, Ye Eun Hwang, Insu Choi. \"Exchange Rate Volatility Transmission to Interest Rates and the Disconnect in Business Cycle Predictability.\" 2026 Fall Conference of the Korean Data and Information Science Society (KDISS), 2026.",
+            "chicago": "Hawon Joung, Chaewon Bang, Jiwon Oh, Ye Eun Hwang, Insu Choi. \"Exchange Rate Volatility Transmission to Interest Rates and the Disconnect in Business Cycle Predictability.\" Paper presented at 2026 Fall Conference of the Korean Data and Information Science Society (KDISS), 2026.",
+            "harvard": "Joung, H., Bang, C., Oh, J., Hwang, Y. E., Choi, I. (2026) 'Exchange Rate Volatility Transmission to Interest Rates and the Disconnect in Business Cycle Predictability', 2026 Fall Conference of the Korean Data and Information Science Society (KDISS).",
+            "vancouver": "Joung H, Bang C, Oh J, Hwang YE, Choi I. Exchange Rate Volatility Transmission to Interest Rates and the Disconnect in Business Cycle Predictability. 2026 Fall Conference of the Korean Data and Information Science Society (KDISS); 2026.",
+            "korean": "정하원, 방채원, 오지원, 황예은, 최인수. (2026). 환율변동성의 금리시장 전달과 경기 예측력의 단절에 관한 연구. 2026 한국데이터정보과학회 추계학술논문발표회.",
+            "bibtex": "@inproceedings{joung2026exchange,\n  title = {{Exchange Rate Volatility Transmission to Interest Rates and the Disconnect in Business Cycle Predictability}},\n  author = {Joung, Hawon and Bang, Chaewon and Oh, Jiwon and Hwang, Ye Eun and Choi, Insu},\n  booktitle = {2026 Fall Conference of the Korean Data and Information Science Society (KDISS)},\n  year = {2026},\n}"
         }
     }
 ]
