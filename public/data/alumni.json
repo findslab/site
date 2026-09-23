@@ -23,10 +23,11 @@
                 }
             ],
             "cohortName": "1st Cohort (2025 Winter)",
-            "currentPosition": "재학생",
+            "currentPosition": "석사과정\n경영공학부\n한국과학기술원",
             "projects": [
                 "Confidence Index-Based Trading Filter Framework (C-index)"
-            ]
+            ],
+            "currentPositionEn": "M.S. Student\nSchool of Business and Technology Management\nKAIST"
         },
         {
             "name": "고현우",

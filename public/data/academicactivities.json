@@ -863,6 +863,15 @@
             "type": "KCI",
             "since": "2026-09-03",
             "url": "https://www.kais.or.kr"
+        },
+        {
+            "id": 96,
+            "category": "conference",
+            "name": "IEEE Symposium Series on Computational Intelligence (IEEE SSCI 2027) — IEEE Symposium on Computational Intelligence for Financial Engineering and Economics (CIFEr)",
+            "publisher": "IEEE",
+            "type": "Conference",
+            "period": "2026-09",
+            "url": "https://ieeessci.org/"
         }
     ]
 }
