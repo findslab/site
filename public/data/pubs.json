@@ -725,10 +725,10 @@
         "language": "English",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I., Kim, W. (2026). Navigating the Flow: Unveiling Directional Information Transfer in Commodity Markets with Transfer Entropy and Moving Window Analysis. <em>Complexity</em>.",
+            "apa": "Choi, I., & Kim, W. (2026). Navigating the Flow: Unveiling Directional Information Transfer in Commodity Markets with Transfer Entropy and Moving Window Analysis. <em>Complexity</em>.",
             "mla": "Insu Choi, and Woo Chang Kim. \"Navigating the Flow: Unveiling Directional Information Transfer in Commodity Markets with Transfer Entropy and Moving Window Analysis.\" <em>Complexity</em> (2026).",
             "chicago": "Insu Choi, and Woo Chang Kim. \"Navigating the Flow: Unveiling Directional Information Transfer in Commodity Markets with Transfer Entropy and Moving Window Analysis.\" <em>Complexity</em> (2026).",
-            "harvard": "Choi, I., Kim, W. (2026) 'navigating the flow: unveiling directional information transfer in commodity markets with transfer entropy and moving window analysis', <em>Complexity</em>.",
+            "harvard": "Choi, I., & Kim, W. (2026) 'navigating the flow: unveiling directional information transfer in commodity markets with transfer entropy and moving window analysis', <em>Complexity</em>.",
             "vancouver": "Choi I Kim WC. Navigating the Flow: Unveiling Directional Information Transfer in Commodity Markets with Transfer Entropy and Moving Window Analysis. Complexity. 2026.",
             "bibtex": "@article{choi2026navigating,\n  title = {{Navigating the Flow: Unveiling Directional Information Transfer in Commodity Markets with Transfer Entropy and Moving Window Analysis}},\n  author = {Insu Choi, and Woo Chang Kim},\n  journal = {Complexity},\n  year = {2026}\n}"
         },
@@ -783,7 +783,7 @@
             "2",
             "2"
         ],
-        "venue": "2025 Fall Conference of the Korean Career · Entrepreneurship & Business Association (KCEBA)",
+        "venue": "2025 Fall Conference of the Korean Career, Entrepreneurship & Business Association (KCEBA)",
         "venue_ko": "2025 한국진로창업경영학회 추계학술대회",
         "presentation_type": "oral",
         "language": "Korean",
@@ -793,17 +793,17 @@
             "prize_ko": "우수논문상",
             "category": "Management Research Track",
             "category_ko": "경영 연구 부문",
-            "organization": "Korean Career · Entrepreneurship & Business Association",
-            "organization_ko": "한국진로·창업경영학회"
+            "organization": "Korean Career, Entrepreneurship & Business Association",
+            "organization_ko": "한국진로창업경영학회"
         },
         "citations": {
-            "apa": "Choi, I., Kim, Y., You, N., & Lee, C. (2025, December 5). Graph-based analysis of research trends in fintech and digital finance [Paper presentation]. 2025 Fall Conference of the Korean Career · Entrepreneurship & Business Association.",
-            "mla": "Choi, Insu, et al. \"Graph-based Analysis of Research Trends in Fintech and Digital Finance.\" 2025 Fall Conference of the Korean Career · Entrepreneurship & Business Association, 5 Dec. 2025.",
-            "chicago": "Choi, Insu, Yejin Kim, Nagyu You, and Chaea Lee. \"Graph-based Analysis of Research Trends in Fintech and Digital Finance.\" Paper presented at the 2025 Fall Conference of the Korean Career · Entrepreneurship & Business Association, December 5, 2025.",
-            "harvard": "Choi, I., Kim, Y., You, N. & Lee, C. (2025) 'Graph-based analysis of research trends in fintech and digital finance', paper presented at the 2025 Fall Conference of the Korean Career · Entrepreneurship & Business Association, 5 December.",
-            "vancouver": "Choi I, Kim Y, You N, Lee C. Graph-based analysis of research trends in fintech and digital finance. Paper presented at: 2025 Fall Conference of the Korean Career · Entrepreneurship & Business Association; 2025 Dec 5.",
-            "korean": "최인수, 김예진, 유나규, 이채아. (2025). 그래프 기반 핀테크 및 디지털 금융 연구 동향 분석. 2025 한국진로·창업경영학회 추계학술대회 발표논문.",
-            "bibtex": "@inproceedings{choi2025graphbased,\n  title = {{Graph-based analysis of research trends in fintech and digital finance}},\n  author = {Choi, I., Kim, Y., You, N. and Lee, C.},\n  booktitle = {2025 Fall Conference of the Korean Career · Entrepreneurship & Business Association (KCEBA)},\n  year = {2025},\n}"
+            "apa": "Choi, I., Kim, Y., You, N., & Lee, C. (2025, December 5). Graph-based analysis of research trends in fintech and digital finance [Paper presentation]. 2025 Fall Conference of the Korean Career, Entrepreneurship & Business Association.",
+            "mla": "Choi, Insu, et al. \"Graph-based Analysis of Research Trends in Fintech and Digital Finance.\" 2025 Fall Conference of the Korean Career, Entrepreneurship & Business Association, 5 Dec. 2025.",
+            "chicago": "Choi, Insu, Yejin Kim, Nagyu You, and Chaea Lee. \"Graph-based Analysis of Research Trends in Fintech and Digital Finance.\" Paper presented at the 2025 Fall Conference of the Korean Career, Entrepreneurship & Business Association, December 5, 2025.",
+            "harvard": "Choi, I., Kim, Y., You, N. & Lee, C. (2025) 'Graph-based analysis of research trends in fintech and digital finance', paper presented at the 2025 Fall Conference of the Korean Career, Entrepreneurship & Business Association, 5 December.",
+            "vancouver": "Choi I, Kim Y, You N, Lee C. Graph-based analysis of research trends in fintech and digital finance. Paper presented at: 2025 Fall Conference of the Korean Career, Entrepreneurship & Business Association; 2025 Dec 5.",
+            "korean": "최인수, 김예진, 유나규, 이채아. (2025). 그래프 기반 핀테크 및 디지털 금융 연구 동향 분석. 2025 한국진로창업경영학회 추계학술대회 발표논문.",
+            "bibtex": "@inproceedings{choi2025graphbased,\n  title = {{Graph-based analysis of research trends in fintech and digital finance}},\n  author = {Choi, I., Kim, Y., You, N. and Lee, C.},\n  booktitle = {2025 Fall Conference of the Korean Career, Entrepreneurship & Business Association (KCEBA)},\n  year = {2025},\n}"
         }
     },
     {
@@ -820,7 +820,7 @@
         "author_marks": [
             "1,*"
         ],
-        "venue": "2025 Fall Conference of the Korean Academic Society of Business Administration (KASBA)",
+        "venue": "2025 Fall Conference of the Korean Academic Association of Business Administration",
         "venue_ko": "2025 대한경영학회 추계학술대회",
         "presentation_type": "oral",
         "language": "Korean",
@@ -832,7 +832,7 @@
             "harvard": "Choi, I. (2025) 'Examining the best lag effects in the dynamic causality analysis of Bitcoin's Kimchi premium: A comprehensive temporal dependency approach', paper presented at the 2025 Fall Conference of the Korean Academic Society of Business Administration, 5 December.",
             "vancouver": "Choi I. Examining the best lag effects in the dynamic causality analysis of Bitcoin's Kimchi premium: A comprehensive temporal dependency approach. Paper presented at: 2025 Fall Conference of the Korean Academic Society of Business Administration; 2025 Dec 5.",
             "korean": "최인수. (2025). 비트코인 김치 프리미엄의 동적 인과 관계 분석에서 최적의 시차 효과 탐구. 2025 대한경영학회 추계학술대회 발표논문.",
-            "bibtex": "@inproceedings{choi2025examining,\n  title = {{Examining the best lag effects in the dynamic causality analysis of Bitcoin's Kimchi premium: A comprehensive temporal dependency approach}},\n  author = {Choi, I.},\n  booktitle = {2025 Fall Conference of the Korean Academic Society of Business Administration (KASBA)},\n  year = {2025},\n}"
+            "bibtex": "@inproceedings{choi2025examining,\n  title = {{Examining the best lag effects in the dynamic causality analysis of Bitcoin's Kimchi premium: A comprehensive temporal dependency approach}},\n  author = {Choi, I.},\n  booktitle = {2025 Fall Conference of the Korean Academic Association of Business Administration},\n  year = {2025},\n}"
         }
     },
     {
@@ -858,10 +858,10 @@
         "language": "English",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I., Shim, E. (2025). Housing–Fertility Interdependencies in South Korea: A Dynamic Analysis Across Regional Disparities and Temporal Shifts. <em>Asian Journal of Social Science</em>, <em>53</em>(4), 100221. https://doi.org/10.1016/j.ajss.2025.100221",
+            "apa": "Choi, I., & Shim, E. (2025). Housing–Fertility Interdependencies in South Korea: A Dynamic Analysis Across Regional Disparities and Temporal Shifts. <em>Asian Journal of Social Science</em>, <em>53</em>(4), 100221. https://doi.org/10.1016/j.ajss.2025.100221",
             "mla": "Insu Choi, and Eun Shim. \"Housing–Fertility Interdependencies in South Korea: A Dynamic Analysis Across Regional Disparities and Temporal Shifts.\" <em>Asian Journal of Social Science</em> 53.4 (2025): 100221.",
             "chicago": "Insu Choi, and Eun Shim. \"Housing–Fertility Interdependencies in South Korea: A Dynamic Analysis Across Regional Disparities and Temporal Shifts.\" <em>Asian Journal of Social Science</em> 53, no. 4 (2025): 100221.",
-            "harvard": "Choi, I., Shim, E. (2025) 'Housing–Fertility Interdependencies in South Korea: A Dynamic Analysis Across Regional Disparities and Temporal Shifts', <em>Asian Journal of Social Science</em>, 53(4), 100221.",
+            "harvard": "Choi, I., & Shim, E. (2025) 'Housing–Fertility Interdependencies in South Korea: A Dynamic Analysis Across Regional Disparities and Temporal Shifts', <em>Asian Journal of Social Science</em>, 53(4), 100221.",
             "vancouver": "Choi I Shim E. Housing–Fertility Interdependencies in South Korea: A Dynamic Analysis Across Regional Disparities and Temporal Shifts. Asian Journal of Social Science. 2025;53(4):100221.",
             "bibtex": "@article{ref2025housing–fe,\n  title = {{Housing–Fertility Interdependencies in South Korea: A Dynamic Analysis Across Regional Disparities and Temporal Shifts}},\n  author = {Insu Choi, and Eun Shim},\n  journal = {Asian Journal of Social Science},\n  volume = {53},\n  number = {4},\n  year = {2025},\n  doi = {10.1016/j.ajss.2025.100221}\n}"
         }
@@ -2313,7 +2313,7 @@
             "bibtex": "@inproceedings{choi2024comparative,\n  title = {{Comparative Analysis of Regional Economy and Real Estate Market Indicators on Birth Rates Using Explainable Machine Learning and Multivariate Models}},\n  author = {Choi, I., An, S., Shim, E., Lim, S., Choi, Y. and Kim, W. C.},\n  booktitle = {2024 Summer Conference of the Korean Data Analysis Society (KDAS)},\n  year = {2024},\n}",
             "mla": "Insu Choi, Sua An, Eun Shim, Soyoung Lim, Yeona Choi, and Woo Chang Kim. \"Comparative Analysis of Regional Economy and Real Estate Market Indicators on Birth Rates Using Explainable Machine Learning and Multivariate Models.\" <em>2024 Summer Conference of the Korean Data Analysis Society (KDAS)</em> . (2024).",
             "chicago": "Insu Choi, Sua An, Eun Shim, Soyoung Lim, Yeona Choi, and Woo Chang Kim. \"Comparative Analysis of Regional Economy and Real Estate Market Indicators on Birth Rates Using Explainable Machine Learning and Multivariate Models.\" <em>2024 Summer Conference of the Korean Data Analysis Society (KDAS)</em> , no.  (2024).",
-            "harvard": "Choi, I., An, S., Shim, E., Lim, S., Choi, Y., Kim, W. (2024) 'comparative analysis of regional economy and real estate market indicators on birth rates using explainable machine learning and multivariate models', <em>2024 Summer Conference of the Korean Data Analysis Society (KDAS)</em>.",
+            "harvard": "Choi, I., An, S., Shim, E., Lim, S., Choi, Y., & Kim, W. (2024) 'comparative analysis of regional economy and real estate market indicators on birth rates using explainable machine learning and multivariate models', <em>2024 Summer Conference of the Korean Data Analysis Society (KDAS)</em>.",
             "vancouver": "Choi I An S Shim E Lim S Choi Y Kim WC. Comparative Analysis of Regional Economy and Real Estate Market Indicators on Birth Rates Using Explainable Machine Learning and Multivariate Models. 2024 Summer Conference of the Korean Data Analysis Society (KDAS). 2024.",
             "korean": "최인수, 안수아, 심은, 임소영, 최연아, 김우창. (2024). 설명 가능한 기계 학습 모형과 다변량 모형을 활용한 지역 경제와 부동산 시장 지표가 출산율에 미치는 영향의 비교 분석. 2024 한국자료분석학회 하계학술논문발표대회."
         }
@@ -4743,10 +4743,10 @@
         "language": "English",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I., Yun, W., Kim, W. (2025). Improving Data Efficiency for Analyzing Global Exchange Rate Fluctuations Based on Nonlinear Causal Network-Based Clustering. <em>Annals of Operations Research</em>, <em>352</em>(3), 745-780. https://doi.org/10.1007/s10479-022-05101-8",
+            "apa": "Choi, I., Yun, W., & Kim, W. (2025). Improving Data Efficiency for Analyzing Global Exchange Rate Fluctuations Based on Nonlinear Causal Network-Based Clustering. <em>Annals of Operations Research</em>, <em>352</em>(3), 745-780. https://doi.org/10.1007/s10479-022-05101-8",
             "mla": "Insu Choi, Wonje Yun, and Woo Chang Kim. \"Improving Data Efficiency for Analyzing Global Exchange Rate Fluctuations Based on Nonlinear Causal Network-Based Clustering.\" <em>Annals of Operations Research</em> 352.3 (2025): 745-780.",
             "chicago": "Insu Choi, Wonje Yun, and Woo Chang Kim. \"Improving Data Efficiency for Analyzing Global Exchange Rate Fluctuations Based on Nonlinear Causal Network-Based Clustering.\" <em>Annals of Operations Research</em> 352, no. 3 (2025): 745-780.",
-            "harvard": "Choi, I., Yun, W., Kim, W. (2025) 'Improving Data Efficiency for Analyzing Global Exchange Rate Fluctuations Based on Nonlinear Causal Network-Based Clustering', <em>Annals of Operations Research</em>, 352(3), 745-780.",
+            "harvard": "Choi, I., Yun, W., & Kim, W. (2025) 'Improving Data Efficiency for Analyzing Global Exchange Rate Fluctuations Based on Nonlinear Causal Network-Based Clustering', <em>Annals of Operations Research</em>, 352(3), 745-780.",
             "vancouver": "Choi I Yun W Kim WC. Improving Data Efficiency for Analyzing Global Exchange Rate Fluctuations Based on Nonlinear Causal Network-Based Clustering. Annals of Operations Research. 2025;352(3):745-780.",
             "bibtex": "@article{ref2025improving,\n  title = {{Improving Data Efficiency for Analyzing Global Exchange Rate Fluctuations Based on Nonlinear Causal Network-Based Clustering}},\n  author = {Insu Choi, Wonje Yun, and Woo Chang Kim},\n  journal = {Annals of Operations Research},\n  volume = {352},\n  number = {3},\n  year = {2025},\n  doi = {10.1007/s10479-022-05101-8}\n}"
         }
@@ -7120,10 +7120,10 @@
         "language": "Korean",
         "awards": 1,
         "citations": {
-            "apa": "Ahn, H., Lee, T., Lim, S., Choi, I. (2026). Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation. 2026 Spring Conference of the Korean Data and Information Science Society.",
+            "apa": "Ahn, H., Lee, T., Lim, S., & Choi, I. (2026). Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation. 2026 Spring Conference of the Korean Data and Information Science Society.",
             "mla": "Hyungmin Ahn, Tae Kyoung Lee, Soyoung Lim, and Insu Choi. \"Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation.\" 2026 Spring Conference of the Korean Data and Information Science Society, 2026.",
             "chicago": "Hyungmin Ahn, Tae Kyoung Lee, Soyoung Lim, and Insu Choi. \"Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation.\" 2026 Spring Conference of the Korean Data and Information Science Society, 2026.",
-            "harvard": "Ahn, H., Lee, T., Lim, S., Choi, I. (2026) 'dynamic risk budgeting via large language models: a context-aware framework for adaptive portfolio allocation', 2026 Spring Conference of the Korean Data and Information Science Society.",
+            "harvard": "Ahn, H., Lee, T., Lim, S., & Choi, I. (2026) 'dynamic risk budgeting via large language models: a context-aware framework for adaptive portfolio allocation', 2026 Spring Conference of the Korean Data and Information Science Society.",
             "vancouver": "Ahn H Lee TK Lim S Choi I. Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation. 2026 Spring Conference of the Korean Data and Information Science Society. 2026.",
             "korean": "안형민, 이태경, 임소영, 최인수. (2026). 대규모 언어 모형을 활용한 동적 위험 예산 배분: 맥락 인식 적응형 포트폴리오 배분 프레임워크. 2026 한국데이터정보과학회 춘계학술논문발표회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation}},\n  author = {Hyungmin Ahn, Tae Kyoung Lee, Soyoung Lim, and Insu Choi},\n  booktitle = {2026 Spring Conference of the Korean Data and Information Science Society},\n  year = {2026}\n}"
@@ -7358,7 +7358,7 @@
         "author_marks": [
             "1,*"
         ],
-        "venue": "2026 Spring Conference of the Korean Society for Career and Entrepreneurship Management (KSCEM)",
+        "venue": "2026 Spring Conference of the Korean Career, Entrepreneurship & Business Association (KCEBA)",
         "venue_ko": "2026 한국진로창업경영학회 춘계학술대회",
         "volume": "",
         "issue": "",
@@ -7674,10 +7674,10 @@
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "Kim, K., Choi, I. (2026). Structural Sensitivity of CVaR-Based Portfolio Optimization: How Stress Scenario Specification Affects Optimal Allocation. 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering.",
+            "apa": "Kim, K., & Choi, I. (2026). Structural Sensitivity of CVaR-Based Portfolio Optimization: How Stress Scenario Specification Affects Optimal Allocation. 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering.",
             "mla": "Kang Hyun Kim, and Insu Choi. \"Structural Sensitivity of CVaR-Based Portfolio Optimization: How Stress Scenario Specification Affects Optimal Allocation.\" 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering, 2026.",
             "chicago": "Kang Hyun Kim, and Insu Choi. \"Structural Sensitivity of CVaR-Based Portfolio Optimization: How Stress Scenario Specification Affects Optimal Allocation.\" 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering, 2026.",
-            "harvard": "Kim, K., Choi, I. (2026) 'structural sensitivity of cvar-based portfolio optimization: how stress scenario specification affects optimal allocation', 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering.",
+            "harvard": "Kim, K., & Choi, I. (2026) 'structural sensitivity of cvar-based portfolio optimization: how stress scenario specification affects optimal allocation', 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering.",
             "vancouver": "Kim KH Choi I. Structural Sensitivity of CVaR-Based Portfolio Optimization: How Stress Scenario Specification Affects Optimal Allocation. 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering. 2026.",
             "korean": "김강현, 최인수. (2026). CVaR 기반 포트폴리오 최적화의 구조적 민감도 분석: 스트레스 시나리오 설정이 최적 배분에 미치는 영향. 2026 한국산업경영시스템학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Structural Sensitivity of CVaR-Based Portfolio Optimization: How Stress Scenario Specification Affects Optimal Allocation}},\n  author = {Kang Hyun Kim, and Insu Choi},\n  booktitle = {2026 Spring Conference of the Society of Korea Industrial and Systems Engineering},\n  year = {2026}\n}"
@@ -7709,10 +7709,10 @@
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "Choi, M., Choi, I. (2026). Uncertainty Propagation and Information Flow Between Maritime Logistics Cost Indices and the Korean Capital Market. 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering.",
+            "apa": "Choi, M., & Choi, I. (2026). Uncertainty Propagation and Information Flow Between Maritime Logistics Cost Indices and the Korean Capital Market. 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering.",
             "mla": "Mun-Hyeok Choi, and Insu Choi. \"Uncertainty Propagation and Information Flow Between Maritime Logistics Cost Indices and the Korean Capital Market.\" 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering, 2026.",
             "chicago": "Mun-Hyeok Choi, and Insu Choi. \"Uncertainty Propagation and Information Flow Between Maritime Logistics Cost Indices and the Korean Capital Market.\" 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering, 2026.",
-            "harvard": "Choi, M., Choi, I. (2026) 'uncertainty propagation and information flow between maritime logistics cost indices and the korean capital market', 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering.",
+            "harvard": "Choi, M., & Choi, I. (2026) 'uncertainty propagation and information flow between maritime logistics cost indices and the korean capital market', 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering.",
             "vancouver": "Choi M Choi I. Uncertainty Propagation and Information Flow Between Maritime Logistics Cost Indices and the Korean Capital Market. 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering. 2026.",
             "korean": "최문혁, 최인수. (2026). 해상 물류 비용 지표와 한국 자본시장 간 불확실성 전파와 정보 흐름 분석. 2026 한국산업경영시스템학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Uncertainty Propagation and Information Flow Between Maritime Logistics Cost Indices and the Korean Capital Market}},\n  author = {Mun-Hyeok Choi, and Insu Choi},\n  booktitle = {2026 Spring Conference of the Society of Korea Industrial and Systems Engineering},\n  year = {2026}\n}"
@@ -7744,10 +7744,10 @@
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "Yeonhu, K., Choi, I. (2026). Comparing Tail Risk Spillover Structures in Global Equity Markets: A VaR Versus CVaR Network Approach. 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering.",
+            "apa": "Yeonhu, K., & Choi, I. (2026). Comparing Tail Risk Spillover Structures in Global Equity Markets: A VaR Versus CVaR Network Approach. 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering.",
             "mla": "Kim Yeonhu, and Insu Choi. \"Comparing Tail Risk Spillover Structures in Global Equity Markets: A VaR Versus CVaR Network Approach.\" 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering, 2026.",
             "chicago": "Kim Yeonhu, and Insu Choi. \"Comparing Tail Risk Spillover Structures in Global Equity Markets: A VaR Versus CVaR Network Approach.\" 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering, 2026.",
-            "harvard": "Yeonhu, K., Choi, I. (2026) 'comparing tail risk spillover structures in global equity markets: a var versus cvar network approach', 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering.",
+            "harvard": "Yeonhu, K., & Choi, I. (2026) 'comparing tail risk spillover structures in global equity markets: a var versus cvar network approach', 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering.",
             "vancouver": "Yeonhu K Choi I. Comparing Tail Risk Spillover Structures in Global Equity Markets: A VaR Versus CVaR Network Approach. 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering. 2026.",
             "korean": "김연후, 최인수. (2026). VaR 네트워크와 CVaR 네트워크를 활용한 글로벌 주식시장 꼬리 위험 전이 구조 비교. 2026 한국산업경영시스템학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Comparing Tail Risk Spillover Structures in Global Equity Markets: A VaR Versus CVaR Network Approach}},\n  author = {Kim Yeonhu, and Insu Choi},\n  booktitle = {2026 Spring Conference of the Society of Korea Industrial and Systems Engineering},\n  year = {2026}\n}"
@@ -7779,10 +7779,10 @@
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "Seung-Min, H., Choi, I. (2026). Constructing a Stock Price Network of Korean Defense Industry Firms. 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering.",
+            "apa": "Seung-Min, H., & Choi, I. (2026). Constructing a Stock Price Network of Korean Defense Industry Firms. 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering.",
             "mla": "Ha Seung-Min, and Insu Choi. \"Constructing a Stock Price Network of Korean Defense Industry Firms.\" 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering, 2026.",
             "chicago": "Ha Seung-Min, and Insu Choi. \"Constructing a Stock Price Network of Korean Defense Industry Firms.\" 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering, 2026.",
-            "harvard": "Seung-Min, H., Choi, I. (2026) 'constructing a stock price network of korean defense industry firms', 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering.",
+            "harvard": "Seung-Min, H., & Choi, I. (2026) 'constructing a stock price network of korean defense industry firms', 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering.",
             "vancouver": "Seung-Min H Choi I. Constructing a Stock Price Network of Korean Defense Industry Firms. 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering. 2026.",
             "korean": "하승민, 최인수. (2026). 국내 방위산업 주식의 주가 네트워크 구축. 2026 한국산업경영시스템학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Constructing a Stock Price Network of Korean Defense Industry Firms}},\n  author = {Ha Seung-Min, and Insu Choi},\n  booktitle = {2026 Spring Conference of the Society of Korea Industrial and Systems Engineering},\n  year = {2026}\n}"
@@ -7814,10 +7814,10 @@
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "Choi, J., Choi, I. (2026). Evaluating Prediction-Driven Trading Strategies in Sector ETFs: A Comparison of Machine Learning and Time-Series Models. 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering.",
+            "apa": "Choi, J., & Choi, I. (2026). Evaluating Prediction-Driven Trading Strategies in Sector ETFs: A Comparison of Machine Learning and Time-Series Models. 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering.",
             "mla": "Jeenu Choi, and Insu Choi. \"Evaluating Prediction-Driven Trading Strategies in Sector ETFs: A Comparison of Machine Learning and Time-Series Models.\" 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering, 2026.",
             "chicago": "Jeenu Choi, and Insu Choi. \"Evaluating Prediction-Driven Trading Strategies in Sector ETFs: A Comparison of Machine Learning and Time-Series Models.\" 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering, 2026.",
-            "harvard": "Choi, J., Choi, I. (2026) 'evaluating prediction-driven trading strategies in sector etfs: a comparison of machine learning and time-series models', 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering.",
+            "harvard": "Choi, J., & Choi, I. (2026) 'evaluating prediction-driven trading strategies in sector etfs: a comparison of machine learning and time-series models', 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering.",
             "vancouver": "Choi J Choi I. Evaluating Prediction-Driven Trading Strategies in Sector ETFs: A Comparison of Machine Learning and Time-Series Models. 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering. 2026.",
             "korean": "최진우, 최인수. (2026). 섹터 ETF 시장에서 예측 기반 매매 전략 평가: 기계학습과 시계열 모형의 비교. 2026 한국산업경영시스템학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Evaluating Prediction-Driven Trading Strategies in Sector ETFs: A Comparison of Machine Learning and Time-Series Models}},\n  author = {Jeenu Choi, and Insu Choi},\n  booktitle = {2026 Spring Conference of the Society of Korea Industrial and Systems Engineering},\n  year = {2026}\n}"
@@ -7849,10 +7849,10 @@
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "Ko, H., Choi, I. (2026). Predicting Stock Price Direction with Technical Indicators and Statistical Significance Testing. 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering.",
+            "apa": "Ko, H., & Choi, I. (2026). Predicting Stock Price Direction with Technical Indicators and Statistical Significance Testing. 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering.",
             "mla": "Hyunwoo Ko, and Insu Choi. \"Predicting Stock Price Direction with Technical Indicators and Statistical Significance Testing.\" 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering, 2026.",
             "chicago": "Hyunwoo Ko, and Insu Choi. \"Predicting Stock Price Direction with Technical Indicators and Statistical Significance Testing.\" 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering, 2026.",
-            "harvard": "Ko, H., Choi, I. (2026) 'predicting stock price direction with technical indicators and statistical significance testing', 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering.",
+            "harvard": "Ko, H., & Choi, I. (2026) 'predicting stock price direction with technical indicators and statistical significance testing', 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering.",
             "vancouver": "Ko H Choi I. Predicting Stock Price Direction with Technical Indicators and Statistical Significance Testing. 2026 Spring Conference of the Society of Korea Industrial and Systems Engineering. 2026.",
             "korean": "고현우, 최인수. (2026). 기술적 분석 지표를 활용한 주가 변동 방향 예측과 통계적 유의성 검증. 2026 한국산업경영시스템학회 춘계학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Predicting Stock Price Direction with Technical Indicators and Statistical Significance Testing}},\n  author = {Hyunwoo Ko, and Insu Choi},\n  booktitle = {2026 Spring Conference of the Society of Korea Industrial and Systems Engineering},\n  year = {2026}\n}"
@@ -8115,10 +8115,10 @@
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "Yuseop, L., Choi, I. (2026). Enhancing Backtest Reliability Through Time-Series Resampling Techniques. 2026 Spring Joint Conference of KIIE, KORMS, and KSS.",
+            "apa": "Yuseop, L., & Choi, I. (2026). Enhancing Backtest Reliability Through Time-Series Resampling Techniques. 2026 Spring Joint Conference of KIIE, KORMS, and KSS.",
             "mla": "Lee Yuseop, and Insu Choi. \"Enhancing Backtest Reliability Through Time-Series Resampling Techniques.\" 2026 Spring Joint Conference of KIIE, KORMS, and KSS, 2026.",
             "chicago": "Lee Yuseop, and Insu Choi. \"Enhancing Backtest Reliability Through Time-Series Resampling Techniques.\" 2026 Spring Joint Conference of KIIE, KORMS, and KSS, 2026.",
-            "harvard": "Yuseop, L., Choi, I. (2026) 'enhancing backtest reliability through time-series resampling techniques', 2026 Spring Joint Conference of KIIE, KORMS, and KSS.",
+            "harvard": "Yuseop, L., & Choi, I. (2026) 'enhancing backtest reliability through time-series resampling techniques', 2026 Spring Joint Conference of KIIE, KORMS, and KSS.",
             "vancouver": "Yuseop L Choi I. Enhancing Backtest Reliability Through Time-Series Resampling Techniques. 2026 Spring Joint Conference of KIIE, KORMS, and KSS. 2026.",
             "korean": "이유섭, 최인수. (2026). 시계열 재표본 기법을 활용한 모의검증 신뢰도 제고 방안. 2026 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Enhancing Backtest Reliability Through Time-Series Resampling Techniques}},\n  author = {Lee Yuseop, and Insu Choi},\n  booktitle = {2026 Spring Joint Conference of KIIE, KORMS, and KSS},\n  year = {2026}\n}"
@@ -8150,10 +8150,10 @@
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "Lee, C., Choi, I. (2026). Survival Analysis and Early Warning Model for Café Businesses in Seoul Metropolitan Area. 2026 Spring Joint Conference of KIIE, KORMS, and KSS.",
+            "apa": "Lee, C., & Choi, I. (2026). Survival Analysis and Early Warning Model for Café Businesses in Seoul Metropolitan Area. 2026 Spring Joint Conference of KIIE, KORMS, and KSS.",
             "mla": "Chae-Eun Lee, and Insu Choi. \"Survival Analysis and Early Warning Model for Café Businesses in Seoul Metropolitan Area.\" 2026 Spring Joint Conference of KIIE, KORMS, and KSS, 2026.",
             "chicago": "Chae-Eun Lee, and Insu Choi. \"Survival Analysis and Early Warning Model for Café Businesses in Seoul Metropolitan Area.\" 2026 Spring Joint Conference of KIIE, KORMS, and KSS, 2026.",
-            "harvard": "Lee, C., Choi, I. (2026) 'survival analysis and early warning model for café businesses in seoul metropolitan area', 2026 Spring Joint Conference of KIIE, KORMS, and KSS.",
+            "harvard": "Lee, C., & Choi, I. (2026) 'survival analysis and early warning model for café businesses in seoul metropolitan area', 2026 Spring Joint Conference of KIIE, KORMS, and KSS.",
             "vancouver": "Lee C Choi I. Survival Analysis and Early Warning Model for Café Businesses in Seoul Metropolitan Area. 2026 Spring Joint Conference of KIIE, KORMS, and KSS. 2026.",
             "korean": "이채은, 최인수. (2026). 서울특별시 카페 상권의 생존 분석과 폐업 조기경보 모형. 2026 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Survival Analysis and Early Warning Model for Café Businesses in Seoul Metropolitan Area}},\n  author = {Chae-Eun Lee, and Insu Choi},\n  booktitle = {2026 Spring Joint Conference of KIIE, KORMS, and KSS},\n  year = {2026}\n}"
@@ -8255,10 +8255,10 @@
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "Kim, D., Kim, J., Yang, D., Choi, I. (2026). Multimodal Quality Risk Quantification and Modality Contribution Analysis Framework. 2026 Spring Joint Conference of KIIE, KORMS, and KSS.",
+            "apa": "Kim, D., Kim, J., Yang, D., & Choi, I. (2026). Multimodal Quality Risk Quantification and Modality Contribution Analysis Framework. 2026 Spring Joint Conference of KIIE, KORMS, and KSS.",
             "mla": "Dain Kim, Jaeyeob Kim, Donghoon Yang, and Insu Choi. \"Multimodal Quality Risk Quantification and Modality Contribution Analysis Framework.\" 2026 Spring Joint Conference of KIIE, KORMS, and KSS, 2026.",
             "chicago": "Dain Kim, Jaeyeob Kim, Donghoon Yang, and Insu Choi. \"Multimodal Quality Risk Quantification and Modality Contribution Analysis Framework.\" 2026 Spring Joint Conference of KIIE, KORMS, and KSS, 2026.",
-            "harvard": "Kim, D., Kim, J., Yang, D., Choi, I. (2026) 'multimodal quality risk quantification and modality contribution analysis framework', 2026 Spring Joint Conference of KIIE, KORMS, and KSS.",
+            "harvard": "Kim, D., Kim, J., Yang, D., & Choi, I. (2026) 'multimodal quality risk quantification and modality contribution analysis framework', 2026 Spring Joint Conference of KIIE, KORMS, and KSS.",
             "vancouver": "Kim D Kim J Yang D Choi I. Multimodal Quality Risk Quantification and Modality Contribution Analysis Framework. 2026 Spring Joint Conference of KIIE, KORMS, and KSS. 2026.",
             "korean": "김다인, 김재엽, 양동훈, 최인수. (2026). 멀티모달 품질 리스크 정량화 및 모달리티 기여도 분석 프레임워크. 2026 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Multimodal Quality Risk Quantification and Modality Contribution Analysis Framework}},\n  author = {Dain Kim, Jaeyeob Kim, Donghoon Yang, and Insu Choi},\n  booktitle = {2026 Spring Joint Conference of KIIE, KORMS, and KSS},\n  year = {2026}\n}"
@@ -8323,10 +8323,10 @@
         "language": "Korean",
         "awards": 0,
         "citations": {
-            "apa": "Lee, S., Choi, I. (2026). Asymmetric Effects of Big Data Sentiment Index and Public Attention on Stock Returns. 2026 Spring Joint Conference of KIIE, KORMS, and KSS.",
+            "apa": "Lee, S., & Choi, I. (2026). Asymmetric Effects of Big Data Sentiment Index and Public Attention on Stock Returns. 2026 Spring Joint Conference of KIIE, KORMS, and KSS.",
             "mla": "Sung Jun Lee, and Insu Choi. \"Asymmetric Effects of Big Data Sentiment Index and Public Attention on Stock Returns.\" 2026 Spring Joint Conference of KIIE, KORMS, and KSS, 2026.",
             "chicago": "Sung Jun Lee, and Insu Choi. \"Asymmetric Effects of Big Data Sentiment Index and Public Attention on Stock Returns.\" 2026 Spring Joint Conference of KIIE, KORMS, and KSS, 2026.",
-            "harvard": "Lee, S., Choi, I. (2026) 'asymmetric effects of big data sentiment index and public attention on stock returns', 2026 Spring Joint Conference of KIIE, KORMS, and KSS.",
+            "harvard": "Lee, S., & Choi, I. (2026) 'asymmetric effects of big data sentiment index and public attention on stock returns', 2026 Spring Joint Conference of KIIE, KORMS, and KSS.",
             "vancouver": "Lee SJ Choi I. Asymmetric Effects of Big Data Sentiment Index and Public Attention on Stock Returns. 2026 Spring Joint Conference of KIIE, KORMS, and KSS. 2026.",
             "korean": "이성준, 최인수. (2026). 빅데이터 심리지수(NSI)와 대중 관심(SVI)의 상호작용이 주식 수익률에 미치는 비대칭적 영향. 2026 대한산업공학회–한국경영과학회–한국시뮬레이션학회 춘계공동학술대회.",
             "bibtex": "@inproceedings{choi2026conf,\n  title = {{Asymmetric Effects of Big Data Sentiment Index and Public Attention on Stock Returns}},\n  author = {Sung Jun Lee, and Insu Choi},\n  booktitle = {2026 Spring Joint Conference of KIIE, KORMS, and KSS},\n  year = {2026}\n}"
@@ -8347,7 +8347,7 @@
         "author_marks": [
             "1,*"
         ],
-        "venue": "2026 Spring Conference of the Korean Academic Society of Business Administration (KASBA)",
+        "venue": "2026 Spring Conference of the Korean Academic Association of Business Administration",
         "venue_ko": "2026 대한경영학회 춘계학술대회",
         "volume": "",
         "issue": "",
@@ -9323,10 +9323,10 @@
         "awards": 0,
         "presentation_type": "oral",
         "citations": {
-            "apa": "Kim, J., Shin, S., Lee, J., Jung, Y., Choi, I. (2026). Industry Heterogeneity in Market-Adjusted Interest-Rate Exposure. 2026 Fall Conference of the Korean Operations Research and Management Science Society (KORMS).",
+            "apa": "Kim, J., Shin, S., Lee, J., Jung, Y., & Choi, I. (2026). Industry Heterogeneity in Market-Adjusted Interest-Rate Exposure. 2026 Fall Conference of the Korean Operations Research and Management Science Society (KORMS).",
             "mla": "Jiwoo Kim, Soohyun Shin, Jeonghyeon Lee, Yeonjin Jung, Insu Choi. \"Industry Heterogeneity in Market-Adjusted Interest-Rate Exposure.\" 2026 Fall Conference of the Korean Operations Research and Management Science Society (KORMS), 2026.",
             "chicago": "Jiwoo Kim, Soohyun Shin, Jeonghyeon Lee, Yeonjin Jung, Insu Choi. \"Industry Heterogeneity in Market-Adjusted Interest-Rate Exposure.\" Paper presented at 2026 Fall Conference of the Korean Operations Research and Management Science Society (KORMS), 2026.",
-            "harvard": "Kim, J., Shin, S., Lee, J., Jung, Y., Choi, I. (2026) 'Industry Heterogeneity in Market-Adjusted Interest-Rate Exposure', 2026 Fall Conference of the Korean Operations Research and Management Science Society (KORMS).",
+            "harvard": "Kim, J., Shin, S., Lee, J., Jung, Y., & Choi, I. (2026) 'Industry Heterogeneity in Market-Adjusted Interest-Rate Exposure', 2026 Fall Conference of the Korean Operations Research and Management Science Society (KORMS).",
             "vancouver": "Kim J, Shin S, Lee J, Jung Y, Choi I. Industry Heterogeneity in Market-Adjusted Interest-Rate Exposure. 2026 Fall Conference of the Korean Operations Research and Management Science Society (KORMS); 2026.",
             "korean": "김지우, 신수현, 정연진, 이정현, 최인수. (2026). 시장수익률을 통제한 산업별 금리노출의 이질성에 관한 연구. 2026 한국경영과학회 추계학술대회.",
             "bibtex": "@inproceedings{choi2026,\n  title = {{Industry Heterogeneity in Market-Adjusted Interest-Rate Exposure}},\n  author = {Kim, Jiwoo and Shin, Soohyun and Lee, Jeonghyeon and Jung, Yeonjin and Choi, Insu},\n  booktitle = {2026 Fall Conference of the Korean Operations Research and Management Science Society (KORMS)},\n  year = {2026},\n}"
@@ -9600,7 +9600,7 @@
         "type": "conference",
         "indexing_group": "Domestic Conference",
         "code_label": "C",
-        "published_date": "2026-11-13",
+        "published_date": "2026-11-12",
         "year": 2026,
         "title": "The Effect of Noise Filtering in the Multivariate Risk Structure on the Downside Risk of Equal Risk Contribution Portfolios",
         "title_ko": "다변량 위험 구조의 노이즈 필터링이 위험균등 포트폴리오 하방위험에 미치는 영향",
@@ -9668,8 +9668,8 @@
         "code_label": "C",
         "published_date": "2026-11-27",
         "year": 2026,
-        "title": "A Constraint-Natural Parameterization for Domain-Valid Counterfactual Explanations of Stock Time Series",
-        "title_ko": "주가 시계열 반사실적 설명의 도메인 타당성 확보를 위한 제약 자연 좌표계에 관한 연구",
+        "title": "Ensuring Logical Consistency of AI-Generated Explanations through Search-Space Design",
+        "title_ko": "탐색 공간 설계를 통한 인공지능 설명 산출물의 규칙 정합성 보장 방안",
         "authors": [
             1
         ],
@@ -9686,13 +9686,13 @@
         "awards": 0,
         "presentation_type": "oral",
         "citations": {
-            "apa": "Choi, I. (2026). A Constraint-Natural Parameterization for Domain-Valid Counterfactual Explanations of Stock Time Series. 2026 Fall Conference of the Korean Institute of Intelligent Systems (KIIS).",
-            "mla": "Insu Choi. \"A Constraint-Natural Parameterization for Domain-Valid Counterfactual Explanations of Stock Time Series.\" 2026 Fall Conference of the Korean Institute of Intelligent Systems (KIIS), 2026.",
-            "chicago": "Insu Choi. \"A Constraint-Natural Parameterization for Domain-Valid Counterfactual Explanations of Stock Time Series.\" Paper presented at 2026 Fall Conference of the Korean Institute of Intelligent Systems (KIIS), 2026.",
-            "harvard": "Choi, I. (2026) 'A Constraint-Natural Parameterization for Domain-Valid Counterfactual Explanations of Stock Time Series', 2026 Fall Conference of the Korean Institute of Intelligent Systems (KIIS).",
-            "vancouver": "Choi I. A Constraint-Natural Parameterization for Domain-Valid Counterfactual Explanations of Stock Time Series. 2026 Fall Conference of the Korean Institute of Intelligent Systems (KIIS); 2026.",
-            "korean": "최인수. (2026). 주가 시계열 반사실적 설명의 도메인 타당성 확보를 위한 제약 자연 좌표계에 관한 연구. 2026 한국지능시스템학회 추계학술대회.",
-            "bibtex": "@inproceedings{choi2026,\n  title = {{A Constraint-Natural Parameterization for Domain-Valid Counterfactual Explanations of Stock Time Series}},\n  author = {Choi, Insu},\n  booktitle = {2026 Fall Conference of the Korean Institute of Intelligent Systems (KIIS)},\n  year = {2026},\n}"
+            "apa": "Choi, I. (2026). Ensuring Logical Consistency of AI-Generated Explanations through Search-Space Design. 2026 Fall Conference of the Korean Institute of Intelligent Systems (KIIS).",
+            "mla": "Insu Choi. \"Ensuring Logical Consistency of AI-Generated Explanations through Search-Space Design.\" 2026 Fall Conference of the Korean Institute of Intelligent Systems (KIIS), 2026.",
+            "chicago": "Insu Choi. \"Ensuring Logical Consistency of AI-Generated Explanations through Search-Space Design.\" Paper presented at 2026 Fall Conference of the Korean Institute of Intelligent Systems (KIIS), 2026.",
+            "harvard": "Choi, I. (2026) 'Ensuring Logical Consistency of AI-Generated Explanations through Search-Space Design', 2026 Fall Conference of the Korean Institute of Intelligent Systems (KIIS).",
+            "vancouver": "Choi I. Ensuring Logical Consistency of AI-Generated Explanations through Search-Space Design. 2026 Fall Conference of the Korean Institute of Intelligent Systems (KIIS); 2026.",
+            "korean": "최인수. (2026). 탐색 공간 설계를 통한 인공지능 설명 산출물의 규칙 정합성 보장 방안. 2026 한국지능시스템학회 추계학술대회.",
+            "bibtex": "@inproceedings{choi2026,\n  title = {{Ensuring Logical Consistency of AI-Generated Explanations through Search-Space Design}},\n  author = {Choi, Insu},\n  booktitle = {2026 Fall Conference of the Korean Institute of Intelligent Systems (KIIS)},\n  year = {2026},\n}"
         }
     },
     {
@@ -9860,7 +9860,8 @@
             "vancouver": "Choi I. Normalization Choices and the Measurement of Price Discreteness in Equity Markets. 2026 Fall Conference of the Knowledge Management Society Korea (KMSK); 2026.",
             "korean": "최인수. (2026). 가격제한폭과 호가단위 임계점을 이용한 가격 이산성 지표 분석. 2026 한국지식경영학회 추계학술대회.",
             "bibtex": "@inproceedings{choi2026discreteness,\n  title = {{Normalization Choices and the Measurement of Price Discreteness in Equity Markets}},\n  author = {Choi, Insu},\n  booktitle = {2026 Fall Conference of the Knowledge Management Society Korea (KMSK)},\n  year = {2026},\n}"
-        }
+        },
+        "presentation_type": "oral"
     },
     {
         "type": "conference",
@@ -9886,12 +9887,12 @@
         "doi": "",
         "language": "Korean",
         "awards": 0,
-        "presentation_type": "oral",
+        "presentation_type": "poster",
         "citations": {
-            "apa": "Shin, J. Y., Choi, I. (2026). An Empirical Study on the Tone of Corporate Disclosure Texts and Stock Price Reactions. 2026 Fall Conference of the Korean Data and Information Science Society (KDISS).",
+            "apa": "Shin, J. Y., & Choi, I. (2026). An Empirical Study on the Tone of Corporate Disclosure Texts and Stock Price Reactions. 2026 Fall Conference of the Korean Data and Information Science Society (KDISS).",
             "mla": "Ji Young Shin, Insu Choi. \"An Empirical Study on the Tone of Corporate Disclosure Texts and Stock Price Reactions.\" 2026 Fall Conference of the Korean Data and Information Science Society (KDISS), 2026.",
             "chicago": "Ji Young Shin, Insu Choi. \"An Empirical Study on the Tone of Corporate Disclosure Texts and Stock Price Reactions.\" Paper presented at 2026 Fall Conference of the Korean Data and Information Science Society (KDISS), 2026.",
-            "harvard": "Shin, J. Y., Choi, I. (2026) 'An Empirical Study on the Tone of Corporate Disclosure Texts and Stock Price Reactions', 2026 Fall Conference of the Korean Data and Information Science Society (KDISS).",
+            "harvard": "Shin, J. Y., & Choi, I. (2026) 'An Empirical Study on the Tone of Corporate Disclosure Texts and Stock Price Reactions', 2026 Fall Conference of the Korean Data and Information Science Society (KDISS).",
             "vancouver": "Shin JY, Choi I. An Empirical Study on the Tone of Corporate Disclosure Texts and Stock Price Reactions. 2026 Fall Conference of the Korean Data and Information Science Society (KDISS); 2026.",
             "korean": "신지영, 최인수. (2026). 기업 보고 텍스트의 어조와 주가반응에 관한 실증연구. 2026 한국데이터정보과학회 추계학술논문발표회.",
             "bibtex": "@inproceedings{shin2026tone,\n  title = {{An Empirical Study on the Tone of Corporate Disclosure Texts and Stock Price Reactions}},\n  author = {Shin, Ji Young and Choi, Insu},\n  booktitle = {2026 Fall Conference of the Korean Data and Information Science Society (KDISS)},\n  year = {2026},\n}"
@@ -9927,12 +9928,12 @@
         "doi": "",
         "language": "Korean",
         "awards": 0,
-        "presentation_type": "oral",
+        "presentation_type": "poster",
         "citations": {
-            "apa": "Joung, H., Bang, C., Oh, J., Hwang, Y. E., Choi, I. (2026). Exchange Rate Volatility Transmission to Interest Rates and the Disconnect in Business Cycle Predictability. 2026 Fall Conference of the Korean Data and Information Science Society (KDISS).",
+            "apa": "Joung, H., Bang, C., Oh, J., Hwang, Y. E., & Choi, I. (2026). Exchange Rate Volatility Transmission to Interest Rates and the Disconnect in Business Cycle Predictability. 2026 Fall Conference of the Korean Data and Information Science Society (KDISS).",
             "mla": "Hawon Joung, Chaewon Bang, Jiwon Oh, Ye Eun Hwang, Insu Choi. \"Exchange Rate Volatility Transmission to Interest Rates and the Disconnect in Business Cycle Predictability.\" 2026 Fall Conference of the Korean Data and Information Science Society (KDISS), 2026.",
             "chicago": "Hawon Joung, Chaewon Bang, Jiwon Oh, Ye Eun Hwang, Insu Choi. \"Exchange Rate Volatility Transmission to Interest Rates and the Disconnect in Business Cycle Predictability.\" Paper presented at 2026 Fall Conference of the Korean Data and Information Science Society (KDISS), 2026.",
-            "harvard": "Joung, H., Bang, C., Oh, J., Hwang, Y. E., Choi, I. (2026) 'Exchange Rate Volatility Transmission to Interest Rates and the Disconnect in Business Cycle Predictability', 2026 Fall Conference of the Korean Data and Information Science Society (KDISS).",
+            "harvard": "Joung, H., Bang, C., Oh, J., Hwang, Y. E., & Choi, I. (2026) 'Exchange Rate Volatility Transmission to Interest Rates and the Disconnect in Business Cycle Predictability', 2026 Fall Conference of the Korean Data and Information Science Society (KDISS).",
             "vancouver": "Joung H, Bang C, Oh J, Hwang YE, Choi I. Exchange Rate Volatility Transmission to Interest Rates and the Disconnect in Business Cycle Predictability. 2026 Fall Conference of the Korean Data and Information Science Society (KDISS); 2026.",
             "korean": "정하원, 방채원, 오지원, 황예은, 최인수. (2026). 환율변동성의 금리시장 전달과 경기 예측력의 단절에 관한 연구. 2026 한국데이터정보과학회 추계학술논문발표회.",
             "bibtex": "@inproceedings{joung2026exchange,\n  title = {{Exchange Rate Volatility Transmission to Interest Rates and the Disconnect in Business Cycle Predictability}},\n  author = {Joung, Hawon and Bang, Chaewon and Oh, Jiwon and Hwang, Ye Eun and Choi, Insu},\n  booktitle = {2026 Fall Conference of the Korean Data and Information Science Society (KDISS)},\n  year = {2026},\n}"
@@ -9980,10 +9981,16 @@
         "title": "Complementing Overlap Candidate Screening and Review Procedures for Youth-Targeted National Subsidy Programs Using Korean Embeddings and Lexical Measures",
         "title_ko": "한국어 임베딩과 어휘 지표를 함께 활용한 청년 국고보조사업 간 중첩 후보 선별 및 검토 절차의 보완 연구",
         "authors": [
+            187,
+            177,
+            178,
             1
         ],
         "author_marks": [
-            "1,*"
+            "1",
+            "1",
+            "1",
+            "*"
         ],
         "venue": "2026 Fall Conference of the Korea Society of Industrial Convergence (KSIC)",
         "venue_ko": "2026 한국산업융합학회 추계학술대회",
@@ -9995,13 +10002,13 @@
         "awards": 0,
         "presentation_type": "poster",
         "citations": {
-            "apa": "Choi, I. (2026). Complementing Overlap Candidate Screening and Review Procedures for Youth-Targeted National Subsidy Programs Using Korean Embeddings and Lexical Measures. 2026 Fall Conference of the Korea Society of Industrial Convergence (KSIC).",
-            "mla": "Choi, Insu. \"Complementing Overlap Candidate Screening and Review Procedures for Youth-Targeted National Subsidy Programs Using Korean Embeddings and Lexical Measures.\" 2026 Fall Conference of the Korea Society of Industrial Convergence (KSIC), 2026.",
-            "chicago": "Choi, Insu. \"Complementing Overlap Candidate Screening and Review Procedures for Youth-Targeted National Subsidy Programs Using Korean Embeddings and Lexical Measures.\" Paper presented at 2026 Fall Conference of the Korea Society of Industrial Convergence (KSIC), 2026.",
-            "harvard": "Choi, I. (2026) 'Complementing Overlap Candidate Screening and Review Procedures for Youth-Targeted National Subsidy Programs Using Korean Embeddings and Lexical Measures', 2026 Fall Conference of the Korea Society of Industrial Convergence (KSIC).",
-            "vancouver": "Choi I. Complementing Overlap Candidate Screening and Review Procedures for Youth-Targeted National Subsidy Programs Using Korean Embeddings and Lexical Measures. 2026 Fall Conference of the Korea Society of Industrial Convergence (KSIC); 2026.",
-            "korean": "최인수. (2026). 한국어 임베딩과 어휘 지표를 함께 활용한 청년 국고보조사업 간 중첩 후보 선별 및 검토 절차의 보완 연구. 2026 한국산업융합학회 추계학술대회.",
-            "bibtex": "@inproceedings{choi2026subsidy,\n  title = {{Complementing Overlap Candidate Screening and Review Procedures for Youth-Targeted National Subsidy Programs Using Korean Embeddings and Lexical Measures}},\n  author = {Choi, Insu},\n  booktitle = {2026 Fall Conference of the Korea Society of Industrial Convergence (KSIC)},\n  year = {2026},\n}"
+            "apa": "Lee, C., Jeong, Y., Kim, D. Y., & Choi, I. (2026). Complementing Overlap Candidate Screening and Review Procedures for Youth-Targeted National Subsidy Programs Using Korean Embeddings and Lexical Measures. 2026 Fall Conference of the Korea Society of Industrial Convergence (KSIC).",
+            "mla": "Chaemin Lee, Yumin Jeong, Do Yi Kim, Insu Choi. \"Complementing Overlap Candidate Screening and Review Procedures for Youth-Targeted National Subsidy Programs Using Korean Embeddings and Lexical Measures.\" 2026 Fall Conference of the Korea Society of Industrial Convergence (KSIC), 2026.",
+            "chicago": "Chaemin Lee, Yumin Jeong, Do Yi Kim, Insu Choi. \"Complementing Overlap Candidate Screening and Review Procedures for Youth-Targeted National Subsidy Programs Using Korean Embeddings and Lexical Measures.\" Paper presented at 2026 Fall Conference of the Korea Society of Industrial Convergence (KSIC), 2026.",
+            "harvard": "Lee, C., Jeong, Y., Kim, D. Y., & Choi, I. (2026) 'Complementing Overlap Candidate Screening and Review Procedures for Youth-Targeted National Subsidy Programs Using Korean Embeddings and Lexical Measures', 2026 Fall Conference of the Korea Society of Industrial Convergence (KSIC).",
+            "vancouver": "Lee C, Jeong Y, Kim DY, Choi I. Complementing Overlap Candidate Screening and Review Procedures for Youth-Targeted National Subsidy Programs Using Korean Embeddings and Lexical Measures. 2026 Fall Conference of the Korea Society of Industrial Convergence (KSIC); 2026.",
+            "korean": "이채민, 정유민, 김도이, 최인수. (2026). 한국어 임베딩과 어휘 지표를 함께 활용한 청년 국고보조사업 간 중첩 후보 선별 및 검토 절차의 보완 연구. 2026 한국산업융합학회 추계학술대회.",
+            "bibtex": "@inproceedings{lee2026subsidy,\n  title = {{Complementing Overlap Candidate Screening and Review Procedures for Youth-Targeted National Subsidy Programs Using Korean Embeddings and Lexical Measures}},\n  author = {Lee, Chaemin and Jeong, Yumin and Kim, Do Yi and Choi, Insu},\n  booktitle = {2026 Fall Conference of the Korea Society of Industrial Convergence (KSIC)},\n  year = {2026},\n}"
         }
     },
     {
@@ -10195,6 +10202,339 @@
             "harvard": "Choi, I. (2026) 'Cellular-automaton feature extraction from nonstationary financial signals: The information is compositional', <em>Digital Signal Processing</em>.",
             "vancouver": "Choi I. Cellular-automaton feature extraction from nonstationary financial signals: The information is compositional. Digital Signal Processing. 2026.",
             "bibtex": "@article{choi2026cellular,\n  title = {{Cellular-Automaton Feature Extraction from Nonstationary Financial Signals: The Information Is Compositional}},\n  author = {Choi, Insu},\n  journal = {Digital Signal Processing},\n  year = {2026},\n}"
+        }
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-11-20",
+        "year": 2026,
+        "title": "An Ex-Ante Criterion for Selecting the Training Objective of Multi-Step Forecasting Models Based on Validation-Set Predictive Skill",
+        "title_ko": "검증 구간 예측력에 기반한 다단계 예측모형의 학습목적함수 사전 선택 기준",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Joint Fall Conference of the Korea Association of Business and Information and the Korea Society of Information Technology Applications",
+        "venue_ko": "2026년도 대한경영정보학회 - 한국정보기술응용학회 추계공동학술대회",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "Choi, I. (2026). An Ex-Ante Criterion for Selecting the Training Objective of Multi-Step Forecasting Models Based on Validation-Set Predictive Skill. 2026 Joint Fall Conference of the Korea Association of Business and Information and the Korea Society of Information Technology Applications.",
+            "mla": "Choi, Insu. \"An Ex-Ante Criterion for Selecting the Training Objective of Multi-Step Forecasting Models Based on Validation-Set Predictive Skill.\" 2026 Joint Fall Conference of the Korea Association of Business and Information and the Korea Society of Information Technology Applications, 2026.",
+            "chicago": "Choi, Insu. \"An Ex-Ante Criterion for Selecting the Training Objective of Multi-Step Forecasting Models Based on Validation-Set Predictive Skill.\" Paper presented at 2026 Joint Fall Conference of the Korea Association of Business and Information and the Korea Society of Information Technology Applications, 2026.",
+            "harvard": "Choi, I. (2026) 'An Ex-Ante Criterion for Selecting the Training Objective of Multi-Step Forecasting Models Based on Validation-Set Predictive Skill', 2026 Joint Fall Conference of the Korea Association of Business and Information and the Korea Society of Information Technology Applications.",
+            "vancouver": "Choi I. An Ex-Ante Criterion for Selecting the Training Objective of Multi-Step Forecasting Models Based on Validation-Set Predictive Skill. 2026 Joint Fall Conference of the Korea Association of Business and Information and the Korea Society of Information Technology Applications; 2026.",
+            "korean": "최인수. (2026). 검증 구간 예측력에 기반한 다단계 예측모형의 학습목적함수 사전 선택 기준. 2026년도 대한경영정보학회 - 한국정보기술응용학회 추계공동학술대회.",
+            "bibtex": "@inproceedings{choi2026objective,\n  title = {{An Ex-Ante Criterion for Selecting the Training Objective of Multi-Step Forecasting Models Based on Validation-Set Predictive Skill}},\n  author = {Choi, Insu},\n  booktitle = {2026 Joint Fall Conference of the Korea Association of Business and Information and the Korea Society of Information Technology Applications},\n  year = {2026},\n}"
+        },
+        "presentation_type": "oral"
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-12-04",
+        "year": 2026,
+        "title": "Interest Rate Changes and Home-Size Disparities in Mortgage Repayment Burden",
+        "title_ko": "금리 변동에 따른 주택 규모별 상환부담 격차 분석",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Winter Conference of the Korean Association for Policy Studies (KAPS)",
+        "venue_ko": "2026 한국정책학회 동계학술대회",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "Choi, I. (2026). Interest Rate Changes and Home-Size Disparities in Mortgage Repayment Burden. 2026 Winter Conference of the Korean Association for Policy Studies (KAPS).",
+            "mla": "Choi, Insu. \"Interest Rate Changes and Home-Size Disparities in Mortgage Repayment Burden.\" 2026 Winter Conference of the Korean Association for Policy Studies (KAPS), 2026.",
+            "chicago": "Choi, Insu. \"Interest Rate Changes and Home-Size Disparities in Mortgage Repayment Burden.\" Paper presented at 2026 Winter Conference of the Korean Association for Policy Studies (KAPS), 2026.",
+            "harvard": "Choi, I. (2026) 'Interest Rate Changes and Home-Size Disparities in Mortgage Repayment Burden', 2026 Winter Conference of the Korean Association for Policy Studies (KAPS).",
+            "vancouver": "Choi I. Interest Rate Changes and Home-Size Disparities in Mortgage Repayment Burden. 2026 Winter Conference of the Korean Association for Policy Studies (KAPS); 2026.",
+            "korean": "최인수. (2026). 금리 변동에 따른 주택 규모별 상환부담 격차 분석. 2026 한국정책학회 동계학술대회.",
+            "bibtex": "@inproceedings{choi2026mortgage,\n  title = {{Interest Rate Changes and Home-Size Disparities in Mortgage Repayment Burden}},\n  author = {Choi, Insu},\n  booktitle = {2026 Winter Conference of the Korean Association for Policy Studies (KAPS)},\n  year = {2026},\n}"
+        },
+        "presentation_type": "oral"
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-12-04",
+        "year": 2026,
+        "title": "Testing the Effectiveness of Selecting a Small Set of Assets Based on Asset Network Structure: Focusing on Weighting Schemes, Market Regimes, and Transaction Costs",
+        "title_ko": "자산 연결망 구조에 기반한 소수 종목 선별 전략의 실효성 검증: 비중 배분 방식, 시장 국면, 거래비용을 중심으로",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Fall Conference of the Korean Academic Association of Business Administration",
+        "venue_ko": "2026 대한경영학회 추계학술대회",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "Choi, I. (2026). Testing the Effectiveness of Selecting a Small Set of Assets Based on Asset Network Structure: Focusing on Weighting Schemes, Market Regimes, and Transaction Costs. 2026 Fall Conference of the Korean Academic Association of Business Administration.",
+            "mla": "Choi, Insu. \"Testing the Effectiveness of Selecting a Small Set of Assets Based on Asset Network Structure: Focusing on Weighting Schemes, Market Regimes, and Transaction Costs.\" 2026 Fall Conference of the Korean Academic Association of Business Administration, 2026.",
+            "chicago": "Choi, Insu. \"Testing the Effectiveness of Selecting a Small Set of Assets Based on Asset Network Structure: Focusing on Weighting Schemes, Market Regimes, and Transaction Costs.\" Paper presented at 2026 Fall Conference of the Korean Academic Association of Business Administration, 2026.",
+            "harvard": "Choi, I. (2026) 'Testing the Effectiveness of Selecting a Small Set of Assets Based on Asset Network Structure: Focusing on Weighting Schemes, Market Regimes, and Transaction Costs', 2026 Fall Conference of the Korean Academic Association of Business Administration.",
+            "vancouver": "Choi I. Testing the Effectiveness of Selecting a Small Set of Assets Based on Asset Network Structure: Focusing on Weighting Schemes, Market Regimes, and Transaction Costs. 2026 Fall Conference of the Korean Academic Association of Business Administration; 2026.",
+            "korean": "최인수. (2026). 자산 연결망 구조에 기반한 소수 종목 선별 전략의 실효성 검증: 비중 배분 방식, 시장 국면, 거래비용을 중심으로. 2026 대한경영학회 추계학술대회.",
+            "bibtex": "@inproceedings{choi2026assetnetwork,\n  title = {{Testing the Effectiveness of Selecting a Small Set of Assets Based on Asset Network Structure: Focusing on Weighting Schemes, Market Regimes, and Transaction Costs}},\n  author = {Choi, Insu},\n  booktitle = {2026 Fall Conference of the Korean Academic Association of Business Administration},\n  year = {2026},\n}"
+        },
+        "presentation_type": "oral"
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-11-06",
+        "year": 2026,
+        "title": "Dynamic Tail Risk Spillover Networks in Global Stock Markets Across Multiple Crisis Regimes via Expectile Value at Risk",
+        "title_ko": "기대분위 위험가치를 활용한 글로벌 주식시장의 위기 국면별 꼬리위험 전이 네트워크 동태 분석",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Fall Conference of the Korea Management Engineers Society (KMES)",
+        "venue_ko": "2026 한국경영공학회 추계학술대회",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "presentation_type": "oral",
+        "citations": {
+            "apa": "Choi, I. (2026). Dynamic Tail Risk Spillover Networks in Global Stock Markets Across Multiple Crisis Regimes via Expectile Value at Risk. 2026 Fall Conference of the Korea Management Engineers Society (KMES).",
+            "mla": "Choi, Insu. \"Dynamic Tail Risk Spillover Networks in Global Stock Markets Across Multiple Crisis Regimes via Expectile Value at Risk.\" 2026 Fall Conference of the Korea Management Engineers Society (KMES), 2026.",
+            "chicago": "Choi, Insu. \"Dynamic Tail Risk Spillover Networks in Global Stock Markets Across Multiple Crisis Regimes via Expectile Value at Risk.\" Paper presented at 2026 Fall Conference of the Korea Management Engineers Society (KMES), 2026.",
+            "harvard": "Choi, I. (2026) 'Dynamic Tail Risk Spillover Networks in Global Stock Markets Across Multiple Crisis Regimes via Expectile Value at Risk', 2026 Fall Conference of the Korea Management Engineers Society (KMES).",
+            "vancouver": "Choi I. Dynamic Tail Risk Spillover Networks in Global Stock Markets Across Multiple Crisis Regimes via Expectile Value at Risk. 2026 Fall Conference of the Korea Management Engineers Society (KMES); 2026.",
+            "korean": "최인수. (2026). 기대분위 위험가치를 활용한 글로벌 주식시장의 위기 국면별 꼬리위험 전이 네트워크 동태 분석. 2026 한국경영공학회 추계학술대회.",
+            "bibtex": "@inproceedings{choi2026expectile,\n  title = {{Dynamic Tail Risk Spillover Networks in Global Stock Markets Across Multiple Crisis Regimes via Expectile Value at Risk}},\n  author = {Choi, Insu},\n  booktitle = {2026 Fall Conference of the Korea Management Engineers Society (KMES)},\n  year = {2026},\n}"
+        }
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-12-31",
+        "year": 2026,
+        "title": "Land-Price-Led Spillovers and Deepening Co-movement across Korean Real Estate Assets",
+        "title_ko": "토지가격 주도의 가격 파급과 한국 부동산 자산 간 동조화의 심화",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Fall Conference of the Korean Career, Entrepreneurship & Business Association (KCEBA)",
+        "venue_ko": "2026 한국진로창업경영학회 추계학술대회",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "presentation_type": "oral",
+        "citations": {
+            "apa": "Choi, I. (2026). Land-Price-Led Spillovers and Deepening Co-movement across Korean Real Estate Assets. 2026 Fall Conference of the Korean Career, Entrepreneurship & Business Association (KCEBA).",
+            "mla": "Choi, Insu. \"Land-Price-Led Spillovers and Deepening Co-movement across Korean Real Estate Assets.\" 2026 Fall Conference of the Korean Career, Entrepreneurship & Business Association (KCEBA), 2026.",
+            "chicago": "Choi, Insu. \"Land-Price-Led Spillovers and Deepening Co-movement across Korean Real Estate Assets.\" Paper presented at 2026 Fall Conference of the Korean Career, Entrepreneurship & Business Association (KCEBA), 2026.",
+            "harvard": "Choi, I. (2026) 'Land-Price-Led Spillovers and Deepening Co-movement across Korean Real Estate Assets', 2026 Fall Conference of the Korean Career, Entrepreneurship & Business Association (KCEBA).",
+            "vancouver": "Choi I. Land-Price-Led Spillovers and Deepening Co-movement across Korean Real Estate Assets. 2026 Fall Conference of the Korean Career, Entrepreneurship & Business Association (KCEBA); 2026.",
+            "korean": "최인수. (2026). 토지가격 주도의 가격 파급과 한국 부동산 자산 간 동조화의 심화. 2026 한국진로창업경영학회 추계학술대회.",
+            "bibtex": "@inproceedings{choi2026landprice,\n  title = {{Land-Price-Led Spillovers and Deepening Co-movement across Korean Real Estate Assets}},\n  author = {Choi, Insu},\n  booktitle = {2026 Fall Conference of the Korean Career, Entrepreneurship & Business Association (KCEBA)},\n  year = {2026},\n}"
+        }
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-12-31",
+        "year": 2026,
+        "title": "Examining Return Non-Normality and the Discrepancy of Linear and Nonlinear Directional Information Flow Measures in the Korean Sector ETF Market",
+        "title_ko": "한국 섹터 ETF 시장에서 수익률 분포의 비정규성과 선형·비선형 방향성 정보 흐름 측정치 간 불일치 규명",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)",
+        "venue_ko": "2026 대한산업공학회 추계학술대회",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "presentation_type": "oral",
+        "citations": {
+            "apa": "Choi, I. (2026). Examining Return Non-Normality and the Discrepancy of Linear and Nonlinear Directional Information Flow Measures in the Korean Sector ETF Market. 2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE).",
+            "mla": "Insu Choi. \"Examining Return Non-Normality and the Discrepancy of Linear and Nonlinear Directional Information Flow Measures in the Korean Sector ETF Market.\" 2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE), 2026.",
+            "chicago": "Insu Choi. \"Examining Return Non-Normality and the Discrepancy of Linear and Nonlinear Directional Information Flow Measures in the Korean Sector ETF Market.\" Paper presented at 2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE), 2026.",
+            "harvard": "Choi, I. (2026) 'Examining Return Non-Normality and the Discrepancy of Linear and Nonlinear Directional Information Flow Measures in the Korean Sector ETF Market', 2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE).",
+            "vancouver": "Choi I. Examining Return Non-Normality and the Discrepancy of Linear and Nonlinear Directional Information Flow Measures in the Korean Sector ETF Market. 2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE); 2026.",
+            "korean": "최인수. (2026). 한국 섹터 ETF 시장에서 수익률 분포의 비정규성과 선형·비선형 방향성 정보 흐름 측정치 간 불일치 규명. 2026 대한산업공학회 추계학술대회.",
+            "bibtex": "@inproceedings{choi2026sectoretf,\n  title = {{Examining Return Non-Normality and the Discrepancy of Linear and Nonlinear Directional Information Flow Measures in the Korean Sector ETF Market}},\n  author = {Choi, Insu},\n  booktitle = {2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)},\n  year = {2026},\n}"
+        }
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-12-31",
+        "year": 2026,
+        "title": "A Study on the Infrastructure-Oriented Restructuring of FinTech Patents in Major Economies",
+        "title_ko": "주요국 핀테크 특허의 인프라 중심 재편에 관한 연구",
+        "authors": [
+            163,
+            164,
+            1
+        ],
+        "author_marks": [
+            "1",
+            "1",
+            "*"
+        ],
+        "venue": "2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)",
+        "venue_ko": "2026 대한산업공학회 추계학술대회",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "presentation_type": "poster",
+        "citations": {
+            "apa": "Shin, J., Cho, Y., & Choi, I. (2026). A Study on the Infrastructure-Oriented Restructuring of FinTech Patents in Major Economies. 2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE).",
+            "mla": "Jeongyun Shin, Yoonsoo Cho, Insu Choi. \"A Study on the Infrastructure-Oriented Restructuring of FinTech Patents in Major Economies.\" 2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE), 2026.",
+            "chicago": "Jeongyun Shin, Yoonsoo Cho, Insu Choi. \"A Study on the Infrastructure-Oriented Restructuring of FinTech Patents in Major Economies.\" Paper presented at 2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE), 2026.",
+            "harvard": "Shin, J., Cho, Y., & Choi, I. (2026) 'A Study on the Infrastructure-Oriented Restructuring of FinTech Patents in Major Economies', 2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE).",
+            "vancouver": "Shin J, Cho Y, Choi I. A Study on the Infrastructure-Oriented Restructuring of FinTech Patents in Major Economies. 2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE); 2026.",
+            "korean": "신정윤, 조윤수, 최인수. (2026). 주요국 핀테크 특허의 인프라 중심 재편에 관한 연구. 2026 대한산업공학회 추계학술대회.",
+            "bibtex": "@inproceedings{shin2026fintechpatent,\n  title = {{A Study on the Infrastructure-Oriented Restructuring of FinTech Patents in Major Economies}},\n  author = {Shin, Jeongyun and Cho, Yoonsoo and Choi, Insu},\n  booktitle = {2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)},\n  year = {2026},\n}"
+        }
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-12-31",
+        "year": 2026,
+        "title": "A Systematic Literature Review Comparing Customer Experience between Fintech Platforms and Incumbent Banks",
+        "title_ko": "핀테크 플랫폼과 기존 은행의 고객 경험 비교에 관한 체계적 문헌고찰",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)",
+        "venue_ko": "2026 대한산업공학회 추계학술대회",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "presentation_type": "poster",
+        "citations": {
+            "apa": "Choi, I. (2026). A Systematic Literature Review Comparing Customer Experience between Fintech Platforms and Incumbent Banks. 2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE).",
+            "mla": "Insu Choi. \"A Systematic Literature Review Comparing Customer Experience between Fintech Platforms and Incumbent Banks.\" 2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE), 2026.",
+            "chicago": "Insu Choi. \"A Systematic Literature Review Comparing Customer Experience between Fintech Platforms and Incumbent Banks.\" Paper presented at 2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE), 2026.",
+            "harvard": "Choi, I. (2026) 'A Systematic Literature Review Comparing Customer Experience between Fintech Platforms and Incumbent Banks', 2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE).",
+            "vancouver": "Choi I. A Systematic Literature Review Comparing Customer Experience between Fintech Platforms and Incumbent Banks. 2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE); 2026.",
+            "korean": "최인수. (2026). 핀테크 플랫폼과 기존 은행의 고객 경험 비교에 관한 체계적 문헌고찰. 2026 대한산업공학회 추계학술대회.",
+            "bibtex": "@inproceedings{choi2026fintechcx,\n  title = {{A Systematic Literature Review Comparing Customer Experience between Fintech Platforms and Incumbent Banks}},\n  author = {Choi, Insu},\n  booktitle = {2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)},\n  year = {2026},\n}"
+        }
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-12-31",
+        "year": 2026,
+        "title": "Assessing the Reliability of Shape-Based Indicators of Asset Price Co-movement",
+        "title_ko": "자산 가격 연동 구조를 해석하는 형태 지표의 신뢰성 점검",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)",
+        "venue_ko": "2026 대한산업공학회 추계학술대회",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "presentation_type": "poster",
+        "citations": {
+            "apa": "Choi, I. (2026). Assessing the Reliability of Shape-Based Indicators of Asset Price Co-movement. 2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE).",
+            "mla": "Insu Choi. \"Assessing the Reliability of Shape-Based Indicators of Asset Price Co-movement.\" 2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE), 2026.",
+            "chicago": "Insu Choi. \"Assessing the Reliability of Shape-Based Indicators of Asset Price Co-movement.\" Paper presented at 2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE), 2026.",
+            "harvard": "Choi, I. (2026) 'Assessing the Reliability of Shape-Based Indicators of Asset Price Co-movement', 2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE).",
+            "vancouver": "Choi I. Assessing the Reliability of Shape-Based Indicators of Asset Price Co-movement. 2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE); 2026.",
+            "korean": "최인수. (2026). 자산 가격 연동 구조를 해석하는 형태 지표의 신뢰성 점검. 2026 대한산업공학회 추계학술대회.",
+            "bibtex": "@inproceedings{choi2026shapeindicator,\n  title = {{Assessing the Reliability of Shape-Based Indicators of Asset Price Co-movement}},\n  author = {Choi, Insu},\n  booktitle = {2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)},\n  year = {2026},\n}"
+        }
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-12-22",
+        "year": 2026,
+        "title": "The Spillover and Persistence of Firm-Specific Shocks across Stocks Linked by Hangul Jamo Edit Distance",
+        "title_ko": "한글 자모 편집거리에 따른 종목 간 기업 고유 충격의 파급과 지속성에 관한 연구",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Winter Conference of the Korean Statistical Society (KSS)",
+        "venue_ko": "2026 한국통계학회 동계학술논문발표회",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "Choi, I. (2026). The Spillover and Persistence of Firm-Specific Shocks across Stocks Linked by Hangul Jamo Edit Distance. 2026 Winter Conference of the Korean Statistical Society (KSS).",
+            "mla": "Choi, Insu. \"The Spillover and Persistence of Firm-Specific Shocks across Stocks Linked by Hangul Jamo Edit Distance.\" 2026 Winter Conference of the Korean Statistical Society (KSS), 2026.",
+            "chicago": "Choi, Insu. \"The Spillover and Persistence of Firm-Specific Shocks across Stocks Linked by Hangul Jamo Edit Distance.\" Paper presented at 2026 Winter Conference of the Korean Statistical Society (KSS), 2026.",
+            "harvard": "Choi, I. (2026) 'The Spillover and Persistence of Firm-Specific Shocks across Stocks Linked by Hangul Jamo Edit Distance', 2026 Winter Conference of the Korean Statistical Society (KSS).",
+            "vancouver": "Choi I. The Spillover and Persistence of Firm-Specific Shocks across Stocks Linked by Hangul Jamo Edit Distance. 2026 Winter Conference of the Korean Statistical Society (KSS); 2026.",
+            "korean": "최인수. (2026). 한글 자모 편집거리에 따른 종목 간 기업 고유 충격의 파급과 지속성에 관한 연구. 2026 한국통계학회 동계학술논문발표회.",
+            "bibtex": "@inproceedings{choi2026jamo,\n  title = {{The Spillover and Persistence of Firm-Specific Shocks across Stocks Linked by Hangul Jamo Edit Distance}},\n  author = {Choi, Insu},\n  booktitle = {2026 Winter Conference of the Korean Statistical Society (KSS)},\n  year = {2026},\n}"
         }
     }
 ]
