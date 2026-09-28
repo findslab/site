@@ -553,11 +553,12 @@ export const PublicationsTemplate = () => {
     }))
   }, [publications])
 
-  // 현재 연도를 기본으로 펼침
+  // 올해와 그 이후(예정) 연도를 기본으로 펼침 — 새 연도가 생기면 자동으로 열림
   useEffect(() => {
     if (sortedYears.length > 0) {
       const currentYear = new Date().getFullYear()
-      setExpandedYears(new Set([currentYear]))
+      const upcoming = sortedYears.filter((y) => y >= currentYear)
+      setExpandedYears(new Set(upcoming.length > 0 ? upcoming : [sortedYears[0]]))
     }
   }, [sortedYears])
 

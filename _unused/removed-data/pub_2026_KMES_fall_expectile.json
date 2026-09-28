@@ -1,0 +1,33 @@
+{
+    "type": "conference",
+    "indexing_group": "Domestic Conference",
+    "code_label": "C",
+    "published_date": "2026-11-06",
+    "year": 2026,
+    "title": "Dynamic Tail Risk Spillover Networks in Global Stock Markets Across Multiple Crisis Regimes via Expectile Value at Risk",
+    "title_ko": "기대분위 위험가치를 활용한 글로벌 주식시장의 위기 국면별 꼬리위험 전이 네트워크 동태 분석",
+    "authors": [
+        1
+    ],
+    "author_marks": [
+        "1,*"
+    ],
+    "venue": "2026 Fall Conference of the Korea Management Engineers Society (KMES)",
+    "venue_ko": "2026 한국경영공학회 추계학술대회",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "doi": "",
+    "language": "Korean",
+    "awards": 0,
+    "presentation_type": "oral",
+    "citations": {
+        "apa": "Choi, I. (2026). Dynamic Tail Risk Spillover Networks in Global Stock Markets Across Multiple Crisis Regimes via Expectile Value at Risk. 2026 Fall Conference of the Korea Management Engineers Society (KMES).",
+        "mla": "Choi, Insu. \"Dynamic Tail Risk Spillover Networks in Global Stock Markets Across Multiple Crisis Regimes via Expectile Value at Risk.\" 2026 Fall Conference of the Korea Management Engineers Society (KMES), 2026.",
+        "chicago": "Choi, Insu. \"Dynamic Tail Risk Spillover Networks in Global Stock Markets Across Multiple Crisis Regimes via Expectile Value at Risk.\" Paper presented at 2026 Fall Conference of the Korea Management Engineers Society (KMES), 2026.",
+        "harvard": "Choi, I. (2026) 'Dynamic Tail Risk Spillover Networks in Global Stock Markets Across Multiple Crisis Regimes via Expectile Value at Risk', 2026 Fall Conference of the Korea Management Engineers Society (KMES).",
+        "vancouver": "Choi I. Dynamic Tail Risk Spillover Networks in Global Stock Markets Across Multiple Crisis Regimes via Expectile Value at Risk. 2026 Fall Conference of the Korea Management Engineers Society (KMES); 2026.",
+        "korean": "최인수. (2026). 기대분위 위험가치를 활용한 글로벌 주식시장의 위기 국면별 꼬리위험 전이 네트워크 동태 분석. 2026 한국경영공학회 추계학술대회.",
+        "bibtex": "@inproceedings{choi2026expectile,\n  title = {{Dynamic Tail Risk Spillover Networks in Global Stock Markets Across Multiple Crisis Regimes via Expectile Value at Risk}},\n  author = {Choi, Insu},\n  booktitle = {2026 Fall Conference of the Korea Management Engineers Society (KMES)},\n  year = {2026},\n}"
+    }
+}
