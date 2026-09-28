@@ -10569,5 +10569,34 @@
             "korean": "최인수. (2026). 주파수 연결성 관점에서 재조명한 인공지능 산업과 에너지 시장 간 비대칭 꼬리위험 전이. 2026 한국자료분석학회 동계학술논문발표대회.",
             "bibtex": "@inproceedings{choi2026aienergy,\n  title = {{Asymmetric Tail Risk Transmission Between the Artificial Intelligence Industry and Energy Markets Revisited from a Frequency Connectedness Perspective}},\n  author = {Choi, Insu},\n  booktitle = {2026 Winter Conference of the Korean Data Analysis Society (KDAS)},\n  year = {2026},\n}"
         }
+    },
+    {
+        "type": "journal",
+        "indexing_group": "SCIE",
+        "code_label": "J",
+        "published_date": "2026-10-15",
+        "year": 2026,
+        "title": "Calibrating Change-Point Tests on Topological Descriptors: A Dependence-Length Criterion, and What Persistent Homology Detects That Correlation Does Not",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "Communications in Nonlinear Science and Numerical Simulation",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "English",
+        "awards": 0,
+        "citations": {
+            "apa": "Choi, I. (2026). Calibrating change-point tests on topological descriptors: A dependence-length criterion, and what persistent homology detects that correlation does not. <em>Communications in Nonlinear Science and Numerical Simulation</em>.",
+            "mla": "Choi, Insu. \"Calibrating Change-Point Tests on Topological Descriptors: A Dependence-Length Criterion, and What Persistent Homology Detects That Correlation Does Not.\" <em>Communications in Nonlinear Science and Numerical Simulation</em>, 2026.",
+            "chicago": "Choi, Insu. \"Calibrating Change-Point Tests on Topological Descriptors: A Dependence-Length Criterion, and What Persistent Homology Detects That Correlation Does Not.\" <em>Communications in Nonlinear Science and Numerical Simulation</em> (2026).",
+            "harvard": "Choi, I. (2026) 'Calibrating change-point tests on topological descriptors: A dependence-length criterion, and what persistent homology detects that correlation does not', <em>Communications in Nonlinear Science and Numerical Simulation</em>.",
+            "vancouver": "Choi I. Calibrating change-point tests on topological descriptors: A dependence-length criterion, and what persistent homology detects that correlation does not. Communications in Nonlinear Science and Numerical Simulation. 2026.",
+            "bibtex": "@article{choi2026changepoint,\n  title = {{Calibrating Change-Point Tests on Topological Descriptors: A Dependence-Length Criterion, and What Persistent Homology Detects That Correlation Does Not}},\n  author = {Choi, Insu},\n  journal = {Communications in Nonlinear Science and Numerical Simulation},\n  year = {2026},\n}"
+        }
     }
 ]
