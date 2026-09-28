@@ -9246,17 +9246,17 @@
         "venue": "Systems",
         "volume": "14",
         "issue": "9",
-        "pages": "",
-        "doi": "",
+        "pages": "1155",
+        "doi": "10.3390/systems14091155",
         "language": "English",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I. (2026). Déjà vu in iridescent bloom: Bottom-up place branding in the complex adaptive reception of a RESCENE member's personal YouTube channel. <em>Systems</em>, <em>14</em>(9).",
-            "mla": "Choi, Insu. \"Déjà Vu in Iridescent Bloom: Bottom-Up Place Branding in the Complex Adaptive Reception of a RESCENE Member's Personal YouTube Channel.\" <em>Systems</em>, vol. 14, no. 9, 2026.",
+            "apa": "Choi, I. (2026). Déjà vu in iridescent bloom: Bottom-up place branding in the complex adaptive reception of a RESCENE member's personal YouTube channel. <em>Systems</em>, <em>14</em>(9), 1155. https://doi.org/10.3390/systems14091155",
+            "mla": "Choi, Insu. \"Déjà Vu in Iridescent Bloom: Bottom-Up Place Branding in the Complex Adaptive Reception of a RESCENE Member's Personal YouTube Channel.\" <em>Systems</em>, vol. 14, no. 9, 2026, article 1155.",
             "chicago": "Choi, Insu. \"Déjà Vu in Iridescent Bloom: Bottom-Up Place Branding in the Complex Adaptive Reception of a RESCENE Member's Personal YouTube Channel.\" <em>Systems</em> 14, no. 9 (2026).",
-            "harvard": "Choi, I. (2026) 'Déjà vu in iridescent bloom: Bottom-up place branding in the complex adaptive reception of a RESCENE member's personal YouTube channel', <em>Systems</em>, 14(9).",
-            "vancouver": "Choi I. Déjà vu in iridescent bloom: Bottom-up place branding in the complex adaptive reception of a RESCENE member's personal YouTube channel. Systems. 2026;14(9).",
-            "bibtex": "@article{choi2026dejavu,\n  title = {{Déjà Vu in Iridescent Bloom: Bottom-Up Place Branding in the Complex Adaptive Reception of a RESCENE Member's Personal YouTube Channel}},\n  author = {Choi, Insu},\n  journal = {Systems},\n  volume = {14},\n  number = {9},\n  year = {2026},\n}"
+            "harvard": "Choi, I. (2026) 'Déjà vu in iridescent bloom: Bottom-up place branding in the complex adaptive reception of a RESCENE member's personal YouTube channel', <em>Systems</em>, 14(9), 1155. https://doi.org/10.3390/systems14091155",
+            "vancouver": "Choi I. Déjà vu in iridescent bloom: Bottom-up place branding in the complex adaptive reception of a RESCENE member's personal YouTube channel. Systems. 2026;14(9):1155.",
+            "bibtex": "@article{choi2026dejavu,\n  title = {{Déjà Vu in Iridescent Bloom: Bottom-Up Place Branding in the Complex Adaptive Reception of a RESCENE Member's Personal YouTube Channel}},\n  author = {Choi, Insu},\n  journal = {Systems},\n  volume = {14},\n  number = {9},\n  year = {2026},\n  pages = {1155},\n  doi = {10.3390/systems14091155},\n}"
         }
     },
     {
@@ -9818,16 +9818,16 @@
         "volume": "",
         "issue": "",
         "pages": "",
-        "doi": "",
+        "doi": "10.1007/s10489-026-07501-w",
         "language": "English",
         "awards": 0,
         "citations": {
-            "apa": "Lim, S., Ahn, H., Lee, T. K., Kim, G., Lim, S., & Choi, I. (2026). Dynamic risk budgeting via large language models: A context-aware framework for adaptive portfolio allocation. <em>Applied Intelligence</em>.",
+            "apa": "Lim, S., Ahn, H., Lee, T. K., Kim, G., Lim, S., & Choi, I. (2026). Dynamic risk budgeting via large language models: A context-aware framework for adaptive portfolio allocation. <em>Applied Intelligence</em>. https://doi.org/10.1007/s10489-026-07501-w",
             "mla": "Lim, Soyoung, et al. \"Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation.\" <em>Applied Intelligence</em>, 2026.",
             "chicago": "Lim, Soyoung, Hyungmin Ahn, Tae Kyoung Lee, Gayeon Kim, Sunghun Lim, and Insu Choi. \"Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation.\" <em>Applied Intelligence</em> (2026).",
-            "harvard": "Lim, S., Ahn, H., Lee, T.K., Kim, G., Lim, S. & Choi, I. (2026) 'Dynamic risk budgeting via large language models: A context-aware framework for adaptive portfolio allocation', <em>Applied Intelligence</em>.",
+            "harvard": "Lim, S., Ahn, H., Lee, T.K., Kim, G., Lim, S. & Choi, I. (2026) 'Dynamic risk budgeting via large language models: A context-aware framework for adaptive portfolio allocation', <em>Applied Intelligence</em>. https://doi.org/10.1007/s10489-026-07501-w",
             "vancouver": "Lim S, Ahn H, Lee TK, Kim G, Lim S, Choi I. Dynamic risk budgeting via large language models: A context-aware framework for adaptive portfolio allocation. Applied Intelligence. 2026.",
-            "bibtex": "@article{lim2026dynamic,\n  title = {{Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation}},\n  author = {Lim, Soyoung and Ahn, Hyungmin and Lee, Tae Kyoung and Kim, Gayeon and Lim, Sunghun and Choi, Insu},\n  journal = {Applied Intelligence},\n  year = {2026},\n}"
+            "bibtex": "@article{lim2026dynamic,\n  title = {{Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation}},\n  author = {Lim, Soyoung and Ahn, Hyungmin and Lee, Tae Kyoung and Kim, Gayeon and Lim, Sunghun and Choi, Insu},\n  journal = {Applied Intelligence},\n  year = {2026},\n  doi = {10.1007/s10489-026-07501-w},\n}"
         }
     },
     {
@@ -10191,17 +10191,17 @@
         "venue": "Digital Signal Processing",
         "volume": "",
         "issue": "",
-        "pages": "",
-        "doi": "",
+        "pages": "106517",
+        "doi": "10.1016/j.dsp.2026.106517",
         "language": "English",
         "awards": 0,
         "citations": {
-            "apa": "Choi, I. (2026). Cellular-automaton feature extraction from nonstationary financial signals: The information is compositional. <em>Digital Signal Processing</em>.",
-            "mla": "Choi, Insu. \"Cellular-Automaton Feature Extraction from Nonstationary Financial Signals: The Information Is Compositional.\" <em>Digital Signal Processing</em>, 2026.",
+            "apa": "Choi, I. (2026). Cellular-automaton feature extraction from nonstationary financial signals: The information is compositional. <em>Digital Signal Processing</em>, 106517. https://doi.org/10.1016/j.dsp.2026.106517",
+            "mla": "Choi, Insu. \"Cellular-Automaton Feature Extraction from Nonstationary Financial Signals: The Information Is Compositional.\" <em>Digital Signal Processing</em>, 2026, article 106517.",
             "chicago": "Choi, Insu. \"Cellular-Automaton Feature Extraction from Nonstationary Financial Signals: The Information Is Compositional.\" <em>Digital Signal Processing</em> (2026).",
-            "harvard": "Choi, I. (2026) 'Cellular-automaton feature extraction from nonstationary financial signals: The information is compositional', <em>Digital Signal Processing</em>.",
-            "vancouver": "Choi I. Cellular-automaton feature extraction from nonstationary financial signals: The information is compositional. Digital Signal Processing. 2026.",
-            "bibtex": "@article{choi2026cellular,\n  title = {{Cellular-Automaton Feature Extraction from Nonstationary Financial Signals: The Information Is Compositional}},\n  author = {Choi, Insu},\n  journal = {Digital Signal Processing},\n  year = {2026},\n}"
+            "harvard": "Choi, I. (2026) 'Cellular-automaton feature extraction from nonstationary financial signals: The information is compositional', <em>Digital Signal Processing</em>, 106517. https://doi.org/10.1016/j.dsp.2026.106517",
+            "vancouver": "Choi I. Cellular-automaton feature extraction from nonstationary financial signals: The information is compositional. Digital Signal Processing. 2026:106517.",
+            "bibtex": "@article{choi2026cellular,\n  title = {{Cellular-Automaton Feature Extraction from Nonstationary Financial Signals: The Information Is Compositional}},\n  author = {Choi, Insu},\n  journal = {Digital Signal Processing},\n  year = {2026},\n  pages = {106517},\n  doi = {10.1016/j.dsp.2026.106517},\n}"
         }
     },
     {
@@ -10307,39 +10307,6 @@
         "type": "conference",
         "indexing_group": "Domestic Conference",
         "code_label": "C",
-        "published_date": "2026-11-06",
-        "year": 2026,
-        "title": "Dynamic Tail Risk Spillover Networks in Global Stock Markets Across Multiple Crisis Regimes via Expectile Value at Risk",
-        "title_ko": "기대분위 위험가치를 활용한 글로벌 주식시장의 위기 국면별 꼬리위험 전이 네트워크 동태 분석",
-        "authors": [
-            1
-        ],
-        "author_marks": [
-            "1,*"
-        ],
-        "venue": "2026 Fall Conference of the Korea Management Engineers Society (KMES)",
-        "venue_ko": "2026 한국경영공학회 추계학술대회",
-        "volume": "",
-        "issue": "",
-        "pages": "",
-        "doi": "",
-        "language": "Korean",
-        "awards": 0,
-        "presentation_type": "oral",
-        "citations": {
-            "apa": "Choi, I. (2026). Dynamic Tail Risk Spillover Networks in Global Stock Markets Across Multiple Crisis Regimes via Expectile Value at Risk. 2026 Fall Conference of the Korea Management Engineers Society (KMES).",
-            "mla": "Choi, Insu. \"Dynamic Tail Risk Spillover Networks in Global Stock Markets Across Multiple Crisis Regimes via Expectile Value at Risk.\" 2026 Fall Conference of the Korea Management Engineers Society (KMES), 2026.",
-            "chicago": "Choi, Insu. \"Dynamic Tail Risk Spillover Networks in Global Stock Markets Across Multiple Crisis Regimes via Expectile Value at Risk.\" Paper presented at 2026 Fall Conference of the Korea Management Engineers Society (KMES), 2026.",
-            "harvard": "Choi, I. (2026) 'Dynamic Tail Risk Spillover Networks in Global Stock Markets Across Multiple Crisis Regimes via Expectile Value at Risk', 2026 Fall Conference of the Korea Management Engineers Society (KMES).",
-            "vancouver": "Choi I. Dynamic Tail Risk Spillover Networks in Global Stock Markets Across Multiple Crisis Regimes via Expectile Value at Risk. 2026 Fall Conference of the Korea Management Engineers Society (KMES); 2026.",
-            "korean": "최인수. (2026). 기대분위 위험가치를 활용한 글로벌 주식시장의 위기 국면별 꼬리위험 전이 네트워크 동태 분석. 2026 한국경영공학회 추계학술대회.",
-            "bibtex": "@inproceedings{choi2026expectile,\n  title = {{Dynamic Tail Risk Spillover Networks in Global Stock Markets Across Multiple Crisis Regimes via Expectile Value at Risk}},\n  author = {Choi, Insu},\n  booktitle = {2026 Fall Conference of the Korea Management Engineers Society (KMES)},\n  year = {2026},\n}"
-        }
-    },
-    {
-        "type": "conference",
-        "indexing_group": "Domestic Conference",
-        "code_label": "C",
         "published_date": "2026-12-31",
         "year": 2026,
         "title": "Land-Price-Led Spillovers and Deepening Co-movement across Korean Real Estate Assets",
@@ -10373,7 +10340,7 @@
         "type": "conference",
         "indexing_group": "Domestic Conference",
         "code_label": "C",
-        "published_date": "2026-12-31",
+        "published_date": "2026-12-03",
         "year": 2026,
         "title": "Examining Return Non-Normality and the Discrepancy of Linear and Nonlinear Directional Information Flow Measures in the Korean Sector ETF Market",
         "title_ko": "한국 섹터 ETF 시장에서 수익률 분포의 비정규성과 선형·비선형 방향성 정보 흐름 측정치 간 불일치 규명",
@@ -10406,7 +10373,7 @@
         "type": "conference",
         "indexing_group": "Domestic Conference",
         "code_label": "C",
-        "published_date": "2026-12-31",
+        "published_date": "2026-12-03",
         "year": 2026,
         "title": "A Study on the Infrastructure-Oriented Restructuring of FinTech Patents in Major Economies",
         "title_ko": "주요국 핀테크 특허의 인프라 중심 재편에 관한 연구",
@@ -10443,7 +10410,7 @@
         "type": "conference",
         "indexing_group": "Domestic Conference",
         "code_label": "C",
-        "published_date": "2026-12-31",
+        "published_date": "2026-12-03",
         "year": 2026,
         "title": "A Systematic Literature Review Comparing Customer Experience between Fintech Platforms and Incumbent Banks",
         "title_ko": "핀테크 플랫폼과 기존 은행의 고객 경험 비교에 관한 체계적 문헌고찰",
@@ -10476,7 +10443,7 @@
         "type": "conference",
         "indexing_group": "Domestic Conference",
         "code_label": "C",
-        "published_date": "2026-12-31",
+        "published_date": "2026-12-03",
         "year": 2026,
         "title": "Assessing the Reliability of Shape-Based Indicators of Asset Price Co-movement",
         "title_ko": "자산 가격 연동 구조를 해석하는 형태 지표의 신뢰성 점검",
@@ -10535,6 +10502,72 @@
             "vancouver": "Choi I. The Spillover and Persistence of Firm-Specific Shocks across Stocks Linked by Hangul Jamo Edit Distance. 2026 Winter Conference of the Korean Statistical Society (KSS); 2026.",
             "korean": "최인수. (2026). 한글 자모 편집거리에 따른 종목 간 기업 고유 충격의 파급과 지속성에 관한 연구. 2026 한국통계학회 동계학술논문발표회.",
             "bibtex": "@inproceedings{choi2026jamo,\n  title = {{The Spillover and Persistence of Firm-Specific Shocks across Stocks Linked by Hangul Jamo Edit Distance}},\n  author = {Choi, Insu},\n  booktitle = {2026 Winter Conference of the Korean Statistical Society (KSS)},\n  year = {2026},\n}"
+        }
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2027-01-31",
+        "year": 2027,
+        "title": "Extreme-Loss Risk Transmission Among Global Stock Markets: Evidence from a Coherent Risk Measure and Forecast Error Variance Decomposition",
+        "title_ko": "정합적 위험측도와 예측오차 분산분해를 이용한 글로벌 주식시장 간 극단손실 위험 파급 분석",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2027 Winter Conference of the Korea Society of Computer Information (KSCI)",
+        "venue_ko": "2027 한국컴퓨터정보학회 동계학술대회",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "presentation_type": "oral",
+        "citations": {
+            "apa": "Choi, I. (2027). Extreme-Loss Risk Transmission Among Global Stock Markets: Evidence from a Coherent Risk Measure and Forecast Error Variance Decomposition. 2027 Winter Conference of the Korea Society of Computer Information (KSCI).",
+            "mla": "Choi, Insu. \"Extreme-Loss Risk Transmission Among Global Stock Markets: Evidence from a Coherent Risk Measure and Forecast Error Variance Decomposition.\" 2027 Winter Conference of the Korea Society of Computer Information (KSCI), 2027.",
+            "chicago": "Choi, Insu. \"Extreme-Loss Risk Transmission Among Global Stock Markets: Evidence from a Coherent Risk Measure and Forecast Error Variance Decomposition.\" Paper presented at 2027 Winter Conference of the Korea Society of Computer Information (KSCI), 2027.",
+            "harvard": "Choi, I. (2027) 'Extreme-Loss Risk Transmission Among Global Stock Markets: Evidence from a Coherent Risk Measure and Forecast Error Variance Decomposition', 2027 Winter Conference of the Korea Society of Computer Information (KSCI).",
+            "vancouver": "Choi I. Extreme-Loss Risk Transmission Among Global Stock Markets: Evidence from a Coherent Risk Measure and Forecast Error Variance Decomposition. 2027 Winter Conference of the Korea Society of Computer Information (KSCI); 2027.",
+            "korean": "최인수. (2027). 정합적 위험측도와 예측오차 분산분해를 이용한 글로벌 주식시장 간 극단손실 위험 파급 분석. 2027 한국컴퓨터정보학회 동계학술대회.",
+            "bibtex": "@inproceedings{choi2027extremeloss,\n  title = {{Extreme-Loss Risk Transmission Among Global Stock Markets: Evidence from a Coherent Risk Measure and Forecast Error Variance Decomposition}},\n  author = {Choi, Insu},\n  booktitle = {2027 Winter Conference of the Korea Society of Computer Information (KSCI)},\n  year = {2027},\n}"
+        }
+    },
+    {
+        "type": "conference",
+        "indexing_group": "Domestic Conference",
+        "code_label": "C",
+        "published_date": "2026-12-31",
+        "year": 2026,
+        "title": "Asymmetric Tail Risk Transmission Between the Artificial Intelligence Industry and Energy Markets Revisited from a Frequency Connectedness Perspective",
+        "title_ko": "주파수 연결성 관점에서 재조명한 인공지능 산업과 에너지 시장 간 비대칭 꼬리위험 전이",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "2026 Winter Conference of the Korean Data Analysis Society (KDAS)",
+        "venue_ko": "2026 한국자료분석학회 동계학술논문발표대회",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "presentation_type": "oral",
+        "citations": {
+            "apa": "Choi, I. (2026). Asymmetric Tail Risk Transmission Between the Artificial Intelligence Industry and Energy Markets Revisited from a Frequency Connectedness Perspective. 2026 Winter Conference of the Korean Data Analysis Society (KDAS).",
+            "mla": "Choi, Insu. \"Asymmetric Tail Risk Transmission Between the Artificial Intelligence Industry and Energy Markets Revisited from a Frequency Connectedness Perspective.\" 2026 Winter Conference of the Korean Data Analysis Society (KDAS), 2026.",
+            "chicago": "Choi, Insu. \"Asymmetric Tail Risk Transmission Between the Artificial Intelligence Industry and Energy Markets Revisited from a Frequency Connectedness Perspective.\" Paper presented at 2026 Winter Conference of the Korean Data Analysis Society (KDAS), 2026.",
+            "harvard": "Choi, I. (2026) 'Asymmetric Tail Risk Transmission Between the Artificial Intelligence Industry and Energy Markets Revisited from a Frequency Connectedness Perspective', 2026 Winter Conference of the Korean Data Analysis Society (KDAS).",
+            "vancouver": "Choi I. Asymmetric Tail Risk Transmission Between the Artificial Intelligence Industry and Energy Markets Revisited from a Frequency Connectedness Perspective. 2026 Winter Conference of the Korean Data Analysis Society (KDAS); 2026.",
+            "korean": "최인수. (2026). 주파수 연결성 관점에서 재조명한 인공지능 산업과 에너지 시장 간 비대칭 꼬리위험 전이. 2026 한국자료분석학회 동계학술논문발표대회.",
+            "bibtex": "@inproceedings{choi2026aienergy,\n  title = {{Asymmetric Tail Risk Transmission Between the Artificial Intelligence Industry and Energy Markets Revisited from a Frequency Connectedness Perspective}},\n  author = {Choi, Insu},\n  booktitle = {2026 Winter Conference of the Korean Data Analysis Society (KDAS)},\n  year = {2026},\n}"
         }
     }
 ]
