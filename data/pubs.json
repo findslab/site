@@ -10598,5 +10598,101 @@
             "vancouver": "Choi I. Calibrating change-point tests on topological descriptors: A dependence-length criterion, and what persistent homology detects that correlation does not. Communications in Nonlinear Science and Numerical Simulation. 2026.",
             "bibtex": "@article{choi2026changepoint,\n  title = {{Calibrating Change-Point Tests on Topological Descriptors: A Dependence-Length Criterion, and What Persistent Homology Detects That Correlation Does Not}},\n  author = {Choi, Insu},\n  journal = {Communications in Nonlinear Science and Numerical Simulation},\n  year = {2026},\n}"
         }
+    },
+    {
+        "type": "journal",
+        "indexing_group": "KCI",
+        "code_label": "J",
+        "published_date": "2026-10-31",
+        "year": 2026,
+        "title": "An Empirical Analysis of the Financial-Market Stabilizing Role of the Insurance Industry and Systemic Risk Transmission: A Korea–U.S. Comparison through Cross-Validation of Linear Econometric Models and Nonlinear Causality Measures",
+        "title_ko": "보험산업의 금융시장 안정화 기능과 시스템적 위험 전이 구조에 관한 실증분석: 선형 계량모형과 비선형 인과지표의 교차확인을 통한 한·미 비교",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "Journal of the Korean Data Analysis Society",
+        "venue_ko": "한국자료분석학회지",
+        "volume": "28",
+        "issue": "5",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "최인수. (2026). 보험산업의 금융시장 안정화 기능과 시스템적 위험 전이 구조에 관한 실증분석: 선형 계량모형과 비선형 인과지표의 교차확인을 통한 한·미 비교. <em>한국자료분석학회지</em>, <em>28</em>(5).",
+            "mla": "최인수. \"보험산업의 금융시장 안정화 기능과 시스템적 위험 전이 구조에 관한 실증분석: 선형 계량모형과 비선형 인과지표의 교차확인을 통한 한·미 비교.\" <em>한국자료분석학회지</em> 28.5 (2026).",
+            "chicago": "최인수. \"보험산업의 금융시장 안정화 기능과 시스템적 위험 전이 구조에 관한 실증분석: 선형 계량모형과 비선형 인과지표의 교차확인을 통한 한·미 비교.\" <em>한국자료분석학회지</em> 28, no. 5 (2026).",
+            "harvard": "최인수 (2026) '보험산업의 금융시장 안정화 기능과 시스템적 위험 전이 구조에 관한 실증분석: 선형 계량모형과 비선형 인과지표의 교차확인을 통한 한·미 비교', <em>한국자료분석학회지</em>, 28(5).",
+            "vancouver": "Choi I. 보험산업의 금융시장 안정화 기능과 시스템적 위험 전이 구조에 관한 실증분석: 선형 계량모형과 비선형 인과지표의 교차확인을 통한 한·미 비교. 한국자료분석학회지. 2026;28(5).",
+            "korean": "최인수. (2026). 보험산업의 금융시장 안정화 기능과 시스템적 위험 전이 구조에 관한 실증분석: 선형 계량모형과 비선형 인과지표의 교차확인을 통한 한·미 비교. 한국자료분석학회지, 28(5).",
+            "bibtex": "@article{choi2026insurance,\n  title = {{An Empirical Analysis of the Financial-Market Stabilizing Role of the Insurance Industry and Systemic Risk Transmission: A Korea–U.S. Comparison through Cross-Validation of Linear Econometric Models and Nonlinear Causality Measures}},\n  author = {Choi, Insu},\n  journal = {Journal of the Korean Data Analysis Society},\n  volume = {28},\n  number = {5},\n  year = {2026},\n}"
+        }
+    },
+    {
+        "type": "journal",
+        "indexing_group": "KCI",
+        "code_label": "J",
+        "published_date": "2026-12-31",
+        "year": 2026,
+        "title": "The Temporal Ordering of Explanation Drift and Forecast Degradation: Testing SHAP Attributions as a Model Monitoring Instrument",
+        "title_ko": "설명 드리프트와 예측성능 저하의 시간적 선후관계: 기계학습 모형 감시 지표로서의 SHAP 기여도 검정",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "Information Systems Review",
+        "venue_ko": "경영정보학연구",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "최인수. (2026). 설명 드리프트와 예측성능 저하의 시간적 선후관계: 기계학습 모형 감시 지표로서의 SHAP 기여도 검정. <em>경영정보학연구</em>.",
+            "mla": "최인수. \"설명 드리프트와 예측성능 저하의 시간적 선후관계: 기계학습 모형 감시 지표로서의 SHAP 기여도 검정.\" <em>경영정보학연구</em> (2026).",
+            "chicago": "최인수. \"설명 드리프트와 예측성능 저하의 시간적 선후관계: 기계학습 모형 감시 지표로서의 SHAP 기여도 검정.\" <em>경영정보학연구</em> (2026).",
+            "harvard": "최인수 (2026) '설명 드리프트와 예측성능 저하의 시간적 선후관계: 기계학습 모형 감시 지표로서의 SHAP 기여도 검정', <em>경영정보학연구</em>.",
+            "vancouver": "Choi I. 설명 드리프트와 예측성능 저하의 시간적 선후관계: 기계학습 모형 감시 지표로서의 SHAP 기여도 검정. 경영정보학연구. 2026.",
+            "korean": "최인수. (2026). 설명 드리프트와 예측성능 저하의 시간적 선후관계: 기계학습 모형 감시 지표로서의 SHAP 기여도 검정. 경영정보학연구.",
+            "bibtex": "@article{choi2026shapdrift,\n  title = {{The Temporal Ordering of Explanation Drift and Forecast Degradation: Testing SHAP Attributions as a Model Monitoring Instrument}},\n  author = {Choi, Insu},\n  journal = {Information Systems Review},\n  year = {2026},\n}"
+        }
+    },
+    {
+        "type": "journal",
+        "indexing_group": "KCI",
+        "code_label": "J",
+        "published_date": "2026-12-31",
+        "year": 2026,
+        "title": "Improving Knowledge Externalization Quality in Explainable AI: Generating Counterfactual Explanations with Embedded Domain Constraints",
+        "title_ko": "설명가능 인공지능의 지식 외재화 품질 제고: 도메인 제약을 내재화한 반사실적 설명 생성 방안",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "Knowledge Management Research",
+        "venue_ko": "지식경영연구",
+        "volume": "27",
+        "issue": "4",
+        "pages": "",
+        "doi": "",
+        "language": "Korean",
+        "awards": 0,
+        "citations": {
+            "apa": "최인수. (2026). 설명가능 인공지능의 지식 외재화 품질 제고: 도메인 제약을 내재화한 반사실적 설명 생성 방안. <em>지식경영연구</em>, <em>27</em>(4).",
+            "mla": "최인수. \"설명가능 인공지능의 지식 외재화 품질 제고: 도메인 제약을 내재화한 반사실적 설명 생성 방안.\" <em>지식경영연구</em> 27.4 (2026).",
+            "chicago": "최인수. \"설명가능 인공지능의 지식 외재화 품질 제고: 도메인 제약을 내재화한 반사실적 설명 생성 방안.\" <em>지식경영연구</em> 27, no. 4 (2026).",
+            "harvard": "최인수 (2026) '설명가능 인공지능의 지식 외재화 품질 제고: 도메인 제약을 내재화한 반사실적 설명 생성 방안', <em>지식경영연구</em>, 27(4).",
+            "vancouver": "Choi I. 설명가능 인공지능의 지식 외재화 품질 제고: 도메인 제약을 내재화한 반사실적 설명 생성 방안. 지식경영연구. 2026;27(4).",
+            "korean": "최인수. (2026). 설명가능 인공지능의 지식 외재화 품질 제고: 도메인 제약을 내재화한 반사실적 설명 생성 방안. 지식경영연구, 27(4).",
+            "bibtex": "@article{choi2026kmcounterfactual,\n  title = {{Improving Knowledge Externalization Quality in Explainable AI: Generating Counterfactual Explanations with Embedded Domain Constraints}},\n  author = {Choi, Insu},\n  journal = {Knowledge Management Research},\n  volume = {27},\n  number = {4},\n  year = {2026},\n}"
+        }
     }
 ]
