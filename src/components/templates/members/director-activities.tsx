@@ -1108,6 +1108,7 @@ export const MembersDirectorActivitiesTemplate = () => {
       '경희대학교 교수학습개발원 Learning Step-Up 튜터링 프로그램': {name: 'Learning Step-Up 튜터링 프로그램', org: '경희대학교 교수학습개발원'},
       '경희대학교 후마니타스칼리지 신입생세미나 프로그램': {name: '신입생세미나 프로그램', org: '경희대학교 후마니타스칼리지'},
       '자체 멘토링 프로그램': {name: '자체 멘토링 프로그램', org: ''},
+      'JL Creatives & Contents 멘토링 프로그램': {name: 'JL Creatives & Contents 멘토링 프로그램', org: 'JL Creatives & Contents'},
     }
     return map[program] || {name: program, org: ''}
   }, [])
