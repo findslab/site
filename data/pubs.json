@@ -10694,5 +10694,34 @@
             "korean": "최인수. (2026). 설명가능 인공지능의 지식 외재화 품질 제고: 도메인 제약을 내재화한 반사실적 설명 생성 방안. 지식경영연구, 27(4).",
             "bibtex": "@article{choi2026kmcounterfactual,\n  title = {{Improving Knowledge Externalization Quality in Explainable AI: Generating Counterfactual Explanations with Embedded Domain Constraints}},\n  author = {Choi, Insu},\n  journal = {Knowledge Management Research},\n  volume = {27},\n  number = {4},\n  year = {2026},\n}"
         }
+    },
+    {
+        "type": "journal",
+        "indexing_group": "SSCI",
+        "code_label": "J",
+        "published_date": "2026-12-31",
+        "year": 2026,
+        "title": "A Critical-Minerals Currency Factor? Double Machine Learning Evidence on Exchange-Rate Exposure to Energy-Transition Metals",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "International Review of Financial Analysis",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "English",
+        "awards": 0,
+        "citations": {
+            "apa": "Choi, I. (2026). A critical-minerals currency factor? Double machine learning evidence on exchange-rate exposure to energy-transition metals. <em>International Review of Financial Analysis</em>.",
+            "mla": "Choi, Insu. \"A Critical-Minerals Currency Factor? Double Machine Learning Evidence on Exchange-Rate Exposure to Energy-Transition Metals.\" <em>International Review of Financial Analysis</em>, 2026.",
+            "chicago": "Choi, Insu. \"A Critical-Minerals Currency Factor? Double Machine Learning Evidence on Exchange-Rate Exposure to Energy-Transition Metals.\" <em>International Review of Financial Analysis</em> (2026).",
+            "harvard": "Choi, I. (2026) 'A critical-minerals currency factor? Double machine learning evidence on exchange-rate exposure to energy-transition metals', <em>International Review of Financial Analysis</em>.",
+            "vancouver": "Choi I. A critical-minerals currency factor? Double machine learning evidence on exchange-rate exposure to energy-transition metals. International Review of Financial Analysis. 2026.",
+            "bibtex": "@article{choi2026criticalminerals,\n  title = {{A Critical-Minerals Currency Factor? Double Machine Learning Evidence on Exchange-Rate Exposure to Energy-Transition Metals}},\n  author = {Choi, Insu},\n  journal = {International Review of Financial Analysis},\n  year = {2026},\n}"
+        }
     }
 ]

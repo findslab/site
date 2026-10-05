@@ -1,2890 +1,2902 @@
 {
-    "kang-deokgeun": {
-        "name": "강덕근",
-        "university": "경희대학교",
-        "department": "전자전파공학과",
-        "entryYear": "2016",
-        "participationYears": [
-            {
-                "year": "2016-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "kang-donghee": {
-        "name": "강동희",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2024",
-        "participationYears": [
-            {
-                "year": "2026",
-                "program": ""
-            }
-        ]
-    },
-    "kang-myunggu": {
-        "name": "강명구",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2020",
-        "participationYears": [
-            {
-                "year": "2020",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "kang-minkyung-2015": {
-        "name": "강민경",
-        "university": "경희대학교",
-        "department": "생체의공학과",
-        "entryYear": "2015",
-        "participationYears": [
-            {
-                "year": "2015-1",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "kang-byungoh": {
-        "name": "강병오",
-        "university": "경희대학교",
-        "department": "컴퓨터공학과",
-        "entryYear": "2019",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "kang-yeonsu": {
-        "name": "강연수",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2023",
-        "participationYears": [
-            {
-                "year": "2026",
-                "program": ""
-            }
-        ]
-    },
-    "kang-hyejin-2015": {
-        "name": "강혜진",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2015",
-        "participationYears": [
-            {
-                "year": "2015-1",
-                "program": "경희대학교 교수학습개발원 Learning Step-Up 튜터링 프로그램"
-            }
-        ]
-    },
-    "go-hyunwoo": {
-        "name": "고현우",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "kwak-dongyeop": {
-        "name": "곽동엽",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "koo-minjin": {
-        "name": "구민진",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2017",
-        "participationYears": [
-            {
-                "year": "2020",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "koo-jihoe": {
-        "name": "구지회",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "kwon-dongha": {
-        "name": "권동하",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "kwon-bongjun": {
-        "name": "권봉준",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2014",
-        "participationYears": [
-            {
-                "year": "2019",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "kwon-suyoung": {
-        "name": "권수영",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2020",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2022",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "kwon-yejin": {
-        "name": "권예진",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2017",
-        "participationYears": [
-            {
-                "year": "2017-1",
-                "program": "경희대학교 교수학습개발원 Learning Step-Up 튜터링 프로그램"
-            }
-        ]
-    },
-    "kim-gayeon": {
-        "name": "김가연",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2022",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "kim-gunhee": {
-        "name": "김건희",
-        "university": "경희대학교",
-        "department": "스포츠의학과",
-        "entryYear": "2014",
-        "participationYears": [
-            {
-                "year": "2014-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "kim-nagyun": {
-        "name": "김나균",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2023",
-        "participationYears": [
-            {
-                "year": "2026",
-                "program": ""
-            }
-        ]
-    },
-    "kim-nari": {
-        "name": "김나리",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2022",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2024",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "kim-daye": {
-        "name": "김다예",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2019",
-        "participationYears": [
-            {
-                "year": "2019",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "kim-daehyun": {
-        "name": "김대현",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "kim-doyoon": {
-        "name": "김도윤",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2020",
-        "participationYears": [
-            {
-                "year": "2020",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "kim-dohyun-2015": {
-        "name": "김도현",
-        "university": "경희대학교",
-        "department": "기계공학과",
-        "entryYear": "2015",
-        "participationYears": [
-            {
-                "year": "2015-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "kim-dongwan": {
-        "name": "김동완",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2022",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2024",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2026",
-                "program": ""
-            }
-        ]
-    },
-    "kim-dongwoo": {
-        "name": "김동우",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2023",
-        "participationYears": [
-            {
-                "year": "2026",
-                "program": ""
-            }
-        ]
-    },
-    "kim-miso": {
-        "name": "김미소",
-        "university": "경희대학교",
-        "department": "도예학과",
-        "entryYear": "2014",
-        "participationYears": [
-            {
-                "year": "2014-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "kim-minkyung": {
-        "name": "김민경",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2018",
-        "participationYears": [
-            {
-                "year": "2018",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2020",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "kim-minkyun": {
-        "name": "김민균",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2024",
-        "participationYears": [
-            {
-                "year": "2024",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2026",
-                "program": ""
-            }
-        ]
-    },
-    "kim-minwoo": {
-        "name": "김민우",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "kim-minji-19": {
-        "name": "김민지",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2019",
-        "participationYears": [
-            {
-                "year": "2020",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "kim-sangyeon": {
-        "name": "김상연",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2024",
-        "participationYears": [
-            {
-                "year": "2024",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2026",
-                "program": ""
-            }
-        ]
-    },
-    "kim-seokyung": {
-        "name": "김서경",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2019",
-        "participationYears": [
-            {
-                "year": "2019",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "kim-seokyung-2016": {
-        "name": "김서경",
-        "university": "경희대학교",
-        "department": "시각디자인학과",
-        "entryYear": "2016",
-        "participationYears": [
-            {
-                "year": "2016-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "kim-seoyeon-external": {
-        "name": "김서연",
-        "university": "고려대학교",
-        "department": "산업경영공학부",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2023",
-                "program": "자체 멘토링 프로그램"
-            },
-            {
-                "year": "2025",
-                "program": "자체 멘토링 프로그램"
-            }
-        ]
-    },
-    "kim-sunkyung-2015": {
-        "name": "김선경",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2015",
-        "participationYears": [
-            {
-                "year": "2015-1",
-                "program": "경희대학교 교수학습개발원 Learning Step-Up 튜터링 프로그램"
-            },
-            {
-                "year": "2015-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "kim-seolhee": {
-        "name": "김설희",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2015",
-        "participationYears": [
-            {
-                "year": "2015-1",
-                "program": "경희대학교 교수학습개발원 Learning Step-Up 튜터링 프로그램"
-            }
-        ]
-    },
-    "kim-seonghoon": {
-        "name": "김성훈",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2023",
-        "participationYears": [
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2024",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "kim-sewan": {
-        "name": "김세완",
-        "university": "경희대학교",
-        "department": "도예학과",
-        "entryYear": "2014",
-        "participationYears": [
-            {
-                "year": "2014-1",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "kim-sujin": {
-        "name": "김수진",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2019",
-        "participationYears": [
-            {
-                "year": "2019",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "kim-seungwon-2016": {
-        "name": "김승원",
-        "university": "경희대학교",
-        "department": "국제학과",
-        "entryYear": "2016",
-        "participationYears": [
-            {
-                "year": "2016-1",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "kim-seungjun-2014": {
-        "name": "김승준",
-        "university": "경희대학교",
-        "department": "전자전파공학과",
-        "entryYear": "2014",
-        "participationYears": [
-            {
-                "year": "2014-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "kim-seungchae": {
-        "name": "김승채",
-        "university": "경희대학교",
-        "department": "전자전파공학과",
-        "entryYear": "2016",
-        "participationYears": [
-            {
-                "year": "2016-1",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "kim-ayoon": {
-        "name": "김아윤",
-        "university": "경희대학교",
-        "department": "응용수학과",
-        "entryYear": "2016",
-        "participationYears": [
-            {
-                "year": "2016-1",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "kim-youngjun-2015": {
-        "name": "김영준",
-        "university": "경희대학교",
-        "department": "전자전파공학과",
-        "entryYear": "2015",
-        "participationYears": [
-            {
-                "year": "2015-1",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "kim-yeram": {
-        "name": "김예람",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "kim-yehyang": {
-        "name": "김예향",
-        "university": "고려대학교",
-        "department": "산업경영공학부",
-        "entryYear": "2019",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "자체 멘토링 프로그램"
-            }
-        ]
-    },
-    "kim-jaehyun": {
-        "name": "김재현",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "kim-jaehee": {
-        "name": "김재희",
-        "university": "경희대학교",
-        "department": "원예생명공학과",
-        "entryYear": "2016",
-        "participationYears": [
-            {
-                "year": "2016-1",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "kim-jungjin": {
-        "name": "김정진",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2023",
-        "participationYears": [
-            {
-                "year": "2026",
-                "program": ""
-            }
-        ]
-    },
-    "kim-juyeon": {
-        "name": "김주연",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "kim-junseop": {
-        "name": "김준섭",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "kim-jiyang": {
-        "name": "김지양",
-        "university": "경희대학교",
-        "department": "중국어학과",
-        "entryYear": "2014",
-        "participationYears": [
-            {
-                "year": "2014-1",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "kim-chiyeon": {
-        "name": "김치연",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2020",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "kim-hyunseo": {
-        "name": "김현서",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2022",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2024",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "kim-hyunsu": {
-        "name": "김현수",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2026",
-                "program": ""
-            }
-        ]
-    },
-    "kim-hyoeun": {
-        "name": "김효은",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2025",
-        "participationYears": [
-            {
-                "year": "2026",
-                "program": ""
-            }
-        ]
-    },
-    "kim-heekyung": {
-        "name": "김희경",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2019",
-        "participationYears": [
-            {
-                "year": "2019",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2020",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "na-yujin": {
-        "name": "나유진",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2020",
-        "participationYears": [
-            {
-                "year": "2020",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "na-hyunkyu": {
-        "name": "나현규",
-        "university": "경희대학교",
-        "department": "기계공학과",
-        "entryYear": "2014",
-        "participationYears": [
-            {
-                "year": "2014-1",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "na-hyunsun": {
-        "name": "나현선",
-        "university": "경희대학교",
-        "department": "한방재료공학과",
-        "entryYear": "2016",
-        "participationYears": [
-            {
-                "year": "2016-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "nam-haeun": {
-        "name": "남하은",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2023",
-        "participationYears": [
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "ryu-hyorim": {
-        "name": "류효림",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2019",
-        "participationYears": [
-            {
-                "year": "2019",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "moon-yeji": {
-        "name": "문예지",
-        "university": "경희대학교",
-        "department": "한국어학과",
-        "entryYear": "2016",
-        "participationYears": [
-            {
-                "year": "2016-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "park-seoyeon": {
-        "name": "박서연",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2018",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "park-seokjin": {
-        "name": "박석진",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "park-seongsu": {
-        "name": "박성수",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2020",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "park-seryeon": {
-        "name": "박세련",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2025",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "park-seyoon": {
-        "name": "박세윤",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2025",
-        "participationYears": [
-            {
-                "year": "2026",
-                "program": ""
-            }
-        ]
-    },
-    "park-sohyun-2014": {
-        "name": "박소현",
-        "university": "경희대학교",
-        "department": "중국어학과",
-        "entryYear": "2014",
-        "participationYears": [
-            {
-                "year": "2014-1",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            },
-            {
-                "year": "2014-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "park-sooyeon-2016": {
-        "name": "박수연",
-        "university": "경희대학교",
-        "department": "중국어학과",
-        "entryYear": "2016",
-        "participationYears": [
-            {
-                "year": "2016-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "park-suheum": {
-        "name": "박수흠",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2024",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "park-seungyeol": {
-        "name": "박승열",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2025",
-        "participationYears": [
-            {
-                "year": "2026",
-                "program": ""
-            }
-        ]
-    },
-    "park-shinjae": {
-        "name": "박신재",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2022",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "park-eunjae": {
-        "name": "박은재",
-        "university": "경희대학교",
-        "department": "우주과학과",
-        "entryYear": "2016",
-        "participationYears": [
-            {
-                "year": "2016-1",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "park-junghyun": {
-        "name": "박정현",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "park-junseo": {
-        "name": "박준서",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2023",
-        "participationYears": [
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "park-juntae": {
-        "name": "박준태",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2025",
-        "participationYears": [
-            {
-                "year": "2026",
-                "program": ""
-            }
-        ]
-    },
-    "park-jiyeon": {
-        "name": "박지연",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2023",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "park-jinwoo": {
-        "name": "박진우",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2023",
-        "participationYears": [
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "park-jinhong": {
-        "name": "박진홍",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2022",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "park-hyunwoo": {
-        "name": "박현우",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "bae-sumin": {
-        "name": "배수민",
-        "university": "경희대학교",
-        "department": "산업디자인학과",
-        "entryYear": "2016",
-        "participationYears": [
-            {
-                "year": "2016-1",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "baek-woobin": {
-        "name": "백우빈",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2023",
-        "participationYears": [
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "byun-donghyun": {
-        "name": "변동현",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "seo-seungwan": {
-        "name": "서승완",
-        "university": "경희대학교",
-        "department": "컴퓨터공학과",
-        "entryYear": "2016",
-        "participationYears": [
-            {
-                "year": "2016-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "seo-yujung": {
-        "name": "서유정",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "seo-jungin": {
-        "name": "서정인",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "seo-hyukjin": {
-        "name": "서혁진",
-        "university": "경희대학교",
-        "department": "국제학과",
-        "entryYear": "2014",
-        "participationYears": [
-            {
-                "year": "2014-1",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "seok-jimin": {
-        "name": "석지민",
-        "university": "경희대학교",
-        "department": "건축학과",
-        "entryYear": "2016",
-        "participationYears": [
-            {
-                "year": "2016-1",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "sung-minji": {
-        "name": "성민지",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2023",
-        "participationYears": [
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "sung-woongi": {
-        "name": "성운기",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "sung-eunju": {
-        "name": "성은주",
-        "university": "경희대학교",
-        "department": "시각디자인학과",
-        "entryYear": "2015",
-        "participationYears": [
-            {
-                "year": "2015-1",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "sung-hyungmin": {
-        "name": "성형민",
-        "university": "경희대학교",
-        "department": "기계공학과",
-        "entryYear": "2014",
-        "participationYears": [
-            {
-                "year": "2014-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "son-changki": {
-        "name": "손창기",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2017",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "son-hyungjin": {
-        "name": "손형진",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2022",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2024",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2026",
-                "program": ""
-            }
-        ]
-    },
-    "shin-kyungsu": {
-        "name": "신경수",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2023",
-        "participationYears": [
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2026",
-                "program": ""
-            }
-        ]
-    },
-    "shin-dongchan": {
-        "name": "신동찬",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2025",
-        "participationYears": [
-            {
-                "year": "2026",
-                "program": ""
-            }
-        ]
-    },
-    "shin-youngseo": {
-        "name": "신영서",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2020",
-        "participationYears": [
-            {
-                "year": "2020",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "shin-yunsu": {
-        "name": "신윤수",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2026",
-                "program": ""
-            }
-        ]
-    },
-    "shin-eunmin": {
-        "name": "신은민",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2020",
-        "participationYears": [
-            {
-                "year": "2020",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "shin-jungyun": {
-        "name": "신정윤",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2022",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2024",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "shin-jihwan": {
-        "name": "신지환",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "shin-jihoon": {
-        "name": "신지훈",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2015",
-        "participationYears": [
-            {
-                "year": "2015-1",
-                "program": "경희대학교 교수학습개발원 Learning Step-Up 튜터링 프로그램"
-            }
-        ]
-    },
-    "shim-dasol": {
-        "name": "심다솔",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2023",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "shim-eun": {
-        "name": "심은",
+  "kang-deokgeun": {
+    "name": "강덕근",
+    "university": "경희대학교",
+    "department": "전자전파공학과",
+    "entryYear": "2016",
+    "participationYears": [
+      {
+        "year": "2016-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "kang-donghee": {
+    "name": "강동희",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2024",
+    "participationYears": [
+      {
+        "year": "2026",
+        "program": ""
+      }
+    ]
+  },
+  "kang-myunggu": {
+    "name": "강명구",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2020",
+    "participationYears": [
+      {
+        "year": "2020",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "kang-minkyung-2015": {
+    "name": "강민경",
+    "university": "경희대학교",
+    "department": "생체의공학과",
+    "entryYear": "2015",
+    "participationYears": [
+      {
+        "year": "2015-1",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "kang-byungoh": {
+    "name": "강병오",
+    "university": "경희대학교",
+    "department": "컴퓨터공학과",
+    "entryYear": "2019",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "kang-yeonsu": {
+    "name": "강연수",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2023",
+    "participationYears": [
+      {
+        "year": "2026",
+        "program": ""
+      }
+    ]
+  },
+  "kang-hyejin-2015": {
+    "name": "강혜진",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2015",
+    "participationYears": [
+      {
+        "year": "2015-1",
+        "program": "경희대학교 교수학습개발원 Learning Step-Up 튜터링 프로그램"
+      }
+    ]
+  },
+  "go-hyunwoo": {
+    "name": "고현우",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "kwak-dongyeop": {
+    "name": "곽동엽",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "koo-minjin": {
+    "name": "구민진",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2017",
+    "participationYears": [
+      {
+        "year": "2020",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "koo-jihoe": {
+    "name": "구지회",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "kwon-dongha": {
+    "name": "권동하",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "kwon-bongjun": {
+    "name": "권봉준",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2014",
+    "participationYears": [
+      {
+        "year": "2019",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "kwon-suyoung": {
+    "name": "권수영",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2020",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2022",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "kwon-yejin": {
+    "name": "권예진",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2017",
+    "participationYears": [
+      {
+        "year": "2017-1",
+        "program": "경희대학교 교수학습개발원 Learning Step-Up 튜터링 프로그램"
+      }
+    ]
+  },
+  "kim-gayeon": {
+    "name": "김가연",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2022",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "kim-gunhee": {
+    "name": "김건희",
+    "university": "경희대학교",
+    "department": "스포츠의학과",
+    "entryYear": "2014",
+    "participationYears": [
+      {
+        "year": "2014-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "kim-nagyun": {
+    "name": "김나균",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2023",
+    "participationYears": [
+      {
+        "year": "2026",
+        "program": ""
+      }
+    ]
+  },
+  "kim-nari": {
+    "name": "김나리",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2022",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2024",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "kim-daye": {
+    "name": "김다예",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2019",
+    "participationYears": [
+      {
+        "year": "2019",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "kim-daehyun": {
+    "name": "김대현",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "kim-doyoon": {
+    "name": "김도윤",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2020",
+    "participationYears": [
+      {
+        "year": "2020",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "kim-dohyun-2015": {
+    "name": "김도현",
+    "university": "경희대학교",
+    "department": "기계공학과",
+    "entryYear": "2015",
+    "participationYears": [
+      {
+        "year": "2015-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "kim-dongwan": {
+    "name": "김동완",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2022",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2024",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2026",
+        "program": ""
+      }
+    ]
+  },
+  "kim-dongwoo": {
+    "name": "김동우",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2023",
+    "participationYears": [
+      {
+        "year": "2026",
+        "program": ""
+      }
+    ]
+  },
+  "kim-miso": {
+    "name": "김미소",
+    "university": "경희대학교",
+    "department": "도예학과",
+    "entryYear": "2014",
+    "participationYears": [
+      {
+        "year": "2014-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "kim-minkyung": {
+    "name": "김민경",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2018",
+    "participationYears": [
+      {
+        "year": "2018",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2020",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "kim-minkyun": {
+    "name": "김민균",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2024",
+    "participationYears": [
+      {
+        "year": "2024",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2026",
+        "program": ""
+      }
+    ]
+  },
+  "kim-minwoo": {
+    "name": "김민우",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "kim-minji-19": {
+    "name": "김민지",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2019",
+    "participationYears": [
+      {
+        "year": "2020",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "kim-sangyeon": {
+    "name": "김상연",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2024",
+    "participationYears": [
+      {
+        "year": "2024",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2026",
+        "program": ""
+      }
+    ]
+  },
+  "kim-seokyung": {
+    "name": "김서경",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2019",
+    "participationYears": [
+      {
+        "year": "2019",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "kim-seokyung-2016": {
+    "name": "김서경",
+    "university": "경희대학교",
+    "department": "시각디자인학과",
+    "entryYear": "2016",
+    "participationYears": [
+      {
+        "year": "2016-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "kim-seoyeon-external": {
+    "name": "김서연",
+    "university": "고려대학교",
+    "department": "산업경영공학부",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2023",
+        "program": "JL Creatives & Contents 멘토링 프로그램"
+      },
+      {
+        "year": "2025",
+        "program": "JL Creatives & Contents 멘토링 프로그램"
+      }
+    ]
+  },
+  "kim-sunkyung-2015": {
+    "name": "김선경",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2015",
+    "participationYears": [
+      {
+        "year": "2015-1",
+        "program": "경희대학교 교수학습개발원 Learning Step-Up 튜터링 프로그램"
+      },
+      {
+        "year": "2015-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "kim-seolhee": {
+    "name": "김설희",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2015",
+    "participationYears": [
+      {
+        "year": "2015-1",
+        "program": "경희대학교 교수학습개발원 Learning Step-Up 튜터링 프로그램"
+      }
+    ]
+  },
+  "kim-seonghoon": {
+    "name": "김성훈",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2023",
+    "participationYears": [
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2024",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "kim-sewan": {
+    "name": "김세완",
+    "university": "경희대학교",
+    "department": "도예학과",
+    "entryYear": "2014",
+    "participationYears": [
+      {
+        "year": "2014-1",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "kim-sujin": {
+    "name": "김수진",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2019",
+    "participationYears": [
+      {
+        "year": "2019",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "kim-seungwon-2016": {
+    "name": "김승원",
+    "university": "경희대학교",
+    "department": "국제학과",
+    "entryYear": "2016",
+    "participationYears": [
+      {
+        "year": "2016-1",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "kim-seungjun-2014": {
+    "name": "김승준",
+    "university": "경희대학교",
+    "department": "전자전파공학과",
+    "entryYear": "2014",
+    "participationYears": [
+      {
+        "year": "2014-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "kim-seungchae": {
+    "name": "김승채",
+    "university": "경희대학교",
+    "department": "전자전파공학과",
+    "entryYear": "2016",
+    "participationYears": [
+      {
+        "year": "2016-1",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "kim-ayoon": {
+    "name": "김아윤",
+    "university": "경희대학교",
+    "department": "응용수학과",
+    "entryYear": "2016",
+    "participationYears": [
+      {
+        "year": "2016-1",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "kim-youngjun-2015": {
+    "name": "김영준",
+    "university": "경희대학교",
+    "department": "전자전파공학과",
+    "entryYear": "2015",
+    "participationYears": [
+      {
+        "year": "2015-1",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "kim-yeram": {
+    "name": "김예람",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "kim-yehyang": {
+    "name": "김예향",
+    "university": "고려대학교",
+    "department": "산업경영공학부",
+    "entryYear": "2019",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "JL Creatives & Contents 멘토링 프로그램"
+      }
+    ]
+  },
+  "kim-jaehyun": {
+    "name": "김재현",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "kim-jaehee": {
+    "name": "김재희",
+    "university": "경희대학교",
+    "department": "원예생명공학과",
+    "entryYear": "2016",
+    "participationYears": [
+      {
+        "year": "2016-1",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "kim-jungjin": {
+    "name": "김정진",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2023",
+    "participationYears": [
+      {
+        "year": "2026",
+        "program": ""
+      }
+    ]
+  },
+  "kim-juyeon": {
+    "name": "김주연",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "kim-junseop": {
+    "name": "김준섭",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "kim-jiyang": {
+    "name": "김지양",
+    "university": "경희대학교",
+    "department": "중국어학과",
+    "entryYear": "2014",
+    "participationYears": [
+      {
+        "year": "2014-1",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "kim-chiyeon": {
+    "name": "김치연",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2020",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "kim-hyunseo": {
+    "name": "김현서",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2022",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2024",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "kim-hyunsu": {
+    "name": "김현수",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2026",
+        "program": ""
+      }
+    ]
+  },
+  "kim-hyoeun": {
+    "name": "김효은",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2025",
+    "participationYears": [
+      {
+        "year": "2026",
+        "program": ""
+      }
+    ]
+  },
+  "kim-heekyung": {
+    "name": "김희경",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2019",
+    "participationYears": [
+      {
+        "year": "2019",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2020",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "na-yujin": {
+    "name": "나유진",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2020",
+    "participationYears": [
+      {
+        "year": "2020",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "na-hyunkyu": {
+    "name": "나현규",
+    "university": "경희대학교",
+    "department": "기계공학과",
+    "entryYear": "2014",
+    "participationYears": [
+      {
+        "year": "2014-1",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "na-hyunsun": {
+    "name": "나현선",
+    "university": "경희대학교",
+    "department": "한방재료공학과",
+    "entryYear": "2016",
+    "participationYears": [
+      {
+        "year": "2016-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "nam-haeun": {
+    "name": "남하은",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2023",
+    "participationYears": [
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "ryu-hyorim": {
+    "name": "류효림",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2019",
+    "participationYears": [
+      {
+        "year": "2019",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "moon-yeji": {
+    "name": "문예지",
+    "university": "경희대학교",
+    "department": "한국어학과",
+    "entryYear": "2016",
+    "participationYears": [
+      {
+        "year": "2016-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "park-seoyeon": {
+    "name": "박서연",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2018",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "park-seokjin": {
+    "name": "박석진",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "park-seongsu": {
+    "name": "박성수",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2020",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "park-seryeon": {
+    "name": "박세련",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2025",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "park-seyoon": {
+    "name": "박세윤",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2025",
+    "participationYears": [
+      {
+        "year": "2026",
+        "program": ""
+      }
+    ]
+  },
+  "park-sohyun-2014": {
+    "name": "박소현",
+    "university": "경희대학교",
+    "department": "중국어학과",
+    "entryYear": "2014",
+    "participationYears": [
+      {
+        "year": "2014-1",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      },
+      {
+        "year": "2014-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "park-sooyeon-2016": {
+    "name": "박수연",
+    "university": "경희대학교",
+    "department": "중국어학과",
+    "entryYear": "2016",
+    "participationYears": [
+      {
+        "year": "2016-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "park-suheum": {
+    "name": "박수흠",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2024",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "park-seungyeol": {
+    "name": "박승열",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2025",
+    "participationYears": [
+      {
+        "year": "2026",
+        "program": ""
+      }
+    ]
+  },
+  "park-shinjae": {
+    "name": "박신재",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2022",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "park-eunjae": {
+    "name": "박은재",
+    "university": "경희대학교",
+    "department": "우주과학과",
+    "entryYear": "2016",
+    "participationYears": [
+      {
+        "year": "2016-1",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "park-junghyun": {
+    "name": "박정현",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "park-junseo": {
+    "name": "박준서",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2023",
+    "participationYears": [
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "park-juntae": {
+    "name": "박준태",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2025",
+    "participationYears": [
+      {
+        "year": "2026",
+        "program": ""
+      }
+    ]
+  },
+  "park-jiyeon": {
+    "name": "박지연",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2023",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "park-jinwoo": {
+    "name": "박진우",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2023",
+    "participationYears": [
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "park-jinhong": {
+    "name": "박진홍",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2022",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "park-hyunwoo": {
+    "name": "박현우",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "bae-sumin": {
+    "name": "배수민",
+    "university": "경희대학교",
+    "department": "산업디자인학과",
+    "entryYear": "2016",
+    "participationYears": [
+      {
+        "year": "2016-1",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "baek-woobin": {
+    "name": "백우빈",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2023",
+    "participationYears": [
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "byun-donghyun": {
+    "name": "변동현",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "seo-seungwan": {
+    "name": "서승완",
+    "university": "경희대학교",
+    "department": "컴퓨터공학과",
+    "entryYear": "2016",
+    "participationYears": [
+      {
+        "year": "2016-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "seo-yujung": {
+    "name": "서유정",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "seo-jungin": {
+    "name": "서정인",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "seo-hyukjin": {
+    "name": "서혁진",
+    "university": "경희대학교",
+    "department": "국제학과",
+    "entryYear": "2014",
+    "participationYears": [
+      {
+        "year": "2014-1",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "seok-jimin": {
+    "name": "석지민",
+    "university": "경희대학교",
+    "department": "건축학과",
+    "entryYear": "2016",
+    "participationYears": [
+      {
+        "year": "2016-1",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "sung-minji": {
+    "name": "성민지",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2023",
+    "participationYears": [
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "sung-woongi": {
+    "name": "성운기",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "sung-eunju": {
+    "name": "성은주",
+    "university": "경희대학교",
+    "department": "시각디자인학과",
+    "entryYear": "2015",
+    "participationYears": [
+      {
+        "year": "2015-1",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "sung-hyungmin": {
+    "name": "성형민",
+    "university": "경희대학교",
+    "department": "기계공학과",
+    "entryYear": "2014",
+    "participationYears": [
+      {
+        "year": "2014-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "son-changki": {
+    "name": "손창기",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2017",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "son-hyungjin": {
+    "name": "손형진",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2022",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2024",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2026",
+        "program": ""
+      }
+    ]
+  },
+  "shin-kyungsu": {
+    "name": "신경수",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2023",
+    "participationYears": [
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2026",
+        "program": ""
+      }
+    ]
+  },
+  "shin-dongchan": {
+    "name": "신동찬",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2025",
+    "participationYears": [
+      {
+        "year": "2026",
+        "program": ""
+      }
+    ]
+  },
+  "shin-youngseo": {
+    "name": "신영서",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2020",
+    "participationYears": [
+      {
+        "year": "2020",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "shin-yunsu": {
+    "name": "신윤수",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2026",
+        "program": ""
+      }
+    ]
+  },
+  "shin-eunmin": {
+    "name": "신은민",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2020",
+    "participationYears": [
+      {
+        "year": "2020",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "shin-jungyun": {
+    "name": "신정윤",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2022",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2024",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "shin-jihwan": {
+    "name": "신지환",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "shin-jihoon": {
+    "name": "신지훈",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2015",
+    "participationYears": [
+      {
+        "year": "2015-1",
+        "program": "경희대학교 교수학습개발원 Learning Step-Up 튜터링 프로그램"
+      }
+    ]
+  },
+  "shim-dasol": {
+    "name": "심다솔",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2023",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "shim-eun": {
+    "name": "심은",
+    "university": "서강대학교",
+    "department": "컴퓨터공학부",
+    "entryYear": "2022",
+    "schoolHistory": [
+      {
+        "yearRange": [
+          "2021",
+          "2021"
+        ],
+        "university": "경희대학교",
+        "department": "산업경영공학과"
+      },
+      {
+        "yearRange": [
+          "2022",
+          "2023"
+        ],
         "university": "서강대학교",
-        "department": "컴퓨터공학부",
-        "entryYear": "2022",
-        "schoolHistory": [
-            {
-                "yearRange": [
-                    "2021",
-                    "2021"
-                ],
-                "university": "경희대학교",
-                "department": "산업경영공학과"
-            },
-            {
-                "yearRange": [
-                    "2022",
-                    "2023"
-                ],
-                "university": "서강대학교",
-                "department": "컴퓨터공학과"
-            },
-            {
-                "yearRange": [
-                    "2024",
-                    "9999"
-                ],
-                "university": "서강대학교",
-                "department": "컴퓨터공학부"
-            }
+        "department": "컴퓨터공학과"
+      },
+      {
+        "yearRange": [
+          "2024",
+          "9999"
         ],
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2024",
-                "program": "자체 멘토링 프로그램"
-            }
-        ]
-    },
-    "shim-eunyoung": {
-        "name": "심은영",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2020",
-        "schoolHistory": [
-            {
-                "yearRange": [
-                    "2020",
-                    "2021"
-                ],
-                "university": "경희대학교",
-                "department": "산업경영공학과"
-            },
-            {
-                "yearRange": [
-                    "2022",
-                    "2023"
-                ],
-                "university": "서강대학교",
-                "department": "컴퓨터공학과"
-            },
-            {
-                "yearRange": [
-                    "2024",
-                    "9999"
-                ],
-                "university": "서강대학교",
-                "department": "컴퓨터공학부"
-            }
+        "university": "서강대학교",
+        "department": "컴퓨터공학부"
+      }
+    ],
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2024",
+        "program": "JL Creatives & Contents 멘토링 프로그램"
+      }
+    ]
+  },
+  "shim-eunyoung": {
+    "name": "심은영",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2020",
+    "schoolHistory": [
+      {
+        "yearRange": [
+          "2020",
+          "2021"
         ],
-        "participationYears": [
-            {
-                "year": "2020",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "ahn-sewon": {
-        "name": "안세원",
         "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2024",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "ahn-hyungmin": {
-        "name": "안형민",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "ahn-hyungwook": {
-        "name": "안형욱",
-        "university": "경희대학교",
-        "department": "컴퓨터공학과",
-        "entryYear": "2015",
-        "participationYears": [
-            {
-                "year": "2015-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "yang-sungjae": {
-        "name": "양성재",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2020",
-        "participationYears": [
-            {
-                "year": "2020",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "yang-jumi": {
-        "name": "양주미",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2018",
-        "participationYears": [
-            {
-                "year": "2019",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "yang-jinhyuk": {
-        "name": "양진혁",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "oh-sangjun": {
-        "name": "오상준",
-        "university": "경희대학교",
-        "department": "응용물리학과",
-        "entryYear": "2015",
-        "participationYears": [
-            {
-                "year": "2015-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "oh-yunje": {
-        "name": "오윤제",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "oh-yoonjin": {
-        "name": "오윤진",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "yoo-dongyoung": {
-        "name": "유동영",
-        "university": "경희대학교",
-        "department": "전자전파공학과",
-        "entryYear": "2016",
-        "participationYears": [
-            {
-                "year": "2016-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "yoo-buil": {
-        "name": "유부일",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "yoo-saebom": {
-        "name": "유새봄",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2025",
-        "participationYears": [
-            {
-                "year": "2026",
-                "program": ""
-            }
-        ]
-    },
-    "yoo-jungsu": {
-        "name": "유정수",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2017",
-        "participationYears": [
-            {
-                "year": "2017-1",
-                "program": "경희대학교 교수학습개발원 Learning Step-Up 튜터링 프로그램"
-            },
-            {
-                "year": "2017",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "yoon-namkyung": {
-        "name": "윤남경",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2020",
-        "participationYears": [
-            {
-                "year": "2020",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "yoon-bin": {
-        "name": "윤빈",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2024",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "yoon-seojun": {
-        "name": "윤서준",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2022",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "yoon-soeun": {
-        "name": "윤소은",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2023",
-        "participationYears": [
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "yoon-yejun": {
-        "name": "윤예준",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "yoon-chaehee": {
-        "name": "윤채희",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "lee-geunyoung": {
-        "name": "이근영",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2017",
-        "participationYears": [
-            {
-                "year": "2017",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2018",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "lee-dabin": {
-        "name": "이다빈",
-        "university": "동국대학교",
-        "department": "산업시스템공학과",
-        "entryYear": "2019",
-        "participationYears": [
-            {
-                "year": "2022",
-                "program": "자체 멘토링 프로그램"
-            }
-        ]
-    },
-    "lee-doyoung-17": {
-        "name": "이도영",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2017",
-        "participationYears": [
-            {
-                "year": "2020",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2022",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "lee-doyoung-20": {
-        "name": "이도영",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2020",
-        "participationYears": [
-            {
-                "year": "2020",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2022",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "lee-donghyun-2014": {
-        "name": "이동현",
-        "university": "경희대학교",
-        "department": "정보전자신소재공학과",
-        "entryYear": "2014",
-        "participationYears": [
-            {
-                "year": "2014-1",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "lee-seongjun": {
-        "name": "이성준",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2024",
-        "participationYears": [
-            {
-                "year": "2024",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "lee-soyoon-2015": {
-        "name": "이소윤",
-        "university": "경희대학교",
-        "department": "응용수학과",
-        "entryYear": "2015",
-        "participationYears": [
-            {
-                "year": "2015-1",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "lee-subin": {
-        "name": "이수빈",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2023",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "lee-suyeon": {
-        "name": "이수연",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2020",
-        "participationYears": [
-            {
-                "year": "2020",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "lee-suin": {
-        "name": "이수인",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2020",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "lee-seungeun": {
-        "name": "이승은",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "lee-seungju": {
-        "name": "이승주",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "lee-shinhyung": {
-        "name": "이신형",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2019",
-        "participationYears": [
-            {
-                "year": "2019",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "lee-yewon": {
-        "name": "이예원",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2020",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2022",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "lee-yosep": {
-        "name": "이요셉",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2024",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2026",
-                "program": ""
-            }
-        ]
-    },
-    "lee-woonggeun": {
-        "name": "이웅근",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "lee-yuri": {
-        "name": "이유리",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2015",
-        "participationYears": [
-            {
-                "year": "2015-1",
-                "program": "경희대학교 교수학습개발원 Learning Step-Up 튜터링 프로그램"
-            }
-        ]
-    },
-    "lee-yumin": {
-        "name": "이유민",
-        "university": "경희대학교",
-        "department": "식품생명공학과",
-        "entryYear": "2014",
-        "participationYears": [
-            {
-                "year": "2014-1",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "lee-yunhyuk": {
-        "name": "이윤혁",
-        "university": "경희대학교",
-        "department": "전자전파공학과",
-        "entryYear": "2015",
-        "participationYears": [
-            {
-                "year": "2015-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "lee-eunkyung": {
-        "name": "이은경",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2024",
-        "participationYears": [
-            {
-                "year": "2026",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "lee-jaeyong-2015": {
-        "name": "이재용",
-        "university": "경희대학교",
-        "department": "원예생명공학과",
-        "entryYear": "2015",
-        "participationYears": [
-            {
-                "year": "2015-1",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "lee-jumyung": {
-        "name": "이주명",
-        "university": "경희대학교",
-        "department": "스포츠의학과",
-        "entryYear": "2016",
-        "participationYears": [
-            {
-                "year": "2016-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "lee-junyoung": {
-        "name": "이준영",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2024",
-        "participationYears": [
-            {
-                "year": "2024",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "lee-junyong": {
-        "name": "이준용",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2020",
-        "participationYears": [
-            {
-                "year": "2020",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2024",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "lee-chan": {
-        "name": "이찬",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "lee-chaemin": {
-        "name": "이채민",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "lce1": {
-        "name": "이채은",
-        "university": "가천대학교",
-        "department": "기계·스마트·산업공학부 산업공학전공",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2026",
-                "program": ""
-            }
-        ]
-    },
-    "lee-taekyung": {
-        "name": "이태경",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2022",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "lee-taehyung": {
-        "name": "이태형",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2023",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "lee-hyunseo": {
-        "name": "이현서",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2024",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "lee-hyunjin": {
-        "name": "이현진",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2016",
-        "participationYears": [
-            {
-                "year": "2016-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            },
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "lee-hyerin": {
-        "name": "이혜린",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2024",
-        "participationYears": [
-            {
-                "year": "2024",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "lee-hyesun": {
-        "name": "이혜선",
-        "university": "경희대학교",
-        "department": "국제학과",
-        "entryYear": "2016",
-        "participationYears": [
-            {
-                "year": "2016-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "lim-donghwi": {
-        "name": "임동휘",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2024",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "lim-soyoung": {
-        "name": "임소영",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2022",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2024",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2026",
-                "program": ""
-            }
-        ]
-    },
-    "lim-suyoung": {
-        "name": "임수영",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2022",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "lim-juhyun": {
-        "name": "임주현",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "lim-haewon": {
-        "name": "임해원",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2020",
-        "participationYears": [
-            {
-                "year": "2020",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "jang-sungmi": {
-        "name": "장성미",
-        "university": "경희대학교",
-        "department": "국제학과",
-        "entryYear": "2014",
-        "participationYears": [
-            {
-                "year": "2014-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "jang-seungmin": {
-        "name": "장승민",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2024",
-        "participationYears": [
-            {
-                "year": "2024",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "jang-junpil": {
-        "name": "장준필",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "jang-hyunsu": {
-        "name": "장현수",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2018",
-        "participationYears": [
-            {
-                "year": "2022",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "jang-hyerin": {
-        "name": "장혜린",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "jeon-kyudam": {
-        "name": "전규담",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2024",
-        "participationYears": [
-            {
-                "year": "2024",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "jeon-soyoung": {
-        "name": "전소영",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2017",
-        "participationYears": [
-            {
-                "year": "2017-1",
-                "program": "경희대학교 교수학습개발원 Learning Step-Up 튜터링 프로그램"
-            }
-        ]
-    },
-    "jeon-jihyun": {
-        "name": "전지현",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "jung-daehyun": {
-        "name": "정대현",
-        "university": "경희대학교",
-        "department": "식품생명공학과",
-        "entryYear": "2014",
-        "participationYears": [
-            {
-                "year": "2014-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "jung-myungju": {
-        "name": "정명주",
-        "university": "경희대학교",
-        "department": "화학공학과",
-        "entryYear": "2016",
-        "participationYears": [
-            {
-                "year": "2016-1",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "jung-minjae": {
-        "name": "정민재",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2023",
-        "participationYears": [
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "jung-sangyun": {
-        "name": "정상윤",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2024",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "jung-seokwon": {
-        "name": "정석원",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2015",
-        "participationYears": [
-            {
-                "year": "2015-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "jung-yeonju": {
-        "name": "정연주",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2019",
-        "participationYears": [
-            {
-                "year": "2019",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "jung-yongsu": {
-        "name": "정용수",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2022",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2024",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "jung-yujin": {
-        "name": "정유진",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2024",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "jung-heejae": {
-        "name": "정희재",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2014",
-        "participationYears": [
-            {
-                "year": "2014-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "jo-kyungmo": {
-        "name": "조경모",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2017",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "jo-seoyoung": {
-        "name": "조서영",
-        "university": "경희대학교",
-        "department": "러시아어학과",
-        "entryYear": "2014",
-        "participationYears": [
-            {
-                "year": "2014-1",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "jo-youngseo": {
-        "name": "조영서",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2018",
-        "participationYears": [
-            {
-                "year": "2018",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "jo-hyungsik": {
-        "name": "조형식",
-        "university": "경희대학교",
-        "department": "환경공학과",
-        "entryYear": "2016",
-        "participationYears": [
-            {
-                "year": "2016-1",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "joo-younghoon": {
-        "name": "주영훈",
-        "university": "경희대학교",
-        "department": "컴퓨터공학과",
-        "entryYear": "2014",
-        "participationYears": [
-            {
-                "year": "2014-1",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "cha-hongseok": {
-        "name": "차홍석",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2022",
-        "participationYears": [
-            {
-                "year": "2024",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "chae-jinki": {
-        "name": "채진기",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "choi-mihyang": {
-        "name": "최미향",
-        "university": "경희대학교",
-        "department": "포스트모던음악학과",
-        "entryYear": "2014",
-        "participationYears": [
-            {
-                "year": "2014-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "choi-soyeon-2015": {
-        "name": "최소연",
-        "university": "경희대학교",
-        "department": "글로벌커뮤니케이션학부",
-        "entryYear": "2015",
-        "participationYears": [
-            {
-                "year": "2015-1",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            },
-            {
-                "year": "2015-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "choi-sumin": {
-        "name": "최수민",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2025",
-        "participationYears": [
-            {
-                "year": "2026",
-                "program": ""
-            }
-        ]
-    },
-    "choi-yeona": {
-        "name": "최연아",
-        "university": "동국대학교",
-        "department": "산업시스템공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2024",
-                "program": "자체 멘토링 프로그램"
-            }
-        ]
-    },
-    "choi-yonghwan": {
-        "name": "최용환",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2023",
-        "participationYears": [
-            {
-                "year": "2026",
-                "program": ""
-            }
-        ]
-    },
-    "choi-yujung": {
-        "name": "최유정",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2023",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "choi-jungyoon": {
-        "name": "최정윤",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2025",
-        "participationYears": [
-            {
-                "year": "2026",
-                "program": ""
-            }
-        ]
-    },
-    "choi-jubi": {
-        "name": "최주비",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2022",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "choi-jiwoo": {
-        "name": "최지우",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2017",
-        "participationYears": [
-            {
-                "year": "2017-1",
-                "program": "경희대학교 교수학습개발원 Learning Step-Up 튜터링 프로그램"
-            },
-            {
-                "year": "2017",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            },
-            {
-                "year": "2018",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "choi-jinwoo": {
-        "name": "최진우",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2022",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "choi-hyun": {
-        "name": "최현",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2020",
-        "participationYears": [
-            {
-                "year": "2021",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "choi-hyeji": {
-        "name": "최혜지",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2016",
-        "participationYears": [
-            {
-                "year": "2017",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "han-gwangmin": {
-        "name": "한광민",
-        "university": "경희대학교",
-        "department": "식물환경신소재공학과",
-        "entryYear": "2016",
-        "participationYears": [
-            {
-                "year": "2016-1",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "han-dongsu": {
-        "name": "한동수",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2021",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "han-subin": {
-        "name": "한수빈",
-        "university": "성균관대학교",
-        "department": "시스템경영공학과",
-        "entryYear": "2020",
-        "participationYears": [
-            {
-                "year": "2023",
-                "program": "자체 멘토링 프로그램"
-            }
-        ]
-    },
-    "han-seungyeon": {
-        "name": "한승연",
-        "university": "경희대학교",
-        "department": "포스트모던음악학과",
-        "entryYear": "2015",
-        "participationYears": [
-            {
-                "year": "2015-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "han-jiwon": {
-        "name": "한지원",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2024",
-        "participationYears": [
-            {
-                "year": "2024",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "han-chulhyun": {
-        "name": "한철현",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2019",
-        "participationYears": [
-            {
-                "year": "2019",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "hong-minki": {
-        "name": "홍민기",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2023",
-        "participationYears": [
-            {
-                "year": "2023",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "hong-yujin": {
-        "name": "홍유진",
-        "university": "경희대학교",
-        "department": "기계공학과",
-        "entryYear": "2015",
-        "participationYears": [
-            {
-                "year": "2015-1",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "hong-jungui": {
-        "name": "홍정의",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2025",
-        "participationYears": [
-            {
-                "year": "2026",
-                "program": ""
-            }
-        ]
-    },
-    "hong-junki": {
-        "name": "홍준기",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2024",
-        "participationYears": [
-            {
-                "year": "2025",
-                "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
-            }
-        ]
-    },
-    "hwang-chaerin": {
-        "name": "황채린",
-        "university": "경희대학교",
-        "department": "디지털콘텐츠학과",
-        "entryYear": "2015",
-        "participationYears": [
-            {
-                "year": "2015-2",
-                "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
-            }
-        ]
-    },
-    "hwang-taewon": {
-        "name": "황태원",
-        "university": "경희대학교",
-        "department": "산업경영공학과",
-        "entryYear": "2023",
-        "participationYears": [
-            {
-                "year": "2026",
-                "program": ""
-            }
-        ]
-    }
+        "department": "산업경영공학과"
+      },
+      {
+        "yearRange": [
+          "2022",
+          "2023"
+        ],
+        "university": "서강대학교",
+        "department": "컴퓨터공학과"
+      },
+      {
+        "yearRange": [
+          "2024",
+          "9999"
+        ],
+        "university": "서강대학교",
+        "department": "컴퓨터공학부"
+      }
+    ],
+    "participationYears": [
+      {
+        "year": "2020",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "ahn-sewon": {
+    "name": "안세원",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2024",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "ahn-hyungmin": {
+    "name": "안형민",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "ahn-hyungwook": {
+    "name": "안형욱",
+    "university": "경희대학교",
+    "department": "컴퓨터공학과",
+    "entryYear": "2015",
+    "participationYears": [
+      {
+        "year": "2015-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "yang-sungjae": {
+    "name": "양성재",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2020",
+    "participationYears": [
+      {
+        "year": "2020",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "yang-jumi": {
+    "name": "양주미",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2018",
+    "participationYears": [
+      {
+        "year": "2019",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "yang-jinhyuk": {
+    "name": "양진혁",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "oh-sangjun": {
+    "name": "오상준",
+    "university": "경희대학교",
+    "department": "응용물리학과",
+    "entryYear": "2015",
+    "participationYears": [
+      {
+        "year": "2015-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "oh-yunje": {
+    "name": "오윤제",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "oh-yoonjin": {
+    "name": "오윤진",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "yoo-dongyoung": {
+    "name": "유동영",
+    "university": "경희대학교",
+    "department": "전자전파공학과",
+    "entryYear": "2016",
+    "participationYears": [
+      {
+        "year": "2016-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "yoo-buil": {
+    "name": "유부일",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "yoo-saebom": {
+    "name": "유새봄",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2025",
+    "participationYears": [
+      {
+        "year": "2026",
+        "program": ""
+      }
+    ]
+  },
+  "yoo-jungsu": {
+    "name": "유정수",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2017",
+    "participationYears": [
+      {
+        "year": "2017-1",
+        "program": "경희대학교 교수학습개발원 Learning Step-Up 튜터링 프로그램"
+      },
+      {
+        "year": "2017",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "yoon-namkyung": {
+    "name": "윤남경",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2020",
+    "participationYears": [
+      {
+        "year": "2020",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "yoon-bin": {
+    "name": "윤빈",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2024",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "yoon-seojun": {
+    "name": "윤서준",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2022",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "yoon-soeun": {
+    "name": "윤소은",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2023",
+    "participationYears": [
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "yoon-yejun": {
+    "name": "윤예준",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "yoon-chaehee": {
+    "name": "윤채희",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "lee-geunyoung": {
+    "name": "이근영",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2017",
+    "participationYears": [
+      {
+        "year": "2017",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2018",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "lee-dabin": {
+    "name": "이다빈",
+    "university": "동국대학교",
+    "department": "산업시스템공학과",
+    "entryYear": "2019",
+    "participationYears": [
+      {
+        "year": "2022",
+        "program": "JL Creatives & Contents 멘토링 프로그램"
+      }
+    ]
+  },
+  "lee-doyoung-17": {
+    "name": "이도영",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2017",
+    "participationYears": [
+      {
+        "year": "2020",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2022",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "lee-doyoung-20": {
+    "name": "이도영",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2020",
+    "participationYears": [
+      {
+        "year": "2020",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2022",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "lee-donghyun-2014": {
+    "name": "이동현",
+    "university": "경희대학교",
+    "department": "정보전자신소재공학과",
+    "entryYear": "2014",
+    "participationYears": [
+      {
+        "year": "2014-1",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "lee-seongjun": {
+    "name": "이성준",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2024",
+    "participationYears": [
+      {
+        "year": "2024",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "lee-soyoon-2015": {
+    "name": "이소윤",
+    "university": "경희대학교",
+    "department": "응용수학과",
+    "entryYear": "2015",
+    "participationYears": [
+      {
+        "year": "2015-1",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "lee-subin": {
+    "name": "이수빈",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2023",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "lee-suyeon": {
+    "name": "이수연",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2020",
+    "participationYears": [
+      {
+        "year": "2020",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "lee-suin": {
+    "name": "이수인",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2020",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "lee-seungeun": {
+    "name": "이승은",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "lee-seungju": {
+    "name": "이승주",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "lee-shinhyung": {
+    "name": "이신형",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2019",
+    "participationYears": [
+      {
+        "year": "2019",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "lee-yewon": {
+    "name": "이예원",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2020",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2022",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "lee-yosep": {
+    "name": "이요셉",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2024",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2026",
+        "program": ""
+      }
+    ]
+  },
+  "lee-woonggeun": {
+    "name": "이웅근",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "lee-yuri": {
+    "name": "이유리",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2015",
+    "participationYears": [
+      {
+        "year": "2015-1",
+        "program": "경희대학교 교수학습개발원 Learning Step-Up 튜터링 프로그램"
+      }
+    ]
+  },
+  "lee-yumin": {
+    "name": "이유민",
+    "university": "경희대학교",
+    "department": "식품생명공학과",
+    "entryYear": "2014",
+    "participationYears": [
+      {
+        "year": "2014-1",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "lee-yunhyuk": {
+    "name": "이윤혁",
+    "university": "경희대학교",
+    "department": "전자전파공학과",
+    "entryYear": "2015",
+    "participationYears": [
+      {
+        "year": "2015-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "lee-eunkyung": {
+    "name": "이은경",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2024",
+    "participationYears": [
+      {
+        "year": "2026",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "lee-jaeyong-2015": {
+    "name": "이재용",
+    "university": "경희대학교",
+    "department": "원예생명공학과",
+    "entryYear": "2015",
+    "participationYears": [
+      {
+        "year": "2015-1",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "lee-jumyung": {
+    "name": "이주명",
+    "university": "경희대학교",
+    "department": "스포츠의학과",
+    "entryYear": "2016",
+    "participationYears": [
+      {
+        "year": "2016-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "lee-junyoung": {
+    "name": "이준영",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2024",
+    "participationYears": [
+      {
+        "year": "2024",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "lee-junyong": {
+    "name": "이준용",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2020",
+    "participationYears": [
+      {
+        "year": "2020",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2024",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "lee-chan": {
+    "name": "이찬",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "lee-chaemin": {
+    "name": "이채민",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "lce1": {
+    "name": "이채은",
+    "university": "가천대학교",
+    "department": "기계·스마트·산업공학부 산업공학전공",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2026",
+        "program": "JL Creatives & Contents 멘토링 프로그램"
+      }
+    ]
+  },
+  "lee-taekyung": {
+    "name": "이태경",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2022",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "lee-taehyung": {
+    "name": "이태형",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2023",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "lee-hyunseo": {
+    "name": "이현서",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2024",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "lee-hyunjin": {
+    "name": "이현진",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2016",
+    "participationYears": [
+      {
+        "year": "2016-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      },
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "lee-hyerin": {
+    "name": "이혜린",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2024",
+    "participationYears": [
+      {
+        "year": "2024",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "lee-hyesun": {
+    "name": "이혜선",
+    "university": "경희대학교",
+    "department": "국제학과",
+    "entryYear": "2016",
+    "participationYears": [
+      {
+        "year": "2016-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "lim-donghwi": {
+    "name": "임동휘",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2024",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "lim-soyoung": {
+    "name": "임소영",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2022",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2024",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2026",
+        "program": ""
+      }
+    ]
+  },
+  "lim-suyoung": {
+    "name": "임수영",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2022",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "lim-juhyun": {
+    "name": "임주현",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "lim-haewon": {
+    "name": "임해원",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2020",
+    "participationYears": [
+      {
+        "year": "2020",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "jang-sungmi": {
+    "name": "장성미",
+    "university": "경희대학교",
+    "department": "국제학과",
+    "entryYear": "2014",
+    "participationYears": [
+      {
+        "year": "2014-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "jang-seungmin": {
+    "name": "장승민",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2024",
+    "participationYears": [
+      {
+        "year": "2024",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "jang-junpil": {
+    "name": "장준필",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "jang-hyunsu": {
+    "name": "장현수",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2018",
+    "participationYears": [
+      {
+        "year": "2022",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "jang-hyerin": {
+    "name": "장혜린",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "jeon-kyudam": {
+    "name": "전규담",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2024",
+    "participationYears": [
+      {
+        "year": "2024",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "jeon-soyoung": {
+    "name": "전소영",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2017",
+    "participationYears": [
+      {
+        "year": "2017-1",
+        "program": "경희대학교 교수학습개발원 Learning Step-Up 튜터링 프로그램"
+      }
+    ]
+  },
+  "jeon-jihyun": {
+    "name": "전지현",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "jung-daehyun": {
+    "name": "정대현",
+    "university": "경희대학교",
+    "department": "식품생명공학과",
+    "entryYear": "2014",
+    "participationYears": [
+      {
+        "year": "2014-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "jung-myungju": {
+    "name": "정명주",
+    "university": "경희대학교",
+    "department": "화학공학과",
+    "entryYear": "2016",
+    "participationYears": [
+      {
+        "year": "2016-1",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "jung-minjae": {
+    "name": "정민재",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2023",
+    "participationYears": [
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "jung-sangyun": {
+    "name": "정상윤",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2024",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "jung-seokwon": {
+    "name": "정석원",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2015",
+    "participationYears": [
+      {
+        "year": "2015-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "jung-yeonju": {
+    "name": "정연주",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2019",
+    "participationYears": [
+      {
+        "year": "2019",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "jung-yongsu": {
+    "name": "정용수",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2022",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2024",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "jung-yujin": {
+    "name": "정유진",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2024",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "jung-heejae": {
+    "name": "정희재",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2014",
+    "participationYears": [
+      {
+        "year": "2014-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "jo-kyungmo": {
+    "name": "조경모",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2017",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "jo-seoyoung": {
+    "name": "조서영",
+    "university": "경희대학교",
+    "department": "러시아어학과",
+    "entryYear": "2014",
+    "participationYears": [
+      {
+        "year": "2014-1",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "jo-youngseo": {
+    "name": "조영서",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2018",
+    "participationYears": [
+      {
+        "year": "2018",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "jo-hyungsik": {
+    "name": "조형식",
+    "university": "경희대학교",
+    "department": "환경공학과",
+    "entryYear": "2016",
+    "participationYears": [
+      {
+        "year": "2016-1",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "joo-younghoon": {
+    "name": "주영훈",
+    "university": "경희대학교",
+    "department": "컴퓨터공학과",
+    "entryYear": "2014",
+    "participationYears": [
+      {
+        "year": "2014-1",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "cha-hongseok": {
+    "name": "차홍석",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2022",
+    "participationYears": [
+      {
+        "year": "2024",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "chae-jinki": {
+    "name": "채진기",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "choi-mihyang": {
+    "name": "최미향",
+    "university": "경희대학교",
+    "department": "포스트모던음악학과",
+    "entryYear": "2014",
+    "participationYears": [
+      {
+        "year": "2014-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "choi-soyeon-2015": {
+    "name": "최소연",
+    "university": "경희대학교",
+    "department": "글로벌커뮤니케이션학부",
+    "entryYear": "2015",
+    "participationYears": [
+      {
+        "year": "2015-1",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      },
+      {
+        "year": "2015-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "choi-sumin": {
+    "name": "최수민",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2025",
+    "participationYears": [
+      {
+        "year": "2026",
+        "program": ""
+      }
+    ]
+  },
+  "choi-yeona": {
+    "name": "최연아",
+    "university": "동국대학교",
+    "department": "산업시스템공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2024",
+        "program": "JL Creatives & Contents 멘토링 프로그램"
+      }
+    ]
+  },
+  "choi-yonghwan": {
+    "name": "최용환",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2023",
+    "participationYears": [
+      {
+        "year": "2026",
+        "program": ""
+      }
+    ]
+  },
+  "choi-yujung": {
+    "name": "최유정",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2023",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "choi-jungyoon": {
+    "name": "최정윤",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2025",
+    "participationYears": [
+      {
+        "year": "2026",
+        "program": ""
+      }
+    ]
+  },
+  "choi-jubi": {
+    "name": "최주비",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2022",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "choi-jiwoo": {
+    "name": "최지우",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2017",
+    "participationYears": [
+      {
+        "year": "2017-1",
+        "program": "경희대학교 교수학습개발원 Learning Step-Up 튜터링 프로그램"
+      },
+      {
+        "year": "2017",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      },
+      {
+        "year": "2018",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "choi-jinwoo": {
+    "name": "최진우",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2022",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "choi-hyun": {
+    "name": "최현",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2020",
+    "participationYears": [
+      {
+        "year": "2021",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "choi-hyeji": {
+    "name": "최혜지",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2016",
+    "participationYears": [
+      {
+        "year": "2017",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "han-gwangmin": {
+    "name": "한광민",
+    "university": "경희대학교",
+    "department": "식물환경신소재공학과",
+    "entryYear": "2016",
+    "participationYears": [
+      {
+        "year": "2016-1",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "han-dongsu": {
+    "name": "한동수",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2021",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "han-subin": {
+    "name": "한수빈",
+    "university": "성균관대학교",
+    "department": "시스템경영공학과",
+    "entryYear": "2020",
+    "participationYears": [
+      {
+        "year": "2023",
+        "program": "JL Creatives & Contents 멘토링 프로그램"
+      }
+    ]
+  },
+  "han-seungyeon": {
+    "name": "한승연",
+    "university": "경희대학교",
+    "department": "포스트모던음악학과",
+    "entryYear": "2015",
+    "participationYears": [
+      {
+        "year": "2015-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "han-jiwon": {
+    "name": "한지원",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2024",
+    "participationYears": [
+      {
+        "year": "2024",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "han-chulhyun": {
+    "name": "한철현",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2019",
+    "participationYears": [
+      {
+        "year": "2019",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "hong-minki": {
+    "name": "홍민기",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2023",
+    "participationYears": [
+      {
+        "year": "2023",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "hong-yujin": {
+    "name": "홍유진",
+    "university": "경희대학교",
+    "department": "기계공학과",
+    "entryYear": "2015",
+    "participationYears": [
+      {
+        "year": "2015-1",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "hong-jungui": {
+    "name": "홍정의",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2025",
+    "participationYears": [
+      {
+        "year": "2026",
+        "program": ""
+      }
+    ]
+  },
+  "hong-junki": {
+    "name": "홍준기",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2024",
+    "participationYears": [
+      {
+        "year": "2025",
+        "program": "경희대학교 공학교육혁신센터 1인 1멘토 평생멘토링 프로그램"
+      }
+    ]
+  },
+  "hwang-chaerin": {
+    "name": "황채린",
+    "university": "경희대학교",
+    "department": "디지털콘텐츠학과",
+    "entryYear": "2015",
+    "participationYears": [
+      {
+        "year": "2015-2",
+        "program": "경희대학교 후마니타스칼리지 신입생세미나 프로그램"
+      }
+    ]
+  },
+  "hwang-taewon": {
+    "name": "황태원",
+    "university": "경희대학교",
+    "department": "산업경영공학과",
+    "entryYear": "2023",
+    "participationYears": [
+      {
+        "year": "2026",
+        "program": ""
+      }
+    ]
+  },
+  "kim-jiseung": {
+    "name": "김지승",
+    "university": "경희대학교",
+    "department": "환경조경디자인학과",
+    "entryYear": "2016",
+    "participationYears": [
+      {
+        "year": "2016-1",
+        "program": "JL Creatives & Contents 멘토링 프로그램"
+      }
+    ]
+  }
 }
