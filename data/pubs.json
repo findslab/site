@@ -10723,5 +10723,34 @@
             "vancouver": "Choi I. A critical-minerals currency factor? Double machine learning evidence on exchange-rate exposure to energy-transition metals. International Review of Financial Analysis. 2026.",
             "bibtex": "@article{choi2026criticalminerals,\n  title = {{A Critical-Minerals Currency Factor? Double Machine Learning Evidence on Exchange-Rate Exposure to Energy-Transition Metals}},\n  author = {Choi, Insu},\n  journal = {International Review of Financial Analysis},\n  year = {2026},\n}"
         }
+    },
+    {
+        "type": "journal",
+        "indexing_group": "SCIE",
+        "code_label": "J",
+        "published_date": "2026-10-06",
+        "year": 2026,
+        "title": "Testing Detailed Balance in Daily Cryptocurrency Markets: Irreversibility in Range-Volume Dynamics, and None Detectable in Candlestick Shape",
+        "authors": [
+            1
+        ],
+        "author_marks": [
+            "1,*"
+        ],
+        "venue": "Frontiers in Physics",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "doi": "",
+        "language": "English",
+        "awards": 0,
+        "citations": {
+            "apa": "Choi, I. (2026). Testing detailed balance in daily cryptocurrency markets: Irreversibility in range-volume dynamics, and none detectable in candlestick shape. <em>Frontiers in Physics</em>.",
+            "mla": "Choi, Insu. \"Testing Detailed Balance in Daily Cryptocurrency Markets: Irreversibility in Range-Volume Dynamics, and None Detectable in Candlestick Shape.\" <em>Frontiers in Physics</em>, 2026.",
+            "chicago": "Choi, Insu. \"Testing Detailed Balance in Daily Cryptocurrency Markets: Irreversibility in Range-Volume Dynamics, and None Detectable in Candlestick Shape.\" <em>Frontiers in Physics</em> (2026).",
+            "harvard": "Choi, I. (2026) 'Testing detailed balance in daily cryptocurrency markets: Irreversibility in range-volume dynamics, and none detectable in candlestick shape', <em>Frontiers in Physics</em>.",
+            "vancouver": "Choi I. Testing detailed balance in daily cryptocurrency markets: Irreversibility in range-volume dynamics, and none detectable in candlestick shape. Frontiers in Physics. 2026.",
+            "bibtex": "@article{choi2026detailedbalance,\n  title = {{Testing Detailed Balance in Daily Cryptocurrency Markets: Irreversibility in Range-Volume Dynamics, and None Detectable in Candlestick Shape}},\n  author = {Choi, Insu},\n  journal = {Frontiers in Physics},\n  year = {2026},\n}"
+        }
     }
 ]
