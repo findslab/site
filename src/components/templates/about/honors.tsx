@@ -229,7 +229,7 @@ export const AboutHonorsTemplate = () => {
         />
         <div
           className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
-          style={{ backgroundImage: `url(${bannerHonors})`, backgroundPosition: '50% 32%' }}
+          style={{ backgroundImage: `url(${bannerHonors})`, backgroundPosition: '50% 36%' }}
         />
         
         {/* Luxurious Gold Gradient Overlay */}

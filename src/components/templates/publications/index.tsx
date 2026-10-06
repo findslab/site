@@ -601,7 +601,7 @@ export const PublicationsTemplate = () => {
         />
         <div
           className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
-          style={{ backgroundImage: `url(${bannerPublications})`, backgroundPosition: '50% 24%' }}
+          style={{ backgroundImage: `url(${bannerPublications})`, backgroundPosition: '50% 38%' }}
         />
         
         {/* Luxurious Gold Gradient Overlay */}

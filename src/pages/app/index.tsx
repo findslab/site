@@ -86,14 +86,16 @@ const GlobalMusicPlayer = memo(() => {
     setIsPlaying(true)
   }
 
+  // YouTube API는 개발자 모드(플레이어 사용)일 때만 불러온다 — 일반 방문자는 약 4MB를 받지 않음
   useEffect(() => {
+    if (!devMode) return
     if (!window.YT) {
       const tag = document.createElement('script')
       tag.src = 'https://www.youtube.com/iframe_api'
       const firstScriptTag = document.getElementsByTagName('script')[0]
       firstScriptTag.parentNode?.insertBefore(tag, firstScriptTag)
     }
-  }, [])
+  }, [devMode])
 
   useEffect(() => {
     if (!isLoaded) {
@@ -139,7 +141,7 @@ const GlobalMusicPlayer = memo(() => {
 
   // Initialize YouTube Player ONCE
   useEffect(() => {
-    if (!currentVideoId || playerRef.current) return
+    if (!devMode || !currentVideoId || playerRef.current) return
 
     const initPlayer = () => {
       if (!window.YT || !window.YT.Player) {
@@ -170,7 +172,7 @@ const GlobalMusicPlayer = memo(() => {
     }
 
     initPlayer()
-  }, [currentVideoId])
+  }, [currentVideoId, devMode])
 
   // Handle track changes - auto-play when using prev/next buttons
   useEffect(() => {
