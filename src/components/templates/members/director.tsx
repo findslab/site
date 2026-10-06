@@ -629,11 +629,11 @@ export const MembersDirectorTemplate = () => {
       <div className="relative w-full h-[clamp(190px,26vw,440px)] overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center md:hidden"
-          style={{ backgroundImage: `url(${bannerDirectorM})`, backgroundPosition: '50% 40%' }}
+          style={{ backgroundImage: `url(${bannerDirectorM})`, backgroundPosition: '50% 30%' }}
         />
         <div
           className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
-          style={{ backgroundImage: `url(${bannerDirector})`, backgroundPosition: '50% 15%' }}
+          style={{ backgroundImage: `url(${bannerDirector})`, backgroundPosition: '50% 20%' }}
         />
         <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#D6A076]/20" />
         <div className="absolute inset-0" style={{background: 'radial-gradient(ellipse 55% 70% at 50% 50%, rgba(0,0,0,0.34) 0%, transparent 70%)'}} />

@@ -131,7 +131,7 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
           />
           <div
             className="absolute inset-0 hidden md:block bg-cover bg-center"
-            style={{ backgroundImage: `url(${bannerCurrent})`, backgroundPosition: '50% 15%' }}
+            style={{ backgroundImage: `url(${bannerCurrent})`, backgroundPosition: '50% 30%' }}
           />
           <div className="absolute inset-0 bg-black/40"/>
           <div className="absolute inset-0" style={{backgroundColor: 'rgba(214, 177, 77, 0.08)'}} />
@@ -153,7 +153,7 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
           />
           <div
             className="absolute inset-0 hidden md:block bg-cover bg-center"
-            style={{ backgroundImage: `url(${bannerCurrent})`, backgroundPosition: '50% 15%' }}
+            style={{ backgroundImage: `url(${bannerCurrent})`, backgroundPosition: '50% 30%' }}
           />
           <div className="absolute inset-0 bg-black/40"/>
           <div className="absolute inset-0" style={{backgroundColor: 'rgba(214, 177, 77, 0.08)'}} />
@@ -196,7 +196,7 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
         />
         <div
           className="absolute inset-0 hidden md:block bg-cover bg-center"
-          style={{ backgroundImage: `url(${bannerCurrent})`, backgroundPosition: '50% 15%' }}
+          style={{ backgroundImage: `url(${bannerCurrent})`, backgroundPosition: '50% 30%' }}
         />
         <div className="absolute inset-0 bg-black/40"/>
           <div className="absolute inset-0" style={{backgroundColor: 'rgba(214, 177, 77, 0.08)'}} />

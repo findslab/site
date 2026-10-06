@@ -5,8 +5,8 @@ import { useStoreModal } from '@/store/modal'
 import { parseMarkdown, processJekyllContent } from '@/utils/parseMarkdown'
 
 // Image Imports
-import banner5 from '@/assets/images/banner/5.webp'
-import banner5m from '@/assets/images/banner/5m.webp'
+import bannerNotice from '@/assets/images/banner/notice.webp'
+import bannerNoticeM from '@/assets/images/banner/notice-m.webp'
 
 // Tag types and colors based on FINDS Lab Color Palette
 type NoticeTag = 'Announcements' | 'Recruitment' | 'General';
@@ -287,8 +287,8 @@ export const ArchivesNoticeTemplate = () => {
     <div className="flex flex-col bg-white">
       {/* Banner */}
       <div className="relative w-full h-[clamp(190px,26vw,440px)] overflow-hidden">
-        <div className="absolute inset-0 bg-cover bg-center md:hidden" style={{ backgroundImage: `url(${banner5m})` }} />
-        <div className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]" style={{ backgroundImage: `url(${banner5})` }} />
+        <div className="absolute inset-0 bg-cover bg-center md:hidden" style={{ backgroundImage: `url(${bannerNoticeM})`, backgroundPosition: '50% 30%' }} />
+        <div className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]" style={{ backgroundImage: `url(${bannerNotice})`, backgroundPosition: '50% 24%' }} />
         <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#D6A076]/20" />
         <div className="absolute inset-0" style={{background: 'radial-gradient(ellipse 55% 70% at 50% 50%, rgba(0,0,0,0.34) 0%, transparent 70%)'}} />
         <div className="absolute inset-0" style={{backgroundColor: 'rgba(214, 177, 77, 0.08)'}} />

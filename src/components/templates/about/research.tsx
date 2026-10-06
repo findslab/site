@@ -114,7 +114,7 @@ export const AboutResearchTemplate = () => {
         />
         <div
           className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
-          style={{ backgroundImage: `url(${bannerIntro})`, backgroundPosition: '50% 12%' }}
+          style={{ backgroundImage: `url(${bannerIntro})`, backgroundPosition: '50% 20%' }}
         />
         
         {/* Luxurious Gold Gradient Overlay */}

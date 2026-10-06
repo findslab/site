@@ -5,8 +5,8 @@ import { useStoreModal } from '@/store/modal'
 import clsx from 'clsx'
 
 // Image Imports
-import banner3 from '@/assets/images/banner/3.webp'
-import banner3m from '@/assets/images/banner/3m.webp'
+import bannerPublications from '@/assets/images/banner/publications.webp'
+import bannerPublicationsM from '@/assets/images/banner/publications-m.webp'
 import logoKaist from '@/assets/images/logos/kaist.png'
 import logoKyunghee from '@/assets/images/logos/kyunghee.png'
 import logoGcu from '@/assets/images/logos/gcu.png'
@@ -283,11 +283,11 @@ export const LecturesTemplate = () => {
       <div className="relative w-full h-[clamp(190px,26vw,440px)] overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center md:hidden"
-          style={{ backgroundImage: `url(${banner3m})` }}
+          style={{ backgroundImage: `url(${bannerPublicationsM})`, backgroundPosition: '50% 30%' }}
         />
         <div
           className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
-          style={{ backgroundImage: `url(${banner3})` }}
+          style={{ backgroundImage: `url(${bannerPublications})`, backgroundPosition: '50% 24%' }}
         />
         <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#D6A076]/20" />
         <div className="absolute inset-0" style={{background: 'radial-gradient(ellipse 55% 70% at 50% 50%, rgba(0,0,0,0.34) 0%, transparent 70%)'}} />

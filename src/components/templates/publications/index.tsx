@@ -19,8 +19,8 @@ import { useStoreModal } from '@/store/modal'
 import type { Publication, AuthorsData } from '@/types/data'
 
 // Image Imports
-import banner3 from '@/assets/images/banner/3.webp'
-import banner3m from '@/assets/images/banner/3m.webp'
+import bannerPublications from '@/assets/images/banner/publications.webp'
+import bannerPublicationsM from '@/assets/images/banner/publications-m.webp'
 
 // Scroll animation hook
 const useScrollAnimation = () => {
@@ -597,11 +597,11 @@ export const PublicationsTemplate = () => {
         {/* Background Image with Overlay */}
         <div
           className="absolute inset-0 bg-cover bg-center md:hidden"
-          style={{ backgroundImage: `url(${banner3m})` }}
+          style={{ backgroundImage: `url(${bannerPublicationsM})`, backgroundPosition: '50% 30%' }}
         />
         <div
           className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
-          style={{ backgroundImage: `url(${banner3})` }}
+          style={{ backgroundImage: `url(${bannerPublications})`, backgroundPosition: '50% 24%' }}
         />
         
         {/* Luxurious Gold Gradient Overlay */}
