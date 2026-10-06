@@ -70,8 +70,8 @@ type NetworkLink = {
 }
 
 // Image Imports
-import banner2 from '@/assets/images/banner/2.webp'
-import banner2m from '@/assets/images/banner/2m.webp'
+import bannerDirector from '@/assets/images/banner/director.webp'
+import bannerDirectorM from '@/assets/images/banner/director-m.webp'
 
 const formatHonorDate = (dateStr: string): string => {
   const monthMap: Record<string, string> = {
@@ -1438,11 +1438,11 @@ export const MembersDirectorPortfolioActivitiesTemplate = () => {
       <div className="relative w-full h-[clamp(190px,26vw,440px)] overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center md:hidden"
-          style={{backgroundImage: `url(${banner2m})`}}
+          style={{ backgroundImage: `url(${bannerDirectorM})`, backgroundPosition: '50% 40%' }}
         />
         <div
           className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
-          style={{backgroundImage: `url(${banner2})`}}
+          style={{ backgroundImage: `url(${bannerDirector})`, backgroundPosition: '50% 15%' }}
         />
         <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#D6A076]/20" />
         <div className="absolute inset-0" style={{background: 'radial-gradient(ellipse 55% 70% at 50% 50%, rgba(0,0,0,0.34) 0%, transparent 70%)'}} />

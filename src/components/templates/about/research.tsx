@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 import { Home } from 'lucide-react'
 
 // Image Imports
-import banner1 from '@/assets/images/banner/1.webp'
-import banner1m from '@/assets/images/banner/1m.webp'
+import bannerIntro from '@/assets/images/banner/intro.webp'
+import bannerIntroM from '@/assets/images/banner/intro-m.webp'
 import fdsImg from '@/assets/images/icons/fds.webp'
 import baImg from '@/assets/images/icons/ba.webp'
 import dimImg from '@/assets/images/icons/dim.webp'
@@ -110,11 +110,11 @@ export const AboutResearchTemplate = () => {
         {/* Background Image with Overlay */}
         <div
           className="absolute inset-0 bg-cover bg-center md:hidden"
-          style={{ backgroundImage: `url(${banner1m})` }}
+          style={{ backgroundImage: `url(${bannerIntroM})`, backgroundPosition: '50% 30%' }}
         />
         <div
           className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
-          style={{ backgroundImage: `url(${banner1})` }}
+          style={{ backgroundImage: `url(${bannerIntro})`, backgroundPosition: '50% 12%' }}
         />
         
         {/* Luxurious Gold Gradient Overlay */}

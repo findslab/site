@@ -418,10 +418,16 @@ export const HomeTemplate = () => {
         <img loading="eager" src={hero4} alt="" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-black/60" />
         <div className="relative h-full flex flex-col items-center justify-center text-center text-white px-16">
-          <img loading="eager" src={logoFinds} alt="FINDS Lab" 
-            className={`w-80 md:w-112 h-auto mb-16 md:mb-24 transition-all duration-700 cursor-pointer ${logoTapped ? '' : 'brightness-0 invert'} ${!logoTapped ? 'md:hover:brightness-100 md:hover:invert-0' : ''}`}
-            onClick={() => setLogoTapped(prev => !prev)}
-          />
+          {/* 배경 그림 속 로고와 구분되도록 얇은 윤곽선 + 부드러운 그림자 (색 전환 필터와 분리하기 위해 바깥 틀에 적용) */}
+          <div
+            className="mb-16 md:mb-24"
+            style={{ filter: 'drop-shadow(0 0 1px rgba(0,0,0,0.9)) drop-shadow(0 0 1px rgba(0,0,0,0.6)) drop-shadow(0 4px 12px rgba(0,0,0,0.55))' }}
+          >
+            <img loading="eager" src={logoFinds} alt="FINDS Lab" 
+              className={`w-80 md:w-112 h-auto transition-all duration-700 cursor-pointer ${logoTapped ? '' : 'brightness-0 invert'} ${!logoTapped ? 'md:hover:brightness-100 md:hover:invert-0' : ''}`}
+              onClick={() => setLogoTapped(prev => !prev)}
+            />
+          </div>
           <h2 className="text-xl md:text-2xl font-semibold text-primary mb-8">FINDS Lab</h2>
           <p className="text-base md:text-xl font-medium mb-12 md:mb-16">
             <span style={{ color: '#E8D688' }}>Fin</span>

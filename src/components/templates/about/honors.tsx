@@ -4,8 +4,8 @@ import { Award, Trophy, Medal, Home, ChevronDown, ChevronUp, Search, SlidersHori
 import type { HonorsData, HonorItem } from '@/types/data'
 
 // Image Imports
-import banner1 from '@/assets/images/banner/1.webp'
-import banner1m from '@/assets/images/banner/1m.webp'
+import bannerHonors from '@/assets/images/banner/honors.webp'
+import bannerHonorsM from '@/assets/images/banner/honors-m.webp'
 
 // Scroll animation hook
 const useScrollAnimation = () => {
@@ -225,11 +225,11 @@ export const AboutHonorsTemplate = () => {
         {/* Background Image with Overlay */}
         <div
           className="absolute inset-0 bg-cover bg-center md:hidden"
-          style={{ backgroundImage: `url(${banner1m})` }}
+          style={{ backgroundImage: `url(${bannerHonorsM})`, backgroundPosition: '50% 30%' }}
         />
         <div
           className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
-          style={{ backgroundImage: `url(${banner1})` }}
+          style={{ backgroundImage: `url(${bannerHonors})`, backgroundPosition: '50% 15%' }}
         />
         
         {/* Luxurious Gold Gradient Overlay */}

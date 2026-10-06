@@ -16,8 +16,8 @@ import {
 import type {MemberData} from '@/types/data'
 
 // Image Imports
-import banner2 from '@/assets/images/banner/2.webp'
-import banner2m from '@/assets/images/banner/2m.webp'
+import bannerCurrent from '@/assets/images/banner/current.webp'
+import bannerCurrentM from '@/assets/images/banner/current-m.webp'
 
 // Email Popup Component
 const EmailPopup = ({ email, onClose, degree }: { email: string; onClose: () => void; degree?: string }) => {
@@ -127,11 +127,11 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
         <div className="relative w-full h-200 md:h-332 overflow-hidden">
           <div
             className="absolute inset-0 bg-cover bg-center md:hidden"
-            style={{backgroundImage: `url(${banner2m})`}}
+            style={{ backgroundImage: `url(${bannerCurrentM})`, backgroundPosition: '50% 30%' }}
           />
           <div
             className="absolute inset-0 hidden md:block bg-cover bg-center"
-            style={{backgroundImage: `url(${banner2})`}}
+            style={{ backgroundImage: `url(${bannerCurrent})`, backgroundPosition: '50% 15%' }}
           />
           <div className="absolute inset-0 bg-black/40"/>
           <div className="absolute inset-0" style={{backgroundColor: 'rgba(214, 177, 77, 0.08)'}} />
@@ -149,11 +149,11 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
         <div className="relative w-full h-200 md:h-332 overflow-hidden">
           <div
             className="absolute inset-0 bg-cover bg-center md:hidden"
-            style={{backgroundImage: `url(${banner2m})`}}
+            style={{ backgroundImage: `url(${bannerCurrentM})`, backgroundPosition: '50% 30%' }}
           />
           <div
             className="absolute inset-0 hidden md:block bg-cover bg-center"
-            style={{backgroundImage: `url(${banner2})`}}
+            style={{ backgroundImage: `url(${bannerCurrent})`, backgroundPosition: '50% 15%' }}
           />
           <div className="absolute inset-0 bg-black/40"/>
           <div className="absolute inset-0" style={{backgroundColor: 'rgba(214, 177, 77, 0.08)'}} />
@@ -192,11 +192,11 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
       <div className="relative w-full h-200 md:h-332 overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center md:hidden"
-          style={{backgroundImage: `url(${banner2m})`}}
+          style={{ backgroundImage: `url(${bannerCurrentM})`, backgroundPosition: '50% 30%' }}
         />
         <div
           className="absolute inset-0 hidden md:block bg-cover bg-center"
-          style={{backgroundImage: `url(${banner2})`}}
+          style={{ backgroundImage: `url(${bannerCurrent})`, backgroundPosition: '50% 15%' }}
         />
         <div className="absolute inset-0 bg-black/40"/>
           <div className="absolute inset-0" style={{backgroundColor: 'rgba(214, 177, 77, 0.08)'}} />

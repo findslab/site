@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom'
 import { Home } from 'lucide-react'
 
 // Image Imports
-import banner1 from '@/assets/images/banner/1.webp'
-import banner1m from '@/assets/images/banner/1m.webp'
+import bannerLocation from '@/assets/images/banner/location.webp'
+import bannerLocationM from '@/assets/images/banner/location-m.webp'
 import locationImg from '@/assets/images/location/1.webp'
 
 // Scroll animation hook
@@ -40,11 +40,11 @@ export const LocationTemplate = () => {
       <div className="relative w-full h-[clamp(190px,26vw,440px)] overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center md:hidden"
-          style={{ backgroundImage: `url(${banner1m})` }}
+          style={{ backgroundImage: `url(${bannerLocationM})`, backgroundPosition: '50% 30%' }}
         />
         <div
           className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
-          style={{ backgroundImage: `url(${banner1})` }}
+          style={{ backgroundImage: `url(${bannerLocation})`, backgroundPosition: '50% 18%' }}
         />
         <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#D6A076]/20" />
         <div className="absolute inset-0" style={{background: 'radial-gradient(ellipse 55% 70% at 50% 50%, rgba(0,0,0,0.34) 0%, transparent 70%)'}} />

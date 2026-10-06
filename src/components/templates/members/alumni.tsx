@@ -1,8 +1,8 @@
 import React, {memo, useState, useEffect, useRef, useMemo} from 'react'
 import {Link} from 'react-router-dom'
 import {Home, GraduationCap, Building2, ChevronDown, ChevronUp, FileText, ExternalLink, BookOpen, Lightbulb, Users, ArrowUpDown, ArrowUp, ArrowDown} from 'lucide-react'
-import banner2 from '@/assets/images/banner/2.webp'
-import banner2m from '@/assets/images/banner/2m.webp'
+import bannerAlumni from '@/assets/images/banner/alumni.webp'
+import bannerAlumniM from '@/assets/images/banner/alumni-m.webp'
 
 // Get initials from English name (Korean style: "First-Name Last" → "LFN")
 const getInitialsFromEnglishName = (nameEn?: string): string => {
@@ -316,11 +316,11 @@ export const MembersAlumniTemplate = () => {
       <div className="relative w-full h-[clamp(190px,26vw,440px)] overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center md:hidden"
-          style={{backgroundImage: `url(${banner2m})`}}
+          style={{ backgroundImage: `url(${bannerAlumniM})`, backgroundPosition: '50% 30%' }}
         />
         <div
           className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
-          style={{backgroundImage: `url(${banner2})`}}
+          style={{ backgroundImage: `url(${bannerAlumni})`, backgroundPosition: '50% 22%' }}
         />
         <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#D6A076]/20" />
         <div className="absolute inset-0" style={{background: 'radial-gradient(ellipse 55% 70% at 50% 50%, rgba(0,0,0,0.34) 0%, transparent 70%)'}} />

@@ -2,8 +2,8 @@ import {memo, useState, useEffect, useRef} from 'react'
 import { DIRECTOR_NAME_KO } from '@/data/director-common'
 import {Link} from 'react-router-dom'
 import {Home, School, Landmark, FlaskConical, Briefcase, ChevronDown, ChevronUp, Folder, TrendingUp, SlidersHorizontal, X, Search, CheckCircle, Factory} from 'lucide-react'
-import banner4 from '@/assets/images/banner/4.webp'
-import banner4m from '@/assets/images/banner/4m.webp'
+import bannerProjects from '@/assets/images/banner/projects.webp'
+import bannerProjectsM from '@/assets/images/banner/projects-m.webp'
 
 // Scroll animation hook
 const useScrollAnimation = () => {
@@ -368,11 +368,11 @@ export const ProjectsTemplate = () => {
       <div className="relative w-full h-[clamp(190px,26vw,440px)] overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center md:hidden"
-          style={{backgroundImage: `url(${banner4m})`}}
+          style={{ backgroundImage: `url(${bannerProjectsM})`, backgroundPosition: '50% 30%' }}
         />
         <div
           className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
-          style={{backgroundImage: `url(${banner4})`}}
+          style={{ backgroundImage: `url(${bannerProjects})`, backgroundPosition: '50% 20%' }}
         />
         <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#D6A076]/20" />
         <div className="absolute inset-0" style={{background: 'radial-gradient(ellipse 55% 70% at 50% 50%, rgba(0,0,0,0.34) 0%, transparent 70%)'}} />
