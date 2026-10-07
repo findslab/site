@@ -1,56 +1,151 @@
-name: Update Scholar Data
+name: Update Scholar Citations
 
+# Google Scholar 공개 프로필 페이지를 직접 읽어 인용 지표를 갱신한다 (Google API 미사용).
+#
+# 자동 복구 흐름
+#  1) 매일 06:14 KST 에 실행. 막히면 주소 4곳을 돌아가며, 4분·10분 쉬고 다시 시도한다.
+#  2) 그래도 막히면 같은 날 09:14 / 13:14 / 19:14 KST 에 자동으로 재시도한다.
+#     (그날 이미 성공했다면 재시도 회차는 아무것도 하지 않고 바로 끝난다.)
+#  3) 값이 바뀐 날에만 커밋하고 Deploy 워크플로를 실행해 사이트에 반영한다.
+#  4) 3일 연속 실패하면 저장소에 Issue 를 하나 열어 알린다(GitHub 알림 메일).
+#     다시 성공하면 그 Issue 는 자동으로 닫힌다.
 on:
-  workflow_dispatch: # Manual trigger only
+  schedule:
+    - cron: '14 21 * * *'   # 06:14 KST (기본 실행)
+    - cron: '14 0 * * *'    # 09:14 KST (재시도)
+    - cron: '14 4 * * *'    # 13:14 KST (재시도)
+    - cron: '14 10 * * *'   # 19:14 KST (재시도)
+  workflow_dispatch:        # Actions 탭에서 수동 실행도 가능
+
+permissions:
+  contents: write
+  actions: write
+  issues: write
+
+concurrency:
+  group: update-scholar
+  cancel-in-progress: false
 
 jobs:
   update-scholar:
     runs-on: ubuntu-latest
-    
+    timeout-minutes: 40
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v5
+      - name: Today (KST)
+        id: day
+        run: echo "date=$(TZ=Asia/Seoul date +%Y%m%d)" >> "$GITHUB_OUTPUT"
+
+      # 오늘 이미 성공했는지 확인 (성공하면 아래에서 오늘 날짜 표시를 남긴다)
+      - name: Already done today?
+        id: done
+        uses: actions/cache/restore@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-      
+          path: .scholar-ok
+          key: scholar-ok-${{ steps.day.outputs.date }}
+          lookup-only: true
+
+      - name: Skip (already updated today)
+        if: steps.done.outputs.cache-hit == 'true' && github.event_name != 'workflow_dispatch'
+        run: echo "오늘은 이미 갱신에 성공했으므로 건너뜁니다."
+
+      - name: Checkout
+        if: steps.done.outputs.cache-hit != 'true' || github.event_name == 'workflow_dispatch'
+        uses: actions/checkout@v5
+
       - name: Set up Python
+        if: steps.done.outputs.cache-hit != 'true' || github.event_name == 'workflow_dispatch'
         uses: actions/setup-python@v6
         with:
           python-version: '3.11'
-      
-      - name: Install dependencies
-        run: |
-          pip install scholarly==1.7.11 fake-useragent requests
-      
-      - name: Fetch Google Scholar data
-        id: fetch-scholar
+
+      # 표준 라이브러리만 사용하므로 pip 설치가 필요 없다.
+      # SCRAPER_API_KEY 는 선택 사항: 저장소 Secret 에 넣어 두면 직접 접속이 모두 막힌 날 대체 경로로 쓴다.
+      - name: Fetch Google Scholar profile
+        id: fetch
+        if: steps.done.outputs.cache-hit != 'true' || github.event_name == 'workflow_dispatch'
         env:
           SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
+        run: python scripts/fetch_scholar.py --patient
+
+      - name: Commit if changed
+        id: commit
+        if: steps.fetch.outputs.status == 'ok'
         run: |
-          python scripts/fetch_scholar.py 2>&1 | tee scholar_output.log
-          # Check if fetch was successful
-          if grep -q "fetchError" public/data/scholar.json; then
-            echo "fetch_failed=true" >> $GITHUB_OUTPUT
-            echo "⚠️ Scholar fetch failed, keeping existing data"
-          else
-            echo "fetch_failed=false" >> $GITHUB_OUTPUT
-            echo "✅ Scholar fetch successful"
+          if git diff --quiet -- public/data/scholar.json src/data/director-common.ts; then
+            echo "변경 없음"
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
-      
-      - name: Check for changes
-        id: git-check
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add public/data/scholar.json src/data/director-common.ts
+          git commit -m "chore: update Google Scholar citation metrics"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && break
+            sleep 10
+          done
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      # GITHUB_TOKEN 으로 만든 push 는 다른 워크플로를 깨우지 않으므로 Deploy 를 직접 실행한다.
+      - name: Trigger deploy
+        if: steps.commit.outputs.changed == 'true'
+        run: gh workflow run deploy.yml --ref main --repo "$GITHUB_REPOSITORY"
+
+      # ---- 성공 기록 + 알림 정리 ----
+      - name: Mark today as done
+        if: steps.fetch.outputs.status == 'ok'
+        run: mkdir -p .scholar-ok && echo "${{ steps.day.outputs.date }}" > .scholar-ok/date
+
+      - name: Save done marker
+        if: steps.fetch.outputs.status == 'ok'
+        uses: actions/cache/save@v4
+        with:
+          path: .scholar-ok
+          key: scholar-ok-${{ steps.day.outputs.date }}
+
+      - name: Close failure alert
+        if: steps.fetch.outputs.status == 'ok'
         run: |
-          git diff --exit-code public/data/scholar.json || echo "changes=true" >> $GITHUB_OUTPUT
-      
-      - name: Commit and push if changed
-        if: steps.git-check.outputs.changes == 'true'
+          for n in $(gh issue list --repo "$GITHUB_REPOSITORY" --label scholar-alert --state open --json number -q '.[].number' 2>/dev/null); do
+            gh issue close "$n" --repo "$GITHUB_REPOSITORY" --comment "✅ $(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M') KST 자동 갱신 성공 — 알림을 닫습니다." || true
+          done
+
+      # ---- 연속 실패 감지 ----
+      - name: Find last success
+        id: last
+        if: steps.fetch.outputs.status == 'blocked'
+        uses: actions/cache/restore@v4
+        with:
+          path: .scholar-ok
+          key: scholar-ok-none
+          restore-keys: scholar-ok-
+          lookup-only: true
+
+      - name: Alert after 3 failed days
+        if: steps.fetch.outputs.status == 'blocked'
+        env:
+          LAST_KEY: ${{ steps.last.outputs.cache-matched-key }}
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add public/data/scholar.json
-          if [ "${{ steps.fetch-scholar.outputs.fetch_failed }}" = "true" ]; then
-            git commit -m "chore: update scholar data (fetch failed, kept existing) [skip ci]"
-          else
-            git commit -m "chore: update scholar citation data [skip ci]"
+          today=$(TZ=Asia/Seoul date +%Y%m%d)
+          last="${LAST_KEY#scholar-ok-}"
+          if [ -z "$last" ]; then
+            # 성공 기록이 없으면 scholar.json 의 마지막 갱신일을 기준으로 삼는다
+            last=$(python -c "import json;print(json.load(open('public/data/scholar.json'))['lastUpdated'][:10].replace('-',''))")
           fi
-          git push
+          days=$(( ( $(date -d "$today" +%s) - $(date -d "$last" +%s) ) / 86400 ))
+          echo "마지막 성공: $last (${days}일 전)"
+          if [ "$days" -lt 3 ]; then exit 0; fi
+          gh label create scholar-alert --repo "$GITHUB_REPOSITORY" --color D6B14D \
+            --description "Google Scholar 자동 갱신 실패 알림" --force >/dev/null 2>&1 || true
+          open=$(gh issue list --repo "$GITHUB_REPOSITORY" --label scholar-alert --state open --json number -q '.[0].number' 2>/dev/null)
+          msg="Google Scholar 인용수 자동 갱신이 ${days}일째 실패했습니다 (마지막 성공: ${last}). 매일 4회 자동 재시도 중이며, 성공하면 이 알림은 자동으로 닫힙니다. 사이트에는 마지막으로 받은 숫자가 그대로 표시됩니다."
+          if [ -n "$open" ]; then
+            # 이미 열린 알림이 있으면 하루 한 번(마지막 회차)만 상황을 덧붙인다
+            [ "$(TZ=Asia/Seoul date +%H)" -lt 19 ] && exit 0
+            gh issue comment "$open" --repo "$GITHUB_REPOSITORY" --body "$msg" || true
+          else
+            gh issue create --repo "$GITHUB_REPOSITORY" --label scholar-alert \
+              --title "⚠️ Google Scholar 자동 갱신 ${days}일째 실패" --body "$msg" || true
+          fi

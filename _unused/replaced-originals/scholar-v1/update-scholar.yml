@@ -1,0 +1,56 @@
+name: Update Scholar Data
+
+on:
+  workflow_dispatch: # Manual trigger only
+
+jobs:
+  update-scholar:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install scholarly==1.7.11 fake-useragent requests
+      
+      - name: Fetch Google Scholar data
+        id: fetch-scholar
+        env:
+          SCRAPER_API_KEY: ${{ secrets.SCRAPER_API_KEY }}
+        run: |
+          python scripts/fetch_scholar.py 2>&1 | tee scholar_output.log
+          # Check if fetch was successful
+          if grep -q "fetchError" public/data/scholar.json; then
+            echo "fetch_failed=true" >> $GITHUB_OUTPUT
+            echo "⚠️ Scholar fetch failed, keeping existing data"
+          else
+            echo "fetch_failed=false" >> $GITHUB_OUTPUT
+            echo "✅ Scholar fetch successful"
+          fi
+      
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code public/data/scholar.json || echo "changes=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit and push if changed
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add public/data/scholar.json
+          if [ "${{ steps.fetch-scholar.outputs.fetch_failed }}" = "true" ]; then
+            git commit -m "chore: update scholar data (fetch failed, kept existing) [skip ci]"
+          else
+            git commit -m "chore: update scholar citation data [skip ci]"
+          fi
+          git push

@@ -64,7 +64,7 @@
         }
     },
     {
-        "titleEn": "Portfolio Risk Assessment and Investment Transparency with Explainable AI",
+        "titleEn": "Portfolio Risk Assessment and Investment Transparency With Explainable AI",
         "titleKo": "설명 가능한 인공지능(XAI) 기법을 활용한 투자 성향 결정 요인 분석",
         "period": "2025-05-19 – 2025-09-12",
         "fundingAgency": "Korea Institute of Public Finance",
@@ -118,7 +118,7 @@
         "titleKo": "고객의 지불 지연에 대한 회수 전략 최적화",
         "period": "2023-01-01 – 2024-12-31",
         "fundingAgency": "National Research Foundation of Korea\nScientific and Technological Research Council of Türkiye\nKorea Advanced Institute of Science and Technology (KAIST)\nÖzyeğin University",
-        "fundingAgencyKo": "한국연구재단\n터키과학기술연구위원회\n한국과학기술원\n외즈예인 대학교",
+        "fundingAgencyKo": "한국연구재단\n터키과학기술연구위원회\n한국과학기술원 (KAIST)\n외즈예인 대학교",
         "amount": "N/A",
         "type": "government",
         "language": "ko",
@@ -243,7 +243,7 @@
         "titleKo": "데이터 산업에서의 국가 경쟁력 확보를 위한 연구",
         "period": "2019-09-01 – 2019-10-31",
         "fundingAgency": "Korea Advanced Institute of Science and Technology (KAIST)",
-        "fundingAgencyKo": "한국과학기술원",
+        "fundingAgencyKo": "한국과학기술원 (KAIST)",
         "amount": "N/A",
         "type": "institution",
         "language": "ko",
