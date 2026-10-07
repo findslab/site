@@ -23,11 +23,11 @@
                 }
             ],
             "cohortName": "1st Cohort (2025 Winter)",
-            "currentPosition": "석사과정\n경영공학부\n한국과학기술원",
+            "currentPosition": "석사과정\n경영공학부\n한국과학기술원 (KAIST)",
             "projects": [
                 "Confidence Index-Based Trading Filter Framework (C-index)"
             ],
-            "currentPositionEn": "M.S. Student\nSchool of Business and Technology Management\nKAIST"
+            "currentPositionEn": "M.S. Student\nSchool of Business and Technology Management\nKorea Advanced Institute of Science and Technology (KAIST)"
         },
         {
             "name": "고현우",
@@ -191,7 +191,7 @@
             "currentPosition": "석사과정\n산업경영공학부\n고려대학교",
             "currentPositionEn": "M.S. Student\nIndustrial and Management Engineering\nKorea University",
             "projects": [
-                "Deciphering the Impact of COVID-19 on Korean Sector ETFs: Insights from an ARIMAX and Granger Causality",
+                "Deciphering the Impact of COVID-19 on Korean Sector ETFs: Insights From an ARIMAX and Granger Causality",
                 "Fundamental-Driven Sub-Universe Construction for Portfolio Optimization: Evidence from the Korean Equity Market"
             ]
         },
@@ -219,7 +219,7 @@
             "cohortName": "1st Cohort (2025 Winter), 2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                "Deciphering the Impact of COVID-19 on Korean Sector ETFs: Insights from an ARIMAX and Granger Causality"
+                "Deciphering the Impact of COVID-19 on Korean Sector ETFs: Insights From an ARIMAX and Granger Causality"
             ],
             "avatar": "SKS-2"
         },
@@ -357,7 +357,7 @@
             "currentPosition": "석사과정\n산업공학과\n서울대학교",
             "currentPositionEn": "M.S. Student\nIndustrial Engineering\nSeoul National University",
             "projects": [
-                "Deciphering the Impact of COVID-19 on Korean Sector ETFs: Insights from an ARIMAX and Granger Causality"
+                "Deciphering the Impact of COVID-19 on Korean Sector ETFs: Insights From an ARIMAX and Granger Causality"
             ]
         },
         {
@@ -377,7 +377,7 @@
                     "dept": "산업및시스템공학과",
                     "deptEn": "Industrial and Systems Engineering",
                     "school": "한국과학기술원 (KAIST)",
-                    "schoolEn": "KAIST",
+                    "schoolEn": "Korea Advanced Institute of Science and Technology (KAIST)",
                     "year": ""
                 }
             ],
@@ -439,7 +439,7 @@
             "currentPosition": "석사과정\n기술경영전문대학원\n고려대학교",
             "currentPositionEn": "M.S. Student\nGraduate School of Technology Management\nKorea University",
             "projects": [
-                "Deciphering the Impact of COVID-19 on Korean Sector ETFs: Insights from an ARIMAX and Granger Causality",
+                "Deciphering the Impact of COVID-19 on Korean Sector ETFs: Insights From an ARIMAX and Granger Causality",
                 "Symmetry-Aware Graph Neural Approaches for Data-Efficient Return Prediction in International Financial Market Indices",
                 "Stochastic Refinement of Correlation Structures: A Score-Based Generative Approach to Tail Risk Mitigation in Multi-Asset Portfolios",
                 "Fundamental-Driven Sub-Universe Construction for Portfolio Optimization: Evidence from the Korean Equity Market",
