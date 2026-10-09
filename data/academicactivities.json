@@ -50,7 +50,7 @@
             "category": "journal",
             "name": "Discover Computing",
             "publisher": "Springer",
-            "type": "SCOPUS",
+            "type": "Scopus",
             "since": "2025-12-31",
             "url": "https://link.springer.com/journal/44245"
         },
@@ -78,7 +78,7 @@
             "category": "journal",
             "name": "Operations Research Forum",
             "publisher": "Springer",
-            "type": "SCOPUS",
+            "type": "Scopus",
             "since": "2025-11-10",
             "url": ""
         },
@@ -114,7 +114,7 @@
             "category": "journal",
             "name": "Data Science in Finance and Economics",
             "publisher": "American Institute of Mathematical Sciences Press",
-            "type": "SCOPUS",
+            "type": "Scopus",
             "since": "2025-09-18",
             "url": "https://www.aimspress.com/journal/dsfe"
         },
@@ -186,7 +186,7 @@
             "category": "journal",
             "name": "Machine Learning with Applications",
             "publisher": "Elsevier",
-            "type": "SCOPUS",
+            "type": "Scopus",
             "since": "2025-07-28",
             "url": "https://www.sciencedirect.com/journal/machine-learning-with-applications"
         },
@@ -303,7 +303,7 @@
             "category": "journal",
             "name": "Energy Informatics",
             "publisher": "Springer",
-            "type": "SCOPUS",
+            "type": "Scopus",
             "since": "2025-01-28",
             "url": "https://energyinformatics.springeropen.com/"
         },
@@ -339,7 +339,7 @@
             "category": "journal",
             "name": "Biophysical Economics and Sustainability",
             "publisher": "Springer",
-            "type": "SCOPUS",
+            "type": "Scopus",
             "since": "2025-01-13",
             "url": "https://link.springer.com/journal/41247"
         },
@@ -348,7 +348,7 @@
             "category": "journal",
             "name": "Discover Applied Sciences",
             "publisher": "Springer",
-            "type": "SCOPUS",
+            "type": "Scopus",
             "since": "2024-12-24",
             "url": "https://link.springer.com/journal/42452"
         },
@@ -357,7 +357,7 @@
             "category": "journal",
             "name": "Discover Analytics",
             "publisher": "Springer",
-            "type": "SCOPUS",
+            "type": "Scopus",
             "since": "2024-12-21",
             "url": "https://link.springer.com/journal/44257"
         },
@@ -366,7 +366,7 @@
             "category": "journal",
             "name": "Discover Networks",
             "publisher": "Springer",
-            "type": "SCOPUS",
+            "type": "Scopus",
             "since": "2024-12-21",
             "url": "https://link.springer.com/journal/44256"
         },
@@ -375,7 +375,7 @@
             "category": "journal",
             "name": "Discover Artificial Intelligence",
             "publisher": "Springer",
-            "type": "SCOPUS",
+            "type": "Scopus",
             "since": "2024-12-20",
             "url": "https://link.springer.com/journal/44163"
         },
@@ -384,7 +384,7 @@
             "category": "journal",
             "name": "International Journal of Data Science and Analytics",
             "publisher": "Springer",
-            "type": "SCOPUS",
+            "type": "Scopus",
             "since": "2024-12-14",
             "url": "https://link.springer.com/journal/41060"
         },
@@ -454,7 +454,7 @@
         {
             "id": 48,
             "category": "journal",
-            "name": "Information Processing and Management",
+            "name": "Information Processing & Management",
             "publisher": "Elsevier",
             "type": "SCIE",
             "since": "2023-10-30",
@@ -501,7 +501,7 @@
             "category": "journal",
             "name": "Industrial Engineering & Management Systems",
             "publisher": "Korean Institute of Industrial Engineers",
-            "type": "SCOPUS",
+            "type": "Scopus",
             "since": "2022-03-29",
             "url": "http://www.iemsjl.org/"
         },
@@ -863,6 +863,16 @@
             "type": "KCI",
             "since": "2026-09-03",
             "url": "https://www.kais.or.kr"
+        },
+        {
+            "id": 97,
+            "category": "journal",
+            "name": "Journal of the Korean Data Analysis Society",
+            "name_ko": "한국자료분석학회지",
+            "publisher": "한국자료분석학회",
+            "type": "KCI",
+            "since": "2026-10-08",
+            "url": "https://jkdas.or.kr"
         },
         {
             "id": 96,
