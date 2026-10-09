@@ -235,7 +235,7 @@ export const MembersDirectorTemplate = () => {
     researchInterests: true,
     education: true,
     employment: true,
-    publicationOverview: false,
+    researchOverview: false,
     projectOverview: false,
     academicServiceOverview: false,
     teachingOverview: false,
@@ -1087,16 +1087,16 @@ export const MembersDirectorTemplate = () => {
                 )}
               </section>
             )}
-            {/* Publication Overview */}
+            {/* Research Overview */}
             <section className="bg-white border border-gray-100 rounded-2xl overflow-hidden">
               <button
-                onClick={() => toggleSection('publicationOverview')}
+                onClick={() => toggleSection('researchOverview')}
                 className="w-full flex items-center justify-between p-20 md:p-24 hover:bg-gray-50 transition-colors"
               >
-                <h3 className="text-lg md:text-xl font-bold text-gray-900">Publication Overview</h3>
-                <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.publicationOverview ? 'rotate-180' : ''}`}/>
+                <h3 className="text-lg md:text-xl font-bold text-gray-900">Research Overview</h3>
+                <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.researchOverview ? 'rotate-180' : ''}`}/>
               </button>
-              {expandedSections.publicationOverview && (
+              {expandedSections.researchOverview && (
                 <div className="p-20 md:p-24 border-t border-gray-100">
                   {/* Total - Full Width */}
                   <div className="group relative bg-[#FFF9E6] border border-[#D6B14D]/20 rounded-2xl p-16 md:p-20 hover:border-[#D6B14D]/40 hover:shadow-lg hover:shadow-[#D6B14D]/10 transition-all duration-300 mb-8 md:mb-12">

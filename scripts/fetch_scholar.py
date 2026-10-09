@@ -77,7 +77,7 @@ def _get(url: str) -> str:
         "Accept": "text/html,application/xhtml+xml",
         "Accept-Language": "en-US,en;q=0.9,ko;q=0.6",
     })
-    with urllib.request.urlopen(req, timeout=60) as r:
+    with urllib.request.urlopen(req, timeout=20) as r:
         return r.read().decode("utf-8", errors="replace")
 
 
@@ -232,12 +232,18 @@ def update_common_ts(metrics: dict) -> bool:
     return False
 
 
-def set_status(status: str) -> None:
-    """GitHub Actions 에서 다음 단계가 결과(ok/blocked)를 알 수 있게 남긴다."""
+def set_status(status: str, detail: str = "") -> None:
+    """GitHub Actions 에서 다음 단계가 결과(ok/blocked)를 알 수 있게 남기고,
+    실행 화면(Summary)에 결과를 한 줄로 보여 준다(로그인 없이도 보임)."""
     out = os.environ.get("GITHUB_OUTPUT")
     if out:
         with open(out, "a", encoding="utf-8") as f:
             f.write(f"status={status}\n")
+    summ = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summ:
+        icon = "✅" if status == "ok" else "⛔"
+        with open(summ, "a", encoding="utf-8") as f:
+            f.write(f"### {icon} Google Scholar: {status}\n\n{detail}\n")
 
 
 def main() -> int:
@@ -254,7 +260,7 @@ def main() -> int:
         got = collect(args.html)
     except FetchError as e:
         print(f"[scholar] 가져오기 실패 — 기존 값 유지: {e}")
-        set_status("blocked")
+        set_status("blocked", f"구글이 접속을 막음 — 기존 값 유지 (마지막 오류: {e})")
         return 1 if args.strict else 0
 
     m = got["metrics"]
@@ -302,7 +308,8 @@ def main() -> int:
         SCHOLAR_JSON.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     changed_ts = update_common_ts(m)
 
-    set_status("ok")
+    diff = ", ".join(f"{k} {old.get(k)}→{m[k]}" for k in TS_KEYS if old.get(k) != m[k])
+    set_status("ok", ("갱신: " + diff) if diff else ("변경 없음 — " + ", ".join(f"{k}={m[k]}" for k in TS_KEYS)))
     if changed_json or changed_ts:
         diff = ", ".join(f"{k} {old.get(k)}→{m[k]}" for k in TS_KEYS if old.get(k) != m[k])
         print(f"[scholar] 갱신됨: {diff or '연도별 인용만 변경'}")
