@@ -125,8 +125,8 @@
       "type": "award",
       "icon": "🏆",
       "title": "특별상",
-      "event": "제1회 S&P Global Market Intelligence–KAIST–UNIST–경희대학교 퀀트 투자 경진대회",
-      "organization": "S&P Market Intelligence · KAIST · UNIST · 경희대학교",
+      "event": "제1회 S&P Global Market Intelligence·KAIST·UNIST·경희대학교 퀀트 투자 경진대회",
+      "organization": "S&P Market Intelligence·KAIST·UNIST·경희대학교",
       "date": "Dec 4",
       "winners": [
         {
@@ -210,7 +210,7 @@
       "type": "award",
       "icon": "🏆",
       "title": "우수상",
-      "event": "2023 한국정책학회 하계국제학술대회 대학원생 논문 및 캡스톤디자인 공모전",
+      "event": "2023 한국정책학회 하계학술대회 및 국제학술대회 대학원생 논문 및 캡스톤디자인 공모전",
       "organization": "한국정책학회",
       "date": "Jun 15",
       "winners": [
@@ -614,7 +614,7 @@
       "icon": "🏆",
       "title": "우수상",
       "event": "제8회 산업융합 활성화 방안 및 사례연구 논문공모전",
-      "organization": "국가산업융합지원센터 · 대한산업공학회",
+      "organization": "국가산업융합지원센터·대한산업공학회",
       "date": "Nov 8",
       "winners": [
         {
@@ -918,7 +918,7 @@
       "title": "해외연수 장학금",
       "title_en": "International Training Program Scholarship",
       "event": "해외연수 장학금",
-      "organization": "경희대학교 · 노스캐롤라이나대학교 윌밍턴 캠퍼스 (UNCW)",
+      "organization": "경희대학교·노스캐롤라이나대학교 윌밍턴 캠퍼스 (UNCW)",
       "date": "Dec 7",
       "winners": [
         {
@@ -1229,7 +1229,7 @@
       "icon": "🏆",
       "title": "최우수논문상",
       "title_en": "Best Paper Award",
-      "event": "2026 한국경영학회 융합학술대회",
+      "event": "2026 제28회 한국경영학회 융합학술대회",
       "organization": "한국경영학회",
       "date": "Aug 20",
       "winners": [
@@ -1245,7 +1245,7 @@
       "title": "대상 (기획예산처 장관상)",
       "title_en": "Grand Prize (Minister of Planning and Budget Award)",
       "event": "2026년 대학(원)생 재정데이터 분석 경진대회",
-      "organization": "한국재정정보원, 기획예산처, 한국능률협회컨설팅",
+      "organization": "한국재정정보원·기획예산처·한국능률협회컨설팅",
       "date": "Aug 25",
       "winners": [
         {

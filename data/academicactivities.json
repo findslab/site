@@ -716,8 +716,8 @@
         {
             "id": 78,
             "category": "chair",
-            "name": "2026 Spring Conference of the Korea Intelligent Information Systems Society, Session K2",
-            "name_ko": "2026 한국지능정보시스템학회 춘계학술대회 K2 세션",
+            "name": "2026 KITS·ICEC·KIISS Integrated International Conference, Session K2",
+            "name_ko": "2026 KITS·ICEC·KIISS 통합 국제학술대회 K2 세션",
             "publisher": "Korea Intelligent Information Systems Society (KIISS)",
             "type": "Session Chair",
             "period": "2026-05-28",
@@ -783,9 +783,9 @@
         {
             "id": 87,
             "category": "chair",
-            "name": "2026 Spring Conference of the Korea Society of Industrial Convergence — Session P-II-A",
+            "name": "2026 Spring Conference of the Korean Society of Industry Convergence — Session P-II-A",
             "name_ko": "2026 한국산업융합학회 춘계학술대회 P-II-A 세션",
-            "publisher": "Korea Society of Industrial Convergence (KSIC)",
+            "publisher": "Korean Society of Industry Convergence (KSIC)",
             "type": "Session Chair",
             "period": "2026-07-09",
             "url": ""
@@ -873,6 +873,15 @@
             "type": "KCI",
             "since": "2026-10-08",
             "url": "https://jkdas.or.kr"
+        },
+        {
+            "id": 98,
+            "category": "journal",
+            "name": "Applied Soft Computing",
+            "publisher": "Elsevier",
+            "type": "SCIE",
+            "since": "2026-10-11",
+            "url": "https://www.sciencedirect.com/journal/applied-soft-computing"
         },
         {
             "id": 96,
