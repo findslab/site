@@ -193,7 +193,7 @@ const employment = [
     logo: logoKyunghee
   },
   {position: 'Research Consultant', organization: 'WorldQuant Brain', period: '2022-06 – Present', location: 'WorldQuant Brain', krOrg: '연구 컨설턴트 / 월드퀀트 브레인', logo: logoWorldquant},
-  {position: 'Intern', organization: 'EY Consulting', period: '2020-03 – 2020-05', location: 'Performance Improvement Department', krOrg: '인턴 / EY컨설팅 성과개선팀', logo: logoEy},
+  {position: 'Intern', organization: 'EY Consulting', period: '2020-03 – 2020-05', location: 'Data & Analytics Team, Performance Improvement Department', krOrg: '인턴 / EY컨설팅 성과개선부서 데이터애널리틱스팀', logo: logoEy},
   {position: 'Director', organization: 'JL Creatives & Contents (JL C&C)', period: '2014-06 – Present', location: 'JL C&C', krOrg: '대표 / JL C&C', logo: logoJl},
 ]
 

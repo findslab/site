@@ -4,7 +4,7 @@
             "id": 0,
             "category": "journal",
             "name": "Frontiers in Artificial Intelligence",
-            "publisher": "Frontiers",
+            "publisher": "Frontiers Media",
             "type": "ESCI",
             "since": "2026-02-08",
             "url": "https://www.frontiersin.org/journals/artificial-intelligence"
@@ -31,7 +31,7 @@
             "id": 3,
             "category": "journal",
             "name": "Frontiers in Nutrition",
-            "publisher": "Frontiers",
+            "publisher": "Frontiers Media",
             "type": "SCIE",
             "since": "2026-01-11",
             "url": "https://www.frontiersin.org/journals/nutrition"
@@ -66,9 +66,9 @@
         {
             "id": 83,
             "category": "chair",
-            "name": "2025 Fall Conference of the Korean Institute of Information Technology — Session 2-OA",
+            "name": "2025 Fall Conference of the Korean Institute of Information Technology, Session 2-OA",
             "name_ko": "2025 한국정보기술학회 추계종합학술대회 2-OA 세션",
-            "publisher": "Korean Institute of Information Technology",
+            "publisher": "Korean Institute of Information Technology (KIIT)",
             "type": "Session Chair",
             "period": "2025-11",
             "url": "https://ki-it.or.kr/board/maininfo/article/269934"
@@ -95,7 +95,7 @@
             "id": 8,
             "category": "journal",
             "name": "Algorithms",
-            "publisher": "Multidisciplinary Digital Publishing Institute",
+            "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
             "type": "ESCI",
             "since": "2025-09-27",
             "url": "https://www.mdpi.com/journal/algorithms"
@@ -131,7 +131,7 @@
             "id": 12,
             "category": "journal",
             "name": "Electronics",
-            "publisher": "Multidisciplinary Digital Publishing Institute",
+            "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
             "type": "SCIE",
             "since": "2025-08-20",
             "url": "https://www.mdpi.com/journal/electronics"
@@ -140,7 +140,7 @@
             "id": 13,
             "category": "journal",
             "name": "Information",
-            "publisher": "Multidisciplinary Digital Publishing Institute",
+            "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
             "type": "SCIE",
             "since": "2025-08-13",
             "url": "https://www.mdpi.com/journal/information"
@@ -167,7 +167,7 @@
             "id": 16,
             "category": "journal",
             "name": "Computers",
-            "publisher": "Multidisciplinary Digital Publishing Institute",
+            "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
             "type": "SCIE",
             "since": "2025-07-28",
             "url": "https://www.mdpi.com/journal/computers"
@@ -194,7 +194,7 @@
             "id": 19,
             "category": "journal",
             "name": "Big Data and Cognitive Computing",
-            "publisher": "Multidisciplinary Digital Publishing Institute",
+            "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
             "type": "SCIE",
             "since": "2025-07-11",
             "url": "https://www.mdpi.com/journal/BDCC"
@@ -203,7 +203,7 @@
             "id": 20,
             "category": "journal",
             "name": "Future Internet",
-            "publisher": "Multidisciplinary Digital Publishing Institute",
+            "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
             "type": "SCIE",
             "since": "2025-06-27",
             "url": "https://www.mdpi.com/journal/futureinternet"
@@ -212,7 +212,7 @@
             "id": 21,
             "category": "journal",
             "name": "Applied Sciences",
-            "publisher": "Multidisciplinary Digital Publishing Institute",
+            "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
             "type": "SCIE",
             "since": "2025-06-12",
             "url": "https://www.mdpi.com/journal/applsci"
@@ -221,7 +221,7 @@
             "id": 22,
             "category": "journal",
             "name": "Energies",
-            "publisher": "Multidisciplinary Digital Publishing Institute",
+            "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
             "type": "SCIE",
             "since": "2025-05-28",
             "url": "https://www.mdpi.com/journal/energies"
@@ -230,7 +230,7 @@
             "id": 23,
             "category": "journal",
             "name": "Fractal and Fractional",
-            "publisher": "Multidisciplinary Digital Publishing Institute",
+            "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
             "type": "SCIE",
             "since": "2025-05-14",
             "url": "https://www.mdpi.com/journal/fractalfract"
@@ -239,7 +239,7 @@
             "id": 24,
             "category": "journal",
             "name": "Symmetry",
-            "publisher": "Multidisciplinary Digital Publishing Institute",
+            "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
             "type": "SCIE",
             "since": "2025-04-29",
             "url": "https://www.mdpi.com/journal/symmetry"
@@ -473,7 +473,7 @@
             "id": 50,
             "category": "journal",
             "name": "IEEE Transactions on Network Science and Engineering",
-            "publisher": "Institute of Electrical and Electronics Engineers",
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
             "type": "SCIE",
             "since": "2023-09-06",
             "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488902"
@@ -500,7 +500,7 @@
             "id": 53,
             "category": "journal",
             "name": "Industrial Engineering & Management Systems",
-            "publisher": "Korean Institute of Industrial Engineers",
+            "publisher": "Korean Institute of Industrial Engineers (KIIE)",
             "type": "Scopus",
             "since": "2022-03-29",
             "url": "http://www.iemsjl.org/"
@@ -509,7 +509,7 @@
             "id": 54,
             "category": "committee",
             "name": "1st Shinhan Investment Corp. Shinhan Alpha – KAIST Competition",
-            "name_ko": "제1회 신한금융투자 신한알파 – KAIST 모의투자대회",
+            "name_ko": "제1회 신한금융투자 신한알파·KAIST 모의투자대회",
             "publisher": "Shinhan Investment Corp., KAIST",
             "type": "Committee Member",
             "period": "2021-06-01 – 2021-08-31",
@@ -698,7 +698,7 @@
             "id": 76,
             "category": "journal",
             "name": "Frontiers in Computer Science",
-            "publisher": "Frontiers",
+            "publisher": "Frontiers Media",
             "type": "SCIE",
             "since": "2026-04-08",
             "url": "https://www.frontiersin.org/journals/computer-science"
@@ -726,7 +726,7 @@
         {
             "id": 79,
             "category": "chair",
-            "name": "2026 Spring Joint Conference of Management Information Systems Associations H2 Session",
+            "name": "2026 Spring Joint Conference of Management Information Systems Associations, Session H2",
             "name_ko": "2026 경영정보관련 학회 춘계통합학술대회 H2 세션",
             "publisher": "Management Information Systems Associations",
             "type": "Session Chair",
@@ -746,7 +746,7 @@
             "id": 81,
             "category": "membership",
             "name": "Financial Information Society of Korea (FISK)",
-            "publisher": "Financial Information Society of Korea",
+            "publisher": "Financial Information Society of Korea (FISK)",
             "type": "Lifetime Member",
             "since": "2026-05-27",
             "url": "",
@@ -755,9 +755,9 @@
         {
             "id": 82,
             "category": "chair",
-            "name": "2026 Summer Conference of the Korea Institute of Information Technology, Session 1-OB",
+            "name": "2026 Summer Conference of the Korean Institute of Information Technology, Session 1-OB",
             "name_ko": "2026 한국정보기술학회 하계종합학술대회 1-OB 세션",
-            "publisher": "Korea Institute of Information Technology (KIIT)",
+            "publisher": "Korean Institute of Information Technology (KIIT)",
             "type": "Session Chair",
             "period": "2026-06-04",
             "url": ""
@@ -783,7 +783,7 @@
         {
             "id": 87,
             "category": "chair",
-            "name": "2026 Spring Conference of the Korean Society of Industry Convergence — Session P-II-A",
+            "name": "2026 Spring Conference of the Korean Society of Industry Convergence, Session P-II-A",
             "name_ko": "2026 한국산업융합학회 춘계학술대회 P-II-A 세션",
             "publisher": "Korean Society of Industry Convergence (KSIC)",
             "type": "Session Chair",
@@ -793,9 +793,9 @@
         {
             "id": 88,
             "category": "discussant",
-            "name": "2026 28th Integrated Conference of the Korean Academy of Management — Korean Business Management Association Session",
+            "name": "2026 28th Integrated Conference of the Korean Academic Society of Business Administration, Korean Business Management Association Session",
             "name_ko": "2026 제28회 한국경영학회 융합학술대회 한국산업경영학회 세션",
-            "publisher": "Korean Academy of Management (KAM)",
+            "publisher": "Korean Academic Society of Business Administration (KASBA)",
             "type": "Discussant",
             "period": "2026-08-20",
             "url": ""
@@ -887,7 +887,7 @@
             "id": 96,
             "category": "conference",
             "name": "IEEE Symposium Series on Computational Intelligence (IEEE SSCI 2027) — IEEE Symposium on Computational Intelligence for Financial Engineering and Economics (CIFEr)",
-            "publisher": "IEEE",
+            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
             "type": "Conference",
             "period": "2026-09",
             "url": "https://ieeessci.org/"
