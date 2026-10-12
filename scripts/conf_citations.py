@@ -164,7 +164,7 @@ def _case_word(w, first):
             continue
         c = re.sub(r"^[\"'(\[]+|[\"'),.;:?!\]]+$", '', part)
         keep = (c.lower() in PROPER or sum(ch.isupper() for ch in c) >= 2 or any(ch.isdigit() for ch in c)
-                or (len(c) == 1 and c.isupper() and i == 0 and len(parts) > 1))
+                or (len(c) == 1 and c.isupper() and len(parts) > 1))
         out.append(part if keep else part.lower())
     return ''.join(out)
 
