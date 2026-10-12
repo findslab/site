@@ -4,7 +4,7 @@
       "type": "award",
       "icon": "🏆",
       "title": "우수논문상",
-      "title_en": "1st Prize",
+      "title_en": "Outstanding Paper Award",
       "event": "2025 한국진로창업경영학회 추계학술대회 경영 연구 부문",
       "organization": "한국진로창업경영학회",
       "date": "Dec 5",
@@ -19,7 +19,7 @@
       "type": "award",
       "icon": "🏆",
       "title": "우수상",
-      "title_en": "2nd Prize",
+      "title_en": "Excellence Award",
       "event": "2025 한국경영과학회 추계학술대회 경쟁 부문",
       "organization": "한국경영과학회",
       "date": "Nov 1",
@@ -312,7 +312,7 @@
       "icon": "🏆",
       "title": "대상",
       "event": "제2회 디지털산업혁신 빅데이터 플랫폼 활용 금융 아이디어 경진대회",
-      "organization": "에프앤가이드 · 한국지능정보사회진흥원",
+      "organization": "에프앤가이드·한국지능정보사회진흥원",
       "date": "Nov 24",
       "winners": [
         {
@@ -326,7 +326,7 @@
       "icon": "🏆",
       "title": "대상",
       "event": "제1회 KAIST 산업/사회 문제해결 포스터 경진대회",
-      "organization": "KAIST 산업및시스템공학과",
+      "organization": "한국과학기술원 (KAIST) 산업및시스템공학과",
       "date": "Nov 9",
       "winners": [
         {
@@ -411,7 +411,7 @@
       "icon": "🏆",
       "title": "우수상",
       "event": "제1회 나의 실패 이야기 에세이 공모전",
-      "organization": "KAIST 실패연구소",
+      "organization": "한국과학기술원 (KAIST) 실패연구소",
       "date": "Jun 17",
       "winners": [
         {
@@ -524,7 +524,7 @@
       "type": "award",
       "icon": "🏆",
       "title": "우수상",
-      "event": "2021 Entrue 컨설팅 우수논문 대회",
+      "event": "2021 엔트루 컨설팅 우수논문 대회",
       "organization": "LG CNS 엔트루 컨설팅",
       "date": "Oct 14",
       "winners": [
@@ -628,7 +628,7 @@
       "icon": "🏆",
       "title": "국토교통부장관상",
       "event": "제1회 대학생 스마트시티 아이디어 경진대회",
-      "organization": "한국토지주택공사 · 대한산업공학회",
+      "organization": "한국토지주택공사·대한산업공학회",
       "date": "Sep 6",
       "winners": [
         {
@@ -671,7 +671,7 @@
     {
       "type": "honor",
       "icon": "🎓",
-      "title": "학업우수부문 장학금",
+      "title": "학업우수 부문 장학금",
       "event": "2017학년도 전기 학위수여식",
       "organization": "경희대학교",
       "date": "Feb 13",
@@ -686,7 +686,7 @@
       "type": "award",
       "icon": "🏆",
       "title": "공과대학장상",
-      "event": "2017학년도 전기 학위수여식 학업우수부문",
+      "event": "2017학년도 전기 학위수여식 학업우수 부문",
       "organization": "경희대학교",
       "date": "Feb 13",
       "winners": [
@@ -745,7 +745,7 @@
       "icon": "🏆",
       "title": "동상",
       "event": "제11회 전국학생포트폴리오경진대회",
-      "organization": "교육부 · 한국공학교육인증원",
+      "organization": "교육부·한국공학교육인증원",
       "date": "Nov 9",
       "winners": [
         {
@@ -830,7 +830,7 @@
       "type": "award",
       "icon": "🏆",
       "title": "우수상",
-      "event": "2016학년도 1학기 학업 우수 부문",
+      "event": "2016학년도 1학기 학업우수 부문",
       "organization": "경희대학교 공과대학",
       "date": "Nov 14",
       "winners": [
@@ -845,7 +845,7 @@
       "icon": "🏆",
       "title": "열정상",
       "event": "제10회 공학교육혁신센터 우수성과발표대회",
-      "organization": "교육부 · 한국공학교육인증원",
+      "organization": "교육부·한국공학교육인증원",
       "date": "Nov 11",
       "winners": [
         {
@@ -859,7 +859,7 @@
       "icon": "🏆",
       "title": "동상",
       "event": "제10회 전국학생포트폴리오경진대회",
-      "organization": "교육부 · 한국공학교육인증원",
+      "organization": "교육부·한국공학교육인증원",
       "date": "Nov 10",
       "winners": [
         {
@@ -931,7 +931,7 @@
       "type": "award",
       "icon": "🏆",
       "title": "최우수상",
-      "event": "2015학년도 1학기 학업 우수 부문",
+      "event": "2015학년도 1학기 학업우수 부문",
       "organization": "경희대학교 공과대학",
       "date": "Nov 2",
       "winners": [
@@ -975,7 +975,7 @@
       "type": "award",
       "icon": "🏆",
       "title": "우수상",
-      "event": "2014학년도 1학기 학업 우수 부문",
+      "event": "2014학년도 1학기 학업우수 부문",
       "organization": "경희대학교 공과대학",
       "date": "Nov 5",
       "winners": [
@@ -989,7 +989,7 @@
       "type": "honor",
       "icon": "🎓",
       "title": "성적우수장학금",
-      "event": "2014학년도 2학기 성적우수 장학금",
+      "event": "2014학년도 2학기 성적우수장학금",
       "organization": "경희대학교 공과대학",
       "date": "Aug 31",
       "winners": [
@@ -1003,7 +1003,7 @@
       "type": "honor",
       "icon": "🎓",
       "title": "성적우수장학금",
-      "event": "2014학년도 1학기 성적우수 장학금",
+      "event": "2014학년도 1학기 성적우수장학금",
       "organization": "경희대학교 공과대학",
       "date": "Feb 28",
       "winners": [
@@ -1019,7 +1019,7 @@
       "type": "honor",
       "icon": "🎓",
       "title": "성적우수장학금",
-      "event": "2013학년도 2학기 성적우수 장학금",
+      "event": "2013학년도 2학기 성적우수장학금",
       "organization": "경희대학교 공과대학",
       "date": "Aug 31",
       "winners": [
@@ -1033,7 +1033,7 @@
       "type": "award",
       "icon": "🏆",
       "title": "최우수상",
-      "event": "2013학년도 1학기 학업 우수 부문",
+      "event": "2013학년도 1학기 학업우수 부문",
       "organization": "경희대학교 공과대학",
       "date": "Oct 15",
       "winners": [
@@ -1134,7 +1134,7 @@
       "type": "award",
       "icon": "🏆",
       "title": "우수논문상",
-      "title_en": "Best Paper Award",
+      "title_en": "Outstanding Paper Award",
       "event": "2026 한국산업정보학회 춘계학술대회",
       "organization": "한국산업정보학회",
       "date": "May 29",
@@ -1149,7 +1149,7 @@
       "type": "award",
       "icon": "🏆",
       "title": "우수논문상",
-      "title_en": "Best Paper Award",
+      "title_en": "Outstanding Paper Award",
       "event": "2026 한국지능시스템학회 춘계학술대회",
       "organization": "한국지능시스템학회",
       "date": "May 16",
@@ -1183,8 +1183,8 @@
       "type": "award",
       "icon": "🏆",
       "title": "우수논문상",
-      "title_en": "Best Paper Award",
-      "event": "2026 한국컴퓨터정보학회 하계학술대회",
+      "title_en": "Outstanding Paper Award",
+      "event": "2026 제74차 한국컴퓨터정보학회 하계학술대회",
       "organization": "한국컴퓨터정보학회",
       "date": "Jul 10",
       "winners": [
@@ -1198,7 +1198,7 @@
       "type": "award",
       "icon": "🏆",
       "title": "우수논문발표상 (구두 발표 부문)",
-      "title_en": "Best Paper Presentation Award (Oral Presentation Session)",
+      "title_en": "Outstanding Paper Presentation Award (Oral Presentation Session)",
       "event": "2026 한국산업융합학회 춘계학술대회",
       "organization": "한국산업융합학회",
       "date": "Jul 10",
@@ -1213,7 +1213,7 @@
       "type": "award",
       "icon": "🏆",
       "title": "우수논문발표상 (포스터 발표 부문)",
-      "title_en": "Best Paper Presentation Award (Poster Presentation Session)",
+      "title_en": "Outstanding Paper Presentation Award (Poster Presentation Session)",
       "event": "2026 한국산업융합학회 춘계학술대회",
       "organization": "한국산업융합학회",
       "date": "Jul 10",
@@ -1244,7 +1244,7 @@
       "icon": "🏆",
       "title": "대상 (기획예산처 장관상)",
       "title_en": "Grand Prize (Minister of Planning and Budget Award)",
-      "event": "2026년 대학(원)생 재정데이터 분석 경진대회",
+      "event": "2026 대학(원)생 재정데이터 분석 경진대회",
       "organization": "한국재정정보원·기획예산처·한국능률협회컨설팅",
       "date": "Aug 25",
       "winners": [
