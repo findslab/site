@@ -137,7 +137,7 @@ PROPER = {
     'kimchi', 'english', 'v-league', 'league', 'ethereum', 'shapley', 'pearson', 'spearman', 'kendall', 'monte',
     'carlo', 'hawkes', 'wasserstein', 'shannon', 'fourier', 'garch', 'china', 'chinese', 'japan', 'japanese', 'us',
     'u.s.', 'europe', 'european', 'america', 'american', 'covid-19', 'kospi', 'kosdaq', 'nasdaq', 'dow', 'jones',
-    'g20', 'oecd', 'brics', 'south', 'north', 'republic', 'rényi', 'hilbert', 'gramian', 'germany', 'german', 'jensen', 'sharpe', 'black-litterman',
+    'g20', 'oecd', 'brics', 'south', 'north', 'republic', 'rényi', 'hilbert', 'gramian', 'germany', 'german', 'jensen', 'sharpe', 'black-litterman', 'tetris',
 }
 SMALL_AFTER_COLON = True
 
