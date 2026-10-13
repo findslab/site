@@ -145,7 +145,8 @@ const NoticeDetailModal = ({ id, title, date }: { id: string; title?: string; da
             [&_strong]:font-semibold [&_strong]:text-gray-800
             [&_a]:text-primary [&_a]:font-medium [&_a]:no-underline hover:[&_a]:underline
             [&_img]:my-20 [&_img]:rounded-lg [&_img]:max-w-full [&_img]:shadow-sm
-            [&>code]:text-[12px] [&>code]:bg-gray-100 [&>code]:px-6 [&>code]:py-2 [&>code]:rounded [&>code]:font-mono [&>code]:text-gray-700
+            [&_code]:text-[12.5px] [&_code]:bg-gray-100 [&_code]:px-6 [&_code]:py-2 [&_code]:rounded [&_code]:font-mono [&_code]:text-gray-700 [&_pre_code]:bg-transparent [&_pre_code]:p-0 [&_pre_code]:text-gray-100
+            [&_li>ul]:mt-6 [&_li>ul]:space-y-4 [&_li>ul>li]:relative [&_li>ul>li]:pl-14 [&_li>ul>li]:text-[13.5px] [&_li>ul>li]:before:content-[''] [&_li>ul>li]:before:absolute [&_li>ul>li]:before:left-0 [&_li>ul>li]:before:top-[10px] [&_li>ul>li]:before:w-[6px] [&_li>ul>li]:before:h-px [&_li>ul>li]:before:bg-gray-400
             [&>pre]:my-20 [&>pre]:bg-gray-900 [&>pre]:text-gray-100 [&>pre]:rounded-lg [&>pre]:p-16 [&>pre]:overflow-x-auto [&>pre]:text-[12px]
           "
           dangerouslySetInnerHTML={{ __html: content }}

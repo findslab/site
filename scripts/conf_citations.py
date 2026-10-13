@@ -137,7 +137,7 @@ PROPER = {
     'kimchi', 'english', 'v-league', 'league', 'ethereum', 'shapley', 'pearson', 'spearman', 'kendall', 'monte',
     'carlo', 'hawkes', 'wasserstein', 'shannon', 'fourier', 'garch', 'china', 'chinese', 'japan', 'japanese', 'us',
     'u.s.', 'europe', 'european', 'america', 'american', 'covid-19', 'kospi', 'kosdaq', 'nasdaq', 'dow', 'jones',
-    'g20', 'oecd', 'brics', 'south', 'north', 'republic', 'rényi', 'hilbert', 'gramian', 'germany', 'german', 'jensen', 'sharpe', 'black-litterman', 'tetris',
+    'g20', 'oecd', 'brics', 'south', 'north', 'republic', 'rényi', 'hilbert', 'gramian', 'germany', 'german', 'jensen', 'sharpe', 'black-litterman', 'tetris', 'dongjak-gu', 'dongjak',
 }
 SMALL_AFTER_COLON = True
 
@@ -164,7 +164,7 @@ def _case_word(w, first):
             continue
         c = re.sub(r"^[\"'(\[]+|[\"'),.;:?!\]]+$", '', part)
         keep = (c.lower() in PROPER or sum(ch.isupper() for ch in c) >= 2 or any(ch.isdigit() for ch in c)
-                or (len(c) == 1 and c.isupper() and len(parts) > 1))
+                or (len(c) == 1 and c.isupper() and i > 0))
         out.append(part if keep else part.lower())
     return ''.join(out)
 

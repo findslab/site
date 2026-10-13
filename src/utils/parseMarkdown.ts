@@ -60,7 +60,8 @@ export const markdownToHtml = (markdown: string, options?: { basePath?: string }
   const codeBlocks: string[] = []
   html = html.replace(/```(\w*)\n([\s\S]*?)```/g, (_match, lang, code) => {
     const langClass = lang ? ` class="language-${lang}"` : ''
-    const placeholder = `___CODEBLOCK_${codeBlocks.length}___`
+    // 밑줄·별표가 없는 자리표시자: 굵게(__)/기울임(_) 변환에 깨지지 않도록 한다
+    const placeholder = `\u0000CODEBLOCK${codeBlocks.length}\u0000`
     codeBlocks.push(`<pre><code${langClass}>${code.replace(/</g, '&lt;').replace(/>/g, '&gt;').trim()}</code></pre>`)
     return placeholder
   })
@@ -68,8 +69,8 @@ export const markdownToHtml = (markdown: string, options?: { basePath?: string }
   // 2. 인라인 코드 보호
   const inlineCodes: string[] = []
   html = html.replace(/`([^`]+)`/g, (_match, code) => {
-    const placeholder = `___INLINECODE_${inlineCodes.length}___`
-    inlineCodes.push(`<code>${code}</code>`)
+    const placeholder = `\u0000INLINECODE${inlineCodes.length}\u0000`
+    inlineCodes.push(`<code>${code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</code>`)
     return placeholder
   })
 
@@ -108,10 +109,27 @@ export const markdownToHtml = (markdown: string, options?: { basePath?: string }
   const result: string[] = []
   let inUl = false
   let inOl = false
+  let inSub = false // 들여쓴 하위 목록 (  - item)
 
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i]
-    
+
+    // 하위 목록: 바로 위 항목 안에 <ul>로 넣는다
+    const subMatch = (inUl || inOl) ? line.match(/^\s{2,}[-*] (.+)$/) : null
+    if (subMatch) {
+      if (!inSub) {
+        const last = result.pop() || ''
+        result.push(last.replace(/<\/li>$/, ''))
+        result.push('<ul>')
+        inSub = true
+      }
+      result.push(`<li>${subMatch[1]}</li>`)
+      continue
+    } else if (inSub) {
+      result.push('</ul></li>')
+      inSub = false
+    }
+
     // 순서 없는 목록 (- item 형태)
     const ulMatch = line.match(/^- (.+)$/)
     if (ulMatch) {
@@ -144,6 +162,7 @@ export const markdownToHtml = (markdown: string, options?: { basePath?: string }
   }
 
   // 목록 닫기
+  if (inSub) result.push('</ul></li>')
   if (inUl) result.push('</ul>')
   if (inOl) result.push('</ol>')
 
@@ -169,7 +188,7 @@ export const markdownToHtml = (markdown: string, options?: { basePath?: string }
     // 이미 블록 요소로 감싸진 경우 건너뛰기
     if (p.startsWith('<h') || p.startsWith('<ul') || p.startsWith('<ol') || 
         p.startsWith('<blockquote') || p.startsWith('<pre') || p.startsWith('<hr') ||
-        p.startsWith('<img') || p.startsWith('<p') || p.startsWith('___CODEBLOCK') ||
+        p.startsWith('<img') || p.startsWith('<p') || p.startsWith('\u0000CODEBLOCK') ||
         p.startsWith('<li')) {
       return p
     }
@@ -179,12 +198,12 @@ export const markdownToHtml = (markdown: string, options?: { basePath?: string }
 
   // 12. 코드 블록 복원
   codeBlocks.forEach((block, i) => {
-    html = html.replace(`___CODEBLOCK_${i}___`, block)
+    html = html.split(`\u0000CODEBLOCK${i}\u0000`).join(block)
   })
 
   // 13. 인라인 코드 복원
   inlineCodes.forEach((code, i) => {
-    html = html.replace(`___INLINECODE_${i}___`, code)
+    html = html.split(`\u0000INLINECODE${i}\u0000`).join(code)
   })
 
   return html

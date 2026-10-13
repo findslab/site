@@ -366,11 +366,25 @@ export const PublicationsTemplate = () => {
       report: 'R',
     }
 
-    // 날짜순 정렬 (오래된 것부터)
+    // 날짜순 정렬 (오래된 것부터).
+    // 같은 날짜에서는 같은 학회·학술지끼리 붙어 있도록, 그 학회가 데이터 파일에
+    // 처음 나오는 위치를 기준으로 묶고, 묶음 안에서는 파일 순서를 따른다.
+    // (파일 끝에 추가된 항목이 같은 날 다른 학회 사이에 끼거나 맨 위로 튀지 않게 함)
+    const fileIndex = new Map<Publication, number>()
+    const venueFirst = new Map<string, number>()
+    publications.forEach((pub, i) => {
+      fileIndex.set(pub, i)
+      const vk = `${pub.published_date}|${pub.venue}`
+      if (!venueFirst.has(vk)) venueFirst.set(vk, i)
+    })
     const sorted = [...publications].sort((a, b) => {
       const dateA = new Date(a.published_date).getTime()
       const dateB = new Date(b.published_date).getTime()
-      return dateA - dateB
+      if (dateA !== dateB) return dateA - dateB
+      const va = venueFirst.get(`${a.published_date}|${a.venue}`) ?? 0
+      const vb = venueFirst.get(`${b.published_date}|${b.venue}`) ?? 0
+      if (va !== vb) return va - vb
+      return (fileIndex.get(a) ?? 0) - (fileIndex.get(b) ?? 0)
     })
 
     // 타입별 번호 매기기
