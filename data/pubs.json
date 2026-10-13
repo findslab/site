@@ -1,5 +1,68 @@
 [
   {
+    "type": "journal",
+    "indexing_group": "KCI",
+    "code_label": "J",
+    "published_date": "2026-12-31",
+    "year": 2026,
+    "title": "Testing the Out-of-Sample Reproducibility of Nonlinear Causality Among Korean Sector Indices Using Convergent Cross Mapping",
+    "title_ko": "수렴 교차 사상을 이용한 국내 섹터 지수 간 비선형 인과관계의 표본 외 재현성 검증",
+    "authors": [
+      1
+    ],
+    "author_marks": [
+      "1,*"
+    ],
+    "venue": "Journal of Intelligence and Information Systems",
+    "venue_ko": "지능정보연구",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "doi": "",
+    "language": "Korean",
+    "awards": 0,
+    "citations": {
+      "apa": "최인수. (2026). 수렴 교차 사상을 이용한 국내 섹터 지수 간 비선형 인과관계의 표본 외 재현성 검증. <em>지능정보연구</em>.",
+      "mla": "최인수. \"수렴 교차 사상을 이용한 국내 섹터 지수 간 비선형 인과관계의 표본 외 재현성 검증.\" <em>지능정보연구</em>, 2026.",
+      "chicago": "최인수. \"수렴 교차 사상을 이용한 국내 섹터 지수 간 비선형 인과관계의 표본 외 재현성 검증.\" <em>지능정보연구</em> (2026).",
+      "harvard": "최인수 (2026) '수렴 교차 사상을 이용한 국내 섹터 지수 간 비선형 인과관계의 표본 외 재현성 검증', <em>지능정보연구</em>.",
+      "vancouver": "Choi I. 수렴 교차 사상을 이용한 국내 섹터 지수 간 비선형 인과관계의 표본 외 재현성 검증. 지능정보연구. 2026.",
+      "korean": "최인수. (2026). 수렴 교차 사상을 이용한 국내 섹터 지수 간 비선형 인과관계의 표본 외 재현성 검증. 지능정보연구.",
+      "bibtex": "@article{choi2026testingout,\n  title = {{Testing the Out-of-Sample Reproducibility of Nonlinear Causality Among Korean Sector Indices Using Convergent Cross Mapping}},\n  author = {Choi, I.},\n  journal = {Journal of Intelligence and Information Systems},\n  year = {2026},\n}"
+    }
+  },
+  {
+    "type": "conference",
+    "indexing_group": "Domestic Conference",
+    "code_label": "C",
+    "published_date": "2026-12-03",
+    "year": 2026,
+    "title": "Relational Representations Give Random Search a Signal: Reward-Free Hypergraph Learning in Tetris",
+    "title_ko": "관계형 표현이 무작위 탐색에 제공하는 최적화 신호 — 테트리스에서의 보상 없는 하이퍼그래프 학습을 예시로",
+    "authors": [
+      190,
+      1
+    ],
+    "author_marks": [
+      "1",
+      "*"
+    ],
+    "venue": "2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)",
+    "venue_ko": "2026 대한산업공학회 추계학술대회",
+    "presentation_type": "poster",
+    "language": "Korean",
+    "awards": 0,
+    "citations": {
+      "apa": "Kim, D., & Choi, I. (2026, December 3). Relational representations give random search a signal: Reward-free hypergraph learning in Tetris [Poster presentation]. 2026 Fall Conference of the Korean Institute of Industrial Engineers.",
+      "mla": "Kim, Dongwan, and Insu Choi. \"Relational Representations Give Random Search a Signal: Reward-Free Hypergraph Learning in Tetris.\" 2026 Fall Conference of the Korean Institute of Industrial Engineers, 3 Dec. 2026.",
+      "chicago": "Kim, Dongwan, and Insu Choi. \"Relational Representations Give Random Search a Signal: Reward-Free Hypergraph Learning in Tetris.\" Poster presented at the 2026 Fall Conference of the Korean Institute of Industrial Engineers, December 3, 2026.",
+      "harvard": "Kim, D. & Choi, I. (2026) 'Relational representations give random search a signal: Reward-free hypergraph learning in Tetris', poster presented at the 2026 Fall Conference of the Korean Institute of Industrial Engineers, 3 December.",
+      "vancouver": "Kim D, Choi I. Relational representations give random search a signal: Reward-free hypergraph learning in Tetris. Poster presented at: 2026 Fall Conference of the Korean Institute of Industrial Engineers; 2026 Dec 3.",
+      "korean": "김동완, 최인수. (2026). 관계형 표현이 무작위 탐색에 제공하는 최적화 신호 — 테트리스에서의 보상 없는 하이퍼그래프 학습을 예시로. 2026 대한산업공학회 추계학술대회 발표논문.",
+      "bibtex": "@inproceedings{kim2026relational,\n  title = {{Relational Representations Give Random Search a Signal: Reward-Free Hypergraph Learning in Tetris}},\n  author = {Kim, D. and Choi, I.},\n  booktitle = {2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)},\n  year = {2026},\n}"
+    }
+  },
+  {
     "type": "conference",
     "indexing_group": "Domestic Conference",
     "code_label": "C",
@@ -948,7 +1011,7 @@
   },
   {
     "type": "journal",
-    "indexing_group": "KCI",
+    "indexing_group": "Scopus",
     "code_label": "J",
     "published_date": "2026-06-30",
     "year": 2026,
@@ -9710,7 +9773,7 @@
   },
   {
     "type": "journal",
-    "indexing_group": "KCI",
+    "indexing_group": "Scopus",
     "code_label": "J",
     "published_date": "2026-08-31",
     "year": 2026,
@@ -10439,7 +10502,7 @@
     "code_label": "C",
     "published_date": "2026-12-04",
     "year": 2026,
-    "title": "Normalization Choices and the Measurement of Price Discreteness in Equity Markets",
+    "title": "Analyzing Price Discreteness Indicators Using Price-Limit Bands and Tick-Size Thresholds",
     "title_ko": "가격제한폭과 호가단위 임계점을 이용한 가격 이산성 지표 분석",
     "authors": [
       1
@@ -10456,13 +10519,13 @@
     "language": "Korean",
     "awards": 0,
     "citations": {
-      "apa": "Choi, I. (2026, December 4). Normalization choices and the measurement of price discreteness in equity markets [Paper presentation]. 2026 Fall Conference of the Knowledge Management Society of Korea.",
-      "mla": "Choi, Insu. \"Normalization Choices and the Measurement of Price Discreteness in Equity Markets.\" 2026 Fall Conference of the Knowledge Management Society of Korea, 4 Dec. 2026.",
-      "chicago": "Choi, Insu. \"Normalization Choices and the Measurement of Price Discreteness in Equity Markets.\" Paper presented at the 2026 Fall Conference of the Knowledge Management Society of Korea, December 4, 2026.",
-      "harvard": "Choi, I. (2026) 'Normalization choices and the measurement of price discreteness in equity markets', paper presented at the 2026 Fall Conference of the Knowledge Management Society of Korea, 4 December.",
-      "vancouver": "Choi I. Normalization choices and the measurement of price discreteness in equity markets. Paper presented at: 2026 Fall Conference of the Knowledge Management Society of Korea; 2026 Dec 4.",
+      "apa": "Choi, I. (2026, December 4). Analyzing price discreteness indicators using price-limit bands and tick-size thresholds [Paper presentation]. 2026 Fall Conference of the Knowledge Management Society of Korea.",
+      "mla": "Choi, Insu. \"Analyzing Price Discreteness Indicators Using Price-Limit Bands and Tick-Size Thresholds.\" 2026 Fall Conference of the Knowledge Management Society of Korea, 4 Dec. 2026.",
+      "chicago": "Choi, Insu. \"Analyzing Price Discreteness Indicators Using Price-Limit Bands and Tick-Size Thresholds.\" Paper presented at the 2026 Fall Conference of the Knowledge Management Society of Korea, December 4, 2026.",
+      "harvard": "Choi, I. (2026) 'Analyzing price discreteness indicators using price-limit bands and tick-size thresholds', paper presented at the 2026 Fall Conference of the Knowledge Management Society of Korea, 4 December.",
+      "vancouver": "Choi I. Analyzing price discreteness indicators using price-limit bands and tick-size thresholds. Paper presented at: 2026 Fall Conference of the Knowledge Management Society of Korea; 2026 Dec 4.",
       "korean": "최인수. (2026). 가격제한폭과 호가단위 임계점을 이용한 가격 이산성 지표 분석. 2026 한국지식경영학회 추계학술대회 발표논문.",
-      "bibtex": "@inproceedings{choi2026normalization,\n  title = {{Normalization Choices and the Measurement of Price Discreteness in Equity Markets}},\n  author = {Choi, I.},\n  booktitle = {2026 Fall Conference of the Knowledge Management Society of Korea (KMSK)},\n  year = {2026},\n}"
+      "bibtex": "@inproceedings{choi2026analyzingprice,\n  title = {{Analyzing Price Discreteness Indicators Using Price-Limit Bands and Tick-Size Thresholds}},\n  author = {Choi, I.},\n  booktitle = {2026 Fall Conference of the Knowledge Management Society of Korea (KMSK)},\n  year = {2026},\n}"
     },
     "presentation_type": "oral"
   },
@@ -10748,7 +10811,7 @@
   },
   {
     "type": "journal",
-    "indexing_group": "KCI",
+    "indexing_group": "Scopus",
     "code_label": "J",
     "published_date": "2026-10-31",
     "year": 2026,
@@ -11204,7 +11267,7 @@
   },
   {
     "type": "journal",
-    "indexing_group": "KCI",
+    "indexing_group": "Scopus",
     "code_label": "J",
     "published_date": "2026-10-31",
     "year": 2026,
