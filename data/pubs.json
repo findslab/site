@@ -1,6 +1,35 @@
 [
   {
     "type": "journal",
+    "indexing_group": "SSCI",
+    "code_label": "J",
+    "published_date": "2026-10-13",
+    "year": 2026,
+    "title": "Temporal Dynamics Portfolio Optimization: A Graph Neural Network Framework With Visibility Graph Encoding and Differentiable Optimization",
+    "authors": [
+      1
+    ],
+    "author_marks": [
+      "1,*"
+    ],
+    "venue": "Financial Innovation",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "doi": "",
+    "language": "English",
+    "awards": 0,
+    "citations": {
+      "apa": "Choi, I. (2026). Temporal dynamics portfolio optimization: A graph neural network framework with visibility graph encoding and differentiable optimization. <em>Financial Innovation</em>.",
+      "mla": "Choi, Insu. \"Temporal Dynamics Portfolio Optimization: A Graph Neural Network Framework With Visibility Graph Encoding and Differentiable Optimization.\" <em>Financial Innovation</em>, 2026.",
+      "chicago": "Choi, Insu. \"Temporal Dynamics Portfolio Optimization: A Graph Neural Network Framework With Visibility Graph Encoding and Differentiable Optimization.\" <em>Financial Innovation</em> (2026).",
+      "harvard": "Choi, I. (2026) 'Temporal dynamics portfolio optimization: A graph neural network framework with visibility graph encoding and differentiable optimization', <em>Financial Innovation</em>.",
+      "vancouver": "Choi I. Temporal dynamics portfolio optimization: A graph neural network framework with visibility graph encoding and differentiable optimization. Financial Innovation. 2026.",
+      "bibtex": "@article{choi2026temporal,\n  title = {{Temporal Dynamics Portfolio Optimization: A Graph Neural Network Framework With Visibility Graph Encoding and Differentiable Optimization}},\n  author = {Choi, I.},\n  journal = {Financial Innovation},\n  year = {2026},\n}"
+    }
+  },
+  {
+    "type": "journal",
     "indexing_group": "KCI",
     "code_label": "J",
     "published_date": "2026-12-31",
@@ -11326,7 +11355,7 @@
       "harvard": "최인수 (2026) '설명 드리프트와 예측성능 저하의 시간적 선후관계: 기계학습 모형 감시 지표로서의 SHAP 기여도 검정', <em>경영정보학연구</em>.",
       "vancouver": "Choi I. 설명 드리프트와 예측성능 저하의 시간적 선후관계: 기계학습 모형 감시 지표로서의 SHAP 기여도 검정. 경영정보학연구. 2026.",
       "korean": "최인수. (2026). 설명 드리프트와 예측성능 저하의 시간적 선후관계: 기계학습 모형 감시 지표로서의 SHAP 기여도 검정. 경영정보학연구.",
-      "bibtex": "@article{choi2026temporal,\n  title = {{The Temporal Ordering of Explanation Drift and Forecast Degradation: Testing SHAP Attributions as a Model Monitoring Instrument}},\n  author = {Choi, I.},\n  journal = {Information Systems Review},\n  year = {2026},\n}"
+      "bibtex": "@article{choi2026temporalordering,\n  title = {{The Temporal Ordering of Explanation Drift and Forecast Degradation: Testing SHAP Attributions as a Model Monitoring Instrument}},\n  author = {Choi, I.},\n  journal = {Information Systems Review},\n  year = {2026},\n}"
     }
   },
   {
