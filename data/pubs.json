@@ -1,5 +1,38 @@
 [
   {
+    "type": "conference",
+    "indexing_group": "Domestic Conference",
+    "code_label": "C",
+    "published_date": "2026-12-03",
+    "year": 2026,
+    "title": "Optimal Location of Shared E-Scooter Parking Zones Using Towing Records and Transit Alighting Demand: The Case of Dongjak-gu, Seoul",
+    "title_ko": "견인 기록과 대중교통 하차 수요를 이용한 공유 전동킥보드 주차구역 최적 입지: 서울시 동작구 사례를 중심으로",
+    "authors": [
+      202,
+      203,
+      1
+    ],
+    "author_marks": [
+      "1",
+      "2",
+      "*"
+    ],
+    "venue": "2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)",
+    "venue_ko": "2026 대한산업공학회 추계학술대회",
+    "presentation_type": "poster",
+    "language": "Korean",
+    "awards": 0,
+    "citations": {
+      "apa": "Lee, Y., Kim, M., & Choi, I. (2026, December 3). Optimal location of shared e-scooter parking zones using towing records and transit alighting demand: The case of Dongjak-gu, Seoul [Poster presentation]. 2026 Fall Conference of the Korean Institute of Industrial Engineers.",
+      "mla": "Lee, Yosep, et al. \"Optimal Location of Shared E-Scooter Parking Zones Using Towing Records and Transit Alighting Demand: The Case of Dongjak-gu, Seoul.\" 2026 Fall Conference of the Korean Institute of Industrial Engineers, 3 Dec. 2026.",
+      "chicago": "Lee, Yosep, Minkyun Kim, and Insu Choi. \"Optimal Location of Shared E-Scooter Parking Zones Using Towing Records and Transit Alighting Demand: The Case of Dongjak-gu, Seoul.\" Poster presented at the 2026 Fall Conference of the Korean Institute of Industrial Engineers, December 3, 2026.",
+      "harvard": "Lee, Y., Kim, M. & Choi, I. (2026) 'Optimal location of shared e-scooter parking zones using towing records and transit alighting demand: The case of Dongjak-gu, Seoul', poster presented at the 2026 Fall Conference of the Korean Institute of Industrial Engineers, 3 December.",
+      "vancouver": "Lee Y, Kim M, Choi I. Optimal location of shared e-scooter parking zones using towing records and transit alighting demand: The case of Dongjak-gu, Seoul. Poster presented at: 2026 Fall Conference of the Korean Institute of Industrial Engineers; 2026 Dec 3.",
+      "korean": "이요셉, 김민균, 최인수. (2026). 견인 기록과 대중교통 하차 수요를 이용한 공유 전동킥보드 주차구역 최적 입지: 서울시 동작구 사례를 중심으로. 2026 대한산업공학회 추계학술대회 발표논문.",
+      "bibtex": "@inproceedings{lee2026optimal,\n  title = {{Optimal Location of Shared E-Scooter Parking Zones Using Towing Records and Transit Alighting Demand: The Case of Dongjak-gu, Seoul}},\n  author = {Lee, Y. and Kim, M. and Choi, I.},\n  booktitle = {2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)},\n  year = {2026},\n}"
+    }
+  },
+  {
     "type": "journal",
     "indexing_group": "SSCI",
     "code_label": "J",
@@ -89,6 +122,167 @@
       "vancouver": "Kim D, Choi I. Relational representations give random search a signal: Reward-free hypergraph learning in Tetris. Poster presented at: 2026 Fall Conference of the Korean Institute of Industrial Engineers; 2026 Dec 3.",
       "korean": "김동완, 최인수. (2026). 관계형 표현이 무작위 탐색에 제공하는 최적화 신호 — 테트리스에서의 보상 없는 하이퍼그래프 학습을 예시로. 2026 대한산업공학회 추계학술대회 발표논문.",
       "bibtex": "@inproceedings{kim2026relational,\n  title = {{Relational Representations Give Random Search a Signal: Reward-Free Hypergraph Learning in Tetris}},\n  author = {Kim, D. and Choi, I.},\n  booktitle = {2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)},\n  year = {2026},\n}"
+    }
+  },
+  {
+    "type": "conference",
+    "indexing_group": "Domestic Conference",
+    "code_label": "C",
+    "published_date": "2027-01-31",
+    "year": 2027,
+    "title": "Revisiting Cross-Asset Information Flows in the Korean Market: Accounting for Transfer Entropy Estimation Conditions and Asynchronous Trading Hours",
+    "title_ko": "전이엔트로피의 추정조건과 비동기 거래시간을 고려한 한국시장 교차자산 정보흐름의 재검토",
+    "authors": [
+      1
+    ],
+    "author_marks": [
+      "1,*"
+    ],
+    "venue": "2026 Winter Conference of the Korean Data Analysis Society (KDAS)",
+    "venue_ko": "2026 한국자료분석학회 동계학술논문발표대회",
+    "presentation_type": "poster",
+    "language": "Korean",
+    "awards": 0,
+    "citations": {
+      "apa": "Choi, I. (2027, January 31). Revisiting cross-asset information flows in the Korean market: Accounting for transfer entropy estimation conditions and asynchronous trading hours [Poster presentation]. 2026 Winter Conference of the Korean Data Analysis Society.",
+      "mla": "Choi, Insu. \"Revisiting Cross-Asset Information Flows in the Korean Market: Accounting for Transfer Entropy Estimation Conditions and Asynchronous Trading Hours.\" 2026 Winter Conference of the Korean Data Analysis Society, 31 Jan. 2027.",
+      "chicago": "Choi, Insu. \"Revisiting Cross-Asset Information Flows in the Korean Market: Accounting for Transfer Entropy Estimation Conditions and Asynchronous Trading Hours.\" Poster presented at the 2026 Winter Conference of the Korean Data Analysis Society, January 31, 2027.",
+      "harvard": "Choi, I. (2027) 'Revisiting cross-asset information flows in the Korean market: Accounting for transfer entropy estimation conditions and asynchronous trading hours', poster presented at the 2026 Winter Conference of the Korean Data Analysis Society, 31 January.",
+      "vancouver": "Choi I. Revisiting cross-asset information flows in the Korean market: Accounting for transfer entropy estimation conditions and asynchronous trading hours. Poster presented at: 2026 Winter Conference of the Korean Data Analysis Society; 2027 Jan 31.",
+      "korean": "최인수. (2027). 전이엔트로피의 추정조건과 비동기 거래시간을 고려한 한국시장 교차자산 정보흐름의 재검토. 2026 한국자료분석학회 동계학술논문발표대회 발표논문.",
+      "bibtex": "@inproceedings{choi2027revisiting,\n  title = {{Revisiting Cross-Asset Information Flows in the Korean Market: Accounting for Transfer Entropy Estimation Conditions and Asynchronous Trading Hours}},\n  author = {Choi, I.},\n  booktitle = {2026 Winter Conference of the Korean Data Analysis Society (KDAS)},\n  year = {2027},\n}"
+    }
+  },
+  {
+    "type": "conference",
+    "indexing_group": "Domestic Conference",
+    "code_label": "C",
+    "published_date": "2027-01-31",
+    "year": 2027,
+    "title": "Identifying the Price Impact of Large Pension Fund Rebalancing Flows and the Estimation Bias Induced by Contrarian Trading",
+    "title_ko": "대형 연기금 리밸런싱 자금의 가격충격 식별과 역발상 거래에 따른 추정 편의에 관한 연구",
+    "authors": [
+      1
+    ],
+    "author_marks": [
+      "1,*"
+    ],
+    "venue": "2026 Winter Conference of the Korean Data Analysis Society (KDAS)",
+    "venue_ko": "2026 한국자료분석학회 동계학술논문발표대회",
+    "presentation_type": "poster",
+    "language": "Korean",
+    "awards": 0,
+    "citations": {
+      "apa": "Choi, I. (2027, January 31). Identifying the price impact of large pension fund rebalancing flows and the estimation bias induced by contrarian trading [Poster presentation]. 2026 Winter Conference of the Korean Data Analysis Society.",
+      "mla": "Choi, Insu. \"Identifying the Price Impact of Large Pension Fund Rebalancing Flows and the Estimation Bias Induced by Contrarian Trading.\" 2026 Winter Conference of the Korean Data Analysis Society, 31 Jan. 2027.",
+      "chicago": "Choi, Insu. \"Identifying the Price Impact of Large Pension Fund Rebalancing Flows and the Estimation Bias Induced by Contrarian Trading.\" Poster presented at the 2026 Winter Conference of the Korean Data Analysis Society, January 31, 2027.",
+      "harvard": "Choi, I. (2027) 'Identifying the price impact of large pension fund rebalancing flows and the estimation bias induced by contrarian trading', poster presented at the 2026 Winter Conference of the Korean Data Analysis Society, 31 January.",
+      "vancouver": "Choi I. Identifying the price impact of large pension fund rebalancing flows and the estimation bias induced by contrarian trading. Poster presented at: 2026 Winter Conference of the Korean Data Analysis Society; 2027 Jan 31.",
+      "korean": "최인수. (2027). 대형 연기금 리밸런싱 자금의 가격충격 식별과 역발상 거래에 따른 추정 편의에 관한 연구. 2026 한국자료분석학회 동계학술논문발표대회 발표논문.",
+      "bibtex": "@inproceedings{choi2027identifying,\n  title = {{Identifying the Price Impact of Large Pension Fund Rebalancing Flows and the Estimation Bias Induced by Contrarian Trading}},\n  author = {Choi, I.},\n  booktitle = {2026 Winter Conference of the Korean Data Analysis Society (KDAS)},\n  year = {2027},\n}"
+    }
+  },
+  {
+    "type": "conference",
+    "indexing_group": "Domestic Conference",
+    "code_label": "C",
+    "published_date": "2027-01-31",
+    "year": 2027,
+    "title": "Detecting Surging Hot-Place Areas in Seoul From Search Trends and Exploring Their Predictability",
+    "title_ko": "검색 트렌드 기반 서울시 핫플레이스 급등 지역 탐지 및 예측 가능성 탐색",
+    "authors": [
+      194,
+      195,
+      196,
+      1
+    ],
+    "author_marks": [
+      "1",
+      "2",
+      "2",
+      "*"
+    ],
+    "venue": "2026 Winter Conference of the Korean Data Analysis Society (KDAS)",
+    "venue_ko": "2026 한국자료분석학회 동계학술논문발표대회",
+    "presentation_type": "poster",
+    "language": "Korean",
+    "awards": 0,
+    "citations": {
+      "apa": "Park, S., Yoo, S., Choi, S., & Choi, I. (2027, January 31). Detecting surging hot-place areas in Seoul from search trends and exploring their predictability [Poster presentation]. 2026 Winter Conference of the Korean Data Analysis Society.",
+      "mla": "Park, Seyoon, et al. \"Detecting Surging Hot-Place Areas in Seoul From Search Trends and Exploring Their Predictability.\" 2026 Winter Conference of the Korean Data Analysis Society, 31 Jan. 2027.",
+      "chicago": "Park, Seyoon, Saebom Yoo, Sumin Choi, and Insu Choi. \"Detecting Surging Hot-Place Areas in Seoul From Search Trends and Exploring Their Predictability.\" Poster presented at the 2026 Winter Conference of the Korean Data Analysis Society, January 31, 2027.",
+      "harvard": "Park, S., Yoo, S., Choi, S. & Choi, I. (2027) 'Detecting surging hot-place areas in Seoul from search trends and exploring their predictability', poster presented at the 2026 Winter Conference of the Korean Data Analysis Society, 31 January.",
+      "vancouver": "Park S, Yoo S, Choi S, Choi I. Detecting surging hot-place areas in Seoul from search trends and exploring their predictability. Poster presented at: 2026 Winter Conference of the Korean Data Analysis Society; 2027 Jan 31.",
+      "korean": "박세윤, 유새봄, 최수민, 최인수. (2027). 검색 트렌드 기반 서울시 핫플레이스 급등 지역 탐지 및 예측 가능성 탐색. 2026 한국자료분석학회 동계학술논문발표대회 발표논문.",
+      "bibtex": "@inproceedings{park2027detecting,\n  title = {{Detecting Surging Hot-Place Areas in Seoul From Search Trends and Exploring Their Predictability}},\n  author = {Park, S. and Yoo, S. and Choi, S. and Choi, I.},\n  booktitle = {2026 Winter Conference of the Korean Data Analysis Society (KDAS)},\n  year = {2027},\n}"
+    }
+  },
+  {
+    "type": "conference",
+    "indexing_group": "Domestic Conference",
+    "code_label": "C",
+    "published_date": "2027-01-31",
+    "year": 2027,
+    "title": "Testing the Predictive Power of Stock Message Board Sentiment for 30-Minute Stock Returns: Evidence From Equivalence Tests and Out-of-Sample Evaluation",
+    "title_ko": "종목토론방 여론의 30분봉 주가 예측력 검증 — 동등성 검정과 표본 외 평가를 이용한 분석을 중심으로",
+    "authors": [
+      197,
+      198,
+      199,
+      1
+    ],
+    "author_marks": [
+      "1",
+      "2",
+      "2",
+      "*"
+    ],
+    "venue": "2026 Winter Conference of the Korean Data Analysis Society (KDAS)",
+    "venue_ko": "2026 한국자료분석학회 동계학술논문발표대회",
+    "presentation_type": "poster",
+    "language": "Korean",
+    "awards": 0,
+    "citations": {
+      "apa": "Kim, N., Kim, D., Kim, J., & Choi, I. (2027, January 31). Testing the predictive power of stock message board sentiment for 30-minute stock returns: Evidence from equivalence tests and out-of-sample evaluation [Poster presentation]. 2026 Winter Conference of the Korean Data Analysis Society.",
+      "mla": "Kim, Nagyun, et al. \"Testing the Predictive Power of Stock Message Board Sentiment for 30-Minute Stock Returns: Evidence From Equivalence Tests and Out-of-Sample Evaluation.\" 2026 Winter Conference of the Korean Data Analysis Society, 31 Jan. 2027.",
+      "chicago": "Kim, Nagyun, Dongwoo Kim, Jungjin Kim, and Insu Choi. \"Testing the Predictive Power of Stock Message Board Sentiment for 30-Minute Stock Returns: Evidence From Equivalence Tests and Out-of-Sample Evaluation.\" Poster presented at the 2026 Winter Conference of the Korean Data Analysis Society, January 31, 2027.",
+      "harvard": "Kim, N., Kim, D., Kim, J. & Choi, I. (2027) 'Testing the predictive power of stock message board sentiment for 30-minute stock returns: Evidence from equivalence tests and out-of-sample evaluation', poster presented at the 2026 Winter Conference of the Korean Data Analysis Society, 31 January.",
+      "vancouver": "Kim N, Kim D, Kim J, Choi I. Testing the predictive power of stock message board sentiment for 30-minute stock returns: Evidence from equivalence tests and out-of-sample evaluation. Poster presented at: 2026 Winter Conference of the Korean Data Analysis Society; 2027 Jan 31.",
+      "korean": "김나균, 김동우, 김정진, 최인수. (2027). 종목토론방 여론의 30분봉 주가 예측력 검증 — 동등성 검정과 표본 외 평가를 이용한 분석을 중심으로. 2026 한국자료분석학회 동계학술논문발표대회 발표논문.",
+      "bibtex": "@inproceedings{kim2027testing,\n  title = {{Testing the Predictive Power of Stock Message Board Sentiment for 30-Minute Stock Returns: Evidence From Equivalence Tests and Out-of-Sample Evaluation}},\n  author = {Kim, N. and Kim, D. and Kim, J. and Choi, I.},\n  booktitle = {2026 Winter Conference of the Korean Data Analysis Society (KDAS)},\n  year = {2027},\n}"
+    }
+  },
+  {
+    "type": "conference",
+    "indexing_group": "Domestic Conference",
+    "code_label": "C",
+    "published_date": "2027-01-31",
+    "year": 2027,
+    "title": "Asymmetric Tail Risk Transmission Between the Artificial Intelligence Industry and Energy Markets Revisited From a Frequency Connectedness Perspective",
+    "title_ko": "주파수 연결성 관점에서 재조명한 인공지능 산업과 에너지 시장 간 비대칭 꼬리위험 전이",
+    "authors": [
+      1
+    ],
+    "author_marks": [
+      "1,*"
+    ],
+    "venue": "2026 Winter Conference of the Korean Data Analysis Society (KDAS)",
+    "venue_ko": "2026 한국자료분석학회 동계학술논문발표대회",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "doi": "",
+    "language": "Korean",
+    "awards": 0,
+    "presentation_type": "oral",
+    "citations": {
+      "apa": "Choi, I. (2027, January 31). Asymmetric tail risk transmission between the artificial intelligence industry and energy markets revisited from a frequency connectedness perspective [Paper presentation]. 2026 Winter Conference of the Korean Data Analysis Society.",
+      "mla": "Choi, Insu. \"Asymmetric Tail Risk Transmission Between the Artificial Intelligence Industry and Energy Markets Revisited From a Frequency Connectedness Perspective.\" 2026 Winter Conference of the Korean Data Analysis Society, 31 Jan. 2027.",
+      "chicago": "Choi, Insu. \"Asymmetric Tail Risk Transmission Between the Artificial Intelligence Industry and Energy Markets Revisited From a Frequency Connectedness Perspective.\" Paper presented at the 2026 Winter Conference of the Korean Data Analysis Society, January 31, 2027.",
+      "harvard": "Choi, I. (2027) 'Asymmetric tail risk transmission between the artificial intelligence industry and energy markets revisited from a frequency connectedness perspective', paper presented at the 2026 Winter Conference of the Korean Data Analysis Society, 31 January.",
+      "vancouver": "Choi I. Asymmetric tail risk transmission between the artificial intelligence industry and energy markets revisited from a frequency connectedness perspective. Paper presented at: 2026 Winter Conference of the Korean Data Analysis Society; 2027 Jan 31.",
+      "korean": "최인수. (2027). 주파수 연결성 관점에서 재조명한 인공지능 산업과 에너지 시장 간 비대칭 꼬리위험 전이. 2026 한국자료분석학회 동계학술논문발표대회 발표논문.",
+      "bibtex": "@inproceedings{choi2027asymmetric,\n  title = {{Asymmetric Tail Risk Transmission Between the Artificial Intelligence Industry and Energy Markets Revisited From a Frequency Connectedness Perspective}},\n  author = {Choi, I.},\n  booktitle = {2026 Winter Conference of the Korean Data Analysis Society (KDAS)},\n  year = {2027},\n}"
     }
   },
   {
@@ -269,6 +463,39 @@
     "type": "conference",
     "indexing_group": "Domestic Conference",
     "code_label": "C",
+    "published_date": "2027-01-31",
+    "year": 2027,
+    "title": "Extreme-Loss Risk Transmission Among Global Stock Markets: Evidence From a Coherent Risk Measure and Forecast Error Variance Decomposition",
+    "title_ko": "정합적 위험측도와 예측오차 분산분해를 이용한 글로벌 주식시장 간 극단손실 위험 파급 분석",
+    "authors": [
+      1
+    ],
+    "author_marks": [
+      "1,*"
+    ],
+    "venue": "2027 Winter Conference of the Korea Society of Computer and Information (KSCI)",
+    "venue_ko": "2027 한국컴퓨터정보학회 동계학술대회",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "doi": "",
+    "language": "Korean",
+    "awards": 0,
+    "presentation_type": "oral",
+    "citations": {
+      "apa": "Choi, I. (2027, January 31). Extreme-loss risk transmission among global stock markets: Evidence from a coherent risk measure and forecast error variance decomposition [Paper presentation]. 2027 Winter Conference of the Korea Society of Computer and Information.",
+      "mla": "Choi, Insu. \"Extreme-Loss Risk Transmission Among Global Stock Markets: Evidence From a Coherent Risk Measure and Forecast Error Variance Decomposition.\" 2027 Winter Conference of the Korea Society of Computer and Information, 31 Jan. 2027.",
+      "chicago": "Choi, Insu. \"Extreme-Loss Risk Transmission Among Global Stock Markets: Evidence From a Coherent Risk Measure and Forecast Error Variance Decomposition.\" Paper presented at the 2027 Winter Conference of the Korea Society of Computer and Information, January 31, 2027.",
+      "harvard": "Choi, I. (2027) 'Extreme-loss risk transmission among global stock markets: Evidence from a coherent risk measure and forecast error variance decomposition', paper presented at the 2027 Winter Conference of the Korea Society of Computer and Information, 31 January.",
+      "vancouver": "Choi I. Extreme-loss risk transmission among global stock markets: Evidence from a coherent risk measure and forecast error variance decomposition. Paper presented at: 2027 Winter Conference of the Korea Society of Computer and Information; 2027 Jan 31.",
+      "korean": "최인수. (2027). 정합적 위험측도와 예측오차 분산분해를 이용한 글로벌 주식시장 간 극단손실 위험 파급 분석. 2027 한국컴퓨터정보학회 동계학술대회 발표논문.",
+      "bibtex": "@inproceedings{choi2027extreme,\n  title = {{Extreme-Loss Risk Transmission Among Global Stock Markets: Evidence From a Coherent Risk Measure and Forecast Error Variance Decomposition}},\n  author = {Choi, I.},\n  booktitle = {2027 Winter Conference of the Korea Society of Computer and Information (KSCI)},\n  year = {2027},\n}"
+    }
+  },
+  {
+    "type": "conference",
+    "indexing_group": "Domestic Conference",
+    "code_label": "C",
     "published_date": "2026-12-22",
     "year": 2026,
     "title": "Persistence and Transitions of Korean Household Financial Portfolio Types: Differences in Household Characteristics by Transition Status and Direction",
@@ -298,64 +525,6 @@
       "vancouver": "Shin KS, Kang D, Lee E, Choi I. Persistence and transitions of Korean household financial portfolio types: Differences in household characteristics by transition status and direction. Poster presented at: 2026 Winter Conference of the Korean Statistical Society; 2026 Dec 22.",
       "korean": "신경수, 강동희, 이은경, 최인수. (2026). 한국 가계 금융포트폴리오 유형의 지속과 이동: 이동 여부와 방향에 따른 가구 특성의 차이를 중심으로. 2026 한국통계학회 동계학술논문발표회 발표논문.",
       "bibtex": "@inproceedings{shin2026persistence,\n  title = {{Persistence and Transitions of Korean Household Financial Portfolio Types: Differences in Household Characteristics by Transition Status and Direction}},\n  author = {Shin, K. S. and Kang, D. and Lee, E. and Choi, I.},\n  booktitle = {2026 Winter Conference of the Korean Statistical Society (KSS)},\n  year = {2026},\n}"
-    }
-  },
-  {
-    "type": "conference",
-    "indexing_group": "Domestic Conference",
-    "code_label": "C",
-    "published_date": "2027-01-31",
-    "year": 2027,
-    "title": "Revisiting Cross-Asset Information Flows in the Korean Market: Accounting for Transfer Entropy Estimation Conditions and Asynchronous Trading Hours",
-    "title_ko": "전이엔트로피의 추정조건과 비동기 거래시간을 고려한 한국시장 교차자산 정보흐름의 재검토",
-    "authors": [
-      1
-    ],
-    "author_marks": [
-      "1,*"
-    ],
-    "venue": "2026 Winter Conference of the Korean Data Analysis Society (KDAS)",
-    "venue_ko": "2026 한국자료분석학회 동계학술논문발표대회",
-    "presentation_type": "poster",
-    "language": "Korean",
-    "awards": 0,
-    "citations": {
-      "apa": "Choi, I. (2027, January 31). Revisiting cross-asset information flows in the Korean market: Accounting for transfer entropy estimation conditions and asynchronous trading hours [Poster presentation]. 2026 Winter Conference of the Korean Data Analysis Society.",
-      "mla": "Choi, Insu. \"Revisiting Cross-Asset Information Flows in the Korean Market: Accounting for Transfer Entropy Estimation Conditions and Asynchronous Trading Hours.\" 2026 Winter Conference of the Korean Data Analysis Society, 31 Jan. 2027.",
-      "chicago": "Choi, Insu. \"Revisiting Cross-Asset Information Flows in the Korean Market: Accounting for Transfer Entropy Estimation Conditions and Asynchronous Trading Hours.\" Poster presented at the 2026 Winter Conference of the Korean Data Analysis Society, January 31, 2027.",
-      "harvard": "Choi, I. (2027) 'Revisiting cross-asset information flows in the Korean market: Accounting for transfer entropy estimation conditions and asynchronous trading hours', poster presented at the 2026 Winter Conference of the Korean Data Analysis Society, 31 January.",
-      "vancouver": "Choi I. Revisiting cross-asset information flows in the Korean market: Accounting for transfer entropy estimation conditions and asynchronous trading hours. Poster presented at: 2026 Winter Conference of the Korean Data Analysis Society; 2027 Jan 31.",
-      "korean": "최인수. (2027). 전이엔트로피의 추정조건과 비동기 거래시간을 고려한 한국시장 교차자산 정보흐름의 재검토. 2026 한국자료분석학회 동계학술논문발표대회 발표논문.",
-      "bibtex": "@inproceedings{choi2027revisiting,\n  title = {{Revisiting Cross-Asset Information Flows in the Korean Market: Accounting for Transfer Entropy Estimation Conditions and Asynchronous Trading Hours}},\n  author = {Choi, I.},\n  booktitle = {2026 Winter Conference of the Korean Data Analysis Society (KDAS)},\n  year = {2027},\n}"
-    }
-  },
-  {
-    "type": "conference",
-    "indexing_group": "Domestic Conference",
-    "code_label": "C",
-    "published_date": "2027-01-31",
-    "year": 2027,
-    "title": "Identifying the Price Impact of Large Pension Fund Rebalancing Flows and the Estimation Bias Induced by Contrarian Trading",
-    "title_ko": "대형 연기금 리밸런싱 자금의 가격충격 식별과 역발상 거래에 따른 추정 편의에 관한 연구",
-    "authors": [
-      1
-    ],
-    "author_marks": [
-      "1,*"
-    ],
-    "venue": "2026 Winter Conference of the Korean Data Analysis Society (KDAS)",
-    "venue_ko": "2026 한국자료분석학회 동계학술논문발표대회",
-    "presentation_type": "poster",
-    "language": "Korean",
-    "awards": 0,
-    "citations": {
-      "apa": "Choi, I. (2027, January 31). Identifying the price impact of large pension fund rebalancing flows and the estimation bias induced by contrarian trading [Poster presentation]. 2026 Winter Conference of the Korean Data Analysis Society.",
-      "mla": "Choi, Insu. \"Identifying the Price Impact of Large Pension Fund Rebalancing Flows and the Estimation Bias Induced by Contrarian Trading.\" 2026 Winter Conference of the Korean Data Analysis Society, 31 Jan. 2027.",
-      "chicago": "Choi, Insu. \"Identifying the Price Impact of Large Pension Fund Rebalancing Flows and the Estimation Bias Induced by Contrarian Trading.\" Poster presented at the 2026 Winter Conference of the Korean Data Analysis Society, January 31, 2027.",
-      "harvard": "Choi, I. (2027) 'Identifying the price impact of large pension fund rebalancing flows and the estimation bias induced by contrarian trading', poster presented at the 2026 Winter Conference of the Korean Data Analysis Society, 31 January.",
-      "vancouver": "Choi I. Identifying the price impact of large pension fund rebalancing flows and the estimation bias induced by contrarian trading. Poster presented at: 2026 Winter Conference of the Korean Data Analysis Society; 2027 Jan 31.",
-      "korean": "최인수. (2027). 대형 연기금 리밸런싱 자금의 가격충격 식별과 역발상 거래에 따른 추정 편의에 관한 연구. 2026 한국자료분석학회 동계학술논문발표대회 발표논문.",
-      "bibtex": "@inproceedings{choi2027identifying,\n  title = {{Identifying the Price Impact of Large Pension Fund Rebalancing Flows and the Estimation Bias Induced by Contrarian Trading}},\n  author = {Choi, I.},\n  booktitle = {2026 Winter Conference of the Korean Data Analysis Society (KDAS)},\n  year = {2027},\n}"
     }
   },
   {
@@ -581,76 +750,6 @@
       "vancouver": "Choi J, Kim H, Hong J, Choi I. Design and prototype implementation of a personalized task allocation and contribution evaluation system for team projects. Poster presented at: 2026 Fall Conference of the Korean Institute of Industrial Engineers; 2026 Dec 3.",
       "korean": "최정윤, 김효은, 홍정의, 최인수. (2026). 개인 특성과 역할 난이도를 고려한 팀 프로젝트 업무 분배 및 기여도 평가 시스템 설계 및 프로토타입 구현. 2026 대한산업공학회 추계학술대회 발표논문.",
       "bibtex": "@inproceedings{choi2026design,\n  title = {{Design and Prototype Implementation of a Personalized Task Allocation and Contribution Evaluation System for Team Projects}},\n  author = {Choi, J. and Kim, H. and Hong, J. and Choi, I.},\n  booktitle = {2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)},\n  year = {2026},\n}"
-    }
-  },
-  {
-    "type": "conference",
-    "indexing_group": "Domestic Conference",
-    "code_label": "C",
-    "published_date": "2027-01-31",
-    "year": 2027,
-    "title": "Detecting Surging Hot-Place Areas in Seoul From Search Trends and Exploring Their Predictability",
-    "title_ko": "검색 트렌드 기반 서울시 핫플레이스 급등 지역 탐지 및 예측 가능성 탐색",
-    "authors": [
-      194,
-      195,
-      196,
-      1
-    ],
-    "author_marks": [
-      "1",
-      "2",
-      "2",
-      "*"
-    ],
-    "venue": "2026 Winter Conference of the Korean Data Analysis Society (KDAS)",
-    "venue_ko": "2026 한국자료분석학회 동계학술논문발표대회",
-    "presentation_type": "poster",
-    "language": "Korean",
-    "awards": 0,
-    "citations": {
-      "apa": "Park, S., Yoo, S., Choi, S., & Choi, I. (2027, January 31). Detecting surging hot-place areas in Seoul from search trends and exploring their predictability [Poster presentation]. 2026 Winter Conference of the Korean Data Analysis Society.",
-      "mla": "Park, Seyoon, et al. \"Detecting Surging Hot-Place Areas in Seoul From Search Trends and Exploring Their Predictability.\" 2026 Winter Conference of the Korean Data Analysis Society, 31 Jan. 2027.",
-      "chicago": "Park, Seyoon, Saebom Yoo, Sumin Choi, and Insu Choi. \"Detecting Surging Hot-Place Areas in Seoul From Search Trends and Exploring Their Predictability.\" Poster presented at the 2026 Winter Conference of the Korean Data Analysis Society, January 31, 2027.",
-      "harvard": "Park, S., Yoo, S., Choi, S. & Choi, I. (2027) 'Detecting surging hot-place areas in Seoul from search trends and exploring their predictability', poster presented at the 2026 Winter Conference of the Korean Data Analysis Society, 31 January.",
-      "vancouver": "Park S, Yoo S, Choi S, Choi I. Detecting surging hot-place areas in Seoul from search trends and exploring their predictability. Poster presented at: 2026 Winter Conference of the Korean Data Analysis Society; 2027 Jan 31.",
-      "korean": "박세윤, 유새봄, 최수민, 최인수. (2027). 검색 트렌드 기반 서울시 핫플레이스 급등 지역 탐지 및 예측 가능성 탐색. 2026 한국자료분석학회 동계학술논문발표대회 발표논문.",
-      "bibtex": "@inproceedings{park2027detecting,\n  title = {{Detecting Surging Hot-Place Areas in Seoul From Search Trends and Exploring Their Predictability}},\n  author = {Park, S. and Yoo, S. and Choi, S. and Choi, I.},\n  booktitle = {2026 Winter Conference of the Korean Data Analysis Society (KDAS)},\n  year = {2027},\n}"
-    }
-  },
-  {
-    "type": "conference",
-    "indexing_group": "Domestic Conference",
-    "code_label": "C",
-    "published_date": "2027-01-31",
-    "year": 2027,
-    "title": "Testing the Predictive Power of Stock Message Board Sentiment for 30-Minute Stock Returns: Evidence From Equivalence Tests and Out-of-Sample Evaluation",
-    "title_ko": "종목토론방 여론의 30분봉 주가 예측력 검증 — 동등성 검정과 표본 외 평가를 이용한 분석을 중심으로",
-    "authors": [
-      197,
-      198,
-      199,
-      1
-    ],
-    "author_marks": [
-      "1",
-      "2",
-      "2",
-      "*"
-    ],
-    "venue": "2026 Winter Conference of the Korean Data Analysis Society (KDAS)",
-    "venue_ko": "2026 한국자료분석학회 동계학술논문발표대회",
-    "presentation_type": "poster",
-    "language": "Korean",
-    "awards": 0,
-    "citations": {
-      "apa": "Kim, N., Kim, D., Kim, J., & Choi, I. (2027, January 31). Testing the predictive power of stock message board sentiment for 30-minute stock returns: Evidence from equivalence tests and out-of-sample evaluation [Poster presentation]. 2026 Winter Conference of the Korean Data Analysis Society.",
-      "mla": "Kim, Nagyun, et al. \"Testing the Predictive Power of Stock Message Board Sentiment for 30-Minute Stock Returns: Evidence From Equivalence Tests and Out-of-Sample Evaluation.\" 2026 Winter Conference of the Korean Data Analysis Society, 31 Jan. 2027.",
-      "chicago": "Kim, Nagyun, Dongwoo Kim, Jungjin Kim, and Insu Choi. \"Testing the Predictive Power of Stock Message Board Sentiment for 30-Minute Stock Returns: Evidence From Equivalence Tests and Out-of-Sample Evaluation.\" Poster presented at the 2026 Winter Conference of the Korean Data Analysis Society, January 31, 2027.",
-      "harvard": "Kim, N., Kim, D., Kim, J. & Choi, I. (2027) 'Testing the predictive power of stock message board sentiment for 30-minute stock returns: Evidence from equivalence tests and out-of-sample evaluation', poster presented at the 2026 Winter Conference of the Korean Data Analysis Society, 31 January.",
-      "vancouver": "Kim N, Kim D, Kim J, Choi I. Testing the predictive power of stock message board sentiment for 30-minute stock returns: Evidence from equivalence tests and out-of-sample evaluation. Poster presented at: 2026 Winter Conference of the Korean Data Analysis Society; 2027 Jan 31.",
-      "korean": "김나균, 김동우, 김정진, 최인수. (2027). 종목토론방 여론의 30분봉 주가 예측력 검증 — 동등성 검정과 표본 외 평가를 이용한 분석을 중심으로. 2026 한국자료분석학회 동계학술논문발표대회 발표논문.",
-      "bibtex": "@inproceedings{kim2027testing,\n  title = {{Testing the Predictive Power of Stock Message Board Sentiment for 30-Minute Stock Returns: Evidence From Equivalence Tests and Out-of-Sample Evaluation}},\n  author = {Kim, N. and Kim, D. and Kim, J. and Choi, I.},\n  booktitle = {2026 Winter Conference of the Korean Data Analysis Society (KDAS)},\n  year = {2027},\n}"
     }
   },
   {
@@ -11197,72 +11296,6 @@
       "vancouver": "Choi I. The spillover and persistence of firm-specific shocks across stocks linked by Hangul Jamo edit distance. Paper presented at: 2026 Winter Conference of the Korean Statistical Society; 2026 Dec 22.",
       "korean": "최인수. (2026). 한글 자모 편집거리에 따른 종목 간 기업 고유 충격의 파급과 지속성에 관한 연구. 2026 한국통계학회 동계학술논문발표회 발표논문.",
       "bibtex": "@inproceedings{choi2026spillover,\n  title = {{The Spillover and Persistence of Firm-Specific Shocks Across Stocks Linked by Hangul Jamo Edit Distance}},\n  author = {Choi, I.},\n  booktitle = {2026 Winter Conference of the Korean Statistical Society (KSS)},\n  year = {2026},\n}"
-    }
-  },
-  {
-    "type": "conference",
-    "indexing_group": "Domestic Conference",
-    "code_label": "C",
-    "published_date": "2027-01-31",
-    "year": 2027,
-    "title": "Extreme-Loss Risk Transmission Among Global Stock Markets: Evidence From a Coherent Risk Measure and Forecast Error Variance Decomposition",
-    "title_ko": "정합적 위험측도와 예측오차 분산분해를 이용한 글로벌 주식시장 간 극단손실 위험 파급 분석",
-    "authors": [
-      1
-    ],
-    "author_marks": [
-      "1,*"
-    ],
-    "venue": "2027 Winter Conference of the Korea Society of Computer and Information (KSCI)",
-    "venue_ko": "2027 한국컴퓨터정보학회 동계학술대회",
-    "volume": "",
-    "issue": "",
-    "pages": "",
-    "doi": "",
-    "language": "Korean",
-    "awards": 0,
-    "presentation_type": "oral",
-    "citations": {
-      "apa": "Choi, I. (2027, January 31). Extreme-loss risk transmission among global stock markets: Evidence from a coherent risk measure and forecast error variance decomposition [Paper presentation]. 2027 Winter Conference of the Korea Society of Computer and Information.",
-      "mla": "Choi, Insu. \"Extreme-Loss Risk Transmission Among Global Stock Markets: Evidence From a Coherent Risk Measure and Forecast Error Variance Decomposition.\" 2027 Winter Conference of the Korea Society of Computer and Information, 31 Jan. 2027.",
-      "chicago": "Choi, Insu. \"Extreme-Loss Risk Transmission Among Global Stock Markets: Evidence From a Coherent Risk Measure and Forecast Error Variance Decomposition.\" Paper presented at the 2027 Winter Conference of the Korea Society of Computer and Information, January 31, 2027.",
-      "harvard": "Choi, I. (2027) 'Extreme-loss risk transmission among global stock markets: Evidence from a coherent risk measure and forecast error variance decomposition', paper presented at the 2027 Winter Conference of the Korea Society of Computer and Information, 31 January.",
-      "vancouver": "Choi I. Extreme-loss risk transmission among global stock markets: Evidence from a coherent risk measure and forecast error variance decomposition. Paper presented at: 2027 Winter Conference of the Korea Society of Computer and Information; 2027 Jan 31.",
-      "korean": "최인수. (2027). 정합적 위험측도와 예측오차 분산분해를 이용한 글로벌 주식시장 간 극단손실 위험 파급 분석. 2027 한국컴퓨터정보학회 동계학술대회 발표논문.",
-      "bibtex": "@inproceedings{choi2027extreme,\n  title = {{Extreme-Loss Risk Transmission Among Global Stock Markets: Evidence From a Coherent Risk Measure and Forecast Error Variance Decomposition}},\n  author = {Choi, I.},\n  booktitle = {2027 Winter Conference of the Korea Society of Computer and Information (KSCI)},\n  year = {2027},\n}"
-    }
-  },
-  {
-    "type": "conference",
-    "indexing_group": "Domestic Conference",
-    "code_label": "C",
-    "published_date": "2027-01-31",
-    "year": 2027,
-    "title": "Asymmetric Tail Risk Transmission Between the Artificial Intelligence Industry and Energy Markets Revisited From a Frequency Connectedness Perspective",
-    "title_ko": "주파수 연결성 관점에서 재조명한 인공지능 산업과 에너지 시장 간 비대칭 꼬리위험 전이",
-    "authors": [
-      1
-    ],
-    "author_marks": [
-      "1,*"
-    ],
-    "venue": "2026 Winter Conference of the Korean Data Analysis Society (KDAS)",
-    "venue_ko": "2026 한국자료분석학회 동계학술논문발표대회",
-    "volume": "",
-    "issue": "",
-    "pages": "",
-    "doi": "",
-    "language": "Korean",
-    "awards": 0,
-    "presentation_type": "oral",
-    "citations": {
-      "apa": "Choi, I. (2027, January 31). Asymmetric tail risk transmission between the artificial intelligence industry and energy markets revisited from a frequency connectedness perspective [Paper presentation]. 2026 Winter Conference of the Korean Data Analysis Society.",
-      "mla": "Choi, Insu. \"Asymmetric Tail Risk Transmission Between the Artificial Intelligence Industry and Energy Markets Revisited From a Frequency Connectedness Perspective.\" 2026 Winter Conference of the Korean Data Analysis Society, 31 Jan. 2027.",
-      "chicago": "Choi, Insu. \"Asymmetric Tail Risk Transmission Between the Artificial Intelligence Industry and Energy Markets Revisited From a Frequency Connectedness Perspective.\" Paper presented at the 2026 Winter Conference of the Korean Data Analysis Society, January 31, 2027.",
-      "harvard": "Choi, I. (2027) 'Asymmetric tail risk transmission between the artificial intelligence industry and energy markets revisited from a frequency connectedness perspective', paper presented at the 2026 Winter Conference of the Korean Data Analysis Society, 31 January.",
-      "vancouver": "Choi I. Asymmetric tail risk transmission between the artificial intelligence industry and energy markets revisited from a frequency connectedness perspective. Paper presented at: 2026 Winter Conference of the Korean Data Analysis Society; 2027 Jan 31.",
-      "korean": "최인수. (2027). 주파수 연결성 관점에서 재조명한 인공지능 산업과 에너지 시장 간 비대칭 꼬리위험 전이. 2026 한국자료분석학회 동계학술논문발표대회 발표논문.",
-      "bibtex": "@inproceedings{choi2027asymmetric,\n  title = {{Asymmetric Tail Risk Transmission Between the Artificial Intelligence Industry and Energy Markets Revisited From a Frequency Connectedness Perspective}},\n  author = {Choi, I.},\n  booktitle = {2026 Winter Conference of the Korean Data Analysis Society (KDAS)},\n  year = {2027},\n}"
     }
   },
   {
