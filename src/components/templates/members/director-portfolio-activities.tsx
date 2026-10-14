@@ -156,7 +156,7 @@ const employment = [
     organization: 'Gachon University',
     period: '2026-03 – Present',
     location: 'Big Data Business Management Major, Department of Finance and Big Data, College of Business',
-    krOrg: '조교수 / 가천대학교 경영대학 금융·빅데이터학부',
+    krOrg: '조교수 / 가천대학교 경영대학 금융·빅데이터학부 빅데이터경영전공',
     logo: logoGcu
   },
   {
@@ -181,7 +181,7 @@ const employment = [
     organization: 'Korea University Sejong Campus',
     period: '2025-03 – 2026-02',
     location: 'Digital Business Major, Division of Convergence Business',
-    krOrg: '강사 / 고려대학교 세종캠퍼스 글로벌비즈니스대학 융합경영학부 디지털비즈니스전공',
+    krOrg: '강사 / 고려대학교 세종캠퍼스 글로벌비즈니스대학 융합경영학부 디지털경영전공',
     logo: logoKorea
   },
   {

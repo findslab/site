@@ -891,6 +891,15 @@
             "type": "Conference",
             "period": "2026-09",
             "url": "https://ieeessci.org/"
+        },
+        {
+            "id": 99,
+            "category": "conference",
+            "name": "7th ACM International Conference on AI in Finance (ICAIF '26) — 3rd Workshop on LLMs and Generative AI for Finance",
+            "publisher": "Association for Computing Machinery",
+            "type": "Conference",
+            "period": "2026-10",
+            "url": "https://ai4f.org/"
         }
     ]
 }
