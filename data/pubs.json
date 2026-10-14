@@ -494,35 +494,6 @@
     "code_label": "C",
     "published_date": "2027-01-31",
     "year": 2027,
-    "title": "Exploring Key Transmission Pathways in Global Equity Tail-Risk Spillover Networks Using Entropic Value-at-Risk",
-    "title_ko": "글로벌 주식시장 꼬리위험 전이 네트워크의 핵심 전달 경로 탐색과 엔트로피 VaR의 활용",
-    "authors": [
-      1
-    ],
-    "author_marks": [
-      "1,*"
-    ],
-    "venue": "2027 Winter Conference of the Korea Society of Computer and Information (KSCI)",
-    "venue_ko": "2027 한국컴퓨터정보학회 동계학술대회",
-    "presentation_type": "oral",
-    "language": "Korean",
-    "awards": 0,
-    "citations": {
-      "apa": "Choi, I. (2027, January 31). Exploring key transmission pathways in global equity tail-risk spillover networks using entropic value-at-risk [Paper presentation]. 2027 Winter Conference of the Korea Society of Computer and Information.",
-      "mla": "Choi, Insu. \"Exploring Key Transmission Pathways in Global Equity Tail-Risk Spillover Networks Using Entropic Value-at-Risk.\" 2027 Winter Conference of the Korea Society of Computer and Information, 31 Jan. 2027.",
-      "chicago": "Choi, Insu. \"Exploring Key Transmission Pathways in Global Equity Tail-Risk Spillover Networks Using Entropic Value-at-Risk.\" Paper presented at the 2027 Winter Conference of the Korea Society of Computer and Information, January 31, 2027.",
-      "harvard": "Choi, I. (2027) 'Exploring key transmission pathways in global equity tail-risk spillover networks using entropic value-at-risk', paper presented at the 2027 Winter Conference of the Korea Society of Computer and Information, 31 January.",
-      "vancouver": "Choi I. Exploring key transmission pathways in global equity tail-risk spillover networks using entropic value-at-risk. Paper presented at: 2027 Winter Conference of the Korea Society of Computer and Information; 2027 Jan 31.",
-      "korean": "최인수. (2027). 글로벌 주식시장 꼬리위험 전이 네트워크의 핵심 전달 경로 탐색과 엔트로피 VaR의 활용. 2027 한국컴퓨터정보학회 동계학술대회 발표논문.",
-      "bibtex": "@inproceedings{choi2027exploring,\n  title = {{Exploring Key Transmission Pathways in Global Equity Tail-Risk Spillover Networks Using Entropic Value-at-Risk}},\n  author = {Choi, I.},\n  booktitle = {2027 Winter Conference of the Korea Society of Computer and Information (KSCI)},\n  year = {2027},\n}"
-    }
-  },
-  {
-    "type": "conference",
-    "indexing_group": "Domestic Conference",
-    "code_label": "C",
-    "published_date": "2027-01-31",
-    "year": 2027,
     "title": "Extreme-Loss Risk Transmission Among Global Stock Markets: Evidence From a Coherent Risk Measure and Forecast Error Variance Decomposition",
     "title_ko": "정합적 위험측도와 예측오차 분산분해를 이용한 글로벌 주식시장 간 극단손실 위험 파급 분석",
     "authors": [
@@ -610,12 +581,12 @@
     "language": "English",
     "awards": 0,
     "citations": {
-      "apa": "Jeong, Y., Lim, J., & Choi, I. (2026). Behavioral feature-based relevance ranking for tourism-policy recommendation: A decision-support framework. <em>Engineering Applications of Artificial Intelligence</em>.",
-      "mla": "Jeong, Yujin, et al. \"Behavioral Feature-Based Relevance Ranking for Tourism-Policy Recommendation: A Decision-Support Framework.\" <em>Engineering Applications of Artificial Intelligence</em>, 2026.",
-      "chicago": "Jeong, Yujin, Joohyun Lim, and Insu Choi. \"Behavioral Feature-Based Relevance Ranking for Tourism-Policy Recommendation: A Decision-Support Framework.\" <em>Engineering Applications of Artificial Intelligence</em> (2026).",
-      "harvard": "Jeong, Y., Lim, J. & Choi, I. (2026) 'Behavioral feature-based relevance ranking for tourism-policy recommendation: A decision-support framework', <em>Engineering Applications of Artificial Intelligence</em>.",
-      "vancouver": "Jeong Y, Lim J, Choi I. Behavioral feature-based relevance ranking for tourism-policy recommendation: A decision-support framework. Engineering Applications of Artificial Intelligence. 2026.",
-      "bibtex": "@article{jeong2026behavioral,\n  title = {{Behavioral Feature-Based Relevance Ranking for Tourism-Policy Recommendation: A Decision-Support Framework}},\n  author = {Jeong, Y. and Lim, J. and Choi, I.},\n  journal = {Engineering Applications of Artificial Intelligence},\n  year = {2026},\n}"
+      "apa": "Chung, Y., Lim, J., & Choi, I. (2026). Behavioral feature-based relevance ranking for tourism-policy recommendation: A decision-support framework. <em>Engineering Applications of Artificial Intelligence</em>.",
+      "mla": "Chung, Yujin, et al. \"Behavioral Feature-Based Relevance Ranking for Tourism-Policy Recommendation: A Decision-Support Framework.\" <em>Engineering Applications of Artificial Intelligence</em>, 2026.",
+      "chicago": "Chung, Yujin, Juhyun Lim, and Insu Choi. \"Behavioral Feature-Based Relevance Ranking for Tourism-Policy Recommendation: A Decision-Support Framework.\" <em>Engineering Applications of Artificial Intelligence</em> (2026).",
+      "harvard": "Chung, Y., Lim, J. & Choi, I. (2026) 'Behavioral feature-based relevance ranking for tourism-policy recommendation: A decision-support framework', <em>Engineering Applications of Artificial Intelligence</em>.",
+      "vancouver": "Chung Y, Lim J, Choi I. Behavioral feature-based relevance ranking for tourism-policy recommendation: A decision-support framework. Engineering Applications of Artificial Intelligence. 2026.",
+      "bibtex": "@article{chung2026behavioral,\n  title = {{Behavioral Feature-Based Relevance Ranking for Tourism-Policy Recommendation: A Decision-Support Framework}},\n  author = {Chung, Y. and Lim, J. and Choi, I.},\n  journal = {Engineering Applications of Artificial Intelligence},\n  year = {2026},\n}"
     }
   },
   {
@@ -1767,13 +1738,13 @@
     "language": "Korean",
     "awards": 0,
     "citations": {
-      "apa": "Choi, I., Kim, G., Kim, D., Seo, Y. Y., Yang, D., & Jeong, Y. (2025, November 7). Analyzing causal risk spillover mechanisms between major metal futures and cryptocurrency markets using the PCMCI+ algorithm [Poster presentation]. 2025 Fall Conference of the Korean Institute of Industrial Engineers.",
+      "apa": "Choi, I., Kim, G., Kim, D., Seo, Y. Y., Yang, D., & Chung, Y. (2025, November 7). Analyzing causal risk spillover mechanisms between major metal futures and cryptocurrency markets using the PCMCI+ algorithm [Poster presentation]. 2025 Fall Conference of the Korean Institute of Industrial Engineers.",
       "mla": "Choi, Insu, et al. \"Analyzing Causal Risk Spillover Mechanisms Between Major Metal Futures and Cryptocurrency Markets Using the PCMCI+ Algorithm.\" 2025 Fall Conference of the Korean Institute of Industrial Engineers, 7 Nov. 2025.",
-      "chicago": "Choi, Insu, Gyubeom Kim, Dain Kim, Ye Yoon Seo, Donghoon Yang, and Yujin Jeong. \"Analyzing Causal Risk Spillover Mechanisms Between Major Metal Futures and Cryptocurrency Markets Using the PCMCI+ Algorithm.\" Poster presented at the 2025 Fall Conference of the Korean Institute of Industrial Engineers, November 7, 2025.",
-      "harvard": "Choi, I., Kim, G., Kim, D., Seo, Y.Y., Yang, D. & Jeong, Y. (2025) 'Analyzing causal risk spillover mechanisms between major metal futures and cryptocurrency markets using the PCMCI+ algorithm', poster presented at the 2025 Fall Conference of the Korean Institute of Industrial Engineers, 7 November.",
-      "vancouver": "Choi I, Kim G, Kim D, Seo YY, Yang D, Jeong Y. Analyzing causal risk spillover mechanisms between major metal futures and cryptocurrency markets using the PCMCI+ algorithm. Poster presented at: 2025 Fall Conference of the Korean Institute of Industrial Engineers; 2025 Nov 7.",
+      "chicago": "Choi, Insu, Gyubeom Kim, Dain Kim, Ye Yoon Seo, Donghoon Yang, and Yujin Chung. \"Analyzing Causal Risk Spillover Mechanisms Between Major Metal Futures and Cryptocurrency Markets Using the PCMCI+ Algorithm.\" Poster presented at the 2025 Fall Conference of the Korean Institute of Industrial Engineers, November 7, 2025.",
+      "harvard": "Choi, I., Kim, G., Kim, D., Seo, Y.Y., Yang, D. & Chung, Y. (2025) 'Analyzing causal risk spillover mechanisms between major metal futures and cryptocurrency markets using the PCMCI+ algorithm', poster presented at the 2025 Fall Conference of the Korean Institute of Industrial Engineers, 7 November.",
+      "vancouver": "Choi I, Kim G, Kim D, Seo YY, Yang D, Chung Y. Analyzing causal risk spillover mechanisms between major metal futures and cryptocurrency markets using the PCMCI+ algorithm. Poster presented at: 2025 Fall Conference of the Korean Institute of Industrial Engineers; 2025 Nov 7.",
       "korean": "최인수, 김규범, 김다인, 서예윤, 양동훈, 정유진. (2025). PCMCI+ 알고리즘을 활용한 주요 금속 선물과 암호화폐 시장의 인과적 리스크 전이 메커니즘 분석. 2025 대한산업공학회 추계학술대회 발표논문.",
-      "bibtex": "@inproceedings{choi2025analyzing,\n  title = {{Analyzing Causal Risk Spillover Mechanisms Between Major Metal Futures and Cryptocurrency Markets Using the PCMCI+ Algorithm}},\n  author = {Choi, I. and Kim, G. and Kim, D. and Seo, Y. Y. and Yang, D. and Jeong, Y.},\n  booktitle = {2025 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)},\n  year = {2025},\n}"
+      "bibtex": "@inproceedings{choi2025analyzing,\n  title = {{Analyzing Causal Risk Spillover Mechanisms Between Major Metal Futures and Cryptocurrency Markets Using the PCMCI+ Algorithm}},\n  author = {Choi, I. and Kim, G. and Kim, D. and Seo, Y. Y. and Yang, D. and Chung, Y.},\n  booktitle = {2025 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)},\n  year = {2025},\n}"
     }
   },
   {
@@ -1800,13 +1771,13 @@
     "language": "Korean",
     "awards": 0,
     "citations": {
-      "apa": "Lim, J., Jeong, Y., & Choi, I. (2025, November 7). Customized travel policy recommendations via individual demand function modeling [Poster presentation]. 2025 Fall Conference of the Korean Institute of Industrial Engineers.",
-      "mla": "Lim, Joohyun, et al. \"Customized Travel Policy Recommendations via Individual Demand Function Modeling.\" 2025 Fall Conference of the Korean Institute of Industrial Engineers, 7 Nov. 2025.",
-      "chicago": "Lim, Joohyun, Yujin Jeong, and Insu Choi. \"Customized Travel Policy Recommendations via Individual Demand Function Modeling.\" Poster presented at the 2025 Fall Conference of the Korean Institute of Industrial Engineers, November 7, 2025.",
-      "harvard": "Lim, J., Jeong, Y. & Choi, I. (2025) 'Customized travel policy recommendations via individual demand function modeling', poster presented at the 2025 Fall Conference of the Korean Institute of Industrial Engineers, 7 November.",
-      "vancouver": "Lim J, Jeong Y, Choi I. Customized travel policy recommendations via individual demand function modeling. Poster presented at: 2025 Fall Conference of the Korean Institute of Industrial Engineers; 2025 Nov 7.",
+      "apa": "Lim, J., Chung, Y., & Choi, I. (2025, November 7). Customized travel policy recommendations via individual demand function modeling [Poster presentation]. 2025 Fall Conference of the Korean Institute of Industrial Engineers.",
+      "mla": "Lim, Juhyun, et al. \"Customized Travel Policy Recommendations via Individual Demand Function Modeling.\" 2025 Fall Conference of the Korean Institute of Industrial Engineers, 7 Nov. 2025.",
+      "chicago": "Lim, Juhyun, Yujin Chung, and Insu Choi. \"Customized Travel Policy Recommendations via Individual Demand Function Modeling.\" Poster presented at the 2025 Fall Conference of the Korean Institute of Industrial Engineers, November 7, 2025.",
+      "harvard": "Lim, J., Chung, Y. & Choi, I. (2025) 'Customized travel policy recommendations via individual demand function modeling', poster presented at the 2025 Fall Conference of the Korean Institute of Industrial Engineers, 7 November.",
+      "vancouver": "Lim J, Chung Y, Choi I. Customized travel policy recommendations via individual demand function modeling. Poster presented at: 2025 Fall Conference of the Korean Institute of Industrial Engineers; 2025 Nov 7.",
       "korean": "임주현, 정유진, 최인수. (2025). 개인별 수요함수 모델링을 통한 맞춤 여행 정책 추천 시스템. 2025 대한산업공학회 추계학술대회 발표논문.",
-      "bibtex": "@inproceedings{lim2025customized,\n  title = {{Customized Travel Policy Recommendations via Individual Demand Function Modeling}},\n  author = {Lim, J. and Jeong, Y. and Choi, I.},\n  booktitle = {2025 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)},\n  year = {2025},\n}"
+      "bibtex": "@inproceedings{lim2025customized,\n  title = {{Customized Travel Policy Recommendations via Individual Demand Function Modeling}},\n  author = {Lim, J. and Chung, Y. and Choi, I.},\n  booktitle = {2025 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)},\n  year = {2025},\n}"
     }
   },
   {
@@ -1876,7 +1847,7 @@
     "citations": {
       "apa": "Yoon, C., Kang, B., Park, T., Lim, J., & Choi, I. (2025, November 7). An empirical analysis of the lagged relationship between long-term strategic R&D investment and firm performance [Poster presentation]. 2025 Fall Conference of the Korean Institute of Industrial Engineers.",
       "mla": "Yoon, Chaehee, et al. \"An Empirical Analysis of the Lagged Relationship Between Long-Term Strategic R&D Investment and Firm Performance.\" 2025 Fall Conference of the Korean Institute of Industrial Engineers, 7 Nov. 2025.",
-      "chicago": "Yoon, Chaehee, Byungoh Kang, Taeho Park, Joohyun Lim, and Insu Choi. \"An Empirical Analysis of the Lagged Relationship Between Long-Term Strategic R&D Investment and Firm Performance.\" Poster presented at the 2025 Fall Conference of the Korean Institute of Industrial Engineers, November 7, 2025.",
+      "chicago": "Yoon, Chaehee, Byungoh Kang, Taeho Park, Juhyun Lim, and Insu Choi. \"An Empirical Analysis of the Lagged Relationship Between Long-Term Strategic R&D Investment and Firm Performance.\" Poster presented at the 2025 Fall Conference of the Korean Institute of Industrial Engineers, November 7, 2025.",
       "harvard": "Yoon, C., Kang, B., Park, T., Lim, J. & Choi, I. (2025) 'An empirical analysis of the lagged relationship between long-term strategic R&D investment and firm performance', poster presented at the 2025 Fall Conference of the Korean Institute of Industrial Engineers, 7 November.",
       "vancouver": "Yoon C, Kang B, Park T, Lim J, Choi I. An empirical analysis of the lagged relationship between long-term strategic R&D investment and firm performance. Poster presented at: 2025 Fall Conference of the Korean Institute of Industrial Engineers; 2025 Nov 7.",
       "korean": "윤채희, 강병오, 박태호, 임주현, 최인수. (2025). 장기 전략적 R&D 투자와 기업 성과 간 시차적 관계에 관한 실증 분석. 2025 대한산업공학회 추계학술대회 발표논문.",
@@ -2751,7 +2722,7 @@
       1,
       47,
       48,
-      49,
+      148,
       2
     ],
     "author_marks": [
@@ -2767,13 +2738,13 @@
     "language": "Korean",
     "awards": 0,
     "citations": {
-      "apa": "Choi, I., An, J., Yoo, M., Hong, J., & Kim, W. C. (2024, October 25). A study on the application of sentiment analysis in the financial sector [Poster presentation]. 2024 Fall Conference of the Korean Institute of Industrial Engineers.",
+      "apa": "Choi, I., An, J., Yoo, M., Hong, J. K., & Kim, W. C. (2024, October 25). A study on the application of sentiment analysis in the financial sector [Poster presentation]. 2024 Fall Conference of the Korean Institute of Industrial Engineers.",
       "mla": "Choi, Insu, et al. \"A Study on the Application of Sentiment Analysis in the Financial Sector.\" 2024 Fall Conference of the Korean Institute of Industrial Engineers, 25 Oct. 2024.",
-      "chicago": "Choi, Insu, Jeongin An, Min Yoo, Joonki Hong, and Woo Chang Kim. \"A Study on the Application of Sentiment Analysis in the Financial Sector.\" Poster presented at the 2024 Fall Conference of the Korean Institute of Industrial Engineers, October 25, 2024.",
-      "harvard": "Choi, I., An, J., Yoo, M., Hong, J. & Kim, W.C. (2024) 'A study on the application of sentiment analysis in the financial sector', poster presented at the 2024 Fall Conference of the Korean Institute of Industrial Engineers, 25 October.",
-      "vancouver": "Choi I, An J, Yoo M, Hong J, Kim WC. A study on the application of sentiment analysis in the financial sector. Poster presented at: 2024 Fall Conference of the Korean Institute of Industrial Engineers; 2024 Oct 25.",
+      "chicago": "Choi, Insu, Jeongin An, Min Yoo, Jun Ki Hong, and Woo Chang Kim. \"A Study on the Application of Sentiment Analysis in the Financial Sector.\" Poster presented at the 2024 Fall Conference of the Korean Institute of Industrial Engineers, October 25, 2024.",
+      "harvard": "Choi, I., An, J., Yoo, M., Hong, J.K. & Kim, W.C. (2024) 'A study on the application of sentiment analysis in the financial sector', poster presented at the 2024 Fall Conference of the Korean Institute of Industrial Engineers, 25 October.",
+      "vancouver": "Choi I, An J, Yoo M, Hong JK, Kim WC. A study on the application of sentiment analysis in the financial sector. Poster presented at: 2024 Fall Conference of the Korean Institute of Industrial Engineers; 2024 Oct 25.",
       "korean": "최인수, 안정인, 유민, 홍준기, 김우창. (2024). 금융 분야에서의 감성 분석의 활용에 대한 조사 연구. 2024 대한산업공학회 추계학술대회 발표논문.",
-      "bibtex": "@inproceedings{choi2024studyapplication,\n  title = {{A Study on the Application of Sentiment Analysis in the Financial Sector}},\n  author = {Choi, I. and An, J. and Yoo, M. and Hong, J. and Kim, W. C.},\n  booktitle = {2024 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)},\n  year = {2024},\n}"
+      "bibtex": "@inproceedings{choi2024studyapplication,\n  title = {{A Study on the Application of Sentiment Analysis in the Financial Sector}},\n  author = {Choi, I. and An, J. and Yoo, M. and Hong, J. K. and Kim, W. C.},\n  booktitle = {2024 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)},\n  year = {2024},\n}"
     }
   },
   {
@@ -3697,13 +3668,13 @@
     "language": "English",
     "awards": 0,
     "citations": {
-      "apa": "Choi, I., Jeong, Y., Kim, D., Lee, J., Jung, Y., & Kim, W. C. (2024, January 25). Analyzing South Korea's household finance via panel data [Poster presentation]. 2023 Winter Conference of the Korean Data Analysis Society.",
+      "apa": "Choi, I., Chung, Y., Kim, D., Lee, J., Jung, Y., & Kim, W. C. (2024, January 25). Analyzing South Korea's household finance via panel data [Poster presentation]. 2023 Winter Conference of the Korean Data Analysis Society.",
       "mla": "Choi, Insu, et al. \"Analyzing South Korea's Household Finance via Panel Data.\" 2023 Winter Conference of the Korean Data Analysis Society, 25 Jan. 2024.",
-      "chicago": "Choi, Insu, Yujin Jeong, Doyoon Kim, Joonyong Lee, Yongsoo Jung, and Woo Chang Kim. \"Analyzing South Korea's Household Finance via Panel Data.\" Poster presented at the 2023 Winter Conference of the Korean Data Analysis Society, January 25, 2024.",
-      "harvard": "Choi, I., Jeong, Y., Kim, D., Lee, J., Jung, Y. & Kim, W.C. (2024) 'Analyzing South Korea's household finance via panel data', poster presented at the 2023 Winter Conference of the Korean Data Analysis Society, 25 January.",
-      "vancouver": "Choi I, Jeong Y, Kim D, Lee J, Jung Y, Kim WC. Analyzing South Korea's household finance via panel data. Poster presented at: 2023 Winter Conference of the Korean Data Analysis Society; 2024 Jan 25.",
+      "chicago": "Choi, Insu, Yujin Chung, Doyoon Kim, Joonyong Lee, Yongsoo Jung, and Woo Chang Kim. \"Analyzing South Korea's Household Finance via Panel Data.\" Poster presented at the 2023 Winter Conference of the Korean Data Analysis Society, January 25, 2024.",
+      "harvard": "Choi, I., Chung, Y., Kim, D., Lee, J., Jung, Y. & Kim, W.C. (2024) 'Analyzing South Korea's household finance via panel data', poster presented at the 2023 Winter Conference of the Korean Data Analysis Society, 25 January.",
+      "vancouver": "Choi I, Chung Y, Kim D, Lee J, Jung Y, Kim WC. Analyzing South Korea's household finance via panel data. Poster presented at: 2023 Winter Conference of the Korean Data Analysis Society; 2024 Jan 25.",
       "korean": "최인수, 정유진, 김도윤, 이준용, 정용수, 김우창. (2024). Analyzing South Korea's Household Finance via Panel Data. 2023 한국자료분석학회 동계학술논문발표대회 발표논문.",
-      "bibtex": "@inproceedings{choi2024analyzing,\n  title = {{Analyzing South Korea's Household Finance via Panel Data}},\n  author = {Choi, I. and Jeong, Y. and Kim, D. and Lee, J. and Jung, Y. and Kim, W. C.},\n  booktitle = {2023 Winter Conference of the Korean Data Analysis Society (KDAS)},\n  year = {2024},\n}"
+      "bibtex": "@inproceedings{choi2024analyzing,\n  title = {{Analyzing South Korea's Household Finance via Panel Data}},\n  author = {Choi, I. and Chung, Y. and Kim, D. and Lee, J. and Jung, Y. and Kim, W. C.},\n  booktitle = {2023 Winter Conference of the Korean Data Analysis Society (KDAS)},\n  year = {2024},\n}"
     }
   },
   {
@@ -4344,13 +4315,13 @@
     "language": "Korean",
     "awards": 0,
     "citations": {
-      "apa": "Choi, I., Jeong, Y., Kim, D., Lee, J., Jung, Y., & Kim, W. C. (2023, November 10). Statistical data analysis-based discovery of financial and welfare characteristics of Koreans: Insights from the survey of household finance and living conditions [Poster presentation]. 2023 Fall Conference of the Society of Korea Industrial and Systems Engineering.",
+      "apa": "Choi, I., Chung, Y., Kim, D., Lee, J., Jung, Y., & Kim, W. C. (2023, November 10). Statistical data analysis-based discovery of financial and welfare characteristics of Koreans: Insights from the survey of household finance and living conditions [Poster presentation]. 2023 Fall Conference of the Society of Korea Industrial and Systems Engineering.",
       "mla": "Choi, Insu, et al. \"Statistical Data Analysis-Based Discovery of Financial and Welfare Characteristics of Koreans: Insights From the Survey of Household Finance and Living Conditions.\" 2023 Fall Conference of the Society of Korea Industrial and Systems Engineering, 10 Nov. 2023.",
-      "chicago": "Choi, Insu, Yujin Jeong, Doyoon Kim, Joonyong Lee, Yongsoo Jung, and Woo Chang Kim. \"Statistical Data Analysis-Based Discovery of Financial and Welfare Characteristics of Koreans: Insights From the Survey of Household Finance and Living Conditions.\" Poster presented at the 2023 Fall Conference of the Society of Korea Industrial and Systems Engineering, November 10, 2023.",
-      "harvard": "Choi, I., Jeong, Y., Kim, D., Lee, J., Jung, Y. & Kim, W.C. (2023) 'Statistical data analysis-based discovery of financial and welfare characteristics of Koreans: Insights from the survey of household finance and living conditions', poster presented at the 2023 Fall Conference of the Society of Korea Industrial and Systems Engineering, 10 November.",
-      "vancouver": "Choi I, Jeong Y, Kim D, Lee J, Jung Y, Kim WC. Statistical data analysis-based discovery of financial and welfare characteristics of Koreans: Insights from the survey of household finance and living conditions. Poster presented at: 2023 Fall Conference of the Society of Korea Industrial and Systems Engineering; 2023 Nov 10.",
+      "chicago": "Choi, Insu, Yujin Chung, Doyoon Kim, Joonyong Lee, Yongsoo Jung, and Woo Chang Kim. \"Statistical Data Analysis-Based Discovery of Financial and Welfare Characteristics of Koreans: Insights From the Survey of Household Finance and Living Conditions.\" Poster presented at the 2023 Fall Conference of the Society of Korea Industrial and Systems Engineering, November 10, 2023.",
+      "harvard": "Choi, I., Chung, Y., Kim, D., Lee, J., Jung, Y. & Kim, W.C. (2023) 'Statistical data analysis-based discovery of financial and welfare characteristics of Koreans: Insights from the survey of household finance and living conditions', poster presented at the 2023 Fall Conference of the Society of Korea Industrial and Systems Engineering, 10 November.",
+      "vancouver": "Choi I, Chung Y, Kim D, Lee J, Jung Y, Kim WC. Statistical data analysis-based discovery of financial and welfare characteristics of Koreans: Insights from the survey of household finance and living conditions. Poster presented at: 2023 Fall Conference of the Society of Korea Industrial and Systems Engineering; 2023 Nov 10.",
       "korean": "최인수, 정유진, 김도윤, 이준용, 정용수, 김우창. (2023). 통계적 데이터 분석 기반의 한국인의 금융 및 복지 관련 특성의 발견 – 가계금융·복지조사를 바탕으로. 2023 한국산업경영시스템학회 추계학술대회 발표논문.",
-      "bibtex": "@inproceedings{choi2023statistical,\n  title = {{Statistical Data Analysis-Based Discovery of Financial and Welfare Characteristics of Koreans: Insights From the Survey of Household Finance and Living Conditions}},\n  author = {Choi, I. and Jeong, Y. and Kim, D. and Lee, J. and Jung, Y. and Kim, W. C.},\n  booktitle = {2023 Fall Conference of the Society of Korea Industrial and Systems Engineering (KSIE)},\n  year = {2023},\n}"
+      "bibtex": "@inproceedings{choi2023statistical,\n  title = {{Statistical Data Analysis-Based Discovery of Financial and Welfare Characteristics of Koreans: Insights From the Survey of Household Finance and Living Conditions}},\n  author = {Choi, I. and Chung, Y. and Kim, D. and Lee, J. and Jung, Y. and Kim, W. C.},\n  booktitle = {2023 Fall Conference of the Society of Korea Industrial and Systems Engineering (KSIE)},\n  year = {2023},\n}"
     }
   },
   {
@@ -4570,13 +4541,13 @@
     "language": "English",
     "awards": 0,
     "citations": {
-      "apa": "Choi, I., Jeong, Y., Kim, D., Lee, J., Jung, Y., & Kim, W. C. (2023, November 3). Tracking changes in financial literacy: Insights from the Korean national survey (2014–2022) [Poster presentation]. 2023 Fall Conference of the Korean Institute of Industrial Engineers.",
+      "apa": "Choi, I., Chung, Y., Kim, D., Lee, J., Jung, Y., & Kim, W. C. (2023, November 3). Tracking changes in financial literacy: Insights from the Korean national survey (2014–2022) [Poster presentation]. 2023 Fall Conference of the Korean Institute of Industrial Engineers.",
       "mla": "Choi, Insu, et al. \"Tracking Changes in Financial Literacy: Insights From the Korean National Survey (2014–2022).\" 2023 Fall Conference of the Korean Institute of Industrial Engineers, 3 Nov. 2023.",
-      "chicago": "Choi, Insu, Yujin Jeong, Doyoon Kim, Joonyong Lee, Yongsoo Jung, and Woo Chang Kim. \"Tracking Changes in Financial Literacy: Insights From the Korean National Survey (2014–2022).\" Poster presented at the 2023 Fall Conference of the Korean Institute of Industrial Engineers, November 3, 2023.",
-      "harvard": "Choi, I., Jeong, Y., Kim, D., Lee, J., Jung, Y. & Kim, W.C. (2023) 'Tracking changes in financial literacy: Insights from the Korean national survey (2014–2022)', poster presented at the 2023 Fall Conference of the Korean Institute of Industrial Engineers, 3 November.",
-      "vancouver": "Choi I, Jeong Y, Kim D, Lee J, Jung Y, Kim WC. Tracking changes in financial literacy: Insights from the Korean national survey (2014–2022). Poster presented at: 2023 Fall Conference of the Korean Institute of Industrial Engineers; 2023 Nov 3.",
+      "chicago": "Choi, Insu, Yujin Chung, Doyoon Kim, Joonyong Lee, Yongsoo Jung, and Woo Chang Kim. \"Tracking Changes in Financial Literacy: Insights From the Korean National Survey (2014–2022).\" Poster presented at the 2023 Fall Conference of the Korean Institute of Industrial Engineers, November 3, 2023.",
+      "harvard": "Choi, I., Chung, Y., Kim, D., Lee, J., Jung, Y. & Kim, W.C. (2023) 'Tracking changes in financial literacy: Insights from the Korean national survey (2014–2022)', poster presented at the 2023 Fall Conference of the Korean Institute of Industrial Engineers, 3 November.",
+      "vancouver": "Choi I, Chung Y, Kim D, Lee J, Jung Y, Kim WC. Tracking changes in financial literacy: Insights from the Korean national survey (2014–2022). Poster presented at: 2023 Fall Conference of the Korean Institute of Industrial Engineers; 2023 Nov 3.",
       "korean": "최인수, 정유진, 김도윤, 이준용, 정용수, 김우창. (2023). Tracking Changes in Financial Literacy: Insights From the Korean National Survey (2014–2022). 2023 대한산업공학회 추계학술대회 발표논문.",
-      "bibtex": "@inproceedings{choi2023tracking,\n  title = {{Tracking Changes in Financial Literacy: Insights From the Korean National Survey (2014–2022)}},\n  author = {Choi, I. and Jeong, Y. and Kim, D. and Lee, J. and Jung, Y. and Kim, W. C.},\n  booktitle = {2023 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)},\n  year = {2023},\n}"
+      "bibtex": "@inproceedings{choi2023tracking,\n  title = {{Tracking Changes in Financial Literacy: Insights From the Korean National Survey (2014–2022)}},\n  author = {Choi, I. and Chung, Y. and Kim, D. and Lee, J. and Jung, Y. and Kim, W. C.},\n  booktitle = {2023 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)},\n  year = {2023},\n}"
     }
   },
   {
@@ -5494,13 +5465,13 @@
       "organization_ko": "한국데이터정보과학회"
     },
     "citations": {
-      "apa": "Choi, I., Kim, D., Park, M., An, S., Lim, S., Lee, D., Jeong, Y., & Kim, W. C. (2023, May 12). Leveraging entropy-based graph topology and deep learning for risk boundary prediction in industrial metals and critical minerals [Paper presentation]. 2023 Spring Conference of the Korean Data and Information Science Society.",
+      "apa": "Choi, I., Kim, D., Park, M., An, S., Lim, S., Lee, D., Chung, Y., & Kim, W. C. (2023, May 12). Leveraging entropy-based graph topology and deep learning for risk boundary prediction in industrial metals and critical minerals [Paper presentation]. 2023 Spring Conference of the Korean Data and Information Science Society.",
       "mla": "Choi, Insu, et al. \"Leveraging Entropy-Based Graph Topology and Deep Learning for Risk Boundary Prediction in Industrial Metals and Critical Minerals.\" 2023 Spring Conference of the Korean Data and Information Science Society, 12 May 2023.",
-      "chicago": "Choi, Insu, Doyoon Kim, Minyoung Park, Sewon An, Soyoung Lim, Doyoung Lee, Yujin Jeong, and Woo Chang Kim. \"Leveraging Entropy-Based Graph Topology and Deep Learning for Risk Boundary Prediction in Industrial Metals and Critical Minerals.\" Paper presented at the 2023 Spring Conference of the Korean Data and Information Science Society, May 12, 2023.",
-      "harvard": "Choi, I., Kim, D., Park, M., An, S., Lim, S., Lee, D., Jeong, Y. & Kim, W.C. (2023) 'Leveraging entropy-based graph topology and deep learning for risk boundary prediction in industrial metals and critical minerals', paper presented at the 2023 Spring Conference of the Korean Data and Information Science Society, 12 May.",
-      "vancouver": "Choi I, Kim D, Park M, An S, Lim S, Lee D, Jeong Y, Kim WC. Leveraging entropy-based graph topology and deep learning for risk boundary prediction in industrial metals and critical minerals. Paper presented at: 2023 Spring Conference of the Korean Data and Information Science Society; 2023 May 12.",
+      "chicago": "Choi, Insu, Doyoon Kim, Minyoung Park, Sewon An, Soyoung Lim, Doyoung Lee, Yujin Chung, and Woo Chang Kim. \"Leveraging Entropy-Based Graph Topology and Deep Learning for Risk Boundary Prediction in Industrial Metals and Critical Minerals.\" Paper presented at the 2023 Spring Conference of the Korean Data and Information Science Society, May 12, 2023.",
+      "harvard": "Choi, I., Kim, D., Park, M., An, S., Lim, S., Lee, D., Chung, Y. & Kim, W.C. (2023) 'Leveraging entropy-based graph topology and deep learning for risk boundary prediction in industrial metals and critical minerals', paper presented at the 2023 Spring Conference of the Korean Data and Information Science Society, 12 May.",
+      "vancouver": "Choi I, Kim D, Park M, An S, Lim S, Lee D, Chung Y, Kim WC. Leveraging entropy-based graph topology and deep learning for risk boundary prediction in industrial metals and critical minerals. Paper presented at: 2023 Spring Conference of the Korean Data and Information Science Society; 2023 May 12.",
       "korean": "최인수, 김도윤, 박민영, 안세원, 임소영, 이도영, 정유진, 김우창. (2023). 정보 엔트로피 기반 시간 그래프 위상 및 딥 러닝 기법을 통한 산업용 금속 및 핵심 광물의 리스크 경계 전이 분석 및 예측. 2023 한국데이터정보과학회 춘계학술논문발표회 발표논문.",
-      "bibtex": "@inproceedings{choi2023leveraging,\n  title = {{Leveraging Entropy-Based Graph Topology and Deep Learning for Risk Boundary Prediction in Industrial Metals and Critical Minerals}},\n  author = {Choi, I. and Kim, D. and Park, M. and An, S. and Lim, S. and Lee, D. and Jeong, Y. and Kim, W. C.},\n  booktitle = {2023 Spring Conference of the Korean Data and Information Science Society (KDISS)},\n  year = {2023},\n}"
+      "bibtex": "@inproceedings{choi2023leveraging,\n  title = {{Leveraging Entropy-Based Graph Topology and Deep Learning for Risk Boundary Prediction in Industrial Metals and Critical Minerals}},\n  author = {Choi, I. and Kim, D. and Park, M. and An, S. and Lim, S. and Lee, D. and Chung, Y. and Kim, W. C.},\n  booktitle = {2023 Spring Conference of the Korean Data and Information Science Society (KDISS)},\n  year = {2023},\n}"
     }
   },
   {
@@ -6788,7 +6759,7 @@
     ],
     "venue": "2021 Winter Domestic Conference of the Korean Association of Financial Engineering (KAFE)",
     "presentation_type": "oral",
-    "language": "Korean",
+    "language": "English",
     "awards": 0,
     "citations": {
       "apa": "Choi, I., Yun, W., & Kim, W. C. (2021, December 20). Forecasting exchange rate fluctuations using nonlinear causal network analysis and deep learning techniques [Paper presentation]. 2021 Winter Domestic Conference of the Korean Association of Financial Engineering.",
@@ -7870,7 +7841,7 @@
       1,
       128,
       129,
-      130
+      152
     ],
     "author_marks": [
       "1",
