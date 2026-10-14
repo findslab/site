@@ -22,6 +22,13 @@ import type { Publication, AuthorsData } from '@/types/data'
 import bannerPublications from '@/assets/images/banner/publications.webp'
 import bannerPublicationsM from '@/assets/images/banner/publications-m.webp'
 
+// 차트 세로축: 최댓값에 맞는 보기 좋은 눈금 간격과 상한
+const niceAxis = (raw: number) => {
+  const target = Math.max(raw, 10)
+  const step = [5, 10, 20, 25, 50, 100, 200, 250, 500].find((s) => Math.ceil(target / s) <= 6) ?? 1000
+  return { step, max: Math.ceil(target / step) * step }
+}
+
 // Scroll animation hook
 const useScrollAnimation = () => {
   const ref = useRef<HTMLDivElement>(null)
@@ -614,8 +621,8 @@ export const PublicationsTemplate = () => {
           style={{ backgroundImage: `url(${bannerPublicationsM})`, backgroundPosition: '50% 30%' }}
         />
         <div
-          className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
-          style={{ backgroundImage: `url(${bannerPublications})`, backgroundPosition: '50% 38%' }}
+          data-pan className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
+          style={{ backgroundImage: `url(${bannerPublications})`, backgroundPosition: '50% 10%' }}
         />
         
         {/* Luxurious Gold Gradient Overlay */}
@@ -636,13 +643,13 @@ export const PublicationsTemplate = () => {
         <div className="relative h-full flex flex-col items-center justify-center px-20">
           <div className="flex items-center gap-8 mb-16 md:mb-20">
             <div className="w-8 md:w-12 h-px bg-gradient-to-r from-transparent to-[#D6B14D]/80" />
-            <span className="text-[#D6C360]/90 text-[10px] md:text-xs font-semibold tracking-[0.3em] uppercase">
+            <span className="text-[#F2DE97] text-[10px] md:text-xs font-semibold tracking-[0.3em] uppercase [text-shadow:0_1px_10px_rgba(0,0,0,0.6)]">
               Research
             </span>
             <div className="w-8 md:w-12 h-px bg-gradient-to-l from-transparent to-[#D6B14D]/80" />
           </div>
           
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white text-center tracking-tight mb-16 md:mb-20">
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white text-center tracking-tight [text-shadow:0_2px_18px_rgba(0,0,0,0.35)] mb-16 md:mb-20">
             Publications
           </h1>
           
@@ -749,24 +756,29 @@ export const PublicationsTemplate = () => {
                   {/* Chart Area */}
                   <div className="relative h-[200px] mb-24">
                     {(() => {
-                      const rawMax = Math.max(...yearlyChartData.map(d => d.total), 0)
-                      const chartMax = Math.max(10, Math.ceil(rawMax / 10) * 10)
-                      const tickCount = chartMax / 10
-                      const ticks = Array.from({ length: tickCount + 1 }, (_, i) => chartMax - i * 10)
+                      // 눈금은 5~6개 정도로만: 보기 좋은 간격(5·10·20·25·50·100…)을 골라 위치를 정확히 맞춘다
+                      const { max: chartMax, step } = niceAxis(Math.max(...yearlyChartData.map(d => d.total), 0))
+                      const ticks = Array.from({ length: chartMax / step + 1 }, (_, i) => i * step)
                       return (
-                        <div className="absolute left-0 top-0 bottom-0 w-32 flex flex-col justify-between text-[10px] text-gray-400">
-                          {ticks.map((t) => (
-                            <span key={t} className="leading-none -translate-y-1/2 first:translate-y-0 last:translate-y-0">{t}</span>
-                          ))}
-                        </div>
+                        <>
+                          <div className="absolute left-0 top-0 bottom-0 w-32 text-[10px] text-gray-400 tabular-nums">
+                            {ticks.map((t) => (
+                              <span key={t} className="absolute right-6 leading-none translate-y-1/2" style={{ bottom: `${(t / chartMax) * 100}%` }}>{t}</span>
+                            ))}
+                          </div>
+                          <div className="absolute left-40 right-0 top-0 bottom-0 pointer-events-none">
+                            {ticks.slice(1).map((t) => (
+                              <div key={t} className="absolute left-0 right-0 border-t border-dashed border-gray-100" style={{ bottom: `${(t / chartMax) * 100}%` }} />
+                            ))}
+                          </div>
+                        </>
                       )
                     })()}
                     
                     {/* Chart */}
                     <div className="ml-40 h-full flex items-end gap-2 border-l border-b border-gray-100">
                       {yearlyChartData.map((data, index) => {
-                        const rawMax = Math.max(...yearlyChartData.map(d => d.total), 0)
-                        const maxTotal = Math.max(10, Math.ceil(rawMax / 10) * 10)
+                        const maxTotal = niceAxis(Math.max(...yearlyChartData.map(d => d.total), 0)).max
                         const heightScale = 200 / maxTotal
                         
                         return (

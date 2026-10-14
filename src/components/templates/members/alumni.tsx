@@ -319,7 +319,7 @@ export const MembersAlumniTemplate = () => {
           style={{ backgroundImage: `url(${bannerAlumniM})`, backgroundPosition: '50% 30%' }}
         />
         <div
-          className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
+          data-pan className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
           style={{ backgroundImage: `url(${bannerAlumni})`, backgroundPosition: '50% 72%' }}
         />
         <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#D6A076]/20" />
@@ -334,13 +334,13 @@ export const MembersAlumniTemplate = () => {
         <div className="relative h-full flex flex-col items-center justify-center px-20">
           <div className="flex items-center gap-8 mb-16 md:mb-20">
             <div className="w-8 md:w-12 h-px bg-gradient-to-r from-transparent to-[#D6B14D]/80" />
-            <span className="text-[#D6C360]/90 text-[10px] md:text-xs font-semibold tracking-[0.3em] uppercase">
+            <span className="text-[#F2DE97] text-[10px] md:text-xs font-semibold tracking-[0.3em] uppercase [text-shadow:0_1px_10px_rgba(0,0,0,0.6)]">
               Members
             </span>
             <div className="w-8 md:w-12 h-px bg-gradient-to-l from-transparent to-[#D6B14D]/80" />
           </div>
           
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white text-center tracking-tight mb-16 md:mb-20">
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white text-center tracking-tight [text-shadow:0_2px_18px_rgba(0,0,0,0.35)] mb-16 md:mb-20">
             Alumni
           </h1>
           
@@ -677,7 +677,11 @@ export const MembersAlumniTemplate = () => {
                   <span className="w-8 h-8 rounded-full" style={{backgroundColor: '#D6B14D'}} />
                   Ph.D. Graduates
                 </h2>
-                <div className="bg-gradient-to-br from-gray-50 to-white border border-dashed border-gray-200 rounded-2xl p-24 md:p-40">
+                <div className="bg-gradient-to-br from-gray-50 to-white border border-dashed border-gray-200 rounded-2xl px-20 py-18 md:px-28 md:py-22 flex items-center gap-10">
+                  <span className="w-6 h-6 rounded-full bg-gray-300 shrink-0" />
+                  <p className="text-xs md:text-sm text-gray-400">
+                    No graduates yet <span className="text-gray-300 mx-4">·</span> 아직 졸업생이 없습니다
+                  </p>
                 </div>
               </div>
             )}
@@ -882,7 +886,11 @@ export const MembersAlumniTemplate = () => {
                   <span className="w-8 h-8 rounded-full" style={{backgroundColor: '#C41E3A'}} />
                   M.S. Graduates
                 </h2>
-                <div className="bg-gradient-to-br from-gray-50 to-white border border-dashed border-gray-200 rounded-2xl p-24 md:p-40">
+                <div className="bg-gradient-to-br from-gray-50 to-white border border-dashed border-gray-200 rounded-2xl px-20 py-18 md:px-28 md:py-22 flex items-center gap-10">
+                  <span className="w-6 h-6 rounded-full bg-gray-300 shrink-0" />
+                  <p className="text-xs md:text-sm text-gray-400">
+                    No graduates yet <span className="text-gray-300 mx-4">·</span> 아직 졸업생이 없습니다
+                  </p>
                 </div>
               </div>
             )}

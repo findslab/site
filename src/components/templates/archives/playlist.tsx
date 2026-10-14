@@ -73,8 +73,15 @@ interface RawPlaylistItem {
   date?: string;
 }
 
+// PC가 아니면 홈으로 리다이렉트.
+// 훅 개수가 렌더마다 달라지지 않도록(창 크기를 바꿀 때 화면이 하얗게 멈추던 문제) 분기는 바깥에서 한다.
 export const ArchivesPlaylistTemplate = () => {
   const isPC = useIsPC()
+  if (!isPC) return <Navigate to="/" replace />
+  return <PlaylistView />
+}
+
+const PlaylistView = () => {
   const [playlists, setPlaylists] = useState<PlaylistItem[]>([])
   const [loading, setLoading] = useState(true)
   const [currentVideo, setCurrentVideo] = useState<PlaylistItem | null>(null)
@@ -98,11 +105,6 @@ export const ArchivesPlaylistTemplate = () => {
   useEffect(() => {
     currentIndexRef.current = currentIndex
   }, [currentIndex])
-
-  // PC가 아니면 홈으로 리다이렉트
-  if (!isPC) {
-    return <Navigate to="/" replace />
-  }
 
   // YouTube IFrame API 로드
   useEffect(() => {

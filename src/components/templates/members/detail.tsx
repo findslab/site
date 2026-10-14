@@ -130,7 +130,7 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
             style={{ backgroundImage: `url(${bannerCurrentM})`, backgroundPosition: '50% 30%' }}
           />
           <div
-            className="absolute inset-0 hidden md:block bg-cover bg-center"
+            data-pan className="absolute inset-0 hidden md:block bg-cover bg-center"
             style={{ backgroundImage: `url(${bannerCurrent})`, backgroundPosition: '50% 36%' }}
           />
           <div className="absolute inset-0 bg-black/40"/>
@@ -152,7 +152,7 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
             style={{ backgroundImage: `url(${bannerCurrentM})`, backgroundPosition: '50% 30%' }}
           />
           <div
-            className="absolute inset-0 hidden md:block bg-cover bg-center"
+            data-pan className="absolute inset-0 hidden md:block bg-cover bg-center"
             style={{ backgroundImage: `url(${bannerCurrent})`, backgroundPosition: '50% 36%' }}
           />
           <div className="absolute inset-0 bg-black/40"/>
@@ -195,7 +195,7 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
           style={{ backgroundImage: `url(${bannerCurrentM})`, backgroundPosition: '50% 30%' }}
         />
         <div
-          className="absolute inset-0 hidden md:block bg-cover bg-center"
+          data-pan className="absolute inset-0 hidden md:block bg-cover bg-center"
           style={{ backgroundImage: `url(${bannerCurrent})`, backgroundPosition: '50% 36%' }}
         />
         <div className="absolute inset-0 bg-black/40"/>

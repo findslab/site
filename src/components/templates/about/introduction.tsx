@@ -138,7 +138,7 @@ export const AboutIntroductionTemplate = () => {
           style={{ backgroundImage: `url(${bannerIntroM})`, backgroundPosition: '50% 30%' }}
         />
         <div
-          className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
+          data-pan className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
           style={{ backgroundImage: `url(${bannerIntro})`, backgroundPosition: '50% 32%' }}
         />
         <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#D6A076]/20" />
@@ -153,13 +153,13 @@ export const AboutIntroductionTemplate = () => {
         <div className="relative h-full flex flex-col items-center justify-center px-20">
           <div className="flex items-center gap-8 mb-16 md:mb-20">
             <div className="w-8 md:w-12 h-px bg-gradient-to-r from-transparent to-[#D6B14D]/80" />
-            <span className="text-[#D6C360]/90 text-[10px] md:text-xs font-semibold tracking-[0.3em] uppercase">
+            <span className="text-[#F2DE97] text-[10px] md:text-xs font-semibold tracking-[0.3em] uppercase [text-shadow:0_1px_10px_rgba(0,0,0,0.6)]">
               About FINDS
             </span>
             <div className="w-8 md:w-12 h-px bg-gradient-to-l from-transparent to-[#D6B14D]/80" />
           </div>
           
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white text-center tracking-tight mb-16 md:mb-20">
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white text-center tracking-tight [text-shadow:0_2px_18px_rgba(0,0,0,0.35)] mb-16 md:mb-20">
             Introduction
           </h1>
           

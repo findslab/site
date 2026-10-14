@@ -285,7 +285,7 @@ export const MembersCurrentTemplate = () => {
           style={{ backgroundImage: `url(${bannerCurrentM})`, backgroundPosition: '50% 30%' }}
         />
         <div
-          className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
+          data-pan className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
           style={{ backgroundImage: `url(${bannerCurrent})`, backgroundPosition: '50% 36%' }}
         />
         <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#D6A076]/20" />
@@ -300,13 +300,13 @@ export const MembersCurrentTemplate = () => {
         <div className="relative h-full flex flex-col items-center justify-center px-20">
           <div className="flex items-center gap-8 mb-16 md:mb-20">
             <div className="w-8 md:w-12 h-px bg-gradient-to-r from-transparent to-[#D6B14D]/80" />
-            <span className="text-[#D6C360]/90 text-[10px] md:text-xs font-semibold tracking-[0.3em] uppercase">
+            <span className="text-[#F2DE97] text-[10px] md:text-xs font-semibold tracking-[0.3em] uppercase [text-shadow:0_1px_10px_rgba(0,0,0,0.6)]">
               Members
             </span>
             <div className="w-8 md:w-12 h-px bg-gradient-to-l from-transparent to-[#D6B14D]/80" />
           </div>
           
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white text-center tracking-tight mb-16 md:mb-20">
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white text-center tracking-tight [text-shadow:0_2px_18px_rgba(0,0,0,0.35)] mb-16 md:mb-20">
             Current Members
           </h1>
           
@@ -432,7 +432,11 @@ export const MembersCurrentTemplate = () => {
                     <h3 className="text-lg md:text-[22px] font-semibold text-gray-800 mb-16 md:mb-[20px]">
                       {degreeLabels[groupKey as keyof typeof degreeLabels]}
                     </h3>
-                    <div className="bg-gradient-to-br from-gray-50 to-white border border-dashed border-gray-200 rounded-xl md:rounded-[20px] p-24 md:p-[40px]">
+                    <div className="bg-gradient-to-br from-gray-50 to-white border border-dashed border-gray-200 rounded-xl md:rounded-[20px] px-20 py-18 md:px-[28px] md:py-[22px] flex items-center gap-10">
+                      <span className="w-6 h-6 rounded-full bg-gray-300 shrink-0" />
+                      <p className="text-xs md:text-sm text-gray-400">
+                        No current members <span className="text-gray-300 mx-4">·</span> 현재 소속 구성원이 없습니다
+                      </p>
                     </div>
                   </div>
                 )

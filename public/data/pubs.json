@@ -5,6 +5,35 @@
     "code_label": "C",
     "published_date": "2026-12-03",
     "year": 2026,
+    "title": "A Study on Land-Price-Led Price Spillovers and Deepening Co-movement Among Korean Real Estate Assets",
+    "title_ko": "지가 주도의 가격 파급과 한국 부동산 자산 간 동조화의 심화 현상에 관한 연구",
+    "authors": [
+      1
+    ],
+    "author_marks": [
+      "1,*"
+    ],
+    "venue": "2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)",
+    "venue_ko": "2026 대한산업공학회 추계학술대회",
+    "presentation_type": "poster",
+    "language": "Korean",
+    "awards": 0,
+    "citations": {
+      "apa": "Choi, I. (2026, December 3). A study on land-price-led price spillovers and deepening co-movement among Korean real estate assets [Poster presentation]. 2026 Fall Conference of the Korean Institute of Industrial Engineers.",
+      "mla": "Choi, Insu. \"A Study on Land-Price-Led Price Spillovers and Deepening Co-movement Among Korean Real Estate Assets.\" 2026 Fall Conference of the Korean Institute of Industrial Engineers, 3 Dec. 2026.",
+      "chicago": "Choi, Insu. \"A Study on Land-Price-Led Price Spillovers and Deepening Co-movement Among Korean Real Estate Assets.\" Poster presented at the 2026 Fall Conference of the Korean Institute of Industrial Engineers, December 3, 2026.",
+      "harvard": "Choi, I. (2026) 'A study on land-price-led price spillovers and deepening co-movement among Korean real estate assets', poster presented at the 2026 Fall Conference of the Korean Institute of Industrial Engineers, 3 December.",
+      "vancouver": "Choi I. A study on land-price-led price spillovers and deepening co-movement among Korean real estate assets. Poster presented at: 2026 Fall Conference of the Korean Institute of Industrial Engineers; 2026 Dec 3.",
+      "korean": "최인수. (2026). 지가 주도의 가격 파급과 한국 부동산 자산 간 동조화의 심화 현상에 관한 연구. 2026 대한산업공학회 추계학술대회 발표논문.",
+      "bibtex": "@inproceedings{choi2026study,\n  title = {{A Study on Land-Price-Led Price Spillovers and Deepening Co-movement Among Korean Real Estate Assets}},\n  author = {Choi, I.},\n  booktitle = {2026 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)},\n  year = {2026},\n}"
+    }
+  },
+  {
+    "type": "conference",
+    "indexing_group": "Domestic Conference",
+    "code_label": "C",
+    "published_date": "2026-12-03",
+    "year": 2026,
     "title": "Optimal Location of Shared E-Scooter Parking Zones Using Towing Records and Transit Alighting Demand: The Case of Dongjak-gu, Seoul",
     "title_ko": "견인 기록과 대중교통 하차 수요를 이용한 공유 전동킥보드 주차구역 최적 입지: 서울시 동작구 사례를 중심으로",
     "authors": [
@@ -2912,7 +2941,8 @@
       "harvard": "Choi, I., Koh, W., Kang, G., Jang, Y. & Kim, W.C. (2024) 'Encoding temporal statistical-space priors via augmented representation under data scarcity', paper presented at the 3rd International Workshop on Spatio-Temporal Reasoning and Learning (STRL 2024), The 33rd International Joint Conference on Artificial Intelligence (IJCAI 2024), 5 August.",
       "vancouver": "Choi I, Koh W, Kang G, Jang Y, Kim WC. Encoding temporal statistical-space priors via augmented representation under data scarcity. Paper presented at: 3rd International Workshop on Spatio-Temporal Reasoning and Learning (STRL 2024), The 33rd International Joint Conference on Artificial Intelligence (IJCAI 2024); 2024 Aug 5.",
       "bibtex": "@inproceedings{choi2024encoding,\n  title = {{Encoding Temporal Statistical-Space Priors via Augmented Representation Under Data Scarcity}},\n  author = {Choi, I. and Koh, W. and Kang, G. and Jang, Y. and Kim, W. C.},\n  booktitle = {3rd International Workshop on Spatio-Temporal Reasoning and Learning (STRL 2024), The 33rd International Joint Conference on Artificial Intelligence (IJCAI 2024)},\n  year = {2024},\n}"
-    }
+    },
+    "doi": "10.48550/arXiv.2401.16808"
   },
   {
     "type": "conference",
@@ -3576,7 +3606,8 @@
       "harvard": "Koh, W., Choi, I., Jang, Y., Kang, G. & Kim, W.C. (2024) 'Curriculum learning and imitation learning for model-free control on financial time-series', paper presented at the AI for Time Series Analysis (AI4TS) Workshop, The 38th Annual AAAI Conference on Artificial Intelligence (AAAI 2024), 26 February.",
       "vancouver": "Koh W, Choi I, Jang Y, Kang G, Kim WC. Curriculum learning and imitation learning for model-free control on financial time-series. Paper presented at: AI for Time Series Analysis (AI4TS) Workshop, The 38th Annual AAAI Conference on Artificial Intelligence (AAAI 2024); 2024 Feb 26.",
       "bibtex": "@inproceedings{koh2024curriculum,\n  title = {{Curriculum Learning and Imitation Learning for Model-Free Control on Financial Time-Series}},\n  author = {Koh, W. and Choi, I. and Jang, Y. and Kang, G. and Kim, W. C.},\n  booktitle = {AI for Time Series Analysis (AI4TS) Workshop, The 38th Annual AAAI Conference on Artificial Intelligence (AAAI 2024)},\n  year = {2024},\n}"
-    }
+    },
+    "doi": "10.48550/arXiv.2311.13326"
   },
   {
     "type": "conference",
@@ -10009,19 +10040,19 @@
       "1,*"
     ],
     "venue": "The Quarterly Review of Economics and Finance",
-    "volume": "",
+    "volume": "110",
     "issue": "",
     "pages": "102218",
     "doi": "10.1016/j.qref.2026.102218",
     "language": "English",
     "awards": 0,
     "citations": {
-      "apa": "Choi, I. (2026). Measuring cryptocurrency-macro spillovers: Calendar alignment, estimator symmetry, and the synchronization regime shift of 2020. <em>The Quarterly Review of Economics and Finance</em>, 102218. https://doi.org/10.1016/j.qref.2026.102218",
-      "mla": "Choi, Insu. \"Measuring Cryptocurrency-Macro Spillovers: Calendar Alignment, Estimator Symmetry, and the Synchronization Regime Shift of 2020.\" <em>The Quarterly Review of Economics and Finance</em>, 2026, p. 102218. https://doi.org/10.1016/j.qref.2026.102218.",
-      "chicago": "Choi, Insu. \"Measuring Cryptocurrency-Macro Spillovers: Calendar Alignment, Estimator Symmetry, and the Synchronization Regime Shift of 2020.\" <em>The Quarterly Review of Economics and Finance</em> (2026): 102218. https://doi.org/10.1016/j.qref.2026.102218.",
-      "harvard": "Choi, I. (2026) 'Measuring cryptocurrency-macro spillovers: Calendar alignment, estimator symmetry, and the synchronization regime shift of 2020', <em>The Quarterly Review of Economics and Finance</em>, p. 102218. https://doi.org/10.1016/j.qref.2026.102218",
-      "vancouver": "Choi I. Measuring cryptocurrency-macro spillovers: Calendar alignment, estimator symmetry, and the synchronization regime shift of 2020. The Quarterly Review of Economics and Finance. 2026:102218.",
-      "bibtex": "@article{choi2026measuringcryptocurrency,\n  title = {{Measuring Cryptocurrency-Macro Spillovers: Calendar Alignment, Estimator Symmetry, and the Synchronization Regime Shift of 2020}},\n  author = {Choi, I.},\n  journal = {The Quarterly Review of Economics and Finance},\n  pages = {102218},\n  year = {2026},\n  doi = {10.1016/j.qref.2026.102218},\n}"
+      "apa": "Choi, I. (2026). Measuring cryptocurrency-macro spillovers: Calendar alignment, estimator symmetry, and the synchronization regime shift of 2020. <em>The Quarterly Review of Economics and Finance</em>, <em>110</em>, 102218. https://doi.org/10.1016/j.qref.2026.102218",
+      "mla": "Choi, Insu. \"Measuring Cryptocurrency-Macro Spillovers: Calendar Alignment, Estimator Symmetry, and the Synchronization Regime Shift of 2020.\" <em>The Quarterly Review of Economics and Finance</em>, vol. 110, 2026, p. 102218. https://doi.org/10.1016/j.qref.2026.102218.",
+      "chicago": "Choi, Insu. \"Measuring Cryptocurrency-Macro Spillovers: Calendar Alignment, Estimator Symmetry, and the Synchronization Regime Shift of 2020.\" <em>The Quarterly Review of Economics and Finance</em> 110 (2026): 102218. https://doi.org/10.1016/j.qref.2026.102218.",
+      "harvard": "Choi, I. (2026) 'Measuring cryptocurrency-macro spillovers: Calendar alignment, estimator symmetry, and the synchronization regime shift of 2020', <em>The Quarterly Review of Economics and Finance</em>, 110, p. 102218. https://doi.org/10.1016/j.qref.2026.102218",
+      "vancouver": "Choi I. Measuring cryptocurrency-macro spillovers: Calendar alignment, estimator symmetry, and the synchronization regime shift of 2020. The Quarterly Review of Economics and Finance. 2026;110:102218.",
+      "bibtex": "@article{choi2026measuringcryptocurrency,\n  title = {{Measuring Cryptocurrency-Macro Spillovers: Calendar Alignment, Estimator Symmetry, and the Synchronization Regime Shift of 2020}},\n  author = {Choi, I.},\n  journal = {The Quarterly Review of Economics and Finance},\n  volume = {110},\n  pages = {102218},\n  year = {2026},\n  doi = {10.1016/j.qref.2026.102218},\n}"
     }
   },
   {
@@ -10609,19 +10640,19 @@
       "*"
     ],
     "venue": "Applied Intelligence",
-    "volume": "",
-    "issue": "",
-    "pages": "",
+    "volume": "56",
+    "issue": "15",
+    "pages": "454",
     "doi": "10.1007/s10489-026-07501-w",
     "language": "English",
     "awards": 0,
     "citations": {
-      "apa": "Lim, S., Ahn, H., Lee, T. K., Kim, G., Lim, S., & Choi, I. (2026). Dynamic risk budgeting via large language models: A context-aware framework for adaptive portfolio allocation. <em>Applied Intelligence</em>. https://doi.org/10.1007/s10489-026-07501-w",
-      "mla": "Lim, Soyoung, et al. \"Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation.\" <em>Applied Intelligence</em>, 2026. https://doi.org/10.1007/s10489-026-07501-w.",
-      "chicago": "Lim, Soyoung, Hyungmin Ahn, Tae Kyoung Lee, Gayeon Kim, Sunghun Lim, and Insu Choi. \"Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation.\" <em>Applied Intelligence</em> (2026). https://doi.org/10.1007/s10489-026-07501-w.",
-      "harvard": "Lim, S., Ahn, H., Lee, T.K., Kim, G., Lim, S. & Choi, I. (2026) 'Dynamic risk budgeting via large language models: A context-aware framework for adaptive portfolio allocation', <em>Applied Intelligence</em>. https://doi.org/10.1007/s10489-026-07501-w",
-      "vancouver": "Lim S, Ahn H, Lee TK, Kim G, Lim S, Choi I. Dynamic risk budgeting via large language models: A context-aware framework for adaptive portfolio allocation. Applied Intelligence. 2026.",
-      "bibtex": "@article{lim2026dynamic,\n  title = {{Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation}},\n  author = {Lim, S. and Ahn, H. and Lee, T. K. and Kim, G. and Lim, S. and Choi, I.},\n  journal = {Applied Intelligence},\n  year = {2026},\n  doi = {10.1007/s10489-026-07501-w},\n}"
+      "apa": "Lim, S., Ahn, H., Lee, T. K., Kim, G., Lim, S., & Choi, I. (2026). Dynamic risk budgeting via large language models: A context-aware framework for adaptive portfolio allocation. <em>Applied Intelligence</em>, <em>56</em>(15), 454. https://doi.org/10.1007/s10489-026-07501-w",
+      "mla": "Lim, Soyoung, et al. \"Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation.\" <em>Applied Intelligence</em>, vol. 56, no. 15, 2026, p. 454. https://doi.org/10.1007/s10489-026-07501-w.",
+      "chicago": "Lim, Soyoung, Hyungmin Ahn, Tae Kyoung Lee, Gayeon Kim, Sunghun Lim, and Insu Choi. \"Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation.\" <em>Applied Intelligence</em> 56, no. 15 (2026): 454. https://doi.org/10.1007/s10489-026-07501-w.",
+      "harvard": "Lim, S., Ahn, H., Lee, T.K., Kim, G., Lim, S. & Choi, I. (2026) 'Dynamic risk budgeting via large language models: A context-aware framework for adaptive portfolio allocation', <em>Applied Intelligence</em>, 56(15), p. 454. https://doi.org/10.1007/s10489-026-07501-w",
+      "vancouver": "Lim S, Ahn H, Lee TK, Kim G, Lim S, Choi I. Dynamic risk budgeting via large language models: A context-aware framework for adaptive portfolio allocation. Applied Intelligence. 2026;56(15):454.",
+      "bibtex": "@article{lim2026dynamic,\n  title = {{Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation}},\n  author = {Lim, S. and Ahn, H. and Lee, T. K. and Kim, G. and Lim, S. and Choi, I.},\n  journal = {Applied Intelligence},\n  volume = {56},\n  number = {15},\n  pages = {454},\n  year = {2026},\n  doi = {10.1007/s10489-026-07501-w},\n}"
     }
   },
   {
@@ -10983,19 +11014,19 @@
       "1,*"
     ],
     "venue": "Digital Signal Processing",
-    "volume": "",
+    "volume": "184",
     "issue": "",
     "pages": "106517",
     "doi": "10.1016/j.dsp.2026.106517",
     "language": "English",
     "awards": 0,
     "citations": {
-      "apa": "Choi, I. (2026). Cellular-automaton feature extraction from nonstationary financial signals: The information is compositional. <em>Digital Signal Processing</em>, 106517. https://doi.org/10.1016/j.dsp.2026.106517",
-      "mla": "Choi, Insu. \"Cellular-Automaton Feature Extraction From Nonstationary Financial Signals: The Information Is Compositional.\" <em>Digital Signal Processing</em>, 2026, p. 106517. https://doi.org/10.1016/j.dsp.2026.106517.",
-      "chicago": "Choi, Insu. \"Cellular-Automaton Feature Extraction From Nonstationary Financial Signals: The Information Is Compositional.\" <em>Digital Signal Processing</em> (2026): 106517. https://doi.org/10.1016/j.dsp.2026.106517.",
-      "harvard": "Choi, I. (2026) 'Cellular-automaton feature extraction from nonstationary financial signals: The information is compositional', <em>Digital Signal Processing</em>, p. 106517. https://doi.org/10.1016/j.dsp.2026.106517",
-      "vancouver": "Choi I. Cellular-automaton feature extraction from nonstationary financial signals: The information is compositional. Digital Signal Processing. 2026:106517.",
-      "bibtex": "@article{choi2026cellular,\n  title = {{Cellular-Automaton Feature Extraction From Nonstationary Financial Signals: The Information Is Compositional}},\n  author = {Choi, I.},\n  journal = {Digital Signal Processing},\n  pages = {106517},\n  year = {2026},\n  doi = {10.1016/j.dsp.2026.106517},\n}"
+      "apa": "Choi, I. (2026). Cellular-automaton feature extraction from nonstationary financial signals: The information is compositional. <em>Digital Signal Processing</em>, <em>184</em>, 106517. https://doi.org/10.1016/j.dsp.2026.106517",
+      "mla": "Choi, Insu. \"Cellular-Automaton Feature Extraction From Nonstationary Financial Signals: The Information Is Compositional.\" <em>Digital Signal Processing</em>, vol. 184, 2026, p. 106517. https://doi.org/10.1016/j.dsp.2026.106517.",
+      "chicago": "Choi, Insu. \"Cellular-Automaton Feature Extraction From Nonstationary Financial Signals: The Information Is Compositional.\" <em>Digital Signal Processing</em> 184 (2026): 106517. https://doi.org/10.1016/j.dsp.2026.106517.",
+      "harvard": "Choi, I. (2026) 'Cellular-automaton feature extraction from nonstationary financial signals: The information is compositional', <em>Digital Signal Processing</em>, 184, p. 106517. https://doi.org/10.1016/j.dsp.2026.106517",
+      "vancouver": "Choi I. Cellular-automaton feature extraction from nonstationary financial signals: The information is compositional. Digital Signal Processing. 2026;184:106517.",
+      "bibtex": "@article{choi2026cellular,\n  title = {{Cellular-Automaton Feature Extraction From Nonstationary Financial Signals: The Information Is Compositional}},\n  author = {Choi, I.},\n  journal = {Digital Signal Processing},\n  volume = {184},\n  pages = {106517},\n  year = {2026},\n  doi = {10.1016/j.dsp.2026.106517},\n}"
     }
   },
   {
@@ -11296,7 +11327,8 @@
       "vancouver": "Choi I. The spillover and persistence of firm-specific shocks across stocks linked by Hangul Jamo edit distance. Paper presented at: 2026 Winter Conference of the Korean Statistical Society; 2026 Dec 22.",
       "korean": "최인수. (2026). 한글 자모 편집거리에 따른 종목 간 기업 고유 충격의 파급과 지속성에 관한 연구. 2026 한국통계학회 동계학술논문발표회 발표논문.",
       "bibtex": "@inproceedings{choi2026spillover,\n  title = {{The Spillover and Persistence of Firm-Specific Shocks Across Stocks Linked by Hangul Jamo Edit Distance}},\n  author = {Choi, I.},\n  booktitle = {2026 Winter Conference of the Korean Statistical Society (KSS)},\n  year = {2026},\n}"
-    }
+    },
+    "presentation_type": "oral"
   },
   {
     "type": "journal",
@@ -11427,7 +11459,7 @@
     "type": "journal",
     "indexing_group": "SSCI",
     "code_label": "J",
-    "published_date": "2026-12-31",
+    "published_date": "2026-10-09",
     "year": 2026,
     "title": "A Critical-Minerals Currency Factor? Double Machine Learning Evidence on Exchange-Rate Exposure to Energy-Transition Metals",
     "authors": [
@@ -11437,19 +11469,19 @@
       "1,*"
     ],
     "venue": "International Review of Financial Analysis",
-    "volume": "",
+    "volume": "119",
     "issue": "",
-    "pages": "",
-    "doi": "",
+    "pages": "105439",
+    "doi": "10.1016/j.irfa.2026.105439",
     "language": "English",
     "awards": 0,
     "citations": {
-      "apa": "Choi, I. (2026). A critical-minerals currency factor? Double machine learning evidence on exchange-rate exposure to energy-transition metals. <em>International Review of Financial Analysis</em>.",
-      "mla": "Choi, Insu. \"A Critical-Minerals Currency Factor? Double Machine Learning Evidence on Exchange-Rate Exposure to Energy-Transition Metals.\" <em>International Review of Financial Analysis</em>, 2026.",
-      "chicago": "Choi, Insu. \"A Critical-Minerals Currency Factor? Double Machine Learning Evidence on Exchange-Rate Exposure to Energy-Transition Metals.\" <em>International Review of Financial Analysis</em> (2026).",
-      "harvard": "Choi, I. (2026) 'A critical-minerals currency factor? Double machine learning evidence on exchange-rate exposure to energy-transition metals', <em>International Review of Financial Analysis</em>.",
-      "vancouver": "Choi I. A critical-minerals currency factor? Double machine learning evidence on exchange-rate exposure to energy-transition metals. International Review of Financial Analysis. 2026.",
-      "bibtex": "@article{choi2026critical,\n  title = {{A Critical-Minerals Currency Factor? Double Machine Learning Evidence on Exchange-Rate Exposure to Energy-Transition Metals}},\n  author = {Choi, I.},\n  journal = {International Review of Financial Analysis},\n  year = {2026},\n}"
+      "apa": "Choi, I. (2026). A critical-minerals currency factor? Double machine learning evidence on exchange-rate exposure to energy-transition metals. <em>International Review of Financial Analysis</em>, <em>119</em>, 105439. https://doi.org/10.1016/j.irfa.2026.105439",
+      "mla": "Choi, Insu. \"A Critical-Minerals Currency Factor? Double Machine Learning Evidence on Exchange-Rate Exposure to Energy-Transition Metals.\" <em>International Review of Financial Analysis</em>, vol. 119, 2026, p. 105439. https://doi.org/10.1016/j.irfa.2026.105439.",
+      "chicago": "Choi, Insu. \"A Critical-Minerals Currency Factor? Double Machine Learning Evidence on Exchange-Rate Exposure to Energy-Transition Metals.\" <em>International Review of Financial Analysis</em> 119 (2026): 105439. https://doi.org/10.1016/j.irfa.2026.105439.",
+      "harvard": "Choi, I. (2026) 'A critical-minerals currency factor? Double machine learning evidence on exchange-rate exposure to energy-transition metals', <em>International Review of Financial Analysis</em>, 119, p. 105439. https://doi.org/10.1016/j.irfa.2026.105439",
+      "vancouver": "Choi I. A critical-minerals currency factor? Double machine learning evidence on exchange-rate exposure to energy-transition metals. International Review of Financial Analysis. 2026;119:105439.",
+      "bibtex": "@article{choi2026critical,\n  title = {{A Critical-Minerals Currency Factor? Double Machine Learning Evidence on Exchange-Rate Exposure to Energy-Transition Metals}},\n  author = {Choi, I.},\n  journal = {International Review of Financial Analysis},\n  volume = {119},\n  pages = {105439},\n  year = {2026},\n  doi = {10.1016/j.irfa.2026.105439},\n}"
     }
   },
   {

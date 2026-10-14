@@ -220,7 +220,7 @@ export const ArchivesGalleryTemplate = () => {
       {/* Banner */}
       <div className="relative w-full h-[clamp(190px,26vw,440px)] overflow-hidden">
         <div className="absolute inset-0 bg-cover bg-center md:hidden" style={{ backgroundImage: `url(${bannerGalleryM})`, backgroundPosition: '50% 30%' }} />
-        <div className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]" style={{ backgroundImage: `url(${bannerGallery})`, backgroundPosition: '50% 29%' }} />
+        <div data-pan className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]" style={{ backgroundImage: `url(${bannerGallery})`, backgroundPosition: '50% 29%' }} />
         <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#D6A076]/20" />
         <div className="absolute inset-0" style={{background: 'radial-gradient(ellipse 55% 70% at 50% 50%, rgba(0,0,0,0.34) 0%, transparent 70%)'}} />
         <div className="absolute inset-0" style={{backgroundColor: 'rgba(214, 177, 77, 0.08)'}} />
@@ -233,13 +233,13 @@ export const ArchivesGalleryTemplate = () => {
         <div className="relative h-full flex flex-col items-center justify-center px-20">
           <div className="flex items-center gap-8 mb-16 md:mb-20">
             <div className="w-8 md:w-12 h-px bg-gradient-to-r from-transparent to-[#D6B14D]/80" />
-            <span className="text-[#D6C360]/90 text-[10px] md:text-xs font-semibold tracking-[0.3em] uppercase">
+            <span className="text-[#F2DE97] text-[10px] md:text-xs font-semibold tracking-[0.3em] uppercase [text-shadow:0_1px_10px_rgba(0,0,0,0.6)]">
               Archives
             </span>
             <div className="w-8 md:w-12 h-px bg-gradient-to-l from-transparent to-[#D6B14D]/80" />
           </div>
           
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white text-center tracking-tight mb-16 md:mb-20">Gallery</h1>
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white text-center tracking-tight [text-shadow:0_2px_18px_rgba(0,0,0,0.35)] mb-16 md:mb-20">Gallery</h1>
           
           {/* Divider - < . > style */}
           <div className="flex items-center justify-center gap-8 md:gap-12">

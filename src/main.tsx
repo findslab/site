@@ -5,6 +5,7 @@ import Modal from "@/components/atoms/modal";
 import Alert from "@/components/atoms/alert";
 import Snackbar from "@/components/atoms/snackbar";
 import {App} from "@/pages/app";
+import {initBannerPan} from "@/utils/bannerPan";
 
 // 도메인 설정
 const PRIMARY_DOMAIN = 'findslab.github.io';
@@ -35,6 +36,7 @@ const queryClient = new QueryClient({
   defaultOptions: {queries: {refetchOnWindowFocus: false, retryOnMount: true, refetchOnReconnect: false, retry: false}},
 });
 
+initBannerPan();
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
   <BrowserRouter basename={basename}>

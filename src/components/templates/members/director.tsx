@@ -632,7 +632,7 @@ export const MembersDirectorTemplate = () => {
           style={{ backgroundImage: `url(${bannerDirectorM})`, backgroundPosition: '50% 30%' }}
         />
         <div
-          className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
+          data-pan className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
           style={{ backgroundImage: `url(${bannerDirector})`, backgroundPosition: '50% 65%' }}
         />
         <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#D6A076]/20" />
@@ -647,13 +647,13 @@ export const MembersDirectorTemplate = () => {
         <div className="relative h-full flex flex-col items-center justify-center px-20">
           <div className="flex items-center gap-8 mb-16 md:mb-20">
             <div className="w-8 md:w-12 h-px bg-gradient-to-r from-transparent to-[#D6B14D]/80" />
-            <span className="text-[#D6C360]/90 text-[10px] md:text-xs font-semibold tracking-[0.3em] uppercase">
+            <span className="text-[#F2DE97] text-[10px] md:text-xs font-semibold tracking-[0.3em] uppercase [text-shadow:0_1px_10px_rgba(0,0,0,0.6)]">
               Members
             </span>
             <div className="w-8 md:w-12 h-px bg-gradient-to-l from-transparent to-[#D6B14D]/80" />
           </div>
           
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white text-center tracking-tight mb-16 md:mb-20">
+          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-white text-center tracking-tight [text-shadow:0_2px_18px_rgba(0,0,0,0.35)] mb-16 md:mb-20">
             Director
           </h1>
           
@@ -934,7 +934,9 @@ export const MembersDirectorTemplate = () => {
                         <p className="text-xs md:text-sm text-gray-700 font-bold leading-snug break-words">{edu.school}</p>
                         {educationKo(edu.school, edu.field, edu.degree, 'honorKo' in edu ? edu.honorKo : undefined) && (
                           <p className="mt-3 pt-3 border-t border-gray-100 text-[11px] md:text-xs text-gray-500 break-words">
-                            {educationKo(edu.school, edu.field, edu.degree, 'honorKo' in edu ? edu.honorKo : undefined)}
+                            {[schoolKo(edu.school), fieldKo(edu.field)].filter(Boolean).join(' ')}{' '}
+                            <span className="font-semibold text-gray-700">{degreeKo(edu.degree)}</span>
+                            {'honorKo' in edu && edu.honorKo ? ` (${edu.honorKo})` : ''}
                           </p>
                         )}
 
@@ -990,13 +992,15 @@ export const MembersDirectorTemplate = () => {
                           <p className="mt-3 text-xs md:text-sm font-bold text-gray-700 leading-snug break-words">{emp.organization}</p>
                         )}
                         {/* 소속 */}
-                        {emp.department && (
+                        {emp.department && emp.organization !== 'EY Consulting' && (
                           <p className="mt-1 text-[11px] md:text-xs text-gray-500 leading-relaxed break-words">{emp.department}</p>
                         )}
                         {/* 국문 표기 — 기관 소속 직위 순으로 자연스럽게 연결 */}
                         {(emp.positionKo || emp.organizationKo || emp.departmentKo) && (
                           <p className="mt-6 pt-6 border-t border-gray-100 text-[11px] md:text-xs text-gray-500 leading-relaxed break-words">
-                            {[emp.organizationKo, emp.departmentKo, emp.positionKo].filter(Boolean).join(' ')}
+                            {/* EY컨설팅은 부서명 없이 "EY컨설팅 인턴"으로만 표기 */}
+                            {[emp.organizationKo, emp.organization === 'EY Consulting' ? '' : emp.departmentKo].filter(Boolean).join(' ')}
+                            {emp.positionKo && <>{(emp.organizationKo || (emp.organization !== 'EY Consulting' && emp.departmentKo)) ? ' ' : ''}<span className="font-semibold text-gray-700">{emp.positionKo}</span></>}
                           </p>
                         )}
                       </div>
