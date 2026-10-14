@@ -1087,8 +1087,8 @@ export const MembersDirectorAcademicTemplate = () => {
             else if (indexing.includes('KCI')) stats.kci++
           } else if (type === 'conference') {
             if (indexing === 'Scopus') {
-              stats.scopus++  // Scopus Conference → Scopus에 카운트
-              stats.intlConf++  // Scopus Conference → Int'l Conf에도 카운트 (중복 OK)
+              // Scopus 등재 학술대회 논문은 학술대회로만 센다 (논문 집계와 중복 방지: 한 편은 한 번만)
+              stats.intlConf++
             } else if (indexing === 'International Conference') {
               stats.intlConf++
             } else if (indexing === 'Domestic Conference') {

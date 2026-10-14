@@ -44,7 +44,7 @@ def build_pub_stats(pubs: list) -> dict:
             "ssci": journal_idx.get("SSCI", 0),
             "ahci": journal_idx.get("A&HCI", 0),
             "esci": journal_idx.get("ESCI", 0),
-            "scopus": journal_idx.get("Scopus", 0) + conf_idx.get("Scopus", 0),
+            "scopus": journal_idx.get("Scopus", 0),  # 학술지만 (Scopus 학술대회 논문은 학술대회로 집계)
             "otherInternational": journal_idx.get("Other International", 0),
             "kci": journal_idx.get("KCI", 0),
             "webOfScience": wos,

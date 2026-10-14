@@ -3,6 +3,35 @@
     "type": "conference",
     "indexing_group": "Domestic Conference",
     "code_label": "C",
+    "published_date": "2026-11-21",
+    "year": 2026,
+    "title": "Re-examining the Heterogeneity and Robustness of the Holiday Effect in International Stock Markets",
+    "title_ko": "국제 주식시장 휴일효과의 이질성과 강건성 재검증",
+    "authors": [
+      1
+    ],
+    "author_marks": [
+      "1,*"
+    ],
+    "venue": "2026 Fall Conference of the Korean Career·Entrepreneurship & Business Association (KCEBA)",
+    "venue_ko": "2026 한국진로·창업경영학회 추계학술대회",
+    "presentation_type": "oral",
+    "language": "Korean",
+    "awards": 0,
+    "citations": {
+      "apa": "Choi, I. (2026, November 21). Re-examining the heterogeneity and robustness of the holiday effect in international stock markets [Paper presentation]. 2026 Fall Conference of the Korean Career·Entrepreneurship & Business Association.",
+      "mla": "Choi, Insu. \"Re-examining the Heterogeneity and Robustness of the Holiday Effect in International Stock Markets.\" 2026 Fall Conference of the Korean Career·Entrepreneurship & Business Association, 21 Nov. 2026.",
+      "chicago": "Choi, Insu. \"Re-examining the Heterogeneity and Robustness of the Holiday Effect in International Stock Markets.\" Paper presented at the 2026 Fall Conference of the Korean Career·Entrepreneurship & Business Association, November 21, 2026.",
+      "harvard": "Choi, I. (2026) 'Re-examining the heterogeneity and robustness of the holiday effect in international stock markets', paper presented at the 2026 Fall Conference of the Korean Career·Entrepreneurship & Business Association, 21 November.",
+      "vancouver": "Choi I. Re-examining the heterogeneity and robustness of the holiday effect in international stock markets. Paper presented at: 2026 Fall Conference of the Korean Career·Entrepreneurship & Business Association; 2026 Nov 21.",
+      "korean": "최인수. (2026). 국제 주식시장 휴일효과의 이질성과 강건성 재검증. 2026 한국진로·창업경영학회 추계학술대회 발표논문.",
+      "bibtex": "@inproceedings{choi2026re,\n  title = {{Re-examining the Heterogeneity and Robustness of the Holiday Effect in International Stock Markets}},\n  author = {Choi, I.},\n  booktitle = {2026 Fall Conference of the Korean Career·Entrepreneurship & Business Association (KCEBA)},\n  year = {2026},\n}"
+    }
+  },
+  {
+    "type": "conference",
+    "indexing_group": "Domestic Conference",
+    "code_label": "C",
     "published_date": "2026-12-03",
     "year": 2026,
     "title": "A Study on Land-Price-Led Price Spillovers and Deepening Co-movement Among Korean Real Estate Assets",
@@ -1595,7 +1624,7 @@
       "2"
     ],
     "venue": "2025 Fall Conference of the Korean Career·Entrepreneurship & Business Association (KCEBA)",
-    "venue_ko": "2025 한국진로창업경영학회 추계학술대회",
+    "venue_ko": "2025 한국진로·창업경영학회 추계학술대회",
     "presentation_type": "oral",
     "language": "Korean",
     "awards": 1,
@@ -1605,7 +1634,7 @@
       "category": "Management Research Track",
       "category_ko": "경영 연구 부문",
       "organization": "Korean Career·Entrepreneurship & Business Association",
-      "organization_ko": "한국진로창업경영학회"
+      "organization_ko": "한국진로·창업경영학회"
     },
     "citations": {
       "apa": "Choi, I., Kim, Y., You, N., & Lee, C. (2025, December 5). Graph-based analysis of research trends in fintech and digital finance [Paper presentation]. 2025 Fall Conference of the Korean Career·Entrepreneurship & Business Association.",
@@ -1613,7 +1642,7 @@
       "chicago": "Choi, Insu, Yejin Kim, Nakyu You, and Chea Lee. \"Graph-Based Analysis of Research Trends in Fintech and Digital Finance.\" Paper presented at the 2025 Fall Conference of the Korean Career·Entrepreneurship & Business Association, December 5, 2025.",
       "harvard": "Choi, I., Kim, Y., You, N. & Lee, C. (2025) 'Graph-based analysis of research trends in fintech and digital finance', paper presented at the 2025 Fall Conference of the Korean Career·Entrepreneurship & Business Association, 5 December.",
       "vancouver": "Choi I, Kim Y, You N, Lee C. Graph-based analysis of research trends in fintech and digital finance. Paper presented at: 2025 Fall Conference of the Korean Career·Entrepreneurship & Business Association; 2025 Dec 5.",
-      "korean": "최인수, 김예진, 유나규, 이채아. (2025). 그래프 기반 핀테크 및 디지털 금융 연구 동향 분석. 2025 한국진로창업경영학회 추계학술대회 발표논문.",
+      "korean": "최인수, 김예진, 유나규, 이채아. (2025). 그래프 기반 핀테크 및 디지털 금융 연구 동향 분석. 2025 한국진로·창업경영학회 추계학술대회 발표논문.",
       "bibtex": "@inproceedings{choi2025graph,\n  title = {{Graph-Based Analysis of Research Trends in Fintech and Digital Finance}},\n  author = {Choi, I. and Kim, Y. and You, N. and Lee, C.},\n  booktitle = {2025 Fall Conference of the Korean Career·Entrepreneurship & Business Association (KCEBA)},\n  year = {2025},\n}"
     }
   },
@@ -8184,7 +8213,7 @@
       "1,*"
     ],
     "venue": "2026 Spring Conference of the Korean Career·Entrepreneurship & Business Association (KCEBA)",
-    "venue_ko": "2026 한국진로창업경영학회 춘계학술대회",
+    "venue_ko": "2026 한국진로·창업경영학회 춘계학술대회",
     "volume": "",
     "issue": "",
     "pages": "",
@@ -8197,7 +8226,7 @@
       "chicago": "Choi, Insu. \"Information Transmission Analysis of Volatility Magnitude Between Global AI Infrastructure Markets and KOSPI.\" Paper presented at the 2026 Spring Conference of the Korean Career·Entrepreneurship & Business Association, May 16, 2026.",
       "harvard": "Choi, I. (2026) 'Information transmission analysis of volatility magnitude between global AI infrastructure markets and KOSPI', paper presented at the 2026 Spring Conference of the Korean Career·Entrepreneurship & Business Association, 16 May.",
       "vancouver": "Choi I. Information transmission analysis of volatility magnitude between global AI infrastructure markets and KOSPI. Paper presented at: 2026 Spring Conference of the Korean Career·Entrepreneurship & Business Association; 2026 May 16.",
-      "korean": "최인수. (2026). 글로벌 AI 인프라 시장과 KOSPI 간의 변동성 크기의 정보 전이 분석. 2026 한국진로창업경영학회 춘계학술대회 발표논문.",
+      "korean": "최인수. (2026). 글로벌 AI 인프라 시장과 KOSPI 간의 변동성 크기의 정보 전이 분석. 2026 한국진로·창업경영학회 춘계학술대회 발표논문.",
       "bibtex": "@inproceedings{choi2026information,\n  title = {{Information Transmission Analysis of Volatility Magnitude Between Global AI Infrastructure Markets and KOSPI}},\n  author = {Choi, I.},\n  booktitle = {2026 Spring Conference of the Korean Career·Entrepreneurship & Business Association (KCEBA)},\n  year = {2026},\n}"
     },
     "presentation_type": "oral"
@@ -10385,7 +10414,7 @@
       "harvard": "Choi, I. (2026) 'Re-examining the time-varying efficiency of the Bitcoin market based on the adaptive markets hypothesis', poster presented at the 2026 Fall Conference of the Society of Korea Industrial and Systems Engineering, 23 October.",
       "vancouver": "Choi I. Re-examining the time-varying efficiency of the Bitcoin market based on the adaptive markets hypothesis. Poster presented at: 2026 Fall Conference of the Society of Korea Industrial and Systems Engineering; 2026 Oct 23.",
       "korean": "최인수. (2026). 적응적 시장가설에 기반한 비트코인 시장 효율성의 시간가변적 특성 재검증. 2026 한국산업경영시스템학회 추계학술대회 발표논문.",
-      "bibtex": "@inproceedings{choi2026re,\n  title = {{Re-examining the Time-Varying Efficiency of the Bitcoin Market Based on the Adaptive Markets Hypothesis}},\n  author = {Choi, I.},\n  booktitle = {2026 Fall Conference of the Society of Korea Industrial and Systems Engineering (KSIE)},\n  year = {2026},\n}"
+      "bibtex": "@inproceedings{choi2026reexamining,\n  title = {{Re-examining the Time-Varying Efficiency of the Bitcoin Market Based on the Adaptive Markets Hypothesis}},\n  author = {Choi, I.},\n  booktitle = {2026 Fall Conference of the Society of Korea Industrial and Systems Engineering (KSIE)},\n  year = {2026},\n}"
     }
   },
   {
@@ -11127,39 +11156,6 @@
       "bibtex": "@inproceedings{choi2026testing,\n  title = {{Testing the Effectiveness of Selecting a Small Set of Assets Based on Asset Network Structure: Focusing on Weighting Schemes, Market Regimes, and Transaction Costs}},\n  author = {Choi, I.},\n  booktitle = {2026 Fall Conference of the Korean Academic Association of Business Administration},\n  year = {2026},\n}"
     },
     "presentation_type": "oral"
-  },
-  {
-    "type": "conference",
-    "indexing_group": "Domestic Conference",
-    "code_label": "C",
-    "published_date": "2026-12-31",
-    "year": 2026,
-    "title": "Land-Price-Led Spillovers and Deepening Co-movement Across Korean Real Estate Assets",
-    "title_ko": "토지가격 주도의 가격 파급과 한국 부동산 자산 간 동조화의 심화",
-    "authors": [
-      1
-    ],
-    "author_marks": [
-      "1,*"
-    ],
-    "venue": "2026 Fall Conference of the Korean Career·Entrepreneurship & Business Association (KCEBA)",
-    "venue_ko": "2026 한국진로창업경영학회 추계학술대회",
-    "volume": "",
-    "issue": "",
-    "pages": "",
-    "doi": "",
-    "language": "Korean",
-    "awards": 0,
-    "presentation_type": "oral",
-    "citations": {
-      "apa": "Choi, I. (2026, December 31). Land-price-led spillovers and deepening co-movement across Korean real estate assets [Paper presentation]. 2026 Fall Conference of the Korean Career·Entrepreneurship & Business Association.",
-      "mla": "Choi, Insu. \"Land-Price-Led Spillovers and Deepening Co-movement Across Korean Real Estate Assets.\" 2026 Fall Conference of the Korean Career·Entrepreneurship & Business Association, 31 Dec. 2026.",
-      "chicago": "Choi, Insu. \"Land-Price-Led Spillovers and Deepening Co-movement Across Korean Real Estate Assets.\" Paper presented at the 2026 Fall Conference of the Korean Career·Entrepreneurship & Business Association, December 31, 2026.",
-      "harvard": "Choi, I. (2026) 'Land-price-led spillovers and deepening co-movement across Korean real estate assets', paper presented at the 2026 Fall Conference of the Korean Career·Entrepreneurship & Business Association, 31 December.",
-      "vancouver": "Choi I. Land-price-led spillovers and deepening co-movement across Korean real estate assets. Paper presented at: 2026 Fall Conference of the Korean Career·Entrepreneurship & Business Association; 2026 Dec 31.",
-      "korean": "최인수. (2026). 토지가격 주도의 가격 파급과 한국 부동산 자산 간 동조화의 심화. 2026 한국진로창업경영학회 추계학술대회 발표논문.",
-      "bibtex": "@inproceedings{choi2026land,\n  title = {{Land-Price-Led Spillovers and Deepening Co-movement Across Korean Real Estate Assets}},\n  author = {Choi, I.},\n  booktitle = {2026 Fall Conference of the Korean Career·Entrepreneurship & Business Association (KCEBA)},\n  year = {2026},\n}"
-    }
   },
   {
     "type": "conference",
