@@ -1151,7 +1151,7 @@ export const PublicationsTemplate = () => {
                                         <>
                                           <span className="text-[10px] text-white/60">|</span>
                                           <span className="text-xs font-bold text-white/90">
-                                            {pub.indexing_group === 'Scopus' || pub.indexing_group === 'International Conference' ? 'International' : pub.indexing_group === 'Domestic Conference' ? 'Domestic' : ''}
+                                            {pub.indexing_group === 'Scopus' ? 'International · Scopus' : pub.indexing_group === 'International Conference' ? 'International' : pub.indexing_group === 'Domestic Conference' ? 'Domestic' : ''}
                                           </span>
                                         </>
                                       )}
@@ -1220,7 +1220,7 @@ export const PublicationsTemplate = () => {
                                             'bg-[#E8889C]/10 border border-[#E8889C]/30'
                                           }`}>
                                             <span className="text-[9px] font-bold" style={{color: pub.indexing_group === 'International Conference' || pub.indexing_group === 'Scopus' ? '#AC0E0E' : '#E8889C'}}>
-                                              {pub.indexing_group === 'Scopus' ? 'International' : pub.indexing_group === 'International Conference' ? 'International' : 'Domestic'}
+                                              {pub.indexing_group === 'Scopus' ? 'Int\'l · Scopus' : pub.indexing_group === 'International Conference' ? 'International' : 'Domestic'}
                                             </span>
                                           </div>
                                         )}

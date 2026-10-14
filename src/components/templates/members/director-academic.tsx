@@ -1087,7 +1087,7 @@ export const MembersDirectorAcademicTemplate = () => {
             else if (indexing.includes('KCI')) stats.kci++
           } else if (type === 'conference') {
             if (indexing === 'Scopus') {
-              // Scopus 등재 학술대회 논문은 학술대회로만 센다 (논문 집계와 중복 방지: 한 편은 한 번만)
+              // Scopus 등재 프로시딩은 학술대회(Int'l Conf)로만 센다. Scopus 칸은 학술지만 (목록에는 Scopus 배지로 표시)
               stats.intlConf++
             } else if (indexing === 'International Conference') {
               stats.intlConf++
@@ -1666,7 +1666,7 @@ export const MembersDirectorAcademicTemplate = () => {
                                 </div>
                                 <div className="hidden md:flex items-center justify-end gap-8 shrink-0 md:basis-[40%] md:flex-none">
                                   <span className="px-8 py-2 text-[10px] font-bold rounded-full whitespace-nowrap" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{comm.type}</span>
-                                  <span className="inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap min-w-[168px]">{comm.period || comm.since}</span>
+                                  <span className="inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap">{comm.period || comm.since}</span>
                                 </div>
                               </a>
                             ))}
@@ -1703,7 +1703,7 @@ export const MembersDirectorAcademicTemplate = () => {
                                   )}
                                   <span className="md:hidden block text-[10px] text-gray-400 font-medium mt-2">{chair.period || chair.since}</span>
                                 </div>
-                                <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap min-w-[168px] md:ml-auto">{chair.period || chair.since}</span>
+                                <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap md:ml-auto">{chair.period || chair.since}</span>
                               </a>
                             ))}
                           </div>
@@ -1739,7 +1739,7 @@ export const MembersDirectorAcademicTemplate = () => {
                                   )}
                                   <span className="md:hidden block text-[10px] text-gray-400 font-medium mt-2">{d.period || d.since}</span>
                                 </div>
-                                <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap min-w-[168px] md:ml-auto">{d.period || d.since}</span>
+                                <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap md:ml-auto">{d.period || d.since}</span>
                               </a>
                             ))}
                           </div>

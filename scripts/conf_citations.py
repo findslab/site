@@ -137,7 +137,7 @@ PROPER = {
     'kimchi', 'english', 'v-league', 'league', 'ethereum', 'shapley', 'pearson', 'spearman', 'kendall', 'monte',
     'carlo', 'hawkes', 'wasserstein', 'shannon', 'fourier', 'garch', 'china', 'chinese', 'japan', 'japanese', 'us',
     'u.s.', 'europe', 'european', 'america', 'american', 'covid-19', 'kospi', 'kosdaq', 'nasdaq', 'dow', 'jones',
-    'g20', 'oecd', 'brics', 'south', 'north', 'republic', 'rényi', 'hilbert', 'gramian', 'germany', 'german', 'jensen', 'sharpe', 'black-litterman', 'tetris', 'dongjak-gu', 'dongjak',
+    'g20', 'oecd', 'brics', 'south', 'north', 'republic', 'rényi', 'hilbert', 'gramian', 'germany', 'german', 'jensen', 'sharpe', 'black-litterman', 'tetris', 'dongjak-gu', 'dongjak', "seoul’s", 'baltic', 'oceanian', "gini's",
 }
 SMALL_AFTER_COLON = True
 
@@ -164,25 +164,48 @@ def _case_word(w, first):
             continue
         c = re.sub(r"^[\"'(\[]+|[\"'),.;:?!\]]+$", '', part)
         keep = (c.lower() in PROPER or sum(ch.isupper() for ch in c) >= 2 or any(ch.isdigit() for ch in c)
-                or (len(c) == 1 and c.isupper() and i > 0))
+                or (len(c) == 1 and c.isupper() and (i > 0 or c == 'K')))  # K-콘텐츠/K-Means 등 'K-'는 유지
         out.append(part if keep else part.lower())
     return ''.join(out)
 
 
+# 고유명사구: 문장형 표기(APA 등)에서도 원래 대소문자를 그대로 둔다
+PROPER_PHRASES = [
+    'Korea National Health and Nutrition Examination Survey',
+    'National Survey of Tax and Benefit',
+    'All Random All Mid',
+    'League of Legends',
+    'Technology, Entertainment, Design',
+    'Adaptive Markets Hypothesis',
+]
+
+
 def sentence_case(title):
+    keep = {}
+    for k, ph in enumerate(PROPER_PHRASES):
+        if ph in title:
+            token = f'\u0001{k}\u0001'
+            keep[token] = ph
+            title = title.replace(ph, token.replace(' ', ''))
     words = title.split(' ')
     out = []
     first = True
     for w in words:
-        out.append(_case_word(w, first))
+        out.append(w if '\u0001' in w else _case_word(w, first))
         first = w.endswith((':', '?', '!')) or w in ('–', '—')
-    return ' '.join(out)
+    res = ' '.join(out)
+    for token, ph in keep.items():
+        res = res.replace(token, ph)
+    return res
 
 
 def existing_sentence_title(p):
     c = p.get('citations') or {}
     m = re.search(r'\(\d{4}, [A-Z][a-z]+ \d+\)\. (.*?) \[(?:Paper|Poster) presentation\]', c.get('apa', ''))
     if m and m.group(1).lower() == p['title'].lower():
+        # 고유명사구가 들어간 제목은 기존 표기를 쓰지 않고 다시 만든다 (대소문자 보정)
+        if any(ph in p['title'] for ph in PROPER_PHRASES):
+            return None
         return m.group(1)
     return None
 
