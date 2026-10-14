@@ -6,6 +6,7 @@ import Alert from "@/components/atoms/alert";
 import Snackbar from "@/components/atoms/snackbar";
 import {App} from "@/pages/app";
 import {initBannerPan} from "@/utils/bannerPan";
+import {reloadOnceForNewVersion} from "@/components/atoms/route-error-boundary";
 
 // 도메인 설정
 const PRIMARY_DOMAIN = 'findslab.github.io';
@@ -37,6 +38,11 @@ const queryClient = new QueryClient({
 });
 
 initBannerPan();
+
+// 새 버전 배포 후 예전 파일을 못 불러오면(흰 화면 원인) 한 번 자동 새로고침
+window.addEventListener('vite:preloadError', (event) => {
+  if (reloadOnceForNewVersion()) event.preventDefault();
+});
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
   <BrowserRouter basename={basename}>

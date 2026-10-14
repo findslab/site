@@ -7,6 +7,7 @@ import {lazy, Suspense, useEffect, memo, useRef, useState} from "react";
 import { Music, Play, Pause, X, Home as HomeIcon, SkipBack, SkipForward, Minimize2, Maximize2, ListMusic } from 'lucide-react'
 import { useMusicPlayerStore } from '@/store/musicPlayer'
 import { useStoreLayout, useStoreLayoutValue } from '@/store/layout'
+import { RouteErrorBoundary } from '@/components/atoms/route-error-boundary'
 
 const Home = lazy(() => import('../home').then((module) => ({ default: module.Home })));
 const Publications = lazy(() => import('../publications').then((module) => ({ default: module.Publications })));
@@ -456,6 +457,7 @@ export const App = () => {
   return (
     <>
       <GlobalMusicPlayer />
+      <RouteErrorBoundary resetKey={location.pathname}>
       <Suspense fallback={
         <div className="min-h-screen flex items-center justify-center bg-white">
           <div className="w-6 h-6 border-2 border-[#D6B14D] border-t-transparent rounded-full animate-spin" />
@@ -485,6 +487,7 @@ export const App = () => {
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </Suspense>
+      </RouteErrorBoundary>
     </>
   );
 };
