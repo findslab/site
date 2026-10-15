@@ -246,41 +246,6 @@
     "code_label": "C",
     "published_date": "2026-12-11",
     "year": 2026,
-    "title": "Detecting Surging Hotspot Areas in Seoul From Search Trends and Exploring Their Predictability",
-    "title_ko": "검색 트렌드 기반 서울시 핫플레이스 급등 지역 탐지 및 예측 가능성 탐색",
-    "authors": [
-      194,
-      195,
-      196,
-      1
-    ],
-    "author_marks": [
-      "1",
-      "2",
-      "2",
-      "*"
-    ],
-    "venue": "2026 Winter Conference of the Korean Data Analysis Society (KDAS)",
-    "venue_ko": "2026 한국자료분석학회 동계학술논문발표대회",
-    "presentation_type": "poster",
-    "language": "Korean",
-    "awards": 0,
-    "citations": {
-      "apa": "Park, S., Yoo, S., Choi, S., & Choi, I. (2026, December 11). Detecting surging hotspot areas in Seoul from search trends and exploring their predictability [Poster presentation]. 2026 Winter Conference of the Korean Data Analysis Society.",
-      "mla": "Park, Seyoon, et al. \"Detecting Surging Hotspot Areas in Seoul From Search Trends and Exploring Their Predictability.\" 2026 Winter Conference of the Korean Data Analysis Society, 11 Dec. 2026.",
-      "chicago": "Park, Seyoon, Saebom Yoo, Sumin Choi, and Insu Choi. \"Detecting Surging Hotspot Areas in Seoul From Search Trends and Exploring Their Predictability.\" Poster presented at the 2026 Winter Conference of the Korean Data Analysis Society, December 11, 2026.",
-      "harvard": "Park, S., Yoo, S., Choi, S. & Choi, I. (2026) 'Detecting surging hotspot areas in Seoul from search trends and exploring their predictability', poster presented at the 2026 Winter Conference of the Korean Data Analysis Society, 11 December.",
-      "vancouver": "Park S, Yoo S, Choi S, Choi I. Detecting surging hotspot areas in Seoul from search trends and exploring their predictability. Poster presented at: 2026 Winter Conference of the Korean Data Analysis Society; 2026 Dec 11.",
-      "korean": "박세윤, 유새봄, 최수민, 최인수. (2026). 검색 트렌드 기반 서울시 핫플레이스 급등 지역 탐지 및 예측 가능성 탐색. 2026 한국자료분석학회 동계학술논문발표대회 발표논문.",
-      "bibtex": "@inproceedings{park2026detecting,\n  title = {{Detecting Surging Hotspot Areas in Seoul From Search Trends and Exploring Their Predictability}},\n  author = {Park, S. and Yoo, S. and Choi, S. and Choi, I.},\n  booktitle = {2026 Winter Conference of the Korean Data Analysis Society (KDAS)},\n  year = {2026},\n}"
-    }
-  },
-  {
-    "type": "conference",
-    "indexing_group": "Domestic Conference",
-    "code_label": "C",
-    "published_date": "2026-12-11",
-    "year": 2026,
     "title": "Testing the Predictive Power of Stock Message Board Sentiment for 30-Minute Stock Returns: Evidence From Equivalence Tests and Out-of-Sample Evaluation",
     "title_ko": "종목토론방 여론의 30분봉 주가 예측력 검증 — 동등성 검정과 표본 외 평가를 이용한 분석을 중심으로",
     "authors": [
@@ -341,6 +306,41 @@
       "vancouver": "Choi I. Asymmetric tail risk transmission between the artificial intelligence industry and energy markets revisited from a frequency connectedness perspective. Paper presented at: 2026 Winter Conference of the Korean Data Analysis Society; 2026 Dec 11.",
       "korean": "최인수. (2026). 주파수 연결성 관점에서 재조명한 인공지능 산업과 에너지 시장 간 비대칭 꼬리위험 전이. 2026 한국자료분석학회 동계학술논문발표대회 발표논문.",
       "bibtex": "@inproceedings{choi2026asymmetric,\n  title = {{Asymmetric Tail Risk Transmission Between the Artificial Intelligence Industry and Energy Markets Revisited From a Frequency Connectedness Perspective}},\n  author = {Choi, I.},\n  booktitle = {2026 Winter Conference of the Korean Data Analysis Society (KDAS)},\n  year = {2026},\n}"
+    }
+  },
+  {
+    "type": "conference",
+    "indexing_group": "Domestic Conference",
+    "code_label": "C",
+    "published_date": "2027-01-31",
+    "year": 2027,
+    "title": "Detecting Surging Hotspot Areas in Seoul From Search Trends and Exploring Their Predictability",
+    "title_ko": "검색 트렌드 기반 서울시 핫플레이스 급등 지역 탐지 및 예측 가능성 탐색",
+    "authors": [
+      194,
+      195,
+      196,
+      1
+    ],
+    "author_marks": [
+      "1",
+      "2",
+      "2",
+      "*"
+    ],
+    "venue": "2027 Winter Conference of the Korea Society of Computer and Information (KSCI)",
+    "venue_ko": "2027 한국컴퓨터정보학회 동계학술대회",
+    "presentation_type": "poster",
+    "language": "Korean",
+    "awards": 0,
+    "citations": {
+      "apa": "Park, S., Yoo, S., Choi, S., & Choi, I. (2027, January 31). Detecting surging hotspot areas in Seoul from search trends and exploring their predictability [Poster presentation]. 2027 Winter Conference of the Korea Society of Computer and Information.",
+      "mla": "Park, Seyoon, et al. \"Detecting Surging Hotspot Areas in Seoul From Search Trends and Exploring Their Predictability.\" 2027 Winter Conference of the Korea Society of Computer and Information, 31 Jan. 2027.",
+      "chicago": "Park, Seyoon, Saebom Yoo, Sumin Choi, and Insu Choi. \"Detecting Surging Hotspot Areas in Seoul From Search Trends and Exploring Their Predictability.\" Poster presented at the 2027 Winter Conference of the Korea Society of Computer and Information, January 31, 2027.",
+      "harvard": "Park, S., Yoo, S., Choi, S. & Choi, I. (2027) 'Detecting surging hotspot areas in Seoul from search trends and exploring their predictability', poster presented at the 2027 Winter Conference of the Korea Society of Computer and Information, 31 January.",
+      "vancouver": "Park S, Yoo S, Choi S, Choi I. Detecting surging hotspot areas in Seoul from search trends and exploring their predictability. Poster presented at: 2027 Winter Conference of the Korea Society of Computer and Information; 2027 Jan 31.",
+      "korean": "박세윤, 유새봄, 최수민, 최인수. (2027). 검색 트렌드 기반 서울시 핫플레이스 급등 지역 탐지 및 예측 가능성 탐색. 2027 한국컴퓨터정보학회 동계학술대회 발표논문.",
+      "bibtex": "@inproceedings{park2027detecting,\n  title = {{Detecting Surging Hotspot Areas in Seoul From Search Trends and Exploring Their Predictability}},\n  author = {Park, S. and Yoo, S. and Choi, S. and Choi, I.},\n  booktitle = {2027 Winter Conference of the Korea Society of Computer and Information (KSCI)},\n  year = {2027},\n}"
     }
   },
   {
