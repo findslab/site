@@ -635,7 +635,7 @@ export const MembersDirectorTemplate = () => {
           data-pan className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
           style={{ backgroundImage: `url(${bannerDirector})`, backgroundPosition: '50% 65%' }}
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#B8962D]/20" />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-black/10" />
         <div className="absolute inset-0" style={{background: 'radial-gradient(ellipse 55% 70% at 50% 50%, rgba(0,0,0,0.34) 0%, transparent 70%)'}} />
         <div className="absolute inset-0" style={{backgroundColor: 'rgba(214, 177, 77, 0.08)'}} />
         <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent" />
@@ -647,7 +647,7 @@ export const MembersDirectorTemplate = () => {
         <div className="relative h-full flex flex-col items-center justify-center px-20">
           <div className="flex items-center gap-8 mb-16 md:mb-20">
             <div className="w-8 md:w-12 h-px bg-gradient-to-r from-transparent to-[#D6B14D]/80" />
-            <span className="text-[#F2DE97] text-[10px] md:text-xs font-semibold tracking-[0.3em] uppercase [text-shadow:0_1px_10px_rgba(0,0,0,0.6)]">
+            <span className="text-[#FFEB99] text-[10px] md:text-xs font-semibold tracking-[0.3em] uppercase [text-shadow:0_1px_10px_rgba(0,0,0,0.6)]">
               Members
             </span>
             <div className="w-8 md:w-12 h-px bg-gradient-to-l from-transparent to-[#D6B14D]/80" />
@@ -756,7 +756,7 @@ export const MembersDirectorTemplate = () => {
                         className="size-20 flex items-center justify-center rounded-md hover:bg-gray-100 transition-colors shrink-0" 
                         title="Copy email"
                       >
-                        {emailCopied ? <Check size={10} className="text-green-500"/> : <Copy size={10} className="text-gray-400"/>}
+                        {emailCopied ? <Check size={10} className="text-[#9A7D1F]"/> : <Copy size={10} className="text-gray-400"/>}
                       </button>
                     </div>
                   </div>
@@ -1286,7 +1286,7 @@ export const MembersDirectorTemplate = () => {
                     <div className="group relative bg-white border border-gray-100 rounded-2xl p-16 md:p-20 hover:border-[#FFEB99]/70 hover:shadow-lg hover:shadow-[#FFEB99]/10 transition-all duration-300">
                       <div className="absolute top-0 left-16 right-16 h-[2px] bg-gradient-to-r from-[#FFEB99] to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
                       <div className="flex flex-col items-center text-center">
-                        <span className="text-2xl md:text-3xl font-bold mb-4 transition-all duration-300" style={{color: '#C4A52D'}}>{serviceStats.committee}</span>
+                        <span className="text-2xl md:text-3xl font-bold mb-4 transition-all duration-300" style={{color: '#B8962D'}}>{serviceStats.committee}</span>
                         <span className="text-[10px] md:text-xs font-medium text-gray-500">Program Committee</span>
                       </div>
                     </div>

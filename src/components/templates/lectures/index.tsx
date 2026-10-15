@@ -289,7 +289,7 @@ export const LecturesTemplate = () => {
           data-pan className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
           style={{ backgroundImage: `url(${bannerPublications})`, backgroundPosition: '50% 10%' }}
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#B8962D]/20" />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-black/10" />
         <div className="absolute inset-0" style={{background: 'radial-gradient(ellipse 55% 70% at 50% 50%, rgba(0,0,0,0.34) 0%, transparent 70%)'}} />
         <div className="absolute inset-0" style={{backgroundColor: 'rgba(214, 177, 77, 0.08)'}} />
         <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent" />
@@ -301,7 +301,7 @@ export const LecturesTemplate = () => {
         <div className="relative h-full flex flex-col items-center justify-center px-20">
           <div className="flex items-center gap-8 mb-16 md:mb-20">
             <div className="w-8 md:w-12 h-px bg-gradient-to-r from-transparent to-[#D6B14D]/80" />
-            <span className="text-[#F2DE97] text-[10px] md:text-xs font-semibold tracking-[0.3em] uppercase [text-shadow:0_1px_10px_rgba(0,0,0,0.6)]">
+            <span className="text-[#FFEB99] text-[10px] md:text-xs font-semibold tracking-[0.3em] uppercase [text-shadow:0_1px_10px_rgba(0,0,0,0.6)]">
               Teaching
             </span>
             <div className="w-8 md:w-12 h-px bg-gradient-to-l from-transparent to-[#D6B14D]/80" />
@@ -449,7 +449,7 @@ export const LecturesTemplate = () => {
                                   <div
                                     className={clsx(
                                       'w-full py-8 md:py-10 rounded-lg text-center',
-                                      isLecturer ? 'bg-[#D6B14D]' : 'bg-red-500'
+                                      isLecturer ? 'bg-[#D6B14D]' : 'bg-[#AC0E0E]'
                                     )}
                                   >
                                     <span className="text-xs md:text-sm font-bold text-white">{isLecturer ? 'L' : 'TA'}</span>
@@ -463,7 +463,7 @@ export const LecturesTemplate = () => {
                                     <span
                                       className={clsx(
                                         'inline-flex items-center gap-6 px-8 py-4 rounded-md text-[10px] md:text-xs font-bold border',
-                                        isLecturer ? 'bg-white text-[#D6B14D] border-[#FFF9E6]' : 'bg-white text-red-600 border-red-200'
+                                        isLecturer ? 'bg-white text-[#D6B14D] border-[#FFF9E6]' : 'bg-white text-[#AC0E0E] border-[#FFBAC4]'
                                       )}
                                     >
                                       {schoolLogos[item.school] && (
@@ -474,7 +474,7 @@ export const LecturesTemplate = () => {
                                     <span
                                       className={clsx(
                                         'px-8 py-4 rounded-md text-[10px] md:text-xs font-bold',
-                                        isLecturer ? 'bg-[#FFF3CC] text-[#B8962D]' : 'bg-red-100 text-red-700'
+                                        isLecturer ? 'bg-[#FFF3CC] text-[#B8962D]' : 'bg-[#FFE4E9] text-[#AC0E0E]'
                                       )}
                                     >
                                       {item.role}

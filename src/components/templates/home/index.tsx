@@ -386,7 +386,7 @@ export const HomeTemplate = () => {
                   </div>
                   {/* Verb - large accent word */}
                   <div className="flex items-baseline gap-10">
-                    <span className="text-2xl md:text-[40px] lg:text-[52px] xl:text-[60px] font-black tracking-tight bg-gradient-to-r from-[#8A6A10] via-[#B08A26] to-[#C49B34] bg-clip-text text-transparent leading-tight pb-2 cursor-pointer transition-all duration-500 hover:drop-shadow-[0_0_25px_rgba(214,177,77,0.7)] hover:brightness-125 hover:scale-[1.02]">
+                    <span className="text-2xl md:text-[40px] lg:text-[52px] xl:text-[60px] font-black tracking-tight bg-gradient-to-r from-[#9A7D1F] to-[#B8962D] bg-clip-text text-transparent leading-tight pb-2 cursor-pointer transition-all duration-500 hover:drop-shadow-[0_0_25px_rgba(214,177,77,0.7)] hover:brightness-125 hover:scale-[1.02]">
                       {slide.verb}
                     </span>
                     <span className="hidden lg:block w-12 lg:w-20 h-[2px] bg-gradient-to-r from-[#D6B14D] to-transparent rounded-full" />

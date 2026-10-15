@@ -62,7 +62,7 @@ const EmailPopup = ({ email, onClose, degree }: { email: string; onClose: () => 
           onClick={handleCopy}
           className="flex-1 flex items-center justify-center gap-6 px-10 py-6 bg-gray-100 hover:bg-gray-200 rounded-lg text-xs font-medium text-gray-700 transition-colors"
         >
-          {copied ? <Check size={12} className="text-green-500" /> : <Copy size={12} />}
+          {copied ? <Check size={12} className="text-[#9A7D1F]" /> : <Copy size={12} />}
           {copied ? 'Copied!' : 'Copy'}
         </button>
         <a

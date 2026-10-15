@@ -82,7 +82,7 @@ const EmailPopup = ({ email, onClose, degree }: { email: string; onClose: () => 
           onClick={handleCopy}
           className="flex-1 flex items-center justify-center gap-6 px-10 py-6 bg-gray-100 hover:bg-gray-200 rounded-lg text-xs font-medium text-gray-700 transition-colors"
         >
-          {copied ? <Check size={12} className="text-green-500" /> : <Copy size={12} />}
+          {copied ? <Check size={12} className="text-[#9A7D1F]" /> : <Copy size={12} />}
           {copied ? 'Copied!' : 'Copy'}
         </button>
         <a
@@ -288,7 +288,7 @@ export const MembersCurrentTemplate = () => {
           data-pan className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
           style={{ backgroundImage: `url(${bannerCurrent})`, backgroundPosition: '50% 36%' }}
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#B8962D]/20" />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-black/10" />
         <div className="absolute inset-0" style={{background: 'radial-gradient(ellipse 55% 70% at 50% 50%, rgba(0,0,0,0.34) 0%, transparent 70%)'}} />
         <div className="absolute inset-0" style={{backgroundColor: 'rgba(214, 177, 77, 0.08)'}} />
         <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent" />
@@ -300,7 +300,7 @@ export const MembersCurrentTemplate = () => {
         <div className="relative h-full flex flex-col items-center justify-center px-20">
           <div className="flex items-center gap-8 mb-16 md:mb-20">
             <div className="w-8 md:w-12 h-px bg-gradient-to-r from-transparent to-[#D6B14D]/80" />
-            <span className="text-[#F2DE97] text-[10px] md:text-xs font-semibold tracking-[0.3em] uppercase [text-shadow:0_1px_10px_rgba(0,0,0,0.6)]">
+            <span className="text-[#FFEB99] text-[10px] md:text-xs font-semibold tracking-[0.3em] uppercase [text-shadow:0_1px_10px_rgba(0,0,0,0.6)]">
               Members
             </span>
             <div className="w-8 md:w-12 h-px bg-gradient-to-l from-transparent to-[#D6B14D]/80" />
@@ -466,7 +466,7 @@ export const MembersCurrentTemplate = () => {
                           <div className="flex items-start gap-12 md:gap-[16px]">
                             <div 
                               className="w-[56px] h-[72px] md:w-[70px] md:h-[90px] rounded-xl flex items-center justify-center flex-shrink-0 overflow-hidden relative select-none bg-white" 
-                              style={{background: member.avatar ? '#ffffff' : 'linear-gradient(135deg, rgba(232,135,155,0.15) 0%, rgba(255,183,197,0.2) 100%)'}}
+                              style={{background: member.avatar ? '#ffffff' : 'linear-gradient(135deg, rgba(232,136,156,0.15) 0%, rgba(255,186,196,0.2) 100%)'}}
                               onContextMenu={(e) => e.preventDefault()}
                             >
                               {member.avatar ? (
@@ -503,7 +503,7 @@ export const MembersCurrentTemplate = () => {
                                     <span
                                       key={i}
                                       className="px-6 md:px-[8px] py-[2px] rounded-full text-[10px] md:text-xs font-bold"
-                                      style={{ backgroundColor: 'rgba(255,183,197,0.18)', color: '#C41E3A' }}
+                                      style={{ backgroundColor: 'rgba(255,186,196,0.18)', color: '#C41E3A' }}
                                     >
                                       {c}
                                     </span>

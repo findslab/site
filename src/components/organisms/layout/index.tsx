@@ -50,9 +50,9 @@ const navItems: NavItem[] = [
 
 const footerLinks = [
   { name: '한국연구재단', url: 'https://www.nrf.re.kr', hoverColor: '#AC0E0E', hoverBg: '#AC0E0E' },
-  { name: 'Google Scholar', url: 'https://scholar.google.com/', hoverColor: '#8A6A10', hoverBg: '#D6B14D' },
-  { name: 'Web of Science', url: 'https://www.webofscience.com', hoverColor: '#77701A', hoverBg: '#E8D688' },
-  { name: 'Scopus', url: 'https://www.scopus.com', hoverColor: '#8F5A2E', hoverBg: '#D6A076' },
+  { name: 'Google Scholar', url: 'https://scholar.google.com/', hoverColor: '#9A7D1F', hoverBg: '#D6B14D' },
+  { name: 'Web of Science', url: 'https://www.webofscience.com', hoverColor: '#9A7D1F', hoverBg: '#E8D688' },
+  { name: 'Scopus', url: 'https://www.scopus.com', hoverColor: '#9A7D1F', hoverBg: '#D6A076' },
 ]
 
 // Header logo text animation hook - simple dissolve fade
@@ -117,7 +117,7 @@ const ContactModalContent = () => {
               >
                 {copiedEmail === contact.email ? (
                   <>
-                    <Check size={12} className="text-green-500" />
+                    <Check size={12} className="text-[#9A7D1F]" />
                     <span className="hidden sm:inline">Copied!</span>
                   </>
                 ) : (
@@ -463,7 +463,7 @@ const LayoutOrganisms = ({ children }: props) => {
           {/* Copyright - gradient swipe on hover (PC only) */}
           <p className="text-[10px] md:text-xs text-gray-400 text-center tracking-wide md:cursor-default">
             <span className="hidden md:inline-block relative group">
-              <span className="relative z-10 bg-clip-text transition-all duration-700 group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-[#8A6A10] group-hover:via-[#C9A23A] group-hover:to-[#8A6A10]">
+              <span className="relative z-10 bg-clip-text transition-all duration-700 group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-[#9A7D1F] group-hover:via-[#B8962D] group-hover:to-[#9A7D1F]">
                 © 2026 FINDS Lab All Rights Reserved.
               </span>
               <span className="absolute bottom-0 left-1/2 w-0 h-px bg-gradient-to-r from-[#D6B14D]/0 via-[#D6B14D] to-[#D6B14D]/0 transition-all duration-500 group-hover:w-full group-hover:left-0" />

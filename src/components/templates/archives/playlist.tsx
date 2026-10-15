@@ -597,7 +597,7 @@ const PlaylistView = () => {
               </button>
               <button
                 onClick={handleClosePlayer}
-                className="p-8 text-gray-400 hover:text-red-400 transition-colors"
+                className="p-8 text-gray-400 hover:text-[#C41E3A] transition-colors"
                 title="닫기"
               >
                 <X size={18} />

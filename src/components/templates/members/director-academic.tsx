@@ -866,7 +866,7 @@ const CollaborationNetwork = memo(() => {
                           {node.publications}
                         </p>
                       </div>
-                      <div className="bg-pink-50 rounded-lg p-12 text-center" style={{borderColor: '#FFBAC4', borderWidth: '1px'}}>
+                      <div className="bg-[#FFE4E9] rounded-lg p-12 text-center" style={{borderColor: '#FFBAC4', borderWidth: '1px'}}>
                         <div className="flex items-center justify-center gap-6 mb-4">
                           <p className="text-[10px] font-bold text-gray-500 uppercase">Co-work Rate</p>
                         </div>
@@ -1346,7 +1346,7 @@ export const MembersDirectorAcademicTemplate = () => {
           data-pan className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
           style={{ backgroundImage: `url(${bannerDirector})`, backgroundPosition: '50% 65%' }}
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#B8962D]/20" />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-black/10" />
         <div className="absolute inset-0" style={{background: 'radial-gradient(ellipse 55% 70% at 50% 50%, rgba(0,0,0,0.34) 0%, transparent 70%)'}} />
         <div className="absolute inset-0" style={{backgroundColor: 'rgba(214, 177, 77, 0.08)'}} />
         <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent" />
@@ -1358,7 +1358,7 @@ export const MembersDirectorAcademicTemplate = () => {
         <div className="relative h-full flex flex-col items-center justify-center px-20">
           <div className="flex items-center gap-8 mb-16 md:mb-20">
             <div className="w-8 md:w-12 h-px bg-gradient-to-r from-transparent to-[#D6B14D]/80" />
-            <span className="text-[#F2DE97] text-[10px] md:text-xs font-semibold tracking-[0.3em] uppercase [text-shadow:0_1px_10px_rgba(0,0,0,0.6)]">
+            <span className="text-[#FFEB99] text-[10px] md:text-xs font-semibold tracking-[0.3em] uppercase [text-shadow:0_1px_10px_rgba(0,0,0,0.6)]">
               Members
             </span>
             <div className="w-8 md:w-12 h-px bg-gradient-to-l from-transparent to-[#D6B14D]/80" />
@@ -1484,7 +1484,7 @@ export const MembersDirectorAcademicTemplate = () => {
                         className="size-24 flex items-center justify-center rounded-md hover:bg-gray-100 transition-colors shrink-0" 
                         title="Copy email"
                       >
-                        {emailCopied ? <Check size={12} className="text-green-500"/> : <Copy size={12} className="text-gray-400"/>}
+                        {emailCopied ? <Check size={12} className="text-[#9A7D1F]"/> : <Copy size={12} className="text-gray-400"/>}
                       </button>
                     </div>
                   </div>
@@ -2195,7 +2195,7 @@ export const MembersDirectorAcademicTemplate = () => {
                             <div className="flex-1 min-w-0 break-words">
                               <div className="flex flex-wrap items-center gap-6 mb-8">
                                 {course.periods.map((period, i) => (
-                                  <span key={i} className="px-8 py-2 text-[10px] md:text-xs font-bold rounded-full" style={{backgroundColor: 'rgba(232,135,155,0.15)', color: '#E8889C'}}>
+                                  <span key={i} className="px-8 py-2 text-[10px] md:text-xs font-bold rounded-full" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>
                                     {period}
                                   </span>
                                 ))}

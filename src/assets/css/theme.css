@@ -105,83 +105,69 @@
   }
 }
 
-
-/* ── Text ink tokens (site-wide readability) ────────────────────────────
-   Palette colours stay as fills, borders, dots and icons' backgrounds.
-   When the same colour is used as TEXT on a light surface it is drawn
-   in a darker tone of the same hue, so every page reads the same way:
-     gold  #D6B14D / #B8962D / #9A7D1F → amber gold  (5.1:1 on white)
-     pale  #E8D688                     → olive gold  (5:1)
-     rose  #E8889C                     → deep rose   (6:1)
-     pink  #FFBAC4                     → raspberry   (4.8:1)
-   Opt out with .ink-keep (logos, text on dark/photo backgrounds); text
-   inside dark gray/black containers keeps the original bright palette.  */
+/* ═══════════════════════════════════════════════════════════════════════
+   FINDS Lab palette system — every colour below is one of the 14 colours in
+   the official palette (Gallery › "FINDS Lab Color Palette"), used as is or
+   with transparency. Gradients only ever run between palette colours of the
+   SAME family:
+     gold family : Sunlight · Vanilla · Buttercream · Cream · Honey · Gold · Amber · Oak
+     red family  : Blush · Blossom · Rose · Ruby · FINDS Red
+     coral       : Coral (stands alone, never blended)
+   Neutral greys/white/black are used only for body text and surfaces.
+   ═══════════════════════════════════════════════════════════════════════ */
 :root {
-  --ink-gold: #8A6A10;
-  --ink-olive: #77701A;
-  --ink-rose: #A8384F;
-  --ink-pink: #C2456E;
-  --ink-coral: #8F5A2E;
+  --p-gold: #D6B14D; --p-red: #AC0E0E; --p-honey: #D6C360; --p-cream: #E8D688;
+  --p-amber: #B8962D; --p-oak: #9A7D1F; --p-coral: #D6A076; --p-rose: #E8889C;
+  --p-blossom: #FFBAC4; --p-ruby: #C41E3A; --p-buttercream: #FFF9E6;
+  --p-vanilla: #FFF3CC; --p-sunlight: #FFEB99; --p-blush: #FFE4E9;
+  --fill-ink: #1F2937;   /* neutral text on light palette fills */
 }
+
+/* ── 1. Text ink: light palette colours used as text on light surfaces are
+   drawn with the darkest palette colour of the same family.
+     gold family (Gold, Honey, Cream, Amber) → Oak
+     pinks (Rose, Blossom)                   → Ruby
+     Coral                                   → Oak (nearest warm dark)       */
 :is(
   .text-\[\#D6B14D\],
+  .text-\[\#D6C360\],
+  .text-\[\#E8D688\],
   .text-\[\#B8962D\],
   .text-\[\#9A7D1F\],
+  .text-\[\#D6A076\],
   .text-primary,
   .hover\:text-primary:hover,
   .group:hover .group-hover\:text-primary,
-  .hover\:text-\[\#D6B14D\]:hover
-):not(svg):not(:where(.ink-keep, .ink-keep *, :is(.bg-gray-900, .bg-gray-950, .bg-black, [class*="from-gray-900"], [class*="from-gray-800"], [class*="bg-gray-900/"], [class*="bg-black/"]) *)) { color: var(--ink-gold); }
-/* inline style={{color}} needs !important to win over the attribute */
+  .hover\:text-\[\#D6B14D\]:hover,
+  .hover\:text-\[\#D6A076\]:hover
+):not(svg):not(:where(.ink-keep, .ink-keep *, :is(.bg-gray-900, .bg-gray-950, .bg-black, [class*="from-gray-900"], [class*="from-gray-800"], [class*="bg-gray-900/"], [class*="bg-black/"]) *)) { color: var(--p-oak); }
 :is(
   [style^="color: rgb(214, 177, 77)"],
   [style*=" color: rgb(214, 177, 77)"],
+  [style^="color: rgb(214, 195, 96)"],
+  [style*=" color: rgb(214, 195, 96)"],
+  [style^="color: rgb(232, 214, 136)"],
+  [style*=" color: rgb(232, 214, 136)"],
   [style^="color: rgb(184, 150, 45)"],
   [style*=" color: rgb(184, 150, 45)"],
   [style^="color: rgb(154, 125, 31)"],
-  [style*=" color: rgb(154, 125, 31)"]
-):not(svg):not(:where(.ink-keep, .ink-keep *, :is(.bg-gray-900, .bg-gray-950, .bg-black, [class*="from-gray-900"], [class*="from-gray-800"], [class*="bg-gray-900/"], [class*="bg-black/"]) *)) { color: var(--ink-gold) !important; }
-:is(
-  .text-\[\#E8D688\]
-):not(svg):not(:where(.ink-keep, .ink-keep *, :is(.bg-gray-900, .bg-gray-950, .bg-black, [class*="from-gray-900"], [class*="from-gray-800"], [class*="bg-gray-900/"], [class*="bg-black/"]) *)) { color: var(--ink-olive); }
-/* inline style={{color}} needs !important to win over the attribute */
-:is(
-  [style^="color: rgb(232, 214, 136)"],
-  [style*=" color: rgb(232, 214, 136)"]
-):not(svg):not(:where(.ink-keep, .ink-keep *, :is(.bg-gray-900, .bg-gray-950, .bg-black, [class*="from-gray-900"], [class*="from-gray-800"], [class*="bg-gray-900/"], [class*="bg-black/"]) *)) { color: var(--ink-olive) !important; }
-:is(
-  .text-\[\#FFBAC4\]
-):not(svg):not(:where(.ink-keep, .ink-keep *, :is(.bg-gray-900, .bg-gray-950, .bg-black, [class*="from-gray-900"], [class*="from-gray-800"], [class*="bg-gray-900/"], [class*="bg-black/"]) *)) { color: var(--ink-pink); }
-/* inline style={{color}} needs !important to win over the attribute */
-:is(
-  [style^="color: rgb(255, 186, 196)"],
-  [style*=" color: rgb(255, 186, 196)"]
-):not(svg):not(:where(.ink-keep, .ink-keep *, :is(.bg-gray-900, .bg-gray-950, .bg-black, [class*="from-gray-900"], [class*="from-gray-800"], [class*="bg-gray-900/"], [class*="bg-black/"]) *)) { color: var(--ink-pink) !important; }
-:is(
-  .text-\[\#E8889C\]
-):not(svg):not(:where(.ink-keep, .ink-keep *, :is(.bg-gray-900, .bg-gray-950, .bg-black, [class*="from-gray-900"], [class*="from-gray-800"], [class*="bg-gray-900/"], [class*="bg-black/"]) *)) { color: var(--ink-rose); }
-/* inline style={{color}} needs !important to win over the attribute */
-:is(
-  [style^="color: rgb(232, 136, 156)"],
-  [style*=" color: rgb(232, 136, 156)"]
-):not(svg):not(:where(.ink-keep, .ink-keep *, :is(.bg-gray-900, .bg-gray-950, .bg-black, [class*="from-gray-900"], [class*="from-gray-800"], [class*="bg-gray-900/"], [class*="bg-black/"]) *)) { color: var(--ink-rose) !important; }
-
-:is(
-  .text-\[\#D6A076\],
-  .hover\:text-\[\#D6A076\]:hover
-):not(svg):not(:where(.ink-keep, .ink-keep *, :is(.bg-gray-900, .bg-gray-950, .bg-black, [class*="from-gray-900"], [class*="from-gray-800"], [class*="bg-gray-900/"], [class*="bg-black/"]) *)) { color: var(--ink-coral); }
-:is(
+  [style*=" color: rgb(154, 125, 31)"],
   [style^="color: rgb(214, 160, 118)"],
   [style*=" color: rgb(214, 160, 118)"]
-):not(svg):not(:where(.ink-keep, .ink-keep *, :is(.bg-gray-900, .bg-gray-950, .bg-black, [class*="from-gray-900"], [class*="from-gray-800"], [class*="bg-gray-900/"], [class*="bg-black/"]) *)) { color: var(--ink-coral) !important; }
+):not(svg):not(:where(.ink-keep, .ink-keep *, :is(.bg-gray-900, .bg-gray-950, .bg-black, [class*="from-gray-900"], [class*="from-gray-800"], [class*="bg-gray-900/"], [class*="bg-black/"]) *)) { color: var(--p-oak) !important; }
+:is(
+  .text-\[\#E8889C\],
+  .text-\[\#FFBAC4\]
+):not(svg):not(:where(.ink-keep, .ink-keep *, :is(.bg-gray-900, .bg-gray-950, .bg-black, [class*="from-gray-900"], [class*="from-gray-800"], [class*="bg-gray-900/"], [class*="bg-black/"]) *)) { color: var(--p-ruby); }
+:is(
+  [style^="color: rgb(232, 136, 156)"],
+  [style*=" color: rgb(232, 136, 156)"],
+  [style^="color: rgb(255, 186, 196)"],
+  [style*=" color: rgb(255, 186, 196)"]
+):not(svg):not(:where(.ink-keep, .ink-keep *, :is(.bg-gray-900, .bg-gray-950, .bg-black, [class*="from-gray-900"], [class*="from-gray-800"], [class*="bg-gray-900/"], [class*="bg-black/"]) *)) { color: var(--p-ruby) !important; }
 
-
-/* ── Single-hue depth for solid colour fills ──────────────────────────────
-   Every solid fill gets a gradient that stays inside its own hue
-   (gold → gold, red → red, rose → rose). Two hues are never blended.
-   Text on fills follows one rule: light fills (gold, sand, pale gold, coral,
-   rose, blossom) carry a dark ink of the same hue; dark fills (red, crimson,
-   slate) carry white.                                                       */
+/* ── 2. Solid fills: same-family palette gradient. Text on light fills is
+   neutral dark; text on Red / Ruby / Oak stays white.                       */
 :is(
   .bg-\[\#D6B14D\],
   .bg-\[\#d6b14d\],
@@ -189,229 +175,176 @@
   .hover\:bg-primary:hover,
   .group:hover .group-hover\:bg-primary,
   [style*="background-color: rgb(214, 177, 77)"]
-) { background-image: linear-gradient(135deg, #E6C870 0%, #D6B14D 52%, #BE9832 100%); }
-[style*="background: rgb(214, 177, 77)"] { background-image: linear-gradient(135deg, #E6C870 0%, #D6B14D 52%, #BE9832 100%) !important; }
+) { background-image: linear-gradient(135deg, var(--p-gold) 0%, var(--p-amber) 100%); }
+[style*="background: rgb(214, 177, 77)"] { background-image: linear-gradient(135deg, var(--p-gold) 0%, var(--p-amber) 100%) !important; }
 :is(.bg-\[\#D6B14D\], .bg-\[\#d6b14d\], .bg-primary, .hover\:bg-primary:hover, .group:hover .group-hover\:bg-primary, [style*="background-color: rgb(214, 177, 77)"], [style*="background: rgb(214, 177, 77)"]):is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
 :is(.bg-\[\#D6B14D\], .bg-\[\#d6b14d\], .bg-primary, .hover\:bg-primary:hover, .group:hover .group-hover\:bg-primary, [style*="background-color: rgb(214, 177, 77)"], [style*="background: rgb(214, 177, 77)"]) > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
-:is(.bg-\[\#D6B14D\], .bg-\[\#d6b14d\], .bg-primary, .hover\:bg-primary:hover, .group:hover .group-hover\:bg-primary, [style*="background-color: rgb(214, 177, 77)"], [style*="background: rgb(214, 177, 77)"]) > * > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]) { color: #33270A !important; text-shadow: none; }
+:is(.bg-\[\#D6B14D\], .bg-\[\#d6b14d\], .bg-primary, .hover\:bg-primary:hover, .group:hover .group-hover\:bg-primary, [style*="background-color: rgb(214, 177, 77)"], [style*="background: rgb(214, 177, 77)"]) > * > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]) { color: var(--fill-ink) !important; }
 :is(
   .bg-\[\#B8962D\],
   .bg-\[\#b8962d\],
   [style*="background-color: rgb(184, 150, 45)"]
-) { background-image: linear-gradient(135deg, #CAA944 0%, #B8962D 52%, #9F7F1E 100%); }
-[style*="background: rgb(184, 150, 45)"] { background-image: linear-gradient(135deg, #CAA944 0%, #B8962D 52%, #9F7F1E 100%) !important; }
+) { background-image: linear-gradient(135deg, var(--p-amber) 0%, var(--p-oak) 100%); }
+[style*="background: rgb(184, 150, 45)"] { background-image: linear-gradient(135deg, var(--p-amber) 0%, var(--p-oak) 100%) !important; }
 :is(.bg-\[\#B8962D\], .bg-\[\#b8962d\], [style*="background-color: rgb(184, 150, 45)"], [style*="background: rgb(184, 150, 45)"]):is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
 :is(.bg-\[\#B8962D\], .bg-\[\#b8962d\], [style*="background-color: rgb(184, 150, 45)"], [style*="background: rgb(184, 150, 45)"]) > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
-:is(.bg-\[\#B8962D\], .bg-\[\#b8962d\], [style*="background-color: rgb(184, 150, 45)"], [style*="background: rgb(184, 150, 45)"]) > * > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]) { color: #2B2006 !important; text-shadow: none; }
+:is(.bg-\[\#B8962D\], .bg-\[\#b8962d\], [style*="background-color: rgb(184, 150, 45)"], [style*="background: rgb(184, 150, 45)"]) > * > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]) { color: var(--fill-ink) !important; }
+:is(
+  .bg-\[\#9A7D1F\],
+  .bg-\[\#9a7d1f\],
+  [style*="background-color: rgb(154, 125, 31)"]
+) { background-image: linear-gradient(135deg, var(--p-amber) 0%, var(--p-oak) 100%); }
+[style*="background: rgb(154, 125, 31)"] { background-image: linear-gradient(135deg, var(--p-amber) 0%, var(--p-oak) 100%) !important; }
 :is(
   .bg-\[\#D6C360\],
   .bg-\[\#d6c360\],
   [style*="background-color: rgb(214, 195, 96)"]
-) { background-image: linear-gradient(135deg, #E3D37D 0%, #D6C360 52%, #C2AC48 100%); }
-[style*="background: rgb(214, 195, 96)"] { background-image: linear-gradient(135deg, #E3D37D 0%, #D6C360 52%, #C2AC48 100%) !important; }
+) { background-image: linear-gradient(135deg, var(--p-honey) 0%, var(--p-gold) 100%); }
+[style*="background: rgb(214, 195, 96)"] { background-image: linear-gradient(135deg, var(--p-honey) 0%, var(--p-gold) 100%) !important; }
 :is(.bg-\[\#D6C360\], .bg-\[\#d6c360\], [style*="background-color: rgb(214, 195, 96)"], [style*="background: rgb(214, 195, 96)"]):is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
 :is(.bg-\[\#D6C360\], .bg-\[\#d6c360\], [style*="background-color: rgb(214, 195, 96)"], [style*="background: rgb(214, 195, 96)"]) > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
-:is(.bg-\[\#D6C360\], .bg-\[\#d6c360\], [style*="background-color: rgb(214, 195, 96)"], [style*="background: rgb(214, 195, 96)"]) > * > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]) { color: #3A340A !important; text-shadow: none; }
+:is(.bg-\[\#D6C360\], .bg-\[\#d6c360\], [style*="background-color: rgb(214, 195, 96)"], [style*="background: rgb(214, 195, 96)"]) > * > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]) { color: var(--fill-ink) !important; }
 :is(
   .bg-\[\#E8D688\],
   .bg-\[\#e8d688\],
   [style*="background-color: rgb(232, 214, 136)"]
-) { background-image: linear-gradient(135deg, #F2E4A8 0%, #E8D688 52%, #DAC46E 100%); }
-[style*="background: rgb(232, 214, 136)"] { background-image: linear-gradient(135deg, #F2E4A8 0%, #E8D688 52%, #DAC46E 100%) !important; }
+) { background-image: linear-gradient(135deg, var(--p-cream) 0%, var(--p-honey) 100%); }
+[style*="background: rgb(232, 214, 136)"] { background-image: linear-gradient(135deg, var(--p-cream) 0%, var(--p-honey) 100%) !important; }
 :is(.bg-\[\#E8D688\], .bg-\[\#e8d688\], [style*="background-color: rgb(232, 214, 136)"], [style*="background: rgb(232, 214, 136)"]):is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
 :is(.bg-\[\#E8D688\], .bg-\[\#e8d688\], [style*="background-color: rgb(232, 214, 136)"], [style*="background: rgb(232, 214, 136)"]) > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
-:is(.bg-\[\#E8D688\], .bg-\[\#e8d688\], [style*="background-color: rgb(232, 214, 136)"], [style*="background: rgb(232, 214, 136)"]) > * > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]) { color: #4A430C !important; text-shadow: none; }
-:is(
-  .bg-\[\#D6A076\],
-  .bg-\[\#d6a076\],
-  [style*="background-color: rgb(214, 160, 118)"]
-) { background-image: linear-gradient(135deg, #E2B590 0%, #D6A076 52%, #C2885C 100%); }
-[style*="background: rgb(214, 160, 118)"] { background-image: linear-gradient(135deg, #E2B590 0%, #D6A076 52%, #C2885C 100%) !important; }
+:is(.bg-\[\#E8D688\], .bg-\[\#e8d688\], [style*="background-color: rgb(232, 214, 136)"], [style*="background: rgb(232, 214, 136)"]) > * > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]) { color: var(--fill-ink) !important; }
 :is(.bg-\[\#D6A076\], .bg-\[\#d6a076\], [style*="background-color: rgb(214, 160, 118)"], [style*="background: rgb(214, 160, 118)"]):is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
 :is(.bg-\[\#D6A076\], .bg-\[\#d6a076\], [style*="background-color: rgb(214, 160, 118)"], [style*="background: rgb(214, 160, 118)"]) > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
-:is(.bg-\[\#D6A076\], .bg-\[\#d6a076\], [style*="background-color: rgb(214, 160, 118)"], [style*="background: rgb(214, 160, 118)"]) > * > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]) { color: #45260E !important; text-shadow: none; }
+:is(.bg-\[\#D6A076\], .bg-\[\#d6a076\], [style*="background-color: rgb(214, 160, 118)"], [style*="background: rgb(214, 160, 118)"]) > * > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]) { color: var(--fill-ink) !important; }
 :is(
   .bg-\[\#E8889C\],
   .bg-\[\#e8889c\],
   [style*="background-color: rgb(232, 136, 156)"]
-) { background-image: linear-gradient(135deg, #F19EB0 0%, #E8889C 52%, #D97089 100%); }
-[style*="background: rgb(232, 136, 156)"] { background-image: linear-gradient(135deg, #F19EB0 0%, #E8889C 52%, #D97089 100%) !important; }
+) { background-image: linear-gradient(135deg, var(--p-blossom) 0%, var(--p-rose) 100%); }
+[style*="background: rgb(232, 136, 156)"] { background-image: linear-gradient(135deg, var(--p-blossom) 0%, var(--p-rose) 100%) !important; }
 :is(.bg-\[\#E8889C\], .bg-\[\#e8889c\], [style*="background-color: rgb(232, 136, 156)"], [style*="background: rgb(232, 136, 156)"]):is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
 :is(.bg-\[\#E8889C\], .bg-\[\#e8889c\], [style*="background-color: rgb(232, 136, 156)"], [style*="background: rgb(232, 136, 156)"]) > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
-:is(.bg-\[\#E8889C\], .bg-\[\#e8889c\], [style*="background-color: rgb(232, 136, 156)"], [style*="background: rgb(232, 136, 156)"]) > * > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]) { color: #561223 !important; text-shadow: none; }
+:is(.bg-\[\#E8889C\], .bg-\[\#e8889c\], [style*="background-color: rgb(232, 136, 156)"], [style*="background: rgb(232, 136, 156)"]) > * > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]) { color: var(--fill-ink) !important; }
 :is(
   .bg-\[\#FFBAC4\],
   .bg-\[\#ffbac4\],
   [style*="background-color: rgb(255, 186, 196)"]
-) { background-image: linear-gradient(135deg, #FFCCD4 0%, #FFBAC4 52%, #F5A4B2 100%); }
-[style*="background: rgb(255, 186, 196)"] { background-image: linear-gradient(135deg, #FFCCD4 0%, #FFBAC4 52%, #F5A4B2 100%) !important; }
+) { background-image: linear-gradient(135deg, var(--p-blush) 0%, var(--p-blossom) 100%); }
+[style*="background: rgb(255, 186, 196)"] { background-image: linear-gradient(135deg, var(--p-blush) 0%, var(--p-blossom) 100%) !important; }
 :is(.bg-\[\#FFBAC4\], .bg-\[\#ffbac4\], [style*="background-color: rgb(255, 186, 196)"], [style*="background: rgb(255, 186, 196)"]):is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
 :is(.bg-\[\#FFBAC4\], .bg-\[\#ffbac4\], [style*="background-color: rgb(255, 186, 196)"], [style*="background: rgb(255, 186, 196)"]) > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
-:is(.bg-\[\#FFBAC4\], .bg-\[\#ffbac4\], [style*="background-color: rgb(255, 186, 196)"], [style*="background: rgb(255, 186, 196)"]) > * > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]) { color: #6E1F33 !important; text-shadow: none; }
+:is(.bg-\[\#FFBAC4\], .bg-\[\#ffbac4\], [style*="background-color: rgb(255, 186, 196)"], [style*="background: rgb(255, 186, 196)"]) > * > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]) { color: var(--fill-ink) !important; }
 :is(
   .bg-\[\#AC0E0E\],
   .bg-\[\#ac0e0e\],
   [style*="background-color: rgb(172, 14, 14)"]
-) { background-image: linear-gradient(135deg, #C61D1D 0%, #AC0E0E 52%, #8C0909 100%); }
-[style*="background: rgb(172, 14, 14)"] { background-image: linear-gradient(135deg, #C61D1D 0%, #AC0E0E 52%, #8C0909 100%) !important; }
+) { background-image: linear-gradient(135deg, var(--p-ruby) 0%, var(--p-red) 100%); }
+[style*="background: rgb(172, 14, 14)"] { background-image: linear-gradient(135deg, var(--p-ruby) 0%, var(--p-red) 100%) !important; }
 :is(
   .bg-\[\#C41E3A\],
   .bg-\[\#c41e3a\],
   [style*="background-color: rgb(196, 30, 58)"]
-) { background-image: linear-gradient(135deg, #D8344F 0%, #C41E3A 52%, #A2162E 100%); }
-[style*="background: rgb(196, 30, 58)"] { background-image: linear-gradient(135deg, #D8344F 0%, #C41E3A 52%, #A2162E 100%) !important; }
-:is(
-  .bg-\[\#475569\],
-  .bg-\[\#475569\],
-  [style*="background-color: rgb(71, 85, 105)"]
-) { background-image: linear-gradient(135deg, #566479 0%, #475569 52%, #3A4658 100%); }
-[style*="background: rgb(71, 85, 105)"] { background-image: linear-gradient(135deg, #566479 0%, #475569 52%, #3A4658 100%) !important; }
-:is(
-  .bg-\[\#64748B\],
-  .bg-\[\#64748b\],
-  [style*="background-color: rgb(100, 116, 139)"]
-) { background-image: linear-gradient(135deg, #74839A 0%, #64748B 52%, #56657B 100%); }
-[style*="background: rgb(100, 116, 139)"] { background-image: linear-gradient(135deg, #74839A 0%, #64748B 52%, #56657B 100%) !important; }
-:is(
-  .bg-\[\#6B6B6B\],
-  .bg-\[\#6b6b6b\],
-  [style*="background-color: rgb(107, 107, 107)"]
-) { background-image: linear-gradient(135deg, #7A7A7A 0%, #6B6B6B 52%, #5C5C5C 100%); }
-[style*="background: rgb(107, 107, 107)"] { background-image: linear-gradient(135deg, #7A7A7A 0%, #6B6B6B 52%, #5C5C5C 100%) !important; }
+) { background-image: linear-gradient(135deg, var(--p-ruby) 0%, var(--p-red) 100%); }
+[style*="background: rgb(196, 30, 58)"] { background-image: linear-gradient(135deg, var(--p-ruby) 0%, var(--p-red) 100%) !important; }
 
-/* ── Stat cards: a soft glow in the same hue as the number they show ─────── */
-.group.bg-white.rounded-2xl:has(> div > span[class*="text-2xl"], > div > p[class*="text-2xl"]) {
+/* ── 3. Stat cards: a tint of the card's own palette colour (one hue + white). */
+.group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]) {
   --glow: 214, 177, 77;
-  background: radial-gradient(120% 85% at 50% 0%, rgba(var(--glow), .075) 0%, rgba(var(--glow), 0) 62%), #FFFFFF;
+  background: radial-gradient(120% 85% at 50% 0%, rgba(var(--glow), .08) 0%, rgba(var(--glow), 0) 62%), #FFFFFF;
   transition: background .35s ease, border-color .3s ease, box-shadow .3s ease, transform .3s ease;
 }
 .group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]):hover {
-  background: radial-gradient(130% 95% at 50% 0%, rgba(var(--glow), .14) 0%, rgba(var(--glow), 0) 66%), #FFFFFF;
+  background: radial-gradient(130% 95% at 50% 0%, rgba(var(--glow), .15) 0%, rgba(var(--glow), 0) 66%), #FFFFFF;
   transform: translateY(-1px);
 }
-.group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is([style^="color: rgb(214, 177, 77)"], [style*=" color: rgb(214, 177, 77)"], [style^="color: rgb(154, 125, 31)"], [style*=" color: rgb(154, 125, 31)"], [style^="color: rgb(184, 150, 45)"], [style*=" color: rgb(184, 150, 45)"], .text-\[\#D6B14D\], .text-\[\#9A7D1F\], .text-\[\#B8962D\])) { --glow: 214, 177, 77; }
+.group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is([style^="color: rgb(214, 177, 77)"], [style*=" color: rgb(214, 177, 77)"], .text-\[\#D6B14D\], [style^="color: rgb(154, 125, 31)"], [style*=" color: rgb(154, 125, 31)"], .text-\[\#9A7D1F\], [style^="color: rgb(184, 150, 45)"], [style*=" color: rgb(184, 150, 45)"], .text-\[\#B8962D\])) { --glow: 214, 177, 77; }
+.group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is([style^="color: rgb(214, 195, 96)"], [style*=" color: rgb(214, 195, 96)"], .text-\[\#D6C360\])) { --glow: 214, 195, 96; }
+.group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is([style^="color: rgb(232, 214, 136)"], [style*=" color: rgb(232, 214, 136)"], .text-\[\#E8D688\])) { --glow: 232, 214, 136; }
+.group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is([style^="color: rgb(214, 160, 118)"], [style*=" color: rgb(214, 160, 118)"], .text-\[\#D6A076\])) { --glow: 214, 160, 118; }
 .group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is([style^="color: rgb(172, 14, 14)"], [style*=" color: rgb(172, 14, 14)"], .text-\[\#AC0E0E\])) { --glow: 172, 14, 14; }
 .group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is([style^="color: rgb(196, 30, 58)"], [style*=" color: rgb(196, 30, 58)"], .text-\[\#C41E3A\])) { --glow: 196, 30, 58; }
-.group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is([style^="color: rgb(232, 214, 136)"], [style*=" color: rgb(232, 214, 136)"], .text-\[\#E8D688\])) { --glow: 232, 214, 136; }
 .group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is([style^="color: rgb(232, 136, 156)"], [style*=" color: rgb(232, 136, 156)"], .text-\[\#E8889C\])) { --glow: 232, 136, 156; }
 .group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is([style^="color: rgb(255, 186, 196)"], [style*=" color: rgb(255, 186, 196)"], .text-\[\#FFBAC4\])) { --glow: 255, 186, 196; }
-.group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is([style^="color: rgb(214, 160, 118)"], [style*=" color: rgb(214, 160, 118)"], .text-\[\#D6A076\])) { --glow: 214, 160, 118; }
-.group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is(.text-gray-900, .text-gray-600, .text-gray-500, .text-gray-400)) { --glow: 107, 114, 128; }
-
-/* Total cards (cream) share the current-year bar treatment */
-.bg-\[\#FFF9E6\].rounded-2xl {
-  background:
-    linear-gradient(90deg, rgba(214,177,77,0) 0%, rgba(214,177,77,.6) 30%, rgba(255,255,255,.95) 50%, rgba(214,177,77,.6) 70%, rgba(214,177,77,0) 100%) top / 100% 1px no-repeat,
-    radial-gradient(70% 140% at 50% 0%, rgba(255,222,140,.55) 0%, rgba(255,243,204,0) 70%),
-    linear-gradient(180deg, #FFFBEE 0%, #FFF6DA 100%);
+.group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is(.text-gray-900, .text-gray-600, .text-gray-500, .text-gray-400)) {
+  background: #FFFFFF;
+}
+.group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is(.text-gray-900, .text-gray-600, .text-gray-500, .text-gray-400)):hover {
+  background: var(--p-buttercream);
 }
 
-/* ─────────────────────────────────────────────────────────────
-   Accordion / year bars (site-wide)
-   - Keeps the existing palette (#FFF3CC current, gray-50 past, gold #D6B14D)
-   - Adds depth: radial glow, top hairline, gold accent rail, glass pills,
-     and a soft sheen on hover.
-   ───────────────────────────────────────────────────────────── */
+/* Total cards: Buttercream → Vanilla with a Sunlight glow and a Gold hairline */
+.bg-\[\#FFF9E6\].rounded-2xl {
+  background:
+    linear-gradient(90deg, rgba(214, 177, 77, 0) 0%, rgba(214, 177, 77, .7) 50%, rgba(214, 177, 77, 0) 100%) top / 100% 1px no-repeat,
+    radial-gradient(70% 140% at 50% 0%, rgba(255, 235, 153, .75) 0%, rgba(255, 235, 153, 0) 70%),
+    linear-gradient(180deg, var(--p-buttercream) 0%, var(--p-vanilla) 100%);
+}
+
+/* ── 4. Accordion / year bars ─────────────────────────────────────────────
+   current year : Buttercream → Vanilla, Sunlight glow, Gold hairline, Gold rail
+   past years   : neutral surface (no colour mixed in); Buttercream on hover
+   section heads: white; Buttercream on hover                                */
 .fbar {
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  transition: box-shadow .35s ease, background-color .35s ease, filter .35s ease;
+  transition: background .35s ease, box-shadow .35s ease;
 }
 .fbar > * { position: relative; z-index: 1; }
-
-/* gold accent rail on the left */
 .fbar::before {
   content: "";
   position: absolute;
   left: 0; top: 18%; bottom: 18%;
   width: 3px;
   border-radius: 0 3px 3px 0;
-  background: linear-gradient(180deg, #F2DE97 0%, #D6B14D 55%, #B8962D 100%);
+  background: linear-gradient(180deg, var(--p-sunlight) 0%, var(--p-gold) 50%, var(--p-amber) 100%);
   opacity: 0;
   transform: scaleY(.35);
   transition: opacity .35s ease, transform .45s cubic-bezier(.2,.8,.2,1);
   z-index: 0;
 }
-/* light sheen (hover) */
-.fbar::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(105deg, rgba(255,255,255,0) 35%, rgba(255,255,255,.55) 50%, rgba(255,255,255,0) 65%);
-  transform: translateX(-120%);
-  transition: transform .9s cubic-bezier(.2,.7,.2,1);
-  pointer-events: none;
-  z-index: 0;
-}
-.fbar:hover::after { transform: translateX(120%); }
-.fbar:hover::before { opacity: .9; transform: scaleY(1); }
-.fbar:focus-visible { outline: 2px solid #D6B14D; outline-offset: -2px; }
+.fbar:hover::before { opacity: 1; transform: scaleY(1); }
+.fbar:focus-visible { outline: 2px solid var(--p-gold); outline-offset: -2px; }
 
-/* current year: warm cream with radial gold glow */
 .fbar-current {
   background:
-    linear-gradient(90deg, rgba(214,177,77,0) 0%, rgba(214,177,77,.75) 22%, rgba(255,255,255,.95) 42%, rgba(214,177,77,0) 78%) top / 100% 1px no-repeat,
-    radial-gradient(70% 220% at 0% 0%, rgba(255,222,140,.95) 0%, rgba(255,232,170,.55) 32%, rgba(255,243,204,0) 62%),
-    radial-gradient(45% 180% at 100% 0%, rgba(255,236,180,.55) 0%, rgba(255,236,180,0) 70%),
-    linear-gradient(180deg, #FFF7DD 0%, #FFF3CC 100%);
-  box-shadow: inset 0 -1px 0 rgba(214,177,77,.18);
+    linear-gradient(90deg, rgba(214, 177, 77, 0) 0%, rgba(214, 177, 77, .8) 25%, rgba(214, 177, 77, 0) 80%) top / 100% 1px no-repeat,
+    radial-gradient(70% 220% at 0% 0%, rgba(255, 235, 153, .95) 0%, rgba(255, 235, 153, 0) 62%),
+    radial-gradient(45% 180% at 100% 0%, rgba(255, 235, 153, .5) 0%, rgba(255, 235, 153, 0) 70%),
+    linear-gradient(180deg, var(--p-buttercream) 0%, var(--p-vanilla) 100%);
+  box-shadow: inset 0 -1px 0 rgba(214, 177, 77, .2);
 }
 .fbar-current::before { opacity: 1; transform: scaleY(1); }
-.fbar-current:hover { filter: saturate(1.12) brightness(1.01); }
-
-/* past years / sub groups: soft neutral with a faint gold corner */
-.fbar-past {
+.fbar-current:hover {
   background:
-    radial-gradient(60% 220% at 0% 0%, rgba(214,177,77,.10) 0%, rgba(214,177,77,0) 60%),
-    linear-gradient(180deg, #FCFCFD 0%, #F6F7F9 100%);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.9);
+    linear-gradient(90deg, rgba(214, 177, 77, 0) 0%, rgba(214, 177, 77, .9) 25%, rgba(214, 177, 77, 0) 80%) top / 100% 1px no-repeat,
+    radial-gradient(80% 240% at 0% 0%, rgba(255, 235, 153, 1) 0%, rgba(255, 235, 153, 0) 66%),
+    linear-gradient(180deg, var(--p-vanilla) 0%, var(--p-vanilla) 100%);
 }
-.fbar-past:hover {
-  background:
-    radial-gradient(70% 240% at 0% 0%, rgba(214,177,77,.20) 0%, rgba(214,177,77,0) 62%),
-    linear-gradient(180deg, #FDFCF8 0%, #F4F3EE 100%);
-}
-
-/* card section headers: white with a warm corner on hover */
+.fbar-past { background: #F9FAFB; box-shadow: inset 0 1px 0 #FFFFFF; }
+.fbar-past:hover { background: var(--p-buttercream); }
 .fbar-section { background: transparent; }
-.fbar-section:hover {
-  background: radial-gradient(55% 260% at 0% 0%, rgba(214,177,77,.13) 0%, rgba(214,177,77,0) 62%), #FCFBF7;
-}
+.fbar-section:hover { background: var(--p-buttercream); }
 
-/* count pills inside bars → glass chips */
+/* count pills inside bars */
 :is(.fbar-current, .fbar-past) .bg-white.shadow-sm {
-  background: rgba(255,255,255,.72);
+  background: rgba(255, 255, 255, .78);
   -webkit-backdrop-filter: blur(6px);
   backdrop-filter: blur(6px);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.95), 0 0 0 1px rgba(214,177,77,.16), 0 6px 14px -8px rgba(154,125,31,.45);
+  box-shadow: 0 0 0 1px rgba(214, 177, 77, .2), 0 6px 14px -8px rgba(154, 125, 31, .45);
 }
 .fbar-past .bg-white.shadow-sm {
-  box-shadow: inset 0 1px 0 rgba(255,255,255,.95), 0 0 0 1px rgba(17,24,39,.05), 0 4px 10px -8px rgba(17,24,39,.25);
+  background: #FFFFFF;
+  box-shadow: 0 0 0 1px rgba(17, 24, 39, .06), 0 4px 10px -8px rgba(17, 24, 39, .25);
 }
+.fbar-current .fbar-year { color: var(--p-oak); }
 
-/* current year number: metallic gold */
-.fbar-current .fbar-year {
-  background: linear-gradient(180deg, #A07A14 0%, #6E5410 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-/* card around the current-year bar gets a soft gold lift */
+/* card around the current-year bar */
 :where(div):has(> .fbar-current) {
-  box-shadow: 0 14px 32px -22px rgba(154,125,31,.55), 0 1px 2px rgba(0,0,0,.03);
+  box-shadow: 0 14px 32px -22px rgba(154, 125, 31, .55), 0 1px 2px rgba(0, 0, 0, .03);
 }
 
-/* ── Readability inside bars ─────────────────────────────────
-   Light palette colours (#D6B14D, #E8D688, #FFBAC4, #E8889C) fail contrast
-   as text. Keep each hue as a small dot, and draw the number itself in a
-   darker tone of the same hue (≥ 4.5:1 on the bar).                       */
-:is(.fbar-current, .fbar-past) :is(.text-\[\#D6B14D\], [style^="color: rgb(214, 177, 77)"], [style*=" color: rgb(214, 177, 77)"]) { color: var(--ink-gold) !important; }
-:is(.fbar-current, .fbar-past) :is(.text-\[\#E8D688\], [style^="color: rgb(232, 214, 136)"], [style*=" color: rgb(232, 214, 136)"]) { color: var(--ink-olive) !important; }
-:is(.fbar-current, .fbar-past) :is(.text-\[\#FFBAC4\], [style^="color: rgb(255, 186, 196)"], [style*=" color: rgb(255, 186, 196)"]) { color: var(--ink-pink) !important; }
-:is(.fbar-current, .fbar-past) :is(.text-\[\#E8889C\], [style^="color: rgb(232, 136, 156)"], [style*=" color: rgb(232, 136, 156)"]) { color: var(--ink-rose) !important; }
-
+/* pills: palette dot + Oak / Red / Ruby number */
 :is(.fbar-current, .fbar-past) .bg-white.shadow-sm > .font-bold::before {
   content: "";
   display: inline-block;
@@ -421,18 +354,19 @@
   vertical-align: 0.1em;
   background: currentColor;
 }
-:is(.fbar-current, .fbar-past) .bg-white.shadow-sm > :is(.text-\[\#D6B14D\], [style^="color: rgb(214, 177, 77)"], [style*=" color: rgb(214, 177, 77)"])::before { background: #D6B14D; }
-:is(.fbar-current, .fbar-past) .bg-white.shadow-sm > :is(.text-\[\#E8D688\], [style^="color: rgb(232, 214, 136)"], [style*=" color: rgb(232, 214, 136)"])::before { background: #E8D688; }
-:is(.fbar-current, .fbar-past) .bg-white.shadow-sm > :is(.text-\[\#FFBAC4\], [style^="color: rgb(255, 186, 196)"], [style*=" color: rgb(255, 186, 196)"])::before { background: #FFBAC4; }
-:is(.fbar-current, .fbar-past) .bg-white.shadow-sm > :is(.text-\[\#E8889C\], [style^="color: rgb(232, 136, 156)"], [style*=" color: rgb(232, 136, 156)"])::before { background: #E8889C; }
-:is(.fbar-current, .fbar-past) .bg-white.shadow-sm > .text-\[\#AC0E0E\]::before,
-:is(.fbar-current, .fbar-past) .bg-white.shadow-sm > [style^="color: rgb(172, 14, 14)"], [style*=" color: rgb(172, 14, 14)"]::before { background: #AC0E0E; }
+:is(.fbar-current, .fbar-past) .bg-white.shadow-sm > :is(.text-\[\#D6B14D\], [style^="color: rgb(214, 177, 77)"], [style*=" color: rgb(214, 177, 77)"])::before { background: var(--p-gold); }
+:is(.fbar-current, .fbar-past) .bg-white.shadow-sm > :is(.text-\[\#E8D688\], [style^="color: rgb(232, 214, 136)"], [style*=" color: rgb(232, 214, 136)"])::before { background: var(--p-cream); }
+:is(.fbar-current, .fbar-past) .bg-white.shadow-sm > :is(.text-\[\#D6C360\], [style^="color: rgb(214, 195, 96)"], [style*=" color: rgb(214, 195, 96)"])::before { background: var(--p-honey); }
+:is(.fbar-current, .fbar-past) .bg-white.shadow-sm > :is(.text-\[\#E8889C\], [style^="color: rgb(232, 136, 156)"], [style*=" color: rgb(232, 136, 156)"])::before { background: var(--p-rose); }
+:is(.fbar-current, .fbar-past) .bg-white.shadow-sm > :is(.text-\[\#FFBAC4\], [style^="color: rgb(255, 186, 196)"], [style*=" color: rgb(255, 186, 196)"])::before { background: var(--p-blossom); }
+:is(.fbar-current, .fbar-past) .bg-white.shadow-sm > :is(.text-\[\#AC0E0E\], [style^="color: rgb(172, 14, 14)"], [style*=" color: rgb(172, 14, 14)"])::before { background: var(--p-red); }
+:is(.fbar-current, .fbar-past) .bg-white.shadow-sm > :is(.text-\[\#C41E3A\], [style^="color: rgb(196, 30, 58)"], [style*=" color: rgb(196, 30, 58)"])::before { background: var(--p-ruby); }
+:is(.fbar-current, .fbar-past) .bg-white.shadow-sm > :is(.text-\[\#D6A076\], [style^="color: rgb(214, 160, 118)"], [style*=" color: rgb(214, 160, 118)"])::before { background: var(--p-coral); }
 /* the dot replaces the "·" separator */
 :is(.fbar-current, .fbar-past) .bg-white.shadow-sm > .text-gray-300 { font-size: 0; margin-left: 10px; }
-/* label text a touch darker than gray-500 */
 :is(.fbar-current, .fbar-past) .bg-white.shadow-sm > .text-gray-500 { color: #4B5563; }
 
-/* minimum legible size for counts (mobile 9–10px → 11px) */
+/* minimum legible sizes inside bars */
 :is(.fbar-current, .fbar-past) .text-\[9px\] { font-size: 11px; line-height: 1.45; }
 :is(.fbar-current, .fbar-past) .text-\[10px\]:not([class*="md:text-"]) { font-size: 11.5px; line-height: 1.45; }
 @media (min-width: 768px) {
@@ -443,6 +377,5 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .fbar, .fbar::before, .fbar::after { transition: none; }
-  .fbar:hover::after { transform: translateX(-120%); }
+  .fbar, .fbar::before { transition: none; }
 }

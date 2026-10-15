@@ -66,8 +66,8 @@ const typeConfig = {
     labelPlural: 'Industry Projects',
     labelKo: '산업체과제',
     color: 'bg-[#AC0E0E]',
-    bgColor: 'bg-red-50',
-    borderColor: 'border-red-200',
+    bgColor: 'bg-[#FFE4E9]',
+    borderColor: 'border-[#FFBAC4]',
     textColor: 'text-[#AC0E0E]',
   },
   institution: {
@@ -88,7 +88,7 @@ const typeConfig = {
     labelPlural: 'Research Projects',
     labelKo: '연구과제',
     color: 'bg-[#E8889C]',
-    bgColor: 'bg-pink-50',
+    bgColor: 'bg-[#FFE4E9]',
     borderColor: 'border-[#E8889C]/30',
     textColor: 'text-[#E8889C]',
   },
@@ -374,7 +374,7 @@ export const ProjectsTemplate = () => {
           data-pan className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
           style={{ backgroundImage: `url(${bannerProjects})`, backgroundPosition: '50% 20%' }}
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#B8962D]/20" />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-black/10" />
         <div className="absolute inset-0" style={{background: 'radial-gradient(ellipse 55% 70% at 50% 50%, rgba(0,0,0,0.34) 0%, transparent 70%)'}} />
         <div className="absolute inset-0" style={{backgroundColor: 'rgba(214, 177, 77, 0.08)'}} />
         <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent" />
@@ -386,7 +386,7 @@ export const ProjectsTemplate = () => {
         <div className="relative h-full flex flex-col items-center justify-center px-20">
           <div className="flex items-center gap-8 mb-16 md:mb-20">
             <div className="w-8 md:w-12 h-px bg-gradient-to-r from-transparent to-[#D6B14D]/80" />
-            <span className="text-[#F2DE97] text-[10px] md:text-xs font-semibold tracking-[0.3em] uppercase [text-shadow:0_1px_10px_rgba(0,0,0,0.6)]">
+            <span className="text-[#FFEB99] text-[10px] md:text-xs font-semibold tracking-[0.3em] uppercase [text-shadow:0_1px_10px_rgba(0,0,0,0.6)]">
               Research
             </span>
             <div className="w-8 md:w-12 h-px bg-gradient-to-l from-transparent to-[#D6B14D]/80" />

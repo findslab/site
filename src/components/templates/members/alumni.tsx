@@ -322,7 +322,7 @@ export const MembersAlumniTemplate = () => {
           data-pan className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
           style={{ backgroundImage: `url(${bannerAlumni})`, backgroundPosition: '50% 72%' }}
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#B8962D]/20" />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-black/10" />
         <div className="absolute inset-0" style={{background: 'radial-gradient(ellipse 55% 70% at 50% 50%, rgba(0,0,0,0.34) 0%, transparent 70%)'}} />
         <div className="absolute inset-0" style={{backgroundColor: 'rgba(214, 177, 77, 0.08)'}} />
         <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent" />
@@ -334,7 +334,7 @@ export const MembersAlumniTemplate = () => {
         <div className="relative h-full flex flex-col items-center justify-center px-20">
           <div className="flex items-center gap-8 mb-16 md:mb-20">
             <div className="w-8 md:w-12 h-px bg-gradient-to-r from-transparent to-[#D6B14D]/80" />
-            <span className="text-[#F2DE97] text-[10px] md:text-xs font-semibold tracking-[0.3em] uppercase [text-shadow:0_1px_10px_rgba(0,0,0,0.6)]">
+            <span className="text-[#FFEB99] text-[10px] md:text-xs font-semibold tracking-[0.3em] uppercase [text-shadow:0_1px_10px_rgba(0,0,0,0.6)]">
               Members
             </span>
             <div className="w-8 md:w-12 h-px bg-gradient-to-l from-transparent to-[#D6B14D]/80" />
@@ -527,7 +527,7 @@ export const MembersAlumniTemplate = () => {
                                     <div className="flex items-center gap-10 md:gap-12">
                                       <div 
                                         className="size-36 md:size-40 rounded-full flex items-center justify-center shrink-0"
-                                        style={{background: 'linear-gradient(135deg, rgba(214, 176, 76,0.15) 0%, rgba(214, 176, 76,0.08) 100%)'}}
+                                        style={{background: 'linear-gradient(135deg, rgba(214, 177, 77,0.15) 0%, rgba(214, 177, 77,0.08) 100%)'}}
                                       >
                                         <span className="text-xs md:text-sm font-bold" style={{color: '#D6B14D'}}>{alumniNumber}</span>
                                       </div>
@@ -546,7 +546,7 @@ export const MembersAlumniTemplate = () => {
                                   </td>
                                   <td className="py-12 md:py-16 px-12 md:px-16">
                                     <span className="px-8 md:px-10 py-3 md:py-4 text-[10px] md:text-xs font-bold rounded-full"
-                                      style={{backgroundColor: 'rgba(214, 176, 76,0.1)', color: '#D6B14D'}}>
+                                      style={{backgroundColor: 'rgba(214, 177, 77,0.1)', color: '#D6B14D'}}>
                                       Ph.D.
                                     </span>
                                   </td>
@@ -624,14 +624,14 @@ export const MembersAlumniTemplate = () => {
                             className={`rounded-xl border border-gray-100 bg-white overflow-hidden ${hasThesis ? 'cursor-pointer' : ''}`}
                             onClick={() => hasThesis && toggleAlumniExpand(alumni.name)}
                           >
-                            <div className="px-14 py-12 flex items-center gap-10 bg-gradient-to-r from-amber-50/50 to-white">
-                              <div className="size-36 rounded-full flex items-center justify-center shrink-0" style={{background: 'linear-gradient(135deg, rgba(214, 176, 76,0.2) 0%, rgba(214, 176, 76,0.1) 100%)'}}>
+                            <div className="px-14 py-12 flex items-center gap-10 bg-gradient-to-r from-[#FFF9E6] to-white">
+                              <div className="size-36 rounded-full flex items-center justify-center shrink-0" style={{background: 'linear-gradient(135deg, rgba(214, 177, 77,0.2) 0%, rgba(214, 177, 77,0.1) 100%)'}}>
                                 <span className="text-sm font-bold" style={{color: '#D6B14D'}}>{alumniNumber}</span>
                               </div>
                               <div className="flex-1 min-w-0">
                                 <div className="flex items-center gap-6">
                                   <p className="text-sm font-bold text-gray-900">{alumni.nameKo || alumni.name}</p>
-                                  <span className="px-6 py-1 text-[9px] font-bold rounded-full" style={{backgroundColor: 'rgba(214, 176, 76,0.1)', color: '#D6B14D'}}>
+                                  <span className="px-6 py-1 text-[9px] font-bold rounded-full" style={{backgroundColor: 'rgba(214, 177, 77,0.1)', color: '#D6B14D'}}>
                                     Ph.D.
                                   </span>
                                   {hasThesis && (
@@ -736,7 +736,7 @@ export const MembersAlumniTemplate = () => {
                                     <div className="flex items-center gap-10 md:gap-12">
                                       <div 
                                         className="size-36 md:size-40 rounded-full flex items-center justify-center shrink-0"
-                                        style={{background: 'linear-gradient(135deg, rgba(232,135,155,0.2) 0%, rgba(232,135,155,0.1) 100%)'}}
+                                        style={{background: 'linear-gradient(135deg, rgba(232,136,156,0.2) 0%, rgba(232,136,156,0.1) 100%)'}}
                                       >
                                         <span className="text-xs md:text-sm font-bold" style={{color: '#C41E3A'}}>{alumniNumber}</span>
                                       </div>
@@ -833,8 +833,8 @@ export const MembersAlumniTemplate = () => {
                             className={`rounded-xl border border-gray-100 bg-white overflow-hidden ${hasThesis ? 'cursor-pointer' : ''}`}
                             onClick={() => hasThesis && toggleAlumniExpand(alumni.name)}
                           >
-                            <div className="px-14 py-12 flex items-center gap-10 bg-gradient-to-r from-pink-50/50 to-white">
-                              <div className="size-36 rounded-full flex items-center justify-center shrink-0" style={{background: 'linear-gradient(135deg, rgba(232,135,155,0.25) 0%, rgba(232,135,155,0.12) 100%)'}}>
+                            <div className="px-14 py-12 flex items-center gap-10 bg-gradient-to-r from-[#FFE4E9]/70 to-white">
+                              <div className="size-36 rounded-full flex items-center justify-center shrink-0" style={{background: 'linear-gradient(135deg, rgba(232,136,156,0.25) 0%, rgba(232,136,156,0.12) 100%)'}}>
                                 <span className="text-sm font-bold" style={{color: '#C41E3A'}}>{alumniNumber}</span>
                               </div>
                               <div className="flex-1 min-w-0">
@@ -987,7 +987,7 @@ export const MembersAlumniTemplate = () => {
                                         const thisTooltip = cohortNames[ci]?.match(/\(([^)]+)\)/)?.[1] || cohortNames[ci] || ''
                                         return (
                                           <div key={ci} className="group/badge relative">
-                                            <span className="px-10 md:px-12 py-4 md:py-5 text-[10px] md:text-xs font-bold rounded-full inline-block w-fit cursor-default transition-all duration-200 hover:shadow-md" style={{backgroundColor: 'rgba(255,183,197,0.15)', color: '#C41E3A'}}>
+                                            <span className="px-10 md:px-12 py-4 md:py-5 text-[10px] md:text-xs font-bold rounded-full inline-block w-fit cursor-default transition-all duration-200 hover:shadow-md" style={{backgroundColor: 'rgba(255,186,196,0.15)', color: '#C41E3A'}}>
                                               {c}
                                             </span>
                                             {thisTooltip && (
@@ -1066,13 +1066,13 @@ export const MembersAlumniTemplate = () => {
                             onClick={() => hasProjects && toggleAlumniExpand(alumni.name)}
                           >
                             {/* Card Header */}
-                            <div className="px-14 py-12 flex items-center gap-10 bg-gradient-to-r from-pink-50/50 to-white">
+                            <div className="px-14 py-12 flex items-center gap-10 bg-gradient-to-r from-[#FFE4E9]/70 to-white">
                               <AlumniAvatar size="sm" />
                               <div className="flex-1 min-w-0">
                                 <div className="flex items-center gap-6">
                                   <p className="text-sm font-bold text-gray-900">{alumni.name}</p>
                                   {(alumni.cohort || '-').split(', ').map((c: string, ci: number) => (
-                                    <span key={ci} className="px-6 py-1 text-[9px] font-bold rounded-full" style={{backgroundColor: 'rgba(255,183,197,0.15)', color: '#C41E3A'}}>
+                                    <span key={ci} className="px-6 py-1 text-[9px] font-bold rounded-full" style={{backgroundColor: 'rgba(255,186,196,0.15)', color: '#C41E3A'}}>
                                       {c}
                                     </span>
                                   ))}
