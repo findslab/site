@@ -39,7 +39,7 @@ type NewsTag = 'Honors' | 'Awards' | 'Events' | 'General';
 const tagColors: Record<NewsTag, { bg: string; text: string; border: string; hoverText: string }> = {
   'Honors': { bg: 'bg-[#D6B14D]/10', text: 'text-[#9A7D1F]', border: 'border-[#D6B14D]/30', hoverText: '#9A7D1F' },
   'Awards': { bg: 'bg-[#AC0E0E]/10', text: 'text-[#AC0E0E]', border: 'border-[#AC0E0E]/30', hoverText: '#AC0E0E' },
-  'Events': { bg: 'bg-[#D6A076]/10', text: 'text-[#B8962D]', border: 'border-[#D6A076]/30', hoverText: '#B8962D' },
+  'Events': { bg: 'bg-[#D6A076]/10', text: 'text-[#8F5A2E]', border: 'border-[#D6A076]/30', hoverText: '#8F5A2E' },
   'General': { bg: 'bg-gray-100', text: 'text-gray-600', border: 'border-gray-200', hoverText: '#4B5563' }
 };
 
@@ -238,7 +238,7 @@ export const ArchivesNewsTemplate = () => {
       <div className="relative w-full h-[clamp(190px,26vw,440px)] overflow-hidden">
         <div className="absolute inset-0 bg-cover bg-center md:hidden" style={{ backgroundImage: `url(${bannerNewsM})`, backgroundPosition: '50% 30%' }} />
         <div data-pan className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]" style={{ backgroundImage: `url(${bannerNews})`, backgroundPosition: '50% 20%' }} />
-        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#D6A076]/20" />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#B8962D]/20" />
         <div className="absolute inset-0" style={{background: 'radial-gradient(ellipse 55% 70% at 50% 50%, rgba(0,0,0,0.34) 0%, transparent 70%)'}} />
         <div className="absolute inset-0" style={{backgroundColor: 'rgba(214, 177, 77, 0.08)'}} />
         <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent" />

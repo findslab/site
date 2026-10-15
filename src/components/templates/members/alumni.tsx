@@ -23,7 +23,7 @@ const AlumniAvatar = ({ size = 'md' }: { size?: 'sm' | 'md' }) => {
   return (
     <div 
       className={`${sizeClass} rounded-full flex items-center justify-center shrink-0`}
-      style={{background: 'linear-gradient(135deg, rgba(255,186,196,0.2) 0%, rgba(196,30,58,0.15) 100%)'}}
+      style={{background: 'linear-gradient(135deg, rgba(255,186,196,0.28) 0%, rgba(232,136,156,0.2) 100%)'}}
     >
       <Lightbulb size={16} style={{color: '#FFBAC4'}}/>
     </div>
@@ -322,7 +322,7 @@ export const MembersAlumniTemplate = () => {
           data-pan className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
           style={{ backgroundImage: `url(${bannerAlumni})`, backgroundPosition: '50% 72%' }}
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#D6A076]/20" />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#B8962D]/20" />
         <div className="absolute inset-0" style={{background: 'radial-gradient(ellipse 55% 70% at 50% 50%, rgba(0,0,0,0.34) 0%, transparent 70%)'}} />
         <div className="absolute inset-0" style={{backgroundColor: 'rgba(214, 177, 77, 0.08)'}} />
         <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent" />

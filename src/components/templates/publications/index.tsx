@@ -66,9 +66,9 @@ const pubFilterColors: Record<string, { bg: string; border: string; text: string
   'ESCI': { bg: '#D6C360', border: '#D6C360', text: '#FFFFFF' },
   'Scopus': { bg: '#D6C360', border: '#D6C360', text: '#FFFFFF' },
   'Other International': { bg: '#E8D688', border: '#E8D688', text: '#9A7D1F' },
-  'KCI': { bg: '#64748b', border: '#64748b', text: '#FFFFFF' },
-  'Other Domestic': { bg: '#94a3b8', border: '#94a3b8', text: '#FFFFFF' },
-  'Preprint': { bg: '#8B8B8B', border: '#8B8B8B', text: '#FFFFFF' },
+  'KCI': { bg: '#475569', border: '#475569', text: '#FFFFFF' },
+  'Other Domestic': { bg: '#64748b', border: '#64748b', text: '#FFFFFF' },
+  'Preprint': { bg: '#6B6B6B', border: '#6B6B6B', text: '#FFFFFF' },
   'International Conference': { bg: '#AC0E0E', border: '#AC0E0E', text: '#FFFFFF' },
   'Domestic Conference': { bg: '#E8889C', border: '#E8889C', text: '#FFFFFF' },
   'Oral': { bg: '#D6B14D', border: '#D6B14D', text: '#FFFFFF' },
@@ -626,7 +626,7 @@ export const PublicationsTemplate = () => {
         />
         
         {/* Luxurious Gold Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#D6A076]/20" />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#B8962D]/20" />
         <div className="absolute inset-0" style={{background: 'radial-gradient(ellipse 55% 70% at 50% 50%, rgba(0,0,0,0.34) 0%, transparent 70%)'}} />
         <div className="absolute inset-0" style={{backgroundColor: 'rgba(214, 177, 77, 0.08)'}} />
         <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent" />
@@ -1257,7 +1257,7 @@ export const PublicationsTemplate = () => {
                                             color: ['SCIE', 'SSCI', 'A&HCI'].includes(pub.indexing_group) ? '#D6B14D' :
                                               pub.indexing_group === 'ESCI' || pub.indexing_group === 'Scopus' ? '#D6C360' :
                                               pub.indexing_group === 'Other International' ? '#9A7D1F' :
-                                              pub.indexing_group === 'KCI' ? '#64748b' : '#94a3b8'
+                                              pub.indexing_group === 'KCI' ? '#475569' : '#64748b'
                                           }}
                                         >
                                           {pub.indexing_group}

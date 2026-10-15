@@ -386,7 +386,7 @@ export const HomeTemplate = () => {
                   </div>
                   {/* Verb - large accent word */}
                   <div className="flex items-baseline gap-10">
-                    <span className="text-2xl md:text-[40px] lg:text-[52px] xl:text-[60px] font-black tracking-tight bg-gradient-to-r from-[#D6B14D] to-[#E8D688] bg-clip-text text-transparent leading-tight pb-2 cursor-pointer transition-all duration-500 hover:drop-shadow-[0_0_25px_rgba(214,177,77,0.7)] hover:brightness-125 hover:scale-[1.02]">
+                    <span className="text-2xl md:text-[40px] lg:text-[52px] xl:text-[60px] font-black tracking-tight bg-gradient-to-r from-[#8A6A10] via-[#B08A26] to-[#C49B34] bg-clip-text text-transparent leading-tight pb-2 cursor-pointer transition-all duration-500 hover:drop-shadow-[0_0_25px_rgba(214,177,77,0.7)] hover:brightness-125 hover:scale-[1.02]">
                       {slide.verb}
                     </span>
                     <span className="hidden lg:block w-12 lg:w-20 h-[2px] bg-gradient-to-r from-[#D6B14D] to-transparent rounded-full" />
@@ -397,7 +397,7 @@ export const HomeTemplate = () => {
                       <Link
                         key={btnIndex}
                         to={button.path}
-                        className="px-12 md:px-18 lg:px-20 py-8 md:py-14 lg:py-16 bg-primary text-white! text-xs md:text-sm lg:text-md font-medium rounded-xl hover:bg-primary/90 transition-colors whitespace-nowrap"
+                        className="px-12 md:px-18 lg:px-20 py-8 md:py-14 lg:py-16 bg-primary text-white text-xs md:text-sm lg:text-md font-medium rounded-xl hover:bg-primary/90 transition-colors whitespace-nowrap"
                       >
                         {button.label}
                       </Link>
@@ -417,7 +417,7 @@ export const HomeTemplate = () => {
       <section className="relative h-300 md:h-414 overflow-hidden">
         <img loading="eager" src={hero4} alt="" className="absolute inset-0 w-full h-full object-cover" />
         <div className="absolute inset-0 bg-black/60" />
-        <div className="relative h-full flex flex-col items-center justify-center text-center text-white px-16">
+        <div className="ink-keep relative h-full flex flex-col items-center justify-center text-center text-white px-16">
           {/* 배경 그림 속 로고와 구분되도록 얇은 윤곽선 + 부드러운 그림자 (색 전환 필터와 분리하기 위해 바깥 틀에 적용) */}
           <div
             className="mb-16 md:mb-24"

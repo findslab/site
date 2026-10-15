@@ -1346,7 +1346,7 @@ export const MembersDirectorAcademicTemplate = () => {
           data-pan className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
           style={{ backgroundImage: `url(${bannerDirector})`, backgroundPosition: '50% 65%' }}
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#D6A076]/20" />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#B8962D]/20" />
         <div className="absolute inset-0" style={{background: 'radial-gradient(ellipse 55% 70% at 50% 50%, rgba(0,0,0,0.34) 0%, transparent 70%)'}} />
         <div className="absolute inset-0" style={{backgroundColor: 'rgba(214, 177, 77, 0.08)'}} />
         <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent" />
@@ -1782,8 +1782,8 @@ export const MembersDirectorAcademicTemplate = () => {
                               <span className={`px-6 py-2 rounded text-[10px] md:text-xs font-bold self-start md:self-auto shrink-0 whitespace-nowrap ${
                                 journal.type === 'SCIE' || journal.type === 'SSCI' || journal.type === 'A&HCI' ? 'bg-[#D6B14D] text-white' :
                                 journal.type === 'ESCI' || journal.type === 'SCOPUS' || journal.type === 'Scopus' ? 'bg-[#D6C360] text-white' :
-                                journal.type === 'KCI' ? 'bg-[#64748b] text-white' :
-                                'bg-[#94a3b8] text-white'
+                                journal.type === 'KCI' ? 'bg-[#475569] text-white' :
+                                'bg-[#64748b] text-white'
                               }`}>{journal.type}</span>
                             </a>
                           ))}

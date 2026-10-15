@@ -121,6 +121,7 @@
   --ink-olive: #77701A;
   --ink-rose: #A8384F;
   --ink-pink: #C2456E;
+  --ink-coral: #8F5A2E;
 }
 :is(
   .text-\[\#D6B14D\],
@@ -164,6 +165,146 @@
   [style^="color: rgb(232, 136, 156)"],
   [style*=" color: rgb(232, 136, 156)"]
 ):not(svg):not(:where(.ink-keep, .ink-keep *, :is(.bg-gray-900, .bg-gray-950, .bg-black, [class*="from-gray-900"], [class*="from-gray-800"], [class*="bg-gray-900/"], [class*="bg-black/"]) *)) { color: var(--ink-rose) !important; }
+
+:is(
+  .text-\[\#D6A076\],
+  .hover\:text-\[\#D6A076\]:hover
+):not(svg):not(:where(.ink-keep, .ink-keep *, :is(.bg-gray-900, .bg-gray-950, .bg-black, [class*="from-gray-900"], [class*="from-gray-800"], [class*="bg-gray-900/"], [class*="bg-black/"]) *)) { color: var(--ink-coral); }
+:is(
+  [style^="color: rgb(214, 160, 118)"],
+  [style*=" color: rgb(214, 160, 118)"]
+):not(svg):not(:where(.ink-keep, .ink-keep *, :is(.bg-gray-900, .bg-gray-950, .bg-black, [class*="from-gray-900"], [class*="from-gray-800"], [class*="bg-gray-900/"], [class*="bg-black/"]) *)) { color: var(--ink-coral) !important; }
+
+
+/* ── Single-hue depth for solid colour fills ──────────────────────────────
+   Every solid fill gets a gradient that stays inside its own hue
+   (gold → gold, red → red, rose → rose). Two hues are never blended.
+   Text on fills follows one rule: light fills (gold, sand, pale gold, coral,
+   rose, blossom) carry a dark ink of the same hue; dark fills (red, crimson,
+   slate) carry white.                                                       */
+:is(
+  .bg-\[\#D6B14D\],
+  .bg-\[\#d6b14d\],
+  .bg-primary,
+  .hover\:bg-primary:hover,
+  .group:hover .group-hover\:bg-primary,
+  [style*="background-color: rgb(214, 177, 77)"]
+) { background-image: linear-gradient(135deg, #E6C870 0%, #D6B14D 52%, #BE9832 100%); }
+[style*="background: rgb(214, 177, 77)"] { background-image: linear-gradient(135deg, #E6C870 0%, #D6B14D 52%, #BE9832 100%) !important; }
+:is(.bg-\[\#D6B14D\], .bg-\[\#d6b14d\], .bg-primary, .hover\:bg-primary:hover, .group:hover .group-hover\:bg-primary, [style*="background-color: rgb(214, 177, 77)"], [style*="background: rgb(214, 177, 77)"]):is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
+:is(.bg-\[\#D6B14D\], .bg-\[\#d6b14d\], .bg-primary, .hover\:bg-primary:hover, .group:hover .group-hover\:bg-primary, [style*="background-color: rgb(214, 177, 77)"], [style*="background: rgb(214, 177, 77)"]) > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
+:is(.bg-\[\#D6B14D\], .bg-\[\#d6b14d\], .bg-primary, .hover\:bg-primary:hover, .group:hover .group-hover\:bg-primary, [style*="background-color: rgb(214, 177, 77)"], [style*="background: rgb(214, 177, 77)"]) > * > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]) { color: #33270A !important; text-shadow: none; }
+:is(
+  .bg-\[\#B8962D\],
+  .bg-\[\#b8962d\],
+  [style*="background-color: rgb(184, 150, 45)"]
+) { background-image: linear-gradient(135deg, #CAA944 0%, #B8962D 52%, #9F7F1E 100%); }
+[style*="background: rgb(184, 150, 45)"] { background-image: linear-gradient(135deg, #CAA944 0%, #B8962D 52%, #9F7F1E 100%) !important; }
+:is(.bg-\[\#B8962D\], .bg-\[\#b8962d\], [style*="background-color: rgb(184, 150, 45)"], [style*="background: rgb(184, 150, 45)"]):is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
+:is(.bg-\[\#B8962D\], .bg-\[\#b8962d\], [style*="background-color: rgb(184, 150, 45)"], [style*="background: rgb(184, 150, 45)"]) > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
+:is(.bg-\[\#B8962D\], .bg-\[\#b8962d\], [style*="background-color: rgb(184, 150, 45)"], [style*="background: rgb(184, 150, 45)"]) > * > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]) { color: #2B2006 !important; text-shadow: none; }
+:is(
+  .bg-\[\#D6C360\],
+  .bg-\[\#d6c360\],
+  [style*="background-color: rgb(214, 195, 96)"]
+) { background-image: linear-gradient(135deg, #E3D37D 0%, #D6C360 52%, #C2AC48 100%); }
+[style*="background: rgb(214, 195, 96)"] { background-image: linear-gradient(135deg, #E3D37D 0%, #D6C360 52%, #C2AC48 100%) !important; }
+:is(.bg-\[\#D6C360\], .bg-\[\#d6c360\], [style*="background-color: rgb(214, 195, 96)"], [style*="background: rgb(214, 195, 96)"]):is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
+:is(.bg-\[\#D6C360\], .bg-\[\#d6c360\], [style*="background-color: rgb(214, 195, 96)"], [style*="background: rgb(214, 195, 96)"]) > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
+:is(.bg-\[\#D6C360\], .bg-\[\#d6c360\], [style*="background-color: rgb(214, 195, 96)"], [style*="background: rgb(214, 195, 96)"]) > * > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]) { color: #3A340A !important; text-shadow: none; }
+:is(
+  .bg-\[\#E8D688\],
+  .bg-\[\#e8d688\],
+  [style*="background-color: rgb(232, 214, 136)"]
+) { background-image: linear-gradient(135deg, #F2E4A8 0%, #E8D688 52%, #DAC46E 100%); }
+[style*="background: rgb(232, 214, 136)"] { background-image: linear-gradient(135deg, #F2E4A8 0%, #E8D688 52%, #DAC46E 100%) !important; }
+:is(.bg-\[\#E8D688\], .bg-\[\#e8d688\], [style*="background-color: rgb(232, 214, 136)"], [style*="background: rgb(232, 214, 136)"]):is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
+:is(.bg-\[\#E8D688\], .bg-\[\#e8d688\], [style*="background-color: rgb(232, 214, 136)"], [style*="background: rgb(232, 214, 136)"]) > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
+:is(.bg-\[\#E8D688\], .bg-\[\#e8d688\], [style*="background-color: rgb(232, 214, 136)"], [style*="background: rgb(232, 214, 136)"]) > * > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]) { color: #4A430C !important; text-shadow: none; }
+:is(
+  .bg-\[\#D6A076\],
+  .bg-\[\#d6a076\],
+  [style*="background-color: rgb(214, 160, 118)"]
+) { background-image: linear-gradient(135deg, #E2B590 0%, #D6A076 52%, #C2885C 100%); }
+[style*="background: rgb(214, 160, 118)"] { background-image: linear-gradient(135deg, #E2B590 0%, #D6A076 52%, #C2885C 100%) !important; }
+:is(.bg-\[\#D6A076\], .bg-\[\#d6a076\], [style*="background-color: rgb(214, 160, 118)"], [style*="background: rgb(214, 160, 118)"]):is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
+:is(.bg-\[\#D6A076\], .bg-\[\#d6a076\], [style*="background-color: rgb(214, 160, 118)"], [style*="background: rgb(214, 160, 118)"]) > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
+:is(.bg-\[\#D6A076\], .bg-\[\#d6a076\], [style*="background-color: rgb(214, 160, 118)"], [style*="background: rgb(214, 160, 118)"]) > * > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]) { color: #45260E !important; text-shadow: none; }
+:is(
+  .bg-\[\#E8889C\],
+  .bg-\[\#e8889c\],
+  [style*="background-color: rgb(232, 136, 156)"]
+) { background-image: linear-gradient(135deg, #F19EB0 0%, #E8889C 52%, #D97089 100%); }
+[style*="background: rgb(232, 136, 156)"] { background-image: linear-gradient(135deg, #F19EB0 0%, #E8889C 52%, #D97089 100%) !important; }
+:is(.bg-\[\#E8889C\], .bg-\[\#e8889c\], [style*="background-color: rgb(232, 136, 156)"], [style*="background: rgb(232, 136, 156)"]):is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
+:is(.bg-\[\#E8889C\], .bg-\[\#e8889c\], [style*="background-color: rgb(232, 136, 156)"], [style*="background: rgb(232, 136, 156)"]) > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
+:is(.bg-\[\#E8889C\], .bg-\[\#e8889c\], [style*="background-color: rgb(232, 136, 156)"], [style*="background: rgb(232, 136, 156)"]) > * > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]) { color: #561223 !important; text-shadow: none; }
+:is(
+  .bg-\[\#FFBAC4\],
+  .bg-\[\#ffbac4\],
+  [style*="background-color: rgb(255, 186, 196)"]
+) { background-image: linear-gradient(135deg, #FFCCD4 0%, #FFBAC4 52%, #F5A4B2 100%); }
+[style*="background: rgb(255, 186, 196)"] { background-image: linear-gradient(135deg, #FFCCD4 0%, #FFBAC4 52%, #F5A4B2 100%) !important; }
+:is(.bg-\[\#FFBAC4\], .bg-\[\#ffbac4\], [style*="background-color: rgb(255, 186, 196)"], [style*="background: rgb(255, 186, 196)"]):is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
+:is(.bg-\[\#FFBAC4\], .bg-\[\#ffbac4\], [style*="background-color: rgb(255, 186, 196)"], [style*="background: rgb(255, 186, 196)"]) > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]),
+:is(.bg-\[\#FFBAC4\], .bg-\[\#ffbac4\], [style*="background-color: rgb(255, 186, 196)"], [style*="background: rgb(255, 186, 196)"]) > * > :is(.text-white, .hover\:text-white:hover, [style*=" color: rgb(255, 255, 255)"], [style^="color: rgb(255, 255, 255)"], [style^="color: white"], [style*=" color: white"], [style*="color: #fff"], [style*="color: #FFF"]) { color: #6E1F33 !important; text-shadow: none; }
+:is(
+  .bg-\[\#AC0E0E\],
+  .bg-\[\#ac0e0e\],
+  [style*="background-color: rgb(172, 14, 14)"]
+) { background-image: linear-gradient(135deg, #C61D1D 0%, #AC0E0E 52%, #8C0909 100%); }
+[style*="background: rgb(172, 14, 14)"] { background-image: linear-gradient(135deg, #C61D1D 0%, #AC0E0E 52%, #8C0909 100%) !important; }
+:is(
+  .bg-\[\#C41E3A\],
+  .bg-\[\#c41e3a\],
+  [style*="background-color: rgb(196, 30, 58)"]
+) { background-image: linear-gradient(135deg, #D8344F 0%, #C41E3A 52%, #A2162E 100%); }
+[style*="background: rgb(196, 30, 58)"] { background-image: linear-gradient(135deg, #D8344F 0%, #C41E3A 52%, #A2162E 100%) !important; }
+:is(
+  .bg-\[\#475569\],
+  .bg-\[\#475569\],
+  [style*="background-color: rgb(71, 85, 105)"]
+) { background-image: linear-gradient(135deg, #566479 0%, #475569 52%, #3A4658 100%); }
+[style*="background: rgb(71, 85, 105)"] { background-image: linear-gradient(135deg, #566479 0%, #475569 52%, #3A4658 100%) !important; }
+:is(
+  .bg-\[\#64748B\],
+  .bg-\[\#64748b\],
+  [style*="background-color: rgb(100, 116, 139)"]
+) { background-image: linear-gradient(135deg, #74839A 0%, #64748B 52%, #56657B 100%); }
+[style*="background: rgb(100, 116, 139)"] { background-image: linear-gradient(135deg, #74839A 0%, #64748B 52%, #56657B 100%) !important; }
+:is(
+  .bg-\[\#6B6B6B\],
+  .bg-\[\#6b6b6b\],
+  [style*="background-color: rgb(107, 107, 107)"]
+) { background-image: linear-gradient(135deg, #7A7A7A 0%, #6B6B6B 52%, #5C5C5C 100%); }
+[style*="background: rgb(107, 107, 107)"] { background-image: linear-gradient(135deg, #7A7A7A 0%, #6B6B6B 52%, #5C5C5C 100%) !important; }
+
+/* ── Stat cards: a soft glow in the same hue as the number they show ─────── */
+.group.bg-white.rounded-2xl:has(> div > span[class*="text-2xl"], > div > p[class*="text-2xl"]) {
+  --glow: 214, 177, 77;
+  background: radial-gradient(120% 85% at 50% 0%, rgba(var(--glow), .075) 0%, rgba(var(--glow), 0) 62%), #FFFFFF;
+  transition: background .35s ease, border-color .3s ease, box-shadow .3s ease, transform .3s ease;
+}
+.group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]):hover {
+  background: radial-gradient(130% 95% at 50% 0%, rgba(var(--glow), .14) 0%, rgba(var(--glow), 0) 66%), #FFFFFF;
+  transform: translateY(-1px);
+}
+.group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is([style^="color: rgb(214, 177, 77)"], [style*=" color: rgb(214, 177, 77)"], [style^="color: rgb(154, 125, 31)"], [style*=" color: rgb(154, 125, 31)"], [style^="color: rgb(184, 150, 45)"], [style*=" color: rgb(184, 150, 45)"], .text-\[\#D6B14D\], .text-\[\#9A7D1F\], .text-\[\#B8962D\])) { --glow: 214, 177, 77; }
+.group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is([style^="color: rgb(172, 14, 14)"], [style*=" color: rgb(172, 14, 14)"], .text-\[\#AC0E0E\])) { --glow: 172, 14, 14; }
+.group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is([style^="color: rgb(196, 30, 58)"], [style*=" color: rgb(196, 30, 58)"], .text-\[\#C41E3A\])) { --glow: 196, 30, 58; }
+.group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is([style^="color: rgb(232, 214, 136)"], [style*=" color: rgb(232, 214, 136)"], .text-\[\#E8D688\])) { --glow: 232, 214, 136; }
+.group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is([style^="color: rgb(232, 136, 156)"], [style*=" color: rgb(232, 136, 156)"], .text-\[\#E8889C\])) { --glow: 232, 136, 156; }
+.group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is([style^="color: rgb(255, 186, 196)"], [style*=" color: rgb(255, 186, 196)"], .text-\[\#FFBAC4\])) { --glow: 255, 186, 196; }
+.group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is([style^="color: rgb(214, 160, 118)"], [style*=" color: rgb(214, 160, 118)"], .text-\[\#D6A076\])) { --glow: 214, 160, 118; }
+.group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is(.text-gray-900, .text-gray-600, .text-gray-500, .text-gray-400)) { --glow: 107, 114, 128; }
+
+/* Total cards (cream) share the current-year bar treatment */
+.bg-\[\#FFF9E6\].rounded-2xl {
+  background:
+    linear-gradient(90deg, rgba(214,177,77,0) 0%, rgba(214,177,77,.6) 30%, rgba(255,255,255,.95) 50%, rgba(214,177,77,.6) 70%, rgba(214,177,77,0) 100%) top / 100% 1px no-repeat,
+    radial-gradient(70% 140% at 50% 0%, rgba(255,222,140,.55) 0%, rgba(255,243,204,0) 70%),
+    linear-gradient(180deg, #FFFBEE 0%, #FFF6DA 100%);
+}
 
 /* ─────────────────────────────────────────────────────────────
    Accordion / year bars (site-wide)
@@ -212,7 +353,7 @@
   background:
     linear-gradient(90deg, rgba(214,177,77,0) 0%, rgba(214,177,77,.75) 22%, rgba(255,255,255,.95) 42%, rgba(214,177,77,0) 78%) top / 100% 1px no-repeat,
     radial-gradient(70% 220% at 0% 0%, rgba(255,222,140,.95) 0%, rgba(255,232,170,.55) 32%, rgba(255,243,204,0) 62%),
-    radial-gradient(45% 180% at 100% 0%, rgba(255,186,196,.32) 0%, rgba(255,186,196,0) 70%),
+    radial-gradient(45% 180% at 100% 0%, rgba(255,236,180,.55) 0%, rgba(255,236,180,0) 70%),
     linear-gradient(180deg, #FFF7DD 0%, #FFF3CC 100%);
   box-shadow: inset 0 -1px 0 rgba(214,177,77,.18);
 }

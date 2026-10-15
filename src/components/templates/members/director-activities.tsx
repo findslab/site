@@ -1450,7 +1450,7 @@ export const MembersDirectorActivitiesTemplate = () => {
           data-pan className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
           style={{ backgroundImage: `url(${bannerDirector})`, backgroundPosition: '50% 65%' }}
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#D6A076]/20" />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#B8962D]/20" />
         <div className="absolute inset-0" style={{background: 'radial-gradient(ellipse 55% 70% at 50% 50%, rgba(0,0,0,0.34) 0%, transparent 70%)'}} />
         <div className="absolute inset-0" style={{backgroundColor: 'rgba(214, 177, 77, 0.08)'}} />
         <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent" />

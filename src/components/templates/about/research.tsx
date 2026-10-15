@@ -118,7 +118,7 @@ export const AboutResearchTemplate = () => {
         />
         
         {/* Luxurious Gold Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#D6A076]/20" />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#B8962D]/20" />
         <div className="absolute inset-0" style={{background: 'radial-gradient(ellipse 55% 70% at 50% 50%, rgba(0,0,0,0.34) 0%, transparent 70%)'}} />
         <div className="absolute inset-0" style={{backgroundColor: 'rgba(214, 177, 77, 0.08)'}} />
         <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent" />
@@ -214,7 +214,7 @@ export const AboutResearchTemplate = () => {
                       </span>
                     </div>
                     <h2>
-                      <span className="block text-xl md:text-2xl lg:text-3xl font-bold bg-gradient-to-r from-primary via-[#D6B14D] to-primary bg-clip-text text-transparent mb-6">
+                      <span className="block text-xl md:text-2xl lg:text-3xl font-bold bg-gradient-to-r from-[#8A6A10] via-[#B08A26] to-[#8A6A10] bg-clip-text text-transparent mb-6">
                         {area.titleEn}
                       </span>
                       <span className="text-base md:text-lg font-semibold text-gray-600">

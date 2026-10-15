@@ -27,7 +27,7 @@ export const PageBanner = memo(({ backgroundImage, category, title, breadcrumbs 
         />
         
         {/* Luxurious Gold Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/40 to-[#D6A076]/30" />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/40 to-[#B8962D]/30" />
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
         
         {/* Decorative Elements */}

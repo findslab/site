@@ -46,7 +46,7 @@ export const LocationTemplate = () => {
           data-pan className="absolute inset-0 hidden md:block bg-cover bg-center md:scale-105 transition-transform duration-[2000ms]"
           style={{ backgroundImage: `url(${bannerLocation})`, backgroundPosition: '50% 24%' }}
         />
-        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#D6A076]/20" />
+        <div className="absolute inset-0 bg-gradient-to-br from-black/42 via-black/22 to-[#B8962D]/20" />
         <div className="absolute inset-0" style={{background: 'radial-gradient(ellipse 55% 70% at 50% 50%, rgba(0,0,0,0.34) 0%, transparent 70%)'}} />
         <div className="absolute inset-0" style={{backgroundColor: 'rgba(214, 177, 77, 0.08)'}} />
         <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-black/10 to-transparent" />
@@ -172,7 +172,7 @@ export const LocationTemplate = () => {
 
             {/* Director's Office Card - Light Theme with Image */}
             <div className="relative bg-white rounded-2xl md:rounded-3xl border border-gray-100 overflow-hidden shadow-xl shadow-gray-100/50 hover:shadow-2xl hover:shadow-[#D6B14D]/10 transition-all duration-300 flex-1">
-              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#AC0E0E] via-primary to-[#AC0E0E]" />
+              <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#B8962D] via-[#E9CD78] to-[#B8962D]" />
               
               {/* Background Image */}
               <div 
