@@ -417,12 +417,12 @@ export const LecturesTemplate = () => {
                     onClick={() => setExpandedYear(expandedYear === year ? null : year)}
                     className={clsx(
                       'w-full flex items-center justify-between px-24 py-20 transition-colors',
-                      isCurrentYear ? 'bg-[#FFF3CC] hover:bg-[#FFEB99]' : 'bg-gray-50 hover:bg-gray-100'
+                      isCurrentYear ? 'fbar fbar-current' : 'fbar fbar-past'
                     )}
                   >
                     <div className="flex flex-col items-start gap-4">
                       <div className="flex items-center gap-12">
-                        <span className={clsx('text-lg font-semibold', isCurrentYear ? 'text-[#9A7D1F]' : 'text-gray-900')}>{year}</span>
+                        <span className={clsx('text-lg font-semibold', isCurrentYear ? 'fbar-year text-[#9A7D1F]' : 'text-gray-900')}>{year}</span>
                         {isCurrentYear && <span className="px-8 py-2 bg-[#D6B14D] text-white text-[10px] md:text-xs font-semibold rounded-full">NEW</span>}
                       </div>
                       <span className={clsx('text-base', isCurrentYear ? 'text-[#B8962D]' : 'text-gray-500')}>

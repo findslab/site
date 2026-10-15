@@ -1189,9 +1189,9 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
   const projectStats = useMemo(() => {
     // Priority-based exclusive counting: PI > Lead > Visiting > Researcher
     const piProjects = projects.filter(p => p.roles.principalInvestigator === DIRECTOR_NAME_KO)
-    const piIds = new Set(piProjects.map((_, i) => i))
+    const piSet = new Set(piProjects)
     
-    const remaining1 = projects.filter((_, i) => !piIds.has(i))
+    const remaining1 = projects.filter(p => !piSet.has(p))
     const leadProjects = remaining1.filter(p => {
       const lr = p.roles.leadResearcher
       if (!lr) return false
@@ -1558,7 +1558,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
             <section className="bg-white border border-gray-100 rounded-2xl overflow-hidden">
               <button
                 onClick={() => toggleSection('researcherIds')}
-                className="w-full flex items-center justify-between p-20 md:p-24 hover:bg-gray-50 transition-colors"
+                className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Research Identifications</h3>
                 <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.researcherIds ? 'rotate-180' : ''}`}/>
@@ -1625,7 +1625,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
             <section className="bg-white border border-gray-100 rounded-2xl overflow-hidden">
               <button
                 onClick={() => toggleSection('publications')}
-                className="w-full flex items-center justify-between p-20 md:p-24 hover:bg-gray-50 transition-colors"
+                className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Publications</h3>
                 <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.publications ? 'rotate-180' : ''}`}/>
@@ -1683,7 +1683,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
             <section className="bg-white border border-gray-100 rounded-2xl overflow-hidden">
               <button
                 onClick={() => toggleSection('collaborationNetwork')}
-                className="w-full flex items-center justify-between p-20 md:p-24 hover:bg-gray-50 transition-colors"
+                className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Collaboration Network</h3>
                 <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.collaborationNetwork ? 'rotate-180' : ''}`}/>
@@ -1699,7 +1699,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
             <section className="bg-white border border-gray-100 rounded-2xl overflow-hidden">
               <button
                 onClick={() => toggleSection('academicService')}
-                className="w-full flex items-center justify-between p-20 md:p-24 hover:bg-gray-50 transition-colors"
+                className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Academic Service</h3>
                 <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.academicService ? 'rotate-180' : ''}`}/>
@@ -1710,7 +1710,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                   <div className="border-b border-gray-100">
                     <button
                       onClick={() => toggleSection('editorialBoard')}
-                      className="w-full flex items-center justify-between p-16 md:p-20 hover:bg-gray-50 transition-colors"
+                      className="w-full flex items-center justify-between p-16 md:p-20 fbar fbar-section"
                     >
                       <div className="flex items-center gap-8">
                         <p className="text-sm md:text-base font-bold text-gray-900">Editorial Service</p>
@@ -1746,7 +1746,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                   <div className="bg-gray-50/50 border-b border-gray-100">
                     <button
                       onClick={() => toggleSection('academicMemberships')}
-                      className="w-full flex items-center justify-between p-16 md:p-20 hover:bg-gray-100/50 transition-colors"
+                      className="w-full flex items-center justify-between p-16 md:p-20 fbar fbar-section"
                     >
                       <div className="flex items-center gap-8">
                         <p className="text-sm md:text-base font-bold text-gray-900">Academic Memberships</p>
@@ -1782,7 +1782,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                   <div className="border-b border-gray-100">
                     <button
                       onClick={() => toggleSection('programCommittee')}
-                      className="w-full flex items-center justify-between p-16 md:p-20 hover:bg-gray-50 transition-colors"
+                      className="w-full flex items-center justify-between p-16 md:p-20 fbar fbar-section"
                     >
                       <div className="flex items-center gap-8">
                         <p className="text-sm md:text-base font-bold text-gray-900">Program Committee</p>
@@ -1825,7 +1825,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                   <div className="bg-gray-50/50 border-b border-gray-100">
                     <button
                       onClick={() => toggleSection('sessionChair')}
-                      className="w-full flex items-center justify-between p-16 md:p-20 hover:bg-gray-100/50 transition-colors"
+                      className="w-full flex items-center justify-between p-16 md:p-20 fbar fbar-section"
                     >
                       <div className="flex items-center gap-8">
                         <p className="text-sm md:text-base font-bold text-gray-900">Session Chair</p>
@@ -1862,7 +1862,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                   <div className="border-b border-gray-100">
                     <button
                       onClick={() => toggleSection('discussant')}
-                      className="w-full flex items-center justify-between p-16 md:p-20 hover:bg-gray-50 transition-colors"
+                      className="w-full flex items-center justify-between p-16 md:p-20 fbar fbar-section"
                     >
                       <div className="flex items-center gap-8">
                         <p className="text-sm md:text-base font-bold text-gray-900">Discussant</p>
@@ -1899,7 +1899,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                   <div className="border-b border-gray-100">
                     <button
                       onClick={() => toggleSection('journalReviewer')}
-                      className="w-full flex items-center justify-between p-16 md:p-20 hover:bg-gray-50 transition-colors"
+                      className="w-full flex items-center justify-between p-16 md:p-20 fbar fbar-section"
                     >
                       <div className="flex items-center gap-8">
                         <p className="text-sm md:text-base font-bold text-gray-900">Journal Reviewer</p>
@@ -1930,7 +1930,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                   <div className="bg-gray-50/50">
                     <button
                       onClick={() => toggleSection('conferenceReviewer')}
-                      className="w-full flex items-center justify-between p-16 md:p-20 hover:bg-gray-100/50 transition-colors"
+                      className="w-full flex items-center justify-between p-16 md:p-20 fbar fbar-section"
                     >
                       <div className="flex items-center gap-8">
                         <p className="text-sm md:text-base font-bold text-gray-900">Conference Reviewer</p>
@@ -1966,7 +1966,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
               <section className="bg-white border border-gray-100 rounded-2xl overflow-hidden">
                 <button
                   onClick={() => toggleSection('projects')}
-                  className="w-full flex items-center justify-between p-20 md:p-24 hover:bg-gray-50 transition-colors"
+                  className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
                 >
                   <h3 className="text-lg md:text-xl font-bold text-gray-900">Projects</h3>
                   <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.projects ? 'rotate-180' : ''}`}/>
@@ -2001,11 +2001,11 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                       <button
                         onClick={() => toggleProjectYear(year)}
                         className={`w-full flex items-center justify-between p-16 transition-colors ${
-                          isCurrentYear ? 'bg-[#FFF3CC] hover:bg-[#FFEB99]' : 'hover:bg-gray-50'
+                          isCurrentYear ? 'fbar fbar-current' : 'fbar fbar-past'
                         }`}
                       >
                         <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-                          <span className={`text-base md:text-lg font-bold ${isCurrentYear ? 'text-[#9A7D1F]' : 'text-gray-900'}`}>{year}</span>
+                          <span className={`text-base md:text-lg font-bold ${isCurrentYear ? 'fbar-year text-[#9A7D1F]' : 'text-gray-900'}`}>{year}</span>
                           {/* PC: Full name with Project/Projects */}
                           <span className="hidden sm:inline-flex px-10 md:px-12 py-4 md:py-5 bg-white rounded-full text-[10px] md:text-xs font-medium shadow-sm">
                             <span className="font-bold text-[#D6B14D]">{govCount}</span>
@@ -2190,7 +2190,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
               <section className="bg-white border border-gray-100 rounded-2xl overflow-hidden">
                 <button
                   onClick={() => toggleSection('teaching')}
-                  className="w-full flex items-center justify-between p-20 md:p-24 hover:bg-gray-50 transition-colors"
+                  className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
                 >
                   <h3 className="text-lg md:text-xl font-bold text-gray-900">Teaching</h3>
                   <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.teaching ? 'rotate-180' : ''}`}/>
@@ -2215,7 +2215,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                   <div className="mb-24 border border-gray-100 rounded-xl overflow-hidden">
                     <button
                       onClick={() => toggleSection('lecturer')}
-                      className="w-full flex items-center justify-between px-16 py-12 bg-gray-50 hover:bg-gray-100 transition-colors"
+                      className="w-full flex items-center justify-between px-16 py-12 fbar fbar-past"
                     >
                       <div className="flex items-center gap-8">
                         <p className="text-sm font-bold text-gray-900">Lecturer</p>
@@ -2291,7 +2291,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                   <div className="border border-gray-100 rounded-xl overflow-hidden">
                     <button
                       onClick={() => toggleSection('teachingAssistant')}
-                      className="w-full flex items-center justify-between px-16 py-12 bg-gray-50 hover:bg-gray-100 transition-colors"
+                      className="w-full flex items-center justify-between px-16 py-12 fbar fbar-past"
                     >
                       <div className="flex items-center gap-8">
                         <p className="text-sm font-bold text-gray-900">Teaching Assistant</p>

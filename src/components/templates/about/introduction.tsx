@@ -207,7 +207,7 @@ export const AboutIntroductionTemplate = () => {
       <div className="bg-white">
         <div className="max-w-1480 mx-auto w-full px-16 md:px-20 pb-48 md:pb-80">
           <div 
-            className="rounded-2xl md:rounded-3xl overflow-hidden"
+            className="ink-keep rounded-2xl md:rounded-3xl overflow-hidden"
             style={{
               background: 'linear-gradient(135deg, rgba(17, 24, 39, 0.98) 0%, rgba(31, 41, 55, 0.98) 50%, rgba(17, 24, 39, 0.98) 100%)',
             }}
@@ -321,7 +321,7 @@ export const AboutIntroductionTemplate = () => {
       <div className="bg-white">
         <div className="max-w-1480 mx-auto w-full px-16 md:px-20 pb-60 md:pb-100">
           <div 
-            className="rounded-2xl md:rounded-3xl overflow-hidden"
+            className="ink-keep rounded-2xl md:rounded-3xl overflow-hidden"
             style={{
               background: 'linear-gradient(135deg, rgba(17, 24, 39, 0.98) 0%, rgba(31, 41, 55, 0.98) 50%, rgba(17, 24, 39, 0.98) 100%)',
             }}

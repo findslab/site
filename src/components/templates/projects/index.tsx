@@ -429,7 +429,7 @@ export const ProjectsTemplate = () => {
           
           {/* Overview Section */}
           <section className={`bg-white border border-gray-100 rounded-2xl overflow-hidden transition-opacity duration-500 ${loading ? 'opacity-60' : 'opacity-100'}`}>
-            <button onClick={() => setStatsExpanded(!statsExpanded)} className="w-full flex items-center justify-between p-20 md:p-24 hover:bg-gray-50 transition-colors">
+            <button onClick={() => setStatsExpanded(!statsExpanded)} className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section">
               <h3 className="text-lg md:text-xl font-bold text-gray-900 flex items-center gap-12">
                 <span className="w-8 h-8 rounded-full bg-primary" />
                 Overview
@@ -660,12 +660,12 @@ export const ProjectsTemplate = () => {
                         onClick={() => toggleYear(year)}
                         className={`w-full flex items-center justify-between px-20 md:px-24 py-16 md:py-20 transition-colors ${
                           isCurrentYear
-                            ? 'bg-[#FFF3CC] hover:bg-[#FFEB99]'
-                            : 'bg-gray-50 hover:bg-gray-100'
+                            ? 'fbar fbar-current'
+                            : 'fbar fbar-past'
                         }`}
                       >
                         <div className="flex items-center gap-12 md:gap-[16px] flex-wrap">
-                          <span className={`text-lg md:text-[20px] font-bold ${isCurrentYear ? 'text-[#9A7D1F]' : 'text-gray-800'}`}>{year}</span>
+                          <span className={`text-lg md:text-[20px] font-bold ${isCurrentYear ? 'fbar-year text-[#9A7D1F]' : 'text-gray-800'}`}>{year}</span>
                           {/* White badge with counts - PC: Full name with "Project" */}
                           <span className="hidden sm:inline-flex px-10 md:px-12 py-4 md:py-5 bg-white rounded-full text-[10px] md:text-xs font-medium shadow-sm">
                             <span className="font-bold" style={{color: '#D6B14D'}}>{yearStats.government}</span>

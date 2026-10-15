@@ -341,7 +341,7 @@ export const MembersCurrentTemplate = () => {
       >
         {/* Overview Section */}
         <section className={`bg-white border border-gray-100 rounded-2xl overflow-hidden mb-40 md:mb-60 transition-opacity duration-500 ${loading ? 'opacity-60' : 'opacity-100'}`}>
-          <button onClick={() => setStatsExpanded(!statsExpanded)} className="w-full flex items-center justify-between p-20 md:p-24 hover:bg-gray-50 transition-colors">
+          <button onClick={() => setStatsExpanded(!statsExpanded)} className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section">
             <h3 className="text-lg md:text-xl font-bold text-gray-900 flex items-center gap-12">
               <span className="w-8 h-8 rounded-full bg-primary" />
               Overview

@@ -1652,7 +1652,7 @@ export const MembersDirectorActivitiesTemplate = () => {
             <section className="bg-white border border-gray-100 rounded-2xl overflow-hidden">
               <button
                 onClick={() => toggleSection('honorsAwards')}
-                className="w-full flex items-center justify-between p-20 md:p-24 hover:bg-gray-50 transition-colors"
+                className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Honors & Awards</h3>
                 <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.honorsAwards ? 'rotate-180' : ''}`}/>
@@ -1675,12 +1675,12 @@ export const MembersDirectorActivitiesTemplate = () => {
                             onClick={() => toggleYear(year)}
                             className={`w-full flex items-center justify-between px-16 py-14 transition-colors ${
                               isCurrentYear 
-                                ? 'bg-[#FFF3CC] hover:bg-[#FFEB99]' 
-                                : 'bg-gray-50 hover:bg-gray-100'
+                                ? 'fbar fbar-current' 
+                                : 'fbar fbar-past'
                             }`}
                           >
                             <div className="flex items-center gap-12 flex-wrap">
-                              <span className={`text-lg font-bold ${isCurrentYear ? 'text-[#9A7D1F]' : 'text-gray-800'}`}>{year}</span>
+                              <span className={`text-lg font-bold ${isCurrentYear ? 'fbar-year text-[#9A7D1F]' : 'text-gray-800'}`}>{year}</span>
                               <span className="px-10 py-4 bg-white rounded-full text-[10px] font-medium shadow-sm">
                                 <span className="font-bold" style={{color: '#D6B14D'}}>{honors.length}</span>
                                 <span className="text-gray-500"> {honors.length === 1 ? 'Honor' : 'Honors'}</span>
@@ -1741,7 +1741,7 @@ export const MembersDirectorActivitiesTemplate = () => {
             <section className="bg-white border border-gray-100 rounded-2xl overflow-hidden">
               <button
                 onClick={() => toggleSection('activities')}
-                className="w-full flex items-center justify-between p-20 md:p-24 hover:bg-gray-50 transition-colors"
+                className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Off-Campus Activities</h3>
                 <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.activities ? 'rotate-180' : ''}`}/>
@@ -1851,7 +1851,7 @@ export const MembersDirectorActivitiesTemplate = () => {
             <section className="bg-white border border-gray-100 rounded-2xl overflow-hidden">
               <button
                 onClick={() => toggleSection('mentoringProgram')}
-                className="w-full flex items-center justify-between p-20 md:p-24 hover:bg-gray-50 transition-colors"
+                className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Mentoring & Tutoring Program</h3>
                 <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.mentoringProgram ? 'rotate-180' : ''}`}/>

@@ -230,7 +230,7 @@ const LayoutOrganisms = ({ children }: props) => {
             
             {/* Mobile: Static FINDS Lab */}
             <span className="md:hidden text-lg font-bold">
-              <span style={{ color: '#D6B14D' }}>FINDS </span>
+              <span className="ink-keep" style={{ color: '#D6B14D' }}>FINDS </span>
               <span className="text-gray-900">Lab</span>
             </span>
             
@@ -242,7 +242,7 @@ const LayoutOrganisms = ({ children }: props) => {
                   showAltText ? 'opacity-0' : 'opacity-100'
                 }`}
               >
-                <span style={{ color: '#D6B14D' }}>FINDS </span>
+                <span className="ink-keep" style={{ color: '#D6B14D' }}>FINDS </span>
                 <span className="text-gray-900">Lab</span>
               </span>
               {/* Financial Data Intelligence & Solutions Laboratory */}
@@ -252,14 +252,14 @@ const LayoutOrganisms = ({ children }: props) => {
                 }`}
               >
                 <span className="text-[10px] font-semibold tracking-wide">
-                  <span style={{ color: '#D6B14D' }}>Fin</span>
+                  <span className="font-extrabold" style={{ color: '#D6B14D' }}>Fin</span>
                   <span style={{ color: '#E8D688' }}>ancial </span>
-                  <span style={{ color: '#D6B14D' }}>D</span>
+                  <span className="font-extrabold" style={{ color: '#D6B14D' }}>D</span>
                   <span style={{ color: '#E8D688' }}>ata Intelligence</span>
                 </span>
                 <span className="text-[10px] font-semibold tracking-wide">
                   <span style={{ color: '#E8D688' }}>&amp; </span>
-                  <span style={{ color: '#D6B14D' }}>S</span>
+                  <span className="font-extrabold" style={{ color: '#D6B14D' }}>S</span>
                   <span style={{ color: '#E8D688' }}>olutions </span>
                   <span className="text-gray-900">Laboratory</span>
                 </span>

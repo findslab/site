@@ -453,8 +453,8 @@ export const MembersDirectorTemplate = () => {
   // Project Statistics
   const projectStats = useMemo(() => {
     const piProjects = projects.filter(p => p.roles.principalInvestigator === DIRECTOR_NAME_KO)
-    const piIds = new Set(piProjects.map((_, i) => i))
-    const remaining1 = projects.filter((_, i) => !piIds.has(i))
+    const piSet = new Set(piProjects)
+    const remaining1 = projects.filter(p => !piSet.has(p))
     const leadProjects = remaining1.filter(p => {
       const lr = p.roles.leadResearcher
       if (!lr) return false
@@ -814,7 +814,7 @@ export const MembersDirectorTemplate = () => {
             <section className="bg-white border border-gray-100 rounded-2xl overflow-hidden">
               <button
                 onClick={() => toggleSection('introduction')}
-                className="w-full flex items-center justify-between p-20 md:p-24 hover:bg-gray-50 transition-colors"
+                className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Introduction</h3>
                 <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.introduction ? 'rotate-180' : ''}`}/>
@@ -870,7 +870,7 @@ export const MembersDirectorTemplate = () => {
             <section className="bg-white border border-gray-100 rounded-2xl overflow-hidden">
               <button
                 onClick={() => toggleSection('researchInterests')}
-                className="w-full flex items-center justify-between p-20 md:p-24 hover:bg-gray-50 transition-colors"
+                className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Research Interests</h3>
                 <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.researchInterests ? 'rotate-180' : ''}`}/>
@@ -905,7 +905,7 @@ export const MembersDirectorTemplate = () => {
             <section className="bg-white border border-gray-100 rounded-2xl overflow-hidden">
               <button
                 onClick={() => toggleSection('education')}
-                className="w-full flex items-center justify-between p-20 md:p-24 hover:bg-gray-50 transition-colors"
+                className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Education</h3>
                 <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.education ? 'rotate-180' : ''}`}/>
@@ -953,7 +953,7 @@ export const MembersDirectorTemplate = () => {
             <section className="bg-white border border-gray-100 rounded-2xl overflow-hidden">
               <button
                 onClick={() => toggleSection('employment')}
-                className="w-full flex items-center justify-between p-20 md:p-24 hover:bg-gray-50 transition-colors"
+                className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Employment</h3>
                 <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.employment ? 'rotate-180' : ''}`}/>
@@ -1017,7 +1017,7 @@ export const MembersDirectorTemplate = () => {
               <section className="bg-white border border-gray-100 rounded-2xl overflow-hidden">
                 <button
                   onClick={() => toggleSection('teaching')}
-                  className="w-full flex items-center justify-between p-20 md:p-24 hover:bg-gray-50 transition-colors"
+                  className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
                 >
                   <h3 className="text-lg md:text-xl font-bold text-gray-900">Teaching</h3>
                   <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.teaching ? 'rotate-180' : ''}`}/>
@@ -1095,7 +1095,7 @@ export const MembersDirectorTemplate = () => {
             <section className="bg-white border border-gray-100 rounded-2xl overflow-hidden">
               <button
                 onClick={() => toggleSection('researchOverview')}
-                className="w-full flex items-center justify-between p-20 md:p-24 hover:bg-gray-50 transition-colors"
+                className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Research Overview</h3>
                 <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.researchOverview ? 'rotate-180' : ''}`}/>
@@ -1165,7 +1165,7 @@ export const MembersDirectorTemplate = () => {
               <section className="bg-white border border-gray-100 rounded-2xl overflow-hidden">
                 <button
                   onClick={() => toggleSection('projectOverview')}
-                  className="w-full flex items-center justify-between p-20 md:p-24 hover:bg-gray-50 transition-colors"
+                  className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
                 >
                   <h3 className="text-lg md:text-xl font-bold text-gray-900">Project Overview</h3>
                   <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.projectOverview ? 'rotate-180' : ''}`}/>
@@ -1250,7 +1250,7 @@ export const MembersDirectorTemplate = () => {
             <section className="bg-white border border-gray-100 rounded-2xl overflow-hidden">
               <button
                 onClick={() => toggleSection('academicServiceOverview')}
-                className="w-full flex items-center justify-between p-20 md:p-24 hover:bg-gray-50 transition-colors"
+                className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Academic Service Overview</h3>
                 <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.academicServiceOverview ? 'rotate-180' : ''}`}/>
@@ -1324,7 +1324,7 @@ export const MembersDirectorTemplate = () => {
               <section className="bg-white border border-gray-100 rounded-2xl overflow-hidden">
                 <button
                   onClick={() => toggleSection('teachingOverview')}
-                  className="w-full flex items-center justify-between p-20 md:p-24 hover:bg-gray-50 transition-colors"
+                  className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
                 >
                   <h3 className="text-lg md:text-xl font-bold text-gray-900">Teaching Overview</h3>
                   <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.teachingOverview ? 'rotate-180' : ''}`}/>
@@ -1383,7 +1383,7 @@ export const MembersDirectorTemplate = () => {
             <section className="bg-white border border-gray-100 rounded-2xl overflow-hidden">
               <button
                 onClick={() => toggleSection('honorsOverview')}
-                className="w-full flex items-center justify-between p-20 md:p-24 hover:bg-gray-50 transition-colors"
+                className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Honors & Awards Overview</h3>
                 <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.honorsOverview ? 'rotate-180' : ''}`}/>
