@@ -1,905 +1,935 @@
 {
-    "activities": [
-        {
-            "id": 0,
-            "category": "journal",
-            "name": "Frontiers in Artificial Intelligence",
-            "publisher": "Frontiers Media",
-            "type": "ESCI",
-            "since": "2026-02-08",
-            "url": "https://www.frontiersin.org/journals/artificial-intelligence"
-        },
-        {
-            "id": 1,
-            "category": "journal",
-            "name": "Networks and Heterogeneous Media",
-            "publisher": "American Institute of Mathematical Sciences Press",
-            "type": "SCIE",
-            "since": "2026-01-28",
-            "url": "https://www.aimspress.com/journal/nhm"
-        },
-        {
-            "id": 2,
-            "category": "journal",
-            "name": "Measurement",
-            "publisher": "Elsevier",
-            "type": "SCIE",
-            "since": "2026-01-23",
-            "url": "https://www.sciencedirect.com/journal/measurement"
-        },
-        {
-            "id": 3,
-            "category": "journal",
-            "name": "Frontiers in Nutrition",
-            "publisher": "Frontiers Media",
-            "type": "SCIE",
-            "since": "2026-01-11",
-            "url": "https://www.frontiersin.org/journals/nutrition"
-        },
-        {
-            "id": 4,
-            "category": "journal",
-            "name": "Journal of King Saud University Computer and Information Sciences",
-            "publisher": "Springer",
-            "type": "SCIE",
-            "since": "2026-01-19",
-            "url": "https://link.springer.com/journal/44443"
-        },
-        {
-            "id": 5,
-            "category": "journal",
-            "name": "Discover Computing",
-            "publisher": "Springer",
-            "type": "Scopus",
-            "since": "2025-12-31",
-            "url": "https://link.springer.com/journal/44245"
-        },
-        {
-            "id": 6,
-            "category": "conference",
-            "name": "5th International Conference on Artificial Intelligence, Information Processing and Cloud Computing (AIIPCC)",
-            "publisher": "",
-            "type": "Conference",
-            "period": "2025-12",
-            "url": "https://www.aiipcc.org/"
-        },
-        {
-            "id": 83,
-            "category": "chair",
-            "name": "2025 Fall Conference of the Korean Institute of Information Technology, Session 2-OA",
-            "name_ko": "2025 한국정보기술학회 추계종합학술대회 2-OA 세션",
-            "publisher": "Korean Institute of Information Technology (KIIT)",
-            "type": "Session Chair",
-            "period": "2025-11",
-            "url": "https://ki-it.or.kr/board/maininfo/article/269934"
-        },
-        {
-            "id": 84,
-            "category": "journal",
-            "name": "Operations Research Forum",
-            "publisher": "Springer",
-            "type": "Scopus",
-            "since": "2025-11-10",
-            "url": ""
-        },
-        {
-            "id": 7,
-            "category": "conference",
-            "name": "3rd International Conference on Artificial Intelligence and Human-Computer Interaction (ArtInHCI)",
-            "publisher": "IOS Press",
-            "type": "Conference",
-            "period": "2025-10",
-            "url": "https://www.artinhci.com/2025/"
-        },
-        {
-            "id": 8,
-            "category": "journal",
-            "name": "Algorithms",
-            "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
-            "type": "ESCI",
-            "since": "2025-09-27",
-            "url": "https://www.mdpi.com/journal/algorithms"
-        },
-        {
-            "id": 9,
-            "category": "journal",
-            "name": "The Journal of Supercomputing",
-            "publisher": "Springer",
-            "type": "SCIE",
-            "since": "2025-09-27",
-            "url": "https://link.springer.com/journal/11227"
-        },
-        {
-            "id": 10,
-            "category": "journal",
-            "name": "Data Science in Finance and Economics",
-            "publisher": "American Institute of Mathematical Sciences Press",
-            "type": "Scopus",
-            "since": "2025-09-18",
-            "url": "https://www.aimspress.com/journal/dsfe"
-        },
-        {
-            "id": 11,
-            "category": "journal",
-            "name": "Humanities and Social Sciences Communications",
-            "publisher": "Springer",
-            "type": "SSCI",
-            "since": "2025-09-16",
-            "url": "https://www.nature.com/palcomms/"
-        },
-        {
-            "id": 12,
-            "category": "journal",
-            "name": "Electronics",
-            "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
-            "type": "SCIE",
-            "since": "2025-08-20",
-            "url": "https://www.mdpi.com/journal/electronics"
-        },
-        {
-            "id": 13,
-            "category": "journal",
-            "name": "Information",
-            "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
-            "type": "SCIE",
-            "since": "2025-08-13",
-            "url": "https://www.mdpi.com/journal/information"
-        },
-        {
-            "id": 14,
-            "category": "journal",
-            "name": "Chaos, Solitons & Fractals",
-            "publisher": "Elsevier",
-            "type": "SCIE",
-            "since": "2025-08-05",
-            "url": "https://www.sciencedirect.com/journal/chaos-solitons-and-fractals"
-        },
-        {
-            "id": 15,
-            "category": "journal",
-            "name": "Nonlinear Science",
-            "publisher": "Elsevier",
-            "type": "SCIE",
-            "since": "2025-08-05",
-            "url": ""
-        },
-        {
-            "id": 16,
-            "category": "journal",
-            "name": "Computers",
-            "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
-            "type": "SCIE",
-            "since": "2025-07-28",
-            "url": "https://www.mdpi.com/journal/computers"
-        },
-        {
-            "id": 17,
-            "category": "journal",
-            "name": "Journal of Intelligent Information Systems",
-            "publisher": "Springer",
-            "type": "SCIE",
-            "since": "2025-07-28",
-            "url": "https://link.springer.com/journal/10844"
-        },
-        {
-            "id": 18,
-            "category": "journal",
-            "name": "Machine Learning with Applications",
-            "publisher": "Elsevier",
-            "type": "Scopus",
-            "since": "2025-07-28",
-            "url": "https://www.sciencedirect.com/journal/machine-learning-with-applications"
-        },
-        {
-            "id": 19,
-            "category": "journal",
-            "name": "Big Data and Cognitive Computing",
-            "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
-            "type": "SCIE",
-            "since": "2025-07-11",
-            "url": "https://www.mdpi.com/journal/BDCC"
-        },
-        {
-            "id": 20,
-            "category": "journal",
-            "name": "Future Internet",
-            "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
-            "type": "SCIE",
-            "since": "2025-06-27",
-            "url": "https://www.mdpi.com/journal/futureinternet"
-        },
-        {
-            "id": 21,
-            "category": "journal",
-            "name": "Applied Sciences",
-            "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
-            "type": "SCIE",
-            "since": "2025-06-12",
-            "url": "https://www.mdpi.com/journal/applsci"
-        },
-        {
-            "id": 22,
-            "category": "journal",
-            "name": "Energies",
-            "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
-            "type": "SCIE",
-            "since": "2025-05-28",
-            "url": "https://www.mdpi.com/journal/energies"
-        },
-        {
-            "id": 23,
-            "category": "journal",
-            "name": "Fractal and Fractional",
-            "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
-            "type": "SCIE",
-            "since": "2025-05-14",
-            "url": "https://www.mdpi.com/journal/fractalfract"
-        },
-        {
-            "id": 24,
-            "category": "journal",
-            "name": "Symmetry",
-            "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
-            "type": "SCIE",
-            "since": "2025-04-29",
-            "url": "https://www.mdpi.com/journal/symmetry"
-        },
-        {
-            "id": 25,
-            "category": "journal",
-            "name": "Carbon Balance and Management",
-            "publisher": "Springer",
-            "type": "SCIE",
-            "since": "2025-03-15",
-            "url": "https://cbmjournal.biomedcentral.com/"
-        },
-        {
-            "id": 26,
-            "category": "journal",
-            "name": "Frontiers in Public Health",
-            "publisher": "Frontiers Media",
-            "type": "SSCI",
-            "since": "2026-01-31",
-            "url": "https://www.frontiersin.org/journals/public-health"
-        },
-        {
-            "id": 27,
-            "category": "journal",
-            "name": "Knowledge and Information Systems",
-            "publisher": "Springer",
-            "type": "SCIE",
-            "since": "2025-02-18",
-            "url": "https://link.springer.com/journal/10115"
-        },
-        {
-            "id": 28,
-            "category": "journal",
-            "name": "International Journal of Machine Learning and Cybernetics",
-            "publisher": "Springer",
-            "type": "SCIE",
-            "since": "2025-02-16",
-            "url": "https://link.springer.com/journal/13042"
-        },
-        {
-            "id": 29,
-            "category": "journal",
-            "name": "EPJ Data Science",
-            "publisher": "Springer",
-            "type": "SCIE",
-            "since": "2025-02-02",
-            "url": "https://epjdatascience.springeropen.com/"
-        },
-        {
-            "id": 30,
-            "category": "journal",
-            "name": "Frontiers in Physics",
-            "publisher": "Frontiers Media",
-            "type": "SCIE",
-            "since": "2025-01-31",
-            "url": "https://www.frontiersin.org/journals/physics"
-        },
-        {
-            "id": 31,
-            "category": "journal",
-            "name": "Energy Informatics",
-            "publisher": "Springer",
-            "type": "Scopus",
-            "since": "2025-01-28",
-            "url": "https://energyinformatics.springeropen.com/"
-        },
-        {
-            "id": 32,
-            "category": "journal",
-            "name": "International Journal of Computational Intelligence Systems",
-            "publisher": "Springer",
-            "type": "SCIE",
-            "since": "2025-01-23",
-            "url": "https://link.springer.com/journal/44196"
-        },
-        {
-            "id": 33,
-            "category": "journal",
-            "name": "Scientific Reports",
-            "publisher": "Nature Portfolio",
-            "type": "SCIE",
-            "since": "2025-01-23",
-            "url": "https://www.nature.com/srep/"
-        },
-        {
-            "id": 34,
-            "category": "journal",
-            "name": "Cluster Computing",
-            "publisher": "Springer",
-            "type": "SCIE",
-            "since": "2025-01-19",
-            "url": "https://link.springer.com/journal/10586"
-        },
-        {
-            "id": 35,
-            "category": "journal",
-            "name": "Biophysical Economics and Sustainability",
-            "publisher": "Springer",
-            "type": "Scopus",
-            "since": "2025-01-13",
-            "url": "https://link.springer.com/journal/41247"
-        },
-        {
-            "id": 36,
-            "category": "journal",
-            "name": "Discover Applied Sciences",
-            "publisher": "Springer",
-            "type": "Scopus",
-            "since": "2024-12-24",
-            "url": "https://link.springer.com/journal/42452"
-        },
-        {
-            "id": 37,
-            "category": "journal",
-            "name": "Discover Analytics",
-            "publisher": "Springer",
-            "type": "Scopus",
-            "since": "2024-12-21",
-            "url": "https://link.springer.com/journal/44257"
-        },
-        {
-            "id": 38,
-            "category": "journal",
-            "name": "Discover Networks",
-            "publisher": "Springer",
-            "type": "Scopus",
-            "since": "2024-12-21",
-            "url": "https://link.springer.com/journal/44256"
-        },
-        {
-            "id": 39,
-            "category": "journal",
-            "name": "Discover Artificial Intelligence",
-            "publisher": "Springer",
-            "type": "Scopus",
-            "since": "2024-12-20",
-            "url": "https://link.springer.com/journal/44163"
-        },
-        {
-            "id": 40,
-            "category": "journal",
-            "name": "International Journal of Data Science and Analytics",
-            "publisher": "Springer",
-            "type": "Scopus",
-            "since": "2024-12-14",
-            "url": "https://link.springer.com/journal/41060"
-        },
-        {
-            "id": 41,
-            "category": "journal",
-            "name": "Optimization and Engineering",
-            "publisher": "Springer",
-            "type": "SCIE",
-            "since": "2024-12-06",
-            "url": "https://link.springer.com/journal/11081"
-        },
-        {
-            "id": 42,
-            "category": "journal",
-            "name": "BMC Medical Informatics and Decision Making",
-            "publisher": "BioMed Central",
-            "type": "SCIE",
-            "since": "2024-12-04",
-            "url": "https://bmcmedinformdecismak.biomedcentral.com/"
-        },
-        {
-            "id": 43,
-            "category": "journal",
-            "name": "Neural Computing and Applications",
-            "publisher": "Springer",
-            "type": "SCIE",
-            "since": "2024-11-30",
-            "url": "https://link.springer.com/journal/521"
-        },
-        {
-            "id": 44,
-            "category": "journal",
-            "name": "Financial Innovation",
-            "publisher": "Springer",
-            "type": "SSCI",
-            "since": "2024-11-30",
-            "url": "https://jfin-swufe.springeropen.com/"
-        },
-        {
-            "id": 45,
-            "category": "conference",
-            "name": "30th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)",
-            "publisher": "Association for Computing Machinery",
-            "type": "Conference",
-            "period": "2024-08",
-            "url": "https://kdd.org/"
-        },
-        {
-            "id": 46,
-            "category": "journal",
-            "name": "Computational Economics",
-            "publisher": "Springer",
-            "type": "SSCI",
-            "since": "2023-12-22",
-            "url": "https://link.springer.com/journal/10614"
-        },
-        {
-            "id": 47,
-            "category": "journal",
-            "name": "Annals of Operations Research",
-            "publisher": "Springer",
-            "type": "SCIE",
-            "since": "2023-11-15",
-            "url": "https://link.springer.com/journal/10479"
-        },
-        {
-            "id": 48,
-            "category": "journal",
-            "name": "Information Processing & Management",
-            "publisher": "Elsevier",
-            "type": "SCIE",
-            "since": "2023-10-30",
-            "url": "https://www.sciencedirect.com/journal/information-processing-and-management"
-        },
-        {
-            "id": 49,
-            "category": "journal",
-            "name": "International Review of Financial Analysis",
-            "publisher": "Elsevier",
-            "type": "SSCI",
-            "since": "2023-10-24",
-            "url": "https://www.sciencedirect.com/journal/international-review-of-financial-analysis"
-        },
-        {
-            "id": 50,
-            "category": "journal",
-            "name": "IEEE Transactions on Network Science and Engineering",
-            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
-            "type": "SCIE",
-            "since": "2023-09-06",
-            "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488902"
-        },
-        {
-            "id": 51,
-            "category": "journal",
-            "name": "Finance Research Letters",
-            "publisher": "Elsevier",
-            "type": "SSCI",
-            "since": "2023-06-19",
-            "url": "https://www.sciencedirect.com/journal/finance-research-letters"
-        },
-        {
-            "id": 52,
-            "category": "journal",
-            "name": "Expert Systems with Applications",
-            "publisher": "Elsevier",
-            "type": "SCIE",
-            "since": "2022-04-30",
-            "url": "https://www.sciencedirect.com/journal/expert-systems-with-applications"
-        },
-        {
-            "id": 53,
-            "category": "journal",
-            "name": "Industrial Engineering & Management Systems",
-            "publisher": "Korean Institute of Industrial Engineers (KIIE)",
-            "type": "Scopus",
-            "since": "2022-03-29",
-            "url": "http://www.iemsjl.org/"
-        },
-        {
-            "id": 54,
-            "category": "committee",
-            "name": "1st Shinhan Investment Corp. Shinhan Alpha – KAIST Competition",
-            "name_ko": "제1회 신한금융투자 신한알파·KAIST 모의투자대회",
-            "publisher": "Shinhan Investment Corp., KAIST",
-            "type": "Committee Member",
-            "period": "2021-06-01 – 2021-08-31",
-            "url": "https://www.youtube.com/watch?v=KGd4DGsfKS8"
-        },
-        {
-            "id": 55,
-            "category": "editorial",
-            "name": "Mathematics",
-            "name_ko": "Mathematics",
-            "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
-            "type": "SCIE",
-            "role": "Guest Editor",
-            "specialIssue": "Advances in Data-Driven Modeling: Theory and Applications",
-            "since": "2026-02",
-            "url": "https://www.mdpi.com/journal/mathematics"
-        },
-        {
-            "id": 56,
-            "category": "membership",
-            "name": "Korean Institute of Industrial Engineers (KIIE)",
-            "name_ko": "대한산업공학회",
-            "type": "Lifetime Member",
-            "since": "2025-06"
-        },
-        {
-            "id": 57,
-            "category": "membership",
-            "name": "Korean Securities Association (KSA)",
-            "name_ko": "한국증권학회",
-            "type": "Lifetime Member",
-            "since": "2023-09"
-        },
-        {
-            "id": 58,
-            "category": "membership",
-            "name": "Korean Academic Society of Business Administration (KASBA)",
-            "name_ko": "한국경영학회",
-            "type": "Lifetime Member",
-            "since": "2023-06"
-        },
-        {
-            "id": 59,
-            "category": "membership",
-            "name": "Korea Intelligent Information Systems Society (KIISS)",
-            "name_ko": "한국지능정보시스템학회",
-            "type": "Lifetime Member",
-            "since": "2022-06"
-        },
-        {
-            "id": 60,
-            "category": "journal",
-            "name": "Engineering Economics",
-            "publisher": "Kaunas University of Technology",
-            "type": "SSCI",
-            "since": "2026-02-19",
-            "url": "https://inzeko.ktu.lt/index.php/EE"
-        },
-        {
-            "id": 61,
-            "category": "journal",
-            "name": "International Journal of Strategic Property Management",
-            "publisher": "Vilnius Gediminas Technical University",
-            "type": "SSCI",
-            "since": "2026-02-26",
-            "url": "https://journals.vilniustech.lt/index.php/IJSPM"
-        },
-        {
-            "id": 62,
-            "category": "journal",
-            "name": "The International Journal of Management Education",
-            "publisher": "Elsevier",
-            "type": "SSCI",
-            "since": "2026-03-03",
-            "url": "https://www.sciencedirect.com/journal/the-international-journal-of-management-education"
-        },
-        {
-            "id": 63,
-            "category": "journal",
-            "name": "npj Clean Water",
-            "publisher": "Springer Nature",
-            "type": "SCIE",
-            "since": "2026-03-23",
-            "url": "https://www.nature.com/npjcleanwater/"
-        },
-        {
-            "id": 64,
-            "category": "journal",
-            "name": "Applied Spatial Analysis and Policy",
-            "publisher": "Springer",
-            "type": "SSCI",
-            "since": "2026-03-23",
-            "url": "https://link.springer.com/journal/12061"
-        },
-        {
-            "category": "committee",
-            "name": "2018 FIELD (Future Industrial Engineering Leaders and Dreamers) CAMP",
-            "name_ko": "2018 전국 대학생 산업공학도 학술교류캠프 FIELD CAMP 컴페티션",
-            "publisher": "Korean Institute of Industrial Engineers (KIIE)",
-            "type": "Judge",
-            "period": "2018-08",
-            "url": "",
-            "id": 67
-        },
-        {
-            "category": "committee",
-            "name": "2019 FIELD (Future Industrial Engineering Leaders and Dreamers) CAMP",
-            "name_ko": "2019 전국 대학생 산업공학도 학술교류캠프 FIELD CAMP 컴페티션",
-            "publisher": "Korean Institute of Industrial Engineers (KIIE)",
-            "type": "Judge",
-            "period": "2019-08",
-            "url": "",
-            "id": 68
-        },
-        {
-            "category": "committee",
-            "name": "2022 FIELD (Future Industrial Engineering Leaders and Dreamers) CAMP",
-            "name_ko": "2022 전국 대학생 산업공학도 학술교류캠프 FIELD CAMP 컴페티션",
-            "publisher": "Korean Institute of Industrial Engineers (KIIE)",
-            "type": "Judge",
-            "period": "2022-08",
-            "url": "",
-            "id": 69
-        },
-        {
-            "category": "committee",
-            "name": "2023 FIELD (Future Industrial Engineering Leaders and Dreamers) CAMP",
-            "name_ko": "2023 전국 대학생 산업공학도 학술교류캠프 FIELD CAMP 컴페티션",
-            "publisher": "Korean Institute of Industrial Engineers (KIIE)",
-            "type": "Judge",
-            "period": "2023-08",
-            "url": "",
-            "id": 70
-        },
-        {
-            "category": "committee",
-            "name": "2024 FIELD (Future Industrial Engineering Leaders and Dreamers) CAMP",
-            "name_ko": "2024 전국 대학생 산업공학도 학술교류캠프 FIELD CAMP 컴페티션",
-            "publisher": "Korean Institute of Industrial Engineers (KIIE)",
-            "type": "Judge",
-            "period": "2024-08",
-            "url": "",
-            "id": 71
-        },
-        {
-            "category": "committee",
-            "name": "2025 FIELD (Future Industrial Engineering Leaders and Dreamers) CAMP",
-            "name_ko": "2025 전국 대학생 산업공학도 학술교류캠프 FIELD CAMP 컴페티션",
-            "publisher": "Korean Institute of Industrial Engineers (KIIE)",
-            "type": "Judge",
-            "period": "2025-08",
-            "url": "",
-            "id": 72
-        },
-        {
-            "category": "committee",
-            "name": "3rd Kyung Hee University Data Analysis/AI Society KHUDA Datathon <KHU'DATA K-LIFESTYLE>",
-            "name_ko": "제3회 경희대학교 데이터분석/AI 학회 KHUDA DATATHON <KHU'DATA K-LIFESTYLE>",
-            "publisher": "Kyung Hee University KHUDA",
-            "type": "Judge",
-            "period": "2025-11",
-            "url": "",
-            "id": 73
-        },
-        {
-            "category": "committee",
-            "name": "2025 Dongduk Women's University Business Administration Academic Festival <TREND: UP>",
-            "name_ko": "2025 동덕여자대학교 경영학과 학술제 <TREND: UP>",
-            "publisher": "Dongduk Women's University",
-            "type": "Judge",
-            "period": "2025-11",
-            "url": "",
-            "id": 74
-        },
-        {
-            "category": "committee",
-            "name": "2026 Gachon University Center for Institutional Performance Management — Freshman Core Competency Assessment Report Evaluation",
-            "name_ko": "2026 가천대학교 대학성과관리센터 신입생 대상 가천핵심역량 진단 후기 보고서 평가",
-            "publisher": "Gachon University",
-            "type": "Review Panel",
-            "period": "2026-04",
-            "url": "",
-            "id": 75
-        },
-        {
-            "id": 76,
-            "category": "journal",
-            "name": "Frontiers in Computer Science",
-            "publisher": "Frontiers Media",
-            "type": "SCIE",
-            "since": "2026-04-08",
-            "url": "https://www.frontiersin.org/journals/computer-science"
-        },
-        {
-            "id": 77,
-            "category": "chair",
-            "name": "2026 Spring Conference of the Korean Institute of Intelligent Systems, Session FA-P1",
-            "name_ko": "2026 한국지능시스템학회 춘계학술대회 FA-P1 세션",
-            "publisher": "Korean Institute of Intelligent Systems (KIIS)",
-            "type": "Session Chair",
-            "period": "2026-05-15",
-            "url": ""
-        },
-        {
-            "id": 78,
-            "category": "chair",
-            "name": "2026 KITS·ICEC·KIISS Integrated International Conference, Session K2",
-            "name_ko": "2026 KITS·ICEC·KIISS 통합 국제학술대회 K2 세션",
-            "publisher": "Korea Intelligent Information Systems Society (KIISS)",
-            "type": "Session Chair",
-            "period": "2026-05-28",
-            "url": ""
-        },
-        {
-            "id": 79,
-            "category": "chair",
-            "name": "2026 Spring Joint Conference of Management Information Systems Associations, Session H2",
-            "name_ko": "2026 경영정보관련 학회 춘계통합학술대회 H2 세션",
-            "publisher": "Management Information Systems Associations",
-            "type": "Session Chair",
-            "period": "2026-06-05",
-            "url": ""
-        },
-        {
-            "id": 80,
-            "category": "journal",
-            "name": "Emission Control Science and Technology",
-            "publisher": "Springer",
-            "type": "Scopus",
-            "since": "2026-05-20",
-            "url": "https://www.springer.com/journal/40825"
-        },
-        {
-            "id": 81,
-            "category": "membership",
-            "name": "Financial Information Society of Korea (FISK)",
-            "publisher": "Financial Information Society of Korea (FISK)",
-            "type": "Lifetime Member",
-            "since": "2026-05-27",
-            "url": "",
-            "name_ko": "한국금융정보학회"
-        },
-        {
-            "id": 82,
-            "category": "chair",
-            "name": "2026 Summer Conference of the Korean Institute of Information Technology, Session 1-OB",
-            "name_ko": "2026 한국정보기술학회 하계종합학술대회 1-OB 세션",
-            "publisher": "Korean Institute of Information Technology (KIIT)",
-            "type": "Session Chair",
-            "period": "2026-06-04",
-            "url": ""
-        },
-        {
-            "id": 85,
-            "category": "journal",
-            "name": "SN Business & Economics",
-            "publisher": "Springer Nature",
-            "type": "Scopus",
-            "since": "2026-06-08",
-            "url": "https://www.springer.com/journal/43546"
-        },
-        {
-            "id": 86,
-            "category": "journal",
-            "name": "Quality & Quantity",
-            "publisher": "Springer",
-            "type": "Scopus",
-            "since": "2026-06-18",
-            "url": "https://www.springer.com/journal/11135"
-        },
-        {
-            "id": 87,
-            "category": "chair",
-            "name": "2026 Spring Conference of the Korean Society of Industry Convergence, Session P-II-A",
-            "name_ko": "2026 한국산업융합학회 춘계학술대회 P-II-A 세션",
-            "publisher": "Korean Society of Industry Convergence (KSIC)",
-            "type": "Session Chair",
-            "period": "2026-07-09",
-            "url": ""
-        },
-        {
-            "id": 88,
-            "category": "discussant",
-            "name": "2026 28th Integrated Conference of the Korean Academic Society of Business Administration, Korean Business Management Association Session",
-            "name_ko": "2026 제28회 한국경영학회 융합학술대회 한국산업경영학회 세션",
-            "publisher": "Korean Academic Society of Business Administration (KASBA)",
-            "type": "Discussant",
-            "period": "2026-08-20",
-            "url": ""
-        },
-        {
-            "id": 89,
-            "category": "journal",
-            "name": "Applied Economics Letters",
-            "publisher": "Taylor & Francis",
-            "type": "SSCI",
-            "since": "2026-07-29",
-            "url": "https://www.tandfonline.com/journals/rael20"
-        },
-        {
-            "id": 90,
-            "category": "journal",
-            "name": "Communications in Nonlinear Science and Numerical Simulation",
-            "publisher": "Elsevier",
-            "type": "SCIE",
-            "since": "2026-08-04",
-            "url": "https://www.sciencedirect.com/journal/communications-in-nonlinear-science-and-numerical-simulation"
-        },
-        {
-            "id": 91,
-            "category": "journal",
-            "name": "Discover Sustainability",
-            "publisher": "Springer",
-            "type": "ESCI",
-            "since": "2026-08-06",
-            "url": "https://link.springer.com/journal/43621"
-        },
-        {
-            "id": 92,
-            "category": "journal",
-            "name": "SAGE Open",
-            "publisher": "SAGE Publications",
-            "type": "SSCI",
-            "since": "2026-08-07",
-            "url": "https://journals.sagepub.com/home/sgo"
-        },
-        {
-            "id": 93,
-            "category": "journal",
-            "name": "Empirica",
-            "publisher": "Springer",
-            "type": "SSCI",
-            "since": "2026-08-31",
-            "url": "https://link.springer.com/journal/10663"
-        },
-        {
-            "id": 94,
-            "category": "journal",
-            "name": "Finance Research Open",
-            "publisher": "Elsevier",
-            "type": "Other International",
-            "since": "2026-08-31",
-            "url": "https://www.sciencedirect.com/journal/finance-research-open"
-        },
-        {
-            "id": 95,
-            "category": "journal",
-            "name": "Journal of the Korea Academia-Industrial Cooperation Society",
-            "name_ko": "한국산학기술학회논문지",
-            "publisher": "한국산학기술학회",
-            "type": "KCI",
-            "since": "2026-09-03",
-            "url": "https://www.kais.or.kr"
-        },
-        {
-            "id": 97,
-            "category": "journal",
-            "name": "Journal of the Korean Data Analysis Society",
-            "name_ko": "한국자료분석학회지",
-            "publisher": "한국자료분석학회",
-            "type": "Scopus",
-            "since": "2026-10-08",
-            "url": "https://jkdas.or.kr"
-        },
-        {
-            "id": 98,
-            "category": "journal",
-            "name": "Applied Soft Computing",
-            "publisher": "Elsevier",
-            "type": "SCIE",
-            "since": "2026-10-11",
-            "url": "https://www.sciencedirect.com/journal/applied-soft-computing"
-        },
-        {
-            "id": 96,
-            "category": "conference",
-            "name": "IEEE Symposium Series on Computational Intelligence (IEEE SSCI 2027) — IEEE Symposium on Computational Intelligence for Financial Engineering and Economics (CIFEr)",
-            "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
-            "type": "Conference",
-            "period": "2026-09",
-            "url": "https://ieeessci.org/"
-        },
-        {
-            "id": 99,
-            "category": "conference",
-            "name": "7th ACM International Conference on AI in Finance (ICAIF '26) — 3rd Workshop on LLMs and Generative AI for Finance",
-            "publisher": "Association for Computing Machinery",
-            "type": "Conference",
-            "period": "2026-10",
-            "url": "https://ai4f.org/"
-        }
-    ]
+  "activities": [
+    {
+      "id": 0,
+      "category": "journal",
+      "name": "Frontiers in Artificial Intelligence",
+      "publisher": "Frontiers Media",
+      "type": "ESCI",
+      "since": "2026-02-08",
+      "url": "https://www.frontiersin.org/journals/artificial-intelligence"
+    },
+    {
+      "id": 1,
+      "category": "journal",
+      "name": "Networks and Heterogeneous Media",
+      "publisher": "American Institute of Mathematical Sciences Press",
+      "type": "SCIE",
+      "since": "2026-01-28",
+      "url": "https://www.aimspress.com/journal/nhm"
+    },
+    {
+      "id": 2,
+      "category": "journal",
+      "name": "Measurement",
+      "publisher": "Elsevier",
+      "type": "SCIE",
+      "since": "2026-01-23",
+      "url": "https://www.sciencedirect.com/journal/measurement"
+    },
+    {
+      "id": 3,
+      "category": "journal",
+      "name": "Frontiers in Nutrition",
+      "publisher": "Frontiers Media",
+      "type": "SCIE",
+      "since": "2026-01-11",
+      "url": "https://www.frontiersin.org/journals/nutrition"
+    },
+    {
+      "id": 4,
+      "category": "journal",
+      "name": "Journal of King Saud University Computer and Information Sciences",
+      "publisher": "Springer",
+      "type": "SCIE",
+      "since": "2026-01-19",
+      "url": "https://link.springer.com/journal/44443"
+    },
+    {
+      "id": 5,
+      "category": "journal",
+      "name": "Discover Computing",
+      "publisher": "Springer",
+      "type": "Scopus",
+      "since": "2025-12-31",
+      "url": "https://link.springer.com/journal/44245"
+    },
+    {
+      "id": 6,
+      "category": "conference",
+      "name": "5th International Conference on Artificial Intelligence, Information Processing and Cloud Computing (AIIPCC)",
+      "publisher": "",
+      "type": "Conference",
+      "period": "2025-12",
+      "url": "https://www.aiipcc.org/"
+    },
+    {
+      "id": 83,
+      "category": "chair",
+      "name": "2025 Fall Conference of the Korean Institute of Information Technology, Session 2-OA",
+      "name_ko": "2025 한국정보기술학회 추계종합학술대회 2-OA 세션",
+      "publisher": "Korean Institute of Information Technology (KIIT)",
+      "type": "Session Chair",
+      "period": "2025-11",
+      "url": "https://ki-it.or.kr/board/maininfo/article/269934"
+    },
+    {
+      "id": 84,
+      "category": "journal",
+      "name": "Operations Research Forum",
+      "publisher": "Springer",
+      "type": "Scopus",
+      "since": "2025-11-10",
+      "url": ""
+    },
+    {
+      "id": 7,
+      "category": "conference",
+      "name": "3rd International Conference on Artificial Intelligence and Human-Computer Interaction (ArtInHCI)",
+      "publisher": "IOS Press",
+      "type": "Conference",
+      "period": "2025-10",
+      "url": "https://www.artinhci.com/2025/"
+    },
+    {
+      "id": 8,
+      "category": "journal",
+      "name": "Algorithms",
+      "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
+      "type": "ESCI",
+      "since": "2025-09-27",
+      "url": "https://www.mdpi.com/journal/algorithms"
+    },
+    {
+      "id": 9,
+      "category": "journal",
+      "name": "The Journal of Supercomputing",
+      "publisher": "Springer",
+      "type": "SCIE",
+      "since": "2025-09-27",
+      "url": "https://link.springer.com/journal/11227"
+    },
+    {
+      "id": 10,
+      "category": "journal",
+      "name": "Data Science in Finance and Economics",
+      "publisher": "American Institute of Mathematical Sciences Press",
+      "type": "Scopus",
+      "since": "2025-09-18",
+      "url": "https://www.aimspress.com/journal/dsfe"
+    },
+    {
+      "id": 11,
+      "category": "journal",
+      "name": "Humanities and Social Sciences Communications",
+      "publisher": "Springer",
+      "type": "SSCI",
+      "since": "2025-09-16",
+      "url": "https://www.nature.com/palcomms/"
+    },
+    {
+      "id": 12,
+      "category": "journal",
+      "name": "Electronics",
+      "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
+      "type": "SCIE",
+      "since": "2025-08-20",
+      "url": "https://www.mdpi.com/journal/electronics"
+    },
+    {
+      "id": 13,
+      "category": "journal",
+      "name": "Information",
+      "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
+      "type": "SCIE",
+      "since": "2025-08-13",
+      "url": "https://www.mdpi.com/journal/information"
+    },
+    {
+      "id": 14,
+      "category": "journal",
+      "name": "Chaos, Solitons & Fractals",
+      "publisher": "Elsevier",
+      "type": "SCIE",
+      "since": "2025-08-05",
+      "url": "https://www.sciencedirect.com/journal/chaos-solitons-and-fractals"
+    },
+    {
+      "id": 15,
+      "category": "journal",
+      "name": "Nonlinear Science",
+      "publisher": "Elsevier",
+      "type": "SCIE",
+      "since": "2025-08-05",
+      "url": ""
+    },
+    {
+      "id": 16,
+      "category": "journal",
+      "name": "Computers",
+      "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
+      "type": "SCIE",
+      "since": "2025-07-28",
+      "url": "https://www.mdpi.com/journal/computers"
+    },
+    {
+      "id": 17,
+      "category": "journal",
+      "name": "Journal of Intelligent Information Systems",
+      "publisher": "Springer",
+      "type": "SCIE",
+      "since": "2025-07-28",
+      "url": "https://link.springer.com/journal/10844"
+    },
+    {
+      "id": 18,
+      "category": "journal",
+      "name": "Machine Learning with Applications",
+      "publisher": "Elsevier",
+      "type": "Scopus",
+      "since": "2025-07-28",
+      "url": "https://www.sciencedirect.com/journal/machine-learning-with-applications"
+    },
+    {
+      "id": 19,
+      "category": "journal",
+      "name": "Big Data and Cognitive Computing",
+      "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
+      "type": "SCIE",
+      "since": "2025-07-11",
+      "url": "https://www.mdpi.com/journal/BDCC"
+    },
+    {
+      "id": 20,
+      "category": "journal",
+      "name": "Future Internet",
+      "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
+      "type": "SCIE",
+      "since": "2025-06-27",
+      "url": "https://www.mdpi.com/journal/futureinternet"
+    },
+    {
+      "id": 21,
+      "category": "journal",
+      "name": "Applied Sciences",
+      "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
+      "type": "SCIE",
+      "since": "2025-06-12",
+      "url": "https://www.mdpi.com/journal/applsci"
+    },
+    {
+      "id": 22,
+      "category": "journal",
+      "name": "Energies",
+      "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
+      "type": "SCIE",
+      "since": "2025-05-28",
+      "url": "https://www.mdpi.com/journal/energies"
+    },
+    {
+      "id": 23,
+      "category": "journal",
+      "name": "Fractal and Fractional",
+      "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
+      "type": "SCIE",
+      "since": "2025-05-14",
+      "url": "https://www.mdpi.com/journal/fractalfract"
+    },
+    {
+      "id": 24,
+      "category": "journal",
+      "name": "Symmetry",
+      "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
+      "type": "SCIE",
+      "since": "2025-04-29",
+      "url": "https://www.mdpi.com/journal/symmetry"
+    },
+    {
+      "id": 25,
+      "category": "journal",
+      "name": "Carbon Balance and Management",
+      "publisher": "Springer",
+      "type": "SCIE",
+      "since": "2025-03-15",
+      "url": "https://cbmjournal.biomedcentral.com/"
+    },
+    {
+      "id": 26,
+      "category": "journal",
+      "name": "Frontiers in Public Health",
+      "publisher": "Frontiers Media",
+      "type": "SSCI",
+      "since": "2026-01-31",
+      "url": "https://www.frontiersin.org/journals/public-health"
+    },
+    {
+      "id": 27,
+      "category": "journal",
+      "name": "Knowledge and Information Systems",
+      "publisher": "Springer",
+      "type": "SCIE",
+      "since": "2025-02-18",
+      "url": "https://link.springer.com/journal/10115"
+    },
+    {
+      "id": 28,
+      "category": "journal",
+      "name": "International Journal of Machine Learning and Cybernetics",
+      "publisher": "Springer",
+      "type": "SCIE",
+      "since": "2025-02-16",
+      "url": "https://link.springer.com/journal/13042"
+    },
+    {
+      "id": 29,
+      "category": "journal",
+      "name": "EPJ Data Science",
+      "publisher": "Springer",
+      "type": "SCIE",
+      "since": "2025-02-02",
+      "url": "https://epjdatascience.springeropen.com/"
+    },
+    {
+      "id": 30,
+      "category": "journal",
+      "name": "Frontiers in Physics",
+      "publisher": "Frontiers Media",
+      "type": "SCIE",
+      "since": "2025-01-31",
+      "url": "https://www.frontiersin.org/journals/physics"
+    },
+    {
+      "id": 31,
+      "category": "journal",
+      "name": "Energy Informatics",
+      "publisher": "Springer",
+      "type": "Scopus",
+      "since": "2025-01-28",
+      "url": "https://energyinformatics.springeropen.com/"
+    },
+    {
+      "id": 32,
+      "category": "journal",
+      "name": "International Journal of Computational Intelligence Systems",
+      "publisher": "Springer",
+      "type": "SCIE",
+      "since": "2025-01-23",
+      "url": "https://link.springer.com/journal/44196"
+    },
+    {
+      "id": 33,
+      "category": "journal",
+      "name": "Scientific Reports",
+      "publisher": "Nature Portfolio",
+      "type": "SCIE",
+      "since": "2025-01-23",
+      "url": "https://www.nature.com/srep/"
+    },
+    {
+      "id": 34,
+      "category": "journal",
+      "name": "Cluster Computing",
+      "publisher": "Springer",
+      "type": "SCIE",
+      "since": "2025-01-19",
+      "url": "https://link.springer.com/journal/10586"
+    },
+    {
+      "id": 35,
+      "category": "journal",
+      "name": "Biophysical Economics and Sustainability",
+      "publisher": "Springer",
+      "type": "Scopus",
+      "since": "2025-01-13",
+      "url": "https://link.springer.com/journal/41247"
+    },
+    {
+      "id": 36,
+      "category": "journal",
+      "name": "Discover Applied Sciences",
+      "publisher": "Springer",
+      "type": "Scopus",
+      "since": "2024-12-24",
+      "url": "https://link.springer.com/journal/42452"
+    },
+    {
+      "id": 37,
+      "category": "journal",
+      "name": "Discover Analytics",
+      "publisher": "Springer",
+      "type": "Scopus",
+      "since": "2024-12-21",
+      "url": "https://link.springer.com/journal/44257"
+    },
+    {
+      "id": 38,
+      "category": "journal",
+      "name": "Discover Networks",
+      "publisher": "Springer",
+      "type": "Scopus",
+      "since": "2024-12-21",
+      "url": "https://link.springer.com/journal/44256"
+    },
+    {
+      "id": 39,
+      "category": "journal",
+      "name": "Discover Artificial Intelligence",
+      "publisher": "Springer",
+      "type": "Scopus",
+      "since": "2024-12-20",
+      "url": "https://link.springer.com/journal/44163"
+    },
+    {
+      "id": 40,
+      "category": "journal",
+      "name": "International Journal of Data Science and Analytics",
+      "publisher": "Springer",
+      "type": "Scopus",
+      "since": "2024-12-14",
+      "url": "https://link.springer.com/journal/41060"
+    },
+    {
+      "id": 41,
+      "category": "journal",
+      "name": "Optimization and Engineering",
+      "publisher": "Springer",
+      "type": "SCIE",
+      "since": "2024-12-06",
+      "url": "https://link.springer.com/journal/11081"
+    },
+    {
+      "id": 42,
+      "category": "journal",
+      "name": "BMC Medical Informatics and Decision Making",
+      "publisher": "BioMed Central",
+      "type": "SCIE",
+      "since": "2024-12-04",
+      "url": "https://bmcmedinformdecismak.biomedcentral.com/"
+    },
+    {
+      "id": 43,
+      "category": "journal",
+      "name": "Neural Computing and Applications",
+      "publisher": "Springer",
+      "type": "SCIE",
+      "since": "2024-11-30",
+      "url": "https://link.springer.com/journal/521"
+    },
+    {
+      "id": 44,
+      "category": "journal",
+      "name": "Financial Innovation",
+      "publisher": "Springer",
+      "type": "SSCI",
+      "since": "2024-11-30",
+      "url": "https://jfin-swufe.springeropen.com/"
+    },
+    {
+      "id": 45,
+      "category": "conference",
+      "name": "30th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD)",
+      "publisher": "Association for Computing Machinery",
+      "type": "Conference",
+      "period": "2024-08",
+      "url": "https://kdd.org/"
+    },
+    {
+      "id": 46,
+      "category": "journal",
+      "name": "Computational Economics",
+      "publisher": "Springer",
+      "type": "SSCI",
+      "since": "2023-12-22",
+      "url": "https://link.springer.com/journal/10614"
+    },
+    {
+      "id": 47,
+      "category": "journal",
+      "name": "Annals of Operations Research",
+      "publisher": "Springer",
+      "type": "SCIE",
+      "since": "2023-11-15",
+      "url": "https://link.springer.com/journal/10479"
+    },
+    {
+      "id": 48,
+      "category": "journal",
+      "name": "Information Processing & Management",
+      "publisher": "Elsevier",
+      "type": "SCIE",
+      "since": "2023-10-30",
+      "url": "https://www.sciencedirect.com/journal/information-processing-and-management"
+    },
+    {
+      "id": 49,
+      "category": "journal",
+      "name": "International Review of Financial Analysis",
+      "publisher": "Elsevier",
+      "type": "SSCI",
+      "since": "2023-10-24",
+      "url": "https://www.sciencedirect.com/journal/international-review-of-financial-analysis"
+    },
+    {
+      "id": 50,
+      "category": "journal",
+      "name": "IEEE Transactions on Network Science and Engineering",
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "type": "SCIE",
+      "since": "2023-09-06",
+      "url": "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6488902"
+    },
+    {
+      "id": 51,
+      "category": "journal",
+      "name": "Finance Research Letters",
+      "publisher": "Elsevier",
+      "type": "SSCI",
+      "since": "2023-06-19",
+      "url": "https://www.sciencedirect.com/journal/finance-research-letters"
+    },
+    {
+      "id": 52,
+      "category": "journal",
+      "name": "Expert Systems with Applications",
+      "publisher": "Elsevier",
+      "type": "SCIE",
+      "since": "2022-04-30",
+      "url": "https://www.sciencedirect.com/journal/expert-systems-with-applications"
+    },
+    {
+      "id": 53,
+      "category": "journal",
+      "name": "Industrial Engineering & Management Systems",
+      "publisher": "Korean Institute of Industrial Engineers (KIIE)",
+      "type": "Scopus",
+      "since": "2022-03-29",
+      "url": "http://www.iemsjl.org/"
+    },
+    {
+      "id": 54,
+      "category": "committee",
+      "name": "1st Shinhan Investment Corp. Shinhan Alpha – KAIST Competition",
+      "name_ko": "제1회 신한금융투자 신한알파·KAIST 모의투자대회",
+      "publisher": "Shinhan Investment Corp., KAIST",
+      "type": "Committee Member",
+      "period": "2021-06-01 – 2021-08-31",
+      "url": "https://www.youtube.com/watch?v=KGd4DGsfKS8"
+    },
+    {
+      "id": 55,
+      "category": "editorial",
+      "name": "Mathematics",
+      "name_ko": "Mathematics",
+      "publisher": "Multidisciplinary Digital Publishing Institute (MDPI)",
+      "type": "SCIE",
+      "role": "Guest Editor",
+      "specialIssue": "Advances in Data-Driven Modeling: Theory and Applications",
+      "since": "2026-02",
+      "url": "https://www.mdpi.com/journal/mathematics"
+    },
+    {
+      "id": 56,
+      "category": "membership",
+      "name": "Korean Institute of Industrial Engineers (KIIE)",
+      "name_ko": "대한산업공학회",
+      "type": "Lifetime Member",
+      "since": "2025-06"
+    },
+    {
+      "id": 57,
+      "category": "membership",
+      "name": "Korean Securities Association (KSA)",
+      "name_ko": "한국증권학회",
+      "type": "Lifetime Member",
+      "since": "2023-09"
+    },
+    {
+      "id": 58,
+      "category": "membership",
+      "name": "Korean Academic Society of Business Administration (KASBA)",
+      "name_ko": "한국경영학회",
+      "type": "Lifetime Member",
+      "since": "2023-06"
+    },
+    {
+      "id": 59,
+      "category": "membership",
+      "name": "Korea Intelligent Information Systems Society (KIISS)",
+      "name_ko": "한국지능정보시스템학회",
+      "type": "Lifetime Member",
+      "since": "2022-06"
+    },
+    {
+      "id": 60,
+      "category": "journal",
+      "name": "Engineering Economics",
+      "publisher": "Kaunas University of Technology",
+      "type": "SSCI",
+      "since": "2026-02-19",
+      "url": "https://inzeko.ktu.lt/index.php/EE"
+    },
+    {
+      "id": 61,
+      "category": "journal",
+      "name": "International Journal of Strategic Property Management",
+      "publisher": "Vilnius Gediminas Technical University",
+      "type": "SSCI",
+      "since": "2026-02-26",
+      "url": "https://journals.vilniustech.lt/index.php/IJSPM"
+    },
+    {
+      "id": 62,
+      "category": "journal",
+      "name": "The International Journal of Management Education",
+      "publisher": "Elsevier",
+      "type": "SSCI",
+      "since": "2026-03-03",
+      "url": "https://www.sciencedirect.com/journal/the-international-journal-of-management-education"
+    },
+    {
+      "id": 63,
+      "category": "journal",
+      "name": "npj Clean Water",
+      "publisher": "Springer Nature",
+      "type": "SCIE",
+      "since": "2026-03-23",
+      "url": "https://www.nature.com/npjcleanwater/"
+    },
+    {
+      "id": 64,
+      "category": "journal",
+      "name": "Applied Spatial Analysis and Policy",
+      "publisher": "Springer",
+      "type": "SSCI",
+      "since": "2026-03-23",
+      "url": "https://link.springer.com/journal/12061"
+    },
+    {
+      "category": "committee",
+      "name": "2018 FIELD (Future Industrial Engineering Leaders and Dreamers) CAMP",
+      "name_ko": "2018 전국 대학생 산업공학도 학술교류캠프 FIELD CAMP 컴페티션",
+      "publisher": "Korean Institute of Industrial Engineers (KIIE)",
+      "type": "Judge",
+      "period": "2018-08",
+      "url": "",
+      "id": 67
+    },
+    {
+      "category": "committee",
+      "name": "2019 FIELD (Future Industrial Engineering Leaders and Dreamers) CAMP",
+      "name_ko": "2019 전국 대학생 산업공학도 학술교류캠프 FIELD CAMP 컴페티션",
+      "publisher": "Korean Institute of Industrial Engineers (KIIE)",
+      "type": "Judge",
+      "period": "2019-08",
+      "url": "",
+      "id": 68
+    },
+    {
+      "category": "committee",
+      "name": "2022 FIELD (Future Industrial Engineering Leaders and Dreamers) CAMP",
+      "name_ko": "2022 전국 대학생 산업공학도 학술교류캠프 FIELD CAMP 컴페티션",
+      "publisher": "Korean Institute of Industrial Engineers (KIIE)",
+      "type": "Judge",
+      "period": "2022-08",
+      "url": "",
+      "id": 69
+    },
+    {
+      "category": "committee",
+      "name": "2023 FIELD (Future Industrial Engineering Leaders and Dreamers) CAMP",
+      "name_ko": "2023 전국 대학생 산업공학도 학술교류캠프 FIELD CAMP 컴페티션",
+      "publisher": "Korean Institute of Industrial Engineers (KIIE)",
+      "type": "Judge",
+      "period": "2023-08",
+      "url": "",
+      "id": 70
+    },
+    {
+      "category": "committee",
+      "name": "2024 FIELD (Future Industrial Engineering Leaders and Dreamers) CAMP",
+      "name_ko": "2024 전국 대학생 산업공학도 학술교류캠프 FIELD CAMP 컴페티션",
+      "publisher": "Korean Institute of Industrial Engineers (KIIE)",
+      "type": "Judge",
+      "period": "2024-08",
+      "url": "",
+      "id": 71
+    },
+    {
+      "category": "committee",
+      "name": "2025 FIELD (Future Industrial Engineering Leaders and Dreamers) CAMP",
+      "name_ko": "2025 전국 대학생 산업공학도 학술교류캠프 FIELD CAMP 컴페티션",
+      "publisher": "Korean Institute of Industrial Engineers (KIIE)",
+      "type": "Judge",
+      "period": "2025-08",
+      "url": "",
+      "id": 72
+    },
+    {
+      "category": "committee",
+      "name": "3rd Kyung Hee University Data Analysis/AI Society KHUDA Datathon <KHU'DATA K-LIFESTYLE>",
+      "name_ko": "제3회 경희대학교 데이터분석/AI 학회 KHUDA DATATHON <KHU'DATA K-LIFESTYLE>",
+      "publisher": "Kyung Hee University KHUDA",
+      "type": "Judge",
+      "period": "2025-11",
+      "url": "",
+      "id": 73
+    },
+    {
+      "category": "committee",
+      "name": "2025 Dongduk Women's University Business Administration Academic Festival <TREND: UP>",
+      "name_ko": "2025 동덕여자대학교 경영학과 학술제 <TREND: UP>",
+      "publisher": "Dongduk Women's University",
+      "type": "Judge",
+      "period": "2025-11",
+      "url": "",
+      "id": 74
+    },
+    {
+      "category": "committee",
+      "name": "2026 Gachon University Center for Institutional Performance Management — Freshman Core Competency Assessment Report Evaluation",
+      "name_ko": "2026 가천대학교 대학성과관리센터 신입생 대상 가천핵심역량 진단 후기 보고서 평가",
+      "publisher": "Gachon University",
+      "type": "Review Panel",
+      "period": "2026-04",
+      "url": "",
+      "id": 75
+    },
+    {
+      "id": 76,
+      "category": "journal",
+      "name": "Frontiers in Computer Science",
+      "publisher": "Frontiers Media",
+      "type": "SCIE",
+      "since": "2026-04-08",
+      "url": "https://www.frontiersin.org/journals/computer-science"
+    },
+    {
+      "id": 77,
+      "category": "chair",
+      "name": "2026 Spring Conference of the Korean Institute of Intelligent Systems, Session FA-P1",
+      "name_ko": "2026 한국지능시스템학회 춘계학술대회 FA-P1 세션",
+      "publisher": "Korean Institute of Intelligent Systems (KIIS)",
+      "type": "Session Chair",
+      "period": "2026-05-15",
+      "url": ""
+    },
+    {
+      "id": 78,
+      "category": "chair",
+      "name": "2026 KITS·ICEC·KIISS Integrated International Conference, Session K2",
+      "name_ko": "2026 KITS·ICEC·KIISS 통합 국제학술대회 K2 세션",
+      "publisher": "Korea Intelligent Information Systems Society (KIISS)",
+      "type": "Session Chair",
+      "period": "2026-05-28",
+      "url": ""
+    },
+    {
+      "id": 79,
+      "category": "chair",
+      "name": "2026 Spring Joint Conference of Management Information Systems Associations, Session H2",
+      "name_ko": "2026 경영정보관련 학회 춘계통합학술대회 H2 세션",
+      "publisher": "Management Information Systems Associations",
+      "type": "Session Chair",
+      "period": "2026-06-05",
+      "url": ""
+    },
+    {
+      "id": 80,
+      "category": "journal",
+      "name": "Emission Control Science and Technology",
+      "publisher": "Springer",
+      "type": "Scopus",
+      "since": "2026-05-20",
+      "url": "https://www.springer.com/journal/40825"
+    },
+    {
+      "id": 81,
+      "category": "membership",
+      "name": "Financial Information Society of Korea (FISK)",
+      "publisher": "Financial Information Society of Korea (FISK)",
+      "type": "Lifetime Member",
+      "since": "2026-05-27",
+      "url": "",
+      "name_ko": "한국금융정보학회"
+    },
+    {
+      "id": 82,
+      "category": "chair",
+      "name": "2026 Summer Conference of the Korean Institute of Information Technology, Session 1-OB",
+      "name_ko": "2026 한국정보기술학회 하계종합학술대회 1-OB 세션",
+      "publisher": "Korean Institute of Information Technology (KIIT)",
+      "type": "Session Chair",
+      "period": "2026-06-04",
+      "url": ""
+    },
+    {
+      "id": 85,
+      "category": "journal",
+      "name": "SN Business & Economics",
+      "publisher": "Springer Nature",
+      "type": "Scopus",
+      "since": "2026-06-08",
+      "url": "https://www.springer.com/journal/43546"
+    },
+    {
+      "id": 86,
+      "category": "journal",
+      "name": "Quality & Quantity",
+      "publisher": "Springer",
+      "type": "Scopus",
+      "since": "2026-06-18",
+      "url": "https://www.springer.com/journal/11135"
+    },
+    {
+      "id": 87,
+      "category": "chair",
+      "name": "2026 Spring Conference of the Korean Society of Industry Convergence, Session P-II-A",
+      "name_ko": "2026 한국산업융합학회 춘계학술대회 P-II-A 세션",
+      "publisher": "Korean Society of Industry Convergence (KSIC)",
+      "type": "Session Chair",
+      "period": "2026-07-09",
+      "url": ""
+    },
+    {
+      "id": 88,
+      "category": "discussant",
+      "name": "2026 28th Integrated Conference of the Korean Academic Society of Business Administration, Korean Business Management Association Session",
+      "name_ko": "2026 제28회 한국경영학회 융합학술대회 한국산업경영학회 세션",
+      "publisher": "Korean Academic Society of Business Administration (KASBA)",
+      "type": "Discussant",
+      "period": "2026-08-20",
+      "url": ""
+    },
+    {
+      "id": 89,
+      "category": "journal",
+      "name": "Applied Economics Letters",
+      "publisher": "Taylor & Francis",
+      "type": "SSCI",
+      "since": "2026-07-29",
+      "url": "https://www.tandfonline.com/journals/rael20"
+    },
+    {
+      "id": 90,
+      "category": "journal",
+      "name": "Communications in Nonlinear Science and Numerical Simulation",
+      "publisher": "Elsevier",
+      "type": "SCIE",
+      "since": "2026-08-04",
+      "url": "https://www.sciencedirect.com/journal/communications-in-nonlinear-science-and-numerical-simulation"
+    },
+    {
+      "id": 91,
+      "category": "journal",
+      "name": "Discover Sustainability",
+      "publisher": "Springer",
+      "type": "ESCI",
+      "since": "2026-08-06",
+      "url": "https://link.springer.com/journal/43621"
+    },
+    {
+      "id": 92,
+      "category": "journal",
+      "name": "SAGE Open",
+      "publisher": "SAGE Publications",
+      "type": "SSCI",
+      "since": "2026-08-07",
+      "url": "https://journals.sagepub.com/home/sgo"
+    },
+    {
+      "id": 93,
+      "category": "journal",
+      "name": "Empirica",
+      "publisher": "Springer",
+      "type": "SSCI",
+      "since": "2026-08-31",
+      "url": "https://link.springer.com/journal/10663"
+    },
+    {
+      "id": 94,
+      "category": "journal",
+      "name": "Finance Research Open",
+      "publisher": "Elsevier",
+      "type": "Other International",
+      "since": "2026-08-31",
+      "url": "https://www.sciencedirect.com/journal/finance-research-open"
+    },
+    {
+      "id": 95,
+      "category": "journal",
+      "name": "Journal of the Korea Academia-Industrial Cooperation Society",
+      "name_ko": "한국산학기술학회논문지",
+      "publisher": "한국산학기술학회",
+      "type": "KCI",
+      "since": "2026-09-03",
+      "url": "https://www.kais.or.kr"
+    },
+    {
+      "id": 97,
+      "category": "journal",
+      "name": "Journal of the Korean Data Analysis Society",
+      "name_ko": "한국자료분석학회지",
+      "publisher": "한국자료분석학회",
+      "type": "Scopus",
+      "since": "2026-10-08",
+      "url": "https://jkdas.or.kr"
+    },
+    {
+      "id": 98,
+      "category": "journal",
+      "name": "Applied Soft Computing",
+      "publisher": "Elsevier",
+      "type": "SCIE",
+      "since": "2026-10-11",
+      "url": "https://www.sciencedirect.com/journal/applied-soft-computing"
+    },
+    {
+      "id": 96,
+      "category": "conference",
+      "name": "IEEE Symposium Series on Computational Intelligence (IEEE SSCI 2027) — IEEE Symposium on Computational Intelligence for Financial Engineering and Economics (CIFEr)",
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "type": "Conference",
+      "period": "2026-09",
+      "url": "https://ieeessci.org/"
+    },
+    {
+      "id": 99,
+      "category": "conference",
+      "name": "7th ACM International Conference on AI in Finance (ICAIF '26) — 3rd Workshop on LLMs and Generative AI for Finance",
+      "publisher": "Association for Computing Machinery",
+      "type": "Conference",
+      "period": "2026-10",
+      "url": "https://ai4f.org/"
+    },
+    {
+      "id": 100,
+      "category": "committee",
+      "name": "The 42nd ACM/SIGAPP Symposium on Applied Computing (SAC 2027)",
+      "name_ko": "제42회 ACM/SIGAPP 응용컴퓨팅 심포지엄 (SAC 2027)",
+      "publisher": "ACM SIGAPP",
+      "type": "Program Committee",
+      "period": "2026-10",
+      "url": "https://www.sigapp.org/sac/sac2027/"
+    },
+    {
+      "id": 101,
+      "category": "committee",
+      "name": "Gachon University Faculty Recruitment Evaluation Committee (Fall Semester 2026)",
+      "name_ko": "가천대학교 2026학년도 2학기 교수초빙 심사위원",
+      "publisher": "Gachon University",
+      "type": "Committee Member",
+      "period": "2026-05",
+      "url": ""
+    },
+    {
+      "id": 102,
+      "category": "committee",
+      "name": "Gachon University Faculty Recruitment Evaluation Committee (Spring Semester 2027)",
+      "name_ko": "가천대학교 2027학년도 1학기 교수초빙 심사위원",
+      "publisher": "Gachon University",
+      "type": "Committee Member",
+      "period": "2026-10",
+      "url": ""
+    }
+  ]
 }

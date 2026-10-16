@@ -1075,10 +1075,10 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                                         <div className="flex flex-col">
                                           <span className="text-sm font-bold text-gray-800">{l.role}</span>
                                           <span className="text-sm text-gray-500 font-medium">{l.context}</span>
-                                          <span className="md:hidden text-[10px] md:text-[11px] text-gray-500 font-medium mt-2">{l.period}</span>
+                                          <span className="md:hidden mt-2 inline-flex self-start date-badge">{l.period}</span>
                                         </div>
                                       </div>
-                                      <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-[11px] font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap">{l.period}</span>
+                                      <span className="hidden md:inline-flex date-badge">{l.period}</span>
                                     </div>
                                   ))}
                                 </div>

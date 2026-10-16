@@ -1728,13 +1728,13 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                               <div className="flex items-center gap-6 mt-4 md:hidden">
                                 <span className="px-6 py-1 text-[10px] md:text-[11px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{item.type}</span>
                                 <span className="px-6 py-1 text-[10px] md:text-[11px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{item.role}</span>
-                                <span className="text-[10px] md:text-[11px] text-gray-500 font-medium">{toYearMonth(item.since || '')} – Present</span>
+                                <span className="inline-flex self-start date-badge">{toYearMonth(item.since || '')} – Present</span>
                               </div>
                             </div>
                             <div className="hidden md:flex items-center gap-6 shrink-0">
                               <span className="px-6 py-2 text-[10px] md:text-[11px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{item.type}</span>
                               <span className="px-6 py-2 text-[10px] md:text-[11px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{item.role}</span>
-                              <span className="inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm whitespace-nowrap">{toYearMonth(item.since || '')} – Present</span>
+                              <span className="inline-flex date-badge">{toYearMonth(item.since || '')} – Present</span>
                             </div>
                           </div>
                         ))}
@@ -1765,12 +1765,12 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                               )}
                               <div className="flex items-center gap-6 mt-4 md:hidden">
                                 <span className="px-6 py-1 text-[10px] md:text-[11px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{item.type}</span>
-                                <span className="text-[10px] md:text-[11px] text-gray-500 font-medium">{toYearMonth(item.since || '')} – Present</span>
+                                <span className="inline-flex self-start date-badge">{toYearMonth(item.since || '')} – Present</span>
                               </div>
                             </div>
                             <div className="hidden md:flex items-center gap-6 shrink-0">
                               <span className="px-6 py-2 text-[10px] md:text-[11px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{item.type}</span>
-                              <span className="inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm whitespace-nowrap">{toYearMonth(item.since || '')} – Present</span>
+                              <span className="inline-flex date-badge">{toYearMonth(item.since || '')} – Present</span>
                             </div>
                           </div>
                         ))}
@@ -1804,12 +1804,12 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                                   )}
                                   <div className="flex items-center gap-6 mt-4 md:hidden">
                                     <span className="px-6 py-1 text-[10px] md:text-[11px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{comm.type}</span>
-                                    <span className="text-[10px] md:text-[11px] text-gray-500 font-medium">{toYearMonth(comm.period || comm.since || '')}</span>
+                                    <span className="inline-flex self-start date-badge">{toYearMonth(comm.period || comm.since || '')}</span>
                                   </div>
                                 </div>
                                 <div className="hidden md:flex items-center gap-6 shrink-0">
                                   <span className="px-6 py-2 text-[10px] md:text-[11px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{comm.type}</span>
-                                  <span className="inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm whitespace-nowrap">{toYearMonth(comm.period || comm.since || '')}</span>
+                                  <span className="inline-flex date-badge">{toYearMonth(comm.period || comm.since || '')}</span>
                                 </div>
                               </a>
                             ))}
@@ -1847,7 +1847,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                                   )}
                                   <span className="md:hidden block text-[10px] md:text-[11px] text-gray-500 font-medium mt-2">{toYearMonth(chair.period || chair.since || '')}</span>
                                 </div>
-                                <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap md:min-w-[168px]">{toYearMonth(chair.period || chair.since || '')}</span>
+                                <span className="hidden md:inline-flex date-badge">{toYearMonth(chair.period || chair.since || '')}</span>
                               </a>
                             ))}
                           </div>
@@ -1884,7 +1884,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                                   )}
                                   <span className="md:hidden block text-[10px] md:text-[11px] text-gray-500 font-medium mt-2">{toYearMonth(d.period || d.since || '')}</span>
                                 </div>
-                                <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap md:min-w-[168px]">{toYearMonth(d.period || d.since || '')}</span>
+                                <span className="hidden md:inline-flex date-badge">{toYearMonth(d.period || d.since || '')}</span>
                               </a>
                             ))}
                           </div>
@@ -1946,9 +1946,9 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                               className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-gray-300 gap-4 md:gap-8">
                               <div className="flex flex-col">
                                 <span className="text-sm font-bold text-gray-700">{conf.name}</span>
-                                <span className="md:hidden text-[10px] md:text-[11px] text-gray-500 font-medium mt-2">{toYearMonth(conf.period || conf.since || '')}</span>
+                                <span className="md:hidden mt-2 inline-flex self-start date-badge">{toYearMonth(conf.period || conf.since || '')}</span>
                               </div>
-                              <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap md:min-w-[168px]">
+                              <span className="hidden md:inline-flex date-badge">
                                 {toYearMonth(conf.period || conf.since || '')}
                               </span>
                             </a>
@@ -2161,10 +2161,10 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                                         <p className="text-sm text-gray-600 mt-4 leading-relaxed whitespace-pre-line">{project.titleEn}</p>
                                         <p className="text-sm text-gray-500 mt-3 whitespace-pre-line"><span className="font-bold">{project.language === 'ko' && project.fundingAgencyKo ? project.fundingAgencyKo : project.fundingAgency}</span></p>
                                         {/* Mobile: Period as text */}
-                                        <p className="md:hidden text-[10px] md:text-[11px] text-gray-500 font-medium mt-4">{project.period}</p>
+                                        <p className="md:hidden mt-4 inline-flex self-start date-badge">{project.period}</p>
                                       </div>
                                       {/* PC: Period badge - right aligned */}
-                                      <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap md:min-w-[168px]">
+                                      <span className="hidden md:inline-flex date-badge">
                                         {project.period}
                                       </span>
                                     </div>

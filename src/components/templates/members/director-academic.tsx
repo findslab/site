@@ -1599,8 +1599,8 @@ export const MembersDirectorAcademicTemplate = () => {
                                 <span className="px-6 py-2 bg-[#D6B14D] text-white text-[10px] md:text-xs font-bold rounded">{item.type}</span>
                                 <span className="px-6 py-2 bg-[#FFBAC4] text-white text-[10px] md:text-xs font-bold rounded">{item.role}</span>
                               </div>
-                              <span className="md:hidden text-[10px] md:text-[11px] text-gray-500 font-medium">{item.since} – Present</span>
-                              <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap min-w-[168px] md:ml-auto">{item.since} – Present</span>
+                              <span className="md:hidden inline-flex self-start date-badge">{item.since} – Present</span>
+                              <span className="hidden md:inline-flex md:ml-auto date-badge">{item.since} – Present</span>
                             </div>
                           </div>
                         ))}
@@ -1631,8 +1631,8 @@ export const MembersDirectorAcademicTemplate = () => {
                             </div>
                             <div className="flex flex-col md:flex-row md:items-center md:justify-end md:gap-8 gap-4 shrink-0 md:basis-[40%] md:flex-none">
                               <span className="px-6 py-2 bg-[#FFBAC4] text-white text-[10px] md:text-xs font-bold rounded self-start md:self-auto">{item.type}</span>
-                              <span className="md:hidden text-[10px] md:text-[11px] text-gray-500 font-medium">{item.since} – Present</span>
-                              <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap min-w-[168px] md:ml-auto">{item.since} – Present</span>
+                              <span className="md:hidden inline-flex self-start date-badge">{item.since} – Present</span>
+                              <span className="hidden md:inline-flex md:ml-auto date-badge">{item.since} – Present</span>
                             </div>
                           </div>
                         ))}
@@ -1667,12 +1667,12 @@ export const MembersDirectorAcademicTemplate = () => {
                                   )}
                                   <div className="md:hidden flex items-center gap-6 mt-4">
                                     <span className="px-8 py-2 text-[10px] md:text-[11px] font-bold rounded-full" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{comm.type}</span>
-                                    <span className="text-[10px] md:text-[11px] text-gray-500 font-medium">{comm.period || comm.since}</span>
+                                    <span className="inline-flex self-start date-badge">{comm.period || comm.since}</span>
                                   </div>
                                 </div>
                                 <div className="hidden md:flex items-center justify-end gap-8 shrink-0 md:basis-[40%] md:flex-none">
                                   <span className="px-8 py-2 text-[10px] md:text-[11px] font-bold rounded-full whitespace-nowrap" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{comm.type}</span>
-                                  <span className="inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap">{comm.period || comm.since}</span>
+                                  <span className="inline-flex date-badge">{comm.period || comm.since}</span>
                                 </div>
                               </a>
                             ))}
@@ -1709,7 +1709,7 @@ export const MembersDirectorAcademicTemplate = () => {
                                   )}
                                   <span className="md:hidden block text-[10px] md:text-[11px] text-gray-500 font-medium mt-2">{chair.period || chair.since}</span>
                                 </div>
-                                <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap md:ml-auto">{chair.period || chair.since}</span>
+                                <span className="hidden md:inline-flex md:ml-auto date-badge">{chair.period || chair.since}</span>
                               </a>
                             ))}
                           </div>
@@ -1745,7 +1745,7 @@ export const MembersDirectorAcademicTemplate = () => {
                                   )}
                                   <span className="md:hidden block text-[10px] md:text-[11px] text-gray-500 font-medium mt-2">{d.period || d.since}</span>
                                 </div>
-                                <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap md:ml-auto">{d.period || d.since}</span>
+                                <span className="hidden md:inline-flex md:ml-auto date-badge">{d.period || d.since}</span>
                               </a>
                             ))}
                           </div>
@@ -1811,9 +1811,9 @@ export const MembersDirectorAcademicTemplate = () => {
                               className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-gray-300 gap-4 md:gap-8">
                               <div className="flex flex-col">
                                 <span className="text-xs font-bold text-gray-700">{conf.name}</span>
-                                <span className="md:hidden text-[10px] md:text-[11px] text-gray-500 font-medium mt-2">{conf.period || conf.since}</span>
+                                <span className="md:hidden mt-2 inline-flex self-start date-badge">{conf.period || conf.since}</span>
                               </div>
-                              <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap min-w-[168px] md:ml-auto">
+                              <span className="hidden md:inline-flex md:ml-auto date-badge">
                                 {conf.period || conf.since}
                               </span>
                             </a>
@@ -2024,10 +2024,10 @@ export const MembersDirectorAcademicTemplate = () => {
                                         <p className="text-sm text-gray-600 mt-3 whitespace-pre-line">{project.titleEn}</p>
                                         <p className="text-sm text-gray-500 mt-3 whitespace-pre-line"><span className="font-bold">{project.language === 'ko' && project.fundingAgencyKo ? project.fundingAgencyKo : project.fundingAgency}</span></p>
                                         {/* Mobile: Period as text */}
-                                        <p className="md:hidden text-[10px] md:text-[11px] text-gray-500 font-medium mt-4">{project.period}</p>
+                                        <p className="md:hidden mt-4 inline-flex self-start date-badge">{project.period}</p>
                                       </div>
                                       {/* PC: Period badge - right aligned */}
-                                      <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap min-w-[168px] md:ml-auto">
+                                      <span className="hidden md:inline-flex md:ml-auto date-badge">
                                         {project.period}
                                       </span>
                                     </div>

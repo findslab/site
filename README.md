@@ -360,6 +360,7 @@ pnpm run build
 | 연도·섹션 접이식 바 | 버튼에 `fbar fbar-current`(올해) / `fbar fbar-past`(지난 연도) / `fbar fbar-section`(카드 제목) | 개수 배지는 `bg-white shadow-sm` 알약 하나에 넣고, 색 점이 구분자 역할을 합니다. |
 | 통계 카드 | `group relative bg-white border rounded-2xl` 안에 큰 숫자(`text-2xl` 이상) | 숫자 색과 같은 계열의 빛이 자동으로 깔립니다. Total 카드는 `bg-[#FFF9E6]`입니다. |
 | 빈 상태 | `src/components/atoms/empty-note` 의 `<EmptyNote ko en tone action />` | 사과문 대신 다음 상태를 알려 주는 문장을 씁니다(예: "첫 졸업생을 준비하고 있습니다"). 비어 있는 그룹이 여러 개면 카드 하나로 묶습니다. |
+| 날짜 배지 | 날짜·기간은 모두 `date-badge` 클래스 하나로 표시합니다 (PC는 `hidden md:inline-flex date-badge`, 모바일은 `md:hidden inline-flex self-start date-badge`). | 높이·글자·테두리가 사이트 전체에서 같습니다. 월 단위 날짜는 모두 같은 폭(최소 76px)이고, 기간만 내용만큼 넓어집니다. 개별 `min-w-[…]`를 주지 않습니다. |
 | 배지·칩 | `rounded-full` + `whitespace-nowrap` | 두 줄로 꺾이지 않게 합니다. 모바일은 짧은 표기(Conf., Gov.)를 씁니다. |
 | 사진·어두운 배경 위 글자 | 감싸는 요소에 `ink-keep` | 팔레트 원색(밝은 금색 등)을 그대로 유지합니다. |
 

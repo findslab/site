@@ -266,7 +266,7 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
                   <Calendar size={12} className="text-gray-500"/>
                   <span>{member.period.start} – {member.period.end || member.period.expected_graduation || 'Present'}</span>
                 </div>
-                <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-[11px] font-bold text-gray-600 shadow-sm whitespace-nowrap">
+                <span className="hidden md:inline-flex date-badge">
                   {member.period.start} – {member.period.end || member.period.expected_graduation || 'Present'}
                 </span>
               </div>

@@ -824,7 +824,7 @@ export const ProjectsTemplate = () => {
                                         <p className="text-sm text-gray-600 mt-4 leading-relaxed whitespace-pre-line max-w-[80ch]">{project.titleEn}</p>
                                       </div>
                                       {/* Period Badge - white background, right aligned */}
-                                      <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-[11px] font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap">
+                                      <span className="hidden md:inline-flex date-badge">
                                         {project.period}
                                       </span>
                                     </div>
@@ -837,7 +837,7 @@ export const ProjectsTemplate = () => {
                                     </div>
                                     
                                     {/* Mobile: Date below FundingAgency - same as Publications */}
-                                    <p className="md:hidden text-[10px] md:text-[11px] text-gray-500 font-medium mt-4">
+                                    <p className="md:hidden mt-4 inline-flex self-start date-badge">
                                       {project.period}
                                     </p>
                                     

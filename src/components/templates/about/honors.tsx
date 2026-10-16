@@ -511,7 +511,7 @@ export const AboutHonorsTemplate = () => {
                                 {item.title}
                               </h4>
                               {/* Date badge - top right on PC, same style as Publications */}
-                              <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-lg text-xs font-medium text-gray-500 shrink-0 shadow-sm">
+                              <span className="hidden md:inline-flex date-badge">
                                 {item.date.includes('–') && item.date.match(/^\d{4}/) ? formatDate(item.date) : `${year}-${formatDate(item.date)}`}
                               </span>
                             </div>
@@ -519,7 +519,7 @@ export const AboutHonorsTemplate = () => {
                             {/* Organization */}
                             <p className="text-sm text-gray-500 font-bold mb-4">{item.organization}</p>
                             {/* Mobile: Date below organization */}
-                            <p className="md:hidden text-xs text-gray-500 font-medium mb-4">
+                            <p className="md:hidden mb-4 inline-flex self-start date-badge">
                               {item.date.includes('–') && item.date.match(/^\d{4}/) ? formatDate(item.date) : `${year}-${formatDate(item.date)}`}
                             </p>
                             {item.winners && item.winners.length > 0 && (

@@ -555,7 +555,7 @@ export const MembersAlumniTemplate = () => {
                                     {getAffiliation(alumni)}
                                   </td>
                                   <td className="py-12 md:py-16 px-12 md:px-16">
-                                    <span className="inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-[11px] font-bold text-gray-600 shadow-sm whitespace-nowrap">
+                                    <span className="inline-flex date-badge">
                                       {getGraduationDate(alumni, 'phd')}
                                     </span>
                                   </td>
@@ -759,7 +759,7 @@ export const MembersAlumniTemplate = () => {
                                     {getAffiliation(alumni)}
                                   </td>
                                   <td className="py-12 md:py-16 px-12 md:px-16">
-                                    <span className="inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-[11px] font-bold text-gray-600 shadow-sm whitespace-nowrap">
+                                    <span className="inline-flex date-badge">
                                       {getGraduationDate(alumni, 'ms')}
                                     </span>
                                   </td>
@@ -993,7 +993,7 @@ export const MembersAlumniTemplate = () => {
                                     </div>
                                   </td>
                                   <td className="py-12 md:py-16 px-12 md:px-16">
-                                    <span className="inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-[11px] font-bold text-gray-600 shadow-sm whitespace-nowrap">
+                                    <span className="inline-flex date-badge">
                                       {alumni.periods?.ur || '-'}
                                     </span>
                                   </td>

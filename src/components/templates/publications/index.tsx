@@ -1312,7 +1312,7 @@ export const PublicationsTemplate = () => {
                                             {mainTitle}
                                           </h4>
                                           {/* Date badge - top right on PC, unified style */}
-                                          <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-lg text-xs font-medium text-gray-500 shrink-0 shadow-sm">
+                                          <span className="hidden md:inline-flex date-badge">
                                             {pub.published_date}
                                           </span>
                                         </div>
@@ -1359,7 +1359,7 @@ export const PublicationsTemplate = () => {
                                     </>
                                   )}
                                   {/* Mobile: Date below venue */}
-                                  <p className="md:hidden text-xs text-gray-500 font-medium mt-4">
+                                  <p className="md:hidden mt-4 inline-flex self-start date-badge">
                                     {pub.published_date}
                                   </p>
                                   {/* DOI below venue/date - refined design */}

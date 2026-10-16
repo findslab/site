@@ -392,6 +392,28 @@ body { font-size: 15px; }
 /* Korean typography: break lines between words (어절), never inside them */
 html { word-break: keep-all; overflow-wrap: break-word; }
 
+/* ── Date badge (one style for every date / period pill on the site) ─────
+   Same height, type, weight and border everywhere; month-only dates share
+   one width (min 76px) so they line up across sections; ranges grow to fit. */
+.date-badge {
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  min-width: 76px;
+  padding: 4px 10px;
+  border: 1px solid #E5E7EB;
+  border-radius: 9999px;
+  background: #FFFFFF;
+  box-shadow: 0 1px 2px rgba(17, 24, 39, .05);
+  color: #4B5563;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.5;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+@media (min-width: 768px) { .date-badge { font-size: 11px; } }
+
 /* collapsible section headings: long titles wrap left-aligned, bullet never shrinks */
 button > :is(h2, h3, h4) { text-align: left; }
 :is(h2, h3, h4) > .rounded-full:first-child { flex-shrink: 0; }
