@@ -175,7 +175,7 @@ const FilterModal = ({
       <div className="flex justify-end pt-16 border-t border-gray-100">
         <button
           onClick={onReset}
-          className="px-16 py-8 text-sm font-medium text-gray-500 hover:text-primary transition-colors"
+          className="px-16 py-8 text-sm font-medium text-gray-500 hover:text-gray-800 transition-colors"
         >
           Reset all filters
         </button>
@@ -666,7 +666,7 @@ export const PublicationsTemplate = () => {
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20">
         <div className="py-20 md:py-32 border-b border-gray-100">
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-            <Link to="/" className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110">
+            <Link to="/" className="text-gray-500 hover:text-gray-800 transition-all duration-300 hover:scale-110">
               <Home size={16} />
             </Link>
             <span className="text-gray-200">—</span>
@@ -727,7 +727,7 @@ export const PublicationsTemplate = () => {
             {/* Publications Timeline - PC Only */}
             {yearlyChartData.length > 0 && (
               <div className="hidden lg:block mt-8">
-                <div className="bg-white border border-gray-100 rounded-2xl p-24 hover:border-[#D6B14D]/30 transition-all duration-300">
+                <div className="bg-white border border-gray-100 rounded-2xl p-24 hover:border-gray-300 transition-all duration-300">
                   <div className="flex items-center justify-between mb-20">
                     <h4 className="text-sm font-bold text-gray-700 flex items-center gap-8">
                       <Calendar className="size-16 text-primary" />
@@ -827,7 +827,7 @@ export const PublicationsTemplate = () => {
                             </div>
                             
                             {/* Year Label */}
-                            <span className="absolute top-full text-[10px] md:text-[11px] text-gray-500 mt-6 group-hover:text-[#D6B14D] transition-colors font-medium">
+                            <span className="absolute top-full text-[10px] md:text-[11px] text-gray-500 mt-6 group-hover:text-gray-800 transition-colors font-medium">
                               {data.year}
                             </span>
                             
@@ -910,7 +910,7 @@ export const PublicationsTemplate = () => {
                 return (
                   <div
                     key={index}
-                    className="flex items-center gap-8 md:gap-16 px-12 md:px-20 py-12 md:py-20 bg-white border border-gray-100 rounded-xl md:rounded-2xl shadow-sm hover:border-[#D6B14D]/30 hover:shadow-md hover:-translate-y-1 transition-all duration-300 cursor-default"
+                    className="flex items-center gap-8 md:gap-16 px-12 md:px-20 py-12 md:py-20 bg-white border border-gray-100 rounded-xl md:rounded-2xl shadow-sm hover:border-gray-300 hover:shadow-md hover:-translate-y-1 transition-all duration-300 cursor-default"
                   >
                     <div 
                       className="size-32 md:size-46 flex-shrink-0 rounded-lg flex items-center justify-center"
@@ -1001,7 +1001,7 @@ export const PublicationsTemplate = () => {
                   </button>
                 )
               })}
-              <button onClick={handleFilterReset} className="text-xs text-gray-500 hover:text-primary transition-colors ml-4">Clear all</button>
+              <button onClick={handleFilterReset} className="text-xs text-gray-500 hover:text-gray-800 transition-colors ml-4">Clear all</button>
             </div>
           )}
 
@@ -1287,7 +1287,7 @@ export const PublicationsTemplate = () => {
                                     return (
                                       <>
                                         <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 md:gap-12 mb-6 md:mb-8">
-                                          <h4 className="text-base md:text-md font-semibold text-gray-800 leading-relaxed flex-1">
+                                          <h4 className="text-base md:text-md font-semibold text-gray-800 leading-relaxed flex-1 max-w-[72ch]">
                                             {pub.awards !== undefined && pub.awards !== null && pub.awards > 0 && (
                                               <span className="relative inline-block mr-6 group">
                                                 <span className="cursor-help">🏆</span>
@@ -1317,7 +1317,7 @@ export const PublicationsTemplate = () => {
                                           </span>
                                         </div>
                                         {subTitle && (
-                                          <p className="text-sm text-gray-600 mb-6 md:mb-8">{subTitle}</p>
+                                          <p className="text-sm text-gray-600 mb-6 md:mb-8 max-w-[80ch]">{subTitle}</p>
                                         )}
                                       </>
                                     )
@@ -1388,7 +1388,7 @@ export const PublicationsTemplate = () => {
                                       maxWidth: '600px',
                                       children: <CitationModal citation={pub.citations} />
                                     })}
-                                    className="flex items-center gap-4 md:gap-6 px-10 md:px-12 py-4 md:py-6 bg-gray-50 border border-gray-100 rounded-lg text-[10px] md:text-xs font-medium text-gray-600 hover:bg-primary/10 hover:text-primary transition-colors"
+                                    className="flex items-center gap-4 md:gap-6 px-10 md:px-12 py-4 md:py-6 bg-gray-50 border border-gray-100 rounded-lg text-[10px] md:text-xs font-medium text-gray-600 hover:bg-gray-100 hover:text-gray-800 transition-colors"
                                   >
                                     Cite
                                   </button>

@@ -49,10 +49,10 @@ const navItems: NavItem[] = [
 ]
 
 const footerLinks = [
-  { name: '한국연구재단', url: 'https://www.nrf.re.kr', hoverColor: '#AC0E0E', hoverBg: '#AC0E0E' },
-  { name: 'Google Scholar', url: 'https://scholar.google.com/', hoverColor: '#9A7D1F', hoverBg: '#D6B14D' },
-  { name: 'Web of Science', url: 'https://www.webofscience.com', hoverColor: '#9A7D1F', hoverBg: '#E8D688' },
-  { name: 'Scopus', url: 'https://www.scopus.com', hoverColor: '#9A7D1F', hoverBg: '#D6A076' },
+  { name: '한국연구재단', url: 'https://www.nrf.re.kr', hoverColor: '#111827', hoverBg: '#9CA3AF' },
+  { name: 'Google Scholar', url: 'https://scholar.google.com/', hoverColor: '#111827', hoverBg: '#9CA3AF' },
+  { name: 'Web of Science', url: 'https://www.webofscience.com', hoverColor: '#111827', hoverBg: '#9CA3AF' },
+  { name: 'Scopus', url: 'https://www.scopus.com', hoverColor: '#111827', hoverBg: '#9CA3AF' },
 ]
 
 // Header logo text animation hook - simple dissolve fade
@@ -106,7 +106,7 @@ const ContactModalContent = () => {
             <div className="flex items-center justify-between gap-8 md:gap-12">
               <a
                 href={`mailto:${contact.email}`}
-                className="text-sm md:text-base font-semibold text-gray-700 hover:text-primary hover:underline transition-colors truncate"
+                className="text-sm md:text-base font-semibold text-gray-700 hover:text-gray-900 hover:underline transition-colors truncate"
               >
                 {contact.email}
               </a>
@@ -293,7 +293,7 @@ const LayoutOrganisms = ({ children }: props) => {
                       'nav-glow relative flex items-center gap-4 text-md whitespace-nowrap transition-all duration-300 pt-8 pb-4',
                       isActive(item)
                         ? 'font-semibold text-primary'
-                        : 'font-medium text-gray-900 hover:text-primary'
+                        : 'font-medium text-gray-900 hover:text-gray-950'
                     )}
                   >
                     {item.name}

@@ -46,6 +46,21 @@ for (const f of walk(SRC)) {
   const rel = f.slice(SRC.length - 3); const txt = fs.readFileSync(f, 'utf8');
   for (const m of txt.matchAll(/#[0-9A-Fa-f]{6}\b/g)) { const h = m[0].toUpperCase(); if (!PAL_HEX.has(h) && !isNeutral(h)) { results['static-colour'] ??= new Map(); const k = rel + ' ' + h; if (!results['static-colour'].has(k)) results['static-colour'].set(k, { t: h, cls: rel, routes: new Set([rel]) }); } }
   for (const m of txt.matchAll(/\b(?:bg|text|border|from|via|to|fill|stroke|ring)-(red|pink|rose|amber|yellow|orange|green|emerald|teal|cyan|sky|blue|indigo|violet|purple|fuchsia|lime)-\d{2,3}\b/g)) { if (/components\/atoms\/(alert|tag|snackbar|form|input|select|select2|danger)\//.test(rel)) continue; results['static-colour'] ??= new Map(); const k = rel + ' ' + m[0]; if (!results['static-colour'].has(k)) results['static-colour'].set(k, { t: m[0], cls: rel, routes: new Set([rel]) }); }
+  // hover must stay in the element's own colour family: a neutral element never turns gold/red on hover
+  // (stat cards are the exception: their identity colour is already shown at rest as a glow)
+  const PAL_TOKEN = /^(?:group-)?hover:(bg|text|border)-(?:primary|\[#(?:D6B14D|D6C360|E8D688|B8962D|9A7D1F|FFF9E6|FFF3CC|FFEB99|AC0E0E|C41E3A|E8889C|FFBAC4|FFE4E9|D6A076)\])/i;
+  for (const line of txt.split('\n')) {
+    if (!line.includes('hover:') || line.includes('group relative bg-white border')) continue;
+    for (const seg of line.match(/(["'`])[^"'`]*hover:[^"'`]*\1/g) || []) {
+      const toks = seg.slice(1, -1).split(/\s+/);
+      for (const t of toks) {
+        const m = PAL_TOKEN.exec(t); if (!m) continue;
+        const prop = m[1];
+        const rest = toks.find((x) => new RegExp(`^${prop}-(primary|\\[#)`, 'i').test(x));
+        if (!rest) { results['static-hover'] ??= new Map(); const k = rel + ' ' + t; if (!results['static-hover'].has(k)) results['static-hover'].set(k, { t, cls: rel, routes: new Set([rel]) }); }
+      }
+    }
+  }
   for (const m of txt.matchAll(/text-\[(\d+(?:\.\d+)?)px\]/g)) { const v = +m[1]; if (!SCALE.includes(v) && !/👤|size-10/.test(txt.slice(m.index - 120, m.index + 80))) { results['static-type'] ??= new Map(); const k = rel + ' ' + m[0]; if (!results['static-type'].has(k)) results['static-type'].set(k, { t: m[0], cls: rel, routes: new Set([rel]) }); } }
 }
 const add = (cat, key, info) => { results[cat] ??= new Map(); if (!results[cat].has(key)) results[cat].set(key, { ...info, routes: new Set() }); results[cat].get(key).routes.add(info.route); };
@@ -132,7 +147,7 @@ for (const need of ['favicon.ico', 'favicon-32x32.png', 'icon-192.png', 'apple-t
 await browser.close();
 
 let total = 0;
-const cats = ['static-colour', 'static-type', 'colour-off-palette', 'gradient-mixed-family', 'type-off-scale', 'type-below-min', 'contrast-light-text', 'contrast-below-3', 'layout-spill', 'layout-word-break', 'layout-h-overflow', 'icons'];
+const cats = ['static-colour', 'static-type', 'static-hover', 'colour-off-palette', 'gradient-mixed-family', 'type-off-scale', 'type-below-min', 'contrast-light-text', 'contrast-below-3', 'layout-spill', 'layout-word-break', 'layout-h-overflow', 'icons'];
 for (const c of cats) {
   const m = results[c]; const n = m ? m.size : 0; total += n;
   console.log(`${n === 0 ? 'PASS' : 'FAIL'}  ${c.padEnd(24)} ${n}`);

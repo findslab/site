@@ -324,7 +324,7 @@ export const MembersCurrentTemplate = () => {
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20">
         <div className="py-20 md:py-32 border-b border-gray-100">
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-            <Link to="/" className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110">
+            <Link to="/" className="text-gray-500 hover:text-gray-800 transition-all duration-300 hover:scale-110">
               <Home size={16} />
             </Link>
             <span className="text-gray-200">—</span>
@@ -376,7 +376,7 @@ export const MembersCurrentTemplate = () => {
                 <div className="flex flex-col items-center h-full justify-start pt-8">
                   <stat.icon className="size-16 md:size-20 mb-6" style={{color: stat.color}} />
                   <span className="text-2xl md:text-3xl font-bold mb-4 transition-all duration-300" style={{color: stat.color}}>{stat.count}</span>
-                  <span className="text-[10px] md:text-xs font-medium text-gray-500 text-center leading-tight">{stat.label}</span>
+                  <span className="text-[10px] md:text-xs font-medium text-gray-500 text-center leading-normal">{stat.label}</span>
                 </div>
               </div>
             ))}
@@ -443,7 +443,7 @@ export const MembersCurrentTemplate = () => {
                       ko="함께할 대학원생을 기다리고 있습니다"
                       en="Graduate positions are open — we'd love to hear from you"
                       action={
-                        <a href="mailto:ischoi@gachon.ac.kr" className="inline-flex items-center gap-4 px-12 py-6 rounded-full border border-[#D6B14D]/40 bg-white text-[11px] md:text-xs font-semibold text-[#9A7D1F] hover:bg-[#FFF3CC] transition-colors">
+                        <a href="mailto:ischoi@gachon.ac.kr" className="inline-flex items-center gap-4 px-12 py-6 rounded-full border border-[#D6B14D]/40 bg-white text-[11px] md:text-xs font-semibold text-[#9A7D1F] hover:bg-gray-50 transition-colors">
                           문의하기 <ChevronRight size={12} />
                         </a>
                       }
@@ -544,11 +544,11 @@ export const MembersCurrentTemplate = () => {
                                 <button
                                   onClick={() => setOpenEmailPopup(openEmailPopup === member.id ? null : member.id)}
                                   className={`p-6 rounded-lg bg-gray-100 transition-colors ${
-                                    member.degree === 'phd' ? 'hover:bg-[#D6B14D]/10 hover:text-[#D6B14D]' :
-                                    member.degree === 'combined' ? 'hover:bg-[#D6A076]/10 hover:text-[#D6A076]' :
-                                    member.degree === 'ms' ? 'hover:bg-[#C41E3A]/10 hover:text-[#C41E3A]' :
-                                    member.degree === 'undergrad' ? 'hover:bg-[#FFBAC4]/10 hover:text-[#FFBAC4]' :
-                                    'hover:bg-primary/10 hover:text-primary'
+                                    member.degree === 'phd' ? 'hover:bg-gray-50 hover:text-gray-900' :
+                                    member.degree === 'combined' ? 'hover:bg-gray-50 hover:text-gray-900' :
+                                    member.degree === 'ms' ? 'hover:bg-gray-50 hover:text-gray-900' :
+                                    member.degree === 'undergrad' ? 'hover:bg-gray-50 hover:text-gray-900' :
+                                    'hover:bg-gray-50 hover:text-gray-900'
                                   }`}
                                   title="Email"
                                 >
@@ -569,11 +569,11 @@ export const MembersCurrentTemplate = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={`text-gray-500 transition-colors ${
-                                  member.degree === 'phd' ? 'hover:text-[#D6B14D]' :
-                                  member.degree === 'combined' ? 'hover:text-[#D6A076]' :
-                                  member.degree === 'ms' ? 'hover:text-[#C41E3A]' :
-                                  member.degree === 'undergrad' ? 'hover:text-[#FFBAC4]' :
-                                  'hover:text-primary'
+                                  member.degree === 'phd' ? 'hover:text-gray-900' :
+                                  member.degree === 'combined' ? 'hover:text-gray-900' :
+                                  member.degree === 'ms' ? 'hover:text-gray-900' :
+                                  member.degree === 'undergrad' ? 'hover:text-gray-900' :
+                                  'hover:text-gray-900'
                                 }`}
                                 title="GitHub"
                               >
@@ -586,11 +586,11 @@ export const MembersCurrentTemplate = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={`text-gray-500 transition-colors ${
-                                  member.degree === 'phd' ? 'hover:text-[#D6B14D]' :
-                                  member.degree === 'combined' ? 'hover:text-[#D6A076]' :
-                                  member.degree === 'ms' ? 'hover:text-[#C41E3A]' :
-                                  member.degree === 'undergrad' ? 'hover:text-[#FFBAC4]' :
-                                  'hover:text-primary'
+                                  member.degree === 'phd' ? 'hover:text-gray-900' :
+                                  member.degree === 'combined' ? 'hover:text-gray-900' :
+                                  member.degree === 'ms' ? 'hover:text-gray-900' :
+                                  member.degree === 'undergrad' ? 'hover:text-gray-900' :
+                                  'hover:text-gray-900'
                                 }`}
                                 title="LinkedIn"
                               >
@@ -603,11 +603,11 @@ export const MembersCurrentTemplate = () => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className={`text-gray-500 transition-colors ${
-                                  member.degree === 'phd' ? 'hover:text-[#D6B14D]' :
-                                  member.degree === 'combined' ? 'hover:text-[#D6A076]' :
-                                  member.degree === 'ms' ? 'hover:text-[#C41E3A]' :
-                                  member.degree === 'undergrad' ? 'hover:text-[#FFBAC4]' :
-                                  'hover:text-primary'
+                                  member.degree === 'phd' ? 'hover:text-gray-900' :
+                                  member.degree === 'combined' ? 'hover:text-gray-900' :
+                                  member.degree === 'ms' ? 'hover:text-gray-900' :
+                                  member.degree === 'undergrad' ? 'hover:text-gray-900' :
+                                  'hover:text-gray-900'
                                 }`}
                                 title="Personal Website"
                               >
@@ -617,11 +617,11 @@ export const MembersCurrentTemplate = () => {
                             <Link
                               to={`/members/detail/${member.id}`}
                               className={`ml-auto flex items-center gap-4 text-sm font-medium transition-colors ${
-                                member.degree === 'phd' ? 'hover:text-[#D6B14D]' :
-                                member.degree === 'combined' ? 'hover:text-[#D6A076]' :
-                                member.degree === 'ms' ? 'hover:text-[#C41E3A]' :
-                                member.degree === 'undergrad' ? 'hover:text-[#FFBAC4]' :
-                                'hover:text-primary'
+                                member.degree === 'phd' ? 'hover:text-gray-900' :
+                                member.degree === 'combined' ? 'hover:text-gray-900' :
+                                member.degree === 'ms' ? 'hover:text-gray-900' :
+                                member.degree === 'undergrad' ? 'hover:text-gray-900' :
+                                'hover:text-gray-900'
                               }`}
                             >
                               View Profile

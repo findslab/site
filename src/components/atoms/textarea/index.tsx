@@ -14,7 +14,7 @@ type props = {
 type TextareaTheme = 'normal';
 
 const themes: Record<TextareaTheme, string> = {
-  normal: "text-black border border-gray-300 bg-white placeholder:text-gray-300 focus:border-primary hover:border-primary"
+  normal: "text-black border border-gray-300 bg-white placeholder:text-gray-300 focus:border-primary hover:border-gray-300"
 };
 
 const Textarea = ({name, className, theme = 'normal', placeholder, control}: props) => {

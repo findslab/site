@@ -621,21 +621,21 @@ const CollaborationNetwork = memo(() => {
           </span>
           <button
             onClick={handleZoomIn}
-            className="size-28 md:size-32 bg-white border border-gray-200 rounded-lg flex items-center justify-center text-gray-500 hover:text-[#D6B14D] hover:border-[#D6B14D]/30 transition-all"
+            className="size-28 md:size-32 bg-white border border-gray-200 rounded-lg flex items-center justify-center text-gray-500 hover:text-gray-800 hover:border-gray-300 transition-all"
             title="Zoom In"
           >
             <ZoomIn size={14}/>
           </button>
           <button
             onClick={handleZoomOut}
-            className="size-28 md:size-32 bg-white border border-gray-200 rounded-lg flex items-center justify-center text-gray-500 hover:text-[#D6B14D] hover:border-[#D6B14D]/30 transition-all"
+            className="size-28 md:size-32 bg-white border border-gray-200 rounded-lg flex items-center justify-center text-gray-500 hover:text-gray-800 hover:border-gray-300 transition-all"
             title="Zoom Out"
           >
             <ZoomOut size={14}/>
           </button>
           <button
             onClick={handleReset}
-            className="size-28 md:size-32 bg-white border border-gray-200 rounded-lg flex items-center justify-center text-gray-500 hover:text-[#D6B14D] hover:border-[#D6B14D]/30 transition-all"
+            className="size-28 md:size-32 bg-white border border-gray-200 rounded-lg flex items-center justify-center text-gray-500 hover:text-gray-800 hover:border-gray-300 transition-all"
             title="Reset View"
           >
             <Maximize2 size={14}/>
@@ -1402,13 +1402,13 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20">
         <div className="py-20 md:py-32 border-b border-gray-100">
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-            <Link to="/" className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110">
+            <Link to="/" className="text-gray-500 hover:text-gray-800 transition-all duration-300 hover:scale-110">
               <Home size={16}/>
             </Link>
             <span className="text-gray-200">—</span>
-            <Link to="/members" className="text-sm text-gray-500 font-medium hover:text-primary transition-colors">Members</Link>
+            <Link to="/members" className="text-sm text-gray-500 font-medium hover:text-gray-800 transition-colors">Members</Link>
             <span className="text-gray-200">—</span>
-            <Link to="/members/director" className="text-sm text-gray-500 font-medium hover:text-primary transition-colors">Director</Link>
+            <Link to="/members/director" className="text-sm text-gray-500 font-medium hover:text-gray-800 transition-colors">Director</Link>
             <span className="text-gray-200">—</span>
             <span className="text-sm text-primary font-semibold">Academics</span>
           </div>
@@ -1471,7 +1471,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
 
               <div className="flex flex-col gap-12 md:gap-16">
                 <div className="flex items-start gap-10 group">
-                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-gray-100 group-hover:text-gray-800 transition-colors shrink-0">
                     <Briefcase size={14}/>
                   </div>
                   <div className="min-w-0">
@@ -1481,7 +1481,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                   </div>
                 </div>
                 <div className="flex items-start gap-10 group">
-                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-gray-100 group-hover:text-gray-800 transition-colors shrink-0">
                     <Building size={14}/>
                   </div>
                   <div className="min-w-0">
@@ -1491,7 +1491,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                   </div>
                 </div>
                 <div className="flex items-start gap-10 group">
-                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-gray-100 group-hover:text-gray-800 transition-colors shrink-0">
                     <MapPin size={14}/>
                   </div>
                   <div className="min-w-0">
@@ -1500,7 +1500,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                   </div>
                 </div>
                 <div className="flex items-start gap-10 group">
-                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-gray-100 group-hover:text-gray-800 transition-colors shrink-0">
                     <Mail size={14}/>
                   </div>
                   <div className="min-w-0 flex-1">
@@ -1571,16 +1571,16 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                     href="https://orcid.org/0000-0003-2596-7368" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="group flex flex-row md:flex-col items-center p-16 md:p-20 bg-gradient-to-br from-gray-50 to-white rounded-xl border border-gray-100 hover:border-[#D6B14D]/50 hover:shadow-lg hover:shadow-[#D6B14D]/10 transition-all duration-300"
+                    className="group flex flex-row md:flex-col items-center p-16 md:p-20 bg-gradient-to-br from-gray-50 to-white rounded-xl border border-gray-100 hover:border-gray-300 hover:shadow-lg hover:shadow-gray-200/70 transition-all duration-300"
                   >
                     <div className="size-40 md:size-56 md:mb-12 mr-16 md:mr-0 flex items-center justify-center shrink-0">
                       <img src={`${import.meta.env.BASE_URL || '/'}images/orcid.webp`} alt="ORCID" className="w-full h-full object-contain" loading="lazy" decoding="async" />
                     </div>
                     <div className="flex-1 md:text-center">
                       <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-2 md:mb-4">ORCID</p>
-                      <p className="text-sm font-semibold text-gray-700 group-hover:text-[#9A7D1F] transition-colors">0000-0003-2596-7368</p>
+                      <p className="text-sm font-semibold text-gray-700 group-hover:text-gray-900 transition-colors">0000-0003-2596-7368</p>
                     </div>
-                    <ExternalLink size={12} className="ml-8 md:ml-0 md:mt-8 text-gray-300 group-hover:text-[#D6B14D] transition-colors shrink-0" />
+                    <ExternalLink size={12} className="ml-8 md:ml-0 md:mt-8 text-gray-300 group-hover:text-gray-900 transition-colors shrink-0" />
                   </a>
 
                   {/* Scopus */}
@@ -1588,16 +1588,16 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                     href="https://www.scopus.com/authid/detail.uri?authorId=57224825321" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="group flex flex-row md:flex-col items-center p-16 md:p-20 bg-gradient-to-br from-gray-50 to-white rounded-xl border border-gray-100 hover:border-[#D6A076]/50 hover:shadow-lg hover:shadow-[#D6A076]/10 transition-all duration-300"
+                    className="group flex flex-row md:flex-col items-center p-16 md:p-20 bg-gradient-to-br from-gray-50 to-white rounded-xl border border-gray-100 hover:border-gray-300 hover:shadow-lg hover:shadow-gray-200/70 transition-all duration-300"
                   >
                     <div className="size-40 md:size-56 md:mb-12 mr-16 md:mr-0 flex items-center justify-center shrink-0">
                       <img src={`${import.meta.env.BASE_URL || '/'}images/scopus.webp`} alt="Scopus" className="w-full h-full object-contain" loading="lazy" decoding="async" />
                     </div>
                     <div className="flex-1 md:text-center">
                       <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-2 md:mb-4">Scopus</p>
-                      <p className="text-sm font-semibold text-gray-700 group-hover:text-[#9A7D1F] transition-colors">57224825321</p>
+                      <p className="text-sm font-semibold text-gray-700 group-hover:text-gray-900 transition-colors">57224825321</p>
                     </div>
-                    <ExternalLink size={12} className="ml-8 md:ml-0 md:mt-8 text-gray-300 group-hover:text-[#D6A076] transition-colors shrink-0" />
+                    <ExternalLink size={12} className="ml-8 md:ml-0 md:mt-8 text-gray-300 group-hover:text-gray-900 transition-colors shrink-0" />
                   </a>
 
                   {/* Web of Science */}
@@ -1605,16 +1605,16 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                     href="https://www.webofscience.com/wos/" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="group flex flex-row md:flex-col items-center p-16 md:p-20 bg-gradient-to-br from-gray-50 to-white rounded-xl border border-gray-100 hover:border-[#9A7D1F]/50 hover:shadow-lg hover:shadow-[#9A7D1F]/10 transition-all duration-300"
+                    className="group flex flex-row md:flex-col items-center p-16 md:p-20 bg-gradient-to-br from-gray-50 to-white rounded-xl border border-gray-100 hover:border-gray-300 hover:shadow-lg hover:shadow-gray-200/70 transition-all duration-300"
                   >
                     <div className="size-40 md:size-56 md:mb-12 mr-16 md:mr-0 flex items-center justify-center shrink-0">
                       <img src={`${import.meta.env.BASE_URL || '/'}images/wos_logo.webp`} alt="Web of Science" className="w-full h-full object-contain" loading="lazy" decoding="async" />
                     </div>
                     <div className="flex-1 md:text-center">
                       <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-2 md:mb-4">Web of Science</p>
-                      <p className="text-sm font-semibold text-gray-700 group-hover:text-[#9A7D1F] transition-colors">EQW-9977-2022</p>
+                      <p className="text-sm font-semibold text-gray-700 group-hover:text-gray-900 transition-colors">EQW-9977-2022</p>
                     </div>
-                    <ExternalLink size={12} className="ml-8 md:ml-0 md:mt-8 text-gray-300 group-hover:text-[#9A7D1F] transition-colors shrink-0" />
+                    <ExternalLink size={12} className="ml-8 md:ml-0 md:mt-8 text-gray-300 group-hover:text-gray-900 transition-colors shrink-0" />
                   </a>
                 </div>
               </div>
@@ -1721,7 +1721,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                     {expandedSections.editorialBoard && (
                       <div className="px-16 md:px-20 pb-16 md:pb-20 space-y-8">
                         {editorialBoards.map((item) => (
-                          <div key={item.id} className="flex flex-col md:flex-row md:items-center md:justify-between p-12 bg-white rounded-lg border border-gray-100 hover:border-[#E8889C]/30 hover:shadow-md transition-all gap-4 md:gap-12">
+                          <div key={item.id} className="flex flex-col md:flex-row md:items-center md:justify-between p-12 bg-white rounded-lg border border-gray-100 hover:border-gray-300 hover:shadow-md transition-all gap-4 md:gap-12">
                             <div className="flex-1 min-w-0 break-words">
                               <p className="text-sm font-semibold text-gray-700">{item.name}</p>
                               {item.specialIssue && <p className="text-[10px] md:text-xs text-gray-500 mt-1">Special Issue: {item.specialIssue}</p>}
@@ -1757,7 +1757,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                     {expandedSections.academicMemberships && (
                       <div className="px-16 md:px-20 pb-16 md:pb-20 space-y-8">
                         {memberships.map((item) => (
-                          <div key={item.id} className="flex flex-col md:flex-row md:items-center md:justify-between p-12 bg-white rounded-lg border border-gray-100 hover:border-[#E8889C]/30 hover:shadow-md transition-all gap-4 md:gap-12">
+                          <div key={item.id} className="flex flex-col md:flex-row md:items-center md:justify-between p-12 bg-white rounded-lg border border-gray-100 hover:border-gray-300 hover:shadow-md transition-all gap-4 md:gap-12">
                             <div className="flex-1 min-w-0 break-words">
                               <p className="text-sm font-semibold text-gray-700">{item.name}</p>
                               {item.name_ko && (
@@ -1796,7 +1796,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                           <div className="flex flex-col gap-6">
                             {committees.map((comm) => (
                               <a key={comm.id} href={comm.url || '#'} target="_blank" rel="noopener noreferrer"
-                                className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-[#E8889C]/30 gap-4 md:gap-12">
+                                className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-gray-300 gap-4 md:gap-12">
                                 <div className="flex-1 min-w-0 break-words">
                                   <p className="text-sm font-semibold text-gray-700">{comm.name}</p>
                                   {comm.name_ko && (
@@ -1839,7 +1839,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                           <div className="flex flex-col gap-6">
                             {sessionChairs.map((chair) => (
                               <a key={chair.id} href={chair.url || '#'} target="_blank" rel="noopener noreferrer"
-                                className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-[#D6B14D]/30 gap-4 md:gap-12">
+                                className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-gray-300 gap-4 md:gap-12">
                                 <div className="flex-1 min-w-0 break-words">
                                   <p className="text-sm font-semibold text-gray-700">{chair.name}</p>
                                   {chair.name_ko && (
@@ -1876,7 +1876,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                           <div className="flex flex-col gap-6">
                             {discussants.map((d) => (
                               <a key={d.id} href={d.url || '#'} target="_blank" rel="noopener noreferrer"
-                                className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-[#D6B14D]/30 gap-4 md:gap-12">
+                                className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-gray-300 gap-4 md:gap-12">
                                 <div className="flex-1 min-w-0 break-words">
                                   <p className="text-sm font-semibold text-gray-700">{d.name}</p>
                                   {d.name_ko && (
@@ -1912,7 +1912,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                         <div className="flex flex-col gap-6">
                           {journals.map((journal) => (
                             <a key={journal.id} href={journal.url} target="_blank" rel="noopener noreferrer"
-                              className="flex flex-row items-center justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-[#D6B14D]/30 gap-8">
+                              className="flex flex-row items-center justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-gray-300 gap-8">
                               <p className="flex-1 min-w-0 text-sm font-semibold text-gray-700">{journal.name}</p>
                               <span className={`shrink-0 whitespace-nowrap px-6 py-2 rounded text-[10px] md:text-[11px] font-bold ${
                                 journal.type === 'SCIE' || journal.type === 'SSCI' || journal.type === 'A&HCI' ? 'bg-[#D6B14D] text-white' :
@@ -1943,7 +1943,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                         <div className="flex flex-col gap-6">
                           {conferenceReviewers.map((conf) => (
                             <a key={conf.id} href={conf.url || '#'} target="_blank" rel="noopener noreferrer"
-                              className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-[#D6B14D]/30 gap-4 md:gap-8">
+                              className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-gray-300 gap-4 md:gap-8">
                               <div className="flex flex-col">
                                 <span className="text-sm font-bold text-gray-700">{conf.name}</span>
                                 <span className="md:hidden text-[10px] md:text-[11px] text-gray-500 font-medium mt-2">{toYearMonth(conf.period || conf.since || '')}</span>
@@ -2249,7 +2249,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                             const schoolLogo = getSchoolLogo(course.school)
                         
                         return (
-                        <div key={index} className="bg-white border border-gray-100 rounded-xl p-16 md:p-20 hover:shadow-md hover:border-[#D6B14D]/30 transition-all">
+                        <div key={index} className="bg-white border border-gray-100 rounded-xl p-16 md:p-20 hover:shadow-md hover:border-gray-300 transition-all">
                           <div className="flex flex-col md:flex-row items-start gap-12 md:gap-16">
                             <div className="size-48 md:size-44 rounded-lg flex items-center justify-center shrink-0 border-2 border-[#D6B14D]/30 bg-gray-50 overflow-hidden p-6">
                               {schoolLogo ? (
@@ -2325,7 +2325,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                             const schoolLogo = getSchoolLogo(course.school)
                         
                         return (
-                        <div key={index} className="bg-white border border-gray-100 rounded-xl p-16 md:p-20 hover:shadow-md hover:shadow-[#E8889C]/10 hover:border-[#E8889C]/30 transition-all">
+                        <div key={index} className="bg-white border border-gray-100 rounded-xl p-16 md:p-20 hover:shadow-md hover:shadow-gray-200/70 hover:border-gray-300 transition-all">
                           <div className="flex flex-col md:flex-row items-start gap-12 md:gap-16">
                             <div className="size-48 md:size-44 rounded-lg flex items-center justify-center shrink-0 border-2 border-[#E8889C]/30 bg-gray-50 overflow-hidden p-6">
                               {schoolLogo ? (

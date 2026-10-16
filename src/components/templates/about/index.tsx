@@ -81,7 +81,7 @@ export const LocationTemplate = () => {
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20">
         <div className="py-20 md:py-32 border-b border-gray-100">
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-            <Link to="/" className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110">
+            <Link to="/" className="text-gray-500 hover:text-gray-800 transition-all duration-300 hover:scale-110">
               <Home size={16} />
             </Link>
             <span className="text-gray-200">—</span>
@@ -171,7 +171,7 @@ export const LocationTemplate = () => {
             </div>
 
             {/* Director's Office Card - Light Theme with Image */}
-            <div className="relative bg-white rounded-2xl md:rounded-3xl border border-gray-100 overflow-hidden shadow-xl shadow-gray-100/50 hover:shadow-2xl hover:shadow-[#D6B14D]/10 transition-all duration-300 flex-1">
+            <div className="relative bg-white rounded-2xl md:rounded-3xl border border-gray-100 overflow-hidden shadow-xl shadow-gray-100/50 hover:shadow-2xl hover:shadow-gray-200/70 transition-all duration-300 flex-1">
               <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#B8962D] via-[#D6B14D] to-[#B8962D]" />
               
               {/* Background Image */}

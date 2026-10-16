@@ -210,11 +210,11 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
       {/* Breadcrumb */}
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20 py-20 md:py-40">
         <div className="flex items-center gap-8 md:gap-10 flex-wrap">
-          <Link to="/" className="text-gray-500 hover:text-primary transition-colors">
+          <Link to="/" className="text-gray-500 hover:text-gray-800 transition-colors">
             <Home size={16}/>
           </Link>
           <span className="text-[#cdcdcd]">›</span>
-          <Link to="/members/current" className="text-sm md:text-base text-gray-500 hover:text-primary transition-colors">
+          <Link to="/members/current" className="text-sm md:text-base text-gray-500 hover:text-gray-800 transition-colors">
             Members
           </Link>
           <span className="text-[#cdcdcd]">›</span>
@@ -299,7 +299,7 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
                     href={member.social.personal_website}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-10 text-sm text-gray-600 hover:text-primary transition-colors"
+                    className="flex items-center gap-10 text-sm text-gray-600 hover:text-gray-800 transition-colors"
                   >
                     <Globe size={16} className="text-gray-500 shrink-0"/>
                     <span>Personal Website</span>
@@ -314,7 +314,7 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
                     href={member.social.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-36 h-36 flex items-center justify-center bg-gray-50 rounded-full text-gray-500 hover:bg-primary hover:text-white transition-all"
+                    className="w-36 h-36 flex items-center justify-center bg-gray-50 rounded-full text-gray-500 hover:bg-gray-100 hover:text-gray-900 transition-all"
                   >
                     <Github size={18}/>
                   </a>
@@ -324,7 +324,7 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
                     href={member.social.linkedin}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-36 h-36 flex items-center justify-center bg-gray-50 rounded-full text-gray-500 hover:bg-primary hover:text-white transition-all"
+                    className="w-36 h-36 flex items-center justify-center bg-gray-50 rounded-full text-gray-500 hover:bg-gray-100 hover:text-gray-900 transition-all"
                   >
                     <Linkedin size={18}/>
                   </a>
@@ -334,7 +334,7 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
                     href={member.social.google_scholar}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-36 h-36 flex items-center justify-center bg-gray-50 rounded-full text-gray-500 hover:bg-primary hover:text-white transition-all"
+                    className="w-36 h-36 flex items-center justify-center bg-gray-50 rounded-full text-gray-500 hover:bg-gray-100 hover:text-gray-900 transition-all"
                     title="Google Scholar"
                   >
                     <GraduationCap size={18}/>
@@ -364,7 +364,7 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
                 {member.research.interests.map((interest, idx) => (
                   <span
                     key={idx}
-                    className="px-16 py-10 bg-gray-50 border border-gray-100 rounded-xl text-sm text-gray-700 font-medium hover:border-[#D6B14D]/30 transition-colors"
+                    className="px-16 py-10 bg-gray-50 border border-gray-100 rounded-xl text-sm text-gray-700 font-medium hover:border-gray-300 transition-colors"
                   >
                     {interest}
                   </span>

@@ -670,7 +670,7 @@ export const MembersDirectorTemplate = () => {
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20">
         <div className="py-20 md:py-32 border-b border-gray-100">
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-            <Link to="/" className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110">
+            <Link to="/" className="text-gray-500 hover:text-gray-800 transition-all duration-300 hover:scale-110">
               <Home size={16}/>
             </Link>
             <span className="text-gray-200">—</span>
@@ -713,7 +713,7 @@ export const MembersDirectorTemplate = () => {
 
               <div className="flex flex-col gap-12 md:gap-16">
                 <div className="flex items-start gap-10 group">
-                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-gray-100 group-hover:text-gray-800 transition-colors shrink-0">
                     <Briefcase size={14}/>
                   </div>
                   <div className="min-w-0">
@@ -723,7 +723,7 @@ export const MembersDirectorTemplate = () => {
                   </div>
                 </div>
                 <div className="flex items-start gap-10 group">
-                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-gray-100 group-hover:text-gray-800 transition-colors shrink-0">
                     <Building size={14}/>
                   </div>
                   <div className="min-w-0">
@@ -733,7 +733,7 @@ export const MembersDirectorTemplate = () => {
                   </div>
                 </div>
                 <div className="flex items-start gap-10 group">
-                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-gray-100 group-hover:text-gray-800 transition-colors shrink-0">
                     <MapPin size={14}/>
                   </div>
                   <div className="min-w-0">
@@ -742,7 +742,7 @@ export const MembersDirectorTemplate = () => {
                   </div>
                 </div>
                 <div className="flex items-start gap-10 group">
-                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-gray-100 group-hover:text-gray-800 transition-colors shrink-0">
                     <Mail size={14}/>
                   </div>
                   <div className="min-w-0 flex-1">
@@ -765,12 +765,12 @@ export const MembersDirectorTemplate = () => {
 
               {/* Office Phone */}
               <div className="flex items-start gap-10 group mt-12 md:mt-16">
-                <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-gray-100 group-hover:text-gray-800 transition-colors shrink-0">
                   <Phone size={14}/>
                 </div>
                 <div className="min-w-0 flex-1">
                   <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-1">Office</p>
-                  <a href="tel:031-750-5405" className="text-sm font-semibold text-gray-700 hover:text-primary transition-colors">
+                  <a href="tel:031-750-5405" className="text-sm font-semibold text-gray-700 hover:text-gray-900 transition-colors">
                     031-750-5405
                   </a>
                 </div>
@@ -831,7 +831,7 @@ export const MembersDirectorTemplate = () => {
                   My research focuses on three main areas:
                 </p>
                 <div className="grid grid-cols-1 gap-12 md:gap-16 mb-24">
-                  <div className="flex gap-12 md:gap-16 p-16 md:p-20 bg-white border border-gray-100 rounded-xl hover:border-[#D6B14D]/30 hover:shadow-md transition-all">
+                  <div className="flex gap-12 md:gap-16 p-16 md:p-20 bg-white border border-gray-100 rounded-xl hover:border-gray-300 hover:shadow-md transition-all">
                     <span className="size-28 md:size-32 bg-primary text-white text-sm md:text-base font-bold rounded-full flex items-center justify-center shrink-0">1</span>
                     <div className="flex-1 min-w-0 break-words">
                       <p className="font-semibold text-sm md:text-base mb-4" style={{color: '#D6B14D'}}>Financial Data Science</p>
@@ -840,7 +840,7 @@ export const MembersDirectorTemplate = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="flex gap-12 md:gap-16 p-16 md:p-20 bg-white border border-gray-100 rounded-xl hover:border-[#D6B14D]/30 hover:shadow-md transition-all">
+                  <div className="flex gap-12 md:gap-16 p-16 md:p-20 bg-white border border-gray-100 rounded-xl hover:border-gray-300 hover:shadow-md transition-all">
                     <span className="size-28 md:size-32 bg-primary text-white text-sm md:text-base font-bold rounded-full flex items-center justify-center shrink-0">2</span>
                     <div className="flex-1 min-w-0 break-words">
                       <p className="font-semibold text-sm md:text-base mb-4" style={{color: '#D6B14D'}}>Business Analytics</p>
@@ -849,7 +849,7 @@ export const MembersDirectorTemplate = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="flex gap-12 md:gap-16 p-16 md:p-20 bg-white border border-gray-100 rounded-xl hover:border-[#D6B14D]/30 hover:shadow-md transition-all">
+                  <div className="flex gap-12 md:gap-16 p-16 md:p-20 bg-white border border-gray-100 rounded-xl hover:border-gray-300 hover:shadow-md transition-all">
                     <span className="size-28 md:size-32 bg-primary text-white text-sm md:text-base font-bold rounded-full flex items-center justify-center shrink-0">3</span>
                     <div className="flex-1 min-w-0 break-words">
                       <p className="font-semibold text-sm md:text-base mb-4" style={{color: '#D6B14D'}}>Data-Informed Decision Making</p>
@@ -879,7 +879,7 @@ export const MembersDirectorTemplate = () => {
               <div className="p-20 md:p-24 border-t border-gray-100">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
                 {researchInterests.map((area, index) => (
-                  <div key={index} className="bg-gradient-to-br from-white to-gray-50/50 border border-gray-100 rounded-xl p-20 md:p-24 hover:shadow-lg hover:border-[#D6B14D]/30 transition-all group">
+                  <div key={index} className="bg-gradient-to-br from-white to-gray-50/50 border border-gray-100 rounded-xl p-20 md:p-24 hover:shadow-lg hover:border-gray-300 transition-all group">
                     <div className="mb-16 pb-12 border-b border-gray-100">
                       <h4 className="text-sm md:text-base font-bold text-primary">{area.category}</h4>
                     </div>
@@ -919,7 +919,7 @@ export const MembersDirectorTemplate = () => {
                     <div className="absolute left-0 top-0 bottom-0 flex items-center -translate-x-1/2" style={{left: '-1px'}}>
                       <div className="size-12 md:size-16 bg-primary rounded-full border-3 md:border-4 border-white shadow-md transition-all duration-300 group-hover:scale-110 group-hover:shadow-lg group-hover:shadow-[#D6B14D]/30"/>
                     </div>
-                    <div className="flex flex-col md:flex-row items-start gap-12 md:gap-16 bg-white border border-gray-100 rounded-lg md:rounded-xl p-12 md:p-16 hover:shadow-lg hover:shadow-[#D6B14D]/10 hover:border-[#D6B14D]/40 hover:bg-gradient-to-r hover:from-white hover:to-primary/[0.02] transition-all duration-300">
+                    <div className="flex flex-col md:flex-row items-start gap-12 md:gap-16 bg-white border border-gray-100 rounded-lg md:rounded-xl p-12 md:p-16 hover:shadow-lg hover:shadow-gray-200/70 hover:border-gray-300 hover:bg-gradient-to-r hover:from-white hover:to-primary/[0.02] transition-all duration-300">
                       <div className="flex-1 min-w-0 flex flex-col justify-center text-left">
                         <div className="flex flex-wrap items-center justify-start gap-6 md:gap-8 mb-4">
                           <span className="px-8 md:px-10 py-2 text-[10px] md:text-xs font-bold rounded-full bg-primary text-white">{edu.period}</span>
@@ -931,7 +931,7 @@ export const MembersDirectorTemplate = () => {
                         </div>
                         <h4 className="text-sm md:text-base font-bold text-gray-900 break-words">{edu.degree.includes("(Ph.D.") ? <>{edu.degree.split(" (")[0]}<br className="md:hidden" /><span className="text-sm md:text-base text-gray-900 font-bold"> ({edu.degree.split(" (")[1]}</span></> : edu.degree}</h4>
                         <p className="mt-2 text-sm font-bold text-gray-600 break-words">{edu.field}</p>
-                        <p className="text-sm text-gray-700 font-bold leading-snug break-words">{edu.school}</p>
+                        <p className="text-sm text-gray-700 font-bold leading-normal break-words">{edu.school}</p>
                         {educationKo(edu.school, edu.field, edu.degree, 'honorKo' in edu ? edu.honorKo : undefined) && (
                           <p className="mt-3 pt-3 border-t border-gray-100 text-[11px] md:text-xs text-gray-500 break-words">
                             {[schoolKo(edu.school), fieldKo(edu.field)].filter(Boolean).join(' ')}{' '}
@@ -976,7 +976,7 @@ export const MembersDirectorTemplate = () => {
                         emp.isCurrent ? 'bg-primary group-hover:shadow-[#D6B14D]/30' : 'bg-gray-300 group-hover:shadow-gray-300/50'
                       }`}/>
                     </div>
-                    <div className="flex flex-col md:flex-row items-start gap-12 md:gap-16 bg-white border border-gray-100 rounded-lg md:rounded-xl p-12 md:p-16 hover:shadow-lg hover:shadow-[#D6B14D]/10 hover:border-[#D6B14D]/40 hover:bg-gradient-to-r hover:from-white hover:to-primary/[0.02] transition-all duration-300">
+                    <div className="flex flex-col md:flex-row items-start gap-12 md:gap-16 bg-white border border-gray-100 rounded-lg md:rounded-xl p-12 md:p-16 hover:shadow-lg hover:shadow-gray-200/70 hover:border-gray-300 hover:bg-gradient-to-r hover:from-white hover:to-primary/[0.02] transition-all duration-300">
                       <div className="flex-1 min-w-0 flex flex-col justify-center text-left">
                         <div className="flex flex-wrap items-center justify-start gap-6 md:gap-8 mb-4">
                           <span className={`px-8 md:px-10 py-2 text-[10px] md:text-xs font-bold rounded-full ${
@@ -986,10 +986,10 @@ export const MembersDirectorTemplate = () => {
                           }`}>{emp.period}</span>
                         </div>
                         {/* 직위 */}
-                        <h4 className="text-sm md:text-base font-bold text-gray-900 leading-snug break-words">{emp.position}</h4>
+                        <h4 className="text-sm md:text-base font-bold text-gray-900 leading-normal break-words">{emp.position}</h4>
                         {/* 기관 */}
                         {emp.organization && (
-                          <p className="mt-3 text-sm font-bold text-gray-700 leading-snug break-words">{emp.organization}</p>
+                          <p className="mt-3 text-sm font-bold text-gray-700 leading-normal break-words">{emp.organization}</p>
                         )}
                         {/* 소속 */}
                         {emp.department && emp.organization !== 'EY Consulting' && (
@@ -1075,7 +1075,7 @@ export const MembersDirectorTemplate = () => {
                                     {course.courseNameKo && course.courseName !== course.courseNameKo && (
                                       <p className="text-sm text-gray-500 mt-2">{course.courseName}</p>
                                     )}
-                                    <p className="mt-4 text-sm font-bold text-gray-700 leading-snug break-words">{course.school}</p>
+                                    <p className="mt-4 text-sm font-bold text-gray-700 leading-normal break-words">{course.school}</p>
                                     {getSchoolKo(course.school) !== course.school && (
                                       <p className="mt-1 text-[11px] md:text-xs text-gray-500 break-words">{getSchoolKo(course.school)}</p>
                                     )}

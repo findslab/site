@@ -22,7 +22,7 @@ type props = {
 type InputTheme = 'normal' | 'white' | 'border' | 'borderBottom' | 'plain';
 
 const themes: Record<InputTheme, string> = {
-  normal: "border border-gray-300 focus:border-primary hover:border-primary",
+  normal: "border border-gray-300 focus:border-primary hover:border-gray-300",
   white: "border border-white bg-white text-black",
   border: "border border-primary focus:border-primary",
   borderBottom: "border-0 rounded-none bg-primary text-white border-b-2 border-white focus:border-white placeholder:text-white",

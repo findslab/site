@@ -358,7 +358,7 @@ export const MembersAlumniTemplate = () => {
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20">
         <div className="py-20 md:py-32 border-b border-gray-100">
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-            <Link to="/" className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110">
+            <Link to="/" className="text-gray-500 hover:text-gray-800 transition-all duration-300 hover:scale-110">
               <Home size={16}/>
             </Link>
             <span className="text-gray-200">—</span>
@@ -454,7 +454,7 @@ export const MembersAlumniTemplate = () => {
                   <div className="flex flex-col items-center h-full justify-start pt-8">
                     <GraduationCap className="size-16 md:size-20 mb-6" style={{color: '#D6B14D'}} />
                     <span className="text-2xl md:text-3xl font-bold mb-4 transition-all duration-300" style={{color: '#D6B14D'}}>{phdCount}</span>
-                    <span className="text-[10px] md:text-xs font-medium text-gray-500 text-center leading-tight">Ph.D. Graduates</span>
+                    <span className="text-[10px] md:text-xs font-medium text-gray-500 text-center leading-normal">Ph.D. Graduates</span>
                   </div>
                 </div>
                 <div className="group relative bg-white border border-gray-100 rounded-2xl p-10 md:p-20 hover:border-[#C41E3A]/40 hover:shadow-lg hover:shadow-[#C41E3A]/10 transition-all duration-300">
@@ -462,7 +462,7 @@ export const MembersAlumniTemplate = () => {
                   <div className="flex flex-col items-center h-full justify-start pt-8">
                     <BookOpen className="size-16 md:size-20 mb-6" style={{color: '#C41E3A'}} />
                     <span className="text-2xl md:text-3xl font-bold mb-4 transition-all duration-300" style={{color: '#C41E3A'}}>{msCount}</span>
-                    <span className="text-[10px] md:text-xs font-medium text-gray-500 text-center leading-tight">M.S. Graduates</span>
+                    <span className="text-[10px] md:text-xs font-medium text-gray-500 text-center leading-normal">M.S. Graduates</span>
                   </div>
                 </div>
                 <div className="group relative bg-white border border-gray-100 rounded-2xl p-10 md:p-20 hover:border-[#FFBAC4]/50 hover:shadow-lg hover:shadow-[#FFBAC4]/10 transition-all duration-300">
@@ -470,7 +470,7 @@ export const MembersAlumniTemplate = () => {
                   <div className="flex flex-col items-center h-full justify-start pt-8">
                     <Lightbulb className="size-16 md:size-20 mb-6" style={{color: '#FFBAC4'}} />
                     <span className="text-2xl md:text-3xl font-bold mb-4 transition-all duration-300" style={{color: '#FFBAC4'}}>{undergradCount}</span>
-                    <span className="text-[10px] md:text-xs font-medium text-gray-500 text-center leading-tight">Former Undergraduate Researchers</span>
+                    <span className="text-[10px] md:text-xs font-medium text-gray-500 text-center leading-normal">Former Undergraduate Researchers</span>
                   </div>
                 </div>
               </div>
@@ -489,11 +489,11 @@ export const MembersAlumniTemplate = () => {
                     <span className="w-8 h-8 rounded-full" style={{backgroundColor: '#D6B14D'}} />
                     Ph.D. Graduates
                   </h2>
-                  <div className="size-32 rounded-full bg-gray-50 flex items-center justify-center group-hover:bg-primary/5 transition-colors">
+                  <div className="size-32 rounded-full bg-gray-50 flex items-center justify-center group-hover:bg-gray-100 transition-colors">
                     {phdExpanded ? (
-                      <ChevronUp size={18} className="text-gray-500 group-hover:text-[#D6B14D]" />
+                      <ChevronUp size={18} className="text-gray-500 group-hover:text-gray-800" />
                     ) : (
-                      <ChevronDown size={18} className="text-gray-500 group-hover:text-[#D6B14D]" />
+                      <ChevronDown size={18} className="text-gray-500 group-hover:text-gray-800" />
                     )}
                   </div>
                 </button>
@@ -533,7 +533,7 @@ export const MembersAlumniTemplate = () => {
                                         <span className="text-sm font-bold" style={{color: '#D6B14D'}}>{alumniNumber}</span>
                                       </div>
                                       <div className="flex items-center gap-8">
-                                        <p className="text-sm md:text-base font-semibold text-gray-900 group-hover:text-[#D6B14D] transition-colors">
+                                        <p className="text-sm md:text-base font-semibold text-gray-900 group-hover:text-gray-950 transition-colors">
                                           {alumni.nameKo || alumni.name}
                                         </p>
                                         {hasThesis && (
@@ -693,11 +693,11 @@ export const MembersAlumniTemplate = () => {
                     <span className="w-8 h-8 rounded-full" style={{backgroundColor: '#C41E3A'}} />
                     M.S. Graduates
                   </h2>
-                  <div className="size-32 rounded-full bg-gray-50 flex items-center justify-center group-hover:bg-primary/5 transition-colors">
+                  <div className="size-32 rounded-full bg-gray-50 flex items-center justify-center group-hover:bg-gray-100 transition-colors">
                     {msExpanded ? (
-                      <ChevronUp size={18} className="text-gray-500 group-hover:text-[#D6B14D]" />
+                      <ChevronUp size={18} className="text-gray-500 group-hover:text-gray-800" />
                     ) : (
-                      <ChevronDown size={18} className="text-gray-500 group-hover:text-[#D6B14D]" />
+                      <ChevronDown size={18} className="text-gray-500 group-hover:text-gray-800" />
                     )}
                   </div>
                 </button>
@@ -737,7 +737,7 @@ export const MembersAlumniTemplate = () => {
                                         <span className="text-sm font-bold" style={{color: '#C41E3A'}}>{alumniNumber}</span>
                                       </div>
                                       <div className="flex items-center gap-8">
-                                        <p className="text-sm md:text-base font-semibold text-gray-900 group-hover:text-[#C41E3A] transition-colors">
+                                        <p className="text-sm md:text-base font-semibold text-gray-900 group-hover:text-gray-950 transition-colors">
                                           {alumni.nameKo || alumni.name}
                                         </p>
                                         {hasThesis && (
@@ -897,11 +897,11 @@ export const MembersAlumniTemplate = () => {
                     <span className="w-8 h-8 rounded-full" style={{backgroundColor: '#FFBAC4'}} />
                     Former Undergraduate Researchers
                   </h2>
-                  <div className="size-32 rounded-full bg-gray-50 flex items-center justify-center group-hover:bg-primary/5 transition-colors">
+                  <div className="size-32 rounded-full bg-gray-50 flex items-center justify-center group-hover:bg-gray-100 transition-colors">
                     {undergradExpanded ? (
-                      <ChevronUp size={18} className="text-gray-500 group-hover:text-[#D6B14D]" />
+                      <ChevronUp size={18} className="text-gray-500 group-hover:text-gray-800" />
                     ) : (
-                      <ChevronDown size={18} className="text-gray-500 group-hover:text-[#D6B14D]" />
+                      <ChevronDown size={18} className="text-gray-500 group-hover:text-gray-800" />
                     )}
                   </div>
                 </button>
@@ -961,7 +961,7 @@ export const MembersAlumniTemplate = () => {
                                     <div className="flex items-center gap-10 md:gap-12">
                                       <AlumniAvatar />
                                       <div className="flex items-center gap-8">
-                                        <p className="text-sm md:text-base font-semibold text-gray-900 group-hover:text-[#FFBAC4] transition-colors">{alumni.name}</p>
+                                        <p className="text-sm md:text-base font-semibold text-gray-900 group-hover:text-gray-950 transition-colors">{alumni.name}</p>
                                         {hasProjects && (
                                           <ChevronDown 
                                             size={14} 

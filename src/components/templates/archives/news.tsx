@@ -271,7 +271,7 @@ export const ArchivesNewsTemplate = () => {
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20">
         <div className="py-20 md:py-32 border-b border-gray-100">
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-            <Link to="/" className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110"><Home size={16} /></Link>
+            <Link to="/" className="text-gray-500 hover:text-gray-800 transition-all duration-300 hover:scale-110"><Home size={16} /></Link>
             <span className="text-gray-200">—</span>
             <span className="text-sm text-gray-500 font-medium">Archives</span>
             <span className="text-gray-200">—</span>
@@ -328,7 +328,7 @@ export const ArchivesNewsTemplate = () => {
                         </div>
                       </div>
                       <div className="flex justify-end pt-16 border-t border-gray-100">
-                        <button onClick={() => setSelectedTags([])} className="px-16 py-8 text-sm font-medium text-gray-500 hover:text-primary transition-colors">Reset all filters</button>
+                        <button onClick={() => setSelectedTags([])} className="px-16 py-8 text-sm font-medium text-gray-500 hover:text-gray-800 transition-colors">Reset all filters</button>
                       </div>
                     </div>
                   </div>
@@ -357,7 +357,7 @@ export const ArchivesNewsTemplate = () => {
                 )
               })}
               {hasActiveFilters && (
-                <button onClick={() => { setSelectedTags([]); setSearchTerm('') }} className="text-xs text-gray-500 hover:text-primary transition-colors ml-4">Clear all</button>
+                <button onClick={() => { setSelectedTags([]); setSearchTerm('') }} className="text-xs text-gray-500 hover:text-gray-800 transition-colors ml-4">Clear all</button>
               )}
             </div>
           )}

@@ -69,7 +69,7 @@ export const PageBanner = memo(({ backgroundImage, category, title, breadcrumbs 
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
             <Link 
               to="/" 
-              className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110"
+              className="text-gray-500 hover:text-gray-800 transition-all duration-300 hover:scale-110"
               aria-label="홈으로 이동"
             >
               <Home size={16} />
@@ -78,7 +78,7 @@ export const PageBanner = memo(({ backgroundImage, category, title, breadcrumbs 
               <span key={index} className="contents">
                 <span className="text-gray-200">—</span>
                 {item.path ? (
-                  <Link to={item.path} className="text-sm text-gray-500 hover:text-primary font-medium transition-colors">
+                  <Link to={item.path} className="text-sm text-gray-500 hover:text-gray-800 font-medium transition-colors">
                     {item.label}
                   </Link>
                 ) : item.isActive ? (

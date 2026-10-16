@@ -336,7 +336,7 @@ const PlaylistView = () => {
             {/* Home Button */}
             <Link 
               to="/" 
-              className="flex items-center gap-6 px-10 py-6 bg-gray-100 hover:bg-primary hover:text-white text-gray-600 rounded-lg transition-all text-xs font-semibold"
+              className="flex items-center gap-6 px-10 py-6 bg-gray-100 hover:bg-gray-200 hover:text-gray-900 text-gray-600 rounded-lg transition-all text-xs font-semibold"
               title="FINDS Lab 홈으로"
             >
               <Home size={14} />
@@ -357,7 +357,7 @@ const PlaylistView = () => {
                 className={`flex items-center gap-4 px-10 py-5 rounded-full transition-all text-xs font-semibold border ${
                   showListPanel 
                     ? 'bg-primary text-white border-primary' 
-                    : 'bg-white text-gray-600 border-gray-200 hover:border-[#D6B14D] hover:text-[#D6B14D]'
+                    : 'bg-white text-gray-600 border-gray-200 hover:border-gray-300 hover:text-gray-800'
                 }`}
                 title={showListPanel ? "그리드 보기로 전환" : "리스트 보기로 전환"}
               >
@@ -467,7 +467,7 @@ const PlaylistView = () => {
                 className={`bg-white border rounded-xl overflow-hidden hover:shadow-lg transition-all group cursor-pointer ${
                   currentVideo?.videoId === item.videoId 
                     ? 'border-[#D6B14D] ring-2 ring-[#D6B14D]/20' 
-                    : 'border-gray-100 hover:border-[#D6B14D]/30'
+                    : 'border-gray-100 hover:border-gray-300'
                 }`}
               >
                 {/* Thumbnail */}
@@ -515,7 +515,7 @@ const PlaylistView = () => {
                   <p className="text-xs text-gray-500 mb-4 truncate font-bold">
                     {item.artist}
                   </p>
-                  <h3 className="text-xs font-bold text-gray-900 group-hover:text-[#D6B14D] transition-colors line-clamp-2 leading-relaxed">
+                  <h3 className="text-xs font-bold text-gray-900 group-hover:text-gray-950 transition-colors line-clamp-2 leading-relaxed">
                     {item.title}
                   </h3>
                 </div>
@@ -597,7 +597,7 @@ const PlaylistView = () => {
               </button>
               <button
                 onClick={handleClosePlayer}
-                className="p-8 text-gray-500 hover:text-[#C41E3A] transition-colors"
+                className="p-8 text-gray-500 hover:text-gray-800 transition-colors"
                 title="닫기"
               >
                 <X size={18} />

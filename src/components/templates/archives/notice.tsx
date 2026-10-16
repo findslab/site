@@ -164,7 +164,7 @@ const NoticeDetailModal = ({ id, title, date }: { id: string; title?: string; da
                     key={idx}
                     href={href}
                     download={att.file}
-                    className="flex items-center gap-10 px-14 py-10 bg-gray-50 hover:bg-primary/5 border border-gray-200 hover:border-primary/30 rounded-lg transition-all group/att"
+                    className="flex items-center gap-10 px-14 py-10 bg-gray-50 hover:bg-gray-100 border border-gray-200 hover:border-gray-300 rounded-lg transition-all group/att"
                   >
                     <span className="flex items-center justify-center w-32 h-32 rounded-md bg-primary/10 text-primary shrink-0">
                       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
@@ -323,7 +323,7 @@ export const ArchivesNoticeTemplate = () => {
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20">
         <div className="py-20 md:py-32 border-b border-gray-100">
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-            <Link to="/" className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110"><Home size={16} /></Link>
+            <Link to="/" className="text-gray-500 hover:text-gray-800 transition-all duration-300 hover:scale-110"><Home size={16} /></Link>
             <span className="text-gray-200">—</span>
             <span className="text-sm text-gray-500 font-medium">Archives</span>
             <span className="text-gray-200">—</span>
@@ -374,7 +374,7 @@ export const ArchivesNoticeTemplate = () => {
                         </div>
                       </div>
                       <div className="flex justify-end pt-16 border-t border-gray-100">
-                        <button onClick={() => setSelectedTags([])} className="px-16 py-8 text-sm font-medium text-gray-500 hover:text-primary transition-colors">Reset all filters</button>
+                        <button onClick={() => setSelectedTags([])} className="px-16 py-8 text-sm font-medium text-gray-500 hover:text-gray-800 transition-colors">Reset all filters</button>
                       </div>
                     </div>
                   </div>
@@ -399,7 +399,7 @@ export const ArchivesNoticeTemplate = () => {
                   </button>
                 )
               })}
-              <button onClick={() => { setSelectedTags([]); setSearchTerm('') }} className="text-xs text-gray-500 hover:text-primary transition-colors ml-4">Clear all</button>
+              <button onClick={() => { setSelectedTags([]); setSearchTerm('') }} className="text-xs text-gray-500 hover:text-gray-800 transition-colors ml-4">Clear all</button>
             </div>
           )}
         </div>

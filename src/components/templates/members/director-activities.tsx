@@ -759,21 +759,21 @@ const CollaborationNetwork = memo(() => {
           </span>
           <button
             onClick={handleZoomIn}
-            className="size-28 md:size-32 bg-white border border-gray-200 rounded-lg flex items-center justify-center text-gray-500 hover:text-[#D6B14D] hover:border-[#D6B14D]/30 transition-all"
+            className="size-28 md:size-32 bg-white border border-gray-200 rounded-lg flex items-center justify-center text-gray-500 hover:text-gray-800 hover:border-gray-300 transition-all"
             title="Zoom In"
           >
             <ZoomIn size={14}/>
           </button>
           <button
             onClick={handleZoomOut}
-            className="size-28 md:size-32 bg-white border border-gray-200 rounded-lg flex items-center justify-center text-gray-500 hover:text-[#D6B14D] hover:border-[#D6B14D]/30 transition-all"
+            className="size-28 md:size-32 bg-white border border-gray-200 rounded-lg flex items-center justify-center text-gray-500 hover:text-gray-800 hover:border-gray-300 transition-all"
             title="Zoom Out"
           >
             <ZoomOut size={14}/>
           </button>
           <button
             onClick={handleReset}
-            className="size-28 md:size-32 bg-white border border-gray-200 rounded-lg flex items-center justify-center text-gray-500 hover:text-[#D6B14D] hover:border-[#D6B14D]/30 transition-all"
+            className="size-28 md:size-32 bg-white border border-gray-200 rounded-lg flex items-center justify-center text-gray-500 hover:text-gray-800 hover:border-gray-300 transition-all"
             title="Reset View"
           >
             <Maximize2 size={14}/>
@@ -1485,7 +1485,7 @@ export const MembersDirectorActivitiesTemplate = () => {
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20">
         <div className="py-20 md:py-32 border-b border-gray-100">
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-            <Link to="/" className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110">
+            <Link to="/" className="text-gray-500 hover:text-gray-800 transition-all duration-300 hover:scale-110">
               <Home size={16}/>
             </Link>
             <span className="text-gray-200">—</span>
@@ -1552,7 +1552,7 @@ export const MembersDirectorActivitiesTemplate = () => {
 
               <div className="flex flex-col gap-16 md:gap-20">
                 <div className="flex items-start gap-12 group">
-                  <div className="size-36 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                  <div className="size-36 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-gray-100 group-hover:text-gray-800 transition-colors shrink-0">
                     <Briefcase size={16}/>
                   </div>
                   <div className="min-w-0">
@@ -1563,7 +1563,7 @@ export const MembersDirectorActivitiesTemplate = () => {
                 </div>
 
                 <div className="flex items-start gap-12 group">
-                  <div className="size-36 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                  <div className="size-36 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-gray-100 group-hover:text-gray-800 transition-colors shrink-0">
                     <Building size={16}/>
                   </div>
                   <div className="min-w-0">
@@ -1574,7 +1574,7 @@ export const MembersDirectorActivitiesTemplate = () => {
                 </div>
 
                 <div className="flex items-start gap-12 group">
-                  <div className="size-36 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                  <div className="size-36 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-gray-100 group-hover:text-gray-800 transition-colors shrink-0">
                     <MapPin size={16}/>
                   </div>
                   <div className="min-w-0">
@@ -1585,7 +1585,7 @@ export const MembersDirectorActivitiesTemplate = () => {
                 </div>
 
                 <div className="flex items-start gap-12 group">
-                  <div className="size-36 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                  <div className="size-36 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-gray-100 group-hover:text-gray-800 transition-colors shrink-0">
                     <Mail size={16}/>
                   </div>
                   <div className="min-w-0 flex-1">
@@ -1610,7 +1610,7 @@ export const MembersDirectorActivitiesTemplate = () => {
                 </div>
 
                 <div className="flex items-start gap-12 group">
-                  <div className="size-36 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                  <div className="size-36 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-gray-100 group-hover:text-gray-800 transition-colors shrink-0">
                     <Phone size={16}/>
                   </div>
                   <div className="min-w-0">
@@ -1819,9 +1819,9 @@ export const MembersDirectorActivitiesTemplate = () => {
                         </div>
                       )
                     })}
-                    className="flex items-center gap-16 bg-white border border-gray-100 rounded-xl p-20 hover:shadow-lg hover:border-[#D6B14D]/30 transition-all group text-left"
+                    className="flex items-center gap-16 bg-white border border-gray-100 rounded-xl p-20 hover:shadow-lg hover:border-gray-300 transition-all group text-left"
                   >
-                    <div className="size-56 bg-gray-50 rounded-xl p-8 flex items-center justify-center group-hover:bg-primary/5 transition-colors shrink-0">
+                    <div className="size-56 bg-gray-50 rounded-xl p-8 flex items-center justify-center group-hover:bg-gray-100 transition-colors shrink-0">
                       <img loading="lazy" decoding="async" src={act.logo} alt={act.name} className="w-full h-full object-contain grayscale group-hover:grayscale-0 transition-all"/>
                     </div>
                     <div className="flex-1 min-w-0 break-words">
@@ -1829,7 +1829,7 @@ export const MembersDirectorActivitiesTemplate = () => {
                       {act.fullName && <p className="text-xs text-gray-500 mt-2 truncate">{act.fullName}</p>}
                       {act.fullNameKo && <p className="text-xs text-gray-500 font-semibold truncate">{act.fullNameKo}</p>}
                     </div>
-                    <ChevronRight size={16} className="text-gray-300 group-hover:text-[#D6B14D] transition-colors shrink-0"/>
+                    <ChevronRight size={16} className="text-gray-300 group-hover:text-gray-900 transition-colors shrink-0"/>
                   </button>
                 ))}
                 </div>
@@ -1935,7 +1935,7 @@ export const MembersDirectorActivitiesTemplate = () => {
                           className={`px-10 md:px-12 py-6 md:py-8 rounded-lg text-xs font-medium transition-all flex items-center justify-between gap-4 ${
                             selectedUniversity === univ
                               ? 'text-white'
-                              : 'bg-white border border-gray-200 text-gray-700 hover:border-[#D6B14D]/50 hover:bg-[#D6B14D]/5'
+                              : 'bg-white border border-gray-200 text-gray-700 hover:border-gray-300 hover:bg-gray-50'
                           }`}
                           style={selectedUniversity === univ ? {backgroundColor: '#E8889C'} : {}}
                         >

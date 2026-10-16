@@ -199,7 +199,7 @@ const FilterModal = ({
       <div className="flex justify-end pt-16 border-t border-gray-100">
         <button
           onClick={onReset}
-          className="px-16 py-8 text-sm font-medium text-gray-500 hover:text-primary transition-colors"
+          className="px-16 py-8 text-sm font-medium text-gray-500 hover:text-gray-800 transition-colors"
         >
           Reset all filters
         </button>
@@ -409,7 +409,7 @@ export const ProjectsTemplate = () => {
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20">
         <div className="py-20 md:py-32 border-b border-gray-100">
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-            <Link to="/" className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110">
+            <Link to="/" className="text-gray-500 hover:text-gray-800 transition-all duration-300 hover:scale-110">
               <Home size={16}/>
             </Link>
             <span className="text-gray-200">—</span>
@@ -821,7 +821,7 @@ export const ProjectsTemplate = () => {
                                     <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-8 md:gap-16">
                                       <div className="flex-1 min-w-0">
                                         <p className="text-base md:text-md font-bold text-gray-900 leading-relaxed whitespace-pre-line">{project.titleKo}</p>
-                                        <p className="text-sm text-gray-600 mt-4 leading-relaxed whitespace-pre-line">{project.titleEn}</p>
+                                        <p className="text-sm text-gray-600 mt-4 leading-relaxed whitespace-pre-line max-w-[80ch]">{project.titleEn}</p>
                                       </div>
                                       {/* Period Badge - white background, right aligned */}
                                       <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-[11px] font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap">

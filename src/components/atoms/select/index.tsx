@@ -39,7 +39,7 @@ const Select = ({items, className, essential, control, name, theme = 'normal', p
           value={value}
           name={name}
           className={clsx(
-            "px-10 pr-36 py-8 rounded-md cursor-pointer appearance-none bg-white outline-none transition-all shadow hover:border-primary focus:shadow-focus h-base text-base",
+            "px-10 pr-36 py-8 rounded-md cursor-pointer appearance-none bg-white outline-none transition-all shadow hover:border-gray-300 focus:shadow-focus h-base text-base",
             "bg-[url('data:image/svg+xml,%3csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2218%22%20height=%2218%22%20viewBox=%220%200%2024%2024%22%20fill=%22none%22%20stroke=%22currentColor%22%20stroke-width=%221%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22%3e%3cpath%20d=%22m6%209%206%206%206-6%22/%3e%3c/svg%3e')] bg-no-repeat bg-[right_8px_center] bg-[length:1.5em_1.5em]",
             className,
             themes[theme],

@@ -19,17 +19,18 @@
   --height-xl: 55px;
   --height-2xl: 60px;
 
+  /* type scale + line-height per step (Korean body text reads best at 1.6–1.7) */
   --text-3xs: 7px;
   --text-2xs: 9px;
-  --text-xs: 11px;
-  --text-sm: 13px;
-  --text-base: 15px;
-  --text-md: 17px;
-  --text-lg: 19px;
-  --text-xl: 21px;
-  --text-2xl: 25px;
-  --text-3xl: 29px;
-  --text-4xl: 33px;
+  --text-xs: 11px;    --text-xs--line-height: 1.5;
+  --text-sm: 13px;    --text-sm--line-height: 1.6;
+  --text-base: 15px;  --text-base--line-height: 1.65;
+  --text-md: 17px;    --text-md--line-height: 1.6;
+  --text-lg: 19px;    --text-lg--line-height: 1.5;
+  --text-xl: 21px;    --text-xl--line-height: 1.45;
+  --text-2xl: 25px;   --text-2xl--line-height: 1.35;
+  --text-3xl: 29px;   --text-3xl--line-height: 1.3;
+  --text-4xl: 33px;   --text-4xl--line-height: 1.25;
 
   --shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --shadow-focus: 0 0 0 3px rgba(172, 14, 14, 0.1);
@@ -265,11 +266,11 @@
 .group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is([style^="color: rgb(196, 30, 58)"], [style*=" color: rgb(196, 30, 58)"], .text-\[\#C41E3A\])) { --glow: 196, 30, 58; }
 .group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is([style^="color: rgb(232, 136, 156)"], [style*=" color: rgb(232, 136, 156)"], .text-\[\#E8889C\])) { --glow: 232, 136, 156; }
 .group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is([style^="color: rgb(255, 186, 196)"], [style*=" color: rgb(255, 186, 196)"], .text-\[\#FFBAC4\])) { --glow: 255, 186, 196; }
-.group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is(.text-gray-900, .text-gray-600, .text-gray-500, .text-gray-400)) {
+.group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is(.text-gray-900, .text-gray-700, .text-gray-600, .text-gray-500)) {
   background: #FFFFFF;
 }
-.group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is(.text-gray-900, .text-gray-600, .text-gray-500, .text-gray-400)):hover {
-  background: var(--p-buttercream);
+.group.bg-white.rounded-2xl:has(> div > :is(span, p)[class*="text-2xl"]:is(.text-gray-900, .text-gray-700, .text-gray-600, .text-gray-500)):hover {
+  background: #F9FAFB;
 }
 
 /* Total cards: Buttercream → Vanilla with a Sunlight glow and a Gold hairline */
@@ -303,7 +304,7 @@
   transition: opacity .35s ease, transform .45s cubic-bezier(.2,.8,.2,1);
   z-index: 0;
 }
-.fbar:hover::before { opacity: 1; transform: scaleY(1); }
+.fbar-current:hover::before { opacity: 1; transform: scaleY(1); }  /* the gold rail belongs to the current year only */
 .fbar:focus-visible { outline: 2px solid var(--p-gold); outline-offset: -2px; }
 
 .fbar-current {
@@ -321,10 +322,11 @@
     radial-gradient(80% 240% at 0% 0%, rgba(255, 235, 153, 1) 0%, rgba(255, 235, 153, 0) 66%),
     linear-gradient(180deg, var(--p-vanilla) 0%, var(--p-vanilla) 100%);
 }
+/* past years are neutral; hover = one neutral step deeper (gray-50 → gray-100), never a palette tint */
 .fbar-past { background: #F9FAFB; box-shadow: inset 0 1px 0 #FFFFFF; }
-.fbar-past:hover { background: var(--p-buttercream); }
+.fbar-past:hover { background: #F3F4F6; }
 .fbar-section { background: transparent; }
-.fbar-section:hover { background: var(--p-buttercream); }
+.fbar-section:hover { background: #F9FAFB; }
 
 /* count pills inside bars */
 :is(.fbar-current, .fbar-past) .bg-white.shadow-sm {

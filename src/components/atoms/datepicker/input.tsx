@@ -19,7 +19,7 @@ export const CDatePickerInput = ({value, onClick, className}: props) => {
     <div
       className={clsx(
         "w-full flex items-center border text-base border-gray-300 shadow focus:shadow-focus rounded bg-white transition-all duration-300 px-10 min-w-[100px] text-black pr-50 whitespace-pre cursor-pointer h-base",
-        "hover:border-primary",
+        "hover:border-gray-300",
         className
       )}
       onClick={onShow}
