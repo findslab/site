@@ -273,11 +273,11 @@ export const AboutHonorsTemplate = () => {
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20">
         <div className="py-20 md:py-32 border-b border-gray-100">
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-            <Link to="/" className="text-gray-400 hover:text-primary transition-all duration-300 hover:scale-110">
+            <Link to="/" className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110">
               <Home size={16} />
             </Link>
             <span className="text-gray-200">—</span>
-            <span className="text-sm text-gray-400 font-medium">About FINDS</span>
+            <span className="text-sm text-gray-500 font-medium">About FINDS</span>
             <span className="text-gray-200">—</span>
             <span className="text-sm text-primary font-semibold">Honors & Awards</span>
           </div>
@@ -296,7 +296,7 @@ export const AboutHonorsTemplate = () => {
               <span className="w-8 h-8 rounded-full bg-primary" />
               Overview
             </h3>
-            <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${statsExpanded ? 'rotate-180' : ''}`} />
+            <ChevronDown size={20} className={`text-gray-500 transition-transform duration-300 ${statsExpanded ? 'rotate-180' : ''}`} />
           </button>
           
           {statsExpanded && (
@@ -307,7 +307,7 @@ export const AboutHonorsTemplate = () => {
             <div className="flex flex-col items-center justify-center">
               <stats.total.icon className="size-20 md:size-24 mb-6" style={{color: stats.total.color, opacity: 0.7}} />
               <span className="text-3xl md:text-4xl font-bold mb-4 transition-all duration-300" style={{color: stats.total.color}}>{stats.total.count}</span>
-              <span className="text-xs md:text-sm font-medium text-gray-600">{stats.total.label}</span>
+              <span className="text-sm font-medium text-gray-600">{stats.total.label}</span>
             </div>
           </div>
 
@@ -333,7 +333,7 @@ export const AboutHonorsTemplate = () => {
                 <div className="flex flex-col items-center text-center pt-8">
                   <stat.icon className="size-16 md:size-20 mb-6" style={{color: stat.color, opacity: 0.7}} />
                   <span className="text-2xl md:text-3xl font-bold mb-4 transition-all duration-300" style={{color: stat.color}}>{stat.count}</span>
-                  <span className="text-xs md:text-sm font-medium text-gray-600">{stat.label}</span>
+                  <span className="text-sm font-medium text-gray-600">{stat.label}</span>
                 </div>
               </div>
             ))}
@@ -359,7 +359,7 @@ export const AboutHonorsTemplate = () => {
                     <div className="flex flex-col gap-20 p-20">
                       <div className="flex items-center justify-between">
                         <h3 className="text-base font-bold text-gray-900">Filters</h3>
-                        <button onClick={() => setIsFilterOpen(false)} className="size-28 flex items-center justify-center rounded-lg hover:bg-gray-100 transition-colors text-gray-400 hover:text-gray-600">
+                        <button onClick={() => setIsFilterOpen(false)} className="size-28 flex items-center justify-center rounded-lg hover:bg-gray-100 transition-colors text-gray-500 hover:text-gray-600">
                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
                         </button>
                       </div>
@@ -370,7 +370,7 @@ export const AboutHonorsTemplate = () => {
                             const isActive = selectedTypes.includes(opt.key)
                             return (
                               <button key={opt.key} onClick={() => handleFilterToggle(opt.key)}
-                                className="px-12 md:px-16 py-6 md:py-8 rounded-lg text-xs md:text-sm font-medium transition-all border"
+                                className="px-12 md:px-16 py-6 md:py-8 rounded-lg text-sm font-medium transition-all border"
                                 style={isActive ? { backgroundColor: opt.color.bg, borderColor: opt.color.bg, color: opt.color.text, boxShadow: '0 1px 3px rgba(0,0,0,0.1)' } : { backgroundColor: 'white', borderColor: '#f0f0f0', color: '#7f8894' }}
                               >{opt.label}</button>
                             )
@@ -378,7 +378,7 @@ export const AboutHonorsTemplate = () => {
                         </div>
                       </div>
                       <div className="flex justify-end pt-16 border-t border-gray-100">
-                        <button onClick={() => setSelectedTypes([])} className="px-16 py-8 text-sm font-medium text-gray-400 hover:text-primary transition-colors">Reset all filters</button>
+                        <button onClick={() => setSelectedTypes([])} className="px-16 py-8 text-sm font-medium text-gray-500 hover:text-primary transition-colors">Reset all filters</button>
                       </div>
                     </div>
                   </div>
@@ -399,11 +399,11 @@ export const AboutHonorsTemplate = () => {
                 const opt = filterOptions.find(o => o.key === type)
                 return opt ? (
                   <button key={type} onClick={() => handleFilterToggle(type)} className="flex items-center gap-4 px-10 py-4 rounded-full text-xs font-medium border transition-all hover:opacity-70" style={{ backgroundColor: `${opt.color.bg}15`, borderColor: `${opt.color.bg}30`, color: opt.color.bg }}>
-                    {opt.label} <span className="text-[10px]">✕</span>
+                    {opt.label} <span className="text-[10px] md:text-[11px]">✕</span>
                   </button>
                 ) : null
               })}
-              <button onClick={() => { setSelectedTypes([]); setSearchTerm('') }} className="text-xs text-gray-400 hover:text-primary transition-colors ml-4">Clear all</button>
+              <button onClick={() => { setSelectedTypes([]); setSearchTerm('') }} className="text-xs text-gray-500 hover:text-primary transition-colors ml-4">Clear all</button>
             </div>
           )}
         </div>
@@ -459,7 +459,7 @@ export const AboutHonorsTemplate = () => {
                     }`}
                   >
                     <div className="flex items-center gap-12 md:gap-[16px] flex-wrap">
-                      <span className={`text-lg md:text-[20px] font-bold ${isCurrentYear ? 'fbar-year text-[#9A7D1F]' : 'text-gray-800'}`}>{year}</span>
+                      <span className={`text-lg md:text-[21px] font-bold ${isCurrentYear ? 'fbar-year text-[#9A7D1F]' : 'text-gray-800'}`}>{year}</span>
                       {/* White badge with counts - always show both */}
                       <span className="px-10 md:px-12 py-4 md:py-5 bg-white rounded-full text-[10px] md:text-xs font-medium shadow-sm">
                         {(() => {
@@ -507,7 +507,7 @@ export const AboutHonorsTemplate = () => {
                           <div className="flex-1 min-w-0">
                             {/* Title with date badge at top-right on PC */}
                             <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 md:gap-12 mb-4 md:mb-[4px]">
-                              <h4 className="text-sm md:text-md font-semibold text-gray-800 flex-1">
+                              <h4 className="text-base md:text-md font-semibold text-gray-800 flex-1">
                                 {item.title}
                               </h4>
                               {/* Date badge - top right on PC, same style as Publications */}
@@ -515,11 +515,11 @@ export const AboutHonorsTemplate = () => {
                                 {item.date.includes('–') && item.date.match(/^\d{4}/) ? formatDate(item.date) : `${year}-${formatDate(item.date)}`}
                               </span>
                             </div>
-                            <p className="text-xs md:text-[14px] text-gray-600 mb-4 md:mb-[4px]">{item.event}</p>
+                            <p className="text-sm md:text-base text-gray-600 mb-4 md:mb-[4px]">{item.event}</p>
                             {/* Organization */}
-                            <p className="text-xs md:text-[13px] text-gray-500 font-bold mb-4">{item.organization}</p>
+                            <p className="text-sm text-gray-500 font-bold mb-4">{item.organization}</p>
                             {/* Mobile: Date below organization */}
-                            <p className="md:hidden text-[10px] text-gray-400 font-medium mb-4">
+                            <p className="md:hidden text-xs text-gray-500 font-medium mb-4">
                               {item.date.includes('–') && item.date.match(/^\d{4}/) ? formatDate(item.date) : `${year}-${formatDate(item.date)}`}
                             </p>
                             {item.winners && item.winners.length > 0 && (
@@ -527,7 +527,7 @@ export const AboutHonorsTemplate = () => {
                                 {item.winners.map((winner, idx) => (
                                   <span
                                     key={idx}
-                                    className={`px-8 md:px-[10px] py-3 md:py-[4px] rounded-full text-[10px] md:text-[12px] font-semibold ${
+                                    className={`px-8 md:px-[10px] py-3 md:py-[4px] rounded-full text-[10px] md:text-[13px] font-semibold ${
                                       winner.name === '최인수' || winner.name === 'Insu Choi'
                                         ? 'bg-[#D6B14D]/15 text-[#D6B14D]'
                                         : winner.level === 'doctoral'
@@ -560,7 +560,7 @@ export const AboutHonorsTemplate = () => {
             <div className="w-60 h-60 md:w-[80px] md:h-[80px] bg-white rounded-full flex items-center justify-center mx-auto mb-16 md:mb-[20px]">
               <Award className="w-28 h-28 md:w-[40px] md:h-[40px] text-gray-300" />
             </div>
-            <p className="text-sm md:text-md text-gray-500">아직 등록된 수상 내역이 없습니다.</p>
+            <p className="text-base md:text-md text-gray-500">아직 등록된 수상 내역이 없습니다.</p>
           </div>
         )}
       </section>

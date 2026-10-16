@@ -281,7 +281,7 @@ const GlobalMusicPlayer = memo(() => {
         {/* Minimized Button */}
         {!hidePlayer && isMinimized && (
           <div className="flex items-center gap-8">
-            <button onClick={handleHidePlayer} className="flex items-center justify-center w-36 h-36 bg-gray-800 text-gray-400 rounded-full shadow-lg hover:bg-gray-700 hover:text-white transition-all duration-200 border border-gray-700/50" title="플레이리스트 숨기기">
+            <button onClick={handleHidePlayer} className="flex items-center justify-center w-36 h-36 bg-gray-800 text-gray-500 rounded-full shadow-lg hover:bg-gray-700 hover:text-white transition-all duration-200 border border-gray-700/50" title="플레이리스트 숨기기">
               <X className="w-16 h-16" />
             </button>
             <button onClick={() => toggleMinimize()} className="group flex items-center gap-14 px-28 py-18 bg-gradient-to-r from-gray-900 to-gray-800 text-white rounded-full shadow-2xl hover:shadow-[0_8px_30px_rgba(214,177,77,0.25)] transition-all duration-300 border border-gray-700/50 hover:scale-105">
@@ -291,7 +291,7 @@ const GlobalMusicPlayer = memo(() => {
               </div>
               <div className="flex flex-col">
                 <span className="text-base font-bold tracking-wide" style={{color: 'rgb(214,177,77)'}}>FINDS</span>
-                <span className="text-sm font-medium text-gray-400">Playlist</span>
+                <span className="text-sm font-medium text-gray-500">Playlist</span>
               </div>
             </button>
           </div>
@@ -306,7 +306,7 @@ const GlobalMusicPlayer = memo(() => {
                 {isPlaying && <span className="absolute -top-1 -right-1 w-2 h-2 bg-primary rounded-full animate-pulse" />}
               </div>
               <div className="min-w-0 flex-1 overflow-hidden">
-                <p className="text-[10px] font-semibold truncate" style={{color: 'rgb(214,177,77)'}}>{currentTrack?.artist}</p>
+                <p className="text-[10px] md:text-[11px] font-semibold truncate" style={{color: 'rgb(214,177,77)'}}>{currentTrack?.artist}</p>
                 <div className="overflow-hidden">
                   <p className={`text-xs text-white font-medium ${(currentTrack?.title?.length || 0) > 40 ? 'whitespace-nowrap animate-marquee' : 'truncate'}`}>
                     {currentTrack?.title}{(currentTrack?.title?.length || 0) > 40 ? `\u00A0\u00A0\u00A0\u00A0\u00A0\u00A0${currentTrack?.title}` : ''}
@@ -315,13 +315,13 @@ const GlobalMusicPlayer = memo(() => {
               </div>
             </div>
             <div className="flex items-center gap-4 shrink-0">
-              <button onClick={handlePrevTrack} className="w-7 h-7 rounded-full bg-gray-700/50 flex items-center justify-center hover:bg-gray-600/50 transition-colors"><SkipBack size={10} className="text-gray-400" /></button>
+              <button onClick={handlePrevTrack} className="w-7 h-7 rounded-full bg-gray-700/50 flex items-center justify-center hover:bg-gray-600/50 transition-colors"><SkipBack size={10} className="text-gray-500" /></button>
               <button onClick={togglePlay} className="w-8 h-8 rounded-full bg-primary/20 flex items-center justify-center hover:bg-primary/30 transition-colors">
                 {isPlaying ? <Pause size={12} className="text-primary" /> : <Play size={12} className="text-primary ml-0.5" />}
               </button>
-              <button onClick={handleNextTrack} className="w-7 h-7 rounded-full bg-gray-700/50 flex items-center justify-center hover:bg-gray-600/50 transition-colors"><SkipForward size={10} className="text-gray-400" /></button>
-              <button onClick={() => setIsCompact(false)} className="w-7 h-7 rounded-full bg-gray-700/50 flex items-center justify-center hover:bg-gray-600/50 transition-colors" title="확장"><Maximize2 size={10} className="text-gray-400" /></button>
-              <button onClick={toggleMinimize} className="w-7 h-7 rounded-full bg-gray-700/50 flex items-center justify-center hover:bg-gray-600/50 transition-colors" title="닫기"><X size={10} className="text-gray-400" /></button>
+              <button onClick={handleNextTrack} className="w-7 h-7 rounded-full bg-gray-700/50 flex items-center justify-center hover:bg-gray-600/50 transition-colors"><SkipForward size={10} className="text-gray-500" /></button>
+              <button onClick={() => setIsCompact(false)} className="w-7 h-7 rounded-full bg-gray-700/50 flex items-center justify-center hover:bg-gray-600/50 transition-colors" title="확장"><Maximize2 size={10} className="text-gray-500" /></button>
+              <button onClick={toggleMinimize} className="w-7 h-7 rounded-full bg-gray-700/50 flex items-center justify-center hover:bg-gray-600/50 transition-colors" title="닫기"><X size={10} className="text-gray-500" /></button>
             </div>
           </div>
         )}
@@ -348,9 +348,9 @@ const GlobalMusicPlayer = memo(() => {
               </div>
             </div>
             <div className="flex items-center gap-6">
-              <button onClick={() => setShowQueue(!showQueue)} className={`w-28 h-28 rounded-full flex items-center justify-center transition-colors border ${showQueue ? 'bg-[#D6B14D]/20 border-[#D6B14D]/50 text-[#D6B14D]' : 'bg-gray-800/80 border-gray-700/50 text-gray-400 hover:bg-gray-700'}`} title="재생목록"><ListMusic className="w-12 h-12" /></button>
-              <button onClick={() => { setIsCompact(true); setShowQueue(false) }} className="w-28 h-28 rounded-full bg-gray-800/80 flex items-center justify-center hover:bg-gray-700 transition-colors border border-gray-700/50" title="컴팩트"><Minimize2 className="w-12 h-12 text-gray-400" /></button>
-              <button onClick={() => { toggleMinimize(); setShowQueue(false) }} className="w-28 h-28 rounded-full bg-gray-800/80 flex items-center justify-center hover:bg-gray-700 transition-colors border border-gray-700/50" title="접기"><X className="w-12 h-12 text-gray-400" /></button>
+              <button onClick={() => setShowQueue(!showQueue)} className={`w-28 h-28 rounded-full flex items-center justify-center transition-colors border ${showQueue ? 'bg-[#D6B14D]/20 border-[#D6B14D]/50 text-[#D6B14D]' : 'bg-gray-800/80 border-gray-700/50 text-gray-500 hover:bg-gray-700'}`} title="재생목록"><ListMusic className="w-12 h-12" /></button>
+              <button onClick={() => { setIsCompact(true); setShowQueue(false) }} className="w-28 h-28 rounded-full bg-gray-800/80 flex items-center justify-center hover:bg-gray-700 transition-colors border border-gray-700/50" title="컴팩트"><Minimize2 className="w-12 h-12 text-gray-500" /></button>
+              <button onClick={() => { toggleMinimize(); setShowQueue(false) }} className="w-28 h-28 rounded-full bg-gray-800/80 flex items-center justify-center hover:bg-gray-700 transition-colors border border-gray-700/50" title="접기"><X className="w-12 h-12 text-gray-500" /></button>
             </div>
           </div>
 
@@ -360,7 +360,7 @@ const GlobalMusicPlayer = memo(() => {
               <div className="flex items-center justify-between px-20 py-12 border-b border-gray-800/30">
                 <div className="flex items-center gap-10">
                   <span className="text-[11px] font-semibold tracking-wider" style={{color: '#D6B14D'}}>Queue</span>
-                  <span className="px-8 py-2 rounded-full text-[10px] font-bold tabular-nums" style={{backgroundColor: 'rgba(214,177,77,0.12)', color: '#D6B14D'}}>{playlist.length}</span>
+                  <span className="px-8 py-2 rounded-full text-[10px] md:text-[11px] font-bold tabular-nums" style={{backgroundColor: 'rgba(214,177,77,0.12)', color: '#D6B14D'}}>{playlist.length}</span>
                 </div>
                 <button onClick={() => setShowQueue(false)} className="text-gray-600 hover:text-gray-400 transition-colors p-4"><X className="w-10 h-10" /></button>
               </div>
@@ -401,7 +401,7 @@ const GlobalMusicPlayer = memo(() => {
                         <p className={`text-[11px] font-semibold truncate ${isCurrent ? 'text-white' : isUpcoming ? 'text-gray-300' : 'text-gray-500'}`}>
                           {track.title}
                         </p>
-                        <p className={`text-[10px] truncate ${isCurrent ? 'text-[#D6B14D]' : 'text-gray-600'}`}>
+                        <p className={`text-[10px] md:text-[11px] truncate ${isCurrent ? 'text-[#D6B14D]' : 'text-gray-600'}`}>
                           {track.artist}
                         </p>
                       </div>

@@ -347,8 +347,8 @@ const PlaylistView = () => {
             <div className="flex items-center gap-12">
               <div className="flex items-center gap-4">
                 <Music2 size={14} className="text-primary" />
-                <span className="text-xs md:text-xs font-bold text-gray-900">Playlist</span>
-                <span className="text-[10px] text-gray-400">{playlists.length} tracks</span>
+                <span className="text-xs font-bold text-gray-900">Playlist</span>
+                <span className="text-[10px] md:text-[11px] text-gray-500">{playlists.length} tracks</span>
               </div>
               
               {/* View Toggle Button */}
@@ -384,10 +384,10 @@ const PlaylistView = () => {
             <div className="bg-white rounded-2xl border border-gray-100 overflow-hidden shadow-sm">
               {/* List Header */}
               <div className="grid grid-cols-[40px_1fr_1fr_100px] md:grid-cols-[48px_1fr_1fr_120px] gap-12 md:gap-16 px-16 md:px-24 py-12 md:py-14 bg-gray-50 border-b border-gray-100">
-                <div className="text-[10px] md:text-xs font-bold text-gray-400 uppercase tracking-wider">#</div>
-                <div className="text-[10px] md:text-xs font-bold text-gray-400 uppercase tracking-wider">Title</div>
-                <div className="text-[10px] md:text-xs font-bold text-gray-400 uppercase tracking-wider">Artist</div>
-                <div className="text-[10px] md:text-xs font-bold text-gray-400 uppercase tracking-wider text-right">Date</div>
+                <div className="text-[10px] md:text-xs font-bold text-gray-500 uppercase tracking-wider">#</div>
+                <div className="text-[10px] md:text-xs font-bold text-gray-500 uppercase tracking-wider">Title</div>
+                <div className="text-[10px] md:text-xs font-bold text-gray-500 uppercase tracking-wider">Artist</div>
+                <div className="text-[10px] md:text-xs font-bold text-gray-500 uppercase tracking-wider text-right">Date</div>
               </div>
               
               {/* List Items */}
@@ -415,7 +415,7 @@ const PlaylistView = () => {
                           <Pause size={14} className="text-primary" />
                         )
                       ) : (
-                        <span className="text-xs md:text-sm text-gray-400 group-hover:hidden">{index + 1}</span>
+                        <span className="text-sm text-gray-500 group-hover:hidden">{index + 1}</span>
                       )}
                       {currentVideo?.videoId !== item.videoId && (
                         <Play size={14} className="text-primary hidden group-hover:block" />
@@ -437,7 +437,7 @@ const PlaylistView = () => {
                           }
                         }}
                       />
-                      <span className={`text-xs md:text-sm font-semibold truncate ${
+                      <span className={`text-sm font-semibold truncate ${
                         currentVideo?.videoId === item.videoId ? 'text-primary' : 'text-gray-900'
                       }`}>
                         {item.title}
@@ -446,12 +446,12 @@ const PlaylistView = () => {
                     
                     {/* Artist */}
                     <div className="flex items-center">
-                      <span className="text-xs md:text-sm text-gray-500 truncate">{item.artist}</span>
+                      <span className="text-sm text-gray-500 truncate">{item.artist}</span>
                     </div>
                     
                     {/* Date */}
                     <div className="flex items-center justify-end">
-                      <span className="text-[10px] md:text-xs text-gray-400">{item.date}</span>
+                      <span className="text-[10px] md:text-xs text-gray-500">{item.date}</span>
                     </div>
                   </div>
                 ))}
@@ -512,10 +512,10 @@ const PlaylistView = () => {
                 
                 {/* Info - 아티스트 먼저, 제목 아래 */}
                 <div className="p-12 md:p-14">
-                  <p className="text-xs md:text-xs text-gray-500 mb-4 truncate font-bold">
+                  <p className="text-xs text-gray-500 mb-4 truncate font-bold">
                     {item.artist}
                   </p>
-                  <h3 className="text-xs md:text-xs font-bold text-gray-900 group-hover:text-[#D6B14D] transition-colors line-clamp-2 leading-relaxed">
+                  <h3 className="text-xs font-bold text-gray-900 group-hover:text-[#D6B14D] transition-colors line-clamp-2 leading-relaxed">
                     {item.title}
                   </h3>
                 </div>
@@ -531,7 +531,7 @@ const PlaylistView = () => {
             <p className="text-sm md:text-base font-semibold text-gray-900 mb-6">
               플레이리스트 준비 중
             </p>
-            <p className="text-xs md:text-sm text-gray-500">
+            <p className="text-sm text-gray-500">
               아직 등록된 영상이 없습니다.
             </p>
           </div>
@@ -557,8 +557,8 @@ const PlaylistView = () => {
                 />
               )}
               <div className="min-w-0">
-                <p className="text-gray-400 text-[10px] md:text-xs truncate">{currentVideo.artist}</p>
-                <h2 className="text-white font-semibold text-xs md:text-sm truncate">{currentVideo.title}</h2>
+                <p className="text-gray-500 text-[10px] md:text-xs truncate">{currentVideo.artist}</p>
+                <h2 className="text-white font-semibold text-sm truncate">{currentVideo.title}</h2>
               </div>
             </div>
             
@@ -567,7 +567,7 @@ const PlaylistView = () => {
               {/* Previous track button */}
               <button
                 onClick={playPrevTrack}
-                className="p-8 text-gray-400 hover:text-white transition-colors"
+                className="p-8 text-gray-500 hover:text-white transition-colors"
                 title="이전 곡"
               >
                 <SkipBack size={18} />
@@ -575,7 +575,7 @@ const PlaylistView = () => {
               {/* Play/Pause button - especially important in minimized mode */}
               <button
                 onClick={togglePlayPause}
-                className="p-8 text-gray-400 hover:text-white transition-colors"
+                className="p-8 text-gray-500 hover:text-white transition-colors"
                 title={isPlaying ? "일시정지" : "재생"}
               >
                 {isPlaying ? <Pause size={18} /> : <Play size={18} />}
@@ -583,21 +583,21 @@ const PlaylistView = () => {
               {/* Next track button */}
               <button
                 onClick={playNextTrack}
-                className="p-8 text-gray-400 hover:text-white transition-colors"
+                className="p-8 text-gray-500 hover:text-white transition-colors"
                 title="다음 곡"
               >
                 <SkipForward size={18} />
               </button>
               <button
                 onClick={() => setIsMinimized(!isMinimized)}
-                className="p-8 text-gray-400 hover:text-white transition-colors"
+                className="p-8 text-gray-500 hover:text-white transition-colors"
                 title={isMinimized ? "확대" : "최소화"}
               >
                 {isMinimized ? <Maximize2 size={18} /> : <Minimize2 size={18} />}
               </button>
               <button
                 onClick={handleClosePlayer}
-                className="p-8 text-gray-400 hover:text-[#C41E3A] transition-colors"
+                className="p-8 text-gray-500 hover:text-[#C41E3A] transition-colors"
                 title="닫기"
               >
                 <X size={18} />

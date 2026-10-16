@@ -670,11 +670,11 @@ export const MembersDirectorTemplate = () => {
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20">
         <div className="py-20 md:py-32 border-b border-gray-100">
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-            <Link to="/" className="text-gray-400 hover:text-primary transition-all duration-300 hover:scale-110">
+            <Link to="/" className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110">
               <Home size={16}/>
             </Link>
             <span className="text-gray-200">—</span>
-            <span className="text-sm text-gray-400 font-medium">Members</span>
+            <span className="text-sm text-gray-500 font-medium">Members</span>
             <span className="text-gray-200">—</span>
             <span className="text-sm text-primary font-semibold">Director</span>
           </div>
@@ -713,42 +713,42 @@ export const MembersDirectorTemplate = () => {
 
               <div className="flex flex-col gap-12 md:gap-16">
                 <div className="flex items-start gap-10 group">
-                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-400 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
                     <Briefcase size={14}/>
                   </div>
                   <div className="min-w-0">
-                    <p className="text-[10px] md:text-xs font-bold text-gray-400 mb-1">Position</p>
-                    <p className="text-xs md:text-sm font-semibold text-gray-800">Director</p>
-                    <p className="text-[10px] md:text-xs text-gray-500">FINDS (Financial Data Intelligence & Solutions) Lab</p>
+                    <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-1">Position</p>
+                    <p className="text-sm font-semibold text-gray-800">Director</p>
+                    <p className="text-xs text-gray-500">FINDS (Financial Data Intelligence & Solutions) Lab</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-10 group">
-                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-400 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
                     <Building size={14}/>
                   </div>
                   <div className="min-w-0">
-                    <p className="text-[10px] md:text-xs font-bold text-gray-400 mb-1">Affiliation</p>
-                    <p className="text-xs md:text-sm font-semibold text-gray-800">Assistant Professor</p>
+                    <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-1">Affiliation</p>
+                    <p className="text-sm font-semibold text-gray-800">Assistant Professor</p>
                     <p className="text-[10px] md:text-xs text-gray-500">Gachon University</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-10 group">
-                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-400 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
                     <MapPin size={14}/>
                   </div>
                   <div className="min-w-0">
-                    <p className="text-[10px] md:text-xs font-bold text-gray-400 mb-1">Office</p>
-                    <p className="text-xs md:text-sm font-semibold text-gray-800">Room 304, Gachon Hall</p>
+                    <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-1">Office</p>
+                    <p className="text-sm font-semibold text-gray-800">Room 304, Gachon Hall</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-10 group">
-                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-400 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
                     <Mail size={14}/>
                   </div>
                   <div className="min-w-0 flex-1">
-                    <p className="text-[10px] md:text-xs font-bold text-gray-400 mb-1">E-mail</p>
+                    <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-1">E-mail</p>
                     <div className="flex items-center gap-6">
-                      <a href={`mailto:${directorEmail}`} className="select-text text-xs md:text-sm font-semibold text-primary hover:underline break-all">
+                      <a href={`mailto:${directorEmail}`} className="select-text text-sm font-semibold text-primary hover:underline break-all">
                         {directorEmail}
                       </a>
                       <button 
@@ -756,7 +756,7 @@ export const MembersDirectorTemplate = () => {
                         className="size-20 flex items-center justify-center rounded-md hover:bg-gray-100 transition-colors shrink-0" 
                         title="Copy email"
                       >
-                        {emailCopied ? <Check size={10} className="text-[#9A7D1F]"/> : <Copy size={10} className="text-gray-400"/>}
+                        {emailCopied ? <Check size={10} className="text-[#9A7D1F]"/> : <Copy size={10} className="text-gray-500"/>}
                       </button>
                     </div>
                   </div>
@@ -765,12 +765,12 @@ export const MembersDirectorTemplate = () => {
 
               {/* Office Phone */}
               <div className="flex items-start gap-10 group mt-12 md:mt-16">
-                <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-400 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
                   <Phone size={14}/>
                 </div>
                 <div className="min-w-0 flex-1">
-                  <p className="text-[10px] md:text-xs font-bold text-gray-400 mb-1">Office</p>
-                  <a href="tel:031-750-5405" className="text-xs md:text-sm font-semibold text-gray-700 hover:text-primary transition-colors">
+                  <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-1">Office</p>
+                  <a href="tel:031-750-5405" className="text-sm font-semibold text-gray-700 hover:text-primary transition-colors">
                     031-750-5405
                   </a>
                 </div>
@@ -817,7 +817,7 @@ export const MembersDirectorTemplate = () => {
                 className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Introduction</h3>
-                <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.introduction ? 'rotate-180' : ''}`}/>
+                <ChevronDown size={20} className={`text-gray-500 transition-transform duration-300 ${expandedSections.introduction ? 'rotate-180' : ''}`}/>
               </button>
               {expandedSections.introduction && (
               <div className="bg-gradient-to-br from-gray-50 to-white p-20 md:p-32 border-t border-gray-100">
@@ -835,7 +835,7 @@ export const MembersDirectorTemplate = () => {
                     <span className="size-28 md:size-32 bg-primary text-white text-sm md:text-base font-bold rounded-full flex items-center justify-center shrink-0">1</span>
                     <div className="flex-1 min-w-0 break-words">
                       <p className="font-semibold text-sm md:text-base mb-4" style={{color: '#D6B14D'}}>Financial Data Science</p>
-                      <p className="text-gray-600 leading-relaxed text-xs md:text-sm">
+                      <p className="text-gray-600 leading-relaxed text-sm">
                         Designing advanced asset strategies by orchestrating financial data with clairvoyant-guided modeling
                       </p>
                     </div>
@@ -844,7 +844,7 @@ export const MembersDirectorTemplate = () => {
                     <span className="size-28 md:size-32 bg-primary text-white text-sm md:text-base font-bold rounded-full flex items-center justify-center shrink-0">2</span>
                     <div className="flex-1 min-w-0 break-words">
                       <p className="font-semibold text-sm md:text-base mb-4" style={{color: '#D6B14D'}}>Business Analytics</p>
-                      <p className="text-gray-600 leading-relaxed text-xs md:text-sm">
+                      <p className="text-gray-600 leading-relaxed text-sm">
                         Fostering industrial convergence by intellectualizing complex data to enhance user-centric transparency
                       </p>
                     </div>
@@ -853,7 +853,7 @@ export const MembersDirectorTemplate = () => {
                     <span className="size-28 md:size-32 bg-primary text-white text-sm md:text-base font-bold rounded-full flex items-center justify-center shrink-0">3</span>
                     <div className="flex-1 min-w-0 break-words">
                       <p className="font-semibold text-sm md:text-base mb-4" style={{color: '#D6B14D'}}>Data-Informed Decision Making</p>
-                      <p className="text-gray-600 leading-relaxed text-xs md:text-sm">
+                      <p className="text-gray-600 leading-relaxed text-sm">
                         Empowering strategic choices by extracting iridescent insights to build lucid and trustworthy systems
                       </p>
                     </div>
@@ -873,7 +873,7 @@ export const MembersDirectorTemplate = () => {
                 className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Research Interests</h3>
-                <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.researchInterests ? 'rotate-180' : ''}`}/>
+                <ChevronDown size={20} className={`text-gray-500 transition-transform duration-300 ${expandedSections.researchInterests ? 'rotate-180' : ''}`}/>
               </button>
               {expandedSections.researchInterests && (
               <div className="p-20 md:p-24 border-t border-gray-100">
@@ -908,7 +908,7 @@ export const MembersDirectorTemplate = () => {
                 className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Education</h3>
-                <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.education ? 'rotate-180' : ''}`}/>
+                <ChevronDown size={20} className={`text-gray-500 transition-transform duration-300 ${expandedSections.education ? 'rotate-180' : ''}`}/>
               </button>
               {expandedSections.education && (
               <div className="p-20 md:p-24 border-t border-gray-100">
@@ -930,8 +930,8 @@ export const MembersDirectorTemplate = () => {
                           )}
                         </div>
                         <h4 className="text-sm md:text-base font-bold text-gray-900 break-words">{edu.degree.includes("(Ph.D.") ? <>{edu.degree.split(" (")[0]}<br className="md:hidden" /><span className="text-sm md:text-base text-gray-900 font-bold"> ({edu.degree.split(" (")[1]}</span></> : edu.degree}</h4>
-                        <p className="mt-2 text-xs md:text-sm font-bold text-gray-600 break-words">{edu.field}</p>
-                        <p className="text-xs md:text-sm text-gray-700 font-bold leading-snug break-words">{edu.school}</p>
+                        <p className="mt-2 text-sm font-bold text-gray-600 break-words">{edu.field}</p>
+                        <p className="text-sm text-gray-700 font-bold leading-snug break-words">{edu.school}</p>
                         {educationKo(edu.school, edu.field, edu.degree, 'honorKo' in edu ? edu.honorKo : undefined) && (
                           <p className="mt-3 pt-3 border-t border-gray-100 text-[11px] md:text-xs text-gray-500 break-words">
                             {[schoolKo(edu.school), fieldKo(edu.field)].filter(Boolean).join(' ')}{' '}
@@ -956,7 +956,7 @@ export const MembersDirectorTemplate = () => {
                 className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Employment</h3>
-                <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.employment ? 'rotate-180' : ''}`}/>
+                <ChevronDown size={20} className={`text-gray-500 transition-transform duration-300 ${expandedSections.employment ? 'rotate-180' : ''}`}/>
               </button>
               {expandedSections.employment && (
               <div className="p-20 md:p-24 border-t border-gray-100">
@@ -989,7 +989,7 @@ export const MembersDirectorTemplate = () => {
                         <h4 className="text-sm md:text-base font-bold text-gray-900 leading-snug break-words">{emp.position}</h4>
                         {/* 기관 */}
                         {emp.organization && (
-                          <p className="mt-3 text-xs md:text-sm font-bold text-gray-700 leading-snug break-words">{emp.organization}</p>
+                          <p className="mt-3 text-sm font-bold text-gray-700 leading-snug break-words">{emp.organization}</p>
                         )}
                         {/* 소속 */}
                         {emp.department && emp.organization !== 'EY Consulting' && (
@@ -1020,7 +1020,7 @@ export const MembersDirectorTemplate = () => {
                   className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
                 >
                   <h3 className="text-lg md:text-xl font-bold text-gray-900">Teaching</h3>
-                  <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.teaching ? 'rotate-180' : ''}`}/>
+                  <ChevronDown size={20} className={`text-gray-500 transition-transform duration-300 ${expandedSections.teaching ? 'rotate-180' : ''}`}/>
                 </button>
                 {expandedSections.teaching && (
                   <div className="p-20 md:p-24 border-t border-gray-100">
@@ -1064,7 +1064,7 @@ export const MembersDirectorTemplate = () => {
                                         <span key={i} className="inline-flex items-center gap-3 px-8 py-2 bg-primary/10 text-primary text-[10px] md:text-xs font-bold rounded-full">
                                           {period}
                                           {course.credits[period] && (
-                                            <span className="inline-flex items-center justify-center size-14 md:size-16 rounded-full bg-primary/20 text-primary text-[9px] md:text-[10px] font-bold">
+                                            <span className="inline-flex items-center justify-center size-14 md:size-16 rounded-full bg-primary/20 text-primary text-[10px] md:text-[11px] font-bold">
                                               {course.credits[period]}
                                             </span>
                                           )}
@@ -1073,9 +1073,9 @@ export const MembersDirectorTemplate = () => {
                                     </div>
                                     <p className="text-sm md:text-base font-bold text-gray-900">{course.courseNameKo || course.courseName}</p>
                                     {course.courseNameKo && course.courseName !== course.courseNameKo && (
-                                      <p className="text-xs md:text-sm text-gray-500 mt-2">{course.courseName}</p>
+                                      <p className="text-sm text-gray-500 mt-2">{course.courseName}</p>
                                     )}
-                                    <p className="mt-4 text-xs md:text-sm font-bold text-gray-700 leading-snug break-words">{course.school}</p>
+                                    <p className="mt-4 text-sm font-bold text-gray-700 leading-snug break-words">{course.school}</p>
                                     {getSchoolKo(course.school) !== course.school && (
                                       <p className="mt-1 text-[11px] md:text-xs text-gray-500 break-words">{getSchoolKo(course.school)}</p>
                                     )}
@@ -1098,7 +1098,7 @@ export const MembersDirectorTemplate = () => {
                 className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Research Overview</h3>
-                <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.researchOverview ? 'rotate-180' : ''}`}/>
+                <ChevronDown size={20} className={`text-gray-500 transition-transform duration-300 ${expandedSections.researchOverview ? 'rotate-180' : ''}`}/>
               </button>
               {expandedSections.researchOverview && (
                 <div className="p-20 md:p-24 border-t border-gray-100">
@@ -1110,7 +1110,7 @@ export const MembersDirectorTemplate = () => {
                       <span className="text-[10px] md:text-sm font-semibold text-gray-500">Total</span>
                     </div>
                   </div>
-                  <div className="grid grid-cols-3 sm:grid-cols-5 lg:grid-cols-9 gap-8 md:gap-12 mb-16 md:mb-24">
+                  <div className="grid grid-cols-3 sm:grid-cols-5 xl:grid-cols-9 gap-8 md:gap-12 mb-16 md:mb-24">
                     {pubStats.map((stat, index) => {
                       const getColors = (label: string) => {
                         switch(label) {
@@ -1131,7 +1131,7 @@ export const MembersDirectorTemplate = () => {
                         <div className="absolute top-0 left-12 right-12 h-[2px] rounded-full opacity-0 group-hover:opacity-100 transition-opacity" style={{background: `linear-gradient(to right, ${getColors(stat.label).color}99, transparent)`}} />
                         <div className="flex flex-col items-center text-center">
                           <span className="text-lg md:text-xl font-bold mb-2" style={{color: getColors(stat.label).color}}>{stat.count}</span>
-                          <span className="text-[10px] md:text-xs font-medium text-gray-500">{stat.label}</span>
+                          <span className="text-[10px] md:text-xs font-medium text-gray-500 whitespace-nowrap">{stat.label}</span>
                         </div>
                       </div>
                     )})}
@@ -1144,13 +1144,13 @@ export const MembersDirectorTemplate = () => {
                         <span className="text-[10px] md:text-sm font-semibold text-gray-500">{liveCitationStats[0]?.label || 'Citations'}</span>
                       </div>
                     </div>
-                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 md:gap-12">
+                    <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-6 gap-8 md:gap-12">
                       {liveCitationStats.slice(1).map((stat, index) => (
                         <div key={index} className="group relative bg-white border border-gray-100 rounded-2xl p-16 md:p-20 hover:border-[#D6B14D]/40 hover:shadow-lg hover:shadow-[#D6B14D]/10 transition-all duration-300">
                           <div className="absolute top-0 left-16 right-16 h-[2px] bg-gradient-to-r from-[#D6B14D]/60 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
                           <div className="flex flex-col items-center text-center">
                             <span className="text-2xl md:text-3xl font-bold mb-4" style={{color: '#D6B14D'}}>{stat.count}</span>
-                            <span className="text-[10px] md:text-xs font-medium text-gray-500">{stat.label}</span>
+                            <span className="text-[10px] md:text-xs font-medium text-gray-500 whitespace-nowrap">{stat.label}</span>
                           </div>
                         </div>
                       ))}
@@ -1168,7 +1168,7 @@ export const MembersDirectorTemplate = () => {
                   className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
                 >
                   <h3 className="text-lg md:text-xl font-bold text-gray-900">Project Overview</h3>
-                  <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.projectOverview ? 'rotate-180' : ''}`}/>
+                  <ChevronDown size={20} className={`text-gray-500 transition-transform duration-300 ${expandedSections.projectOverview ? 'rotate-180' : ''}`}/>
                 </button>
                 {expandedSections.projectOverview && (
                 <div className="p-20 md:p-24 border-t border-gray-100">
@@ -1179,7 +1179,7 @@ export const MembersDirectorTemplate = () => {
                       <span className="text-[10px] md:text-sm font-semibold text-gray-500">Total</span>
                     </div>
                   </div>
-                  <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Funding Source</p>
+                  <p className="text-[10px] md:text-[11px] font-bold text-gray-500 uppercase tracking-widest">Funding Source</p>
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
                     <div className="group relative bg-white border border-gray-100 rounded-2xl p-16 md:p-20 hover:border-[#D6B14D]/40 hover:shadow-lg hover:shadow-[#D6B14D]/10 transition-all duration-300">
                       <div className="absolute top-0 left-16 right-16 h-[2px] bg-gradient-to-r from-[#D6B14D]/60 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -1210,7 +1210,7 @@ export const MembersDirectorTemplate = () => {
                       </div>
                     </div>
                   </div>
-                  <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mt-8">Participation</p>
+                  <p className="text-[10px] md:text-[11px] font-bold text-gray-500 uppercase tracking-widest mt-8">Participation</p>
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
                     <div className="group relative bg-white border border-gray-100 rounded-2xl p-16 md:p-20 hover:border-gray-900/30 hover:shadow-lg transition-all duration-300">
                       <div className="absolute top-0 left-16 right-16 h-[2px] bg-gradient-to-r from-gray-900/60 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -1222,21 +1222,21 @@ export const MembersDirectorTemplate = () => {
                     <div className="group relative bg-white border border-gray-100 rounded-2xl p-16 md:p-20 hover:border-gray-600/30 hover:shadow-lg transition-all duration-300">
                       <div className="absolute top-0 left-16 right-16 h-[2px] bg-gradient-to-r from-gray-600/60 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
                       <div className="flex flex-col items-center text-center">
-                        <span className="text-2xl md:text-3xl font-bold mb-4 text-gray-600">{projectStats.lead}</span>
+                        <span className="text-2xl md:text-3xl font-bold mb-4 text-gray-700">{projectStats.lead}</span>
                         <span className="text-[10px] md:text-xs font-medium text-gray-500">Lead Researcher</span>
                       </div>
                     </div>
                     <div className="group relative bg-white border border-gray-100 rounded-2xl p-16 md:p-20 hover:border-gray-500/30 hover:shadow-lg transition-all duration-300">
                       <div className="absolute top-0 left-16 right-16 h-[2px] bg-gradient-to-r from-gray-500/60 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
                       <div className="flex flex-col items-center text-center">
-                        <span className="text-2xl md:text-3xl font-bold mb-4 text-gray-500">{projectStats.visiting}</span>
+                        <span className="text-2xl md:text-3xl font-bold mb-4 text-gray-600">{projectStats.visiting}</span>
                         <span className="text-[10px] md:text-xs font-medium text-gray-500">Visiting Researcher</span>
                       </div>
                     </div>
                     <div className="group relative bg-white border border-gray-100 rounded-2xl p-16 md:p-20 hover:border-gray-400/30 hover:shadow-lg transition-all duration-300">
                       <div className="absolute top-0 left-16 right-16 h-[2px] bg-gradient-to-r from-gray-400/60 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
                       <div className="flex flex-col items-center text-center">
-                        <span className="text-2xl md:text-3xl font-bold mb-4 text-gray-400">{projectStats.researcher}</span>
+                        <span className="text-2xl md:text-3xl font-bold mb-4 text-gray-500">{projectStats.researcher}</span>
                         <span className="text-[10px] md:text-xs font-medium text-gray-500">Researcher</span>
                       </div>
                     </div>
@@ -1253,7 +1253,7 @@ export const MembersDirectorTemplate = () => {
                 className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Academic Service Overview</h3>
-                <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.academicServiceOverview ? 'rotate-180' : ''}`}/>
+                <ChevronDown size={20} className={`text-gray-500 transition-transform duration-300 ${expandedSections.academicServiceOverview ? 'rotate-180' : ''}`}/>
               </button>
               {expandedSections.academicServiceOverview && (
                 <div className="p-20 md:p-24 border-t border-gray-100">
@@ -1327,7 +1327,7 @@ export const MembersDirectorTemplate = () => {
                   className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
                 >
                   <h3 className="text-lg md:text-xl font-bold text-gray-900">Teaching Overview</h3>
-                  <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.teachingOverview ? 'rotate-180' : ''}`}/>
+                  <ChevronDown size={20} className={`text-gray-500 transition-transform duration-300 ${expandedSections.teachingOverview ? 'rotate-180' : ''}`}/>
                 </button>
                 {expandedSections.teachingOverview && (
                   <div className="p-20 md:p-24 border-t border-gray-100">
@@ -1339,7 +1339,7 @@ export const MembersDirectorTemplate = () => {
                           <span className="text-[10px] md:text-sm font-semibold text-gray-500">Total Classes Taught</span>
                         </div>
                       </div>
-                      <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Classes Taught</p>
+                      <p className="text-[10px] md:text-[11px] font-bold text-gray-500 uppercase tracking-widest">Classes Taught</p>
                       <div className="grid grid-cols-2 gap-8 md:gap-12">
                         <div className="group relative bg-white border border-gray-100 rounded-2xl p-16 md:p-20 hover:border-[#D6B14D]/40 hover:shadow-lg hover:shadow-[#D6B14D]/10 transition-all duration-300">
                           <div className="absolute top-0 left-16 right-16 h-[2px] bg-gradient-to-r from-[#D6B14D]/60 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -1356,7 +1356,7 @@ export const MembersDirectorTemplate = () => {
                           </div>
                         </div>
                       </div>
-                      <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Unique Subjects</p>
+                      <p className="text-[10px] md:text-[11px] font-bold text-gray-500 uppercase tracking-widest">Unique Subjects</p>
                       <div className="grid grid-cols-2 gap-8 md:gap-12">
                         <div className="group relative bg-white border border-gray-100 rounded-2xl p-16 md:p-20 hover:border-[#D6B14D]/40 hover:shadow-lg hover:shadow-[#D6B14D]/10 transition-all duration-300">
                           <div className="absolute top-0 left-16 right-16 h-[2px] bg-gradient-to-r from-[#D6B14D]/60 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
@@ -1386,12 +1386,12 @@ export const MembersDirectorTemplate = () => {
                 className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Honors & Awards Overview</h3>
-                <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.honorsOverview ? 'rotate-180' : ''}`}/>
+                <ChevronDown size={20} className={`text-gray-500 transition-transform duration-300 ${expandedSections.honorsOverview ? 'rotate-180' : ''}`}/>
               </button>
               {expandedSections.honorsOverview && (
                 <div className="border-t border-gray-100 p-20 md:p-24">
                   {!honorsData || Object.keys(honorsData).length === 0 ? (
-                    <div className="py-16 text-center text-sm text-gray-400">No awards data available</div>
+                    <div className="py-16 text-center text-sm text-gray-500">No awards data available</div>
                   ) : (
                     <>
                       {(() => {

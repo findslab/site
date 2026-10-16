@@ -125,7 +125,7 @@ const FilterModal = ({
         <h3 className="text-base font-bold text-gray-900">Filters</h3>
         <button
           onClick={onClose}
-          className="size-28 flex items-center justify-center rounded-lg hover:bg-gray-100 transition-colors text-gray-400 hover:text-gray-600"
+          className="size-28 flex items-center justify-center rounded-lg hover:bg-gray-100 transition-colors text-gray-500 hover:text-gray-600"
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
         </button>
@@ -141,7 +141,7 @@ const FilterModal = ({
                 <button
                   key={option}
                   onClick={() => onChange(section.key, option)}
-                  className={`px-12 md:px-16 py-6 md:py-8 rounded-lg text-xs md:text-sm font-medium transition-all border`}
+                  className={`px-12 md:px-16 py-6 md:py-8 rounded-lg text-sm font-medium transition-all border`}
                   style={isActive && color ? {
                     backgroundColor: color.bg,
                     borderColor: color.border,
@@ -175,7 +175,7 @@ const FilterModal = ({
       <div className="flex justify-end pt-16 border-t border-gray-100">
         <button
           onClick={onReset}
-          className="px-16 py-8 text-sm font-medium text-gray-400 hover:text-primary transition-colors"
+          className="px-16 py-8 text-sm font-medium text-gray-500 hover:text-primary transition-colors"
         >
           Reset all filters
         </button>
@@ -666,11 +666,11 @@ export const PublicationsTemplate = () => {
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20">
         <div className="py-20 md:py-32 border-b border-gray-100">
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-            <Link to="/" className="text-gray-400 hover:text-primary transition-all duration-300 hover:scale-110">
+            <Link to="/" className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110">
               <Home size={16} />
             </Link>
             <span className="text-gray-200">—</span>
-            <span className="text-sm text-gray-400 font-medium">Research</span>
+            <span className="text-sm text-gray-500 font-medium">Research</span>
             <span className="text-gray-200">—</span>
             <span className="text-sm text-primary font-semibold">Publications</span>
           </div>
@@ -690,7 +690,7 @@ export const PublicationsTemplate = () => {
                 <span className="w-8 h-8 rounded-full bg-primary" />
                 Overview
               </h3>
-              <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${statsExpanded ? 'rotate-180' : ''}`} />
+              <ChevronDown size={20} className={`text-gray-500 transition-transform duration-300 ${statsExpanded ? 'rotate-180' : ''}`} />
             </button>
             {statsExpanded && (
             <div className="flex flex-col gap-16 md:gap-24 p-20 md:p-24 border-t border-gray-100">
@@ -700,7 +700,7 @@ export const PublicationsTemplate = () => {
               <div className="flex flex-col items-center justify-center">
                 <statistics.total.icon className="size-20 md:size-24 mb-6" style={{color: statistics.total.color, opacity: 0.7}} />
                 <span className="text-3xl md:text-4xl font-bold mb-4 transition-all duration-300" style={{color: statistics.total.color}}>{statistics.total.count}</span>
-                <span className="text-xs md:text-sm font-medium text-gray-600">{statistics.total.label}</span>
+                <span className="text-sm font-medium text-gray-600">{statistics.total.label}</span>
               </div>
             </div>
 
@@ -718,7 +718,7 @@ export const PublicationsTemplate = () => {
                   <div className="flex flex-col items-center text-center pt-8">
                     <stat.icon className="size-16 md:size-20 mb-6" style={{color: stat.color, opacity: 0.7}} />
                     <span className="text-2xl md:text-3xl font-bold mb-4 transition-all duration-300" style={{color: stat.color}}>{stat.count}</span>
-                    <span className="text-xs md:text-sm font-medium text-gray-600">{stat.label}</span>
+                    <span className="text-sm font-medium text-gray-600">{stat.label}</span>
                   </div>
                 </div>
               ))}
@@ -736,19 +736,19 @@ export const PublicationsTemplate = () => {
                     <div className="flex items-center gap-16">
                       <div className="flex items-center gap-6">
                         <span className="w-10 h-10 rounded-sm" style={{ backgroundColor: '#D6B14D' }} />
-                        <span className="text-[10px] text-gray-500">Journal Papers</span>
+                        <span className="text-[10px] md:text-[11px] text-gray-500">Journal Papers</span>
                       </div>
                       <div className="flex items-center gap-6">
                         <span className="w-10 h-10 rounded-sm" style={{ backgroundColor: '#AC0E0E' }} />
-                        <span className="text-[10px] text-gray-500">Conference Proceedings</span>
+                        <span className="text-[10px] md:text-[11px] text-gray-500">Conference Proceedings</span>
                       </div>
                       <div className="flex items-center gap-6">
                         <span className="w-10 h-10 rounded-sm" style={{ backgroundColor: '#E8D688' }} />
-                        <span className="text-[10px] text-gray-500">Books</span>
+                        <span className="text-[10px] md:text-[11px] text-gray-500">Books</span>
                       </div>
                       <div className="flex items-center gap-6">
                         <span className="w-10 h-10 rounded-sm" style={{ backgroundColor: '#FFBAC4' }} />
-                        <span className="text-[10px] text-gray-500">Reports</span>
+                        <span className="text-[10px] md:text-[11px] text-gray-500">Reports</span>
                       </div>
                     </div>
                   </div>
@@ -761,7 +761,7 @@ export const PublicationsTemplate = () => {
                       const ticks = Array.from({ length: chartMax / step + 1 }, (_, i) => i * step)
                       return (
                         <>
-                          <div className="absolute left-0 top-0 bottom-0 w-32 text-[10px] text-gray-400 tabular-nums">
+                          <div className="absolute left-0 top-0 bottom-0 w-32 text-[10px] md:text-[11px] text-gray-500 tabular-nums">
                             {ticks.map((t) => (
                               <span key={t} className="absolute right-6 leading-none translate-y-1/2" style={{ bottom: `${(t / chartMax) * 100}%` }}>{t}</span>
                             ))}
@@ -827,7 +827,7 @@ export const PublicationsTemplate = () => {
                             </div>
                             
                             {/* Year Label */}
-                            <span className="absolute top-full text-[9px] text-gray-400 mt-6 group-hover:text-[#D6B14D] transition-colors font-medium">
+                            <span className="absolute top-full text-[10px] md:text-[11px] text-gray-500 mt-6 group-hover:text-[#D6B14D] transition-colors font-medium">
                               {data.year}
                             </span>
                             
@@ -900,9 +900,9 @@ export const PublicationsTemplate = () => {
           {/* Authorship Remarks Section */}
           <div className="flex flex-col gap-12 md:gap-20">
             <div className="flex items-center gap-8">
-              <h2 className="text-xl md:text-[26px] font-bold text-gray-900">Authorship Remarks</h2>
+              <h2 className="text-xl md:text-[25px] font-bold text-gray-900">Authorship Remarks</h2>
             </div>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-12 md:gap-20">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-12 md:gap-20">
               {authorshipRemarks.map((item, index) => {
                 // FINDS Lab color palette for icons - 모두 gold 계열로 통일
                 const color = '#D6B14D'
@@ -997,11 +997,11 @@ export const PublicationsTemplate = () => {
                     const section = filters.type.includes(item) ? 'type' : filters.indexing.includes(item) ? 'indexing' : filters.conference.includes(item) ? 'conference' : 'presentation'
                     handleFilterChange(section as keyof typeof filters, item)
                   }} className="flex items-center gap-4 px-10 py-4 rounded-full text-xs font-medium border transition-all hover:opacity-70" style={color ? { backgroundColor: `${color.bg}15`, borderColor: `${color.bg}30`, color: color.bg } : {}}>
-                    {item} <span className="text-[10px]">✕</span>
+                    {item} <span className="text-[10px] md:text-[11px]">✕</span>
                   </button>
                 )
               })}
-              <button onClick={handleFilterReset} className="text-xs text-gray-400 hover:text-primary transition-colors ml-4">Clear all</button>
+              <button onClick={handleFilterReset} className="text-xs text-gray-500 hover:text-primary transition-colors ml-4">Clear all</button>
             </div>
           )}
 
@@ -1056,7 +1056,7 @@ export const PublicationsTemplate = () => {
                       }`}
                     >
                       <div className="flex items-center gap-12 md:gap-16 flex-wrap">
-                        <span className={`text-lg md:text-[20px] font-bold ${isCurrentYear ? 'fbar-year text-[#9A7D1F]' : 'text-gray-800'}`}>{year}</span>
+                        <span className={`text-lg md:text-[21px] font-bold ${isCurrentYear ? 'fbar-year text-[#9A7D1F]' : 'text-gray-800'}`}>{year}</span>
                         {/* White badge with counts - desktop */}
                         <span className="hidden sm:inline-flex px-10 md:px-12 py-4 md:py-5 bg-white rounded-full text-[10px] md:text-xs font-medium shadow-sm">
                           <span className="font-bold text-[#D6B14D]">{stats.journals}</span>
@@ -1071,13 +1071,13 @@ export const PublicationsTemplate = () => {
                           <span className="font-bold text-[#FFBAC4]">{stats.reports}</span>
                           <span className="text-gray-500">&nbsp;{stats.reports === 1 ? 'Report' : 'Reports'}</span>
                         </span>
-                        {/* Mobile: full words */}
-                        <span className="sm:hidden inline-flex px-8 py-4 bg-white rounded-full text-[9px] font-medium shadow-sm flex-wrap">
+                        {/* Mobile: compact labels so the counts stay on one line */}
+                        <span className="sm:hidden inline-flex items-center px-10 py-4 bg-white rounded-full text-[10px] md:text-[11px] font-medium shadow-sm whitespace-nowrap">
                           <span className="font-bold text-[#D6B14D]">{stats.journals}</span>
-                          <span className="text-gray-500">&nbsp;{stats.journals === 1 ? 'Journal Paper' : 'Journal Papers'}</span>
+                          <span className="text-gray-500">&nbsp;{stats.journals === 1 ? 'Journal' : 'Journals'}</span>
                           <span className="text-gray-300">&nbsp;·&nbsp;</span>
                           <span className="font-bold text-[#AC0E0E]">{stats.conferences}</span>
-                          <span className="text-gray-500">&nbsp;{stats.conferences === 1 ? 'Conference Proceeding' : 'Conference Proceedings'}</span>
+                          <span className="text-gray-500">&nbsp;Conf.</span>
                           <span className="text-gray-300">&nbsp;·&nbsp;</span>
                           <span className="font-bold text-[#E8D688]">{stats.books}</span>
                           <span className="text-gray-500">&nbsp;{stats.books === 1 ? 'Book' : 'Books'}</span>
@@ -1129,7 +1129,7 @@ export const PublicationsTemplate = () => {
                                     {typeLabel}
                                   </span>
                                   {/* Divider */}
-                                  <span className={`text-[10px] ${pub.type === 'book' || pub.type === 'report' ? 'text-gray-600' : 'text-white/60'}`}>|</span>
+                                  <span className={`text-[10px] md:text-[11px] ${pub.type === 'book' || pub.type === 'report' ? 'text-gray-600' : 'text-white/60'}`}>|</span>
                                   {/* Number */}
                                   <span className={`text-xs font-bold ${
                                     pub.type === 'book' || pub.type === 'report' ? 'text-gray-700' : 'text-white/90'
@@ -1139,17 +1139,23 @@ export const PublicationsTemplate = () => {
                                   {/* Indexing/Presentation next to number */}
                                   {pub.type === 'journal' && pub.indexing_group && (
                                     <>
-                                      <span className="text-[10px] text-white/60">|</span>
+                                      <span className="text-[10px] md:text-[11px] text-white/60">|</span>
                                       <span className="text-xs font-bold text-white/90">
                                         {pub.indexing_group}
                                       </span>
+                                    </>
+                                  )}
+                                  {pub.type === 'book' && pub.language && (
+                                    <>
+                                      <span className="text-[10px] md:text-[11px] text-gray-600">|</span>
+                                      <span className="text-xs font-bold text-gray-700">{pub.language}</span>
                                     </>
                                   )}
                                   {pub.type === 'conference' && (pub.presentation_type || pub.indexing_group) && (
                                     <>
                                       {pub.indexing_group && (
                                         <>
-                                          <span className="text-[10px] text-white/60">|</span>
+                                          <span className="text-[10px] md:text-[11px] text-white/60">|</span>
                                           <span className="text-xs font-bold text-white/90">
                                             {pub.indexing_group === 'Scopus' ? 'International · Scopus' : pub.indexing_group === 'International Conference' ? 'International' : pub.indexing_group === 'Domestic Conference' ? 'Domestic' : ''}
                                           </span>
@@ -1157,7 +1163,7 @@ export const PublicationsTemplate = () => {
                                       )}
                                       {pub.presentation_type && (
                                         <>
-                                          <span className="text-[10px] text-white/60">|</span>
+                                          <span className="text-[10px] md:text-[11px] text-white/60">|</span>
                                           <span className="text-xs font-bold text-white/90">
                                             {pub.presentation_type === 'oral' ? 'Oral' : pub.presentation_type === 'poster' ? 'Poster' : ''}
                                           </span>
@@ -1173,7 +1179,7 @@ export const PublicationsTemplate = () => {
                                     maxWidth: '600px',
                                     children: <CitationModal citation={pub.citations} />
                                   })}
-                                  className="px-8 py-3 bg-white/90 rounded text-[10px] font-bold text-gray-700 hover:bg-white transition-colors"
+                                  className="px-8 py-3 bg-white/90 rounded text-[10px] md:text-[11px] font-bold text-gray-700 hover:bg-white transition-colors"
                                 >
                                   Cite
                                 </button>
@@ -1192,7 +1198,7 @@ export const PublicationsTemplate = () => {
                                         pub.type === 'book' ? 'bg-[#E8D688]' :
                                         pub.type === 'report' ? 'bg-[#FFBAC4]' : 'bg-gray-500'
                                       }`}>
-                                        <span className={`text-[9px] font-bold tracking-wide ${
+                                        <span className={`text-[10px] md:text-[11px] font-bold tracking-wide ${
                                           pub.type === 'book' || pub.type === 'report' ? 'text-gray-800' : 'text-white'
                                         }`}>
                                           {typeLabel}
@@ -1219,7 +1225,7 @@ export const PublicationsTemplate = () => {
                                             pub.indexing_group === 'International Conference' || pub.indexing_group === 'Scopus' ? 'bg-[#AC0E0E]/10 border border-[#AC0E0E]/30' : 
                                             'bg-[#E8889C]/10 border border-[#E8889C]/30'
                                           }`}>
-                                            <span className="text-[9px] font-bold" style={{color: pub.indexing_group === 'International Conference' || pub.indexing_group === 'Scopus' ? '#AC0E0E' : '#E8889C'}}>
+                                            <span className="text-[10px] md:text-[11px] font-bold" style={{color: pub.indexing_group === 'International Conference' || pub.indexing_group === 'Scopus' ? '#AC0E0E' : '#E8889C'}}>
                                               {pub.indexing_group === 'Scopus' ? 'Int\'l · Scopus' : pub.indexing_group === 'International Conference' ? 'International' : 'Domestic'}
                                             </span>
                                           </div>
@@ -1229,11 +1235,16 @@ export const PublicationsTemplate = () => {
                                           <div className={`w-full py-3 text-center rounded-md ${
                                             pub.presentation_type === 'oral' ? 'bg-[#FFBAC4]/20 border border-[#FFBAC4]/40' : 'bg-[#FFE4E9]/60 border border-[#FFE4E9]'
                                           }`}>
-                                            <span className="text-[9px] font-bold" style={{color: pub.presentation_type === 'oral' ? '#C41E3A' : '#E8889C'}}>
+                                            <span className="text-[10px] md:text-[11px] font-bold" style={{color: pub.presentation_type === 'oral' ? '#C41E3A' : '#E8889C'}}>
                                               {pub.presentation_type === 'oral' ? 'Oral' : 'Poster'}
                                             </span>
                                           </div>
                                         )}
+                                      </div>
+                                    )}
+                                    {pub.type === 'book' && pub.language && (
+                                      <div className="w-full mt-4 py-4 text-center rounded-md border" style={{backgroundColor: 'rgba(232,214,136,0.15)', borderColor: 'rgba(232,214,136,0.4)'}}>
+                                        <span className="text-[10px] md:text-[11px] font-bold" style={{color: '#9A7D1F'}}>{pub.language}</span>
                                       </div>
                                     )}
                                     {pub.type === 'journal' && pub.indexing_group && (
@@ -1252,7 +1263,7 @@ export const PublicationsTemplate = () => {
                                         }}
                                       >
                                         <span 
-                                          className="text-[9px] font-bold"
+                                          className="text-[10px] md:text-[11px] font-bold"
                                           style={{
                                             color: ['SCIE', 'SSCI', 'A&HCI'].includes(pub.indexing_group) ? '#D6B14D' :
                                               pub.indexing_group === 'ESCI' || pub.indexing_group === 'Scopus' ? '#D6C360' :
@@ -1276,7 +1287,7 @@ export const PublicationsTemplate = () => {
                                     return (
                                       <>
                                         <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 md:gap-12 mb-6 md:mb-8">
-                                          <h4 className="text-sm md:text-md font-semibold text-gray-800 leading-relaxed flex-1">
+                                          <h4 className="text-base md:text-md font-semibold text-gray-800 leading-relaxed flex-1">
                                             {pub.awards !== undefined && pub.awards !== null && pub.awards > 0 && (
                                               <span className="relative inline-block mr-6 group">
                                                 <span className="cursor-help">🏆</span>
@@ -1290,7 +1301,7 @@ export const PublicationsTemplate = () => {
                                                           ? ` (${pub.award_details.category_ko || pub.award_details.category})`
                                                           : ''}
                                                       </span>
-                                                      <span className="block text-gray-400 mt-1 text-[10px]">{pub.award_details.organization_ko || pub.award_details.organization}</span>
+                                                      <span className="block text-gray-500 mt-1 text-[10px] md:text-[11px]">{pub.award_details.organization_ko || pub.award_details.organization}</span>
                                                     </>
                                                   ) : (
                                                     <span>Award-winning paper</span>
@@ -1306,24 +1317,24 @@ export const PublicationsTemplate = () => {
                                           </span>
                                         </div>
                                         {subTitle && (
-                                          <p className="text-xs md:text-sm text-gray-600 mb-6 md:mb-8">{subTitle}</p>
+                                          <p className="text-sm text-gray-600 mb-6 md:mb-8">{subTitle}</p>
                                         )}
                                       </>
                                     )
                                   })()}
                                   <div className="flex flex-wrap gap-2 md:gap-4 mb-6 md:mb-8">
                                     {authorList.map((author, aIdx) => (
-                                      <span key={aIdx} className="text-xs md:text-sm text-gray-600">
+                                      <span key={aIdx} className="text-sm text-gray-600">
                                         {author.name}
                                         {author.mark && (
-                                          <sup className="text-primary ml-1">{author.mark}</sup>
+                                          <sup className="text-primary ml-1 text-[10px] md:text-[11px] font-semibold">{author.mark}</sup>
                                         )}
                                         {aIdx < authorList.length - 1 && ', '}
                                       </span>
                                     ))}
                                   </div>
                                   {/* Venue */}
-                                  <p className="text-xs md:text-sm text-gray-700 font-bold">
+                                  <p className="text-sm text-gray-700 font-bold">
                                     {(pub.indexing_group?.includes('KCI') || pub.indexing_group?.includes('Domestic') || pub.language?.toLowerCase() === 'korean') && pub.venue_ko 
                                       ? pub.venue_ko 
                                       : pub.venue}
@@ -1334,21 +1345,21 @@ export const PublicationsTemplate = () => {
                                       {/* PC: Badge style */}
                                       <div className="hidden md:flex items-center gap-8 mt-6">
                                         <span className="inline-flex items-center gap-6 px-10 py-4 bg-[#FFF9E6] border border-[#E8D688] rounded-full">
-                                          <span className="text-[10px] font-bold text-[#9A7D1F]">
+                                          <span className="text-[10px] md:text-[11px] font-bold text-[#9A7D1F]">
                                             {(pub.edition || 1) === 1 ? '1st' : pub.edition === 2 ? '2nd' : pub.edition === 3 ? '3rd' : `${pub.edition}th`} Edition
                                           </span>
-                                          <span className="text-[10px] text-[#B8962D]">·</span>
-                                          <span className="text-[10px] font-medium text-[#B8962D]">{pub.edition_year || pub.year}</span>
+                                          <span className="text-[10px] md:text-[11px] text-[#B8962D]">·</span>
+                                          <span className="text-[10px] md:text-[11px] font-medium text-[#B8962D]">{pub.edition_year || pub.year}</span>
                                         </span>
                                       </div>
                                       {/* Mobile: Text style */}
-                                      <p className="md:hidden text-[10px] text-[#9A7D1F] font-medium mt-4">
+                                      <p className="md:hidden text-[10px] md:text-[11px] text-[#9A7D1F] font-medium mt-4">
                                         {(pub.edition || 1) === 1 ? '1st' : pub.edition === 2 ? '2nd' : pub.edition === 3 ? '3rd' : `${pub.edition}th`} Edition · {pub.edition_year || pub.year}
                                       </p>
                                     </>
                                   )}
                                   {/* Mobile: Date below venue */}
-                                  <p className="md:hidden text-xs text-gray-400 font-medium mt-4">
+                                  <p className="md:hidden text-xs text-gray-500 font-medium mt-4">
                                     {pub.published_date}
                                   </p>
                                   {/* DOI below venue/date - refined design */}
@@ -1359,10 +1370,10 @@ export const PublicationsTemplate = () => {
                                       rel="noopener noreferrer"
                                       className="inline-flex items-center gap-6 mt-8 group/doi"
                                     >
-                                      <span className="px-6 py-2 bg-gray-100 rounded text-[9px] font-semibold text-gray-500 uppercase tracking-wide">
+                                      <span className="px-6 py-2 bg-gray-100 rounded text-[10px] md:text-[11px] font-semibold text-gray-500 uppercase tracking-wide">
                                         doi
                                       </span>
-                                      <span className="text-xs md:text-xs text-gray-500 group-hover/doi:text-primary transition-colors">
+                                      <span className="text-xs text-gray-500 group-hover/doi:text-primary transition-colors">
                                         {pub.doi}
                                       </span>
                                     </a>

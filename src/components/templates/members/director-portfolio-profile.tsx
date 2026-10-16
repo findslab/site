@@ -585,13 +585,13 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20">
         <div className="py-20 md:py-32 border-b border-gray-100">
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-            <Link to="/" className="text-gray-400 hover:text-primary transition-all duration-300 hover:scale-110">
+            <Link to="/" className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110">
               <Home size={16}/>
             </Link>
             <span className="text-gray-200">—</span>
-            <Link to="/members" className="text-sm text-gray-400 font-medium hover:text-primary transition-colors">Members</Link>
+            <Link to="/members" className="text-sm text-gray-500 font-medium hover:text-primary transition-colors">Members</Link>
             <span className="text-gray-200">—</span>
-            <Link to="/members/director" className="text-sm text-gray-400 font-medium hover:text-primary transition-colors">Director</Link>
+            <Link to="/members/director" className="text-sm text-gray-500 font-medium hover:text-primary transition-colors">Director</Link>
             <span className="text-gray-200">—</span>
             <span className="text-sm text-primary font-semibold">Profile</span>
           </div>
@@ -655,42 +655,42 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
 
               <div className="flex flex-col gap-12 md:gap-16">
                 <div className="flex items-start gap-10 group">
-                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-400 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
                     <Briefcase size={14}/>
                   </div>
                   <div className="min-w-0">
-                    <p className="text-[10px] md:text-xs font-bold text-gray-400 mb-1">Position</p>
-                    <p className="text-xs md:text-sm font-semibold text-gray-800">Director</p>
-                    <p className="text-xs md:text-sm text-gray-500">FINDS (Financial Data Intelligence & Solutions) Lab</p>
+                    <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-1">Position</p>
+                    <p className="text-sm font-semibold text-gray-800">Director</p>
+                    <p className="text-sm text-gray-500">FINDS (Financial Data Intelligence & Solutions) Lab</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-10 group">
-                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-400 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
                     <Building size={14}/>
                   </div>
                   <div className="min-w-0">
-                    <p className="text-[10px] md:text-xs font-bold text-gray-400 mb-1">Affiliation</p>
-                    <p className="text-xs md:text-sm font-semibold text-gray-800">Assistant Professor</p>
-                    <p className="text-xs md:text-sm text-gray-500">Gachon University</p>
+                    <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-1">Affiliation</p>
+                    <p className="text-sm font-semibold text-gray-800">Assistant Professor</p>
+                    <p className="text-sm text-gray-500">Gachon University</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-10 group">
-                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-400 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
                     <MapPin size={14}/>
                   </div>
                   <div className="min-w-0">
-                    <p className="text-[10px] md:text-xs font-bold text-gray-400 mb-1">Office</p>
-                    <p className="text-xs md:text-sm font-semibold text-gray-800">Room 304, Gachon Hall</p>
+                    <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-1">Office</p>
+                    <p className="text-sm font-semibold text-gray-800">Room 304, Gachon Hall</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-10 group">
-                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-400 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
                     <Mail size={14}/>
                   </div>
                   <div className="min-w-0 flex-1">
-                    <p className="text-[10px] md:text-xs font-bold text-gray-400 mb-1">E-mail</p>
+                    <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-1">E-mail</p>
                     <div className="flex items-center gap-6">
-                      <a href={`mailto:${directorEmail}`} className="select-text text-xs md:text-sm font-semibold text-primary hover:underline break-all">
+                      <a href={`mailto:${directorEmail}`} className="select-text text-sm font-semibold text-primary hover:underline break-all">
                         {directorEmail}
                       </a>
                       <button 
@@ -698,7 +698,7 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                         className="size-20 flex items-center justify-center rounded-md hover:bg-gray-100 transition-colors shrink-0" 
                         title="Copy email"
                       >
-                        {emailCopied ? <Check size={10} className="text-[#9A7D1F]"/> : <Copy size={10} className="text-gray-400"/>}
+                        {emailCopied ? <Check size={10} className="text-[#9A7D1F]"/> : <Copy size={10} className="text-gray-500"/>}
                       </button>
                     </div>
                   </div>
@@ -707,12 +707,12 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
 
               {/* Office Phone */}
               <div className="flex items-start gap-10 group mt-12 md:mt-16">
-                <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-400 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
                   <Phone size={14}/>
                 </div>
                 <div className="min-w-0 flex-1">
-                  <p className="text-[10px] md:text-xs font-bold text-gray-400 mb-1">Office</p>
-                  <a href="tel:031-750-5405" className="text-xs md:text-sm font-semibold text-gray-700 hover:text-primary transition-colors">
+                  <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-1">Office</p>
+                  <a href="tel:031-750-5405" className="text-sm font-semibold text-gray-700 hover:text-primary transition-colors">
                     031-750-5405
                   </a>
                 </div>
@@ -758,7 +758,7 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                 className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Introduction</h3>
-                <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.introduction ? 'rotate-180' : ''}`}/>
+                <ChevronDown size={20} className={`text-gray-500 transition-transform duration-300 ${expandedSections.introduction ? 'rotate-180' : ''}`}/>
               </button>
               {expandedSections.introduction && (
               <div className="bg-gradient-to-br from-gray-50 to-white p-20 md:p-32 border-t border-gray-100">
@@ -776,7 +776,7 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                     <span className="size-28 md:size-32 bg-primary text-white text-sm md:text-base font-bold rounded-full flex items-center justify-center shrink-0">1</span>
                     <div className="flex-1 min-w-0 break-words">
                       <p className="font-semibold text-sm md:text-base mb-4" style={{color: '#D6B14D'}}>Financial Data Science</p>
-                      <p className="text-gray-600 leading-relaxed text-xs md:text-sm">
+                      <p className="text-gray-600 leading-relaxed text-sm">
                         Designing advanced asset strategies by orchestrating financial data with clairvoyant-guided modeling
                       </p>
                     </div>
@@ -785,7 +785,7 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                     <span className="size-28 md:size-32 bg-primary text-white text-sm md:text-base font-bold rounded-full flex items-center justify-center shrink-0">2</span>
                     <div className="flex-1 min-w-0 break-words">
                       <p className="font-semibold text-sm md:text-base mb-4" style={{color: '#D6B14D'}}>Business Analytics</p>
-                      <p className="text-gray-600 leading-relaxed text-xs md:text-sm">
+                      <p className="text-gray-600 leading-relaxed text-sm">
                         Fostering industrial convergence by intellectualizing complex data to enhance user-centric transparency
                       </p>
                     </div>
@@ -794,7 +794,7 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                     <span className="size-28 md:size-32 bg-primary text-white text-sm md:text-base font-bold rounded-full flex items-center justify-center shrink-0">3</span>
                     <div className="flex-1 min-w-0 break-words">
                       <p className="font-semibold text-sm md:text-base mb-4" style={{color: '#D6B14D'}}>Data-Informed Decision Making</p>
-                      <p className="text-gray-600 leading-relaxed text-xs md:text-sm">
+                      <p className="text-gray-600 leading-relaxed text-sm">
                         Empowering strategic choices by extracting iridescent insights to build lucid and trustworthy systems
                       </p>
                     </div>
@@ -814,7 +814,7 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                 className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Research Interests</h3>
-                <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.researchInterests ? 'rotate-180' : ''}`}/>
+                <ChevronDown size={20} className={`text-gray-500 transition-transform duration-300 ${expandedSections.researchInterests ? 'rotate-180' : ''}`}/>
               </button>
               {expandedSections.researchInterests && (
               <div className="p-20 md:p-24 border-t border-gray-100">
@@ -848,7 +848,7 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                 className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Education</h3>
-                <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.education ? 'rotate-180' : ''}`}/>
+                <ChevronDown size={20} className={`text-gray-500 transition-transform duration-300 ${expandedSections.education ? 'rotate-180' : ''}`}/>
               </button>
               {expandedSections.education && (
               <div className="p-20 md:p-24 border-t border-gray-100">
@@ -885,9 +885,9 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                           {/* Degree - Largest */}
                           <p className="text-sm md:text-base font-bold text-gray-900 leading-tight">{edu.degree.includes("(Ph.D.") ? <>{edu.degree.split(" (")[0]}<br className="md:hidden" /><span className="text-sm md:text-base text-gray-900 font-bold"> ({edu.degree.split(" (")[1]}</span></> : edu.degree}</p>
                           {/* Field - Department */}
-                          <p className="text-xs md:text-sm font-bold text-gray-600 mt-2">{edu.field}</p>
+                          <p className="text-sm font-bold text-gray-600 mt-2">{edu.field}</p>
                           {/* School */}
-                          <p className="text-xs md:text-sm text-gray-500 font-bold">{edu.school}</p>
+                          <p className="text-sm text-gray-500 font-bold">{edu.school}</p>
                         </div>
                       </div>
                       
@@ -902,16 +902,16 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                                 className="w-full flex items-center justify-between px-12 py-10 fbar fbar-past"
                               >
                                 <p className="text-[10px] md:text-xs font-bold text-gray-500">Dissertation</p>
-                                <ChevronDown size={14} className={`text-gray-400 transition-transform duration-300 ${expandedEduSections.has(`${index}-dissertation`) ? 'rotate-180' : ''}`}/>
+                                <ChevronDown size={14} className={`text-gray-500 transition-transform duration-300 ${expandedEduSections.has(`${index}-dissertation`) ? 'rotate-180' : ''}`}/>
                               </button>
                               {expandedEduSections.has(`${index}-dissertation`) && (
                                 <div className="p-12">
                                   <div className="bg-white rounded-lg px-12 py-10 border border-gray-100">
-                                    <p className="text-xs md:text-sm font-bold text-gray-800 leading-relaxed">
+                                    <p className="text-sm font-bold text-gray-800 leading-relaxed">
                                       {edu.dissertation.en.split(' — ')[0]}
                                     </p>
                                     {edu.dissertation.en.includes(' — ') && (
-                                      <p className="text-xs md:text-sm font-medium text-gray-500 mt-4 leading-relaxed">— {edu.dissertation.en.split(' — ')[1]}</p>
+                                      <p className="text-sm font-medium text-gray-500 mt-4 leading-relaxed">— {edu.dissertation.en.split(' — ')[1]}</p>
                                     )}
                                   </div>
                                 </div>
@@ -927,16 +927,16 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                                 className="w-full flex items-center justify-between px-12 py-10 fbar fbar-past"
                               >
                                 <p className="text-[10px] md:text-xs font-bold text-gray-500">Thesis</p>
-                                <ChevronDown size={14} className={`text-gray-400 transition-transform duration-300 ${expandedEduSections.has(`${index}-thesis`) ? 'rotate-180' : ''}`}/>
+                                <ChevronDown size={14} className={`text-gray-500 transition-transform duration-300 ${expandedEduSections.has(`${index}-thesis`) ? 'rotate-180' : ''}`}/>
                               </button>
                               {expandedEduSections.has(`${index}-thesis`) && (
                                 <div className="p-12">
                                   <div className="bg-white rounded-lg px-12 py-10 border border-gray-100">
-                                    <p className="text-xs md:text-sm font-bold text-gray-800 leading-relaxed">
+                                    <p className="text-sm font-bold text-gray-800 leading-relaxed">
                                       {edu.thesis.en.split(' — ')[0]}
                                     </p>
                                     {edu.thesis.en.includes(' — ') && (
-                                      <p className="text-xs md:text-sm font-medium text-gray-500 mt-4 leading-relaxed">— {edu.thesis.en.split(' — ')[1]}</p>
+                                      <p className="text-sm font-medium text-gray-500 mt-4 leading-relaxed">— {edu.thesis.en.split(' — ')[1]}</p>
                                     )}
                                   </div>
                                 </div>
@@ -952,7 +952,7 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                                 className="w-full flex items-center justify-between px-12 py-10 fbar fbar-past"
                               >
                                 <p className="text-[10px] md:text-xs font-bold text-gray-500">Graduation Paper</p>
-                                <ChevronDown size={14} className={`text-gray-400 transition-transform duration-300 ${expandedEduSections.has(`${index}-graduationPaper`) ? 'rotate-180' : ''}`}/>
+                                <ChevronDown size={14} className={`text-gray-500 transition-transform duration-300 ${expandedEduSections.has(`${index}-graduationPaper`) ? 'rotate-180' : ''}`}/>
                               </button>
                               {expandedEduSections.has(`${index}-graduationPaper`) && (
                                 <div className="p-12 space-y-12">
@@ -968,7 +968,7 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                                       </div>
                                       {/* English Title */}
                                       <div>
-                                        <p className="text-xs md:text-sm font-bold text-gray-800 leading-relaxed">
+                                        <p className="text-sm font-bold text-gray-800 leading-relaxed">
                                           {thesis.en}
                                         </p>
                                       </div>
@@ -987,7 +987,7 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                                 className="w-full flex items-center justify-between px-12 py-10 fbar fbar-past"
                               >
                                 <p className="text-[10px] md:text-xs font-bold text-gray-500">Advisor</p>
-                                <ChevronDown size={14} className={`text-gray-400 transition-transform duration-300 ${expandedEduSections.has(`${index}-advisor`) ? 'rotate-180' : ''}`}/>
+                                <ChevronDown size={14} className={`text-gray-500 transition-transform duration-300 ${expandedEduSections.has(`${index}-advisor`) ? 'rotate-180' : ''}`}/>
                               </button>
                               {expandedEduSections.has(`${index}-advisor`) && (
                                 <div className="p-12 space-y-6">
@@ -1001,9 +1001,9 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                                     >
                                       <div className="flex items-center gap-8">
                                         <GraduationCap className="size-14 text-[#D6B14D]" />
-                                        <span className="text-xs md:text-sm font-bold text-gray-800">{adv.name}</span>
+                                        <span className="text-sm font-bold text-gray-800">{adv.name}</span>
                                       </div>
-                                      <ExternalLink className="size-12 text-gray-400 group-hover:text-[#D6B14D] transition-colors" />
+                                      <ExternalLink className="size-12 text-gray-500 group-hover:text-[#D6B14D] transition-colors" />
                                     </a>
                                   ))}
                                 </div>
@@ -1019,7 +1019,7 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                                 className="w-full flex items-center justify-between px-12 py-10 fbar fbar-past"
                               >
                                 <p className="text-[10px] md:text-xs font-bold text-gray-500">Research Group</p>
-                                <ChevronDown size={14} className={`text-gray-400 transition-transform duration-300 ${expandedEduSections.has(`${index}-researchGroup`) ? 'rotate-180' : ''}`}/>
+                                <ChevronDown size={14} className={`text-gray-500 transition-transform duration-300 ${expandedEduSections.has(`${index}-researchGroup`) ? 'rotate-180' : ''}`}/>
                               </button>
                               {expandedEduSections.has(`${index}-researchGroup`) && (
                                 <div className="p-12">
@@ -1032,9 +1032,9 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                                     <div className="flex items-start gap-8">
                                       <Building className="size-14 text-[#D6B14D] shrink-0 mt-1" />
                                       <div className="flex flex-col">
-                                        <span className="text-xs md:text-sm font-bold text-gray-800">{edu.researchGroup.name}</span>
+                                        <span className="text-sm font-bold text-gray-800">{edu.researchGroup.name}</span>
                                         {edu.researchGroup.department && (
-                                          <span className="text-xs md:text-sm text-gray-500 font-medium">{edu.researchGroup.department}</span>
+                                          <span className="text-sm text-gray-500 font-medium">{edu.researchGroup.department}</span>
                                         )}
                                         {edu.researchGroup.role && (
                                           <span className="text-[10px] md:text-xs text-gray-600 font-medium mt-4 flex items-center gap-4">
@@ -1048,7 +1048,7 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                                       {edu.researchGroup.period && (
                                         <span className="px-8 py-3 bg-gray-100 rounded-full text-[10px] md:text-xs font-bold text-gray-600 whitespace-nowrap">{edu.researchGroup.period}</span>
                                       )}
-                                      <ExternalLink className="size-12 text-gray-400 group-hover:text-[#D6B14D] transition-colors" />
+                                      <ExternalLink className="size-12 text-gray-500 group-hover:text-[#D6B14D] transition-colors" />
                                     </div>
                                   </a>
                                 </div>
@@ -1064,7 +1064,7 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                                 className="w-full flex items-center justify-between px-12 py-10 fbar fbar-past"
                               >
                                 <p className="text-[10px] md:text-xs font-bold text-gray-500">Leadership Roles</p>
-                                <ChevronDown size={14} className={`text-gray-400 transition-transform duration-300 ${expandedEduSections.has(`${index}-leadership`) ? 'rotate-180' : ''}`}/>
+                                <ChevronDown size={14} className={`text-gray-500 transition-transform duration-300 ${expandedEduSections.has(`${index}-leadership`) ? 'rotate-180' : ''}`}/>
                               </button>
                               {expandedEduSections.has(`${index}-leadership`) && (
                                 <div className="p-12 space-y-8">
@@ -1073,12 +1073,12 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                                       <div className="flex items-start gap-8">
                                         <Users className="size-14 text-[#D6B14D] shrink-0 mt-1" />
                                         <div className="flex flex-col">
-                                          <span className="text-xs md:text-sm font-bold text-gray-800">{l.role}</span>
-                                          <span className="text-xs md:text-sm text-gray-500 font-medium">{l.context}</span>
-                                          <span className="md:hidden text-[10px] text-gray-400 font-medium mt-2">{l.period}</span>
+                                          <span className="text-sm font-bold text-gray-800">{l.role}</span>
+                                          <span className="text-sm text-gray-500 font-medium">{l.context}</span>
+                                          <span className="md:hidden text-[10px] md:text-[11px] text-gray-500 font-medium mt-2">{l.period}</span>
                                         </div>
                                       </div>
-                                      <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap">{l.period}</span>
+                                      <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-[11px] font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap">{l.period}</span>
                                     </div>
                                   ))}
                                 </div>
@@ -1093,8 +1093,8 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                                 onClick={() => toggleEduAwards(index)}
                                 className="flex items-center justify-between w-full group mb-10"
                               >
-                                <p className="text-[10px] md:text-xs font-bold text-gray-400">Honors & Awards</p>
-                                <ChevronDown size={14} className={`text-gray-400 transition-transform duration-300 ${expandedEduAwards.has(index) ? 'rotate-180' : ''}`}/>
+                                <p className="text-[10px] md:text-xs font-bold text-gray-500">Honors & Awards</p>
+                                <ChevronDown size={14} className={`text-gray-500 transition-transform duration-300 ${expandedEduAwards.has(index) ? 'rotate-180' : ''}`}/>
                               </button>
                               
                               {expandedEduAwards.has(index) && (
@@ -1104,12 +1104,12 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                                       {edu.honors.map((h: any, i: number) => (
                                         <div key={i} className="flex flex-col items-start bg-[#FFF9E6] rounded-lg px-12 py-14">
                                           <Medal className="shrink-0 size-20 mb-10" style={{color: '#D6B14D'}} />
-                                          <span className="text-xs md:text-sm font-bold text-gray-800">{h.title}</span>
-                                          <span className="text-xs md:text-sm text-gray-500 font-medium mt-4">{h.org}</span>
+                                          <span className="text-sm font-bold text-gray-800">{h.title}</span>
+                                          <span className="text-sm text-gray-500 font-medium mt-4">{h.org}</span>
                                           {h.gpa && (
                                             <div className="flex items-center gap-6 mt-4">
                                               <span className="w-5 h-5 rounded-full shrink-0" style={{backgroundColor: 'rgb(214, 177, 77)'}} />
-                                              <span className="text-xs md:text-sm text-gray-500 font-medium">
+                                              <span className="text-sm text-gray-500 font-medium">
                                                 <span className="font-bold" style={{color: '#D6B14D'}}>{h.gpa}</span>
                                                 {' '}
                                                 <span className="font-bold text-gray-700">GPA</span>
@@ -1128,15 +1128,15 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                                       {edu.awards.map((a: any, i: number) => (
                                         <div key={i} className="flex flex-col items-start rounded-lg px-12 py-14" style={{backgroundColor: 'rgba(172, 14, 14, 0.05)'}}>
                                           <Trophy className="shrink-0 size-20 mb-10" style={{color: 'rgb(172, 14, 14)'}} />
-                                          <span className="text-xs md:text-sm font-bold text-gray-800">{a.title}</span>
-                                          {a.note && <span className="text-xs md:text-sm font-bold mt-2" style={{color: '#D6B14D'}}>{a.note}</span>}
+                                          <span className="text-sm font-bold text-gray-800">{a.title}</span>
+                                          {a.note && <span className="text-sm font-bold mt-2" style={{color: '#D6B14D'}}>{a.note}</span>}
                                           {a.college && a.university ? (
                                             <div className="flex flex-col mt-4">
-                                              <span className="text-xs md:text-sm text-gray-400 font-medium">{a.college}</span>
-                                              <span className="text-xs md:text-sm text-gray-700 font-medium">{a.university}</span>
+                                              <span className="text-sm text-gray-500 font-medium">{a.college}</span>
+                                              <span className="text-sm text-gray-700 font-medium">{a.university}</span>
                                             </div>
                                           ) : (
-                                            <span className="text-xs md:text-sm text-gray-500 font-medium mt-4">{a.org}</span>
+                                            <span className="text-sm text-gray-500 font-medium mt-4">{a.org}</span>
                                           )}
                                         </div>
                                       ))}
@@ -1163,7 +1163,7 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                 className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Employment</h3>
-                <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.employment ? 'rotate-180' : ''}`}/>
+                <ChevronDown size={20} className={`text-gray-500 transition-transform duration-300 ${expandedSections.employment ? 'rotate-180' : ''}`}/>
               </button>
               {expandedSections.employment && (
               <div className="p-20 md:p-24 border-t border-gray-100">
@@ -1189,14 +1189,14 @@ export const MembersDirectorPortfolioProfileTemplate = () => {
                           }`}>{emp.period}</span>
                         </div>
                         <h4 className="text-sm md:text-base font-bold text-gray-900">{emp.position}</h4>
-                        {emp.organization && <p className="text-xs md:text-sm text-gray-500 font-bold break-words">{emp.organization}</p>}
+                        {emp.organization && <p className="text-sm text-gray-500 font-bold break-words">{emp.organization}</p>}
                         {emp.department && emp.department.includes(',') ? (
                           <>
-                            <p className="text-xs md:text-sm font-medium text-gray-600 break-words">{emp.department.split(',')[0].trim()}</p>
-                            <p className="text-xs md:text-sm text-gray-500 break-words">{emp.department.split(',').slice(1).join(',').trim()}</p>
+                            <p className="text-sm font-medium text-gray-600 break-words">{emp.department.split(',')[0].trim()}</p>
+                            <p className="text-sm text-gray-500 break-words">{emp.department.split(',').slice(1).join(',').trim()}</p>
                           </>
                         ) : emp.department && (
-                          <p className="text-xs md:text-sm font-medium text-gray-600 break-words">{emp.department}</p>
+                          <p className="text-sm font-medium text-gray-600 break-words">{emp.department}</p>
                         )}
                       </div>
                     </div>

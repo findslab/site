@@ -118,7 +118,7 @@ const NoticeDetailModal = ({ id, title, date }: { id: string; title?: string; da
         <h1 className="text-lg md:text-xl font-bold text-gray-900 leading-snug tracking-[-0.02em] mb-12 md:mb-16">
           {metadata.title}
         </h1>
-        <div className="flex items-center gap-8 text-[12px] text-gray-500">
+        <div className="flex items-center gap-8 text-[13px] text-gray-500">
           <span className="font-medium">{metadata.author}</span>
           <span className="w-[3px] h-[3px] rounded-full bg-gray-300" />
           <span>{metadata.date}</span>
@@ -132,22 +132,22 @@ const NoticeDetailModal = ({ id, title, date }: { id: string; title?: string; da
       <div className="px-24 md:px-32 py-24 md:py-32">
         <article 
           className="
-            [&>p]:text-[14px] [&>p]:leading-[1.85] [&>p]:text-gray-600 [&>p]:mb-20 [&>p]:tracking-[-0.01em]
-            [&>h2]:text-[15px] [&>h2]:font-bold [&>h2]:text-gray-900 [&>h2]:mt-32 [&>h2]:mb-16 [&>h2]:pb-8 [&>h2]:border-b [&>h2]:border-primary/30
-            [&>h3]:text-[14px] [&>h3]:font-semibold [&>h3]:text-gray-800 [&>h3]:mt-24 [&>h3]:mb-12 [&>h3]:pl-12 [&>h3]:border-l-2 [&>h3]:border-primary
+            [&>p]:text-[15px] [&>p]:leading-[1.85] [&>p]:text-gray-600 [&>p]:mb-20 [&>p]:tracking-[-0.01em]
+            [&>h2]:text-[19px] [&>h2]:font-bold [&>h2]:text-gray-900 [&>h2]:mt-32 [&>h2]:mb-16 [&>h2]:pb-8 [&>h2]:border-b [&>h2]:border-primary/30
+            [&>h3]:text-[17px] [&>h3]:font-semibold [&>h3]:text-gray-800 [&>h3]:mt-24 [&>h3]:mb-12 [&>h3]:pl-12 [&>h3]:border-l-2 [&>h3]:border-primary
             [&>ul]:my-16 [&>ul]:space-y-8
-            [&>ul>li]:relative [&>ul>li]:pl-16 [&>ul>li]:text-[14px] [&>ul>li]:leading-[1.75] [&>ul>li]:text-gray-600
+            [&>ul>li]:relative [&>ul>li]:pl-16 [&>ul>li]:text-[15px] [&>ul>li]:leading-[1.75] [&>ul>li]:text-gray-600
             [&>ul>li]:before:content-[''] [&>ul>li]:before:absolute [&>ul>li]:before:left-0 [&>ul>li]:before:top-[9px] [&>ul>li]:before:w-[5px] [&>ul>li]:before:h-[5px] [&>ul>li]:before:rounded-full [&>ul>li]:before:bg-primary/60
             [&>ol]:my-16 [&>ol]:space-y-8 [&>ol]:list-decimal [&>ol]:pl-20
-            [&>ol>li]:text-[14px] [&>ol>li]:leading-[1.75] [&>ol>li]:text-gray-600 [&>ol>li]:pl-4
+            [&>ol>li]:text-[15px] [&>ol>li]:leading-[1.75] [&>ol>li]:text-gray-600 [&>ol>li]:pl-4
             [&>blockquote]:my-20 [&>blockquote]:px-16 [&>blockquote]:py-12 [&>blockquote]:bg-[#FFF9E6] [&>blockquote]:border-l-3 [&>blockquote]:border-primary/40 [&>blockquote]:rounded-r-lg [&>blockquote]:text-[13px] [&>blockquote]:text-gray-600 [&>blockquote]:leading-[1.7]
             [&>hr]:my-28 [&>hr]:border-0 [&>hr]:h-px [&>hr]:bg-gray-200
             [&_strong]:font-semibold [&_strong]:text-gray-800
             [&_a]:text-primary [&_a]:font-medium [&_a]:no-underline hover:[&_a]:underline
             [&_img]:my-20 [&_img]:rounded-lg [&_img]:max-w-full [&_img]:shadow-sm
-            [&_code]:text-[12.5px] [&_code]:bg-gray-100 [&_code]:px-6 [&_code]:py-2 [&_code]:rounded [&_code]:font-mono [&_code]:text-gray-700 [&_pre_code]:bg-transparent [&_pre_code]:p-0 [&_pre_code]:text-gray-100
-            [&_li>ul]:mt-6 [&_li>ul]:space-y-4 [&_li>ul>li]:relative [&_li>ul>li]:pl-14 [&_li>ul>li]:text-[13.5px] [&_li>ul>li]:before:content-[''] [&_li>ul>li]:before:absolute [&_li>ul>li]:before:left-0 [&_li>ul>li]:before:top-[10px] [&_li>ul>li]:before:w-[6px] [&_li>ul>li]:before:h-px [&_li>ul>li]:before:bg-gray-400
-            [&>pre]:my-20 [&>pre]:bg-gray-900 [&>pre]:text-gray-100 [&>pre]:rounded-lg [&>pre]:p-16 [&>pre]:overflow-x-auto [&>pre]:text-[12px]
+            [&_code]:text-[13px] [&_code]:bg-gray-100 [&_code]:px-6 [&_code]:py-2 [&_code]:rounded [&_code]:font-mono [&_code]:text-gray-700 [&_pre_code]:bg-transparent [&_pre_code]:p-0 [&_pre_code]:text-gray-100
+            [&_li>ul]:mt-6 [&_li>ul]:space-y-4 [&_li>ul>li]:relative [&_li>ul>li]:pl-14 [&_li>ul>li]:text-[13px] [&_li>ul>li]:before:content-[''] [&_li>ul>li]:before:absolute [&_li>ul>li]:before:left-0 [&_li>ul>li]:before:top-[10px] [&_li>ul>li]:before:w-[6px] [&_li>ul>li]:before:h-px [&_li>ul>li]:before:bg-gray-400
+            [&>pre]:my-20 [&>pre]:bg-gray-900 [&>pre]:text-gray-100 [&>pre]:rounded-lg [&>pre]:p-16 [&>pre]:overflow-x-auto [&>pre]:text-[13px]
           "
           dangerouslySetInnerHTML={{ __html: content }}
         />
@@ -171,9 +171,9 @@ const NoticeDetailModal = ({ id, title, date }: { id: string; title?: string; da
                     </span>
                     <span className="flex-1 min-w-0">
                       <span className="block text-[13px] font-semibold text-gray-800 group-hover/att:text-primary transition-colors">{att.name}</span>
-                      <span className="block text-[11px] text-gray-400 truncate">{att.file}</span>
+                      <span className="block text-[11px] text-gray-500 truncate">{att.file}</span>
                     </span>
-                    <span className="text-[11px] text-gray-400 group-hover/att:text-primary transition-colors shrink-0">다운로드</span>
+                    <span className="text-[11px] text-gray-500 group-hover/att:text-primary transition-colors shrink-0">다운로드</span>
                   </a>
                 )
               })}
@@ -323,9 +323,9 @@ export const ArchivesNoticeTemplate = () => {
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20">
         <div className="py-20 md:py-32 border-b border-gray-100">
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-            <Link to="/" className="text-gray-400 hover:text-primary transition-all duration-300 hover:scale-110"><Home size={16} /></Link>
+            <Link to="/" className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110"><Home size={16} /></Link>
             <span className="text-gray-200">—</span>
-            <span className="text-sm text-gray-400 font-medium">Archives</span>
+            <span className="text-sm text-gray-500 font-medium">Archives</span>
             <span className="text-gray-200">—</span>
             <span className="text-sm text-primary font-semibold">Notice</span>
           </div>
@@ -354,7 +354,7 @@ export const ArchivesNoticeTemplate = () => {
                     <div className="flex flex-col gap-20 p-20">
                       <div className="flex items-center justify-between">
                         <h3 className="text-base font-bold text-gray-900">Filters</h3>
-                        <button onClick={() => setIsFilterOpen(false)} className="size-28 flex items-center justify-center rounded-lg hover:bg-gray-100 transition-colors text-gray-400 hover:text-gray-600">
+                        <button onClick={() => setIsFilterOpen(false)} className="size-28 flex items-center justify-center rounded-lg hover:bg-gray-100 transition-colors text-gray-500 hover:text-gray-600">
                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
                         </button>
                       </div>
@@ -366,7 +366,7 @@ export const ArchivesNoticeTemplate = () => {
                             const color = tagFilterColors[tag]
                             return (
                               <button key={tag} onClick={() => handleTagToggle(tag)}
-                                className="px-12 md:px-16 py-6 md:py-8 rounded-lg text-xs md:text-sm font-medium transition-all border"
+                                className="px-12 md:px-16 py-6 md:py-8 rounded-lg text-sm font-medium transition-all border"
                                 style={isActive && color ? { backgroundColor: color.bg, borderColor: color.bg, color: color.text, boxShadow: '0 1px 3px rgba(0,0,0,0.1)' } : { backgroundColor: 'white', borderColor: '#f0f0f0', color: '#7f8894' }}
                               >{tag}</button>
                             )
@@ -374,7 +374,7 @@ export const ArchivesNoticeTemplate = () => {
                         </div>
                       </div>
                       <div className="flex justify-end pt-16 border-t border-gray-100">
-                        <button onClick={() => setSelectedTags([])} className="px-16 py-8 text-sm font-medium text-gray-400 hover:text-primary transition-colors">Reset all filters</button>
+                        <button onClick={() => setSelectedTags([])} className="px-16 py-8 text-sm font-medium text-gray-500 hover:text-primary transition-colors">Reset all filters</button>
                       </div>
                     </div>
                   </div>
@@ -395,11 +395,11 @@ export const ArchivesNoticeTemplate = () => {
                 const color = tagFilterColors[tag]
                 return (
                   <button key={tag} onClick={() => handleTagToggle(tag)} className="flex items-center gap-4 px-10 py-4 rounded-full text-xs font-medium border transition-all hover:opacity-70" style={{ backgroundColor: `${color.bg}15`, borderColor: `${color.bg}30`, color: color.bg }}>
-                    {tag} <span className="text-[10px]">✕</span>
+                    {tag} <span className="text-[10px] md:text-[11px]">✕</span>
                   </button>
                 )
               })}
-              <button onClick={() => { setSelectedTags([]); setSearchTerm('') }} className="text-xs text-gray-400 hover:text-primary transition-colors ml-4">Clear all</button>
+              <button onClick={() => { setSelectedTags([]); setSearchTerm('') }} className="text-xs text-gray-500 hover:text-primary transition-colors ml-4">Clear all</button>
             </div>
           )}
         </div>
@@ -443,9 +443,9 @@ export const ArchivesNoticeTemplate = () => {
                 }`}
                 style={{ '--tag-hover-color': hoverColor, '--tag-hover-shadow': `${hoverColor}15` } as React.CSSProperties}
               >
-                <div className="flex items-center gap-8 md:gap-16 mb-8 md:mb-12 text-xs md:text-sm text-gray-500 flex-wrap">
+                <div className="flex items-center gap-8 md:gap-16 mb-8 md:mb-12 text-sm text-gray-500 flex-wrap">
                   <div className="flex items-center gap-6">
-                    <Calendar className="size-12 md:size-14 text-gray-400" />
+                    <Calendar className="size-12 md:size-14 text-gray-500" />
                     <span className="font-medium">{item.date}</span>
                   </div>
                   <span className="text-gray-300 hidden md:inline">|</span>
@@ -473,7 +473,7 @@ export const ArchivesNoticeTemplate = () => {
           </div>
         ) : (
           <div className="bg-[#f9fafb] rounded-xl md:rounded-[20px] p-40 md:p-60 text-center">
-            <p className="text-xs md:text-[14px] text-[#7f8894]">No items found matching your filters</p>
+            <p className="text-sm md:text-base text-[#7f8894]">No items found matching your filters</p>
           </div>
         )}
       </div>

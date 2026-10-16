@@ -22,14 +22,14 @@ const ResumeModal = () => {
             <p className="text-xs font-semibold text-gray-900"><span className="font-bold">Assistant Professor</span>, Gachon University</p>
             <p className="text-xs text-gray-500">Big Data Business Management Major, Department of Finance and Big Data, College of Business</p>
           </div>
-          <span className="text-xs text-gray-400 shrink-0 md:w-[140px] md:text-right">2026-03 – Present</span>
+          <span className="text-xs text-gray-500 shrink-0 md:w-[140px] md:text-right">2026-03 – Present</span>
         </div>
         <div className="flex flex-col md:flex-row md:justify-between gap-4 md:gap-16">
           <div className="min-w-0 flex-1 md:pr-12">
             <p className="text-xs font-semibold text-gray-900"><span className="font-bold">Assistant Professor</span>, Dongduk Women's University</p>
             <p className="text-xs text-gray-500">Division of Business Administration, College of Business</p>
           </div>
-          <span className="text-xs text-gray-400 shrink-0 md:w-[140px] md:text-right">2025-09 – 2026-02</span>
+          <span className="text-xs text-gray-500 shrink-0 md:w-[140px] md:text-right">2025-09 – 2026-02</span>
         </div>
       </div>
     </section>
@@ -51,7 +51,7 @@ const ResumeModal = () => {
         <div>
           <div className="flex flex-col md:flex-row md:justify-between gap-4 md:gap-16 mb-4">
             <p className="text-xs font-semibold text-gray-900 min-w-0 flex-1 md:pr-12">Ph.D., Industrial and Systems Engineering, KAIST</p>
-            <span className="text-xs text-gray-400 shrink-0 md:w-[140px] md:text-right">2025-02</span>
+            <span className="text-xs text-gray-500 shrink-0 md:w-[140px] md:text-right">2025-02</span>
           </div>
           <ul className="text-xs text-gray-600 space-y-3 ml-12 pr-8">
             <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" /><span>Best Doctoral Dissertation Award, Korean Operations Research and Management Science Society (KORMS)</span></li>
@@ -61,7 +61,7 @@ const ResumeModal = () => {
         <div>
           <div className="flex flex-col md:flex-row md:justify-between gap-4 md:gap-16 mb-4">
             <p className="text-xs font-semibold text-gray-900 min-w-0 flex-1 md:pr-12">M.S., Industrial and Systems Engineering, KAIST</p>
-            <span className="text-xs text-gray-400 shrink-0 md:w-[140px] md:text-right">2021-02</span>
+            <span className="text-xs text-gray-500 shrink-0 md:w-[140px] md:text-right">2021-02</span>
           </div>
           <ul className="text-xs text-gray-600 space-y-3 ml-12">
             <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Best Master Thesis Award, Korean Institute of Industrial Engineers (KIIE)</li>
@@ -71,7 +71,7 @@ const ResumeModal = () => {
         <div>
           <div className="flex flex-col md:flex-row md:justify-between gap-4 md:gap-16 mb-4">
             <p className="text-xs font-semibold text-gray-900 min-w-0 flex-1 md:pr-12">B.E., Industrial and Management Systems Engineering, Kyung Hee University</p>
-            <span className="text-xs text-gray-400 shrink-0 md:w-[140px] md:text-right">2018-02</span>
+            <span className="text-xs text-gray-500 shrink-0 md:w-[140px] md:text-right">2018-02</span>
           </div>
           <ul className="text-xs text-gray-600 space-y-3 ml-12">
             <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Valedictorian, College of Engineering (4.42 GPA on a 4.5 scale)</li>
@@ -125,7 +125,7 @@ const ResumeModal = () => {
         <div>
           <div className="flex flex-col md:flex-row md:justify-between gap-4 md:gap-16 mb-4">
             <p className="text-xs font-semibold text-gray-900 min-w-0 flex-1 md:pr-12">Development of Lucid Stylized Inherent Feature Extraction Technology for Transparent AI-Based Financial Intelligence and Asset Management</p>
-            <span className="text-xs text-gray-400 shrink-0 md:w-[140px] md:text-right">2026-09 – 2029-08</span>
+            <span className="text-xs text-gray-500 shrink-0 md:w-[140px] md:text-right">2026-09 – 2029-08</span>
           </div>
           <ul className="text-xs text-gray-600 space-y-3 ml-12">
             <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Principal Investigator</li>
@@ -136,7 +136,7 @@ const ResumeModal = () => {
         <div>
           <div className="flex flex-col md:flex-row md:justify-between gap-4 md:gap-16 mb-4">
             <p className="text-xs font-semibold text-gray-900 min-w-0 flex-1 md:pr-12">A Multi-layered Empirical Study on the Generation, Transmission, and Structural Dynamics of Risk Information in Financial Markets</p>
-            <span className="text-xs text-gray-400 shrink-0 md:w-[140px] md:text-right">2026-05 – 2027-05</span>
+            <span className="text-xs text-gray-500 shrink-0 md:w-[140px] md:text-right">2026-05 – 2027-05</span>
           </div>
           <ul className="text-xs text-gray-600 space-y-3 ml-12">
             <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Principal Investigator</li>
@@ -146,7 +146,7 @@ const ResumeModal = () => {
         <div>
           <div className="flex flex-col md:flex-row md:justify-between gap-4 md:gap-16 mb-4">
             <p className="text-xs font-semibold text-gray-900 min-w-0 flex-1 md:pr-12">Empirical Analysis of the Insurance Industry's Financial Market Stabilization Function and Systemic Risk Transmission: A Korea–U.S. Comparison</p>
-            <span className="text-xs text-gray-400 shrink-0 md:w-[140px] md:text-right">2026-06 – 2027-06</span>
+            <span className="text-xs text-gray-500 shrink-0 md:w-[140px] md:text-right">2026-06 – 2027-06</span>
           </div>
           <ul className="text-xs text-gray-600 space-y-3 ml-12">
             <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Principal Investigator</li>
@@ -156,7 +156,7 @@ const ResumeModal = () => {
         <div>
           <div className="flex flex-col md:flex-row md:justify-between gap-4 md:gap-16 mb-4">
             <p className="text-xs font-semibold text-gray-900 min-w-0 flex-1 md:pr-12">Portfolio Efficiency under Fractional Trading in High-Priced Stock Markets</p>
-            <span className="text-xs text-gray-400 shrink-0 md:w-[140px] md:text-right">2026-03 – 2027-02</span>
+            <span className="text-xs text-gray-500 shrink-0 md:w-[140px] md:text-right">2026-03 – 2027-02</span>
           </div>
           <ul className="text-xs text-gray-600 space-y-3 ml-12">
             <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Principal Investigator</li>
@@ -166,7 +166,7 @@ const ResumeModal = () => {
         <div>
           <div className="flex flex-col md:flex-row md:justify-between gap-4 md:gap-16 mb-4">
             <p className="text-xs font-semibold text-gray-900 min-w-0 flex-1 md:pr-12">An Analysis of the Capacity Enhancement Effect of Domestic Asset Management Companies via the Bank of Korea's Consignment of Foreign Currency Asset Management</p>
-            <span className="text-xs text-gray-400 shrink-0 md:w-[140px] md:text-right">2023-11 – 2024-07</span>
+            <span className="text-xs text-gray-500 shrink-0 md:w-[140px] md:text-right">2023-11 – 2024-07</span>
           </div>
           <ul className="text-xs text-gray-600 space-y-3 ml-12">
             <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Lead Researcher</li>
@@ -176,7 +176,7 @@ const ResumeModal = () => {
         <div>
           <div className="flex flex-col md:flex-row md:justify-between gap-4 md:gap-16 mb-4">
             <p className="text-xs font-semibold text-gray-900 min-w-0 flex-1 md:pr-12">Financial Data-Driven Market Valuation Model</p>
-            <span className="text-xs text-gray-400 shrink-0 md:w-[140px] md:text-right">2021-08 – 2023-12</span>
+            <span className="text-xs text-gray-500 shrink-0 md:w-[140px] md:text-right">2021-08 – 2023-12</span>
           </div>
           <ul className="text-xs text-gray-600 space-y-3 ml-12">
             <li className="flex items-start gap-6"><span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />Lead Researcher</li>

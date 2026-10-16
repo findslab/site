@@ -158,7 +158,7 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
           <div className="absolute inset-0 bg-black/40"/>
           <div className="absolute inset-0" style={{backgroundColor: 'rgba(214, 177, 77, 0.08)'}} />
           <div className="relative h-full flex items-center justify-center">
-            <h1 className="text-2xl md:text-[36px] font-semibold text-white text-center">
+            <h1 className="text-2xl md:text-[33px] font-semibold text-white text-center">
               Member Profile
             </h1>
           </div>
@@ -201,7 +201,7 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
         <div className="absolute inset-0 bg-black/40"/>
           <div className="absolute inset-0" style={{backgroundColor: 'rgba(214, 177, 77, 0.08)'}} />
         <div className="relative h-full flex items-center justify-center">
-          <h1 className="text-2xl md:text-[36px] font-semibold text-white text-center">
+          <h1 className="text-2xl md:text-[33px] font-semibold text-white text-center">
             {member.name.en}
           </h1>
         </div>
@@ -210,11 +210,11 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
       {/* Breadcrumb */}
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20 py-20 md:py-40">
         <div className="flex items-center gap-8 md:gap-10 flex-wrap">
-          <Link to="/" className="text-gray-400 hover:text-primary transition-colors">
+          <Link to="/" className="text-gray-500 hover:text-primary transition-colors">
             <Home size={16}/>
           </Link>
           <span className="text-[#cdcdcd]">›</span>
-          <Link to="/members/current" className="text-sm md:text-base text-gray-400 hover:text-primary transition-colors">
+          <Link to="/members/current" className="text-sm md:text-base text-gray-500 hover:text-primary transition-colors">
             Members
           </Link>
           <span className="text-[#cdcdcd]">›</span>
@@ -263,10 +263,10 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
                 </span>
                 {/* Period - plain text on mobile, badge on desktop */}
                 <div className="md:hidden flex items-center gap-8 text-xs text-gray-500">
-                  <Calendar size={12} className="text-gray-400"/>
+                  <Calendar size={12} className="text-gray-500"/>
                   <span>{member.period.start} – {member.period.end || member.period.expected_graduation || 'Present'}</span>
                 </div>
-                <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] font-bold text-gray-600 shadow-sm whitespace-nowrap">
+                <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-[11px] font-bold text-gray-600 shadow-sm whitespace-nowrap">
                   {member.period.start} – {member.period.end || member.period.expected_graduation || 'Present'}
                 </span>
               </div>
@@ -301,7 +301,7 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
                     rel="noopener noreferrer"
                     className="flex items-center gap-10 text-sm text-gray-600 hover:text-primary transition-colors"
                   >
-                    <Globe size={16} className="text-gray-400 shrink-0"/>
+                    <Globe size={16} className="text-gray-500 shrink-0"/>
                     <span>Personal Website</span>
                   </a>
                 )}
@@ -314,7 +314,7 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
                     href={member.social.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-36 h-36 flex items-center justify-center bg-gray-50 rounded-full text-gray-400 hover:bg-primary hover:text-white transition-all"
+                    className="w-36 h-36 flex items-center justify-center bg-gray-50 rounded-full text-gray-500 hover:bg-primary hover:text-white transition-all"
                   >
                     <Github size={18}/>
                   </a>
@@ -324,7 +324,7 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
                     href={member.social.linkedin}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-36 h-36 flex items-center justify-center bg-gray-50 rounded-full text-gray-400 hover:bg-primary hover:text-white transition-all"
+                    className="w-36 h-36 flex items-center justify-center bg-gray-50 rounded-full text-gray-500 hover:bg-primary hover:text-white transition-all"
                   >
                     <Linkedin size={18}/>
                   </a>
@@ -334,7 +334,7 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
                     href={member.social.google_scholar}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="w-36 h-36 flex items-center justify-center bg-gray-50 rounded-full text-gray-400 hover:bg-primary hover:text-white transition-all"
+                    className="w-36 h-36 flex items-center justify-center bg-gray-50 rounded-full text-gray-500 hover:bg-primary hover:text-white transition-all"
                     title="Google Scholar"
                   >
                     <GraduationCap size={18}/>
@@ -396,7 +396,7 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
                             </p>
                           )}
                           {edu.minor && (
-                            <p className="text-[13px] font-normal text-gray-400 pl-10">
+                            <p className="text-[13px] font-normal text-gray-500 pl-10">
                               Minor in {edu.minor}
                             </p>
                           )}
@@ -422,7 +422,7 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
                     <div className="p-20 md:p-24 bg-gray-50 border border-gray-100 rounded-xl">
                       <p className="text-base font-semibold text-gray-800 mb-4">{member.research.project.en}</p>
                       {member.research.project.ko && (
-                        <p className="text-sm text-gray-400">{member.research.project.ko}</p>
+                        <p className="text-sm text-gray-500">{member.research.project.ko}</p>
                       )}
                     </div>
                   )}
@@ -431,7 +431,7 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
                     <div key={idx} className="p-20 md:p-24 bg-gray-50 border border-gray-100 rounded-xl">
                       <p className="text-base font-semibold text-gray-800 mb-4">{proj.en}</p>
                       {proj.ko && (
-                        <p className="text-sm text-gray-400">{proj.ko}</p>
+                        <p className="text-sm text-gray-500">{proj.ko}</p>
                       )}
                     </div>
                   ))}
@@ -443,7 +443,7 @@ export const MembersDetailTemplate = ({memberId}: Props) => {
                         {isObject ? (
                           <>
                             <p className="text-base font-semibold text-gray-800 mb-4">{proj.en}</p>
-                            <p className="text-sm text-gray-400">{proj.ko}</p>
+                            <p className="text-sm text-gray-500">{proj.ko}</p>
                           </>
                         ) : (
                           <p className="text-base font-semibold text-gray-800">{proj}</p>

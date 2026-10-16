@@ -86,7 +86,7 @@ const LangToggle = ({ lang, setLang, variant = 'dark' }: { lang: 'ko' | 'en'; se
         className={`px-10 py-4 rounded-full text-xs font-bold transition-all ${
           lang === 'ko'
             ? isDark ? 'bg-[#D6B14D] text-white' : 'bg-[#D6B14D] text-white'
-            : isDark ? 'text-gray-400 hover:text-white' : 'text-gray-500 hover:text-gray-800'
+            : isDark ? 'text-gray-500 hover:text-white' : 'text-gray-500 hover:text-gray-800'
         }`}
       >
         KOR
@@ -96,7 +96,7 @@ const LangToggle = ({ lang, setLang, variant = 'dark' }: { lang: 'ko' | 'en'; se
         className={`px-10 py-4 rounded-full text-xs font-bold transition-all ${
           lang === 'en'
             ? isDark ? 'bg-[#D6B14D] text-white' : 'bg-[#D6B14D] text-white'
-            : isDark ? 'text-gray-400 hover:text-white' : 'text-gray-500 hover:text-gray-800'
+            : isDark ? 'text-gray-500 hover:text-white' : 'text-gray-500 hover:text-gray-800'
         }`}
       >
         ENG
@@ -179,11 +179,11 @@ export const AboutIntroductionTemplate = () => {
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20">
         <div className="py-20 md:py-32 border-b border-gray-100">
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-            <Link to="/" className="text-gray-400 hover:text-primary transition-all duration-300 hover:scale-110">
+            <Link to="/" className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110">
               <Home size={16} />
             </Link>
             <span className="text-gray-200">—</span>
-            <span className="text-sm text-gray-400 font-medium">About FINDS</span>
+            <span className="text-sm text-gray-500 font-medium">About FINDS</span>
             <span className="text-gray-200">—</span>
             <span className="text-sm text-primary font-semibold">Introduction</span>
           </div>
@@ -272,25 +272,25 @@ export const AboutIntroductionTemplate = () => {
                 <div className="max-w-3xl md:max-w-5xl mx-auto space-y-24 text-center">
                   {goalLang === 'ko' ? (
                     <>
-                      <p className="text-sm md:text-lg leading-[2] text-gray-400">
+                      <p className="text-sm md:text-lg leading-[2] text-gray-500">
                         가천대학교 경영대학 금융·빅데이터학부 빅데이터경영전공 <span className="font-bold" style={{color: '#D6B14D'}}>금융데이터인텔리전스</span> 연구실(<span className="font-bold" style={{color: '#D6B14D'}}>FINDS</span> Lab)은 <span className="font-semibold text-white">데이터 중심</span>으로 급변하는 <span className="font-semibold text-white">경영 환경</span>과 <span className="font-semibold text-white">금융 시장</span>을 비롯한 산업 현장에서 <span className="font-bold" style={{color: '#D6B14D', whiteSpace: 'nowrap'}}>실질적인 가치 창출</span>을 목표로 합니다.
                       </p>
-                      <p className="text-sm md:text-lg leading-[2] text-gray-400">
+                      <p className="text-sm md:text-lg leading-[2] text-gray-500">
                         저희 <span className="font-semibold text-white">FINDS Lab</span>은 <span className="font-bold" style={{ color: '#D6B14D', textShadow: '0 0 20px rgba(214, 177, 77, 0.3)' }}>데이터 사이언스</span>와 <span className="font-bold" style={{ color: '#D6B14D', textShadow: '0 0 20px rgba(214, 177, 77, 0.3)' }}>비즈니스 애널리틱스</span> 기법을 활용하여 복잡한 데이터 속에서 유의미한 <span className="font-bold" style={{color: '#D6B14D'}}>발견 (finds)</span>을 이끌어내고, 이를 통해 <span className="font-semibold text-white">경영 환경</span>과 <span className="font-semibold text-white">산업 현장</span>을 <span className="font-bold" style={{color: '#D6B14D', whiteSpace: 'nowrap'}}>다각도로 개선</span>하는 데 기여하고자 합니다.
                       </p>
-                      <p className="text-sm md:text-lg leading-[2] text-gray-400">
+                      <p className="text-sm md:text-lg leading-[2] text-gray-500">
                         특히 <span className="font-bold text-white">지식과 정보의 비대칭</span>으로 발생하는 <span className="font-bold" style={{ color: 'rgb(214, 177, 77)', textShadow: '0 0 20px rgba(214, 177, 77, 0.3)' }}>사회적 비효율을 극복</span>하고, 데이터를 <span className="font-bold" style={{ color: 'rgb(214, 177, 77)', textShadow: '0 0 20px rgba(214, 177, 77, 0.3)' }}>전략적 인사이트</span>로 전환함으로써 <span className="font-semibold text-white">경영 효율성</span>을 제고하여 <span className="font-bold" style={{ color: 'rgb(214, 177, 77)', textShadow: '0 0 20px rgba(214, 177, 77, 0.3)', whiteSpace: 'nowrap' }}>더 나은 내일</span>을 만드는 데 앞장서겠습니다.
                       </p>
                     </>
                   ) : (
                     <>
-                      <p className="text-sm md:text-lg leading-[2] text-gray-400">
+                      <p className="text-sm md:text-lg leading-[2] text-gray-500">
                         The <span className="font-bold" style={{color: '#D6B14D'}}>Financial Data Intelligence</span> & Solutions Laboratory (<span className="font-bold" style={{color: '#D6B14D'}}>FINDS</span> Lab) at Gachon University conducts research that aims for <span className="font-bold" style={{color: '#D6B14D', whiteSpace: 'nowrap'}}>tangible value creation</span> in the rapidly evolving, <span className="font-semibold text-white">data-informed</span> <span className="font-semibold text-white">business environments</span> and <span className="font-semibold text-white">financial markets</span>.
                       </p>
-                      <p className="text-sm md:text-lg leading-[2] text-gray-400">
+                      <p className="text-sm md:text-lg leading-[2] text-gray-500">
                         Our <span className="font-semibold text-white">FINDS Lab</span> utilizes <span className="font-bold" style={{ color: '#D6B14D', textShadow: '0 0 20px rgba(214, 177, 77, 0.3)' }}>data science</span> and <span className="font-bold" style={{ color: '#D6B14D', textShadow: '0 0 20px rgba(214, 177, 77, 0.3)' }}>business analytics</span> to derive meaningful <span className="font-bold" style={{color: '#D6B14D'}}>finds</span> from complex data, contributing to the <span className="font-bold" style={{color: '#D6B14D'}}>iridescent insights</span> of <span className="font-semibold text-white">business environments</span> and <span className="font-semibold text-white">industrial sectors</span>.
                       </p>
-                      <p className="text-sm md:text-lg leading-[2] text-gray-400">
+                      <p className="text-sm md:text-lg leading-[2] text-gray-500">
                         In particular, we strive to <span className="font-bold" style={{ color: 'rgb(214, 177, 77)', textShadow: '0 0 20px rgba(214, 177, 77, 0.3)' }}>overcome social inefficiencies</span> arising from <span className="font-bold text-white">asymmetries in knowledge and information</span>. By transforming data into <span className="font-bold" style={{ color: 'rgb(214, 177, 77)', textShadow: '0 0 20px rgba(214, 177, 77, 0.3)' }}>strategic insights</span>, we will lead the way in <span className="font-semibold text-white">enhancing management efficiency</span> to build a <span className="font-bold" style={{ color: 'rgb(214, 177, 77)', textShadow: '0 0 20px rgba(214, 177, 77, 0.3)', whiteSpace: 'nowrap' }}>better tomorrow</span>.
                       </p>
                     </>
@@ -399,7 +399,7 @@ export const AboutIntroductionTemplate = () => {
                                 <span className="absolute left-0 top-2 w-8 h-8 rounded-full flex items-center justify-center" style={{ background: 'rgba(214, 177, 77, 0.2)' }}>
                                   <span className="w-2 h-2 rounded-full" style={{ background: '#D6B14D' }} />
                                 </span>
-                                <span className="block text-[11px] md:text-base font-semibold text-gray-300 leading-snug">
+                                <span className="block text-sm md:text-base font-semibold text-gray-300 leading-snug">
                                   {researchLang === 'ko' ? item.ko : item.en}
                                 </span>
                               </li>

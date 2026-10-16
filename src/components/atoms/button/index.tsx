@@ -28,7 +28,7 @@ const Button = ({children, theme = 'normal', isValid = true, isPending, onClick,
     <button
       type="button"
       className={clsx(
-        "flex items-center justify-center border-0 transition-all px-10 h-base rounded-[12px] text-[18px] font-medium shadow focus:shadow-focus",
+        "flex items-center justify-center border-0 transition-all px-10 h-base rounded-[12px] text-[19px] font-medium shadow focus:shadow-focus",
         themes[theme],
         isValid ? "opacity-100 cursor-pointer hover:opacity-80" : "opacity-30 cursor-not-allowed",
         className

@@ -28,7 +28,7 @@ const Alert = () => {
       <div
         className="w-full max-w-[300px] max-h-[80vh] bg-white rounded-lg shadow-lg flex flex-col justify-between p-20 gap-30 relative m-[10vh_auto_auto_auto] animate-slideYMargin"
       >
-        <div className="flex flex-col items-center justify-center gap-20 text-[14px]">
+        <div className="flex flex-col items-center justify-center gap-20 text-[15px]">
           <CircleAlert
             width={36}
             height={36}

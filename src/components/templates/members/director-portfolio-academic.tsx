@@ -616,7 +616,7 @@ const CollaborationNetwork = memo(() => {
           <span className="text-[10px] md:text-xs font-bold text-primary w-28">{coworkRateThreshold}%</span>
         </div>
         <div className="flex items-center gap-8">
-          <span className="text-[10px] md:text-xs text-gray-400 font-medium mr-8 md:mr-12">
+          <span className="text-[10px] md:text-xs text-gray-500 font-medium mr-8 md:mr-12">
             {nodes.length} Collaborators · {links.length} Connections
           </span>
           <button
@@ -846,7 +846,7 @@ const CollaborationNetwork = memo(() => {
                         <button
                           type="button"
                           onClick={() => setSelectedNode(null)}
-                          className="size-24 rounded-md border border-gray-200 text-gray-400 hover:text-gray-600 hover:border-gray-300 hover:bg-white transition-colors flex items-center justify-center shrink-0"
+                          className="size-24 rounded-md border border-gray-200 text-gray-500 hover:text-gray-600 hover:border-gray-300 hover:bg-white transition-colors flex items-center justify-center shrink-0"
                           title="Close"
                         >
                           <X size={12}/>
@@ -861,7 +861,7 @@ const CollaborationNetwork = memo(() => {
                     <div className="grid grid-cols-2 gap-8">
                       <div className="bg-primary/5 rounded-lg p-12 text-center border border-primary/10">
                         <div className="flex items-center justify-center gap-6 mb-4">
-                          <p className="text-xs md:text-sm font-bold text-gray-500 uppercase">Total Works</p>
+                          <p className="text-sm font-bold text-gray-500 uppercase">Total Works</p>
                         </div>
                         <p className="text-2xl font-bold text-primary">
                           {node.publications}
@@ -869,7 +869,7 @@ const CollaborationNetwork = memo(() => {
                       </div>
                       <div className="bg-[#FFE4E9] rounded-lg p-12 text-center" style={{borderColor: '#FFBAC4', borderWidth: '1px'}}>
                         <div className="flex items-center justify-center gap-6 mb-4">
-                          <p className="text-xs md:text-sm font-bold text-gray-500 uppercase">Co-work Rate</p>
+                          <p className="text-sm font-bold text-gray-500 uppercase">Co-work Rate</p>
                         </div>
                         <p className="text-2xl font-bold" style={{color: '#E8889C'}}>
                           {node.coworkRate}%
@@ -880,7 +880,7 @@ const CollaborationNetwork = memo(() => {
                     {/* Breakdown */}
                     <div className="bg-gray-50 rounded-lg p-12 border border-gray-100">
                       <div className="flex items-center gap-6 mb-10">
-                        <p className="text-xs md:text-sm font-bold text-gray-500 uppercase">Breakdown</p>
+                        <p className="text-sm font-bold text-gray-500 uppercase">Breakdown</p>
                       </div>
                       <div className="space-y-6">
                         <div className="flex items-center gap-8">
@@ -910,7 +910,7 @@ const CollaborationNetwork = memo(() => {
                   {/* Hint for hover */}
                   {!selectedNode && (
                     <div className="px-16 pb-12">
-                      <p className="text-[10px] text-gray-400 text-center">
+                      <p className="text-[10px] md:text-[11px] text-gray-500 text-center">
                         Click to see publications
                       </p>
                     </div>
@@ -922,7 +922,7 @@ const CollaborationNetwork = memo(() => {
         )}
 
         {/* Legend */}
-        <div className="absolute top-16 right-16 bg-white/90 backdrop-blur-sm border border-gray-100 rounded-lg p-12 text-[10px]">
+        <div className="absolute top-16 right-16 bg-white/90 backdrop-blur-sm border border-gray-100 rounded-lg p-12 text-[10px] md:text-[11px]">
           <div className="flex items-center gap-6 mb-6">
             <div className="size-10 rounded-full bg-white flex items-center justify-center text-[9px] font-bold" style={{border: '2px solid rgb(172,14,14)', color: '#D6B14D'}}>IC</div>
             <span className="text-gray-600 font-medium">Director</span>
@@ -1402,13 +1402,13 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20">
         <div className="py-20 md:py-32 border-b border-gray-100">
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-            <Link to="/" className="text-gray-400 hover:text-primary transition-all duration-300 hover:scale-110">
+            <Link to="/" className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110">
               <Home size={16}/>
             </Link>
             <span className="text-gray-200">—</span>
-            <Link to="/members" className="text-sm text-gray-400 font-medium hover:text-primary transition-colors">Members</Link>
+            <Link to="/members" className="text-sm text-gray-500 font-medium hover:text-primary transition-colors">Members</Link>
             <span className="text-gray-200">—</span>
-            <Link to="/members/director" className="text-sm text-gray-400 font-medium hover:text-primary transition-colors">Director</Link>
+            <Link to="/members/director" className="text-sm text-gray-500 font-medium hover:text-primary transition-colors">Director</Link>
             <span className="text-gray-200">—</span>
             <span className="text-sm text-primary font-semibold">Academics</span>
           </div>
@@ -1471,42 +1471,42 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
 
               <div className="flex flex-col gap-12 md:gap-16">
                 <div className="flex items-start gap-10 group">
-                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-400 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
                     <Briefcase size={14}/>
                   </div>
                   <div className="min-w-0">
-                    <p className="text-[10px] md:text-xs font-bold text-gray-400 mb-1">Position</p>
-                    <p className="text-xs md:text-sm font-semibold text-gray-800">Director</p>
-                    <p className="text-xs md:text-sm text-gray-500">FINDS (Financial Data Intelligence & Solutions) Lab</p>
+                    <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-1">Position</p>
+                    <p className="text-sm font-semibold text-gray-800">Director</p>
+                    <p className="text-sm text-gray-500">FINDS (Financial Data Intelligence & Solutions) Lab</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-10 group">
-                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-400 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
                     <Building size={14}/>
                   </div>
                   <div className="min-w-0">
-                    <p className="text-[10px] md:text-xs font-bold text-gray-400 mb-1">Affiliation</p>
-                    <p className="text-xs md:text-sm font-semibold text-gray-800">Assistant Professor</p>
-                    <p className="text-xs md:text-sm text-gray-500">Gachon University</p>
+                    <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-1">Affiliation</p>
+                    <p className="text-sm font-semibold text-gray-800">Assistant Professor</p>
+                    <p className="text-sm text-gray-500">Gachon University</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-10 group">
-                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-400 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
                     <MapPin size={14}/>
                   </div>
                   <div className="min-w-0">
-                    <p className="text-[10px] md:text-xs font-bold text-gray-400 mb-1">Office</p>
-                    <p className="text-xs md:text-sm font-semibold text-gray-800">Room 304, Gachon Hall</p>
+                    <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-1">Office</p>
+                    <p className="text-sm font-semibold text-gray-800">Room 304, Gachon Hall</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-10 group">
-                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-400 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
+                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-[#D6B14D]/10 group-hover:text-[#D6B14D] transition-colors shrink-0">
                     <Mail size={14}/>
                   </div>
                   <div className="min-w-0 flex-1">
-                    <p className="text-[10px] md:text-xs font-bold text-gray-400 mb-1">E-mail</p>
+                    <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-1">E-mail</p>
                     <div className="flex items-center gap-6">
-                      <a href={`mailto:${directorEmail}`} className="select-text text-xs md:text-sm font-semibold text-primary hover:underline break-all">
+                      <a href={`mailto:${directorEmail}`} className="select-text text-sm font-semibold text-primary hover:underline break-all">
                         {directorEmail}
                       </a>
                       <button 
@@ -1514,7 +1514,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                         className="size-20 flex items-center justify-center rounded-md hover:bg-gray-100 transition-colors shrink-0" 
                         title="Copy email"
                       >
-                        {emailCopied ? <Check size={10} className="text-[#9A7D1F]"/> : <Copy size={10} className="text-gray-400"/>}
+                        {emailCopied ? <Check size={10} className="text-[#9A7D1F]"/> : <Copy size={10} className="text-gray-500"/>}
                       </button>
                     </div>
                   </div>
@@ -1561,7 +1561,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                 className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Research Identifications</h3>
-                <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.researcherIds ? 'rotate-180' : ''}`}/>
+                <ChevronDown size={20} className={`text-gray-500 transition-transform duration-300 ${expandedSections.researcherIds ? 'rotate-180' : ''}`}/>
               </button>
               {expandedSections.researcherIds && (
               <div className="p-20 md:p-24 border-t border-gray-100">
@@ -1577,8 +1577,8 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                       <img src={`${import.meta.env.BASE_URL || '/'}images/orcid.webp`} alt="ORCID" className="w-full h-full object-contain" loading="lazy" decoding="async" />
                     </div>
                     <div className="flex-1 md:text-center">
-                      <p className="text-[10px] md:text-xs font-bold text-gray-400 mb-2 md:mb-4">ORCID</p>
-                      <p className="text-xs md:text-sm font-semibold text-gray-700 group-hover:text-[#9A7D1F] transition-colors">0000-0003-2596-7368</p>
+                      <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-2 md:mb-4">ORCID</p>
+                      <p className="text-sm font-semibold text-gray-700 group-hover:text-[#9A7D1F] transition-colors">0000-0003-2596-7368</p>
                     </div>
                     <ExternalLink size={12} className="ml-8 md:ml-0 md:mt-8 text-gray-300 group-hover:text-[#D6B14D] transition-colors shrink-0" />
                   </a>
@@ -1594,8 +1594,8 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                       <img src={`${import.meta.env.BASE_URL || '/'}images/scopus.webp`} alt="Scopus" className="w-full h-full object-contain" loading="lazy" decoding="async" />
                     </div>
                     <div className="flex-1 md:text-center">
-                      <p className="text-[10px] md:text-xs font-bold text-gray-400 mb-2 md:mb-4">Scopus</p>
-                      <p className="text-xs md:text-sm font-semibold text-gray-700 group-hover:text-[#9A7D1F] transition-colors">57224825321</p>
+                      <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-2 md:mb-4">Scopus</p>
+                      <p className="text-sm font-semibold text-gray-700 group-hover:text-[#9A7D1F] transition-colors">57224825321</p>
                     </div>
                     <ExternalLink size={12} className="ml-8 md:ml-0 md:mt-8 text-gray-300 group-hover:text-[#D6A076] transition-colors shrink-0" />
                   </a>
@@ -1611,8 +1611,8 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                       <img src={`${import.meta.env.BASE_URL || '/'}images/wos_logo.webp`} alt="Web of Science" className="w-full h-full object-contain" loading="lazy" decoding="async" />
                     </div>
                     <div className="flex-1 md:text-center">
-                      <p className="text-[10px] md:text-xs font-bold text-gray-400 mb-2 md:mb-4">Web of Science</p>
-                      <p className="text-xs md:text-sm font-semibold text-gray-700 group-hover:text-[#9A7D1F] transition-colors">EQW-9977-2022</p>
+                      <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-2 md:mb-4">Web of Science</p>
+                      <p className="text-sm font-semibold text-gray-700 group-hover:text-[#9A7D1F] transition-colors">EQW-9977-2022</p>
                     </div>
                     <ExternalLink size={12} className="ml-8 md:ml-0 md:mt-8 text-gray-300 group-hover:text-[#9A7D1F] transition-colors shrink-0" />
                   </a>
@@ -1628,7 +1628,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                 className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Publications</h3>
-                <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.publications ? 'rotate-180' : ''}`}/>
+                <ChevronDown size={20} className={`text-gray-500 transition-transform duration-300 ${expandedSections.publications ? 'rotate-180' : ''}`}/>
               </button>
               {expandedSections.publications && (
                 <div className="border-t border-gray-100 p-20 md:p-24 flex flex-col gap-16 md:gap-24">
@@ -1642,7 +1642,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                   </div>
 
                   {/* Publication Stats Grid - Colored */}
-                  <div className="grid grid-cols-3 sm:grid-cols-5 lg:grid-cols-9 gap-8 md:gap-12">
+                  <div className="grid grid-cols-3 sm:grid-cols-5 xl:grid-cols-9 gap-8 md:gap-12">
                     {pubStats.map((stat, index) => {
                       const getStatColor = (label: string) => {
                         switch(label) {
@@ -1686,7 +1686,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                 className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Collaboration Network</h3>
-                <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.collaborationNetwork ? 'rotate-180' : ''}`}/>
+                <ChevronDown size={20} className={`text-gray-500 transition-transform duration-300 ${expandedSections.collaborationNetwork ? 'rotate-180' : ''}`}/>
               </button>
               {expandedSections.collaborationNetwork && (
                 <div className="border-t border-gray-100 p-20 md:p-24">
@@ -1702,7 +1702,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                 className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
               >
                 <h3 className="text-lg md:text-xl font-bold text-gray-900">Academic Service</h3>
-                <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.academicService ? 'rotate-180' : ''}`}/>
+                <ChevronDown size={20} className={`text-gray-500 transition-transform duration-300 ${expandedSections.academicService ? 'rotate-180' : ''}`}/>
               </button>
               {expandedSections.academicService && (
                 <div className="border-t border-gray-100">
@@ -1714,26 +1714,26 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                     >
                       <div className="flex items-center gap-8">
                         <p className="text-sm md:text-base font-bold text-gray-900">Editorial Service</p>
-                        <span className="px-8 py-2 bg-[#E8889C] text-white text-[10px] font-bold rounded-full">{editorialBoards.length}</span>
+                        <span className="px-8 py-2 bg-[#E8889C] text-white text-[10px] md:text-[11px] font-bold rounded-full">{editorialBoards.length}</span>
                       </div>
-                      <ChevronDown size={16} className={`text-gray-400 transition-transform duration-300 ${expandedSections.editorialBoard ? 'rotate-180' : ''}`}/>
+                      <ChevronDown size={16} className={`text-gray-500 transition-transform duration-300 ${expandedSections.editorialBoard ? 'rotate-180' : ''}`}/>
                     </button>
                     {expandedSections.editorialBoard && (
                       <div className="px-16 md:px-20 pb-16 md:pb-20 space-y-8">
                         {editorialBoards.map((item) => (
                           <div key={item.id} className="flex flex-col md:flex-row md:items-center md:justify-between p-12 bg-white rounded-lg border border-gray-100 hover:border-[#E8889C]/30 hover:shadow-md transition-all gap-4 md:gap-12">
                             <div className="flex-1 min-w-0 break-words">
-                              <p className="text-xs md:text-sm font-semibold text-gray-700">{item.name}</p>
-                              {item.specialIssue && <p className="text-[10px] md:text-xs text-gray-400 mt-1">Special Issue: {item.specialIssue}</p>}
+                              <p className="text-sm font-semibold text-gray-700">{item.name}</p>
+                              {item.specialIssue && <p className="text-[10px] md:text-xs text-gray-500 mt-1">Special Issue: {item.specialIssue}</p>}
                               <div className="flex items-center gap-6 mt-4 md:hidden">
-                                <span className="px-6 py-1 text-[9px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{item.type}</span>
-                                <span className="px-6 py-1 text-[9px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{item.role}</span>
-                                <span className="text-[10px] text-gray-400 font-medium">{toYearMonth(item.since || '')} – Present</span>
+                                <span className="px-6 py-1 text-[10px] md:text-[11px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{item.type}</span>
+                                <span className="px-6 py-1 text-[10px] md:text-[11px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{item.role}</span>
+                                <span className="text-[10px] md:text-[11px] text-gray-500 font-medium">{toYearMonth(item.since || '')} – Present</span>
                               </div>
                             </div>
                             <div className="hidden md:flex items-center gap-6 shrink-0">
-                              <span className="px-6 py-2 text-[9px] md:text-[10px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{item.type}</span>
-                              <span className="px-6 py-2 text-[9px] md:text-[10px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{item.role}</span>
+                              <span className="px-6 py-2 text-[10px] md:text-[11px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{item.type}</span>
+                              <span className="px-6 py-2 text-[10px] md:text-[11px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{item.role}</span>
                               <span className="inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm whitespace-nowrap">{toYearMonth(item.since || '')} – Present</span>
                             </div>
                           </div>
@@ -1750,26 +1750,26 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                     >
                       <div className="flex items-center gap-8">
                         <p className="text-sm md:text-base font-bold text-gray-900">Academic Memberships</p>
-                        <span className="px-8 py-2 bg-[#E8889C] text-white text-[10px] font-bold rounded-full">{memberships.length}</span>
+                        <span className="px-8 py-2 bg-[#E8889C] text-white text-[10px] md:text-[11px] font-bold rounded-full">{memberships.length}</span>
                       </div>
-                      <ChevronDown size={16} className={`text-gray-400 transition-transform duration-300 ${expandedSections.academicMemberships ? 'rotate-180' : ''}`}/>
+                      <ChevronDown size={16} className={`text-gray-500 transition-transform duration-300 ${expandedSections.academicMemberships ? 'rotate-180' : ''}`}/>
                     </button>
                     {expandedSections.academicMemberships && (
                       <div className="px-16 md:px-20 pb-16 md:pb-20 space-y-8">
                         {memberships.map((item) => (
                           <div key={item.id} className="flex flex-col md:flex-row md:items-center md:justify-between p-12 bg-white rounded-lg border border-gray-100 hover:border-[#E8889C]/30 hover:shadow-md transition-all gap-4 md:gap-12">
                             <div className="flex-1 min-w-0 break-words">
-                              <p className="text-xs md:text-sm font-semibold text-gray-700">{item.name}</p>
+                              <p className="text-sm font-semibold text-gray-700">{item.name}</p>
                               {item.name_ko && (
                                 <p className="text-[10px] md:text-xs text-gray-500 mt-2">{item.name_ko}</p>
                               )}
                               <div className="flex items-center gap-6 mt-4 md:hidden">
-                                <span className="px-6 py-1 text-[9px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{item.type}</span>
-                                <span className="text-[10px] text-gray-400 font-medium">{toYearMonth(item.since || '')} – Present</span>
+                                <span className="px-6 py-1 text-[10px] md:text-[11px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{item.type}</span>
+                                <span className="text-[10px] md:text-[11px] text-gray-500 font-medium">{toYearMonth(item.since || '')} – Present</span>
                               </div>
                             </div>
                             <div className="hidden md:flex items-center gap-6 shrink-0">
-                              <span className="px-6 py-2 text-[9px] md:text-[10px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{item.type}</span>
+                              <span className="px-6 py-2 text-[10px] md:text-[11px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{item.type}</span>
                               <span className="inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm whitespace-nowrap">{toYearMonth(item.since || '')} – Present</span>
                             </div>
                           </div>
@@ -1786,9 +1786,9 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                     >
                       <div className="flex items-center gap-8">
                         <p className="text-sm md:text-base font-bold text-gray-900">Program Committee</p>
-                        <span className="px-8 py-2 bg-[#E8889C] text-white text-[10px] font-bold rounded-full">{committees.length}</span>
+                        <span className="px-8 py-2 bg-[#E8889C] text-white text-[10px] md:text-[11px] font-bold rounded-full">{committees.length}</span>
                       </div>
-                      <ChevronDown size={16} className={`text-gray-400 transition-transform duration-300 ${expandedSections.programCommittee ? 'rotate-180' : ''}`}/>
+                      <ChevronDown size={16} className={`text-gray-500 transition-transform duration-300 ${expandedSections.programCommittee ? 'rotate-180' : ''}`}/>
                     </button>
                     {expandedSections.programCommittee && (
                       <div className="px-16 md:px-20 pb-16 md:pb-20">
@@ -1798,24 +1798,24 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                               <a key={comm.id} href={comm.url || '#'} target="_blank" rel="noopener noreferrer"
                                 className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-[#E8889C]/30 gap-4 md:gap-12">
                                 <div className="flex-1 min-w-0 break-words">
-                                  <p className="text-xs md:text-sm font-semibold text-gray-700">{comm.name}</p>
+                                  <p className="text-sm font-semibold text-gray-700">{comm.name}</p>
                                   {comm.name_ko && (
                                     <p className="text-[10px] md:text-xs text-gray-500 mt-2">{comm.name_ko}</p>
                                   )}
                                   <div className="flex items-center gap-6 mt-4 md:hidden">
-                                    <span className="px-6 py-1 text-[9px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{comm.type}</span>
-                                    <span className="text-[10px] text-gray-400 font-medium">{toYearMonth(comm.period || comm.since || '')}</span>
+                                    <span className="px-6 py-1 text-[10px] md:text-[11px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{comm.type}</span>
+                                    <span className="text-[10px] md:text-[11px] text-gray-500 font-medium">{toYearMonth(comm.period || comm.since || '')}</span>
                                   </div>
                                 </div>
                                 <div className="hidden md:flex items-center gap-6 shrink-0">
-                                  <span className="px-6 py-2 text-[9px] md:text-[10px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{comm.type}</span>
+                                  <span className="px-6 py-2 text-[10px] md:text-[11px] font-bold rounded" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>{comm.type}</span>
                                   <span className="inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm whitespace-nowrap">{toYearMonth(comm.period || comm.since || '')}</span>
                                 </div>
                               </a>
                             ))}
                           </div>
                         ) : (
-                          <div className="py-8 text-xs text-gray-400">Coming soon...</div>
+                          <div className="py-8 text-xs text-gray-500">Coming soon...</div>
                         )}
                       </div>
                     )}
@@ -1829,9 +1829,9 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                     >
                       <div className="flex items-center gap-8">
                         <p className="text-sm md:text-base font-bold text-gray-900">Session Chair</p>
-                        <span className="px-8 py-2 bg-[#E8889C] text-white text-[10px] font-bold rounded-full">{sessionChairs.length}</span>
+                        <span className="px-8 py-2 bg-[#E8889C] text-white text-[10px] md:text-[11px] font-bold rounded-full">{sessionChairs.length}</span>
                       </div>
-                      <ChevronDown size={16} className={`text-gray-400 transition-transform duration-300 ${expandedSections.sessionChair ? 'rotate-180' : ''}`}/>
+                      <ChevronDown size={16} className={`text-gray-500 transition-transform duration-300 ${expandedSections.sessionChair ? 'rotate-180' : ''}`}/>
                     </button>
                     {expandedSections.sessionChair && (
                       <div className="px-16 md:px-20 pb-16 md:pb-20">
@@ -1841,18 +1841,18 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                               <a key={chair.id} href={chair.url || '#'} target="_blank" rel="noopener noreferrer"
                                 className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-[#D6B14D]/30 gap-4 md:gap-12">
                                 <div className="flex-1 min-w-0 break-words">
-                                  <p className="text-xs md:text-sm font-semibold text-gray-700">{chair.name}</p>
+                                  <p className="text-sm font-semibold text-gray-700">{chair.name}</p>
                                   {chair.name_ko && (
                                     <p className="text-[10px] md:text-xs text-gray-500 mt-2">{chair.name_ko}</p>
                                   )}
-                                  <span className="md:hidden block text-[10px] text-gray-400 font-medium mt-2">{toYearMonth(chair.period || chair.since || '')}</span>
+                                  <span className="md:hidden block text-[10px] md:text-[11px] text-gray-500 font-medium mt-2">{toYearMonth(chair.period || chair.since || '')}</span>
                                 </div>
                                 <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap md:min-w-[168px]">{toYearMonth(chair.period || chair.since || '')}</span>
                               </a>
                             ))}
                           </div>
                         ) : (
-                          <div className="py-8 text-xs text-gray-400">Coming soon...</div>
+                          <div className="py-8 text-xs text-gray-500">Coming soon...</div>
                         )}
                       </div>
                     )}
@@ -1866,9 +1866,9 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                     >
                       <div className="flex items-center gap-8">
                         <p className="text-sm md:text-base font-bold text-gray-900">Discussant</p>
-                        <span className="px-8 py-2 bg-[#E8889C] text-white text-[10px] font-bold rounded-full">{discussants.length}</span>
+                        <span className="px-8 py-2 bg-[#E8889C] text-white text-[10px] md:text-[11px] font-bold rounded-full">{discussants.length}</span>
                       </div>
-                      <ChevronDown size={16} className={`text-gray-400 transition-transform duration-300 ${expandedSections.discussant ? 'rotate-180' : ''}`}/>
+                      <ChevronDown size={16} className={`text-gray-500 transition-transform duration-300 ${expandedSections.discussant ? 'rotate-180' : ''}`}/>
                     </button>
                     {expandedSections.discussant && (
                       <div className="px-16 md:px-20 pb-16 md:pb-20">
@@ -1878,18 +1878,18 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                               <a key={d.id} href={d.url || '#'} target="_blank" rel="noopener noreferrer"
                                 className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-[#D6B14D]/30 gap-4 md:gap-12">
                                 <div className="flex-1 min-w-0 break-words">
-                                  <p className="text-xs md:text-sm font-semibold text-gray-700">{d.name}</p>
+                                  <p className="text-sm font-semibold text-gray-700">{d.name}</p>
                                   {d.name_ko && (
                                     <p className="text-[10px] md:text-xs text-gray-500 mt-2">{d.name_ko}</p>
                                   )}
-                                  <span className="md:hidden block text-[10px] text-gray-400 font-medium mt-2">{toYearMonth(d.period || d.since || '')}</span>
+                                  <span className="md:hidden block text-[10px] md:text-[11px] text-gray-500 font-medium mt-2">{toYearMonth(d.period || d.since || '')}</span>
                                 </div>
                                 <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap md:min-w-[168px]">{toYearMonth(d.period || d.since || '')}</span>
                               </a>
                             ))}
                           </div>
                         ) : (
-                          <div className="py-8 text-xs text-gray-400">Coming soon...</div>
+                          <div className="py-8 text-xs text-gray-500">Coming soon...</div>
                         )}
                       </div>
                     )}
@@ -1903,9 +1903,9 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                     >
                       <div className="flex items-center gap-8">
                         <p className="text-sm md:text-base font-bold text-gray-900">Journal Reviewer</p>
-                        <span className="px-8 py-2 bg-[#E8889C] text-white text-[10px] font-bold rounded-full">{journals.length}</span>
+                        <span className="px-8 py-2 bg-[#E8889C] text-white text-[10px] md:text-[11px] font-bold rounded-full">{journals.length}</span>
                       </div>
-                      <ChevronDown size={16} className={`text-gray-400 transition-transform duration-300 ${expandedSections.journalReviewer ? 'rotate-180' : ''}`}/>
+                      <ChevronDown size={16} className={`text-gray-500 transition-transform duration-300 ${expandedSections.journalReviewer ? 'rotate-180' : ''}`}/>
                     </button>
                     {expandedSections.journalReviewer && (
                       <div className="px-16 md:px-20 pb-16 md:pb-20">
@@ -1913,8 +1913,8 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                           {journals.map((journal) => (
                             <a key={journal.id} href={journal.url} target="_blank" rel="noopener noreferrer"
                               className="flex flex-row items-center justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-[#D6B14D]/30 gap-8">
-                              <p className="flex-1 min-w-0 text-xs md:text-sm font-semibold text-gray-700">{journal.name}</p>
-                              <span className={`shrink-0 whitespace-nowrap px-6 py-2 rounded text-[9px] md:text-[10px] font-bold ${
+                              <p className="flex-1 min-w-0 text-sm font-semibold text-gray-700">{journal.name}</p>
+                              <span className={`shrink-0 whitespace-nowrap px-6 py-2 rounded text-[10px] md:text-[11px] font-bold ${
                                 journal.type === 'SCIE' || journal.type === 'SSCI' || journal.type === 'A&HCI' ? 'bg-[#D6B14D] text-white' :
                                 journal.type === 'ESCI' || journal.type === 'SCOPUS' || journal.type === 'Scopus' ? 'bg-[#D6C360] text-white' :
                                 'bg-[#64748b] text-white'
@@ -1934,9 +1934,9 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                     >
                       <div className="flex items-center gap-8">
                         <p className="text-sm md:text-base font-bold text-gray-900">Conference Reviewer</p>
-                        <span className="px-8 py-2 bg-[#E8889C] text-white text-[10px] font-bold rounded-full">{conferenceReviewers.length}</span>
+                        <span className="px-8 py-2 bg-[#E8889C] text-white text-[10px] md:text-[11px] font-bold rounded-full">{conferenceReviewers.length}</span>
                       </div>
-                      <ChevronDown size={16} className={`text-gray-400 transition-transform duration-300 ${expandedSections.conferenceReviewer ? 'rotate-180' : ''}`}/>
+                      <ChevronDown size={16} className={`text-gray-500 transition-transform duration-300 ${expandedSections.conferenceReviewer ? 'rotate-180' : ''}`}/>
                     </button>
                     {expandedSections.conferenceReviewer && (
                       <div className="px-16 md:px-20 pb-16 md:pb-20">
@@ -1945,8 +1945,8 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                             <a key={conf.id} href={conf.url || '#'} target="_blank" rel="noopener noreferrer"
                               className="flex flex-col md:flex-row md:items-center md:justify-between p-12 rounded-lg transition-all hover:shadow-md bg-white border border-gray-100 hover:border-[#D6B14D]/30 gap-4 md:gap-8">
                               <div className="flex flex-col">
-                                <span className="text-xs md:text-sm font-bold text-gray-700">{conf.name}</span>
-                                <span className="md:hidden text-[10px] text-gray-400 font-medium mt-2">{toYearMonth(conf.period || conf.since || '')}</span>
+                                <span className="text-sm font-bold text-gray-700">{conf.name}</span>
+                                <span className="md:hidden text-[10px] md:text-[11px] text-gray-500 font-medium mt-2">{toYearMonth(conf.period || conf.since || '')}</span>
                               </div>
                               <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap md:min-w-[168px]">
                                 {toYearMonth(conf.period || conf.since || '')}
@@ -1969,13 +1969,13 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                   className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
                 >
                   <h3 className="text-lg md:text-xl font-bold text-gray-900">Projects</h3>
-                  <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.projects ? 'rotate-180' : ''}`}/>
+                  <ChevronDown size={20} className={`text-gray-500 transition-transform duration-300 ${expandedSections.projects ? 'rotate-180' : ''}`}/>
                 </button>
                 {expandedSections.projects && (
                 <div className="p-20 md:p-24 border-t border-gray-100">
                 {/* Search */}
                 <div className="relative mb-16">
-                  <Search size={16} className="absolute left-12 top-1/2 -translate-y-1/2 text-gray-400" />
+                  <Search size={16} className="absolute left-12 top-1/2 -translate-y-1/2 text-gray-500" />
                   <input
                     type="text"
                     placeholder="Search projects..."
@@ -2021,7 +2021,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                             <span className="text-gray-500">&nbsp;Research {acadCount === 1 ? 'Project' : 'Projects'}</span>
                           </span>
                           {/* Mobile: 1-line abbreviations */}
-                          <span className="sm:hidden inline-flex items-center px-8 py-4 bg-white rounded-lg text-[9px] font-medium shadow-sm">
+                          <span className="sm:hidden inline-flex items-center px-8 py-4 bg-white rounded-lg text-[10px] md:text-[11px] font-medium shadow-sm">
                             <span className="font-bold text-[#D6B14D]">{govCount}</span>
                             <span className="text-gray-500">&nbsp;Gov.</span>
                             <span className="text-gray-300">&nbsp;·&nbsp;</span>
@@ -2035,7 +2035,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                             <span className="text-gray-500">&nbsp;Res.</span>
                           </span>
                         </div>
-                        {expandedProjectYears.includes(year) ? <ChevronUp size={18} className="text-gray-400" /> : <ChevronDown size={18} className="text-gray-400" />}
+                        {expandedProjectYears.includes(year) ? <ChevronUp size={18} className="text-gray-500" /> : <ChevronDown size={18} className="text-gray-500" />}
                       </button>
                       {expandedProjectYears.includes(year) && (
                         <div className="border-t border-gray-100 divide-y divide-gray-50">
@@ -2107,20 +2107,20 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                                 }}>
                                   <div className="flex items-center gap-8">
                                     {/* Type | Role Label */}
-                                    <span className={`text-[9px] font-bold tracking-wide ${
+                                    <span className={`text-[10px] md:text-[11px] font-bold tracking-wide ${
                                       'text-white'
                                     }`}>
                                       {typeLabels[project.type]} Project
                                     </span>
                                     <span className={`w-px h-12 ${'bg-white/50'}`} />
-                                    <span className={`text-[9px] font-bold tracking-wide ${
+                                    <span className={`text-[10px] md:text-[11px] font-bold tracking-wide ${
                                       'text-white'
                                     }`}>
                                       {directorRole}
                                     </span>
                                   </div>
                                   {/* Right side: Status badge */}
-                                  <span className={`px-8 py-3 rounded text-[9px] font-bold ${
+                                  <span className={`px-8 py-3 rounded text-[10px] md:text-[11px] font-bold ${
                                     isOngoing ? 'bg-white/90 text-[#D6B14D]' : 'bg-white/70 text-gray-500'
                                   }`}>
                                     {isOngoing ? 'Ongoing' : 'Completed'}
@@ -2130,18 +2130,18 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                                 <div className="p-12 md:p-16">
                                 <div className="flex items-start gap-10 md:gap-14">
                                   {/* Left badge - Type + Status - Desktop only */}
-                                  <div className="hidden md:flex flex-col items-center shrink-0 w-60">
+                                  <div className="hidden md:flex flex-col items-center shrink-0 w-72">
                                     <div className={`w-full py-5 rounded-lg text-center ${typeBgColors[project.type]} shadow-sm`}>
                                       <Icon size={12} className="inline mb-1 text-white" />
-                                      <span className="block text-[9px] font-bold tracking-wide text-white">
+                                      <span className="block text-[10px] md:text-[11px] font-bold tracking-wide text-white">
                                         {typeLabels[project.type]}
                                       </span>
                                     </div>
                                     <div className={`w-full mt-3 py-3 text-center rounded-md ${
                                       isOngoing ? 'bg-[#FFF9E6] border border-[#FFEB99]' : 'bg-gray-50 border border-gray-200'
                                     }`}>
-                                      <span className={`text-[9px] font-bold ${
-                                        isOngoing ? 'text-[#D6B14D]' : 'text-gray-400'
+                                      <span className={`text-[10px] md:text-[11px] font-bold ${
+                                        isOngoing ? 'text-[#D6B14D]' : 'text-gray-500'
                                       }`}>
                                         {isOngoing ? 'Ongoing' : 'Completed'}
                                       </span>
@@ -2157,11 +2157,11 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                                     {/* Title + Period (Desktop: Period on right) */}
                                     <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4 md:gap-16">
                                       <div className="flex-1 min-w-0 break-words">
-                                        <p className="text-sm md:text-md font-bold text-gray-900 leading-relaxed whitespace-pre-line">{project.titleKo}</p>
-                                        <p className="text-xs md:text-sm text-gray-600 mt-4 leading-relaxed whitespace-pre-line">{project.titleEn}</p>
-                                        <p className="text-xs md:text-sm text-gray-500 mt-3 whitespace-pre-line"><span className="font-bold">{project.language === 'ko' && project.fundingAgencyKo ? project.fundingAgencyKo : project.fundingAgency}</span></p>
+                                        <p className="text-base md:text-md font-bold text-gray-900 leading-relaxed whitespace-pre-line">{project.titleKo}</p>
+                                        <p className="text-sm text-gray-600 mt-4 leading-relaxed whitespace-pre-line">{project.titleEn}</p>
+                                        <p className="text-sm text-gray-500 mt-3 whitespace-pre-line"><span className="font-bold">{project.language === 'ko' && project.fundingAgencyKo ? project.fundingAgencyKo : project.fundingAgency}</span></p>
                                         {/* Mobile: Period as text */}
-                                        <p className="md:hidden text-[10px] text-gray-400 font-medium mt-4">{project.period}</p>
+                                        <p className="md:hidden text-[10px] md:text-[11px] text-gray-500 font-medium mt-4">{project.period}</p>
                                       </div>
                                       {/* PC: Period badge - right aligned */}
                                       <span className="hidden md:inline-flex items-center justify-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-xs font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap md:min-w-[168px]">
@@ -2193,14 +2193,14 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                   className="w-full flex items-center justify-between p-20 md:p-24 fbar fbar-section"
                 >
                   <h3 className="text-lg md:text-xl font-bold text-gray-900">Teaching</h3>
-                  <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${expandedSections.teaching ? 'rotate-180' : ''}`}/>
+                  <ChevronDown size={20} className={`text-gray-500 transition-transform duration-300 ${expandedSections.teaching ? 'rotate-180' : ''}`}/>
                 </button>
                 {expandedSections.teaching && (
                 <div className="p-20 md:p-24 border-t border-gray-100">
 
                 {/* Search */}
                 <div className="relative mb-16">
-                  <Search size={16} className="absolute left-12 top-1/2 -translate-y-1/2 text-gray-400" />
+                  <Search size={16} className="absolute left-12 top-1/2 -translate-y-1/2 text-gray-500" />
                   <input
                     type="text"
                     placeholder="Search courses..."
@@ -2219,9 +2219,9 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                     >
                       <div className="flex items-center gap-8">
                         <p className="text-sm font-bold text-gray-900">Lecturer</p>
-                        <span className="px-8 py-2 bg-[#D6B14D] text-gray-900 text-[10px] font-bold rounded-full">{lecturerSemesters}</span>
+                        <span className="px-8 py-2 bg-[#D6B14D] text-gray-900 text-[10px] md:text-[11px] font-bold rounded-full">{lecturerSemesters}</span>
                       </div>
-                      <ChevronDown size={18} className={`text-gray-400 transition-transform duration-200 ${expandedSections.lecturer ? 'rotate-180' : ''}`}/>
+                      <ChevronDown size={18} className={`text-gray-500 transition-transform duration-200 ${expandedSections.lecturer ? 'rotate-180' : ''}`}/>
                     </button>
                     {expandedSections.lecturer && (
                     <div className="space-y-12 p-16">
@@ -2264,7 +2264,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                                   <span key={i} className="inline-flex items-center gap-3 px-8 py-2 bg-primary/10 text-primary text-[10px] md:text-xs font-bold rounded-full">
                                     {period}
                                     {course.credits[period] && (
-                                      <span className="inline-flex items-center justify-center size-14 md:size-16 rounded-full bg-primary/20 text-primary text-[9px] md:text-[10px] font-bold">
+                                      <span className="inline-flex items-center justify-center size-14 md:size-16 rounded-full bg-primary/20 text-primary text-[10px] md:text-[11px] font-bold">
                                         {course.credits[period]}
                                       </span>
                                     )}
@@ -2273,9 +2273,9 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                               </div>
                               <p className="text-sm md:text-base font-bold text-gray-700">{course.courseNameKo || course.courseName}</p>
                               {course.courseNameKo && course.courseName !== course.courseNameKo && (
-                                <p className="text-xs md:text-sm text-gray-500 mt-2">{course.courseName}</p>
+                                <p className="text-sm text-gray-500 mt-2">{course.courseName}</p>
                               )}
-                              <p className="text-xs md:text-sm font-bold text-gray-500 mt-4">{getSchoolKo(course.school)}</p>
+                              <p className="text-sm font-bold text-gray-500 mt-4">{getSchoolKo(course.school)}</p>
                             </div>
                           </div>
                         </div>
@@ -2295,9 +2295,9 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                     >
                       <div className="flex items-center gap-8">
                         <p className="text-sm font-bold text-gray-900">Teaching Assistant</p>
-                        <span className="px-8 py-2 text-white text-[10px] font-bold rounded-full" style={{backgroundColor: '#E8889C'}}>{taSemesters}</span>
+                        <span className="px-8 py-2 text-white text-[10px] md:text-[11px] font-bold rounded-full" style={{backgroundColor: '#E8889C'}}>{taSemesters}</span>
                       </div>
-                      <ChevronDown size={18} className={`text-gray-400 transition-transform duration-200 ${expandedSections.teachingAssistant ? 'rotate-180' : ''}`}/>
+                      <ChevronDown size={18} className={`text-gray-500 transition-transform duration-200 ${expandedSections.teachingAssistant ? 'rotate-180' : ''}`}/>
                     </button>
                     {expandedSections.teachingAssistant && (
                     <div className="space-y-12 p-16">
@@ -2340,7 +2340,7 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                                   <span key={i} className="inline-flex items-center gap-3 px-8 py-2 text-[10px] md:text-xs font-bold rounded-full" style={{backgroundColor: 'rgba(232,136,156,0.15)', color: '#E8889C'}}>
                                     {period}
                                     {course.credits[period] && (
-                                      <span className="inline-flex items-center justify-center size-14 md:size-16 rounded-full text-[9px] md:text-[10px] font-bold" style={{backgroundColor: 'rgba(232,136,156,0.25)', color: '#E8889C'}}>
+                                      <span className="inline-flex items-center justify-center size-14 md:size-16 rounded-full text-[10px] md:text-[11px] font-bold" style={{backgroundColor: 'rgba(232,136,156,0.25)', color: '#E8889C'}}>
                                         {course.credits[period]}
                                       </span>
                                     )}
@@ -2353,9 +2353,9 @@ export const MembersDirectorPortfolioAcademicTemplate = () => {
                                 ))}
                               </p>
                               {course.courseNameKo && course.courseName !== course.courseNameKo && (
-                                <p className="text-xs md:text-sm text-gray-500 mt-2">{course.courseName}</p>
+                                <p className="text-sm text-gray-500 mt-2">{course.courseName}</p>
                               )}
-                              <p className="text-xs md:text-sm font-bold text-gray-500 mt-4">{getSchoolKo(course.school)}</p>
+                              <p className="text-sm font-bold text-gray-500 mt-4">{getSchoolKo(course.school)}</p>
                             </div>
                           </div>
                         </div>

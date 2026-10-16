@@ -273,11 +273,11 @@ export const HomeTemplate = () => {
           
           {/* Text */}
           <div className="text-center">
-            <h1 className="text-[23px] font-bold leading-none tracking-tight">
+            <h1 className="text-[25px] font-bold leading-none tracking-tight">
               <span style={{ color: '#D6B14D' }}>FINDS</span>{' '}
               <span className="text-gray-900">Lab</span>
             </h1>
-            <div className="mt-13 text-[10px] font-semibold tracking-wide">
+            <div className="mt-13 text-[10px] md:text-[11px] font-semibold tracking-wide">
               <span style={{ color: '#D6B14D' }}>F</span>
               <span style={{ color: '#E8D688' }}>inancial </span>
               <span style={{ color: '#D6B14D' }}>D</span>
@@ -386,7 +386,7 @@ export const HomeTemplate = () => {
                   </div>
                   {/* Verb - large accent word */}
                   <div className="flex items-baseline gap-10">
-                    <span className="text-2xl md:text-[40px] lg:text-[52px] xl:text-[60px] font-black tracking-tight bg-gradient-to-r from-[#9A7D1F] to-[#B8962D] bg-clip-text text-transparent leading-tight pb-2 cursor-pointer transition-all duration-500 hover:drop-shadow-[0_0_25px_rgba(214,177,77,0.7)] hover:brightness-125 hover:scale-[1.02]">
+                    <span className="text-2xl md:text-[40px] lg:text-[48px] xl:text-[60px] font-black tracking-tight bg-gradient-to-r from-[#9A7D1F] to-[#B8962D] bg-clip-text text-transparent leading-tight pb-2 cursor-pointer transition-all duration-500 hover:drop-shadow-[0_0_25px_rgba(214,177,77,0.7)] hover:brightness-125 hover:scale-[1.02]">
                       {slide.verb}
                     </span>
                     <span className="hidden lg:block w-12 lg:w-20 h-[2px] bg-gradient-to-r from-[#D6B14D] to-transparent rounded-full" />
@@ -397,7 +397,7 @@ export const HomeTemplate = () => {
                       <Link
                         key={btnIndex}
                         to={button.path}
-                        className="px-12 md:px-18 lg:px-20 py-8 md:py-14 lg:py-16 bg-primary text-white text-xs md:text-sm lg:text-md font-medium rounded-xl hover:bg-primary/90 transition-colors whitespace-nowrap"
+                        className="px-12 md:px-18 lg:px-20 py-8 md:py-14 lg:py-16 bg-primary text-white text-sm lg:text-md font-medium rounded-xl hover:bg-primary/90 transition-colors whitespace-nowrap"
                       >
                         {button.label}
                       </Link>
@@ -466,7 +466,7 @@ export const HomeTemplate = () => {
                     <path d="M15 18h-5" />
                     <path d="M10 6h8v4h-8V6Z" />
                   </svg>
-                  <h3 className="text-lg md:text-xl lg:text-[26px] font-semibold text-gray-900">News</h3>
+                  <h3 className="text-lg md:text-xl lg:text-[25px] font-semibold text-gray-900">News</h3>
                 </div>
                 <Link
                   to="/archives/news"
@@ -495,7 +495,7 @@ export const HomeTemplate = () => {
                       className="flex items-center justify-between px-12 md:px-14 lg:px-16 py-12 md:py-14 lg:py-16 border-b border-gray-100 last:border-b-0 hover:bg-gray-50 transition-colors cursor-pointer"
                     >
                       <span className="text-sm md:text-base font-medium text-gray-900 truncate flex-1 mr-12">· {item.title}</span>
-                      <span className="text-xs md:text-sm lg:text-base text-gray-500 shrink-0">{item.date}</span>
+                      <span className="text-sm lg:text-base text-gray-500 shrink-0">{item.date}</span>
                     </Link>
                   ))
                 ) : (
@@ -521,7 +521,7 @@ export const HomeTemplate = () => {
                     <path d="m3 11 18-5v12L3 13v-2z" />
                     <path d="M11.6 16.8a3 3 0 1 1-5.8-1.6" />
                   </svg>
-                  <h3 className="text-lg md:text-xl lg:text-[26px] font-semibold text-gray-900">Notice</h3>
+                  <h3 className="text-lg md:text-xl lg:text-[25px] font-semibold text-gray-900">Notice</h3>
                 </div>
                 <Link
                   to="/archives/notice"
@@ -550,7 +550,7 @@ export const HomeTemplate = () => {
                       className="flex items-center justify-between px-12 md:px-14 lg:px-16 py-12 md:py-14 lg:py-16 border-b border-gray-100 last:border-b-0 hover:bg-gray-50 transition-colors cursor-pointer"
                     >
                       <span className="text-sm md:text-base font-medium text-gray-900 truncate flex-1 mr-12">· {item.title}</span>
-                      <span className="text-xs md:text-sm lg:text-base text-gray-500 shrink-0">{item.date}</span>
+                      <span className="text-sm lg:text-base text-gray-500 shrink-0">{item.date}</span>
                     </Link>
                   ))
                 ) : (

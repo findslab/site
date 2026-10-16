@@ -97,7 +97,7 @@ const FilterModal = ({
         <h3 className="text-base font-bold text-gray-900">Filters</h3>
         <button
           onClick={onClose}
-          className="size-28 flex items-center justify-center rounded-lg hover:bg-gray-100 transition-colors text-gray-400 hover:text-gray-600"
+          className="size-28 flex items-center justify-center rounded-lg hover:bg-gray-100 transition-colors text-gray-500 hover:text-gray-600"
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
         </button>
@@ -115,7 +115,7 @@ const FilterModal = ({
                     onChange(section.key, item)
                   }}
                   className={clsx(
-                    'px-12 md:px-16 py-6 md:py-8 rounded-lg text-xs md:text-sm font-medium transition-all border',
+                    'px-12 md:px-16 py-6 md:py-8 rounded-lg text-sm font-medium transition-all border',
                     isActive
                       ? 'bg-primary text-white border-primary shadow-sm'
                       : 'bg-white text-[#7f8894] border-[#f0f0f0] hover:border-[#D6B14D]/30 hover:bg-gray-50'
@@ -129,7 +129,7 @@ const FilterModal = ({
         </div>
       ))}
       <div className="flex justify-end pt-16 border-t border-gray-100">
-        <button onClick={onReset} className="px-16 py-8 text-sm font-medium text-gray-400 hover:text-primary transition-colors">
+        <button onClick={onReset} className="px-16 py-8 text-sm font-medium text-gray-500 hover:text-primary transition-colors">
           Reset all filters
         </button>
       </div>
@@ -324,7 +324,7 @@ export const LecturesTemplate = () => {
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20">
         <div className="py-20 md:py-32 border-b border-gray-100">
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-            <Link to="/" className="text-gray-400 hover:text-primary transition-all duration-300 hover:scale-110">
+            <Link to="/" className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110">
               <Home size={16} />
             </Link>
             <span className="text-gray-200">—</span>
@@ -390,10 +390,10 @@ export const LecturesTemplate = () => {
             <div className="flex flex-wrap items-center gap-8 mt-12">
               {[...filters.role.map(r => ({ label: r, key: 'role' as const })), ...filters.school.map(s => ({ label: s, key: 'school' as const })), ...filters.year.map(y => ({ label: y, key: 'year' as const }))].map((item) => (
                 <button key={`${item.key}-${item.label}`} onClick={() => handleFilterChange(item.key, item.label)} className="flex items-center gap-4 px-10 py-4 rounded-full text-xs font-medium border transition-all hover:opacity-70 bg-primary/5 border-primary/20 text-primary">
-                  {item.label} <span className="text-[10px]">✕</span>
+                  {item.label} <span className="text-[10px] md:text-[11px]">✕</span>
                 </button>
               ))}
-              <button onClick={handleFilterReset} className="text-xs text-gray-400 hover:text-primary transition-colors ml-4">Clear all</button>
+              <button onClick={handleFilterReset} className="text-xs text-gray-500 hover:text-primary transition-colors ml-4">Clear all</button>
             </div>
           )}
         </div>
@@ -452,7 +452,7 @@ export const LecturesTemplate = () => {
                                       isLecturer ? 'bg-[#D6B14D]' : 'bg-[#AC0E0E]'
                                     )}
                                   >
-                                    <span className="text-xs md:text-sm font-bold text-white">{isLecturer ? 'L' : 'TA'}</span>
+                                    <span className="text-sm font-bold text-white">{isLecturer ? 'L' : 'TA'}</span>
                                   </div>
                                 </div>
 

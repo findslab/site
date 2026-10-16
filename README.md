@@ -50,9 +50,9 @@ pnpm run preview
 
 | 분류 | 기술 |
 |------|------|
-| 프레임워크 | React 18 + TypeScript |
-| 빌드 도구 | Vite |
-| 스타일링 | Tailwind CSS |
+| 프레임워크 | React 19 + TypeScript |
+| 빌드 도구 | Vite 7 |
+| 스타일링 | Tailwind CSS v4 (`src/assets/css/theme.css`) |
 | 라우팅 | React Router |
 | 호스팅 | GitHub Pages |
 | CI/CD | GitHub Actions |
@@ -80,11 +80,17 @@ pnpm run preview
 │   ├── components/             # React 컴포넌트
 │   │   ├── templates/          # 페이지별 템플릿
 │   │   ├── organisms/          # 레이아웃 컴포넌트
-│   │   └── ui/                 # 공통 UI 컴포넌트
-│   ├── pages/                  # 페이지 라우팅
+│   │   ├── atoms/              # 작은 공통 컴포넌트 (EmptyNote 등)
+│   │   └── common/             # 공통 모달 등
+│   ├── pages/                  # 페이지 라우팅 (라우트 정의: pages/app/index.tsx)
+│   ├── data/                   # 코드 내 고정 데이터 (director-common.ts: 인용 지표 기본값 등)
+│   ├── store/                  # 상태 관리 (Zustand)
+│   ├── hooks/ · utils/ · libs/ · constants/
 │   ├── types/                  # TypeScript 타입 정의
-│   ├── stores/                 # 상태 관리 (Zustand)
-│   └── assets/                 # 정적 자산
+│   └── assets/                 # 정적 자산 (css/theme.css: 디자인 원칙 구현)
+├── scripts/
+│   ├── design_audit.mjs        # 디자인 원칙 자동 점검 (pnpm run audit:design)
+│   └── *.py                    # 인용문·통계 생성 스크립트
 ├── .github/
 │   └── workflows/
 │       ├── deploy.yml          # 자동 배포
@@ -102,28 +108,44 @@ pnpm run preview
 
 ```json
 {
-  "type": "journal",           // journal, conference, book, report
-  "indexing_group": "SSCI",    // SSCI, SCIE, Scopus, etc.
-  "published_date": "2025-01-01",
-  "year": 2025,
-  "title": "논문 제목",
-  "title_ko": "한글 제목",
-  "authors": [1, 2, 3],        // authors.json의 ID 참조
-  "venue": "저널명",
-  "doi": "10.xxxx/xxxxx"
+  "type": "conference",            // journal, conference, book, report
+  "indexing_group": "Domestic Conference", // SCIE, SSCI, A&HCI, ESCI, Scopus, KCI, International Conference ...
+  "presentation_type": "oral",     // 학회 발표만: oral, poster
+  "published_date": "2026-11-21",
+  "year": 2026,
+  "title": "Title in Title Case",
+  "title_ko": "국문 제목",
+  "authors": [1, 2],               // authors.json의 ID
+  "author_marks": ["1", "*"],     // 1·2·3 = 제1~3저자, * = 교신, "1,*" 가능, P·L·R·A = 프로젝트 역할
+  "venue": "English venue",
+  "venue_ko": "국문 학회·학술지명",
+  "language": "Korean",            // 저서는 번호 아래 언어 배지로 표시
+  "doi": "10.xxxx/xxxxx",
+  "awards": 1, "award_details": { "prize_ko": "우수논문상", "...": "..." },
+  "citations": { }                 // 비워 두면 scripts/*_citations.py --write 가 생성
 }
 ```
+
+학회 인용문은 `python3 scripts/conf_citations.py --write`, 학술지 인용문은 `python3 scripts/journal_citations.py --write`로 만듭니다. `--check`로 바뀔 항목만 미리 볼 수 있습니다.
 
 #### `projects.json` - 프로젝트 목록
 
 ```json
 {
-  "title": "프로젝트명",
-  "title_ko": "한글 프로젝트명",
-  "period": "2025-01-01 – 2025-12-31",
-  "type": "government",        // government, industry, institution, research
-  "organization": "기관명",
-  "participants": ["참여자1", "참여자2"]
+  "titleKo": "국문 과제명",
+  "titleEn": "English Title",
+  "period": "2026-09-01 – 2029-08-31",
+  "type": "government",            // government, industry, institution, academic
+  "fundingAgency": "National Research Foundation of Korea",
+  "fundingAgencyKo": "한국연구재단",
+  "programName": "사업명", "programNameEn": "Program Name",
+  "roles": {
+    "principalInvestigator": "최인수",
+    "leadResearcher": [{"name": "최인수", "lab": true}],
+    "visitingResearcher": "",
+    "researchers": [{"name": "이름", "lab": true}]
+  },
+  "language": "ko"
 }
 ```
 
@@ -131,13 +153,16 @@ pnpm run preview
 
 ```json
 {
-  "2025": [
+  "2026": [
     {
-      "type": "award",
+      "type": "award",              // award, honor
+      "icon": "🏆",
       "title": "우수논문상",
-      "event": "학회명",
-      "date": "Dec 5",
-      "winners": [{"name": "이름", "level": "phd"}]
+      "title_en": "Best Paper Award",
+      "event": "2026 학회명 학술대회",
+      "organization": "학회명",
+      "date": "Jul 10",
+      "winners": [{"name": "최인수", "level": "phd"}]
     }
   ]
 }
@@ -173,10 +198,15 @@ pnpm run preview
 ---
 title: "제목"
 date: 2025-09-01
-author: "작성자"
+author: "FINDS Lab"
+excerpt: "목록에 보이는 한두 문장 요약"
+tag: "Awards"        # 뉴스: Honors · Awards · Events · General / 공지: Announcements · Recruitment · General
+attachments:          # 공지 첨부파일 (선택, 파일은 같은 폴더에)
+  - name: "이력서 양식"
+    file: "이력서양식.docx"
 ---
 
-본문 내용 (Markdown 문법 지원)
+본문 내용 (Markdown 문법 지원: 굵게, 목록·중첩 목록, 인용, `코드`, 링크)
 ```
 
 3. `index.json`에 파일명 추가:
@@ -219,31 +249,232 @@ pnpm run build
 | `/` | 홈 |
 | `/about/introduction` | 연구실 소개 |
 | `/about/research` | 연구 분야 |
-| `/about/honors` | 수상 내역 |
-| `/members/director` | 지도교수 |
-| `/members/current` | 현재 멤버 |
-| `/members/alumni` | 졸업생/수료생 |
+| `/about/honors` | 수상 내역 (연구실 출범 2025-06-14 이후) |
+| `/about/location` | 오시는 길 |
+| `/members/director` | 지도교수 (Profile) |
+| `/members/director/academic` | 지도교수 (Academics: 논문·프로젝트·학술활동·강의) |
+| `/members/director/activities` | 지도교수 (Activities: 수상·대외활동) |
+| `/members/director/portfolio/*` | 지도교수 포트폴리오 (profile · academic · activities) |
+| `/members/current` | 현재 구성원 |
+| `/members/alumni` | 졸업생·수료생 |
+| `/members/detail/:id` | 구성원 상세 (`public/data/members/<id>.json`) |
 | `/publications` | 논문 목록 |
-| `/projects` | 프로젝트 |
-| `/lectures` | 강의 |
-| `/mentoring` | 멘토링 |
+| `/projects` | 프로젝트 (연구실 출범 이후) |
 | `/archives/news` | 뉴스 |
 | `/archives/notice` | 공지사항 |
 | `/archives/gallery` | 갤러리 |
 | `/archives/playlist` | 플레이리스트 (PC 전용) |
-| `/contact` | 연락처 |
 
-## 색상 팔레트
+등록되지 않은 주소는 홈으로 이동합니다. `src/pages/lectures`는 남아 있지만 라우터에 연결돼 있지 않으며, 강의 정보는 지도교수 페이지의 Teaching에서 보여 줍니다.
 
-| 이름 | 코드 | 용도 |
+## 디자인 원칙
+
+사이트 전체 스타일 규칙은 `src/assets/css/theme.css` 한 곳에 모여 있습니다. 새 페이지나 컴포넌트를 만들 때 아래 원칙을 따르면 자동으로 같은 톤이 적용됩니다.
+
+### 1. 색상: 공식 팔레트 14색만 사용
+
+갤러리의 "FINDS Lab Color Palette"가 기준입니다. 이 14색과 무채색(흰색·회색·검정) 외의 색은 쓰지 않습니다.
+
+| 계열 | 색 (밝은 → 진한) |
+|------|------|
+| 금색 | Sunlight `#FFEB99` · Vanilla `#FFF3CC` · Buttercream `#FFF9E6` · Cream `#E8D688` · Honey `#D6C360` · **FINDS Gold `#D6B14D`** · Amber `#B8962D` · Oak `#9A7D1F` |
+| 빨강 | Blush `#FFE4E9` · Blossom `#FFBAC4` · Rose `#E8889C` · Ruby `#C41E3A` · **FINDS Red `#AC0E0E`** |
+| 단독 | Coral `#D6A076` |
+
+- **그라데이션은 같은 계열 안에서만.** 금색 면은 Gold→Amber, Conference 면은 Ruby→Red처럼 이어지고, 금색과 빨강은 절대 섞지 않습니다. Coral은 그라데이션 없이 단색으로만 씁니다.
+- **흰 배경 위 글자색:** 금색 계열(Gold·Honey·Cream·Amber·Coral)은 **Oak**, 분홍 계열(Rose·Blossom)은 **Ruby**, 빨강은 **FINDS Red**로 표시됩니다. 연한 색을 글자색으로 지정해도 CSS가 자동으로 바꿔 줍니다.
+- **색 면 위 글자색:** 밝은 면(Gold·Honey·Cream·Coral·Rose·Blossom)에는 진회색 `#1F2937`, 어두운 면(Red·Ruby·Oak)에는 흰색을 씁니다.
+- **예외:** 로고 워드마크와 사진·어두운 배경 위 글자는 `ink-keep` 클래스로 원래 색을 유지합니다.
+- **한계:** 팔레트에서 가장 진한 금색인 Oak의 흰 배경 대비는 3.9:1입니다. 큰 글씨 기준(3:1)은 넘지만 작은 글씨 권장치(4.5:1)에는 조금 못 미칩니다.
+
+### 2. 글자 크기: 정해진 단계만 사용
+
+임의 크기(`text-[14px]`, `text-[22px]` 등)는 쓰지 않습니다. 아래 단계 중 하나를 고릅니다.
+
+| 단계 | 크기 | Tailwind | 역할 |
+|------|------|------|------|
+| caption | 10px | `text-[10px]` | **모바일 전용** 배지·칩 (기수, Cite, Domestic 등) |
+| xs | 11px | `text-xs`, `text-[11px]` | 메타 정보 (날짜, DOI, 라벨), 태블릿·PC 배지 |
+| sm | 13px | `text-sm` | 보조 본문 (영문 제목, 저자, 학회명, 설명) |
+| base | 15px | `text-base` | 본문 기본값, 모바일 주 제목 |
+| md | 17px | `text-md` | PC 주 제목 (논문·프로젝트 국문 제목) |
+| lg / xl | 19 / 21px | `text-lg`, `text-xl` | 소제목, 섹션 제목 |
+| 2xl–4xl | 25 / 29 / 33px | `text-2xl` ~ `text-4xl` | 통계 숫자, 큰 섹션 제목 |
+| display | 40 / 48 / 60px | `text-[40px]`, `text-5xl`, `text-6xl` | 배너·히어로 제목 |
+
+**최소 크기**
+- 모바일에서는 10px 미만, 태블릿·PC에서는 11px 미만을 쓰지 않습니다.
+- 유일한 예외는 지름 10px 원 안에 들어가는 이니셜 아이콘("IC")입니다.
+
+**읽는 글과 메타 정보의 구분**
+- 사용자가 실제로 읽는 글(제목, 영문 제목, 저자, 설명)은 모바일에서도 13px 이상, 제목은 15px 이상으로 씁니다.
+- 11px은 날짜·DOI·라벨 같은 메타 정보에, 10px은 배지에만 씁니다.
+
+**반응형 조합**
+- 기본 패턴은 `text-base md:text-md`(제목), `text-sm`(보조 본문), `text-[10px] md:text-[11px]`(배지)입니다.
+- 모바일 크기를 PC보다 두 단계 이상 작게 두지 않습니다.
+
+**본문 기본값과 한국어 줄바꿈**
+- `body`의 기본 크기는 15px입니다. 크기를 지정하지 않은 글자도 단계 안에 들어갑니다.
+- 한국어는 어절 단위로 줄을 바꿉니다(`word-break: keep-all`). 단어 중간에서 끊기지 않습니다.
+
+**기사(뉴스·공지·갤러리) 본문**
+- 본문과 목록은 15px, 소제목(h3)은 17px, 제목(h2)은 19px, 인용·코드는 13px입니다.
+
+### 3. 반응형 기준 폭과 레이아웃 규칙
+
+| 구간 | 폭 | 점검 폭 |
 |------|------|------|
-| FINDS Gold | `#D6B14D` | Primary 강조색 |
-| FINDS Red | `#AC0E0E` | Secondary 강조색 |
-| Honey | `#D6C360` | 골드 변형 |
-| Cream | `#E8D688` | 연한 골드 |
-| Coral | `#D6A076` | 따뜻한 톤 |
-| Rose | `#E8889C` | 핑크 |
-| Blossom | `#FFBAC4` | 연한 핑크 |
+| 모바일 | < 768px | 360 · 390 · 430 |
+| 태블릿 | 768–1023px | 768 · 820 |
+| PC | ≥ 1024px | 1024 · 1280 · 1440 |
+
+- **연도 바:** 배지는 어느 폭에서도 한 줄입니다. 모바일에서는 연도·화살표가 첫 줄, 배지가 둘째 줄로 내려갑니다.
+- **통계 카드:** 카드가 많은 행(9개)은 1280px 이상에서만 한 줄로 놓고, 그보다 좁으면 5열·3열로 나눕니다.
+- **넓은 표:** 졸업생 표처럼 최소 폭이 있는 표는 1024px 이상에서만 표로 보여 주고, 그보다 좁으면 카드 목록으로 바꿉니다.
+- **배지와 짧은 라벨:** `whitespace-nowrap`을 걸어 두 줄로 꺾이지 않게 합니다.
+
+### 4. 회색 글자 단계
+
+| 용도 | 클래스 | 흰 배경 대비 |
+|------|------|------|
+| 제목·강조 | `text-gray-900` / `text-gray-800` | 17:1 / 15:1 |
+| 본문 | `text-gray-700` / `text-gray-600` | 10:1 / 7.6:1 |
+| 메타 정보(날짜·라벨·보조 설명) | `text-gray-500` | 4.8:1 (최소) |
+| 장식(구분점 `·`, 구분선 `—`)·어두운 배경 위 글자 | `text-gray-300` / `text-gray-400` | 글자 정보에는 사용 금지 |
+
+### 5. 공통 컴포넌트 규칙
+
+새 화면을 만들 때 아래 컴포넌트와 클래스를 재사용합니다. 직접 비슷한 것을 새로 만들지 않습니다.
+
+| 요소 | 사용법 | 규칙 |
+|------|------|------|
+| 연도·섹션 접이식 바 | 버튼에 `fbar fbar-current`(올해) / `fbar fbar-past`(지난 연도) / `fbar fbar-section`(카드 제목) | 개수 배지는 `bg-white shadow-sm` 알약 하나에 넣고, 색 점이 구분자 역할을 합니다. |
+| 통계 카드 | `group relative bg-white border rounded-2xl` 안에 큰 숫자(`text-2xl` 이상) | 숫자 색과 같은 계열의 빛이 자동으로 깔립니다. Total 카드는 `bg-[#FFF9E6]`입니다. |
+| 빈 상태 | `src/components/atoms/empty-note` 의 `<EmptyNote ko en tone action />` | 사과문 대신 다음 상태를 알려 주는 문장을 씁니다(예: "첫 졸업생을 준비하고 있습니다"). 비어 있는 그룹이 여러 개면 카드 하나로 묶습니다. |
+| 배지·칩 | `rounded-full` + `whitespace-nowrap` | 두 줄로 꺾이지 않게 합니다. 모바일은 짧은 표기(Conf., Gov.)를 씁니다. |
+| 사진·어두운 배경 위 글자 | 감싸는 요소에 `ink-keep` | 팔레트 원색(밝은 금색 등)을 그대로 유지합니다. |
+
+### 6. 아이콘 (파비콘)
+
+로고(`public/images/brand/logo-finds.png`)로 만든 정사각형 아이콘 세트를 `public/`에 두고, `index.html`과 `public/site.webmanifest`로 연결합니다.
+
+| 파일 | 크기 | 쓰이는 곳 |
+|------|------|------|
+| `favicon.ico` | 16 · 32 · 48 | 브라우저 탭 |
+| `favicon-32x32.png`, `favicon-48x48.png` | 32, 48 | 브라우저 탭(고해상도) |
+| `icon-192.png`, `icon-512.png`, `icon-maskable-512.png` | 192, 512 | 안드로이드 크롬 최근 탭·홈 화면 |
+| `apple-touch-icon.png` | 180 | 아이폰 홈 화면 |
+
+- 모든 아이콘은 흰 바탕 정사각형 위에 로고를 놓아, 밝은 탭과 다크 모드 탭 양쪽에서 보이게 합니다.
+- 16·32px은 선을 살짝 굵게 해 형태가 남게 합니다. 로고를 바꾸면 이 세트도 함께 다시 만들어야 합니다.
+
+### 7. 자동 점검
+
+위 원칙은 `scripts/design_audit.mjs`로 자동 검사합니다. 디자인을 고친 뒤에는 반드시 이 검사를 돌립니다.
+
+```bash
+pnpm run build
+npx vite preview --port 8899          # http://localhost:8899/site/ 로 확인
+npm i -D playwright                   # 처음 한 번
+pnpm run audit:design                 # 또는 node scripts/design_audit.mjs <주소>
+```
+
+19개 페이지와 구성원 상세 페이지 2개를 360 · 390 · 768 · 1024 · 1440px에서 렌더링하고 12개 항목을 확인합니다. 모두 통과하면 `ALL CHECKS PASSED`가 나오고 종료 코드 0을 돌려줍니다.
+
+| 항목 | 확인 내용 |
+|------|------|
+| `static-colour` | 소스 코드의 팔레트 밖 색 코드, Tailwind 기본 색(red-500 등) |
+| `static-type` | 소스 코드의 단계 밖 글자 크기(`text-[14px]` 등) |
+| `colour-off-palette` | 화면에 실제로 그려진 글자·배경·테두리 색이 팔레트 또는 무채색인지 |
+| `gradient-mixed-family` | 그라데이션 하나에 금색 계열과 빨강 계열이 섞였는지 |
+| `type-off-scale` | 렌더링된 글자 크기가 단계 밖인지 |
+| `type-below-min` | 모바일 10px, 태블릿·PC 11px 미만 글자 |
+| `contrast-light-text` | 연한 팔레트 색을 흰 배경 위 글자색으로 그대로 썼는지 |
+| `contrast-below-3` | 배경 대비 3:1 미만 글자(장식 기호 제외) |
+| `layout-spill` | 글자가 카드 밖으로 넘치는지 |
+| `layout-word-break` | 짧은 단어·라벨이 중간에서 끊기는지 |
+| `layout-h-overflow` | 페이지 가로 스크롤이 생기는지 |
+| `icons` | 파비콘·매니페스트 파일이 연결되고 실제로 열리는지 |
+
+### 8. 최종 점검 결과 (2026-10-16)
+
+19개 페이지와 구성원 상세 페이지를 위 점검 폭에서 실제로 렌더링해 측정했습니다. `scripts/design_audit.mjs`로 세 차례 점검했습니다.
+
+| 차수 | 내용 | 결과 |
+|------|------|------|
+| 1차 | 렌더링 검사 10개 항목 | 실제 문제 2건 수정 후 전 항목 통과 |
+| 2차 | 소스 코드 정적 검사 추가(12개 항목), 일부러 넣은 위반 3건을 잡아내는지 검증, 화면 육안 확인 | 전 항목 통과 |
+| 3차 | 처음부터 다시 빌드, 타입 검사, 12개 항목 재검사, 전체 페이지 오류 검사(PC 82개·모바일 19개 경로) | 전 항목 통과 |
+
+1차에서 고친 문제 2건은 다음과 같습니다.
+- 모바일 논문 띠의 번호·색인(`J66 | KCI`)이 금색 면 위 흰 글씨(대비 2.6:1)였습니다. 지금은 진회색입니다.
+- 메타 정보에 쓰던 `text-gray-400`(대비 2.5:1)을 `text-gray-500`(4.8:1)으로 올렸습니다. 24개 파일입니다.
+
+| 항목 | 결과 |
+|------|------|
+| 단계 밖 글자 크기 | 0건 |
+| 최소 크기 미만 글자 | 0건 (예외: 10px 원 안의 이니셜 아이콘) |
+| 가로 스크롤 발생 페이지 | 0건 |
+| 카드 밖으로 넘치는 글자 | 0건 |
+| 두 줄로 꺾인 배지 | 0건 |
+| 단어 중간 끊김 | 0건 ("인공지능(XAI)"처럼 괄호 앞 줄바꿈은 한국어 조판상 허용) |
+| 연도 바 배지 한 줄 유지 | 360–1440px 전 구간 통과 |
+
+**화면 폭별 글자 크기 분포 (글자 수 기준)**
+
+```
+mobile (390px)
+   10px ███                    8.6%
+   11px ████████              20.3%
+   13px ████████████████████  48.8%
+   15px ████████              19.9%
+   19px █                      1.7%
+   21px ▏                      0.3%
+   25px ▏                      0.1%
+   29px ▏                      0.3%
+
+tablet (768px)
+   11px ███████████           27.8%
+   13px █████████████████     43.6%
+   15px ██                     4.1%
+   17px ███████               18.1%
+   19px █                      3.5%
+   21px █                      2.0%
+   25px ▏                      0.3%
+   29px ▏                      0.1%
+   48px ▏                      0.2%
+
+desktop (1440px)
+   11px ██████████            25.3%
+   13px ███████████████████   47.4%
+   15px ██                     4.1%
+   17px ███████               17.4%
+   19px █                      3.3%
+   21px █                      1.7%
+   25px ▏                      0.2%
+   29px ▏                      0.3%
+   60px ▏                      0.3%
+```
+
+- 모바일에서 13–15px(읽는 글) 비율은 정리 전 24.5%에서 정리 후 68.7%로 올랐습니다. 11px 비율은 61.0%에서 20.3%로 내려갔습니다.
+- 태블릿·PC는 13px(보조 본문)과 17px(주 제목)이 중심이고, 11px은 메타 정보와 배지입니다.
+
+### 9. 내용 점검
+
+데이터나 글을 고친 뒤에는 아래를 확인합니다.
+
+| 확인 | 방법 |
+|------|------|
+| 인용문이 데이터와 맞는지 | `python3 scripts/conf_citations.py --check`, `python3 scripts/journal_citations.py --check` → 둘 다 `changed: 0` |
+| 논문 통계 | `python3 scripts/sync_pubstats.py` → "이미 최신입니다" |
+| 화면 숫자 일관성 | Publications 카드 합계 = 연도 바 합계 = 디렉터 Research Overview 합계, 프로젝트·수상·구성원도 같은 방식 |
+| 뉴스·공지 | `index.json` 목록과 파일 일치, `tag`가 허용 값인지, 첨부파일이 같은 폴더에 있는지, 날짜 옆 요일 표기가 맞는지 |
+
+2026-10-16 기준 세 차례 점검 결과:
+- **데이터:** 인용문 변경 0건, 오탈자 검사와 인용 검사는 알려진 오탐(국문 제목만 있는 저서·보고서)만 남았습니다.
+- **화면 숫자:** 논문 334편(학술지 66·학회 262·저서 4·보고서 2), 프로젝트 21건(연구실 출범 후 7건), 디렉터 수상 83건(연구실 출범 후 14건), 학술 활동 97건, 강의 강사 12학기·조교 12학기, 인용 지표 327/h 11이 모든 페이지와 데이터에서 일치합니다.
+- **글:** 영문 철자 오류 0건, 학회명 표기 흔들림 0건, 깨진 링크·이미지 0건, 요일 표기 10곳 모두 정확합니다.
 
 ## 문의
 

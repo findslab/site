@@ -101,7 +101,7 @@ const ContactModalContent = () => {
           <div key={index} className="bg-gray-50 rounded-xl p-14 md:p-16">
             <div className="flex flex-col gap-2 mb-10">
               <span className="text-sm md:text-base font-bold text-primary">{contact.role}</span>
-              <span className="text-xs md:text-xs text-gray-400 leading-relaxed">{contact.description}</span>
+              <span className="text-xs text-gray-500 leading-relaxed">{contact.description}</span>
             </div>
             <div className="flex items-center justify-between gap-8 md:gap-12">
               <a
@@ -112,7 +112,7 @@ const ContactModalContent = () => {
               </a>
               <button
                 onClick={() => handleCopyEmail(contact.email)}
-                className="flex items-center gap-4 px-8 md:px-10 py-5 md:py-6 bg-white border border-gray-200 rounded-lg text-xs md:text-xs font-medium text-gray-600 hover:bg-gray-50 transition-colors shrink-0"
+                className="flex items-center gap-4 px-8 md:px-10 py-5 md:py-6 bg-white border border-gray-200 rounded-lg text-xs font-medium text-gray-600 hover:bg-gray-50 transition-colors shrink-0"
                 aria-label={copiedEmail === contact.email ? '이메일 복사 완료' : `${contact.email} 복사`}
               >
                 {copiedEmail === contact.email ? (
@@ -251,13 +251,13 @@ const LayoutOrganisms = ({ children }: props) => {
                   showAltText ? 'opacity-100' : 'opacity-0'
                 }`}
               >
-                <span className="text-[10px] font-semibold tracking-wide">
+                <span className="text-[10px] md:text-[11px] font-semibold tracking-wide">
                   <span className="font-extrabold" style={{ color: '#D6B14D' }}>Fin</span>
                   <span style={{ color: '#E8D688' }}>ancial </span>
                   <span className="font-extrabold" style={{ color: '#D6B14D' }}>D</span>
                   <span style={{ color: '#E8D688' }}>ata Intelligence</span>
                 </span>
-                <span className="text-[10px] font-semibold tracking-wide">
+                <span className="text-[10px] md:text-[11px] font-semibold tracking-wide">
                   <span style={{ color: '#E8D688' }}>&amp; </span>
                   <span className="font-extrabold" style={{ color: '#D6B14D' }}>S</span>
                   <span style={{ color: '#E8D688' }}>olutions </span>
@@ -390,7 +390,7 @@ const LayoutOrganisms = ({ children }: props) => {
                                 'py-8 px-8 -ml-8 text-sm rounded-lg transition-all duration-200',
                                 location.pathname === child.path
                                   ? 'text-primary font-semibold bg-primary/5'
-                                  : 'text-gray-400 font-medium active:bg-gray-100'
+                                  : 'text-gray-500 font-medium active:bg-gray-100'
                               )}
                             >
                               {child.name}
@@ -448,7 +448,7 @@ const LayoutOrganisms = ({ children }: props) => {
                 href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group relative px-12 py-6 text-[10px] md:text-xs text-gray-500 transition-all duration-300 font-medium tracking-wide"
+                className="group relative px-12 py-6 text-xs text-gray-500 transition-all duration-300 font-medium tracking-wide"
                 style={{ '--link-hover-color': link.hoverColor, '--link-hover-bg': `${link.hoverBg}10` } as React.CSSProperties}
               >
                 <span className="relative z-10 transition-colors duration-300 group-hover:[color:var(--link-hover-color)]">{link.name}</span>
@@ -461,7 +461,7 @@ const LayoutOrganisms = ({ children }: props) => {
           <div className="w-full h-px bg-gradient-to-r from-transparent via-gray-200 to-transparent mb-16 md:mb-20" />
 
           {/* Copyright - gradient swipe on hover (PC only) */}
-          <p className="text-[10px] md:text-xs text-gray-400 text-center tracking-wide md:cursor-default">
+          <p className="text-xs text-gray-500 text-center tracking-wide md:cursor-default">
             <span className="hidden md:inline-block relative group">
               <span className="relative z-10 bg-clip-text transition-all duration-700 group-hover:text-transparent group-hover:bg-gradient-to-r group-hover:from-[#9A7D1F] group-hover:via-[#B8962D] group-hover:to-[#9A7D1F]">
                 © 2026 FINDS Lab All Rights Reserved.

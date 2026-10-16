@@ -127,7 +127,7 @@ const FilterModal = ({
         <h3 className="text-base font-bold text-gray-900">Filters</h3>
         <button
           onClick={onClose}
-          className="size-28 flex items-center justify-center rounded-lg hover:bg-gray-100 transition-colors text-gray-400 hover:text-gray-600"
+          className="size-28 flex items-center justify-center rounded-lg hover:bg-gray-100 transition-colors text-gray-500 hover:text-gray-600"
         >
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
         </button>
@@ -145,7 +145,7 @@ const FilterModal = ({
               <button
                 key={type}
                 onClick={() => onChange('type', type)}
-                className="flex items-center gap-6 px-10 md:px-12 py-6 md:py-8 rounded-lg text-xs md:text-sm font-medium transition-all border"
+                className="flex items-center gap-6 px-10 md:px-12 py-6 md:py-8 rounded-lg text-sm font-medium transition-all border"
                 style={isActive && color ? {
                   backgroundColor: color.bg,
                   borderColor: color.bg,
@@ -176,7 +176,7 @@ const FilterModal = ({
               <button
                 key={status}
                 onClick={() => onChange('status', status)}
-                className="px-10 md:px-12 py-6 md:py-8 rounded-lg text-xs md:text-sm font-medium transition-all border"
+                className="px-10 md:px-12 py-6 md:py-8 rounded-lg text-sm font-medium transition-all border"
                 style={isActive && color ? {
                   backgroundColor: color.bg,
                   borderColor: color.bg,
@@ -199,7 +199,7 @@ const FilterModal = ({
       <div className="flex justify-end pt-16 border-t border-gray-100">
         <button
           onClick={onReset}
-          className="px-16 py-8 text-sm font-medium text-gray-400 hover:text-primary transition-colors"
+          className="px-16 py-8 text-sm font-medium text-gray-500 hover:text-primary transition-colors"
         >
           Reset all filters
         </button>
@@ -409,11 +409,11 @@ export const ProjectsTemplate = () => {
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20">
         <div className="py-20 md:py-32 border-b border-gray-100">
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-            <Link to="/" className="text-gray-400 hover:text-primary transition-all duration-300 hover:scale-110">
+            <Link to="/" className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110">
               <Home size={16}/>
             </Link>
             <span className="text-gray-200">—</span>
-            <span className="text-sm text-gray-400 font-medium">Research</span>
+            <span className="text-sm text-gray-500 font-medium">Research</span>
             <span className="text-gray-200">—</span>
             <span className="text-sm text-primary font-semibold">Projects</span>
           </div>
@@ -434,7 +434,7 @@ export const ProjectsTemplate = () => {
                 <span className="w-8 h-8 rounded-full bg-primary" />
                 Overview
               </h3>
-              <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${statsExpanded ? 'rotate-180' : ''}`} />
+              <ChevronDown size={20} className={`text-gray-500 transition-transform duration-300 ${statsExpanded ? 'rotate-180' : ''}`} />
             </button>
             
             {statsExpanded && (
@@ -445,19 +445,19 @@ export const ProjectsTemplate = () => {
               <div className="flex flex-col items-center justify-center">
                 <Folder className="size-20 md:size-24 mb-6" style={{color: '#D6B14D'}} />
                 <span className="text-3xl md:text-4xl font-bold mb-4 transition-all duration-300" style={{color: '#9A7D1F'}}>{stats.total}</span>
-                <span className="text-xs md:text-sm font-medium text-gray-600">Total</span>
+                <span className="text-sm font-medium text-gray-600">Total</span>
               </div>
             </div>
 
             {/* Funding Source */}
-            <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Funding Source</p>
+            <p className="text-[10px] md:text-[11px] font-bold text-gray-500 uppercase tracking-widest">Funding Source</p>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
               <div className="group relative bg-white border border-gray-100 rounded-2xl p-16 md:p-20 hover:border-[#D6B14D]/40 hover:shadow-lg hover:shadow-[#D6B14D]/10 transition-all duration-300">
                 <div className="absolute top-0 left-16 right-16 h-[2px] bg-gradient-to-r from-[#D6B14D]/60 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
                 <div className="flex flex-col items-center text-center">
                   <Landmark className="size-16 md:size-20 mb-6" style={{color: '#D6B14D'}} />
                   <span className="text-2xl md:text-3xl font-bold mb-4 transition-all duration-300" style={{color: '#D6B14D'}}>{stats.government}</span>
-                  <span className="text-xs md:text-sm font-medium text-gray-600">Government</span>
+                  <span className="text-sm font-medium text-gray-600">Government</span>
                 </div>
               </div>
               <div className="group relative bg-white border border-gray-100 rounded-2xl p-16 md:p-20 hover:border-[#AC0E0E]/30 hover:shadow-lg hover:shadow-[#AC0E0E]/10 transition-all duration-300">
@@ -465,7 +465,7 @@ export const ProjectsTemplate = () => {
                 <div className="flex flex-col items-center text-center">
                   <Factory className="size-16 md:size-20 mb-6" style={{color: '#AC0E0E'}} />
                   <span className="text-2xl md:text-3xl font-bold mb-4 transition-all duration-300" style={{color: '#AC0E0E'}}>{stats.industry}</span>
-                  <span className="text-xs md:text-sm font-medium text-gray-600">Industry</span>
+                  <span className="text-sm font-medium text-gray-600">Industry</span>
                 </div>
               </div>
               <div className="group relative bg-white border border-gray-100 rounded-2xl p-16 md:p-20 hover:border-[#E8D688]/50 hover:shadow-lg hover:shadow-[#E8D688]/10 transition-all duration-300">
@@ -473,7 +473,7 @@ export const ProjectsTemplate = () => {
                 <div className="flex flex-col items-center text-center">
                   <School className="size-16 md:size-20 mb-6" style={{color: '#E8D688'}} />
                   <span className="text-2xl md:text-3xl font-bold mb-4 transition-all duration-300" style={{color: '#E8D688'}}>{stats.institution}</span>
-                  <span className="text-xs md:text-sm font-medium text-gray-600">Institutional</span>
+                  <span className="text-sm font-medium text-gray-600">Institutional</span>
                 </div>
               </div>
               <div className="group relative bg-white border border-gray-100 rounded-2xl p-16 md:p-20 hover:border-[#E8889C]/50 hover:shadow-lg hover:shadow-[#E8889C]/10 transition-all duration-300">
@@ -481,20 +481,20 @@ export const ProjectsTemplate = () => {
                 <div className="flex flex-col items-center text-center">
                   <FlaskConical className="size-16 md:size-20 mb-6" style={{color: '#E8889C'}} />
                   <span className="text-2xl md:text-3xl font-bold mb-4 transition-all duration-300" style={{color: '#E8889C'}}>{stats.academic}</span>
-                  <span className="text-xs md:text-sm font-medium text-gray-600">Research</span>
+                  <span className="text-sm font-medium text-gray-600">Research</span>
                 </div>
               </div>
             </div>
 
             {/* Status */}
-            <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest mt-8">Status</p>
+            <p className="text-[10px] md:text-[11px] font-bold text-gray-500 uppercase tracking-widest mt-8">Status</p>
             <div className="grid grid-cols-2 gap-8 md:gap-12">
               <div className="group relative bg-white border border-gray-100 rounded-2xl p-16 md:p-20 hover:border-gray-400/40 hover:shadow-lg hover:shadow-gray-400/10 transition-all duration-300">
                 <div className="absolute top-0 left-16 right-16 h-[2px] bg-gradient-to-r from-gray-400/60 to-transparent rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
                 <div className="flex flex-col items-center text-center">
                   <TrendingUp className="size-16 md:size-20 mb-6 text-gray-600" />
                   <span className="text-2xl md:text-3xl font-bold mb-4 text-gray-900 transition-all duration-300">{stats.ongoing}</span>
-                  <span className="text-xs md:text-sm font-medium text-gray-600">Ongoing</span>
+                  <span className="text-sm font-medium text-gray-600">Ongoing</span>
                 </div>
               </div>
               <div className="group relative bg-white border border-gray-100 rounded-2xl p-16 md:p-20 hover:border-gray-300/50 hover:shadow-lg hover:shadow-gray-300/10 transition-all duration-300">
@@ -502,7 +502,7 @@ export const ProjectsTemplate = () => {
                 <div className="flex flex-col items-center text-center">
                   <CheckCircle className="size-16 md:size-20 mb-6 text-gray-500" />
                   <span className="text-2xl md:text-3xl font-bold mb-4 text-gray-500 transition-all duration-300">{stats.completed}</span>
-                  <span className="text-xs md:text-sm font-medium text-gray-500">Completed</span>
+                  <span className="text-sm font-medium text-gray-500">Completed</span>
                 </div>
               </div>
             </div>
@@ -595,7 +595,7 @@ export const ProjectsTemplate = () => {
               ))}
               <button
                 onClick={handleFilterReset}
-                className="text-sm text-gray-400 hover:text-gray-600 transition-colors"
+                className="text-sm text-gray-500 hover:text-gray-600 transition-colors"
               >
                 Clear all
               </button>
@@ -634,7 +634,7 @@ export const ProjectsTemplate = () => {
               </div>
             ) : years.length === 0 ? (
               <div className="text-center py-40 bg-gray-50 rounded-2xl">
-                <p className="text-gray-400">No projects found.</p>
+                <p className="text-gray-500">No projects found.</p>
               </div>
             ) : (
               <div className="flex flex-col gap-16 md:gap-24">
@@ -665,7 +665,7 @@ export const ProjectsTemplate = () => {
                         }`}
                       >
                         <div className="flex items-center gap-12 md:gap-[16px] flex-wrap">
-                          <span className={`text-lg md:text-[20px] font-bold ${isCurrentYear ? 'fbar-year text-[#9A7D1F]' : 'text-gray-800'}`}>{year}</span>
+                          <span className={`text-lg md:text-[21px] font-bold ${isCurrentYear ? 'fbar-year text-[#9A7D1F]' : 'text-gray-800'}`}>{year}</span>
                           {/* White badge with counts - PC: Full name with "Project" */}
                           <span className="hidden sm:inline-flex px-10 md:px-12 py-4 md:py-5 bg-white rounded-full text-[10px] md:text-xs font-medium shadow-sm">
                             <span className="font-bold" style={{color: '#D6B14D'}}>{yearStats.government}</span>
@@ -681,7 +681,7 @@ export const ProjectsTemplate = () => {
                             <span className="text-gray-500">&nbsp;Research {yearStats.academic === 1 ? 'Project' : 'Projects'}</span>
                           </span>
                           {/* Mobile: 1-line format with abbreviations */}
-                          <span className="sm:hidden inline-flex px-8 py-4 bg-white rounded-full text-[9px] font-medium shadow-sm">
+                          <span className="sm:hidden inline-flex px-8 py-4 bg-white rounded-full text-[10px] md:text-[11px] font-medium shadow-sm">
                             <span className="font-bold" style={{color: '#D6B14D'}}>{yearStats.government}</span>
                             <span className="text-gray-500">&nbsp;Gov.</span>
                             <span className="text-gray-300">&nbsp;·&nbsp;</span>
@@ -757,14 +757,14 @@ export const ProjectsTemplate = () => {
                                 }}>
                                   <div className="flex items-center gap-8">
                                     {/* Type | Role Label */}
-                                    <span className={`text-[9px] font-bold tracking-wide ${
+                                    <span className={`text-[10px] md:text-[11px] font-bold tracking-wide ${
                                       project.type === 'institution' ? 'text-white' : 'text-white'
                                     }`}>
                                       {config?.label || project.type} Project
                                     </span>
                                   </div>
                                   {/* Right side: Status badge */}
-                                  <span className={`px-8 py-3 rounded text-[9px] font-bold ${
+                                  <span className={`px-8 py-3 rounded text-[10px] md:text-[11px] font-bold ${
                                     status === 'ongoing' ? 'bg-white/90 text-[#D6B14D]' : 'bg-white/70 text-gray-500'
                                   }`}>
                                     {status === 'ongoing' ? 'Ongoing' : 'Completed'}
@@ -787,7 +787,7 @@ export const ProjectsTemplate = () => {
                                           project.type === 'government' ? 'text-[#D6B14D]' :
                                           project.type === 'industry' ? 'text-[#AC0E0E]' :
                                           project.type === 'institution' ? 'text-[#B8962D]' :
-                                          project.type === 'academic' ? 'text-[#E8889C]' : 'text-gray-400'
+                                          project.type === 'academic' ? 'text-[#E8889C]' : 'text-gray-500'
                                         }`} />
                                       </div>
                                       {/* Middle part - colored background with type label */}
@@ -797,7 +797,7 @@ export const ProjectsTemplate = () => {
                                         project.type === 'institution' ? 'bg-[#E8D688]' :
                                         project.type === 'academic' ? 'bg-[#E8889C]' : 'bg-gray-300'
                                       }`}>
-                                        <span className={`text-[9px] font-bold tracking-wide ${
+                                        <span className={`text-[10px] md:text-[11px] font-bold tracking-wide ${
                                           project.type === 'institution' ? 'text-white' : 'text-white'
                                         }`}>
                                           {config?.label || project.type} Project
@@ -808,8 +808,8 @@ export const ProjectsTemplate = () => {
                                     <div className={`w-full mt-4 py-4 text-center rounded-md ${
                                       status === 'ongoing' ? 'bg-[#FFF9E6] border border-[#FFEB99]' : 'bg-gray-50 border border-gray-200'
                                     }`}>
-                                      <span className={`text-[9px] font-bold ${
-                                        status === 'ongoing' ? 'text-[#D6B14D]' : 'text-gray-400'
+                                      <span className={`text-[10px] md:text-[11px] font-bold ${
+                                        status === 'ongoing' ? 'text-[#D6B14D]' : 'text-gray-500'
                                       }`}>
                                         {status === 'ongoing' ? 'Ongoing' : 'Completed'}
                                       </span>
@@ -820,24 +820,24 @@ export const ProjectsTemplate = () => {
                                     {/* Title + Period (Desktop: Period on right) */}
                                     <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-8 md:gap-16">
                                       <div className="flex-1 min-w-0">
-                                        <p className="text-sm md:text-md font-bold text-gray-900 leading-relaxed whitespace-pre-line">{project.titleKo}</p>
-                                        <p className="text-xs md:text-sm text-gray-600 mt-4 leading-relaxed whitespace-pre-line">{project.titleEn}</p>
+                                        <p className="text-base md:text-md font-bold text-gray-900 leading-relaxed whitespace-pre-line">{project.titleKo}</p>
+                                        <p className="text-sm text-gray-600 mt-4 leading-relaxed whitespace-pre-line">{project.titleEn}</p>
                                       </div>
                                       {/* Period Badge - white background, right aligned */}
-                                      <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap">
+                                      <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-[11px] font-bold text-gray-600 shadow-sm shrink-0 whitespace-nowrap">
                                         {project.period}
                                       </span>
                                     </div>
                                     
                                     {/* Funding Agency */}
                                     <div className="flex flex-wrap items-center gap-8 mt-8">
-                                      <p className="text-xs md:text-sm text-gray-700 font-bold whitespace-pre-line">
+                                      <p className="text-sm text-gray-700 font-bold whitespace-pre-line">
                                         {project.language === 'ko' && project.fundingAgencyKo ? project.fundingAgencyKo : project.fundingAgency}
                                       </p>
                                     </div>
                                     
                                     {/* Mobile: Date below FundingAgency - same as Publications */}
-                                    <p className="md:hidden text-[10px] text-gray-400 font-medium mt-4">
+                                    <p className="md:hidden text-[10px] md:text-[11px] text-gray-500 font-medium mt-4">
                                       {project.period}
                                     </p>
                                     
@@ -848,10 +848,10 @@ export const ProjectsTemplate = () => {
                                           {/* Principal Investigator - only show if exists */}
                                           {project.roles.principalInvestigator === DIRECTOR_NAME_KO && (
                                             <div className="flex items-center gap-6">
-                                              <span className="shrink-0 px-8 py-3 bg-gray-900 text-white text-[9px] md:text-[10px] font-bold rounded-md">
+                                              <span className="shrink-0 px-8 py-3 bg-gray-900 text-white text-[10px] md:text-[11px] font-bold rounded-md">
                                                 Principal Investigator
                                               </span>
-                                              <span className="shrink-0 px-8 py-3 bg-gray-100 text-gray-700 text-[9px] md:text-[10px] font-bold rounded-md">
+                                              <span className="shrink-0 px-8 py-3 bg-gray-100 text-gray-700 text-[10px] md:text-[11px] font-bold rounded-md">
                                                 {project.roles.principalInvestigator}
                                               </span>
                                             </div>
@@ -860,11 +860,11 @@ export const ProjectsTemplate = () => {
                                           {/* Lead Researcher - only show lab members */}
                                           {leadResearcherNames.length > 0 && (
                                             <div className="flex items-center gap-6 flex-wrap">
-                                              <span className="shrink-0 px-8 py-3 bg-gray-600 text-white text-[9px] md:text-[10px] font-bold rounded-md">
+                                              <span className="shrink-0 px-8 py-3 bg-gray-600 text-white text-[10px] md:text-[11px] font-bold rounded-md">
                                                 Lead Researcher
                                               </span>
                                               {leadResearcherNames.map((name, ni) => (
-                                                <span key={ni} className="shrink-0 px-8 py-3 bg-gray-100 text-gray-700 text-[9px] md:text-[10px] font-bold rounded-md">
+                                                <span key={ni} className="shrink-0 px-8 py-3 bg-gray-100 text-gray-700 text-[10px] md:text-[11px] font-bold rounded-md">
                                                   {name}
                                                 </span>
                                               ))}
@@ -874,10 +874,10 @@ export const ProjectsTemplate = () => {
                                           {/* Visiting Researcher - only show if exists */}
                                           {project.roles.visitingResearcher && (
                                             <div className="flex items-center gap-6">
-                                              <span className="shrink-0 px-8 py-3 bg-gray-500 text-white text-[9px] md:text-[10px] font-bold rounded-md">
+                                              <span className="shrink-0 px-8 py-3 bg-gray-500 text-white text-[10px] md:text-[11px] font-bold rounded-md">
                                                 Visiting Researcher
                                               </span>
-                                              <span className="shrink-0 px-8 py-3 bg-gray-100 text-gray-700 text-[9px] md:text-[10px] font-bold rounded-md">
+                                              <span className="shrink-0 px-8 py-3 bg-gray-100 text-gray-700 text-[10px] md:text-[11px] font-bold rounded-md">
                                                 {project.roles.visitingResearcher}
                                               </span>
                                             </div>
@@ -886,11 +886,11 @@ export const ProjectsTemplate = () => {
                                           {/* Researchers - only show if non-empty filtered list */}
                                           {filteredResearchers.length > 0 && (
                                             <div className="flex items-center gap-6 flex-wrap">
-                                              <span className="shrink-0 px-8 py-3 bg-gray-400 text-white text-[9px] md:text-[10px] font-bold rounded-md">
+                                              <span className="shrink-0 px-8 py-3 bg-gray-400 text-white text-[10px] md:text-[11px] font-bold rounded-md">
                                                 Researcher
                                               </span>
                                               {filteredResearchers.map((r, ri) => (
-                                                <span key={ri} className="shrink-0 px-8 py-3 bg-gray-100 text-gray-700 text-[9px] md:text-[10px] font-bold rounded-md">
+                                                <span key={ri} className="shrink-0 px-8 py-3 bg-gray-100 text-gray-700 text-[10px] md:text-[11px] font-bold rounded-md">
                                                   {r}
                                                 </span>
                                               ))}

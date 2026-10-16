@@ -158,11 +158,11 @@ export const AboutResearchTemplate = () => {
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20">
         <div className="py-20 md:py-32 border-b border-gray-100">
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-            <Link to="/" className="text-gray-400 hover:text-primary transition-all duration-300 hover:scale-110">
+            <Link to="/" className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110">
               <Home size={16} />
             </Link>
             <span className="text-gray-200">—</span>
-            <span className="text-sm text-gray-400 font-medium">About FINDS</span>
+            <span className="text-sm text-gray-500 font-medium">About FINDS</span>
             <span className="text-gray-200">—</span>
             <span className="text-sm text-primary font-semibold">Research Areas</span>
           </div>
@@ -236,7 +236,7 @@ export const AboutResearchTemplate = () => {
                         <span className="block text-sm md:text-base font-semibold text-gray-800 leading-snug group-hover/item:text-primary transition-colors">
                           {item.en}
                         </span>
-                        <span className="block text-xs md:text-sm text-gray-500 mt-6 leading-relaxed">
+                        <span className="block text-sm text-gray-500 mt-6 leading-relaxed">
                           {item.ko}
                         </span>
                       </li>

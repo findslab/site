@@ -9,7 +9,7 @@ type props = {
 
 export const CDatePickerHeader = ({date, prevMonthButtonDisabled, nextMonthButtonDisabled, decreaseMonth, increaseMonth, changeYear}: props) => {
   return (
-    <div className="flex px-10 pb-10 text-[14px] justify-between items-center">
+    <div className="flex px-10 pb-10 text-[15px] justify-between items-center">
       <div className="flex">
         {
           changeYear &&
@@ -31,8 +31,8 @@ export const CDatePickerHeader = ({date, prevMonthButtonDisabled, nextMonthButto
       </div>
 
       <div className="flex items-center gap-10 z-[999]">
-        <span className="text-[16px] font-semibold">{date.getFullYear()}</span>
-        <span className="text-[16px] font-semibold text-primary">{date.getMonth() + 1}월</span>
+        <span className="text-[17px] font-semibold">{date.getFullYear()}</span>
+        <span className="text-[17px] font-semibold text-primary">{date.getMonth() + 1}월</span>
       </div>
 
       <div className="flex">

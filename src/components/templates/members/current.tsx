@@ -1,5 +1,6 @@
 import { memo, useState, useEffect, useMemo, useRef } from 'react'
 import { Link } from 'react-router-dom'
+import EmptyNote from '@/components/atoms/empty-note'
 import { Users, GraduationCap, BookOpen, Lightbulb, ChevronRight, ChevronDown, Home, Mail, Github, Linkedin, Globe, Copy, Check, ExternalLink, Sparkles} from 'lucide-react'
 import type { MemberData } from '@/types/data'
 
@@ -323,11 +324,11 @@ export const MembersCurrentTemplate = () => {
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20">
         <div className="py-20 md:py-32 border-b border-gray-100">
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-            <Link to="/" className="text-gray-400 hover:text-primary transition-all duration-300 hover:scale-110">
+            <Link to="/" className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110">
               <Home size={16} />
             </Link>
             <span className="text-gray-200">—</span>
-            <span className="text-sm text-gray-400 font-medium">Members</span>
+            <span className="text-sm text-gray-500 font-medium">Members</span>
             <span className="text-gray-200">—</span>
             <span className="text-sm text-primary font-semibold">Current Members</span>
           </div>
@@ -346,7 +347,7 @@ export const MembersCurrentTemplate = () => {
               <span className="w-8 h-8 rounded-full bg-primary" />
               Overview
             </h3>
-            <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${statsExpanded ? 'rotate-180' : ''}`} />
+            <ChevronDown size={20} className={`text-gray-500 transition-transform duration-300 ${statsExpanded ? 'rotate-180' : ''}`} />
           </button>
           
           {statsExpanded && (
@@ -423,28 +424,37 @@ export const MembersCurrentTemplate = () => {
               const sectionColor = degreeHoverColors[groupKey as keyof typeof degreeHoverColors]
               const bgStyle = degreeBgStyles[groupKey as keyof typeof degreeBgStyles]
 
-              // Show placeholder for empty sections (except undergrad)
+              // Empty graduate groups are merged into a single "open positions" card
               if (degreeMembers.length === 0) {
                 if (groupKey === 'undergrad') return null
-                
+                const emptyKeys = (['phd-candidate', 'phd-student', 'combined', 'ms'] as const).filter(k => groupedMembers[k].length === 0)
+                if (emptyKeys[0] !== groupKey) return null
                 return (
-                  <div key={groupKey}>
-                    <h3 className="text-lg md:text-[22px] font-semibold text-gray-800 mb-16 md:mb-[20px]">
-                      {degreeLabels[groupKey as keyof typeof degreeLabels]}
-                    </h3>
-                    <div className="bg-gradient-to-br from-gray-50 to-white border border-dashed border-gray-200 rounded-xl md:rounded-[20px] px-20 py-18 md:px-[28px] md:py-[22px] flex items-center gap-10">
-                      <span className="w-6 h-6 rounded-full bg-gray-300 shrink-0" />
-                      <p className="text-xs md:text-sm text-gray-400">
-                        No current members <span className="text-gray-300 mx-4">·</span> 현재 소속 구성원이 없습니다
-                      </p>
+                  <div key="open-positions">
+                    <h3 className="text-lg md:text-[21px] font-semibold text-gray-800 mb-12 md:mb-[16px]">Graduate Programs</h3>
+                    <div className="flex flex-wrap gap-6 mb-12 md:mb-14">
+                      {emptyKeys.map(k => (
+                        <span key={k} className="px-10 py-4 rounded-full bg-white border border-gray-200 text-[11px] md:text-xs font-medium text-gray-600">
+                          {degreeLabels[k as keyof typeof degreeLabels]}
+                        </span>
+                      ))}
                     </div>
+                    <EmptyNote
+                      ko="함께할 대학원생을 기다리고 있습니다"
+                      en="Graduate positions are open — we'd love to hear from you"
+                      action={
+                        <a href="mailto:ischoi@gachon.ac.kr" className="inline-flex items-center gap-4 px-12 py-6 rounded-full border border-[#D6B14D]/40 bg-white text-[11px] md:text-xs font-semibold text-[#9A7D1F] hover:bg-[#FFF3CC] transition-colors">
+                          문의하기 <ChevronRight size={12} />
+                        </a>
+                      }
+                    />
                   </div>
                 )
               }
 
               return (
                 <div key={groupKey}>
-                  <h3 className="text-lg md:text-[22px] font-semibold text-gray-800 mb-16 md:mb-[20px]">
+                  <h3 className="text-lg md:text-[21px] font-semibold text-gray-800 mb-16 md:mb-[20px]">
                     {degreeLabels[groupKey as keyof typeof degreeLabels]}
                   </h3>
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 md:gap-[20px]">
@@ -489,7 +499,7 @@ export const MembersCurrentTemplate = () => {
                             <div className="flex-1 min-w-0">
                               <div className="flex flex-wrap items-center gap-6 md:gap-[8px] mb-4 md:mb-[4px]">
                                 <h4 
-                                  className="text-base md:text-[18px] font-semibold transition-colors"
+                                  className="text-base md:text-[19px] font-semibold transition-colors"
                                   style={{ color: isHovered ? hoverColor : '#1f2937' }}
                                 >
                                   {member.name.ko}
@@ -502,7 +512,7 @@ export const MembersCurrentTemplate = () => {
                                   return badges.map((c: string, i: number) => (
                                     <span
                                       key={i}
-                                      className="px-6 md:px-[8px] py-[2px] rounded-full text-[10px] md:text-xs font-bold"
+                                      className="px-6 md:px-[8px] py-[2px] rounded-full text-[10px] md:text-xs font-bold whitespace-nowrap"
                                       style={{ backgroundColor: 'rgba(255,186,196,0.18)', color: '#C41E3A' }}
                                     >
                                       {c}
@@ -510,7 +520,7 @@ export const MembersCurrentTemplate = () => {
                                   ))
                                 })()}
                                 <span 
-                                  className={`px-6 md:px-[8px] py-[2px] rounded-full text-[10px] md:text-xs font-bold ${degreeColors[groupKey]}`}
+                                  className={`px-6 md:px-[8px] py-[2px] rounded-full text-[10px] md:text-xs font-bold whitespace-nowrap ${degreeColors[groupKey]}`}
                                   style={degreeBgStyles[groupKey]}
                                 >
                                   {member.role.en}
@@ -520,7 +530,7 @@ export const MembersCurrentTemplate = () => {
                               <p className="md:hidden text-xs text-gray-500 mt-4">
                                 {formatPeriod(member.period.start)} – {member.period.end ? formatPeriod(member.period.end) : member.period.expected_graduation ? formatPeriod(member.period.expected_graduation) : 'Present'}
                               </p>
-                              <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] font-bold text-gray-600 shadow-sm whitespace-nowrap mt-4">
+                              <span className="hidden md:inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-[11px] font-bold text-gray-600 shadow-sm whitespace-nowrap mt-4">
                                 {formatPeriod(member.period.start)} – {member.period.end ? formatPeriod(member.period.end) : member.period.expected_graduation ? formatPeriod(member.period.expected_graduation) : 'Present'}
                               </span>
                             </div>
@@ -558,7 +568,7 @@ export const MembersCurrentTemplate = () => {
                                 href={member.social.github}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className={`text-gray-400 transition-colors ${
+                                className={`text-gray-500 transition-colors ${
                                   member.degree === 'phd' ? 'hover:text-[#D6B14D]' :
                                   member.degree === 'combined' ? 'hover:text-[#D6A076]' :
                                   member.degree === 'ms' ? 'hover:text-[#C41E3A]' :
@@ -575,7 +585,7 @@ export const MembersCurrentTemplate = () => {
                                 href={member.social.linkedin}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className={`text-gray-400 transition-colors ${
+                                className={`text-gray-500 transition-colors ${
                                   member.degree === 'phd' ? 'hover:text-[#D6B14D]' :
                                   member.degree === 'combined' ? 'hover:text-[#D6A076]' :
                                   member.degree === 'ms' ? 'hover:text-[#C41E3A]' :
@@ -592,7 +602,7 @@ export const MembersCurrentTemplate = () => {
                                 href={member.social.personal_website}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className={`text-gray-400 transition-colors ${
+                                className={`text-gray-500 transition-colors ${
                                   member.degree === 'phd' ? 'hover:text-[#D6B14D]' :
                                   member.degree === 'combined' ? 'hover:text-[#D6A076]' :
                                   member.degree === 'ms' ? 'hover:text-[#C41E3A]' :
@@ -606,7 +616,7 @@ export const MembersCurrentTemplate = () => {
                             )}
                             <Link
                               to={`/members/detail/${member.id}`}
-                              className={`ml-auto flex items-center gap-4 text-xs md:text-[13px] font-medium transition-colors ${
+                              className={`ml-auto flex items-center gap-4 text-sm font-medium transition-colors ${
                                 member.degree === 'phd' ? 'hover:text-[#D6B14D]' :
                                 member.degree === 'combined' ? 'hover:text-[#D6A076]' :
                                 member.degree === 'ms' ? 'hover:text-[#C41E3A]' :

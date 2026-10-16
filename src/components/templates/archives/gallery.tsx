@@ -96,7 +96,7 @@ const GalleryDetailModal = ({ id, title, date }: { id: string; title?: string; d
         <h1 className="text-lg md:text-xl font-bold text-gray-900 leading-snug tracking-[-0.02em] mb-12 md:mb-16">
           {metadata.title}
         </h1>
-        <div className="flex items-center gap-8 text-[12px] text-gray-500">
+        <div className="flex items-center gap-8 text-[13px] text-gray-500">
           <span className="font-medium">{metadata.author}</span>
           <span className="w-[3px] h-[3px] rounded-full bg-gray-300" />
           <span>{metadata.date}</span>
@@ -110,14 +110,14 @@ const GalleryDetailModal = ({ id, title, date }: { id: string; title?: string; d
       <div className="px-24 md:px-32 py-24 md:py-32">
         <article 
           className="
-            [&>p]:text-[14px] [&>p]:leading-[1.85] [&>p]:text-gray-600 [&>p]:mb-20 [&>p]:tracking-[-0.01em]
-            [&>h2]:text-[15px] [&>h2]:font-bold [&>h2]:text-gray-900 [&>h2]:mt-32 [&>h2]:mb-16 [&>h2]:pb-8 [&>h2]:border-b [&>h2]:border-primary/30
-            [&>h3]:text-[14px] [&>h3]:font-semibold [&>h3]:text-gray-800 [&>h3]:mt-24 [&>h3]:mb-12 [&>h3]:pl-12 [&>h3]:border-l-2 [&>h3]:border-primary
+            [&>p]:text-[15px] [&>p]:leading-[1.85] [&>p]:text-gray-600 [&>p]:mb-20 [&>p]:tracking-[-0.01em]
+            [&>h2]:text-[19px] [&>h2]:font-bold [&>h2]:text-gray-900 [&>h2]:mt-32 [&>h2]:mb-16 [&>h2]:pb-8 [&>h2]:border-b [&>h2]:border-primary/30
+            [&>h3]:text-[17px] [&>h3]:font-semibold [&>h3]:text-gray-800 [&>h3]:mt-24 [&>h3]:mb-12 [&>h3]:pl-12 [&>h3]:border-l-2 [&>h3]:border-primary
             [&>ul]:my-16 [&>ul]:space-y-8
-            [&>ul>li]:relative [&>ul>li]:pl-16 [&>ul>li]:text-[14px] [&>ul>li]:leading-[1.75] [&>ul>li]:text-gray-600
+            [&>ul>li]:relative [&>ul>li]:pl-16 [&>ul>li]:text-[15px] [&>ul>li]:leading-[1.75] [&>ul>li]:text-gray-600
             [&>ul>li]:before:content-[''] [&>ul>li]:before:absolute [&>ul>li]:before:left-0 [&>ul>li]:before:top-[9px] [&>ul>li]:before:w-[5px] [&>ul>li]:before:h-[5px] [&>ul>li]:before:rounded-full [&>ul>li]:before:bg-primary/60
             [&>ol]:my-16 [&>ol]:space-y-8 [&>ol]:list-decimal [&>ol]:pl-20
-            [&>ol>li]:text-[14px] [&>ol>li]:leading-[1.75] [&>ol>li]:text-gray-600 [&>ol>li]:pl-4
+            [&>ol>li]:text-[15px] [&>ol>li]:leading-[1.75] [&>ol>li]:text-gray-600 [&>ol>li]:pl-4
             [&>blockquote]:my-20 [&>blockquote]:px-16 [&>blockquote]:py-12 [&>blockquote]:bg-[#FFF9E6] [&>blockquote]:border-l-3 [&>blockquote]:border-primary/40 [&>blockquote]:rounded-r-lg [&>blockquote]:text-[13px] [&>blockquote]:text-gray-600 [&>blockquote]:leading-[1.7]
             [&>hr]:my-28 [&>hr]:border-0 [&>hr]:h-px [&>hr]:bg-gray-200
             [&_strong]:font-semibold [&_strong]:text-gray-800
@@ -125,8 +125,8 @@ const GalleryDetailModal = ({ id, title, date }: { id: string; title?: string; d
             [&_img]:my-12 [&_img]:rounded-lg [&_img]:max-w-full [&_img]:shadow-sm [&_img]:mx-auto [&_img]:block
             [&>p>img]:my-8
             [&>p>img+img]:mt-8
-            [&>code]:text-[12px] [&>code]:bg-gray-100 [&>code]:px-6 [&>code]:py-2 [&>code]:rounded [&>code]:font-mono [&>code]:text-gray-700
-            [&>pre]:my-20 [&>pre]:bg-gray-900 [&>pre]:text-gray-100 [&>pre]:rounded-lg [&>pre]:p-16 [&>pre]:overflow-x-auto [&>pre]:text-[12px]
+            [&>code]:text-[13px] [&>code]:bg-gray-100 [&>code]:px-6 [&>code]:py-2 [&>code]:rounded [&>code]:font-mono [&>code]:text-gray-700
+            [&>pre]:my-20 [&>pre]:bg-gray-900 [&>pre]:text-gray-100 [&>pre]:rounded-lg [&>pre]:p-16 [&>pre]:overflow-x-auto [&>pre]:text-[13px]
           "
           dangerouslySetInnerHTML={{ __html: content }}
         />
@@ -254,9 +254,9 @@ export const ArchivesGalleryTemplate = () => {
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20">
         <div className="py-20 md:py-32 border-b border-gray-100">
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-            <Link to="/" className="text-gray-400 hover:text-primary transition-all duration-300 hover:scale-110"><Home size={16} /></Link>
+            <Link to="/" className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110"><Home size={16} /></Link>
             <span className="text-gray-200">—</span>
-            <span className="text-sm text-gray-400 font-medium">Archives</span>
+            <span className="text-sm text-gray-500 font-medium">Archives</span>
             <span className="text-gray-200">—</span>
             <span className="text-sm text-primary font-semibold">Gallery</span>
           </div>
@@ -285,7 +285,7 @@ export const ArchivesGalleryTemplate = () => {
                     <div className="flex flex-col gap-20 p-20">
                       <div className="flex items-center justify-between">
                         <h3 className="text-base font-bold text-gray-900">Filters</h3>
-                        <button onClick={() => setIsFilterOpen(false)} className="size-28 flex items-center justify-center rounded-lg hover:bg-gray-100 transition-colors text-gray-400 hover:text-gray-600">
+                        <button onClick={() => setIsFilterOpen(false)} className="size-28 flex items-center justify-center rounded-lg hover:bg-gray-100 transition-colors text-gray-500 hover:text-gray-600">
                           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
                         </button>
                       </div>
@@ -297,7 +297,7 @@ export const ArchivesGalleryTemplate = () => {
                             const color = categoryFilterColors[cat]
                             return (
                               <button key={cat} onClick={() => handleCategoryToggle(cat)}
-                                className="px-12 md:px-16 py-6 md:py-8 rounded-lg text-xs md:text-sm font-medium transition-all border"
+                                className="px-12 md:px-16 py-6 md:py-8 rounded-lg text-sm font-medium transition-all border"
                                 style={isActive && color ? { backgroundColor: color.bg, borderColor: color.bg, color: color.text, boxShadow: '0 1px 3px rgba(0,0,0,0.1)' } : { backgroundColor: 'white', borderColor: '#f0f0f0', color: '#7f8894' }}
                               >{cat}</button>
                             )
@@ -305,7 +305,7 @@ export const ArchivesGalleryTemplate = () => {
                         </div>
                       </div>
                       <div className="flex justify-end pt-16 border-t border-gray-100">
-                        <button onClick={() => setSelectedCategories([])} className="px-16 py-8 text-sm font-medium text-gray-400 hover:text-primary transition-colors">Reset all filters</button>
+                        <button onClick={() => setSelectedCategories([])} className="px-16 py-8 text-sm font-medium text-gray-500 hover:text-primary transition-colors">Reset all filters</button>
                       </div>
                     </div>
                   </div>
@@ -326,11 +326,11 @@ export const ArchivesGalleryTemplate = () => {
                 const color = categoryFilterColors[cat]
                 return (
                   <button key={cat} onClick={() => handleCategoryToggle(cat)} className="flex items-center gap-4 px-10 py-4 rounded-full text-xs font-medium border transition-all hover:opacity-70" style={{ backgroundColor: `${color.bg}15`, borderColor: `${color.bg}30`, color: color.bg }}>
-                    {cat} <span className="text-[10px]">✕</span>
+                    {cat} <span className="text-[10px] md:text-[11px]">✕</span>
                   </button>
                 )
               })}
-              <button onClick={() => { setSelectedCategories([]); setSearchTerm('') }} className="text-xs text-gray-400 hover:text-primary transition-colors ml-4">Clear all</button>
+              <button onClick={() => { setSelectedCategories([]); setSearchTerm('') }} className="text-xs text-gray-500 hover:text-primary transition-colors ml-4">Clear all</button>
             </div>
           )}
         </div>
@@ -389,11 +389,11 @@ export const ArchivesGalleryTemplate = () => {
                 <div className="p-16 md:p-20">
                   <div className="flex items-center justify-between gap-6 mb-8">
                     <div className="flex items-center gap-6 text-xs text-gray-500">
-                      <Calendar className="size-12 text-gray-400" />
+                      <Calendar className="size-12 text-gray-500" />
                       <span className="font-medium">{item.date}</span>
                     </div>
                     {item.category && categoryColors[item.category] && (
-                      <span className={`px-6 py-2 rounded-full text-[9px] md:text-[10px] font-medium border ${categoryColors[item.category].bg} ${categoryColors[item.category].text} ${categoryColors[item.category].border}`}>
+                      <span className={`px-6 py-2 rounded-full text-[10px] md:text-[11px] font-medium border ${categoryColors[item.category].bg} ${categoryColors[item.category].text} ${categoryColors[item.category].border}`}>
                         {item.category}
                       </span>
                     )}

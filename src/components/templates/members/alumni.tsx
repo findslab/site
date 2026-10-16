@@ -1,5 +1,6 @@
 import React, {memo, useState, useEffect, useRef, useMemo} from 'react'
 import {Link} from 'react-router-dom'
+import EmptyNote from '@/components/atoms/empty-note'
 import {Home, GraduationCap, Building2, ChevronDown, ChevronUp, FileText, ExternalLink, BookOpen, Lightbulb, Users, ArrowUpDown, ArrowUp, ArrowDown} from 'lucide-react'
 import bannerAlumni from '@/assets/images/banner/alumni.webp'
 import bannerAlumniM from '@/assets/images/banner/alumni-m.webp'
@@ -245,7 +246,7 @@ export const MembersAlumniTemplate = () => {
   // Get primary affiliation - 학교(더볼드) 학과(볼드) 형식 (학부과정 표시 안함)
   const getAffiliation = (alumni: AlumniMember) => {
     const edu = alumni.education[0]
-    if (!edu) return <span className="text-gray-400">-</span>
+    if (!edu) return <span className="text-gray-500">-</span>
     
     return (
       <span className="text-sm">
@@ -258,7 +259,7 @@ export const MembersAlumniTemplate = () => {
 
   // Render currentPosition - 학교(더볼드) 학과(볼드) 학위(일반)
   const renderCurrentPosition = (position: string | undefined) => {
-    if (!position) return <span className="text-gray-400">-</span>
+    if (!position) return <span className="text-gray-500">-</span>
     
     // Check if it contains newline (multi-line format like "석사과정\n산업경영공학부\n고려대학교")
     if (position.includes('\n')) {
@@ -357,11 +358,11 @@ export const MembersAlumniTemplate = () => {
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20">
         <div className="py-20 md:py-32 border-b border-gray-100">
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-            <Link to="/" className="text-gray-400 hover:text-primary transition-all duration-300 hover:scale-110">
+            <Link to="/" className="text-gray-500 hover:text-primary transition-all duration-300 hover:scale-110">
               <Home size={16}/>
             </Link>
             <span className="text-gray-200">—</span>
-            <span className="text-sm text-gray-400 font-medium">Members</span>
+            <span className="text-sm text-gray-500 font-medium">Members</span>
             <span className="text-gray-200">—</span>
             <span className="text-sm text-primary font-semibold">Alumni</span>
           </div>
@@ -420,7 +421,7 @@ export const MembersAlumniTemplate = () => {
           <div className="text-center py-60">
             <GraduationCap size={48} className="mx-auto text-gray-300 mb-16"/>
             <p className="text-lg font-semibold text-gray-600 mb-8">No Alumni Yet</p>
-            <p className="text-gray-400">Alumni information will be displayed here once available.</p>
+            <p className="text-gray-500">Alumni information will be displayed here once available.</p>
           </div>
         ) : (
           <div className="space-y-48">
@@ -431,7 +432,7 @@ export const MembersAlumniTemplate = () => {
                   <span className="w-8 h-8 rounded-full bg-primary" />
                   Overview
                 </h3>
-                <ChevronDown size={20} className={`text-gray-400 transition-transform duration-300 ${statsExpanded ? 'rotate-180' : ''}`} />
+                <ChevronDown size={20} className={`text-gray-500 transition-transform duration-300 ${statsExpanded ? 'rotate-180' : ''}`} />
               </button>
               
               {statsExpanded && (
@@ -490,9 +491,9 @@ export const MembersAlumniTemplate = () => {
                   </h2>
                   <div className="size-32 rounded-full bg-gray-50 flex items-center justify-center group-hover:bg-primary/5 transition-colors">
                     {phdExpanded ? (
-                      <ChevronUp size={18} className="text-gray-400 group-hover:text-[#D6B14D]" />
+                      <ChevronUp size={18} className="text-gray-500 group-hover:text-[#D6B14D]" />
                     ) : (
-                      <ChevronDown size={18} className="text-gray-400 group-hover:text-[#D6B14D]" />
+                      <ChevronDown size={18} className="text-gray-500 group-hover:text-[#D6B14D]" />
                     )}
                   </div>
                 </button>
@@ -500,7 +501,7 @@ export const MembersAlumniTemplate = () => {
                 {phdExpanded && (
                   <>
                     {/* Desktop Table View */}
-                    <div className="hidden md:block overflow-hidden rounded-2xl border border-gray-100">
+                    <div className="hidden lg:block overflow-hidden rounded-2xl border border-gray-100">
                       <table className="w-full min-w-[700px] table-fixed">
                         <thead>
                           <tr className="bg-gray-50/80">
@@ -529,7 +530,7 @@ export const MembersAlumniTemplate = () => {
                                         className="size-36 md:size-40 rounded-full flex items-center justify-center shrink-0"
                                         style={{background: 'linear-gradient(135deg, rgba(214, 177, 77,0.15) 0%, rgba(214, 177, 77,0.08) 100%)'}}
                                       >
-                                        <span className="text-xs md:text-sm font-bold" style={{color: '#D6B14D'}}>{alumniNumber}</span>
+                                        <span className="text-sm font-bold" style={{color: '#D6B14D'}}>{alumniNumber}</span>
                                       </div>
                                       <div className="flex items-center gap-8">
                                         <p className="text-sm md:text-base font-semibold text-gray-900 group-hover:text-[#D6B14D] transition-colors">
@@ -538,7 +539,7 @@ export const MembersAlumniTemplate = () => {
                                         {hasThesis && (
                                           <ChevronDown 
                                             size={14} 
-                                            className={`text-gray-400 transition-transform ${isExpanded ? 'rotate-180' : ''}`}
+                                            className={`text-gray-500 transition-transform ${isExpanded ? 'rotate-180' : ''}`}
                                           />
                                         )}
                                       </div>
@@ -550,22 +551,22 @@ export const MembersAlumniTemplate = () => {
                                       Ph.D.
                                     </span>
                                   </td>
-                                  <td className="py-12 md:py-16 px-12 md:px-16 text-xs md:text-sm text-gray-600">
+                                  <td className="py-12 md:py-16 px-12 md:px-16 text-sm text-gray-600">
                                     {getAffiliation(alumni)}
                                   </td>
                                   <td className="py-12 md:py-16 px-12 md:px-16">
-                                    <span className="inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] font-bold text-gray-600 shadow-sm whitespace-nowrap">
+                                    <span className="inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-[11px] font-bold text-gray-600 shadow-sm whitespace-nowrap">
                                       {getGraduationDate(alumni, 'phd')}
                                     </span>
                                   </td>
                                   <td className="py-12 md:py-16 px-12 md:px-16">
                                     {alumni.company ? (
-                                      <div className="flex items-center gap-6 text-xs md:text-sm text-gray-600">
+                                      <div className="flex items-center gap-6 text-sm text-gray-600">
                                         <Building2 size={14} style={{color: '#D6B14D'}}/>
                                         <span>{alumni.company}</span>
                                       </div>
                                     ) : (
-                                      <span className="text-gray-400">-</span>
+                                      <span className="text-gray-500">-</span>
                                     )}
                                   </td>
                                 </tr>
@@ -582,7 +583,7 @@ export const MembersAlumniTemplate = () => {
                                                 <p className="text-[10px] md:text-xs font-bold mb-4" style={{color: '#D6B14D'}}>
                                                   Ph.D. Dissertation
                                                 </p>
-                                                <p className="text-xs md:text-sm text-gray-700 font-medium leading-relaxed">
+                                                <p className="text-sm text-gray-700 font-medium leading-relaxed">
                                                   {thesis.title}
                                                 </p>
                                                 {thesis.url && (
@@ -612,7 +613,7 @@ export const MembersAlumniTemplate = () => {
                     </div>
 
                     {/* Mobile Card View */}
-                    <div className="md:hidden flex flex-col gap-8">
+                    <div className="lg:hidden flex flex-col gap-8">
                       {phdAlumni.map((alumni, idx) => {
                         const isExpanded = expandedAlumni.has(alumni.name)
                         const hasThesis = alumni.thesis && alumni.thesis.phd
@@ -631,11 +632,11 @@ export const MembersAlumniTemplate = () => {
                               <div className="flex-1 min-w-0">
                                 <div className="flex items-center gap-6">
                                   <p className="text-sm font-bold text-gray-900">{alumni.nameKo || alumni.name}</p>
-                                  <span className="px-6 py-1 text-[9px] font-bold rounded-full" style={{backgroundColor: 'rgba(214, 177, 77,0.1)', color: '#D6B14D'}}>
+                                  <span className="px-6 py-1 text-[10px] md:text-[11px] font-bold rounded-full" style={{backgroundColor: 'rgba(214, 177, 77,0.1)', color: '#D6B14D'}}>
                                     Ph.D.
                                   </span>
                                   {hasThesis && (
-                                    <ChevronDown size={14} className={`text-gray-400 transition-transform ml-auto ${isExpanded ? 'rotate-180' : ''}`}/>
+                                    <ChevronDown size={14} className={`text-gray-500 transition-transform ml-auto ${isExpanded ? 'rotate-180' : ''}`}/>
                                   )}
                                 </div>
                                 <p className="text-xs text-gray-500 mt-2">{getGraduationDate(alumni, 'phd')}</p>
@@ -650,7 +651,7 @@ export const MembersAlumniTemplate = () => {
                                     <div key={deg} className="flex items-start gap-8 p-10 rounded-lg bg-gray-50 border border-gray-100">
                                       <FileText size={14} className="shrink-0 mt-1" style={{color: '#D6B14D'}}/>
                                       <div className="flex-1 min-w-0">
-                                        <p className="text-[10px] font-bold mb-4" style={{color: '#D6B14D'}}>Ph.D. Dissertation</p>
+                                        <p className="text-[10px] md:text-[11px] font-bold mb-4" style={{color: '#D6B14D'}}>Ph.D. Dissertation</p>
                                         <p className="text-xs text-gray-700 leading-relaxed">{thesis.title}</p>
                                         {thesis.url && (
                                           <a href={thesis.url} target="_blank" rel="noopener noreferrer" 
@@ -677,12 +678,7 @@ export const MembersAlumniTemplate = () => {
                   <span className="w-8 h-8 rounded-full" style={{backgroundColor: '#D6B14D'}} />
                   Ph.D. Graduates
                 </h2>
-                <div className="bg-gradient-to-br from-gray-50 to-white border border-dashed border-gray-200 rounded-2xl px-20 py-18 md:px-28 md:py-22 flex items-center gap-10">
-                  <span className="w-6 h-6 rounded-full bg-gray-300 shrink-0" />
-                  <p className="text-xs md:text-sm text-gray-400">
-                    No graduates yet <span className="text-gray-300 mx-4">·</span> 아직 졸업생이 없습니다
-                  </p>
-                </div>
+                <EmptyNote tone="gold" ko="첫 졸업생을 준비하고 있습니다" en="Our first graduates are on their way" />
               </div>
             )}
 
@@ -699,9 +695,9 @@ export const MembersAlumniTemplate = () => {
                   </h2>
                   <div className="size-32 rounded-full bg-gray-50 flex items-center justify-center group-hover:bg-primary/5 transition-colors">
                     {msExpanded ? (
-                      <ChevronUp size={18} className="text-gray-400 group-hover:text-[#D6B14D]" />
+                      <ChevronUp size={18} className="text-gray-500 group-hover:text-[#D6B14D]" />
                     ) : (
-                      <ChevronDown size={18} className="text-gray-400 group-hover:text-[#D6B14D]" />
+                      <ChevronDown size={18} className="text-gray-500 group-hover:text-[#D6B14D]" />
                     )}
                   </div>
                 </button>
@@ -709,7 +705,7 @@ export const MembersAlumniTemplate = () => {
                 {msExpanded && (
                   <>
                     {/* Desktop Table View */}
-                    <div className="hidden md:block overflow-hidden rounded-2xl border border-gray-100">
+                    <div className="hidden lg:block overflow-hidden rounded-2xl border border-gray-100">
                       <table className="w-full min-w-[700px] table-fixed">
                         <thead>
                           <tr className="bg-gray-50/80">
@@ -738,7 +734,7 @@ export const MembersAlumniTemplate = () => {
                                         className="size-36 md:size-40 rounded-full flex items-center justify-center shrink-0"
                                         style={{background: 'linear-gradient(135deg, rgba(232,136,156,0.2) 0%, rgba(232,136,156,0.1) 100%)'}}
                                       >
-                                        <span className="text-xs md:text-sm font-bold" style={{color: '#C41E3A'}}>{alumniNumber}</span>
+                                        <span className="text-sm font-bold" style={{color: '#C41E3A'}}>{alumniNumber}</span>
                                       </div>
                                       <div className="flex items-center gap-8">
                                         <p className="text-sm md:text-base font-semibold text-gray-900 group-hover:text-[#C41E3A] transition-colors">
@@ -747,7 +743,7 @@ export const MembersAlumniTemplate = () => {
                                         {hasThesis && (
                                           <ChevronDown 
                                             size={14} 
-                                            className={`text-gray-400 transition-transform ${isExpanded ? 'rotate-180' : ''}`}
+                                            className={`text-gray-500 transition-transform ${isExpanded ? 'rotate-180' : ''}`}
                                           />
                                         )}
                                       </div>
@@ -759,22 +755,22 @@ export const MembersAlumniTemplate = () => {
                                       M.S.
                                     </span>
                                   </td>
-                                  <td className="py-12 md:py-16 px-12 md:px-16 text-xs md:text-sm text-gray-600">
+                                  <td className="py-12 md:py-16 px-12 md:px-16 text-sm text-gray-600">
                                     {getAffiliation(alumni)}
                                   </td>
                                   <td className="py-12 md:py-16 px-12 md:px-16">
-                                    <span className="inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] font-bold text-gray-600 shadow-sm whitespace-nowrap">
+                                    <span className="inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-[11px] font-bold text-gray-600 shadow-sm whitespace-nowrap">
                                       {getGraduationDate(alumni, 'ms')}
                                     </span>
                                   </td>
                                   <td className="py-12 md:py-16 px-12 md:px-16">
                                     {alumni.company ? (
-                                      <div className="flex items-center gap-6 text-xs md:text-sm text-gray-600">
+                                      <div className="flex items-center gap-6 text-sm text-gray-600">
                                         <Building2 size={14} style={{color: '#C41E3A'}}/>
                                         <span>{alumni.company}</span>
                                       </div>
                                     ) : (
-                                      <span className="text-gray-400">-</span>
+                                      <span className="text-gray-500">-</span>
                                     )}
                                   </td>
                                 </tr>
@@ -791,7 +787,7 @@ export const MembersAlumniTemplate = () => {
                                                 <p className="text-[10px] md:text-xs font-bold mb-4" style={{color: '#C41E3A'}}>
                                                   M.S. Thesis
                                                 </p>
-                                                <p className="text-xs md:text-sm text-gray-700 font-medium leading-relaxed">
+                                                <p className="text-sm text-gray-700 font-medium leading-relaxed">
                                                   {thesis.title}
                                                 </p>
                                                 {thesis.url && (
@@ -821,7 +817,7 @@ export const MembersAlumniTemplate = () => {
                     </div>
 
                     {/* Mobile Card View */}
-                    <div className="md:hidden flex flex-col gap-8">
+                    <div className="lg:hidden flex flex-col gap-8">
                       {msAlumni.map((alumni, idx) => {
                         const isExpanded = expandedAlumni.has(alumni.name)
                         const hasThesis = alumni.thesis && alumni.thesis.ms
@@ -840,11 +836,11 @@ export const MembersAlumniTemplate = () => {
                               <div className="flex-1 min-w-0">
                                 <div className="flex items-center gap-6">
                                   <p className="text-sm font-bold text-gray-900">{alumni.nameKo || alumni.name}</p>
-                                  <span className="px-6 py-1 text-[9px] font-bold rounded-full" style={{backgroundColor: 'rgba(196,30,58,0.15)', color: '#C41E3A'}}>
+                                  <span className="px-6 py-1 text-[10px] md:text-[11px] font-bold rounded-full" style={{backgroundColor: 'rgba(196,30,58,0.15)', color: '#C41E3A'}}>
                                     M.S.
                                   </span>
                                   {hasThesis && (
-                                    <ChevronDown size={14} className={`text-gray-400 transition-transform ml-auto ${isExpanded ? 'rotate-180' : ''}`}/>
+                                    <ChevronDown size={14} className={`text-gray-500 transition-transform ml-auto ${isExpanded ? 'rotate-180' : ''}`}/>
                                   )}
                                 </div>
                                 <p className="text-xs text-gray-500 mt-2">{getGraduationDate(alumni, 'ms')}</p>
@@ -859,7 +855,7 @@ export const MembersAlumniTemplate = () => {
                                     <div key={deg} className="flex items-start gap-8 p-10 rounded-lg bg-gray-50 border border-gray-100">
                                       <FileText size={14} className="shrink-0 mt-1" style={{color: '#C41E3A'}}/>
                                       <div className="flex-1 min-w-0">
-                                        <p className="text-[10px] font-bold mb-4" style={{color: '#C41E3A'}}>M.S. Thesis</p>
+                                        <p className="text-[10px] md:text-[11px] font-bold mb-4" style={{color: '#C41E3A'}}>M.S. Thesis</p>
                                         <p className="text-xs text-gray-700 leading-relaxed">{thesis.title}</p>
                                         {thesis.url && (
                                           <a href={thesis.url} target="_blank" rel="noopener noreferrer" 
@@ -886,12 +882,7 @@ export const MembersAlumniTemplate = () => {
                   <span className="w-8 h-8 rounded-full" style={{backgroundColor: '#C41E3A'}} />
                   M.S. Graduates
                 </h2>
-                <div className="bg-gradient-to-br from-gray-50 to-white border border-dashed border-gray-200 rounded-2xl px-20 py-18 md:px-28 md:py-22 flex items-center gap-10">
-                  <span className="w-6 h-6 rounded-full bg-gray-300 shrink-0" />
-                  <p className="text-xs md:text-sm text-gray-400">
-                    No graduates yet <span className="text-gray-300 mx-4">·</span> 아직 졸업생이 없습니다
-                  </p>
-                </div>
+                <EmptyNote tone="red" ko="첫 졸업생을 준비하고 있습니다" en="Our first graduates are on their way" />
               </div>
             )}
 
@@ -908,9 +899,9 @@ export const MembersAlumniTemplate = () => {
                   </h2>
                   <div className="size-32 rounded-full bg-gray-50 flex items-center justify-center group-hover:bg-primary/5 transition-colors">
                     {undergradExpanded ? (
-                      <ChevronUp size={18} className="text-gray-400 group-hover:text-[#D6B14D]" />
+                      <ChevronUp size={18} className="text-gray-500 group-hover:text-[#D6B14D]" />
                     ) : (
-                      <ChevronDown size={18} className="text-gray-400 group-hover:text-[#D6B14D]" />
+                      <ChevronDown size={18} className="text-gray-500 group-hover:text-[#D6B14D]" />
                     )}
                   </div>
                 </button>
@@ -918,38 +909,38 @@ export const MembersAlumniTemplate = () => {
                 {undergradExpanded && (
                   <>
                     {/* Desktop Table View */}
-                    <div className="hidden md:block overflow-hidden rounded-2xl border border-gray-100">
+                    <div className="hidden lg:block overflow-hidden rounded-2xl border border-gray-100">
                       <table className="w-full min-w-[800px] table-fixed">
                         <thead>
                           <tr className="bg-gray-50/80">
                             <th className="py-12 px-16 text-left text-sm font-bold text-gray-900 w-[16%] cursor-pointer hover:bg-gray-100 transition-colors" onClick={() => handleUndergradSort('name')}>
                               <div className="flex items-center gap-4">
                                 Name
-                                {undergradSortKey === 'name' ? (undergradSortDir === 'asc' ? <ArrowUp size={14} className="text-primary" /> : <ArrowDown size={14} className="text-primary" />) : <ArrowUpDown size={14} className="text-gray-400" />}
+                                {undergradSortKey === 'name' ? (undergradSortDir === 'asc' ? <ArrowUp size={14} className="text-primary" /> : <ArrowDown size={14} className="text-primary" />) : <ArrowUpDown size={14} className="text-gray-500" />}
                               </div>
                             </th>
                             <th className="py-12 px-16 text-left text-sm font-bold text-gray-900 w-[8%] cursor-pointer hover:bg-gray-100 transition-colors" onClick={() => handleUndergradSort('cohort')}>
                               <div className="flex items-center gap-4">
                                 Cohort
-                                {undergradSortKey === 'cohort' ? (undergradSortDir === 'asc' ? <ArrowUp size={14} className="text-primary" /> : <ArrowDown size={14} className="text-primary" />) : <ArrowUpDown size={14} className="text-gray-400" />}
+                                {undergradSortKey === 'cohort' ? (undergradSortDir === 'asc' ? <ArrowUp size={14} className="text-primary" /> : <ArrowDown size={14} className="text-primary" />) : <ArrowUpDown size={14} className="text-gray-500" />}
                               </div>
                             </th>
                             <th className="py-12 px-16 text-left text-sm font-bold text-gray-900 w-[16%] cursor-pointer hover:bg-gray-100 transition-colors" onClick={() => handleUndergradSort('period')}>
                               <div className="flex items-center gap-4">
                                 Period
-                                {undergradSortKey === 'period' ? (undergradSortDir === 'asc' ? <ArrowUp size={14} className="text-primary" /> : <ArrowDown size={14} className="text-primary" />) : <ArrowUpDown size={14} className="text-gray-400" />}
+                                {undergradSortKey === 'period' ? (undergradSortDir === 'asc' ? <ArrowUp size={14} className="text-primary" /> : <ArrowDown size={14} className="text-primary" />) : <ArrowUpDown size={14} className="text-gray-500" />}
                               </div>
                             </th>
                             <th className="py-12 px-16 text-left text-sm font-bold text-gray-900 w-[30%] cursor-pointer hover:bg-gray-100 transition-colors" onClick={() => handleUndergradSort('preMajor')}>
                               <div className="flex items-center gap-4">
                                 Affiliation (Pre-Internship)
-                                {undergradSortKey === 'preMajor' ? (undergradSortDir === 'asc' ? <ArrowUp size={14} className="text-primary" /> : <ArrowDown size={14} className="text-primary" />) : <ArrowUpDown size={14} className="text-gray-400" />}
+                                {undergradSortKey === 'preMajor' ? (undergradSortDir === 'asc' ? <ArrowUp size={14} className="text-primary" /> : <ArrowDown size={14} className="text-primary" />) : <ArrowUpDown size={14} className="text-gray-500" />}
                               </div>
                             </th>
                             <th className="py-12 px-16 text-left text-sm font-bold text-gray-900 w-[30%] cursor-pointer hover:bg-gray-100 transition-colors" onClick={() => handleUndergradSort('postPosition')}>
                               <div className="flex items-center gap-4">
                                 Affiliation (Post-Internship)
-                                {undergradSortKey === 'postPosition' ? (undergradSortDir === 'asc' ? <ArrowUp size={14} className="text-primary" /> : <ArrowDown size={14} className="text-primary" />) : <ArrowUpDown size={14} className="text-gray-400" />}
+                                {undergradSortKey === 'postPosition' ? (undergradSortDir === 'asc' ? <ArrowUp size={14} className="text-primary" /> : <ArrowDown size={14} className="text-primary" />) : <ArrowUpDown size={14} className="text-gray-500" />}
                               </div>
                             </th>
                           </tr>
@@ -974,7 +965,7 @@ export const MembersAlumniTemplate = () => {
                                         {hasProjects && (
                                           <ChevronDown 
                                             size={14} 
-                                            className={`text-gray-400 transition-transform ${isExpanded ? 'rotate-180' : ''}`}
+                                            className={`text-gray-500 transition-transform ${isExpanded ? 'rotate-180' : ''}`}
                                           />
                                         )}
                                       </div>
@@ -991,7 +982,7 @@ export const MembersAlumniTemplate = () => {
                                               {c}
                                             </span>
                                             {thisTooltip && (
-                                              <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-6 px-12 py-6 bg-gray-900 text-white text-[10px] font-medium rounded-lg whitespace-nowrap opacity-0 invisible group-hover/badge:opacity-100 group-hover/badge:visible transition-all duration-200 z-50 shadow-lg pointer-events-none">
+                                              <div className="absolute left-1/2 -translate-x-1/2 bottom-full mb-6 px-12 py-6 bg-gray-900 text-white text-[10px] md:text-[11px] font-medium rounded-lg whitespace-nowrap opacity-0 invisible group-hover/badge:opacity-100 group-hover/badge:visible transition-all duration-200 z-50 shadow-lg pointer-events-none">
                                                 {thisTooltip}
                                                 <div className="absolute left-1/2 -translate-x-1/2 top-full w-0 h-0 border-l-4 border-r-4 border-t-4 border-transparent border-t-gray-900" />
                                               </div>
@@ -1002,7 +993,7 @@ export const MembersAlumniTemplate = () => {
                                     </div>
                                   </td>
                                   <td className="py-12 md:py-16 px-12 md:px-16">
-                                    <span className="inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] font-bold text-gray-600 shadow-sm whitespace-nowrap">
+                                    <span className="inline-flex items-center px-10 py-4 bg-white border border-gray-200 rounded-full text-[10px] md:text-[11px] font-bold text-gray-600 shadow-sm whitespace-nowrap">
                                       {alumni.periods?.ur || '-'}
                                     </span>
                                   </td>
@@ -1034,7 +1025,7 @@ export const MembersAlumniTemplate = () => {
                                             }).map((project, pIdx) => {
                                               const isObject = typeof project === 'object'
                                               return (
-                                                <li key={pIdx} className="text-xs md:text-sm text-gray-700 font-medium leading-relaxed flex items-start gap-6">
+                                                <li key={pIdx} className="text-sm text-gray-700 font-medium leading-relaxed flex items-start gap-6">
                                                   <span className="text-[#FFBAC4] mt-1">•</span>
                                                   <span>{isObject ? project.en : project}</span>
                                                 </li>
@@ -1054,7 +1045,7 @@ export const MembersAlumniTemplate = () => {
                     </div>
 
                     {/* Mobile Card View */}
-                    <div className="md:hidden flex flex-col gap-8">
+                    <div className="lg:hidden flex flex-col gap-8">
                       {sortedUndergradAlumni.map((alumni, idx) => {
                         const isExpanded = expandedAlumni.has(alumni.name)
                         const hasProjects = alumni.projects && alumni.projects.length > 0
@@ -1072,14 +1063,14 @@ export const MembersAlumniTemplate = () => {
                                 <div className="flex items-center gap-6">
                                   <p className="text-sm font-bold text-gray-900">{alumni.name}</p>
                                   {(alumni.cohort || '-').split(', ').map((c: string, ci: number) => (
-                                    <span key={ci} className="px-6 py-1 text-[9px] font-bold rounded-full" style={{backgroundColor: 'rgba(255,186,196,0.15)', color: '#C41E3A'}}>
+                                    <span key={ci} className="px-6 py-1 text-[10px] md:text-[11px] font-bold rounded-full" style={{backgroundColor: 'rgba(255,186,196,0.15)', color: '#C41E3A'}}>
                                       {c}
                                     </span>
                                   ))}
                                   {hasProjects && (
                                     <ChevronDown 
                                       size={14} 
-                                      className={`text-gray-400 transition-transform ml-auto ${isExpanded ? 'rotate-180' : ''}`}
+                                      className={`text-gray-500 transition-transform ml-auto ${isExpanded ? 'rotate-180' : ''}`}
                                     />
                                   )}
                                 </div>
@@ -1096,7 +1087,7 @@ export const MembersAlumniTemplate = () => {
                                   <div className="flex-1 min-w-0">
                                     <div className="flex items-center gap-6 mb-8">
                                       <FileText size={12} className="shrink-0" style={{color: '#FFBAC4'}}/>
-                                      <p className="text-[10px] font-bold" style={{color: '#C41E3A'}}>Research Projects</p>
+                                      <p className="text-[10px] md:text-[11px] font-bold" style={{color: '#C41E3A'}}>Research Projects</p>
                                     </div>
                                     <ul className="space-y-3">
                                       {[...alumni.projects!].sort((a, b) => {
