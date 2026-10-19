@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T23:33:06Z",
+  "lastUpdated": "2026-10-19T04:36:42Z",
   "scholarId": "p9JwRLwAAAAJ",
   "scholarUrl": "https://scholar.google.com/citations?user=p9JwRLwAAAAJ&hl=en",
   "name": "Insu Choi",
@@ -10,19 +10,19 @@
     "Machine Learning"
   ],
   "metrics": {
-    "totalCitations": 327,
-    "citations5y": 327,
+    "totalCitations": 328,
+    "citations5y": 328,
     "hIndex": 11,
     "hIndex5y": 11,
     "i10Index": 14,
     "i10Index5y": 14,
     "i5Index": 17,
     "gIndex": 17,
-    "eIndex": 10.68,
+    "eIndex": 10.72,
     "mQuotient": 1.57
   },
   "citationsByYear": {
-    "2026": 169,
+    "2026": 170,
     "2025": 94,
     "2024": 43,
     "2023": 4,
