@@ -135,20 +135,20 @@
     ],
     "venue": "Journal of Intelligence and Information Systems",
     "venue_ko": "지능정보연구",
-    "volume": "",
-    "issue": "",
+    "volume": "32",
+    "issue": "4",
     "pages": "",
     "doi": "",
     "language": "Korean",
     "awards": 0,
     "citations": {
-      "apa": "최인수. (2026). 수렴 교차 사상을 이용한 국내 섹터 지수 간 비선형 인과관계의 표본 외 재현성 검증. <em>지능정보연구</em>.",
-      "mla": "최인수. \"수렴 교차 사상을 이용한 국내 섹터 지수 간 비선형 인과관계의 표본 외 재현성 검증.\" <em>지능정보연구</em>, 2026.",
-      "chicago": "최인수. \"수렴 교차 사상을 이용한 국내 섹터 지수 간 비선형 인과관계의 표본 외 재현성 검증.\" <em>지능정보연구</em> (2026).",
-      "harvard": "최인수 (2026) '수렴 교차 사상을 이용한 국내 섹터 지수 간 비선형 인과관계의 표본 외 재현성 검증', <em>지능정보연구</em>.",
-      "vancouver": "Choi I. 수렴 교차 사상을 이용한 국내 섹터 지수 간 비선형 인과관계의 표본 외 재현성 검증. 지능정보연구. 2026.",
-      "korean": "최인수. (2026). 수렴 교차 사상을 이용한 국내 섹터 지수 간 비선형 인과관계의 표본 외 재현성 검증. 지능정보연구.",
-      "bibtex": "@article{choi2026testingout,\n  title = {{Testing the Out-of-Sample Reproducibility of Nonlinear Causality Among Korean Sector Indices Using Convergent Cross Mapping}},\n  author = {Choi, I.},\n  journal = {Journal of Intelligence and Information Systems},\n  year = {2026},\n}"
+      "apa": "최인수. (2026). 수렴 교차 사상을 이용한 국내 섹터 지수 간 비선형 인과관계의 표본 외 재현성 검증. <em>지능정보연구</em>, <em>32</em>(4).",
+      "mla": "최인수. \"수렴 교차 사상을 이용한 국내 섹터 지수 간 비선형 인과관계의 표본 외 재현성 검증.\" <em>지능정보연구</em>, vol. 32, no. 4, 2026.",
+      "chicago": "최인수. \"수렴 교차 사상을 이용한 국내 섹터 지수 간 비선형 인과관계의 표본 외 재현성 검증.\" <em>지능정보연구</em> 32, no. 4 (2026).",
+      "harvard": "최인수 (2026) '수렴 교차 사상을 이용한 국내 섹터 지수 간 비선형 인과관계의 표본 외 재현성 검증', <em>지능정보연구</em>, 32(4).",
+      "vancouver": "Choi I. 수렴 교차 사상을 이용한 국내 섹터 지수 간 비선형 인과관계의 표본 외 재현성 검증. 지능정보연구. 2026;32(4).",
+      "korean": "최인수. (2026). 수렴 교차 사상을 이용한 국내 섹터 지수 간 비선형 인과관계의 표본 외 재현성 검증. 지능정보연구, 32(4).",
+      "bibtex": "@article{choi2026testingout,\n  title = {{Testing the Out-of-Sample Reproducibility of Nonlinear Causality Among Korean Sector Indices Using Convergent Cross Mapping}},\n  author = {Choi, I.},\n  journal = {Journal of Intelligence and Information Systems},\n  volume = {32},\n  number = {4},\n  year = {2026},\n}"
     }
   },
   {
@@ -9945,7 +9945,7 @@
       "1,*"
     ],
     "venue": "Journal of the Korean Data Analysis Society",
-    "venue_ko": "한국자료분석학회지",
+    "venue_ko": "한국자료분석학회논문집",
     "volume": "28",
     "issue": "4",
     "pages": "1659-1677",
@@ -9953,12 +9953,12 @@
     "language": "Korean",
     "awards": 0,
     "citations": {
-      "apa": "최인수. (2026). 기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구. <em>한국자료분석학회지</em>, <em>28</em>(4), 1659-1677. https://doi.org/10.37727/jkdas.2026.28.4.1659",
-      "mla": "최인수. \"기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구.\" <em>한국자료분석학회지</em>, vol. 28, no. 4, 2026, pp. 1659-1677. https://doi.org/10.37727/jkdas.2026.28.4.1659.",
-      "chicago": "최인수. \"기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구.\" <em>한국자료분석학회지</em> 28, no. 4 (2026): 1659-1677. https://doi.org/10.37727/jkdas.2026.28.4.1659.",
-      "harvard": "최인수 (2026) '기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구', <em>한국자료분석학회지</em>, 28(4), pp. 1659-1677. https://doi.org/10.37727/jkdas.2026.28.4.1659",
-      "vancouver": "Choi I. 기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구. 한국자료분석학회지. 2026;28(4):1659-77.",
-      "korean": "최인수. (2026). 기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구. 한국자료분석학회지, 28(4), 1659-1677.",
+      "apa": "최인수. (2026). 기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구. <em>한국자료분석학회논문집</em>, <em>28</em>(4), 1659-1677. https://doi.org/10.37727/jkdas.2026.28.4.1659",
+      "mla": "최인수. \"기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구.\" <em>한국자료분석학회논문집</em>, vol. 28, no. 4, 2026, pp. 1659-1677. https://doi.org/10.37727/jkdas.2026.28.4.1659.",
+      "chicago": "최인수. \"기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구.\" <em>한국자료분석학회논문집</em> 28, no. 4 (2026): 1659-1677. https://doi.org/10.37727/jkdas.2026.28.4.1659.",
+      "harvard": "최인수 (2026) '기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구', <em>한국자료분석학회논문집</em>, 28(4), pp. 1659-1677. https://doi.org/10.37727/jkdas.2026.28.4.1659",
+      "vancouver": "Choi I. 기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구. 한국자료분석학회논문집. 2026;28(4):1659-77.",
+      "korean": "최인수. (2026). 기술적 지표 기반 주가 방향 예측 문제에서의 레이블 설계와 표본 중첩의 영향에 관한 실증연구. 한국자료분석학회논문집, 28(4), 1659-1677.",
       "bibtex": "@article{choi2026empiricalstudy,\n  title = {{An Empirical Study on the Effects of Label Design and Sample Overlap in the Stock Direction Prediction Problem Using Technical Indicators}},\n  author = {Choi, I.},\n  journal = {Journal of the Korean Data Analysis Society},\n  volume = {28},\n  number = {4},\n  pages = {1659--1677},\n  year = {2026},\n  doi = {10.37727/jkdas.2026.28.4.1659},\n}"
     }
   },
@@ -10983,7 +10983,7 @@
       "1,*"
     ],
     "venue": "Journal of the Korean Data Analysis Society",
-    "venue_ko": "한국자료분석학회지",
+    "venue_ko": "한국자료분석학회논문집",
     "volume": "28",
     "issue": "5",
     "pages": "",
@@ -10991,12 +10991,12 @@
     "language": "Korean",
     "awards": 0,
     "citations": {
-      "apa": "최인수. (2026). 엔트로피 VaR 연결성 네트워크를 이용한 글로벌 주식시장의 꼬리위험 전이 분석. <em>한국자료분석학회지</em>, <em>28</em>(5).",
-      "mla": "최인수. \"엔트로피 VaR 연결성 네트워크를 이용한 글로벌 주식시장의 꼬리위험 전이 분석.\" <em>한국자료분석학회지</em>, vol. 28, no. 5, 2026.",
-      "chicago": "최인수. \"엔트로피 VaR 연결성 네트워크를 이용한 글로벌 주식시장의 꼬리위험 전이 분석.\" <em>한국자료분석학회지</em> 28, no. 5 (2026).",
-      "harvard": "최인수 (2026) '엔트로피 VaR 연결성 네트워크를 이용한 글로벌 주식시장의 꼬리위험 전이 분석', <em>한국자료분석학회지</em>, 28(5).",
-      "vancouver": "Choi I. 엔트로피 VaR 연결성 네트워크를 이용한 글로벌 주식시장의 꼬리위험 전이 분석. 한국자료분석학회지. 2026;28(5).",
-      "korean": "최인수. (2026). 엔트로피 VaR 연결성 네트워크를 이용한 글로벌 주식시장의 꼬리위험 전이 분석. 한국자료분석학회지, 28(5).",
+      "apa": "최인수. (2026). 엔트로피 VaR 연결성 네트워크를 이용한 글로벌 주식시장의 꼬리위험 전이 분석. <em>한국자료분석학회논문집</em>, <em>28</em>(5).",
+      "mla": "최인수. \"엔트로피 VaR 연결성 네트워크를 이용한 글로벌 주식시장의 꼬리위험 전이 분석.\" <em>한국자료분석학회논문집</em>, vol. 28, no. 5, 2026.",
+      "chicago": "최인수. \"엔트로피 VaR 연결성 네트워크를 이용한 글로벌 주식시장의 꼬리위험 전이 분석.\" <em>한국자료분석학회논문집</em> 28, no. 5 (2026).",
+      "harvard": "최인수 (2026) '엔트로피 VaR 연결성 네트워크를 이용한 글로벌 주식시장의 꼬리위험 전이 분석', <em>한국자료분석학회논문집</em>, 28(5).",
+      "vancouver": "Choi I. 엔트로피 VaR 연결성 네트워크를 이용한 글로벌 주식시장의 꼬리위험 전이 분석. 한국자료분석학회논문집. 2026;28(5).",
+      "korean": "최인수. (2026). 엔트로피 VaR 연결성 네트워크를 이용한 글로벌 주식시장의 꼬리위험 전이 분석. 한국자료분석학회논문집, 28(5).",
       "bibtex": "@article{choi2026tail,\n  title = {{Tail-Risk Spillovers Across Global Equity Markets: An Entropic Value-at-Risk Connectedness Network Approach}},\n  author = {Choi, I.},\n  journal = {Journal of the Korean Data Analysis Society},\n  volume = {28},\n  number = {5},\n  year = {2026},\n}"
     }
   },
@@ -11341,7 +11341,7 @@
       "1,*"
     ],
     "venue": "Journal of the Korean Data Analysis Society",
-    "venue_ko": "한국자료분석학회지",
+    "venue_ko": "한국자료분석학회논문집",
     "volume": "28",
     "issue": "5",
     "pages": "",
@@ -11349,12 +11349,12 @@
     "language": "Korean",
     "awards": 0,
     "citations": {
-      "apa": "최인수. (2026). 보험산업의 금융시장 안정화 기능과 시스템적 위험 전이 구조에 관한 실증분석: 선형 계량모형과 비선형 인과지표의 교차확인을 통한 한·미 비교. <em>한국자료분석학회지</em>, <em>28</em>(5).",
-      "mla": "최인수. \"보험산업의 금융시장 안정화 기능과 시스템적 위험 전이 구조에 관한 실증분석: 선형 계량모형과 비선형 인과지표의 교차확인을 통한 한·미 비교.\" <em>한국자료분석학회지</em>, vol. 28, no. 5, 2026.",
-      "chicago": "최인수. \"보험산업의 금융시장 안정화 기능과 시스템적 위험 전이 구조에 관한 실증분석: 선형 계량모형과 비선형 인과지표의 교차확인을 통한 한·미 비교.\" <em>한국자료분석학회지</em> 28, no. 5 (2026).",
-      "harvard": "최인수 (2026) '보험산업의 금융시장 안정화 기능과 시스템적 위험 전이 구조에 관한 실증분석: 선형 계량모형과 비선형 인과지표의 교차확인을 통한 한·미 비교', <em>한국자료분석학회지</em>, 28(5).",
-      "vancouver": "Choi I. 보험산업의 금융시장 안정화 기능과 시스템적 위험 전이 구조에 관한 실증분석: 선형 계량모형과 비선형 인과지표의 교차확인을 통한 한·미 비교. 한국자료분석학회지. 2026;28(5).",
-      "korean": "최인수. (2026). 보험산업의 금융시장 안정화 기능과 시스템적 위험 전이 구조에 관한 실증분석: 선형 계량모형과 비선형 인과지표의 교차확인을 통한 한·미 비교. 한국자료분석학회지, 28(5).",
+      "apa": "최인수. (2026). 보험산업의 금융시장 안정화 기능과 시스템적 위험 전이 구조에 관한 실증분석: 선형 계량모형과 비선형 인과지표의 교차확인을 통한 한·미 비교. <em>한국자료분석학회논문집</em>, <em>28</em>(5).",
+      "mla": "최인수. \"보험산업의 금융시장 안정화 기능과 시스템적 위험 전이 구조에 관한 실증분석: 선형 계량모형과 비선형 인과지표의 교차확인을 통한 한·미 비교.\" <em>한국자료분석학회논문집</em>, vol. 28, no. 5, 2026.",
+      "chicago": "최인수. \"보험산업의 금융시장 안정화 기능과 시스템적 위험 전이 구조에 관한 실증분석: 선형 계량모형과 비선형 인과지표의 교차확인을 통한 한·미 비교.\" <em>한국자료분석학회논문집</em> 28, no. 5 (2026).",
+      "harvard": "최인수 (2026) '보험산업의 금융시장 안정화 기능과 시스템적 위험 전이 구조에 관한 실증분석: 선형 계량모형과 비선형 인과지표의 교차확인을 통한 한·미 비교', <em>한국자료분석학회논문집</em>, 28(5).",
+      "vancouver": "Choi I. 보험산업의 금융시장 안정화 기능과 시스템적 위험 전이 구조에 관한 실증분석: 선형 계량모형과 비선형 인과지표의 교차확인을 통한 한·미 비교. 한국자료분석학회논문집. 2026;28(5).",
+      "korean": "최인수. (2026). 보험산업의 금융시장 안정화 기능과 시스템적 위험 전이 구조에 관한 실증분석: 선형 계량모형과 비선형 인과지표의 교차확인을 통한 한·미 비교. 한국자료분석학회논문집, 28(5).",
       "bibtex": "@article{choi2026empiricalanalysis,\n  title = {{An Empirical Analysis of the Financial-Market Stabilizing Role of the Insurance Industry and Systemic Risk Transmission: A Korea–U.S. Comparison Through Cross-Validation of Linear Econometric Models and Nonlinear Causality Measures}},\n  author = {Choi, I.},\n  journal = {Journal of the Korean Data Analysis Society},\n  volume = {28},\n  number = {5},\n  year = {2026},\n}"
     }
   },
@@ -11478,6 +11478,38 @@
       "harvard": "Choi, I. (2026) 'Testing detailed balance in daily cryptocurrency markets: Irreversibility in range-volume dynamics, and none detectable in candlestick shape', <em>Frontiers in Physics</em>.",
       "vancouver": "Choi I. Testing detailed balance in daily cryptocurrency markets: Irreversibility in range-volume dynamics, and none detectable in candlestick shape. Frontiers in Physics. 2026.",
       "bibtex": "@article{choi2026testingdetailed,\n  title = {{Testing Detailed Balance in Daily Cryptocurrency Markets: Irreversibility in Range-Volume Dynamics, and None Detectable in Candlestick Shape}},\n  author = {Choi, I.},\n  journal = {Frontiers in Physics},\n  year = {2026},\n}"
+    }
+  },
+  {
+    "type": "journal",
+    "indexing_group": "Scopus",
+    "code_label": "J",
+    "published_date": "2026-12-31",
+    "year": 2026,
+    "title": "The Effect of Daily Return Alignment Schemes on Measuring Spillovers Between Global Commodity and Crypto-Asset Markets and Korean Financial Markets",
+    "title_ko": "일별 수익률 정렬 방식이 글로벌 원자재·암호자산과 한국 금융시장 간 전이 측정에 미치는 영향",
+    "authors": [
+      1
+    ],
+    "author_marks": [
+      "1,*"
+    ],
+    "venue": "Journal of the Korean Data Analysis Society",
+    "venue_ko": "한국자료분석학회논문집",
+    "volume": "28",
+    "issue": "6",
+    "pages": "",
+    "doi": "",
+    "language": "Korean",
+    "awards": 0,
+    "citations": {
+      "apa": "최인수. (2026). 일별 수익률 정렬 방식이 글로벌 원자재·암호자산과 한국 금융시장 간 전이 측정에 미치는 영향. <em>한국자료분석학회논문집</em>, <em>28</em>(6).",
+      "mla": "최인수. \"일별 수익률 정렬 방식이 글로벌 원자재·암호자산과 한국 금융시장 간 전이 측정에 미치는 영향.\" <em>한국자료분석학회논문집</em>, vol. 28, no. 6, 2026.",
+      "chicago": "최인수. \"일별 수익률 정렬 방식이 글로벌 원자재·암호자산과 한국 금융시장 간 전이 측정에 미치는 영향.\" <em>한국자료분석학회논문집</em> 28, no. 6 (2026).",
+      "harvard": "최인수 (2026) '일별 수익률 정렬 방식이 글로벌 원자재·암호자산과 한국 금융시장 간 전이 측정에 미치는 영향', <em>한국자료분석학회논문집</em>, 28(6).",
+      "vancouver": "Choi I. 일별 수익률 정렬 방식이 글로벌 원자재·암호자산과 한국 금융시장 간 전이 측정에 미치는 영향. 한국자료분석학회논문집. 2026;28(6).",
+      "korean": "최인수. (2026). 일별 수익률 정렬 방식이 글로벌 원자재·암호자산과 한국 금융시장 간 전이 측정에 미치는 영향. 한국자료분석학회논문집, 28(6).",
+      "bibtex": "@article{choi2026effectdaily,\n  title = {{The Effect of Daily Return Alignment Schemes on Measuring Spillovers Between Global Commodity and Crypto-Asset Markets and Korean Financial Markets}},\n  author = {Choi, I.},\n  journal = {Journal of the Korean Data Analysis Society},\n  volume = {28},\n  number = {6},\n  year = {2026},\n}"
     }
   }
 ]
