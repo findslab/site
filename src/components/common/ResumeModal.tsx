@@ -1,8 +1,22 @@
 // Common Resume Modal Component - shared across all director pages
+import { useEffect, useState } from 'react'
 import { useStoreLayoutValue } from '@/store/layout'
 
+// 숫자는 pubs.json / academicactivities.json에서 직접 계산 — 다른 페이지 통계와 항상 일치
 const ResumeModal = () => {
   const { devMode } = useStoreLayoutValue()
+  const [journalCount, setJournalCount] = useState<number | null>(null)
+  const [reviewerCount, setReviewerCount] = useState<number | null>(null)
+  useEffect(() => {
+    const baseUrl = import.meta.env.BASE_URL || '/'
+    fetch(`${baseUrl}data/pubs.json`).then(r => r.json())
+      .then((pubs: { type: string }[]) => setJournalCount(pubs.filter(p => p.type === 'journal').length))
+      .catch(() => {})
+    fetch(`${baseUrl}data/academicactivities.json`).then(r => r.json())
+      .then((d: { activities: { category: string; name: string }[] }) =>
+        setReviewerCount(new Set(d.activities.filter(a => a.category === 'journal').map(a => a.name)).size))
+      .catch(() => {})
+  }, [])
   return (
   <div className="p-16 md:p-24 max-h-[70vh] overflow-y-auto overflow-x-hidden">
     {/* Header */}
@@ -83,7 +97,7 @@ const ResumeModal = () => {
     {/* Selected Publications */}
     <section className="mb-20">
       <h3 className="text-sm font-bold text-primary mb-12">Selected Publications</h3>
-      <p className="text-xs text-gray-600 mb-8">20+ peer-reviewed journal articles. Representative journals include:</p>
+      <p className="text-xs text-gray-600 mb-8">{journalCount ? `${journalCount} peer-reviewed journal articles.` : 'Peer-reviewed journal articles.'} Representative journals include:</p>
       <ul className="text-xs text-gray-600 space-y-6 ml-12">
         <li className="flex items-start gap-6">
           <span className="w-3 h-3 rounded-full bg-primary/30 shrink-0 mt-5" />
@@ -190,7 +204,10 @@ const ResumeModal = () => {
     <section className="mb-20">
       <h3 className="text-sm font-bold text-primary mb-12">Professional Service</h3>
       <p className="text-xs text-gray-600">
-        <strong>Reviewer:</strong> International Review of Economics &amp; Finance, Finance Research Letters, Expert Systems with Applications, Knowledge-Based Systems, Annals of Operations Research
+        <strong>Program Committee:</strong> ACM SAC 2027 (AI for Intelligent Financial Technologies Track)
+      </p>
+      <p className="text-xs text-gray-600 mt-4">
+        <strong>Reviewer{reviewerCount ? ` (${reviewerCount} journals)` : ''}:</strong> International Review of Financial Analysis, Finance Research Letters, Expert Systems with Applications, Information Processing &amp; Management, Annals of Operations Research
       </p>
     </section>
 

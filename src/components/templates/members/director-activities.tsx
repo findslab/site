@@ -1,4 +1,4 @@
-import ResumeModal from '@/components/common/ResumeModal'
+import {DirectorCardBody} from './director-card'
 import {memo, useState, useEffect, useMemo, useCallback, useRef} from 'react'
 import {Link} from 'react-router-dom'
 import {
@@ -1500,7 +1500,7 @@ export const MembersDirectorActivitiesTemplate = () => {
       <section ref={contentSectionRef} className="max-w-1480 mx-auto w-full px-16 md:px-20 pb-60 md:pb-100 pt-24 md:pt-32">
         <div className="flex flex-col lg:flex-row gap-32 md:gap-60">
           {/* Left Column: Profile Card & Quick Info */}
-          <aside className="lg:w-380 shrink-0">
+          <aside className="lg:w-340 shrink-0">
         {/* Profile Card */}
             <div 
               ref={profileCardRef}
@@ -1531,116 +1531,8 @@ export const MembersDirectorActivitiesTemplate = () => {
                   Activities
                 </Link>
               </div>
-              <div className="bg-white border border-gray-100 rounded-2xl md:rounded-3xl p-20 md:p-24 shadow-sm">
-              <div className="flex flex-col items-center text-center mb-24 md:mb-32">
-                <div className="w-140 h-180 md:w-180 md:h-232 bg-gray-100 rounded-2xl overflow-hidden mb-16 md:mb-24 shadow-inner border border-gray-50">
-                  <img
-                    src={directorImg}
-                alt="Prof. Insu Choi"
-                className="w-full h-full object-cover"
-                onError={(e) => {
-                  e.currentTarget.style.display = 'none'
-                      e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-full flex items-center justify-center text-64">👨‍🏫</div>'
-                }}
-              />
-            </div>
-                <h2 className="text-lg md:text-2xl font-bold text-gray-900 mb-4">
-                  Insu Choi<span className="text-sm md:text-base font-medium text-gray-500 ml-4">, Ph.D.</span>
-                </h2>
-                <p className="text-base md:text-lg text-gray-500 font-medium">최인수</p>
-              </div>
-
-              <div className="flex flex-col gap-16 md:gap-20">
-                <div className="flex items-start gap-12 group">
-                  <div className="size-36 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-gray-100 group-hover:text-gray-800 transition-colors shrink-0">
-                    <Briefcase size={16}/>
-                  </div>
-                  <div className="min-w-0">
-                    <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-2">Position</p>
-                    <p className="text-sm font-semibold text-gray-800">Director</p>
-                    <p className="text-xs text-gray-500">FINDS (Financial Data Intelligence & Solutions) Lab</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-12 group">
-                  <div className="size-36 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-gray-100 group-hover:text-gray-800 transition-colors shrink-0">
-                    <Building size={16}/>
-                  </div>
-                  <div className="min-w-0">
-                    <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-2">Affiliation</p>
-                    <p className="text-sm font-semibold text-gray-800">Assistant Professor</p>
-                    <p className="text-[10px] md:text-xs text-gray-500">Gachon University</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-12 group">
-                  <div className="size-36 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-gray-100 group-hover:text-gray-800 transition-colors shrink-0">
-                    <MapPin size={16}/>
-                  </div>
-                  <div className="min-w-0">
-                    <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-2">Office</p>
-                    <p className="text-sm font-semibold text-gray-800">Room 304, Gachon Hall</p>
-                    <p className="text-[10px] md:text-xs text-gray-500">가천대학교 글로벌캠퍼스 가천관 304호</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-12 group">
-                  <div className="size-36 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-gray-100 group-hover:text-gray-800 transition-colors shrink-0">
-                    <Mail size={16}/>
-                  </div>
-                  <div className="min-w-0 flex-1">
-                    <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-2">E-mail</p>
-                    <div className="flex items-center gap-8">
-                      <a href={`mailto:${directorEmail}`} className="select-text text-sm font-semibold text-primary hover:underline break-all">
-                        {directorEmail}
-                      </a>
-                      <button
-                        onClick={handleCopyEmail}
-                        className="size-24 flex items-center justify-center rounded-md hover:bg-gray-100 transition-colors shrink-0"
-                        title="Copy email"
-                      >
-                        {emailCopied ? (
-                          <Check size={12} className="text-[#9A7D1F]"/>
-                        ) : (
-                          <Copy size={12} className="text-gray-500"/>
-                        )}
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-12 group">
-                  <div className="size-36 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-gray-100 group-hover:text-gray-800 transition-colors shrink-0">
-                    <Phone size={16}/>
-                  </div>
-                  <div className="min-w-0">
-                    <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-2">Phone</p>
-                    <p className="text-sm font-semibold text-gray-800">031-750-0614</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="grid grid-cols-2 gap-8 md:gap-12 mt-24 md:mt-32">
-                <button
-                  onClick={() => showModal({
-                    title: '',
-                    maxWidth: '800px',
-                    children: <ResumeModal />
-                  })}
-                  className="flex items-center justify-center gap-6 py-12 bg-primary text-white text-sm font-bold rounded-xl hover:bg-primary/90 transition-all"
-                >
-                  View Resume <ExternalLink size={14}/>
-                </button>
-                <a
-                  href="https://scholar.google.com/citations?user=p9JwRLwAAAAJ&hl=en"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-6 py-12 bg-primary text-sm font-bold rounded-xl hover:bg-primary/90 transition-all"
-                  style={{ color: 'white' }}
-                >
-                  Scholar <ExternalLink size={14}/>
-                </a>
-              </div>
+              <div className="bg-white border border-gray-100 rounded-2xl md:rounded-3xl p-16 md:p-20 shadow-sm">
+              <DirectorCardBody />
             </div>
             </div>
           </aside>

@@ -1,4 +1,4 @@
-import ResumeModal from '@/components/common/ResumeModal'
+import {DirectorCardBody} from './director-card'
 import {memo, useState, useEffect, useMemo, useCallback, useRef} from 'react'
 import {Link} from 'react-router-dom'
 import {
@@ -1528,108 +1528,7 @@ export const MembersDirectorPortfolioActivitiesTemplate = () => {
                 </Link>
               </div>
               <div className="bg-white border border-gray-100 rounded-2xl md:rounded-3xl p-16 md:p-20 shadow-sm">
-              <div className="flex flex-col items-center text-center mb-20 md:mb-24">
-                <div 
-                  className="w-120 h-155 md:w-140 md:h-180 bg-gray-100 rounded-2xl overflow-hidden mb-12 md:mb-16 shadow-inner border border-gray-50 relative select-none"
-                  onContextMenu={(e) => e.preventDefault()}
-                >
-                  <img
-                    src={directorImg}
-                    alt="Prof. Insu Choi"
-                    className="w-full h-full object-cover pointer-events-none"
-                    draggable={false}
-                    onContextMenu={(e) => e.preventDefault()}
-                    onError={(e) => {
-                      e.currentTarget.style.display = 'none'
-                      e.currentTarget.parentElement!.innerHTML = '<div class="w-full h-full flex items-center justify-center text-64">👨‍🏫</div>'
-                    }}
-                  />
-                  {/* Transparent overlay to prevent image interaction */}
-                  <div className="absolute inset-0" />
-                </div>
-                <h2 className="text-base md:text-lg font-bold text-gray-900">Insu Choi</h2>
-              </div>
-
-              <div className="flex flex-col gap-12 md:gap-16">
-                <div className="flex items-start gap-10 group">
-                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-gray-100 group-hover:text-gray-800 transition-colors shrink-0">
-                    <Briefcase size={14}/>
-                  </div>
-                  <div className="min-w-0">
-                    <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-1">Position</p>
-                    <p className="text-sm font-semibold text-gray-800">Director</p>
-                    <p className="text-sm text-gray-500">FINDS (Financial Data Intelligence & Solutions) Lab</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-10 group">
-                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-gray-100 group-hover:text-gray-800 transition-colors shrink-0">
-                    <Building size={14}/>
-                  </div>
-                  <div className="min-w-0">
-                    <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-1">Affiliation</p>
-                    <p className="text-sm font-semibold text-gray-800">Assistant Professor</p>
-                    <p className="text-sm text-gray-500">Gachon University</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-10 group">
-                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-gray-100 group-hover:text-gray-800 transition-colors shrink-0">
-                    <MapPin size={14}/>
-                  </div>
-                  <div className="min-w-0">
-                    <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-1">Office</p>
-                    <p className="text-sm font-semibold text-gray-800">Room 304, Gachon Hall</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-10 group">
-                  <div className="size-32 bg-gray-50 rounded-lg flex items-center justify-center text-gray-500 group-hover:bg-gray-100 group-hover:text-gray-800 transition-colors shrink-0">
-                    <Mail size={14}/>
-                  </div>
-                  <div className="min-w-0 flex-1">
-                    <p className="text-[10px] md:text-xs font-bold text-gray-500 mb-1">E-mail</p>
-                    <div className="flex items-center gap-6">
-                      <a href={`mailto:${directorEmail}`} className="select-text text-sm font-semibold text-primary hover:underline break-all">
-                        {directorEmail}
-                      </a>
-                      <button
-                        onClick={handleCopyEmail}
-                        className="size-20 flex items-center justify-center rounded-md hover:bg-gray-100 transition-colors shrink-0"
-                        title="Copy email"
-                      >
-                        {emailCopied ? (
-                          <Check size={10} className="text-[#9A7D1F]"/>
-                        ) : (
-                          <Copy size={10} className="text-gray-500"/>
-                        )}
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="grid grid-cols-2 gap-6 md:gap-8 mt-16 md:mt-20">
-                <button
-                  onClick={() => showModal({
-                    title: '',
-                    maxWidth: '800px',
-                    children: <ResumeModal />
-                  })}
-                  className="flex items-center justify-center gap-4 py-10 bg-primary text-white text-xs font-bold rounded-xl hover:bg-primary/90 transition-all"
-                >
-                  Resume <ExternalLink size={12}/>
-                </button>
-                <a
-                  href="https://scholar.google.com/citations?user=p9JwRLwAAAAJ&hl=en"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-center gap-4 py-10 bg-primary text-xs font-bold rounded-xl hover:bg-primary/90 transition-all"
-                  style={{ color: 'white' }}
-                >
-                  Scholar <ExternalLink size={12}/>
-                </a>
-              </div>
+              <DirectorCardBody />
               <Link 
                 to="/members/director"
                 className="flex items-center justify-center gap-4 mt-8 py-10 bg-white border border-gray-200 text-gray-500 text-xs font-medium rounded-xl hover:bg-gray-50 hover:text-gray-700 transition-all"

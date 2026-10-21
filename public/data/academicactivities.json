@@ -868,7 +868,7 @@
       "id": 97,
       "category": "journal",
       "name": "Journal of the Korean Data Analysis Society",
-      "name_ko": "한국자료분석학회지",
+      "name_ko": "한국자료분석학회논문집",
       "publisher": "한국자료분석학회",
       "type": "Scopus",
       "since": "2026-10-08",
@@ -904,9 +904,9 @@
     {
       "id": 100,
       "category": "committee",
-      "name": "The 42nd ACM/SIGAPP Symposium on Applied Computing (SAC 2027)",
-      "name_ko": "제42회 ACM/SIGAPP 응용컴퓨팅 심포지엄 (SAC 2027)",
-      "publisher": "ACM SIGAPP",
+      "name": "The 42nd ACM/SIGAPP Symposium on Applied Computing (SAC 2027) — AI for Intelligent Financial Technologies (AIFT) Track",
+      "name_ko": "제42회 ACM/SIGAPP 응용컴퓨팅 심포지엄 (SAC 2027) — AI for Intelligent Financial Technologies (AIFT) 트랙",
+      "publisher": "Association for Computing Machinery",
       "type": "Program Committee",
       "period": "2026-10",
       "url": "https://www.sigapp.org/sac/sac2027/"
