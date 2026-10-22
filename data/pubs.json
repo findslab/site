@@ -11511,5 +11511,37 @@
       "korean": "최인수. (2026). 일별 수익률 정렬 방식이 글로벌 원자재·암호자산과 한국 금융시장 간 전이 측정에 미치는 영향. 한국자료분석학회논문집, 28(6).",
       "bibtex": "@article{choi2026effectdaily,\n  title = {{The Effect of Daily Return Alignment Schemes on Measuring Spillovers Between Global Commodity and Crypto-Asset Markets and Korean Financial Markets}},\n  author = {Choi, I.},\n  journal = {Journal of the Korean Data Analysis Society},\n  volume = {28},\n  number = {6},\n  year = {2026},\n}"
     }
+  },
+  {
+    "type": "journal",
+    "indexing_group": "KCI",
+    "code_label": "J",
+    "published_date": "2026-12-31",
+    "year": 2026,
+    "title": "An Empirical Analysis of the Non-monotonic Contribution of Technical Indicator Lookback Periods to Next-Day Stock Direction Prediction in the Korean Market",
+    "title_ko": "국내 주식 익일 주가 방향 예측에서 기술적 지표 산출기간별 기여도의 비단조성에 관한 실증분석",
+    "authors": [
+      1
+    ],
+    "author_marks": [
+      "1,*"
+    ],
+    "venue": "Journal of the Korea Academia-Industrial Cooperation Society",
+    "venue_ko": "한국산학기술학회논문지",
+    "volume": "27",
+    "issue": "12",
+    "pages": "",
+    "doi": "",
+    "language": "Korean",
+    "awards": 0,
+    "citations": {
+      "apa": "최인수. (2026). 국내 주식 익일 주가 방향 예측에서 기술적 지표 산출기간별 기여도의 비단조성에 관한 실증분석. <em>한국산학기술학회논문지</em>, <em>27</em>(12).",
+      "mla": "최인수. \"국내 주식 익일 주가 방향 예측에서 기술적 지표 산출기간별 기여도의 비단조성에 관한 실증분석.\" <em>한국산학기술학회논문지</em>, vol. 27, no. 12, 2026.",
+      "chicago": "최인수. \"국내 주식 익일 주가 방향 예측에서 기술적 지표 산출기간별 기여도의 비단조성에 관한 실증분석.\" <em>한국산학기술학회논문지</em> 27, no. 12 (2026).",
+      "harvard": "최인수 (2026) '국내 주식 익일 주가 방향 예측에서 기술적 지표 산출기간별 기여도의 비단조성에 관한 실증분석', <em>한국산학기술학회논문지</em>, 27(12).",
+      "vancouver": "Choi I. 국내 주식 익일 주가 방향 예측에서 기술적 지표 산출기간별 기여도의 비단조성에 관한 실증분석. 한국산학기술학회논문지. 2026;27(12).",
+      "korean": "최인수. (2026). 국내 주식 익일 주가 방향 예측에서 기술적 지표 산출기간별 기여도의 비단조성에 관한 실증분석. 한국산학기술학회논문지, 27(12).",
+      "bibtex": "@article{choi2026empiricalanalysisnon,\n  title = {{An Empirical Analysis of the Non-monotonic Contribution of Technical Indicator Lookback Periods to Next-Day Stock Direction Prediction in the Korean Market}},\n  author = {Choi, I.},\n  journal = {Journal of the Korea Academia-Industrial Cooperation Society},\n  volume = {27},\n  number = {12},\n  year = {2026},\n}"
+    }
   }
 ]

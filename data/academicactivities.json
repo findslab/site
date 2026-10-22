@@ -930,6 +930,15 @@
       "type": "Committee Member",
       "period": "2026-10",
       "url": ""
+    },
+    {
+      "id": 103,
+      "category": "journal",
+      "name": "Engineering Applications of Artificial Intelligence",
+      "publisher": "Elsevier",
+      "type": "SCIE",
+      "since": "2026-10-21",
+      "url": "https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence"
     }
   ]
 }
