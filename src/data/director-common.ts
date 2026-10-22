@@ -4,12 +4,16 @@
 // Citation Statistics (Google Scholar) - Fallback values
 // Real data is fetched from /data/scholar.json (auto-updated daily)
 export const citationStats = [
-  { label: 'Citations', count: 329, key: 'totalCitations' },
+<<<<<<< HEAD
+  { label: 'Citations', count: 327, key: 'totalCitations' },
+=======
+  { label: 'Citations', count: 330, key: 'totalCitations' },
+>>>>>>> 7df4d47deef8ee3e83d2844606ccbb93f8d0f0fc
   { label: 'h-index', count: 11, key: 'hIndex' },
   { label: 'i10-index', count: 14, key: 'i10Index' },
   { label: 'i5-index', count: 17, key: 'i5Index' },
   { label: 'g-index', count: 17, key: 'gIndex' },
-  { label: 'e-index', count: 10.77, key: 'eIndex' },
+  { label: 'e-index', count: 10.68, key: 'eIndex' },
   { label: 'm-quotient', count: 1.57, key: 'mQuotient' },
 ]
 
@@ -91,6 +95,22 @@ export const directorInfo = {
   department: 'Big Data Business Management Major, Department of Finance and Big Data, College of Business',
   departmentKo: '빅데이터경영전공',
 }
+
+// Student Advising - 지도교수로 맡은 학생 단체 (Activities 페이지 'Student Advising' 섹션)
+export const studentAdvising = [
+  {
+    name: 'DAM',
+    fullName: 'Data Analytics & Management',
+    fullNameKo: '가천대학교 빅데이터경영전공 학술동아리',
+    role: 'Founding Faculty Advisor',
+    roleKo: '초대 지도교수',
+    note: 'Advised the club from its founding and launch',
+    noteKo: '설립 준비부터 발족까지 함께 지도',
+    period: '2026-09 – Present',
+    logo: 'dam',
+    instagram: 'https://www.instagram.com/gcu_dam/',
+  },
+]
 
 // Helper function to sort lecture periods (most recent first, but -1 before -2 within same semester)
 export const sortLecturePeriods = (periods: string[]): string[] => {

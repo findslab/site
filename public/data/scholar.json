@@ -1,5 +1,9 @@
 {
-  "lastUpdated": "2026-10-20T23:50:38Z",
+<<<<<<< HEAD
+  "lastUpdated": "2026-10-14T21:20:07Z",
+=======
+  "lastUpdated": "2026-10-22T04:39:51Z",
+>>>>>>> 7df4d47deef8ee3e83d2844606ccbb93f8d0f0fc
   "scholarId": "p9JwRLwAAAAJ",
   "scholarUrl": "https://scholar.google.com/citations?user=p9JwRLwAAAAJ&hl=en",
   "name": "Insu Choi",
@@ -10,19 +14,28 @@
     "Machine Learning"
   ],
   "metrics": {
-    "totalCitations": 329,
-    "citations5y": 329,
+<<<<<<< HEAD
+    "totalCitations": 327,
+    "citations5y": 327,
+=======
+    "totalCitations": 330,
+    "citations5y": 330,
+>>>>>>> 7df4d47deef8ee3e83d2844606ccbb93f8d0f0fc
     "hIndex": 11,
     "hIndex5y": 11,
     "i10Index": 14,
     "i10Index5y": 14,
     "i5Index": 17,
     "gIndex": 17,
-    "eIndex": 10.77,
+    "eIndex": 10.68,
     "mQuotient": 1.57
   },
   "citationsByYear": {
-    "2026": 171,
+<<<<<<< HEAD
+    "2026": 165,
+=======
+    "2026": 172,
+>>>>>>> 7df4d47deef8ee3e83d2844606ccbb93f8d0f0fc
     "2025": 94,
     "2024": 43,
     "2023": 4,
@@ -30,8 +43,8 @@
     "2021": 3
   },
   "pubStats": {
-    "totalPublications": 335,
-    "journals": 67,
+    "totalPublications": 336,
+    "journals": 68,
     "conferences": 262,
     "books": 4,
     "reports": 2,
@@ -42,13 +55,13 @@
       "esci": 1,
       "scopus": 5,
       "otherInternational": 1,
-      "kci": 22,
+      "kci": 23,
       "webOfScience": 39
     },
     "firstPubYear": 2017,
     "publicationsByYear": {
       "2027": 7,
-      "2026": 149,
+      "2026": 150,
       "2025": 25,
       "2024": 40,
       "2023": 50,

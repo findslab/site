@@ -66,7 +66,7 @@ export const DirectorCardBody = ({footer}: {footer?: ReactNode}) => {
         </Row>
         <Row icon={<Mail size={14}/>} label="E-mail">
           <div className="flex items-center gap-6">
-            <a href={`mailto:${d.email}`} className="select-text text-sm font-semibold text-primary hover:underline break-all">
+            <a href={`mailto:${d.email}`} className="select-text text-sm font-semibold text-gray-800 hover:text-gray-900 hover:underline underline-offset-2 break-all">
               {d.email}
             </a>
             <button
@@ -79,7 +79,7 @@ export const DirectorCardBody = ({footer}: {footer?: ReactNode}) => {
           </div>
         </Row>
         <Row icon={<Phone size={14}/>} label="Phone">
-          <a href={`tel:${d.phone}`} className="text-sm font-semibold text-gray-700 hover:text-gray-900 transition-colors">
+          <a href={`tel:${d.phone}`} className="text-sm font-semibold text-gray-800 hover:text-gray-900 hover:underline underline-offset-2 transition-colors">
             {d.phone}
           </a>
         </Row>

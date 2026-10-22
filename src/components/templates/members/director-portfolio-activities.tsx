@@ -100,10 +100,11 @@ import logoEy from '@/assets/images/logos/ey.png'
 import logoJl from '@/assets/images/logos/jl.png'
 import logoCaptima from '@/assets/images/logos/captima.png'
 import logoKfac from '@/assets/images/logos/kfac.png'
-import logoMensa from '@/assets/images/logos/mensa.png'
+import logoMensa from '@/assets/images/logos/mensa.svg'
 import logoField from '@/assets/images/logos/field.png'
 import logoFba from '@/assets/images/logos/fba.png'
 import logoDading from '@/assets/images/logos/dading.png'
+import {StudentAdvisingSection} from './director-advising'
 
 const education = [
   {
@@ -236,16 +237,17 @@ const activities = [
   },
   {
     name: 'Mensa Korea',
-    hidden: true,
+    hidden: false,
     logo: logoMensa,
-    fullName: '',
+    fullName: 'The High IQ Society',
     fullNameKo: '멘사코리아',
     generation: '',
     membership: [
-      {role: 'Member', period: '2019-01 – Present'},
+      {role: 'Lifetime Member', period: '2019-01 – Present'},
     ],
     leadership: [],
-    url: '#'
+    url: 'https://mensa.kr/',
+    instagram: ''
   },
   {
     name: 'FIELD',
@@ -1541,6 +1543,9 @@ export const MembersDirectorPortfolioActivitiesTemplate = () => {
 
           {/* Right Column: Activities Only */}
           <main className="flex-1 flex flex-col gap-40 md:gap-56 min-w-0">
+            {/* Student Advising (지도교수) */}
+            <StudentAdvisingSection />
+
             {/* Honors & Awards */}
             {honorsData && Object.keys(honorsData).length > 0 && (
             <section className="bg-white border border-gray-100 rounded-2xl overflow-hidden">
