@@ -4,11 +4,7 @@
 // Citation Statistics (Google Scholar) - Fallback values
 // Real data is fetched from /data/scholar.json (auto-updated daily)
 export const citationStats = [
-<<<<<<< HEAD
   { label: 'Citations', count: 327, key: 'totalCitations' },
-=======
-  { label: 'Citations', count: 330, key: 'totalCitations' },
->>>>>>> 7df4d47deef8ee3e83d2844606ccbb93f8d0f0fc
   { label: 'h-index', count: 11, key: 'hIndex' },
   { label: 'i10-index', count: 14, key: 'i10Index' },
   { label: 'i5-index', count: 17, key: 'i5Index' },
