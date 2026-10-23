@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T21:20:07Z",
+  "lastUpdated": "2026-10-22",
   "scholarId": "p9JwRLwAAAAJ",
   "scholarUrl": "https://scholar.google.com/citations?user=p9JwRLwAAAAJ&hl=en",
   "name": "Insu Choi",
@@ -10,19 +10,19 @@
     "Machine Learning"
   ],
   "metrics": {
-    "totalCitations": 327,
-    "citations5y": 327,
+    "totalCitations": 330,
+    "citations5y": 330,
     "hIndex": 11,
     "hIndex5y": 11,
     "i10Index": 14,
     "i10Index5y": 14,
     "i5Index": 17,
     "gIndex": 17,
-    "eIndex": 10.68,
+    "eIndex": 10.77,
     "mQuotient": 1.57
   },
   "citationsByYear": {
-    "2026": 165,
+    "2026": 172,
     "2025": 94,
     "2024": 43,
     "2023": 4,
@@ -60,5 +60,5 @@
       "2017": 1
     }
   },
-  "note": "metrics/citationsByYear are scraped from the public Google Scholar profile page (scripts/fetch_scholar.py, scheduled GitHub Action). pubStats is reference-only; the site computes publication statistics live from pubs.json."
+  "note": "metrics are updated manually from the public Google Scholar profile (scripts/update_scholar.py); lastUpdated is the 'as of' date shown on the site. citationsByYear is not refreshed by this script. pubStats is synced from pubs.json."
 }

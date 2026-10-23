@@ -2,7 +2,7 @@
 """
 scholar.json 의 pubStats 를 pubs.json 기준으로 다시 계산한다.
 
-Google Scholar 크롤링(fetch_scholar.py)과 달리 네트워크가 필요 없고
+인용 지표 갱신(update_scholar.py)과 별개로, 네트워크가 필요 없고
 로컬 데이터만 읽으므로, 빌드 전에 항상 안전하게 실행할 수 있다.
 citation 지표(metrics)는 건드리지 않는다.
 

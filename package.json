@@ -11,7 +11,7 @@
     "deploy": "npm run build && gh-pages -d dist --dotfiles",
     "sync:stats": "python3 scripts/sync_pubstats.py",
     "check:stats": "python3 scripts/sync_pubstats.py --check",
-    "update:scholar": "python3 scripts/fetch_scholar.py",
+    "update:scholar": "python3 scripts/update_scholar.py",
     "citations:conf": "python3 scripts/conf_citations.py --write",
     "audit:design": "node scripts/design_audit.mjs"
   },

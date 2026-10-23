@@ -939,6 +939,15 @@
       "type": "SCIE",
       "since": "2026-10-21",
       "url": "https://www.sciencedirect.com/journal/engineering-applications-of-artificial-intelligence"
+    },
+    {
+      "id": 104,
+      "category": "journal",
+      "name": "Biomimetics",
+      "publisher": "MDPI",
+      "type": "SCIE",
+      "since": "2026-10-22",
+      "url": "https://www.mdpi.com/journal/biomimetics"
     }
   ]
 }

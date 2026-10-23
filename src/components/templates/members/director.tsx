@@ -16,7 +16,7 @@ import {
 } from 'lucide-react'
 import {useStoreModal} from '@/store/modal'
 import type {HonorsData, AcademicActivitiesData} from '@/types/data'
-import {citationStats, researchInterests, isDirectorInResearchers, DIRECTOR_NAME_KO} from '@/data/director-common'
+import {citationStats, citationAsOf, scholarConfig, researchInterests, isDirectorInResearchers, DIRECTOR_NAME_KO} from '@/data/director-common'
 
 // Scholar data type
 type ScholarData = {
@@ -1050,6 +1050,10 @@ export const MembersDirectorTemplate = () => {
                         </div>
                       ))}
                     </div>
+                    <p className="mt-12 text-right text-[11px] text-gray-500 tabular-nums">
+                      <a href={scholarConfig.url} target="_blank" rel="noopener noreferrer" className="hover:text-gray-800 hover:underline underline-offset-2">Google Scholar</a>
+                      {' · '}{(scholarData?.lastUpdated || citationAsOf).slice(0, 10)} 기준
+                    </p>
                   </div>
                 </div>
               )}
