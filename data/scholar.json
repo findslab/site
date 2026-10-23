@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T23:58:13Z",
+  "lastUpdated": "2026-10-22",
   "scholarId": "p9JwRLwAAAAJ",
   "scholarUrl": "https://scholar.google.com/citations?user=p9JwRLwAAAAJ&hl=en",
   "name": "Insu Choi",
@@ -60,5 +60,5 @@
       "2017": 1
     }
   },
-  "note": "metrics/citationsByYear are scraped from the public Google Scholar profile page (scripts/fetch_scholar.py, scheduled GitHub Action). pubStats is reference-only; the site computes publication statistics live from pubs.json."
+  "note": "metrics are updated manually from the public Google Scholar profile (scripts/update_scholar.py); lastUpdated is the 'as of' date shown on the site. citationsByYear is not refreshed by this script. pubStats is synced from pubs.json."
 }
