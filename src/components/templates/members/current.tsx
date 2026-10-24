@@ -1,6 +1,5 @@
 import { memo, useState, useEffect, useMemo, useRef } from 'react'
 import { Link } from 'react-router-dom'
-import EmptyNote from '@/components/atoms/empty-note'
 import { Users, GraduationCap, BookOpen, Lightbulb, ChevronRight, ChevronDown, Home, Mail, Github, Linkedin, Globe, Copy, Check, ExternalLink, Sparkles} from 'lucide-react'
 import type { MemberData } from '@/types/data'
 
@@ -424,33 +423,8 @@ export const MembersCurrentTemplate = () => {
               const sectionColor = degreeHoverColors[groupKey as keyof typeof degreeHoverColors]
               const bgStyle = degreeBgStyles[groupKey as keyof typeof degreeBgStyles]
 
-              // Empty graduate groups are merged into a single "open positions" card
-              if (degreeMembers.length === 0) {
-                if (groupKey === 'undergrad') return null
-                const emptyKeys = (['phd-candidate', 'phd-student', 'combined', 'ms'] as const).filter(k => groupedMembers[k].length === 0)
-                if (emptyKeys[0] !== groupKey) return null
-                return (
-                  <div key="open-positions">
-                    <h3 className="text-lg md:text-[21px] font-semibold text-gray-800 mb-12 md:mb-[16px]">Graduate Programs</h3>
-                    <div className="flex flex-wrap gap-6 mb-12 md:mb-14">
-                      {emptyKeys.map(k => (
-                        <span key={k} className="px-10 py-4 rounded-full bg-white border border-gray-200 text-[11px] md:text-xs font-medium text-gray-600">
-                          {degreeLabels[k as keyof typeof degreeLabels]}
-                        </span>
-                      ))}
-                    </div>
-                    <EmptyNote
-                      ko="함께할 대학원생을 기다리고 있습니다"
-                      en="Graduate positions are open — we'd love to hear from you"
-                      action={
-                        <a href="mailto:ischoi@gachon.ac.kr" className="inline-flex items-center gap-4 px-12 py-6 rounded-full border border-[#D6B14D]/40 bg-white text-[11px] md:text-xs font-semibold text-[#9A7D1F] hover:bg-gray-50 transition-colors">
-                          문의하기 <ChevronRight size={12} />
-                        </a>
-                      }
-                    />
-                  </div>
-                )
-              }
+              // 구성원이 없는 과정은 표시하지 않음
+              if (degreeMembers.length === 0) return null
 
               return (
                 <div key={groupKey}>

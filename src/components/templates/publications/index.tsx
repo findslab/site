@@ -471,23 +471,19 @@ export const PublicationsTemplate = () => {
       result = result.filter((pub) => filters.type.some(t => t.toLowerCase() === pub.type.toLowerCase()))
     }
 
-    // 인덱싱 필터링
-    if (filters.indexing.length > 0) {
+    // 인덱싱(학술지) · 컨퍼런스 필터링
+    // - Journal Indexing 은 학술지에만, Conference 는 학회 발표에만 적용한다.
+    // - 둘 다 고르면 합집합(예: SCIE + International Conference → SCIE 학술지와 국제학회 모두).
+    // - Scopus 등재 학회 발표는 International Conference 로 센다.
+    if (filters.indexing.length > 0 || filters.conference.length > 0) {
+      const confGroup = (g: string) => (g === 'Scopus' ? 'International Conference' : g)
       result = result.filter((pub) => {
-        if (!pub.indexing_group) return false
-        return filters.indexing.includes(pub.indexing_group)
-      })
-    }
-
-    // 컨퍼런스 필터링
-    if (filters.conference.length > 0) {
-      result = result.filter((pub) => {
-        if (!pub.indexing_group) return false
-        // International Conference 필터 시 Scopus Conference도 포함
-        if (filters.conference.includes('International Conference') && pub.indexing_group === 'Scopus') {
-          return true
-        }
-        return filters.conference.includes(pub.indexing_group)
+        const g = pub.indexing_group || ''
+        // 세부 조건이 없는 유형은 Publication Type 에서 직접 고른 경우에만 통과
+        const typePicked = (t: string) => filters.type.some(x => x.toLowerCase() === t)
+        if (pub.type === 'journal') return filters.indexing.length > 0 ? filters.indexing.includes(g) : typePicked('journal')
+        if (pub.type === 'conference') return filters.conference.length > 0 ? filters.conference.includes(confGroup(g)) : typePicked('conference')
+        return typePicked(pub.type)
       })
     }
 

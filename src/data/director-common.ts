@@ -94,22 +94,6 @@ export const directorInfo = {
   departmentKo: '빅데이터경영전공',
 }
 
-// Student Advising - 지도교수로 맡은 학생 단체 (Activities 페이지 'Student Advising' 섹션)
-export const studentAdvising = [
-  {
-    name: 'DAM',
-    fullName: 'Data Analytics & Management',
-    fullNameKo: '가천대학교 빅데이터경영전공 학술동아리',
-    role: 'Founding Faculty Advisor',
-    roleKo: '초대 지도교수',
-    note: 'Advised the club from its founding and launch',
-    noteKo: '설립 준비부터 발족까지 함께 지도',
-    period: '2026-09 – Present',
-    logo: 'dam',
-    instagram: 'https://www.instagram.com/gcu_dam/',
-  },
-]
-
 // Helper function to sort lecture periods (most recent first, but -1 before -2 within same semester)
 export const sortLecturePeriods = (periods: string[]): string[] => {
   return [...periods].sort((a, b) => {

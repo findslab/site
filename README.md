@@ -502,12 +502,12 @@ desktop (1440px)
 | 인용문이 데이터와 맞는지 | `python3 scripts/conf_citations.py --check`, `python3 scripts/journal_citations.py --check` → 둘 다 `changed: 0` |
 | 논문 통계 | `python3 scripts/sync_pubstats.py` → "이미 최신입니다" |
 | 화면 숫자 일관성 | Publications 카드 합계 = 연도 바 합계 = 디렉터 Research Overview 합계, 프로젝트·수상·구성원도 같은 방식 |
-| 같은 내용 여러 곳 | 디렉터 프로필 카드(이름·연구실·전화·이메일)는 `src/data/director-common.ts`의 `directorInfo` 한 곳에서만 고치면 6개 디렉터 페이지에 함께 반영됩니다(`director-card.tsx`). Resume 창의 논문 수·리뷰 학술지 수는 데이터에서 자동 계산합니다. 지도교수로 맡은 학생 단체는 같은 파일의 `studentAdvising`에 추가하면 Activities 페이지 맨 위 "Student Advising"에 나옵니다(학생 시절 동아리·외부 단체는 "Off-Campus Activities"). 경력(employment)은 `director.tsx`와 `director-portfolio-profile.tsx` 두 곳에 있으니 함께 고칩니다 |
+| 같은 내용 여러 곳 | 디렉터 프로필 카드(이름·연구실·전화·이메일)는 `src/data/director-common.ts`의 `directorInfo` 한 곳에서만 고치면 6개 디렉터 페이지에 함께 반영됩니다(`director-card.tsx`). Resume 창의 논문 수·리뷰 학술지 수는 데이터에서 자동 계산합니다. Activities 페이지의 단체 카드는 `director-activities.tsx`의 `onCampusActivities`(교내, 예: DAM)와 `activities`(교외)에 있고, `director-portfolio-activities.tsx`에도 같이 고칩니다. 경력(employment)은 `director.tsx`와 `director-portfolio-profile.tsx` 두 곳에 있으니 함께 고칩니다 |
 | 뉴스·공지 | `index.json` 목록과 파일 일치, `tag`가 허용 값인지, 첨부파일이 같은 폴더에 있는지, 날짜 옆 요일 표기가 맞는지 |
 
 2026-10-16 기준 세 차례 점검 결과 (숫자는 2026-10-19 갱신):
 - **데이터:** 인용문 변경 0건, 오탈자 검사와 인용 검사는 알려진 오탐(국문 제목만 있는 저서·보고서)만 남았습니다.
-- **화면 숫자:** 논문 336편(학술지 68·학회 262·저서 4·보고서 2), 프로젝트 21건(연구실 출범 후 7건), 디렉터 수상 83건(연구실 출범 후 14건), 학술 활동 103건(학술지 리뷰 72곳), 강의 강사 12학기·조교 12학기, 인용 지표 330/h 11(2026-10-22 기준)이 모든 페이지와 데이터에서 일치합니다.
+- **화면 숫자:** 논문 336편(학술지 68·학회 262·저서 4·보고서 2), 프로젝트 21건(연구실 출범 후 7건), 디렉터 수상 85건(연구실 출범 후 14건), 학술 활동 104건(학술지 리뷰 73곳), 강의 강사 12학기·조교 12학기, 인용 지표 330/h 11(2026-10-22 기준)이 모든 페이지와 데이터에서 일치합니다.
 - **중복 내용 (2026-10-21):** 디렉터 카드 6곳 통일(이름·국문 표기·사무실 국문 주소·전화번호·버튼 이름), Resume 창의 "20+ journal articles"를 실제 수(67편)로, 데이터에 없는 리뷰 학술지 2곳을 실제 리뷰 기록으로 교체, 포트폴리오 경력에 빠진 KAIST 전문연구요원 추가, `directorInfo` 이메일 오기 수정.
 - **글:** 영문 철자 오류 0건, 학회명 표기 흔들림 0건, 깨진 링크·이미지 0건, 요일 표기 10곳 모두 정확합니다.
 
