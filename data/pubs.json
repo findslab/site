@@ -246,41 +246,6 @@
     "code_label": "C",
     "published_date": "2026-12-11",
     "year": 2026,
-    "title": "Testing the Predictive Power of Stock Message Board Sentiment for 30-Minute Stock Returns: Evidence From Equivalence Tests and Out-of-Sample Evaluation",
-    "title_ko": "종목토론방 여론의 30분봉 주가 예측력 검증 — 동등성 검정과 표본 외 평가를 이용한 분석을 중심으로",
-    "authors": [
-      197,
-      198,
-      199,
-      1
-    ],
-    "author_marks": [
-      "1",
-      "1",
-      "1",
-      "*"
-    ],
-    "venue": "2026 Winter Conference of the Korean Data Analysis Society (KDAS)",
-    "venue_ko": "2026 한국자료분석학회 동계학술논문발표대회",
-    "presentation_type": "poster",
-    "language": "Korean",
-    "awards": 0,
-    "citations": {
-      "apa": "Kim, N., Kim, D., Kim, J., & Choi, I. (2026, December 11). Testing the predictive power of stock message board sentiment for 30-minute stock returns: Evidence from equivalence tests and out-of-sample evaluation [Poster presentation]. 2026 Winter Conference of the Korean Data Analysis Society.",
-      "mla": "Kim, Nagyun, et al. \"Testing the Predictive Power of Stock Message Board Sentiment for 30-Minute Stock Returns: Evidence From Equivalence Tests and Out-of-Sample Evaluation.\" 2026 Winter Conference of the Korean Data Analysis Society, 11 Dec. 2026.",
-      "chicago": "Kim, Nagyun, Dongwoo Kim, Jungjin Kim, and Insu Choi. \"Testing the Predictive Power of Stock Message Board Sentiment for 30-Minute Stock Returns: Evidence From Equivalence Tests and Out-of-Sample Evaluation.\" Poster presented at the 2026 Winter Conference of the Korean Data Analysis Society, December 11, 2026.",
-      "harvard": "Kim, N., Kim, D., Kim, J. & Choi, I. (2026) 'Testing the predictive power of stock message board sentiment for 30-minute stock returns: Evidence from equivalence tests and out-of-sample evaluation', poster presented at the 2026 Winter Conference of the Korean Data Analysis Society, 11 December.",
-      "vancouver": "Kim N, Kim D, Kim J, Choi I. Testing the predictive power of stock message board sentiment for 30-minute stock returns: Evidence from equivalence tests and out-of-sample evaluation. Poster presented at: 2026 Winter Conference of the Korean Data Analysis Society; 2026 Dec 11.",
-      "korean": "김나균, 김동우, 김정진, 최인수. (2026). 종목토론방 여론의 30분봉 주가 예측력 검증 — 동등성 검정과 표본 외 평가를 이용한 분석을 중심으로. 2026 한국자료분석학회 동계학술논문발표대회 발표논문.",
-      "bibtex": "@inproceedings{kim2026testing,\n  title = {{Testing the Predictive Power of Stock Message Board Sentiment for 30-Minute Stock Returns: Evidence From Equivalence Tests and Out-of-Sample Evaluation}},\n  author = {Kim, N. and Kim, D. and Kim, J. and Choi, I.},\n  booktitle = {2026 Winter Conference of the Korean Data Analysis Society (KDAS)},\n  year = {2026},\n}"
-    }
-  },
-  {
-    "type": "conference",
-    "indexing_group": "Domestic Conference",
-    "code_label": "C",
-    "published_date": "2026-12-11",
-    "year": 2026,
     "title": "Asymmetric Tail Risk Transmission Between the Artificial Intelligence Industry and Energy Markets Revisited From a Frequency Connectedness Perspective",
     "title_ko": "주파수 연결성 관점에서 재조명한 인공지능 산업과 에너지 시장 간 비대칭 꼬리위험 전이",
     "authors": [
@@ -519,6 +484,41 @@
       "vancouver": "Choi I. Extreme-loss risk transmission among global stock markets: Evidence from a coherent risk measure and forecast error variance decomposition. Paper presented at: 2027 Winter Conference of the Korea Society of Computer and Information; 2027 Jan 31.",
       "korean": "최인수. (2027). 정합적 위험측도와 예측오차 분산분해를 이용한 글로벌 주식시장 간 극단손실 위험 파급 분석. 2027 한국컴퓨터정보학회 동계학술대회 발표논문.",
       "bibtex": "@inproceedings{choi2027extreme,\n  title = {{Extreme-Loss Risk Transmission Among Global Stock Markets: Evidence From a Coherent Risk Measure and Forecast Error Variance Decomposition}},\n  author = {Choi, I.},\n  booktitle = {2027 Winter Conference of the Korea Society of Computer and Information (KSCI)},\n  year = {2027},\n}"
+    }
+  },
+  {
+    "type": "conference",
+    "indexing_group": "Domestic Conference",
+    "code_label": "C",
+    "published_date": "2027-01-31",
+    "year": 2027,
+    "title": "Testing the Predictive Power of Stock Message Board Sentiment for 30-Minute Stock Returns: Evidence From Equivalence Tests and Out-of-Sample Evaluation",
+    "title_ko": "종목토론방 여론의 30분봉 주가 예측력 검증 — 동등성 검정과 표본 외 평가를 이용한 분석을 중심으로",
+    "authors": [
+      197,
+      198,
+      199,
+      1
+    ],
+    "author_marks": [
+      "1",
+      "1",
+      "1",
+      "*"
+    ],
+    "venue": "2027 Winter Conference of the Korea Society of Computer and Information (KSCI)",
+    "venue_ko": "2027 한국컴퓨터정보학회 동계학술대회",
+    "presentation_type": "poster",
+    "language": "Korean",
+    "awards": 0,
+    "citations": {
+      "apa": "Kim, N., Kim, D., Kim, J., & Choi, I. (2027, January 31). Testing the predictive power of stock message board sentiment for 30-minute stock returns: Evidence from equivalence tests and out-of-sample evaluation [Poster presentation]. 2027 Winter Conference of the Korea Society of Computer and Information.",
+      "mla": "Kim, Nagyun, et al. \"Testing the Predictive Power of Stock Message Board Sentiment for 30-Minute Stock Returns: Evidence From Equivalence Tests and Out-of-Sample Evaluation.\" 2027 Winter Conference of the Korea Society of Computer and Information, 31 Jan. 2027.",
+      "chicago": "Kim, Nagyun, Dongwoo Kim, Jungjin Kim, and Insu Choi. \"Testing the Predictive Power of Stock Message Board Sentiment for 30-Minute Stock Returns: Evidence From Equivalence Tests and Out-of-Sample Evaluation.\" Poster presented at the 2027 Winter Conference of the Korea Society of Computer and Information, January 31, 2027.",
+      "harvard": "Kim, N., Kim, D., Kim, J. & Choi, I. (2027) 'Testing the predictive power of stock message board sentiment for 30-minute stock returns: Evidence from equivalence tests and out-of-sample evaluation', poster presented at the 2027 Winter Conference of the Korea Society of Computer and Information, 31 January.",
+      "vancouver": "Kim N, Kim D, Kim J, Choi I. Testing the predictive power of stock message board sentiment for 30-minute stock returns: Evidence from equivalence tests and out-of-sample evaluation. Poster presented at: 2027 Winter Conference of the Korea Society of Computer and Information; 2027 Jan 31.",
+      "korean": "김나균, 김동우, 김정진, 최인수. (2027). 종목토론방 여론의 30분봉 주가 예측력 검증 — 동등성 검정과 표본 외 평가를 이용한 분석을 중심으로. 2027 한국컴퓨터정보학회 동계학술대회 발표논문.",
+      "bibtex": "@inproceedings{kim2027testing,\n  title = {{Testing the Predictive Power of Stock Message Board Sentiment for 30-Minute Stock Returns: Evidence From Equivalence Tests and Out-of-Sample Evaluation}},\n  author = {Kim, N. and Kim, D. and Kim, J. and Choi, I.},\n  booktitle = {2027 Winter Conference of the Korea Society of Computer and Information (KSCI)},\n  year = {2027},\n}"
     }
   },
   {
@@ -10145,7 +10145,7 @@
     "pages": "",
     "doi": "",
     "language": "Korean",
-    "awards": 0,
+    "awards": 1,
     "presentation_type": "oral",
     "citations": {
       "apa": "Kim, J., Shin, S., Lee, J., Jung, Y., & Choi, I. (2026, October 24). Industry heterogeneity in market-adjusted interest-rate exposure [Paper presentation]. 2026 Fall Conference of the Korean Operations Research and Management Science Society.",
@@ -10178,7 +10178,7 @@
     "pages": "",
     "doi": "",
     "language": "Korean",
-    "awards": 0,
+    "awards": 1,
     "presentation_type": "oral",
     "citations": {
       "apa": "Choi, I. (2026, October 24). Cluster risk budgeting from the critical partition of financial interdependence networks [Paper presentation]. 2026 Fall Conference of the Korean Operations Research and Management Science Society.",

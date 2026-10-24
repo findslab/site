@@ -1276,6 +1276,52 @@
           "level": "phd"
         }
       ]
+    },
+    {
+      "type": "award",
+      "icon": "🏆",
+      "title": "우수상",
+      "title_en": "Excellence Award",
+      "event": "2026 한국경영과학회 추계학술대회 경쟁 부문",
+      "organization": "한국경영과학회",
+      "date": "Oct 24",
+      "winners": [
+        {
+          "name": "최인수",
+          "level": "phd"
+        }
+      ]
+    },
+    {
+      "type": "award",
+      "icon": "🏆",
+      "title": "장려상",
+      "title_en": "Encouragement Award",
+      "event": "2026 한국경영과학회 추계학술대회 경쟁 부문",
+      "organization": "한국경영과학회",
+      "date": "Oct 24",
+      "winners": [
+        {
+          "name": "김지우",
+          "level": "lab_intern"
+        },
+        {
+          "name": "신수현",
+          "level": "lab_intern"
+        },
+        {
+          "name": "이정현",
+          "level": "lab_intern"
+        },
+        {
+          "name": "정연진",
+          "level": "lab_intern"
+        },
+        {
+          "name": "최인수",
+          "level": "phd"
+        }
+      ]
     }
   ]
 }
