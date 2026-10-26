@@ -647,7 +647,7 @@
     "type": "journal",
     "indexing_group": "SCIE",
     "code_label": "J",
-    "published_date": "2026-10-11",
+    "published_date": "2026-10-22",
     "year": 2026,
     "title": "Behavioral Feature-Based Relevance Ranking for Tourism-Policy Recommendation: A Decision-Support Framework",
     "authors": [
@@ -872,7 +872,7 @@
     "type": "journal",
     "indexing_group": "SSCI",
     "code_label": "J",
-    "published_date": "2026-10-09",
+    "published_date": "2026-10-21",
     "year": 2026,
     "title": "Integrating AI Into Business School Curricula: Patterns of Curriculum Change and Pedagogical Implications From Korean Business Schools",
     "authors": [
@@ -933,7 +933,7 @@
     "type": "journal",
     "indexing_group": "KCI",
     "code_label": "J",
-    "published_date": "2026-07-31",
+    "published_date": "2026-09-30",
     "year": 2026,
     "title": "Effects of Generative-Model-Based Synthetic Time-Series Data Augmentation on Backtest Overfitting Evaluation",
     "title_ko": "생성모형 기반 합성 시계열 자료 증강이 백테스팅 과적합 평가에 미치는 영향",
@@ -1065,7 +1065,7 @@
     "type": "journal",
     "indexing_group": "SCIE",
     "code_label": "J",
-    "published_date": "2026-06-05",
+    "published_date": "2026-06-11",
     "year": 2026,
     "title": "Intrinsic Multifractality and Adaptive Efficiency in Bitcoin: Disentangling Sources of Scaling Complexity Across Market Regimes",
     "title_ko": "",
@@ -1127,7 +1127,7 @@
     "type": "journal",
     "indexing_group": "SSCI",
     "code_label": "J",
-    "published_date": "2026-06-01",
+    "published_date": "2026-05-28",
     "year": 2026,
     "title": "Strong Clustering and Weak Barriers at Round Numbers in Bitcoin Markets",
     "title_ko": "",
@@ -1158,7 +1158,7 @@
     "type": "journal",
     "indexing_group": "SSCI",
     "code_label": "J",
-    "published_date": "2026-05-31",
+    "published_date": "2026-06-08",
     "year": 2026,
     "title": "Efficient Computation of Lead-Lag Signature Features for Financial Time Series Forecasting",
     "title_ko": "",
@@ -1189,7 +1189,7 @@
     "type": "journal",
     "indexing_group": "KCI",
     "code_label": "J",
-    "published_date": "2026-07-31",
+    "published_date": "2026-07-28",
     "year": 2026,
     "title": "Structural Change Analysis of K-Defense Stock Correlation Networks in Response to Geopolitical Events",
     "title_ko": "지정학적 이벤트에 따른 K-방산 주가 상관 네트워크의 구조적 변화 분석",
@@ -1737,7 +1737,7 @@
     "type": "journal",
     "indexing_group": "SSCI",
     "code_label": "J",
-    "published_date": "2025-12-01",
+    "published_date": "2025-10-31",
     "year": 2025,
     "title": "Housing–Fertility Interdependencies in South Korea: A Dynamic Analysis Across Regional Disparities and Temporal Shifts",
     "authors": [
@@ -2487,8 +2487,8 @@
     "type": "journal",
     "indexing_group": "SSCI",
     "code_label": "J",
-    "published_date": "2025-01-01",
-    "year": 2025,
+    "published_date": "2024-11-22",
+    "year": 2024,
     "title": "A Multifaceted Graph-Wise Network Analysis of Sector-Based Financial Instruments' Price-Based Discrepancies With Diverse Statistical Interdependencies",
     "authors": [
       1,
@@ -2505,12 +2505,12 @@
     "language": "English",
     "awards": 0,
     "citations": {
-      "apa": "Choi, I., & Kim, W. C. (2025). A multifaceted graph-wise network analysis of sector-based financial instruments' price-based discrepancies with diverse statistical interdependencies. <em>The North American Journal of Economics and Finance</em>, <em>75</em>, 102316. https://doi.org/10.1016/j.najef.2024.102316",
-      "mla": "Choi, Insu, and Woo Chang Kim. \"A Multifaceted Graph-Wise Network Analysis of Sector-Based Financial Instruments' Price-Based Discrepancies With Diverse Statistical Interdependencies.\" <em>The North American Journal of Economics and Finance</em>, vol. 75, 2025, p. 102316. https://doi.org/10.1016/j.najef.2024.102316.",
-      "chicago": "Choi, Insu, and Woo Chang Kim. \"A Multifaceted Graph-Wise Network Analysis of Sector-Based Financial Instruments' Price-Based Discrepancies With Diverse Statistical Interdependencies.\" <em>The North American Journal of Economics and Finance</em> 75 (2025): 102316. https://doi.org/10.1016/j.najef.2024.102316.",
-      "harvard": "Choi, I. & Kim, W.C. (2025) 'A multifaceted graph-wise network analysis of sector-based financial instruments' price-based discrepancies with diverse statistical interdependencies', <em>The North American Journal of Economics and Finance</em>, 75, p. 102316. https://doi.org/10.1016/j.najef.2024.102316",
-      "vancouver": "Choi I, Kim WC. A multifaceted graph-wise network analysis of sector-based financial instruments' price-based discrepancies with diverse statistical interdependencies. The North American Journal of Economics and Finance. 2025;75:102316.",
-      "bibtex": "@article{choi2025multifaceted,\n  title = {{A Multifaceted Graph-Wise Network Analysis of Sector-Based Financial Instruments' Price-Based Discrepancies With Diverse Statistical Interdependencies}},\n  author = {Choi, I. and Kim, W. C.},\n  journal = {The North American Journal of Economics and Finance},\n  volume = {75},\n  pages = {102316},\n  year = {2025},\n  doi = {10.1016/j.najef.2024.102316},\n}"
+      "apa": "Choi, I., & Kim, W. C. (2024). A multifaceted graph-wise network analysis of sector-based financial instruments' price-based discrepancies with diverse statistical interdependencies. <em>The North American Journal of Economics and Finance</em>, <em>75</em>, 102316. https://doi.org/10.1016/j.najef.2024.102316",
+      "mla": "Choi, Insu, and Woo Chang Kim. \"A Multifaceted Graph-Wise Network Analysis of Sector-Based Financial Instruments' Price-Based Discrepancies With Diverse Statistical Interdependencies.\" <em>The North American Journal of Economics and Finance</em>, vol. 75, 2024, p. 102316. https://doi.org/10.1016/j.najef.2024.102316.",
+      "chicago": "Choi, Insu, and Woo Chang Kim. \"A Multifaceted Graph-Wise Network Analysis of Sector-Based Financial Instruments' Price-Based Discrepancies With Diverse Statistical Interdependencies.\" <em>The North American Journal of Economics and Finance</em> 75 (2024): 102316. https://doi.org/10.1016/j.najef.2024.102316.",
+      "harvard": "Choi, I. & Kim, W.C. (2024) 'A multifaceted graph-wise network analysis of sector-based financial instruments' price-based discrepancies with diverse statistical interdependencies', <em>The North American Journal of Economics and Finance</em>, 75, p. 102316. https://doi.org/10.1016/j.najef.2024.102316",
+      "vancouver": "Choi I, Kim WC. A multifaceted graph-wise network analysis of sector-based financial instruments' price-based discrepancies with diverse statistical interdependencies. The North American Journal of Economics and Finance. 2024;75:102316.",
+      "bibtex": "@article{choi2024multifaceted,\n  title = {{A Multifaceted Graph-Wise Network Analysis of Sector-Based Financial Instruments' Price-Based Discrepancies With Diverse Statistical Interdependencies}},\n  author = {Choi, I. and Kim, W. C.},\n  journal = {The North American Journal of Economics and Finance},\n  volume = {75},\n  pages = {102316},\n  year = {2024},\n  doi = {10.1016/j.najef.2024.102316},\n}"
     }
   },
   {
@@ -2939,7 +2939,7 @@
     "type": "journal",
     "indexing_group": "SCIE",
     "code_label": "J",
-    "published_date": "2024-12-03",
+    "published_date": "2024-10-01",
     "year": 2024,
     "title": "Unlocking ETF Price Forecasting: Exploring the Interconnections With Statistical Dependence-Based Graphs and xAI Techniques",
     "authors": [
@@ -2969,7 +2969,7 @@
     "type": "journal",
     "indexing_group": "SSCI",
     "code_label": "J",
-    "published_date": "2024-11-01",
+    "published_date": "2024-08-31",
     "year": 2024,
     "title": "A Temporal Information Transfer Network Approach Considering Federal Funds Rate for an Interpretable Asset Fluctuation Prediction Framework",
     "authors": [
@@ -2998,7 +2998,7 @@
   },
   {
     "type": "conference",
-    "indexing_group": "International Conference",
+    "indexing_group": "Scopus",
     "code_label": "C",
     "published_date": "2024-08-05",
     "year": 2024,
@@ -3573,7 +3573,7 @@
     "type": "journal",
     "indexing_group": "SSCI",
     "code_label": "J",
-    "published_date": "2024-07-01",
+    "published_date": "2024-03-28",
     "year": 2024,
     "title": "Practical Forecasting of Risk Boundaries for Industrial Metals and Critical Minerals via Statistical Machine Learning Techniques",
     "authors": [
@@ -3636,7 +3636,7 @@
     "type": "conference",
     "indexing_group": "Scopus",
     "code_label": "C",
-    "published_date": "2024-02-28",
+    "published_date": "2024-08-08",
     "year": 2024,
     "title": "A Transparent Single Financial Asset Trading Framework via Reinforcement Learning",
     "authors": [
@@ -3652,11 +3652,11 @@
     "language": "English",
     "awards": 0,
     "citations": {
-      "apa": "Choi, I., & Kim, W. C. (2024, February 28). A transparent single financial asset trading framework via reinforcement learning [Paper presentation]. Springer Proceedings in Business and Economics.",
-      "mla": "Choi, Insu, and Woo Chang Kim. \"A Transparent Single Financial Asset Trading Framework via Reinforcement Learning.\" Springer Proceedings in Business and Economics, 28 Feb. 2024.",
-      "chicago": "Choi, Insu, and Woo Chang Kim. \"A Transparent Single Financial Asset Trading Framework via Reinforcement Learning.\" Paper presented at the Springer Proceedings in Business and Economics, February 28, 2024.",
-      "harvard": "Choi, I. & Kim, W.C. (2024) 'A transparent single financial asset trading framework via reinforcement learning', paper presented at the Springer Proceedings in Business and Economics, 28 February.",
-      "vancouver": "Choi I, Kim WC. A transparent single financial asset trading framework via reinforcement learning. Paper presented at: Springer Proceedings in Business and Economics; 2024 Feb 28.",
+      "apa": "Choi, I., & Kim, W. C. (2024, August 8). A transparent single financial asset trading framework via reinforcement learning [Paper presentation]. Springer Proceedings in Business and Economics.",
+      "mla": "Choi, Insu, and Woo Chang Kim. \"A Transparent Single Financial Asset Trading Framework via Reinforcement Learning.\" Springer Proceedings in Business and Economics, 8 Aug. 2024.",
+      "chicago": "Choi, Insu, and Woo Chang Kim. \"A Transparent Single Financial Asset Trading Framework via Reinforcement Learning.\" Paper presented at the Springer Proceedings in Business and Economics, August 8, 2024.",
+      "harvard": "Choi, I. & Kim, W.C. (2024) 'A transparent single financial asset trading framework via reinforcement learning', paper presented at the Springer Proceedings in Business and Economics, 8 August.",
+      "vancouver": "Choi I, Kim WC. A transparent single financial asset trading framework via reinforcement learning. Paper presented at: Springer Proceedings in Business and Economics; 2024 Aug 8.",
       "bibtex": "@inproceedings{choi2024transparent,\n  title = {{A Transparent Single Financial Asset Trading Framework via Reinforcement Learning}},\n  author = {Choi, I. and Kim, W. C.},\n  booktitle = {Springer Proceedings in Business and Economics},\n  year = {2024},\n}"
     },
     "presentation_type": "oral"
@@ -3700,7 +3700,7 @@
     "type": "conference",
     "indexing_group": "Scopus",
     "code_label": "C",
-    "published_date": "2024-02-19",
+    "published_date": "2024-02-18",
     "year": 2024,
     "title": "An Iridescent Insight of Statistical Interdependencies of Financial Markets",
     "authors": [
@@ -3717,11 +3717,11 @@
     "language": "English",
     "awards": 0,
     "citations": {
-      "apa": "Choi, I., & Kim, W. C. (2024, February 19). An iridescent insight of statistical interdependencies of financial markets [Paper presentation]. 11th IEEE International Conference on Big Data and Smart Computing (IEEE BigComp 2024).",
-      "mla": "Choi, Insu, and Woo Chang Kim. \"An Iridescent Insight of Statistical Interdependencies of Financial Markets.\" 11th IEEE International Conference on Big Data and Smart Computing (IEEE BigComp 2024), 19 Feb. 2024.",
-      "chicago": "Choi, Insu, and Woo Chang Kim. \"An Iridescent Insight of Statistical Interdependencies of Financial Markets.\" Paper presented at the 11th IEEE International Conference on Big Data and Smart Computing (IEEE BigComp 2024), February 19, 2024.",
-      "harvard": "Choi, I. & Kim, W.C. (2024) 'An iridescent insight of statistical interdependencies of financial markets', paper presented at the 11th IEEE International Conference on Big Data and Smart Computing (IEEE BigComp 2024), 19 February.",
-      "vancouver": "Choi I, Kim WC. An iridescent insight of statistical interdependencies of financial markets. Paper presented at: 11th IEEE International Conference on Big Data and Smart Computing (IEEE BigComp 2024); 2024 Feb 19.",
+      "apa": "Choi, I., & Kim, W. C. (2024, February 18). An iridescent insight of statistical interdependencies of financial markets [Paper presentation]. 11th IEEE International Conference on Big Data and Smart Computing (IEEE BigComp 2024).",
+      "mla": "Choi, Insu, and Woo Chang Kim. \"An Iridescent Insight of Statistical Interdependencies of Financial Markets.\" 11th IEEE International Conference on Big Data and Smart Computing (IEEE BigComp 2024), 18 Feb. 2024.",
+      "chicago": "Choi, Insu, and Woo Chang Kim. \"An Iridescent Insight of Statistical Interdependencies of Financial Markets.\" Paper presented at the 11th IEEE International Conference on Big Data and Smart Computing (IEEE BigComp 2024), February 18, 2024.",
+      "harvard": "Choi, I. & Kim, W.C. (2024) 'An iridescent insight of statistical interdependencies of financial markets', paper presented at the 11th IEEE International Conference on Big Data and Smart Computing (IEEE BigComp 2024), 18 February.",
+      "vancouver": "Choi I, Kim WC. An iridescent insight of statistical interdependencies of financial markets. Paper presented at: 11th IEEE International Conference on Big Data and Smart Computing (IEEE BigComp 2024); 2024 Feb 18.",
       "bibtex": "@inproceedings{choi2024iridescent,\n  title = {{An Iridescent Insight of Statistical Interdependencies of Financial Markets}},\n  author = {Choi, I. and Kim, W. C.},\n  booktitle = {11th IEEE International Conference on Big Data and Smart Computing (IEEE BigComp 2024)},\n  year = {2024},\n}"
     }
   },
@@ -3861,7 +3861,7 @@
     "type": "conference",
     "indexing_group": "International Conference",
     "code_label": "C",
-    "published_date": "2023-12-07",
+    "published_date": "2023-12-06",
     "year": 2023,
     "title": "Hard Voting-Based Long-Short Portfolio Generation With Machine Learning Techniques and Technical Indicators",
     "authors": [
@@ -3881,11 +3881,11 @@
     "language": "English",
     "awards": 0,
     "citations": {
-      "apa": "Choi, I., Choi, J., Choi, W., & Kim, W. C. (2023, December 7). Hard voting-based long-short portfolio generation with machine learning techniques and technical indicators [Paper presentation]. 24th International Symposium on Advanced Intelligent Systems (ISIS 2023).",
-      "mla": "Choi, Insu, et al. \"Hard Voting-Based Long-Short Portfolio Generation With Machine Learning Techniques and Technical Indicators.\" 24th International Symposium on Advanced Intelligent Systems (ISIS 2023), 7 Dec. 2023.",
-      "chicago": "Choi, Insu, Jaepil Choi, Woohyuk Choi, and Woo Chang Kim. \"Hard Voting-Based Long-Short Portfolio Generation With Machine Learning Techniques and Technical Indicators.\" Paper presented at the 24th International Symposium on Advanced Intelligent Systems (ISIS 2023), December 7, 2023.",
-      "harvard": "Choi, I., Choi, J., Choi, W. & Kim, W.C. (2023) 'Hard voting-based long-short portfolio generation with machine learning techniques and technical indicators', paper presented at the 24th International Symposium on Advanced Intelligent Systems (ISIS 2023), 7 December.",
-      "vancouver": "Choi I, Choi J, Choi W, Kim WC. Hard voting-based long-short portfolio generation with machine learning techniques and technical indicators. Paper presented at: 24th International Symposium on Advanced Intelligent Systems (ISIS 2023); 2023 Dec 7.",
+      "apa": "Choi, I., Choi, J., Choi, W., & Kim, W. C. (2023, December 6). Hard voting-based long-short portfolio generation with machine learning techniques and technical indicators [Paper presentation]. 24th International Symposium on Advanced Intelligent Systems (ISIS 2023).",
+      "mla": "Choi, Insu, et al. \"Hard Voting-Based Long-Short Portfolio Generation With Machine Learning Techniques and Technical Indicators.\" 24th International Symposium on Advanced Intelligent Systems (ISIS 2023), 6 Dec. 2023.",
+      "chicago": "Choi, Insu, Jaepil Choi, Woohyuk Choi, and Woo Chang Kim. \"Hard Voting-Based Long-Short Portfolio Generation With Machine Learning Techniques and Technical Indicators.\" Paper presented at the 24th International Symposium on Advanced Intelligent Systems (ISIS 2023), December 6, 2023.",
+      "harvard": "Choi, I., Choi, J., Choi, W. & Kim, W.C. (2023) 'Hard voting-based long-short portfolio generation with machine learning techniques and technical indicators', paper presented at the 24th International Symposium on Advanced Intelligent Systems (ISIS 2023), 6 December.",
+      "vancouver": "Choi I, Choi J, Choi W, Kim WC. Hard voting-based long-short portfolio generation with machine learning techniques and technical indicators. Paper presented at: 24th International Symposium on Advanced Intelligent Systems (ISIS 2023); 2023 Dec 6.",
       "bibtex": "@inproceedings{choi2023hard,\n  title = {{Hard Voting-Based Long-Short Portfolio Generation With Machine Learning Techniques and Technical Indicators}},\n  author = {Choi, I. and Choi, J. and Choi, W. and Kim, W. C.},\n  booktitle = {24th International Symposium on Advanced Intelligent Systems (ISIS 2023)},\n  year = {2023},\n}"
     }
   },
@@ -3893,8 +3893,8 @@
     "type": "journal",
     "indexing_group": "SCIE",
     "code_label": "J",
-    "published_date": "2024-02-01",
-    "year": 2024,
+    "published_date": "2023-12-03",
+    "year": 2023,
     "title": "Network-Based Exploratory Data Analysis and Explainable Three-Stage Deep Clustering for Financial Customer Profiling",
     "authors": [
       1,
@@ -3915,12 +3915,12 @@
     "language": "English",
     "awards": 0,
     "citations": {
-      "apa": "Choi, I., Koh, W., Koo, B., & Kim, W. C. (2024). Network-based exploratory data analysis and explainable three-stage deep clustering for financial customer profiling. <em>Engineering Applications of Artificial Intelligence</em>, <em>128</em>, 107378. https://doi.org/10.1016/j.engappai.2023.107378",
-      "mla": "Choi, Insu, et al. \"Network-Based Exploratory Data Analysis and Explainable Three-Stage Deep Clustering for Financial Customer Profiling.\" <em>Engineering Applications of Artificial Intelligence</em>, vol. 128, 2024, p. 107378. https://doi.org/10.1016/j.engappai.2023.107378.",
-      "chicago": "Choi, Insu, Woosung Koh, Bonwoo Koo, and Woo Chang Kim. \"Network-Based Exploratory Data Analysis and Explainable Three-Stage Deep Clustering for Financial Customer Profiling.\" <em>Engineering Applications of Artificial Intelligence</em> 128 (2024): 107378. https://doi.org/10.1016/j.engappai.2023.107378.",
-      "harvard": "Choi, I., Koh, W., Koo, B. & Kim, W.C. (2024) 'Network-based exploratory data analysis and explainable three-stage deep clustering for financial customer profiling', <em>Engineering Applications of Artificial Intelligence</em>, 128, p. 107378. https://doi.org/10.1016/j.engappai.2023.107378",
-      "vancouver": "Choi I, Koh W, Koo B, Kim WC. Network-based exploratory data analysis and explainable three-stage deep clustering for financial customer profiling. Engineering Applications of Artificial Intelligence. 2024;128:107378.",
-      "bibtex": "@article{choi2024network,\n  title = {{Network-Based Exploratory Data Analysis and Explainable Three-Stage Deep Clustering for Financial Customer Profiling}},\n  author = {Choi, I. and Koh, W. and Koo, B. and Kim, W. C.},\n  journal = {Engineering Applications of Artificial Intelligence},\n  volume = {128},\n  pages = {107378},\n  year = {2024},\n  doi = {10.1016/j.engappai.2023.107378},\n}"
+      "apa": "Choi, I., Koh, W., Koo, B., & Kim, W. C. (2023). Network-based exploratory data analysis and explainable three-stage deep clustering for financial customer profiling. <em>Engineering Applications of Artificial Intelligence</em>, <em>128</em>, 107378. https://doi.org/10.1016/j.engappai.2023.107378",
+      "mla": "Choi, Insu, et al. \"Network-Based Exploratory Data Analysis and Explainable Three-Stage Deep Clustering for Financial Customer Profiling.\" <em>Engineering Applications of Artificial Intelligence</em>, vol. 128, 2023, p. 107378. https://doi.org/10.1016/j.engappai.2023.107378.",
+      "chicago": "Choi, Insu, Woosung Koh, Bonwoo Koo, and Woo Chang Kim. \"Network-Based Exploratory Data Analysis and Explainable Three-Stage Deep Clustering for Financial Customer Profiling.\" <em>Engineering Applications of Artificial Intelligence</em> 128 (2023): 107378. https://doi.org/10.1016/j.engappai.2023.107378.",
+      "harvard": "Choi, I., Koh, W., Koo, B. & Kim, W.C. (2023) 'Network-based exploratory data analysis and explainable three-stage deep clustering for financial customer profiling', <em>Engineering Applications of Artificial Intelligence</em>, 128, p. 107378. https://doi.org/10.1016/j.engappai.2023.107378",
+      "vancouver": "Choi I, Koh W, Koo B, Kim WC. Network-based exploratory data analysis and explainable three-stage deep clustering for financial customer profiling. Engineering Applications of Artificial Intelligence. 2023;128:107378.",
+      "bibtex": "@article{choi2023network,\n  title = {{Network-Based Exploratory Data Analysis and Explainable Three-Stage Deep Clustering for Financial Customer Profiling}},\n  author = {Choi, I. and Koh, W. and Koo, B. and Kim, W. C.},\n  journal = {Engineering Applications of Artificial Intelligence},\n  volume = {128},\n  pages = {107378},\n  year = {2023},\n  doi = {10.1016/j.engappai.2023.107378},\n}"
     }
   },
   {
@@ -3989,7 +3989,7 @@
     "type": "journal",
     "indexing_group": "Other International",
     "code_label": "J",
-    "published_date": "2023-12-01",
+    "published_date": "2023-11-29",
     "year": 2023,
     "title": "Enhancing Financial Literacy in South Korea: Integrating AI and Data Visualization to Understand Financial Instruments' Interdependencies",
     "authors": [
@@ -4949,7 +4949,7 @@
     "type": "journal",
     "indexing_group": "SSCI",
     "code_label": "J",
-    "published_date": "2023-10-01",
+    "published_date": "2023-08-29",
     "year": 2023,
     "title": "Estimating Historical Downside Risks of Global Financial Market Indices via Inflation Rate-Adjusted Dependence Graphs",
     "authors": [
@@ -5565,7 +5565,7 @@
     "type": "journal",
     "indexing_group": "SSCI",
     "code_label": "J",
-    "published_date": "2023-06-01",
+    "published_date": "2023-04-05",
     "year": 2023,
     "title": "Elucidating Directed Statistical Dependencies: Investigating Global Financial Market Indices' Influence on Korean Short Selling Activities",
     "authors": [
@@ -5630,8 +5630,8 @@
     "type": "journal",
     "indexing_group": "SCIE",
     "code_label": "J",
-    "published_date": "2025-09-01",
-    "year": 2025,
+    "published_date": "2022-12-13",
+    "year": 2022,
     "title": "Improving Data Efficiency for Analyzing Global Exchange Rate Fluctuations Based on Nonlinear Causal Network-Based Clustering",
     "authors": [
       1,
@@ -5651,12 +5651,12 @@
     "language": "English",
     "awards": 0,
     "citations": {
-      "apa": "Choi, I., Yun, W., & Kim, W. C. (2025). Improving data efficiency for analyzing global exchange rate fluctuations based on nonlinear causal network-based clustering. <em>Annals of Operations Research</em>, <em>352</em>(3), 745-780. https://doi.org/10.1007/s10479-022-05101-8",
-      "mla": "Choi, Insu, et al. \"Improving Data Efficiency for Analyzing Global Exchange Rate Fluctuations Based on Nonlinear Causal Network-Based Clustering.\" <em>Annals of Operations Research</em>, vol. 352, no. 3, 2025, pp. 745-780. https://doi.org/10.1007/s10479-022-05101-8.",
-      "chicago": "Choi, Insu, Wonje Yun, and Woo Chang Kim. \"Improving Data Efficiency for Analyzing Global Exchange Rate Fluctuations Based on Nonlinear Causal Network-Based Clustering.\" <em>Annals of Operations Research</em> 352, no. 3 (2025): 745-780. https://doi.org/10.1007/s10479-022-05101-8.",
-      "harvard": "Choi, I., Yun, W. & Kim, W.C. (2025) 'Improving data efficiency for analyzing global exchange rate fluctuations based on nonlinear causal network-based clustering', <em>Annals of Operations Research</em>, 352(3), pp. 745-780. https://doi.org/10.1007/s10479-022-05101-8",
-      "vancouver": "Choi I, Yun W, Kim WC. Improving data efficiency for analyzing global exchange rate fluctuations based on nonlinear causal network-based clustering. Annals of Operations Research. 2025;352(3):745-80.",
-      "bibtex": "@article{choi2025improving,\n  title = {{Improving Data Efficiency for Analyzing Global Exchange Rate Fluctuations Based on Nonlinear Causal Network-Based Clustering}},\n  author = {Choi, I. and Yun, W. and Kim, W. C.},\n  journal = {Annals of Operations Research},\n  volume = {352},\n  number = {3},\n  pages = {745--780},\n  year = {2025},\n  doi = {10.1007/s10479-022-05101-8},\n}"
+      "apa": "Choi, I., Yun, W., & Kim, W. C. (2022). Improving data efficiency for analyzing global exchange rate fluctuations based on nonlinear causal network-based clustering. <em>Annals of Operations Research</em>, <em>352</em>(3), 745-780. https://doi.org/10.1007/s10479-022-05101-8",
+      "mla": "Choi, Insu, et al. \"Improving Data Efficiency for Analyzing Global Exchange Rate Fluctuations Based on Nonlinear Causal Network-Based Clustering.\" <em>Annals of Operations Research</em>, vol. 352, no. 3, 2022, pp. 745-780. https://doi.org/10.1007/s10479-022-05101-8.",
+      "chicago": "Choi, Insu, Wonje Yun, and Woo Chang Kim. \"Improving Data Efficiency for Analyzing Global Exchange Rate Fluctuations Based on Nonlinear Causal Network-Based Clustering.\" <em>Annals of Operations Research</em> 352, no. 3 (2022): 745-780. https://doi.org/10.1007/s10479-022-05101-8.",
+      "harvard": "Choi, I., Yun, W. & Kim, W.C. (2022) 'Improving data efficiency for analyzing global exchange rate fluctuations based on nonlinear causal network-based clustering', <em>Annals of Operations Research</em>, 352(3), pp. 745-780. https://doi.org/10.1007/s10479-022-05101-8",
+      "vancouver": "Choi I, Yun W, Kim WC. Improving data efficiency for analyzing global exchange rate fluctuations based on nonlinear causal network-based clustering. Annals of Operations Research. 2022;352(3):745-80.",
+      "bibtex": "@article{choi2022improvingdata,\n  title = {{Improving Data Efficiency for Analyzing Global Exchange Rate Fluctuations Based on Nonlinear Causal Network-Based Clustering}},\n  author = {Choi, I. and Yun, W. and Kim, W. C.},\n  journal = {Annals of Operations Research},\n  volume = {352},\n  number = {3},\n  pages = {745--780},\n  year = {2022},\n  doi = {10.1007/s10479-022-05101-8},\n}"
     }
   },
   {
@@ -6595,7 +6595,7 @@
     "type": "journal",
     "indexing_group": "ESCI",
     "code_label": "J",
-    "published_date": "2022-06-01",
+    "published_date": "2022-06-30",
     "year": 2022,
     "title": "Analyzing and Utilizing Thematic Stocks Based on Text Mining Techniques and Information Flow-Based Networks: An Example of the Republic of Korea's Mask-Themed Stocks",
     "authors": [
@@ -9984,7 +9984,7 @@
     "type": "journal",
     "indexing_group": "SCIE",
     "code_label": "J",
-    "published_date": "2026-10-15",
+    "published_date": "2026-08-13",
     "year": 2026,
     "title": "A Taxonomy of Heterogeneous Statistical Interdependencies for Graph-Based Financial Time Series Prediction",
     "authors": [
@@ -10117,7 +10117,7 @@
     "type": "journal",
     "indexing_group": "SSCI",
     "code_label": "J",
-    "published_date": "2026-08-29",
+    "published_date": "2026-09-04",
     "year": 2026,
     "title": "Measuring Cryptocurrency-Macro Spillovers: Calendar Alignment, Estimator Symmetry, and the Synchronization Regime Shift of 2020",
     "authors": [
@@ -10146,7 +10146,7 @@
     "type": "journal",
     "indexing_group": "SSCI",
     "code_label": "J",
-    "published_date": "2026-09-03",
+    "published_date": "2026-09-15",
     "year": 2026,
     "title": "Déjà Vu in Iridescent Bloom: Bottom-Up Place Branding in the Complex Adaptive Reception of a RESCENE Member's Personal YouTube Channel",
     "authors": [
@@ -10707,7 +10707,7 @@
     "type": "journal",
     "indexing_group": "SCIE",
     "code_label": "J",
-    "published_date": "2026-09-15",
+    "published_date": "2026-09-28",
     "year": 2026,
     "title": "Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation",
     "authors": [
@@ -11091,7 +11091,7 @@
     "type": "journal",
     "indexing_group": "SCIE",
     "code_label": "J",
-    "published_date": "2026-09-24",
+    "published_date": "2026-09-25",
     "year": 2026,
     "title": "Cellular-Automaton Feature Extraction From Nonstationary Financial Signals: The Information Is Compositional",
     "authors": [
@@ -11388,7 +11388,7 @@
     "type": "journal",
     "indexing_group": "SCIE",
     "code_label": "J",
-    "published_date": "2026-10-15",
+    "published_date": "2026-10-05",
     "year": 2026,
     "title": "Calibrating Change-Point Tests on Topological Descriptors: A Dependence-Length Criterion, and What Persistent Homology Detects That Correlation Does Not",
     "authors": [

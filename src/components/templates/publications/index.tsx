@@ -1164,8 +1164,14 @@ export const PublicationsTemplate = () => {
                                         <>
                                           <span className="text-[10px] md:text-[11px] text-white/60">|</span>
                                           <span className="text-xs font-bold text-white/90">
-                                            {pub.indexing_group === 'Scopus' ? 'International · Scopus' : pub.indexing_group === 'International Conference' ? 'International' : pub.indexing_group === 'Domestic Conference' ? 'Domestic' : ''}
+                                            {pub.indexing_group === 'Scopus' || pub.indexing_group === 'International Conference' ? 'International' : pub.indexing_group === 'Domestic Conference' ? 'Domestic' : ''}
                                           </span>
+                                          {pub.indexing_group === 'Scopus' && (
+                                            <>
+                                              <span className="text-[10px] md:text-[11px] text-white/60">|</span>
+                                              <span className="text-xs font-bold text-white/90">Scopus</span>
+                                            </>
+                                          )}
                                         </>
                                       )}
                                       {pub.presentation_type && (
@@ -1233,8 +1239,14 @@ export const PublicationsTemplate = () => {
                                             'bg-[#E8889C]/10 border border-[#E8889C]/30'
                                           }`}>
                                             <span className="text-[10px] md:text-[11px] font-bold" style={{color: pub.indexing_group === 'International Conference' || pub.indexing_group === 'Scopus' ? '#AC0E0E' : '#E8889C'}}>
-                                              {pub.indexing_group === 'Scopus' ? 'Int\'l · Scopus' : pub.indexing_group === 'International Conference' ? 'International' : 'Domestic'}
+                                              {pub.indexing_group === 'Scopus' || pub.indexing_group === 'International Conference' ? 'International' : 'Domestic'}
                                             </span>
+                                          </div>
+                                        )}
+                                        {/* Scopus 등재 학회: International 과 별도 배지 */}
+                                        {pub.indexing_group === 'Scopus' && (
+                                          <div className="w-full py-3 text-center rounded-md border" style={{backgroundColor: 'rgba(214,195,96,0.1)', borderColor: 'rgba(214,195,96,0.3)'}}>
+                                            <span className="text-[10px] md:text-[11px] font-bold" style={{color: '#D6C360'}}>Scopus</span>
                                           </div>
                                         )}
                                         {/* Row 2: Oral/Poster */}
