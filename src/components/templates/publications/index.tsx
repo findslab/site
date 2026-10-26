@@ -333,12 +333,23 @@ export const PublicationsTemplate = () => {
   }, [])
 
   useEffect(() => {
+    // 배포 직후 등 캐시가 어긋나 JSON이 아닌 응답을 받으면 캐시를 우회해 최대 2번 더 받는다
     const safeJsonFetch = async (url: string) => {
-      const response = await fetch(url)
-      const text = await response.text()
-      // Trailing commas 제거 (사람이 작성한 JSON 대응)
-      const cleaned = text.replace(/,(\s*[\}\]])/g, '$1')
-      return JSON.parse(cleaned)
+      let lastErr: unknown
+      for (let attempt = 0; attempt < 3; attempt++) {
+        try {
+          const response = await fetch(attempt === 0 ? url : `${url}?v=${Date.now()}`, attempt === 0 ? undefined : {cache: 'no-store'})
+          if (!response.ok) throw new Error(`HTTP ${response.status}`)
+          const text = await response.text()
+          // Trailing commas 제거 (사람이 작성한 JSON 대응)
+          const cleaned = text.replace(/,(\s*[\}\]])/g, '$1')
+          return JSON.parse(cleaned)
+        } catch (e) {
+          lastErr = e
+          await new Promise(r => setTimeout(r, 400 * (attempt + 1)))
+        }
+      }
+      throw lastErr
     }
 
     const baseUrl = import.meta.env.BASE_URL || '/'
