@@ -957,6 +957,15 @@
       "type": "KCI",
       "since": "2026-10-22",
       "url": ""
+    },
+    {
+      "id": 106,
+      "category": "journal",
+      "name": "Discover Applied Mathematics",
+      "publisher": "Springer",
+      "type": "Other International",
+      "since": "2026-10-24",
+      "url": ""
     }
   ]
 }

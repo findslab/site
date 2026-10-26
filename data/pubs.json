@@ -277,6 +277,93 @@
     "type": "conference",
     "indexing_group": "Domestic Conference",
     "code_label": "C",
+    "published_date": "2026-12-11",
+    "year": 2026,
+    "title": "An Analysis of the Multidimensional Cluster Structure of Household Financial Health",
+    "title_ko": "가계 재정건전성의 다차원 재무건전성 군집 구조 분석",
+    "authors": [
+      1
+    ],
+    "author_marks": [
+      "1,*"
+    ],
+    "venue": "2026 Winter Conference of the Korean Data Analysis Society (KDAS)",
+    "venue_ko": "2026 한국자료분석학회 동계학술논문발표대회",
+    "presentation_type": "poster",
+    "language": "Korean",
+    "awards": 0,
+    "citations": {
+      "apa": "Choi, I. (2026, December 11). An analysis of the multidimensional cluster structure of household financial health [Poster presentation]. 2026 Winter Conference of the Korean Data Analysis Society.",
+      "mla": "Choi, Insu. \"An Analysis of the Multidimensional Cluster Structure of Household Financial Health.\" 2026 Winter Conference of the Korean Data Analysis Society, 11 Dec. 2026.",
+      "chicago": "Choi, Insu. \"An Analysis of the Multidimensional Cluster Structure of Household Financial Health.\" Poster presented at the 2026 Winter Conference of the Korean Data Analysis Society, December 11, 2026.",
+      "harvard": "Choi, I. (2026) 'An analysis of the multidimensional cluster structure of household financial health', poster presented at the 2026 Winter Conference of the Korean Data Analysis Society, 11 December.",
+      "vancouver": "Choi I. An analysis of the multidimensional cluster structure of household financial health. Poster presented at: 2026 Winter Conference of the Korean Data Analysis Society; 2026 Dec 11.",
+      "korean": "최인수. (2026). 가계 재정건전성의 다차원 재무건전성 군집 구조 분석. 2026 한국자료분석학회 동계학술논문발표대회 발표논문.",
+      "bibtex": "@inproceedings{choi2026analysis,\n  title = {{An Analysis of the Multidimensional Cluster Structure of Household Financial Health}},\n  author = {Choi, I.},\n  booktitle = {2026 Winter Conference of the Korean Data Analysis Society (KDAS)},\n  year = {2026},\n}"
+    }
+  },
+  {
+    "type": "conference",
+    "indexing_group": "Domestic Conference",
+    "code_label": "C",
+    "published_date": "2026-12-11",
+    "year": 2026,
+    "title": "Training Design for Reinforcement Learning Trading Agents With Sequentially Adjusted Observation Noise Levels",
+    "title_ko": "관측 잡음 수준을 순차 조정하는 강화학습 매매 에이전트 학습 설계",
+    "authors": [
+      1
+    ],
+    "author_marks": [
+      "1,*"
+    ],
+    "venue": "2026 Winter Conference of the Korean Data Analysis Society (KDAS)",
+    "venue_ko": "2026 한국자료분석학회 동계학술논문발표대회",
+    "presentation_type": "poster",
+    "language": "Korean",
+    "awards": 0,
+    "citations": {
+      "apa": "Choi, I. (2026, December 11). Training design for reinforcement learning trading agents with sequentially adjusted observation noise levels [Poster presentation]. 2026 Winter Conference of the Korean Data Analysis Society.",
+      "mla": "Choi, Insu. \"Training Design for Reinforcement Learning Trading Agents With Sequentially Adjusted Observation Noise Levels.\" 2026 Winter Conference of the Korean Data Analysis Society, 11 Dec. 2026.",
+      "chicago": "Choi, Insu. \"Training Design for Reinforcement Learning Trading Agents With Sequentially Adjusted Observation Noise Levels.\" Poster presented at the 2026 Winter Conference of the Korean Data Analysis Society, December 11, 2026.",
+      "harvard": "Choi, I. (2026) 'Training design for reinforcement learning trading agents with sequentially adjusted observation noise levels', poster presented at the 2026 Winter Conference of the Korean Data Analysis Society, 11 December.",
+      "vancouver": "Choi I. Training design for reinforcement learning trading agents with sequentially adjusted observation noise levels. Poster presented at: 2026 Winter Conference of the Korean Data Analysis Society; 2026 Dec 11.",
+      "korean": "최인수. (2026). 관측 잡음 수준을 순차 조정하는 강화학습 매매 에이전트 학습 설계. 2026 한국자료분석학회 동계학술논문발표대회 발표논문.",
+      "bibtex": "@inproceedings{choi2026training,\n  title = {{Training Design for Reinforcement Learning Trading Agents With Sequentially Adjusted Observation Noise Levels}},\n  author = {Choi, I.},\n  booktitle = {2026 Winter Conference of the Korean Data Analysis Society (KDAS)},\n  year = {2026},\n}"
+    }
+  },
+  {
+    "type": "conference",
+    "indexing_group": "Domestic Conference",
+    "code_label": "C",
+    "published_date": "2026-12-12",
+    "year": 2026,
+    "title": "Directional Imbalance and Error-Based Evaluation in Financial Return Forecasting: An Empirical Analysis Using a Spline Recurrent Neural Network",
+    "title_ko": "금융 수익률 예측에서 방향성 불균형과 오차 기반 평가: 스플라인 순환신경망을 활용한 실증 분석",
+    "authors": [
+      1
+    ],
+    "author_marks": [
+      "1,*"
+    ],
+    "venue": "2026 Fall Conference of the Korean Society of Digital Industry",
+    "venue_ko": "2026 한국디지털산업학회 추계학술대회",
+    "presentation_type": "oral",
+    "language": "Korean",
+    "awards": 0,
+    "citations": {
+      "apa": "Choi, I. (2026, December 12). Directional imbalance and error-based evaluation in financial return forecasting: An empirical analysis using a spline recurrent neural network [Paper presentation]. 2026 Fall Conference of the Korean Society of Digital Industry.",
+      "mla": "Choi, Insu. \"Directional Imbalance and Error-Based Evaluation in Financial Return Forecasting: An Empirical Analysis Using a Spline Recurrent Neural Network.\" 2026 Fall Conference of the Korean Society of Digital Industry, 12 Dec. 2026.",
+      "chicago": "Choi, Insu. \"Directional Imbalance and Error-Based Evaluation in Financial Return Forecasting: An Empirical Analysis Using a Spline Recurrent Neural Network.\" Paper presented at the 2026 Fall Conference of the Korean Society of Digital Industry, December 12, 2026.",
+      "harvard": "Choi, I. (2026) 'Directional imbalance and error-based evaluation in financial return forecasting: An empirical analysis using a spline recurrent neural network', paper presented at the 2026 Fall Conference of the Korean Society of Digital Industry, 12 December.",
+      "vancouver": "Choi I. Directional imbalance and error-based evaluation in financial return forecasting: An empirical analysis using a spline recurrent neural network. Paper presented at: 2026 Fall Conference of the Korean Society of Digital Industry; 2026 Dec 12.",
+      "korean": "최인수. (2026). 금융 수익률 예측에서 방향성 불균형과 오차 기반 평가: 스플라인 순환신경망을 활용한 실증 분석. 2026 한국디지털산업학회 추계학술대회 발표논문.",
+      "bibtex": "@inproceedings{choi2026directional,\n  title = {{Directional Imbalance and Error-Based Evaluation in Financial Return Forecasting: An Empirical Analysis Using a Spline Recurrent Neural Network}},\n  author = {Choi, I.},\n  booktitle = {2026 Fall Conference of the Korean Society of Digital Industry},\n  year = {2026},\n}"
+    }
+  },
+  {
+    "type": "conference",
+    "indexing_group": "Domestic Conference",
+    "code_label": "C",
     "published_date": "2027-01-31",
     "year": 2027,
     "title": "Detecting Surging Hotspot Areas in Seoul From Search Trends and Exploring Their Predictability",
