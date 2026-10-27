@@ -966,6 +966,15 @@
       "type": "Other International",
       "since": "2026-10-24",
       "url": ""
+    },
+    {
+      "id": 107,
+      "category": "journal",
+      "name": "Management & Marketing",
+      "publisher": "Springer",
+      "type": "ESCI",
+      "since": "2026-10-26",
+      "url": "https://link.springer.com/journal/44491"
     }
   ]
 }

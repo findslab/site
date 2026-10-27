@@ -384,7 +384,7 @@ export const PublicationsTemplate = () => {
       report: 'R',
     }
 
-    // 날짜순 정렬 (오래된 것부터).
+    // 날짜순 정렬 (오래된 것부터). 같은 날짜·학회 안에서는 Oral → Poster 순.
     // 같은 날짜에서는 같은 학회·학술지끼리 붙어 있도록, 그 학회가 데이터 파일에
     // 처음 나오는 위치를 기준으로 묶고, 묶음 안에서는 파일 순서를 따른다.
     // (파일 끝에 추가된 항목이 같은 날 다른 학회 사이에 끼거나 맨 위로 튀지 않게 함)
@@ -402,6 +402,9 @@ export const PublicationsTemplate = () => {
       const va = venueFirst.get(`${a.published_date}|${a.venue}`) ?? 0
       const vb = venueFirst.get(`${b.published_date}|${b.venue}`) ?? 0
       if (va !== vb) return va - vb
+      // 같은 날짜·같은 학회에서는 구두(oral) 발표가 앞 번호, 포스터가 뒷번호
+      const rank = (p: Publication) => (p.presentation_type === 'oral' ? 0 : p.presentation_type === 'poster' ? 1 : 0)
+      if (rank(a) !== rank(b)) return rank(a) - rank(b)
       return (fileIndex.get(a) ?? 0) - (fileIndex.get(b) ?? 0)
     })
 
