@@ -11630,5 +11630,98 @@
       "korean": "최인수. (2026). 국내 주식 익일 주가 방향 예측에서 기술적 지표 산출기간별 기여도의 비단조성에 관한 실증분석. 한국산학기술학회논문지, 27(12).",
       "bibtex": "@article{choi2026empiricalanalysisnon,\n  title = {{An Empirical Analysis of the Non-monotonic Contribution of Technical Indicator Lookback Periods to Next-Day Stock Direction Prediction in the Korean Market}},\n  author = {Choi, I.},\n  journal = {Journal of the Korea Academia-Industrial Cooperation Society},\n  volume = {27},\n  number = {12},\n  year = {2026},\n}"
     }
+  },
+  {
+    "type": "journal",
+    "indexing_group": "KCI",
+    "code_label": "J",
+    "published_date": "2026-12-31",
+    "year": 2026,
+    "title": "Double Subtraction Bias in Identifying Deficit Households through Household Budget Identity Checks",
+    "title_ko": "가계수지 항등식 검증을 통한 적자 가구 판정의 이중 차감 편의 분석",
+    "authors": [
+      1
+    ],
+    "author_marks": [
+      "1,*"
+    ],
+    "venue": "Journal of the Korea Academia-Industrial Cooperation Society",
+    "venue_ko": "한국산학기술학회논문지",
+    "volume": "27",
+    "issue": "12",
+    "pages": "",
+    "doi": "",
+    "language": "Korean",
+    "awards": 0,
+    "citations": {
+      "apa": "최인수. (2026). 가계수지 항등식 검증을 통한 적자 가구 판정의 이중 차감 편의 분석. <em>한국산학기술학회논문지</em>, <em>27</em>(12).",
+      "mla": "최인수. \"가계수지 항등식 검증을 통한 적자 가구 판정의 이중 차감 편의 분석.\" <em>한국산학기술학회논문지</em>, vol. 27, no. 12, 2026.",
+      "chicago": "최인수. \"가계수지 항등식 검증을 통한 적자 가구 판정의 이중 차감 편의 분석.\" <em>한국산학기술학회논문지</em> 27, no. 12 (2026).",
+      "harvard": "최인수 (2026) '가계수지 항등식 검증을 통한 적자 가구 판정의 이중 차감 편의 분석', <em>한국산학기술학회논문지</em>, 27(12).",
+      "vancouver": "Choi I. 가계수지 항등식 검증을 통한 적자 가구 판정의 이중 차감 편의 분석. 한국산학기술학회논문지. 2026;27(12).",
+      "korean": "최인수. (2026). 가계수지 항등식 검증을 통한 적자 가구 판정의 이중 차감 편의 분석. 한국산학기술학회논문지, 27(12).",
+      "bibtex": "@article{choi2026double,\n  title = {{Double Subtraction Bias in Identifying Deficit Households through Household Budget Identity Checks}},\n  author = {Choi, I.},\n  journal = {Journal of the Korea Academia-Industrial Cooperation Society},\n  volume = {27},\n  number = {12},\n  year = {2026},\n}"
+    }
+  },
+  {
+    "type": "journal",
+    "indexing_group": "KCI",
+    "code_label": "J",
+    "published_date": "2026-12-31",
+    "year": 2026,
+    "title": "Linear Filter Structure and Information Value of Heikin-Ashi Candles Using Hourly BTC and ETH Prices",
+    "title_ko": "BTC 및 ETH 시간봉을 이용한 하이킨-아시 캔들의 선형 필터 구조와 정보가치 분석",
+    "authors": [
+      1
+    ],
+    "author_marks": [
+      "1,*"
+    ],
+    "venue": "Journal of the Korea Academia-Industrial Cooperation Society",
+    "venue_ko": "한국산학기술학회논문지",
+    "volume": "27",
+    "issue": "12",
+    "pages": "",
+    "doi": "",
+    "language": "Korean",
+    "awards": 0,
+    "citations": {
+      "apa": "최인수. (2026). BTC 및 ETH 시간봉을 이용한 하이킨-아시 캔들의 선형 필터 구조와 정보가치 분석. <em>한국산학기술학회논문지</em>, <em>27</em>(12).",
+      "mla": "최인수. \"BTC 및 ETH 시간봉을 이용한 하이킨-아시 캔들의 선형 필터 구조와 정보가치 분석.\" <em>한국산학기술학회논문지</em>, vol. 27, no. 12, 2026.",
+      "chicago": "최인수. \"BTC 및 ETH 시간봉을 이용한 하이킨-아시 캔들의 선형 필터 구조와 정보가치 분석.\" <em>한국산학기술학회논문지</em> 27, no. 12 (2026).",
+      "harvard": "최인수 (2026) 'BTC 및 ETH 시간봉을 이용한 하이킨-아시 캔들의 선형 필터 구조와 정보가치 분석', <em>한국산학기술학회논문지</em>, 27(12).",
+      "vancouver": "Choi I. BTC 및 ETH 시간봉을 이용한 하이킨-아시 캔들의 선형 필터 구조와 정보가치 분석. 한국산학기술학회논문지. 2026;27(12).",
+      "korean": "최인수. (2026). BTC 및 ETH 시간봉을 이용한 하이킨-아시 캔들의 선형 필터 구조와 정보가치 분석. 한국산학기술학회논문지, 27(12).",
+      "bibtex": "@article{choi2026linear,\n  title = {{Linear Filter Structure and Information Value of Heikin-Ashi Candles Using Hourly BTC and ETH Prices}},\n  author = {Choi, I.},\n  journal = {Journal of the Korea Academia-Industrial Cooperation Society},\n  volume = {27},\n  number = {12},\n  year = {2026},\n}"
+    }
+  },
+  {
+    "type": "journal",
+    "indexing_group": "SCIE",
+    "code_label": "J",
+    "published_date": "2026-10-30",
+    "year": 2026,
+    "title": "Range Domination: What Langton's Ant Measures on Gramian Angular Fields of Financial Returns",
+    "authors": [
+      1
+    ],
+    "author_marks": [
+      "1,*"
+    ],
+    "venue": "Frontiers in Physics",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "doi": "",
+    "language": "English",
+    "awards": 0,
+    "citations": {
+      "apa": "Choi, I. (2026). Range domination: What Langton's ant measures on Gramian angular fields of financial returns. <em>Frontiers in Physics</em>.",
+      "mla": "Choi, Insu. \"Range Domination: What Langton's Ant Measures on Gramian Angular Fields of Financial Returns.\" <em>Frontiers in Physics</em>, 2026.",
+      "chicago": "Choi, Insu. \"Range Domination: What Langton's Ant Measures on Gramian Angular Fields of Financial Returns.\" <em>Frontiers in Physics</em> (2026).",
+      "harvard": "Choi, I. (2026) 'Range domination: What Langton's ant measures on Gramian angular fields of financial returns', <em>Frontiers in Physics</em>.",
+      "vancouver": "Choi I. Range domination: What Langton's ant measures on Gramian angular fields of financial returns. Frontiers in Physics. 2026.",
+      "bibtex": "@article{choi2026range,\n  title = {{Range Domination: What Langton's Ant Measures on Gramian Angular Fields of Financial Returns}},\n  author = {Choi, I.},\n  journal = {Frontiers in Physics},\n  year = {2026},\n}"
+    }
   }
 ]
