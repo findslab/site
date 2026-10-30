@@ -975,6 +975,15 @@
       "type": "ESCI",
       "since": "2026-10-26",
       "url": "https://link.springer.com/journal/44491"
+    },
+    {
+      "id": 108,
+      "category": "journal",
+      "name": "Applied Economics",
+      "publisher": "Taylor & Francis",
+      "type": "SSCI",
+      "since": "2026-10-28",
+      "url": "https://www.tandfonline.com/journals/raec20"
     }
   ]
 }
