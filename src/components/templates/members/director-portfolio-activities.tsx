@@ -1500,7 +1500,7 @@ export const MembersDirectorPortfolioActivitiesTemplate = () => {
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20">
         <div className="py-20 md:py-32 border-b border-gray-100">
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-            <Link to="/" className="text-gray-500 hover:text-gray-800 transition-all duration-300 hover:scale-110">
+            <Link to="/" className="p-6 -m-6 text-gray-500 hover:text-gray-800 transition-all duration-300 hover:scale-110">
               <Home size={16}/>
             </Link>
             <span className="text-gray-200">—</span>
@@ -1852,8 +1852,8 @@ export const MembersDirectorPortfolioActivitiesTemplate = () => {
                           key={mentee.id}
                           className="px-20 md:px-32 py-12 md:py-16 hover:bg-gray-50/50 transition-colors"
                         >
-                          <div className="flex items-center justify-between md:flex-row">
-                            <div className="flex items-center gap-12 md:gap-16">
+                          <div className="flex items-center justify-between gap-12 md:flex-row">
+                            <div className="flex items-center gap-12 md:gap-16 min-w-0 flex-1">
                               <div className="size-36 md:size-40 rounded-full flex items-center justify-center shrink-0" style={{backgroundColor: 'rgba(255,186,196,0.2)'}}>
                                 <span className="text-sm md:text-base font-bold" style={{color: 'rgb(172,14,14)'}}>{
                                   selectedMentoringYear === 'all'

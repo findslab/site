@@ -96,7 +96,7 @@ const Slider = ({
         <>
           <button
             type="button"
-            className="absolute -left-20 max-lg:left-48 top-1/2 -translate-y-1/2 z-10 size-36 rounded-full bg-white border border-[#F0F0F0] flex items-center justify-center cursor-pointer transition-colors hover:bg-[#f5f5f5] max-md:hidden"
+            className="absolute -left-20 max-lg:left-6 top-1/2 -translate-y-1/2 z-10 size-36 rounded-full bg-white border border-[#F0F0F0] flex items-center justify-center cursor-pointer transition-colors hover:bg-[#f5f5f5] max-md:hidden"
             onClick={scrollPrev}
             aria-label="이전"
           >
@@ -104,7 +104,7 @@ const Slider = ({
           </button>
           <button
             type="button"
-            className="absolute -right-20 max-lg:right-48 top-1/2 -translate-y-1/2 z-10 size-36 rounded-full bg-white border border-[#F0F0F0] flex items-center justify-center cursor-pointer transition-colors hover:bg-[#f5f5f5] max-md:hidden"
+            className="absolute -right-20 max-lg:right-6 top-1/2 -translate-y-1/2 z-10 size-36 rounded-full bg-white border border-[#F0F0F0] flex items-center justify-center cursor-pointer transition-colors hover:bg-[#f5f5f5] max-md:hidden"
             onClick={scrollNext}
             aria-label="다음"
           >
@@ -119,14 +119,16 @@ const Slider = ({
             <button
               key={index}
               type="button"
-              className={`rounded-full border-none p-0 cursor-pointer transition-all ${
-                index === selectedIndex
-                  ? 'w-55 h-6 bg-primary'
-                  : 'w-6 h-6 bg-gray-300 hover:bg-gray-400'
-              }`}
+              className="group/dot py-11 border-none bg-transparent cursor-pointer"
               onClick={() => scrollTo(index)}
               aria-label={`${index + 1}번 슬라이드`}
-            />
+            >
+              <span className={`block rounded-full transition-all ${
+                index === selectedIndex
+                  ? 'w-55 h-6 bg-primary'
+                  : 'w-6 h-6 bg-gray-300 group-hover/dot:bg-gray-400'
+              }`} />
+            </button>
           ))}
         </div>
       )}

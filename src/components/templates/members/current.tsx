@@ -323,7 +323,7 @@ export const MembersCurrentTemplate = () => {
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20">
         <div className="py-20 md:py-32 border-b border-gray-100">
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-            <Link to="/" className="text-gray-500 hover:text-gray-800 transition-all duration-300 hover:scale-110">
+            <Link to="/" className="p-6 -m-6 text-gray-500 hover:text-gray-800 transition-all duration-300 hover:scale-110">
               <Home size={16} />
             </Link>
             <span className="text-gray-200">—</span>
@@ -517,7 +517,7 @@ export const MembersCurrentTemplate = () => {
                               <div className="relative flex items-center justify-center">
                                 <button
                                   onClick={() => setOpenEmailPopup(openEmailPopup === member.id ? null : member.id)}
-                                  className={`p-6 rounded-lg bg-gray-100 transition-colors ${
+                                  className={`p-8 rounded-lg bg-gray-100 transition-colors ${
                                     member.degree === 'phd' ? 'hover:bg-gray-50 hover:text-gray-900' :
                                     member.degree === 'combined' ? 'hover:bg-gray-50 hover:text-gray-900' :
                                     member.degree === 'ms' ? 'hover:bg-gray-50 hover:text-gray-900' :
@@ -590,7 +590,7 @@ export const MembersCurrentTemplate = () => {
                             )}
                             <Link
                               to={`/members/detail/${member.id}`}
-                              className={`ml-auto flex items-center gap-4 text-sm font-medium transition-colors ${
+                              className={`ml-auto flex items-center gap-4 py-4 -my-4 text-sm font-medium transition-colors ${
                                 member.degree === 'phd' ? 'hover:text-gray-900' :
                                 member.degree === 'combined' ? 'hover:text-gray-900' :
                                 member.degree === 'ms' ? 'hover:text-gray-900' :

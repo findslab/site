@@ -66,12 +66,12 @@ export const DirectorCardBody = ({footer}: {footer?: ReactNode}) => {
         </Row>
         <Row icon={<Mail size={14}/>} label="E-mail">
           <div className="flex items-center gap-6">
-            <a href={`mailto:${d.email}`} className="select-text text-sm font-semibold text-gray-800 hover:text-gray-900 hover:underline underline-offset-2 break-all">
+            <a href={`mailto:${d.email}`} className="inline-block py-4 -my-4 select-text text-sm font-semibold text-gray-800 hover:text-gray-900 hover:underline underline-offset-2 break-all">
               {d.email}
             </a>
             <button
               onClick={copy}
-              className="size-20 flex items-center justify-center rounded-md hover:bg-gray-100 transition-colors shrink-0"
+              className="size-28 -my-4 flex items-center justify-center rounded-md hover:bg-gray-100 transition-colors shrink-0"
               title="Copy email"
             >
               {copied ? <Check size={10} className="text-[#9A7D1F]"/> : <Copy size={10} className="text-gray-500"/>}
@@ -79,7 +79,7 @@ export const DirectorCardBody = ({footer}: {footer?: ReactNode}) => {
           </div>
         </Row>
         <Row icon={<Phone size={14}/>} label="Phone">
-          <a href={`tel:${d.phone}`} className="text-sm font-semibold text-gray-800 hover:text-gray-900 hover:underline underline-offset-2 transition-colors">
+          <a href={`tel:${d.phone}`} className="inline-block py-4 -my-4 text-sm font-semibold text-gray-800 hover:text-gray-900 hover:underline underline-offset-2 transition-colors">
             {d.phone}
           </a>
         </Row>

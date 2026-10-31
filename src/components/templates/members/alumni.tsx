@@ -358,7 +358,7 @@ export const MembersAlumniTemplate = () => {
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20">
         <div className="py-20 md:py-32 border-b border-gray-100">
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-            <Link to="/" className="text-gray-500 hover:text-gray-800 transition-all duration-300 hover:scale-110">
+            <Link to="/" className="p-6 -m-6 text-gray-500 hover:text-gray-800 transition-all duration-300 hover:scale-110">
               <Home size={16}/>
             </Link>
             <span className="text-gray-200">—</span>
@@ -913,31 +913,31 @@ export const MembersAlumniTemplate = () => {
                       <table className="w-full min-w-[800px] table-fixed">
                         <thead>
                           <tr className="bg-gray-50/80">
-                            <th className="py-12 px-16 text-left text-sm font-bold text-gray-900 w-[16%] cursor-pointer hover:bg-gray-100 transition-colors" onClick={() => handleUndergradSort('name')}>
+                            <th className="py-12 px-16 text-left text-sm font-bold text-gray-900 w-[14%] cursor-pointer hover:bg-gray-100 transition-colors" onClick={() => handleUndergradSort('name')}>
                               <div className="flex items-center gap-4">
                                 Name
                                 {undergradSortKey === 'name' ? (undergradSortDir === 'asc' ? <ArrowUp size={14} className="text-primary" /> : <ArrowDown size={14} className="text-primary" />) : <ArrowUpDown size={14} className="text-gray-500" />}
                               </div>
                             </th>
-                            <th className="py-12 px-16 text-left text-sm font-bold text-gray-900 w-[8%] cursor-pointer hover:bg-gray-100 transition-colors" onClick={() => handleUndergradSort('cohort')}>
+                            <th className="py-12 px-16 text-left text-sm font-bold text-gray-900 w-[7%] cursor-pointer hover:bg-gray-100 transition-colors" onClick={() => handleUndergradSort('cohort')}>
                               <div className="flex items-center gap-4">
                                 Cohort
                                 {undergradSortKey === 'cohort' ? (undergradSortDir === 'asc' ? <ArrowUp size={14} className="text-primary" /> : <ArrowDown size={14} className="text-primary" />) : <ArrowUpDown size={14} className="text-gray-500" />}
                               </div>
                             </th>
-                            <th className="py-12 px-16 text-left text-sm font-bold text-gray-900 w-[16%] cursor-pointer hover:bg-gray-100 transition-colors" onClick={() => handleUndergradSort('period')}>
+                            <th className="py-12 px-16 text-left text-sm font-bold text-gray-900 w-[21%] cursor-pointer hover:bg-gray-100 transition-colors" onClick={() => handleUndergradSort('period')}>
                               <div className="flex items-center gap-4">
                                 Period
                                 {undergradSortKey === 'period' ? (undergradSortDir === 'asc' ? <ArrowUp size={14} className="text-primary" /> : <ArrowDown size={14} className="text-primary" />) : <ArrowUpDown size={14} className="text-gray-500" />}
                               </div>
                             </th>
-                            <th className="py-12 px-16 text-left text-sm font-bold text-gray-900 w-[30%] cursor-pointer hover:bg-gray-100 transition-colors" onClick={() => handleUndergradSort('preMajor')}>
+                            <th className="py-12 px-16 text-left text-sm font-bold text-gray-900 w-[29%] cursor-pointer hover:bg-gray-100 transition-colors" onClick={() => handleUndergradSort('preMajor')}>
                               <div className="flex items-center gap-4">
                                 Affiliation (Pre-Internship)
                                 {undergradSortKey === 'preMajor' ? (undergradSortDir === 'asc' ? <ArrowUp size={14} className="text-primary" /> : <ArrowDown size={14} className="text-primary" />) : <ArrowUpDown size={14} className="text-gray-500" />}
                               </div>
                             </th>
-                            <th className="py-12 px-16 text-left text-sm font-bold text-gray-900 w-[30%] cursor-pointer hover:bg-gray-100 transition-colors" onClick={() => handleUndergradSort('postPosition')}>
+                            <th className="py-12 px-16 text-left text-sm font-bold text-gray-900 w-[29%] cursor-pointer hover:bg-gray-100 transition-colors" onClick={() => handleUndergradSort('postPosition')}>
                               <div className="flex items-center gap-4">
                                 Affiliation (Post-Internship)
                                 {undergradSortKey === 'postPosition' ? (undergradSortDir === 'asc' ? <ArrowUp size={14} className="text-primary" /> : <ArrowDown size={14} className="text-primary" />) : <ArrowUpDown size={14} className="text-gray-500" />}

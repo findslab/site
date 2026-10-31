@@ -449,7 +449,7 @@ export const HomeTemplate = () => {
       <section className="bg-gray-50 py-40 md:py-60 lg:py-80 px-16 md:px-20">
         <div className="max-w-1480 mx-auto">
           <div className="flex flex-col md:flex-row gap-32 md:gap-40 lg:gap-60">
-            <div className="flex-1">
+            <div className="flex-1 min-w-0">
               <div className="flex items-center justify-between mb-16 md:mb-20 lg:mb-24">
                 <div className="flex items-center gap-8">
                   <svg 
@@ -506,7 +506,7 @@ export const HomeTemplate = () => {
               </div>
             </div>
 
-            <div className="flex-1">
+            <div className="flex-1 min-w-0">
               <div className="flex items-center justify-between mb-16 md:mb-20 lg:mb-24">
                 <div className="flex items-center gap-8">
                   <svg 

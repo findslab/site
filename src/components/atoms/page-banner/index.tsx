@@ -69,7 +69,7 @@ export const PageBanner = memo(({ backgroundImage, category, title, breadcrumbs 
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
             <Link 
               to="/" 
-              className="text-gray-500 hover:text-gray-800 transition-all duration-300 hover:scale-110"
+              className="p-6 -m-6 text-gray-500 hover:text-gray-800 transition-all duration-300 hover:scale-110"
               aria-label="홈으로 이동"
             >
               <Home size={16} />

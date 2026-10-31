@@ -10233,6 +10233,14 @@
     "doi": "",
     "language": "Korean",
     "awards": 1,
+    "award_details": {
+      "prize": "Encouragement Award",
+      "prize_ko": "장려상",
+      "category": "Competition Section",
+      "category_ko": "경쟁 부문",
+      "organization": "Korean Operations Research and Management Science Society",
+      "organization_ko": "한국경영과학회"
+    },
     "presentation_type": "oral",
     "citations": {
       "apa": "Kim, J., Shin, S., Lee, J., Jung, Y., & Choi, I. (2026, October 24). Industry heterogeneity in market-adjusted interest-rate exposure [Paper presentation]. 2026 Fall Conference of the Korean Operations Research and Management Science Society.",
@@ -10266,6 +10274,14 @@
     "doi": "",
     "language": "Korean",
     "awards": 1,
+    "award_details": {
+      "prize": "Excellence Award",
+      "prize_ko": "우수상",
+      "category": "Competition Section",
+      "category_ko": "경쟁 부문",
+      "organization": "Korean Operations Research and Management Science Society",
+      "organization_ko": "한국경영과학회"
+    },
     "presentation_type": "oral",
     "citations": {
       "apa": "Choi, I. (2026, October 24). Cluster risk budgeting from the critical partition of financial interdependence networks [Paper presentation]. 2026 Fall Conference of the Korean Operations Research and Management Science Society.",
@@ -11722,6 +11738,70 @@
       "harvard": "Choi, I. (2026) 'Range domination: What Langton's ant measures on Gramian angular fields of financial returns', <em>Frontiers in Physics</em>.",
       "vancouver": "Choi I. Range domination: What Langton's ant measures on Gramian angular fields of financial returns. Frontiers in Physics. 2026.",
       "bibtex": "@article{choi2026range,\n  title = {{Range Domination: What Langton's Ant Measures on Gramian Angular Fields of Financial Returns}},\n  author = {Choi, I.},\n  journal = {Frontiers in Physics},\n  year = {2026},\n}"
+    }
+  },
+  {
+    "type": "journal",
+    "indexing_group": "KCI",
+    "code_label": "J",
+    "published_date": "2026-12-31",
+    "year": 2026,
+    "title": "Reorganization of Household Financial Types with Real Estate and Lease Deposits and Reliability Assessment of Post-hoc Explanations",
+    "title_ko": "부동산과 전월세 보증금을 반영한 가계 재무 유형의 재편과 사후 설명 기법의 신뢰성 검증",
+    "authors": [
+      1
+    ],
+    "author_marks": [
+      "1,*"
+    ],
+    "venue": "Journal of Korean Institute of Information Technology",
+    "venue_ko": "한국정보기술학회논문지",
+    "volume": "24",
+    "issue": "12",
+    "pages": "",
+    "doi": "",
+    "language": "Korean",
+    "awards": 0,
+    "citations": {
+      "apa": "최인수. (2026). 부동산과 전월세 보증금을 반영한 가계 재무 유형의 재편과 사후 설명 기법의 신뢰성 검증. <em>한국정보기술학회논문지</em>, <em>24</em>(12).",
+      "mla": "최인수. \"부동산과 전월세 보증금을 반영한 가계 재무 유형의 재편과 사후 설명 기법의 신뢰성 검증.\" <em>한국정보기술학회논문지</em>, vol. 24, no. 12, 2026.",
+      "chicago": "최인수. \"부동산과 전월세 보증금을 반영한 가계 재무 유형의 재편과 사후 설명 기법의 신뢰성 검증.\" <em>한국정보기술학회논문지</em> 24, no. 12 (2026).",
+      "harvard": "최인수 (2026) '부동산과 전월세 보증금을 반영한 가계 재무 유형의 재편과 사후 설명 기법의 신뢰성 검증', <em>한국정보기술학회논문지</em>, 24(12).",
+      "vancouver": "Choi I. 부동산과 전월세 보증금을 반영한 가계 재무 유형의 재편과 사후 설명 기법의 신뢰성 검증. 한국정보기술학회논문지. 2026;24(12).",
+      "korean": "최인수. (2026). 부동산과 전월세 보증금을 반영한 가계 재무 유형의 재편과 사후 설명 기법의 신뢰성 검증. 한국정보기술학회논문지, 24(12).",
+      "bibtex": "@article{choi2026reorganization,\n  title = {{Reorganization of Household Financial Types with Real Estate and Lease Deposits and Reliability Assessment of Post-hoc Explanations}},\n  author = {Choi, I.},\n  journal = {Journal of Korean Institute of Information Technology},\n  volume = {24},\n  number = {12},\n  year = {2026},\n}"
+    }
+  },
+  {
+    "type": "journal",
+    "indexing_group": "KCI",
+    "code_label": "J",
+    "published_date": "2026-12-31",
+    "year": 2026,
+    "title": "Transmission of U.S. AI-Infrastructure Information to the KOSPI and KOSDAQ Markets",
+    "title_ko": "미국 인공지능 인프라 정보의 유가증권시장과 코스닥시장 전이 분석",
+    "authors": [
+      1
+    ],
+    "author_marks": [
+      "1,*"
+    ],
+    "venue": "Journal of The Korea Society of Computer and Information",
+    "venue_ko": "한국컴퓨터정보학회논문지",
+    "volume": "31",
+    "issue": "12",
+    "pages": "",
+    "doi": "",
+    "language": "Korean",
+    "awards": 0,
+    "citations": {
+      "apa": "최인수. (2026). 미국 인공지능 인프라 정보의 유가증권시장과 코스닥시장 전이 분석. <em>한국컴퓨터정보학회논문지</em>, <em>31</em>(12).",
+      "mla": "최인수. \"미국 인공지능 인프라 정보의 유가증권시장과 코스닥시장 전이 분석.\" <em>한국컴퓨터정보학회논문지</em>, vol. 31, no. 12, 2026.",
+      "chicago": "최인수. \"미국 인공지능 인프라 정보의 유가증권시장과 코스닥시장 전이 분석.\" <em>한국컴퓨터정보학회논문지</em> 31, no. 12 (2026).",
+      "harvard": "최인수 (2026) '미국 인공지능 인프라 정보의 유가증권시장과 코스닥시장 전이 분석', <em>한국컴퓨터정보학회논문지</em>, 31(12).",
+      "vancouver": "Choi I. 미국 인공지능 인프라 정보의 유가증권시장과 코스닥시장 전이 분석. 한국컴퓨터정보학회논문지. 2026;31(12).",
+      "korean": "최인수. (2026). 미국 인공지능 인프라 정보의 유가증권시장과 코스닥시장 전이 분석. 한국컴퓨터정보학회논문지, 31(12).",
+      "bibtex": "@article{choi2026transmission,\n  title = {{Transmission of U.S. AI-Infrastructure Information to the KOSPI and KOSDAQ Markets}},\n  author = {Choi, I.},\n  journal = {Journal of The Korea Society of Computer and Information},\n  volume = {31},\n  number = {12},\n  year = {2026},\n}"
     }
   }
 ]

@@ -676,7 +676,7 @@ export const PublicationsTemplate = () => {
       <div className="max-w-1480 mx-auto w-full px-16 md:px-20">
         <div className="py-20 md:py-32 border-b border-gray-100">
           <div className="flex items-center gap-8 md:gap-12 flex-wrap">
-            <Link to="/" className="text-gray-500 hover:text-gray-800 transition-all duration-300 hover:scale-110">
+            <Link to="/" className="p-6 -m-6 text-gray-500 hover:text-gray-800 transition-all duration-300 hover:scale-110">
               <Home size={16} />
             </Link>
             <span className="text-gray-200">—</span>
@@ -1195,7 +1195,7 @@ export const PublicationsTemplate = () => {
                                     maxWidth: '600px',
                                     children: <CitationModal citation={pub.citations} />
                                   })}
-                                  className="px-8 py-3 bg-white/90 rounded text-[10px] md:text-[11px] font-bold text-gray-700 hover:bg-white transition-colors"
+                                  className="px-10 py-5 bg-white/90 rounded text-[10px] md:text-[11px] font-bold text-gray-700 hover:bg-white transition-colors"
                                 >
                                   Cite
                                 </button>
@@ -1234,7 +1234,7 @@ export const PublicationsTemplate = () => {
                                     </div>
                                     {/* Status badge below - Conference: 2-row design */}
                                     {pub.type === 'conference' && (pub.indexing_group || pub.presentation_type) && (
-                                      <div className="w-full mt-4 space-y-2">
+                                      <div className="w-full mt-4 space-y-4">
                                         {/* Row 1: Domestic/International */}
                                         {pub.indexing_group && (
                                           <div className={`w-full py-3 text-center rounded-md ${
@@ -1390,12 +1390,12 @@ export const PublicationsTemplate = () => {
                                       href={`https://doi.org/${pub.doi}`}
                                       target="_blank"
                                       rel="noopener noreferrer"
-                                      className="inline-flex items-center gap-6 mt-8 group/doi"
+                                      className="flex md:inline-flex w-fit max-w-full items-center gap-6 mt-10 md:mt-8 group/doi"
                                     >
                                       <span className="px-6 py-2 bg-gray-100 rounded text-[10px] md:text-[11px] font-semibold text-gray-500 uppercase tracking-wide">
                                         doi
                                       </span>
-                                      <span className="text-xs text-gray-500 group-hover/doi:text-primary transition-colors">
+                                      <span className="text-xs text-gray-500 group-hover/doi:text-primary transition-colors break-all">
                                         {pub.doi}
                                       </span>
                                     </a>

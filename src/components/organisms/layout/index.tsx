@@ -229,13 +229,13 @@ const LayoutOrganisms = ({ children }: props) => {
             <img src={logoFinds} alt="FINDS Lab" className="h-40 md:max-h-59" decoding="async" />
             
             {/* Mobile: Static FINDS Lab */}
-            <span className="md:hidden text-lg font-bold">
+            <span className="lg:hidden text-lg font-bold">
               <span className="ink-keep" style={{ color: '#D6B14D' }}>FINDS </span>
               <span className="text-gray-900">Lab</span>
             </span>
             
             {/* PC: Animated text with simple dissolve */}
-            <div className="hidden md:flex relative h-[44px] items-center overflow-hidden min-w-[200px]">
+            <div className="hidden lg:flex relative h-[44px] items-center overflow-hidden min-w-[200px]">
               {/* FINDS Lab */}
               <span 
                 className={`font-bold transition-all duration-700 ease-in-out text-xl ${
@@ -269,7 +269,7 @@ const LayoutOrganisms = ({ children }: props) => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-8 text-gray-700"
+            className="lg:hidden p-8 text-gray-700"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label={mobileMenuOpen ? '메뉴 닫기' : '메뉴 열기'}
             aria-expanded={mobileMenuOpen}
@@ -278,8 +278,8 @@ const LayoutOrganisms = ({ children }: props) => {
           </button>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:block" role="navigation" aria-label="메인 네비게이션">
-            <ul className="flex items-center gap-16 lg:gap-28 xl:gap-48">
+          <nav className="hidden lg:block" role="navigation" aria-label="메인 네비게이션">
+            <ul className="flex items-center gap-16 lg:gap-16 xl:gap-48">
               {navItems.map((item) => (
                 <li
                   key={item.name}
@@ -342,7 +342,7 @@ const LayoutOrganisms = ({ children }: props) => {
           {/* Contact Us Button - Desktop */}
           <button
             onClick={handleContactClick}
-            className="cta-glow hidden md:flex shrink-0 items-center gap-8 px-20 py-12 bg-primary text-white text-sm font-bold whitespace-nowrap rounded-xl hover:bg-primary/90 transition-all duration-300 shadow-sm cursor-pointer"
+            className="cta-glow hidden lg:flex shrink-0 ml-16 items-center gap-8 px-20 py-12 bg-primary text-white text-sm font-bold whitespace-nowrap rounded-xl hover:bg-primary/90 transition-all duration-300 shadow-sm cursor-pointer"
           >
             <Mail size={16} />
             Contact Us
@@ -352,7 +352,7 @@ const LayoutOrganisms = ({ children }: props) => {
 
       {/* Mobile Navigation - Outside header for proper z-index */}
       {mobileMenuOpen && (
-        <div className="md:hidden fixed inset-0 bg-white z-[10000] overflow-y-auto" style={{ top: 'calc(61px + env(safe-area-inset-top))' }}>
+        <div className="lg:hidden fixed inset-0 bg-white z-[10000] overflow-y-auto" style={{ top: 'calc(61px + env(safe-area-inset-top))' }}>
           <nav className="px-16 py-16 max-w-1480 mx-auto">
             <ul className="flex flex-col gap-8">
               {navItems.map((item) => (
