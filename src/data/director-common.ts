@@ -4,15 +4,15 @@
 // Citation Statistics (Google Scholar) - Fallback values
 // 실제 값은 /data/scholar.json 에서 읽음. 자동 갱신 없음 — scripts/update_scholar.py 로 수동 갱신
 // citationAsOf: 사이트에 "YYYY-MM-DD 기준"으로 표시되는 날짜 (갱신을 요청한 날)
-export const citationAsOf = '2026-10-22'
+export const citationAsOf = '2026-11-02'
 export const citationStats = [
-  { label: 'Citations', count: 330, key: 'totalCitations' },
-  { label: 'h-index', count: 11, key: 'hIndex' },
+  { label: 'Citations', count: 339, key: 'totalCitations' },
+  { label: 'h-index', count: 12, key: 'hIndex' },
   { label: 'i10-index', count: 14, key: 'i10Index' },
   { label: 'i5-index', count: 17, key: 'i5Index' },
   { label: 'g-index', count: 17, key: 'gIndex' },
-  { label: 'e-index', count: 10.77, key: 'eIndex' },
-  { label: 'm-quotient', count: 1.57, key: 'mQuotient' },
+  { label: 'e-index', count: 10.44, key: 'eIndex' },
+  { label: 'm-quotient', count: 1.71, key: 'mQuotient' },
 ]
 
 // Google Scholar configuration
