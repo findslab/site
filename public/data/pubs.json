@@ -11776,10 +11776,10 @@
     "type": "journal",
     "indexing_group": "KCI",
     "code_label": "J",
-    "published_date": "2026-12-31",
+    "published_date": "2026-11-30",
     "year": 2026,
-    "title": "Transmission of U.S. AI-Infrastructure Information to the KOSPI and KOSDAQ Markets",
-    "title_ko": "미국 인공지능 인프라 정보의 유가증권시장과 코스닥시장 전이 분석",
+    "title": "Transmission of U.S. AI-Infrastructure Information to KOSPI and KOSDAQ",
+    "title_ko": "미국 인공지능 컴퓨팅 관련 정보의 유가증권시장과 코스닥시장 전이 분석",
     "authors": [
       1
     ],
@@ -11789,19 +11789,19 @@
     "venue": "Journal of The Korea Society of Computer and Information",
     "venue_ko": "한국컴퓨터정보학회논문지",
     "volume": "31",
-    "issue": "12",
+    "issue": "11",
     "pages": "",
     "doi": "",
     "language": "Korean",
     "awards": 0,
     "citations": {
-      "apa": "최인수. (2026). 미국 인공지능 인프라 정보의 유가증권시장과 코스닥시장 전이 분석. <em>한국컴퓨터정보학회논문지</em>, <em>31</em>(12).",
-      "mla": "최인수. \"미국 인공지능 인프라 정보의 유가증권시장과 코스닥시장 전이 분석.\" <em>한국컴퓨터정보학회논문지</em>, vol. 31, no. 12, 2026.",
-      "chicago": "최인수. \"미국 인공지능 인프라 정보의 유가증권시장과 코스닥시장 전이 분석.\" <em>한국컴퓨터정보학회논문지</em> 31, no. 12 (2026).",
-      "harvard": "최인수 (2026) '미국 인공지능 인프라 정보의 유가증권시장과 코스닥시장 전이 분석', <em>한국컴퓨터정보학회논문지</em>, 31(12).",
-      "vancouver": "Choi I. 미국 인공지능 인프라 정보의 유가증권시장과 코스닥시장 전이 분석. 한국컴퓨터정보학회논문지. 2026;31(12).",
-      "korean": "최인수. (2026). 미국 인공지능 인프라 정보의 유가증권시장과 코스닥시장 전이 분석. 한국컴퓨터정보학회논문지, 31(12).",
-      "bibtex": "@article{choi2026transmission,\n  title = {{Transmission of U.S. AI-Infrastructure Information to the KOSPI and KOSDAQ Markets}},\n  author = {Choi, I.},\n  journal = {Journal of The Korea Society of Computer and Information},\n  volume = {31},\n  number = {12},\n  year = {2026},\n}"
+      "apa": "최인수. (2026). 미국 인공지능 컴퓨팅 관련 정보의 유가증권시장과 코스닥시장 전이 분석. <em>한국컴퓨터정보학회논문지</em>, <em>31</em>(11).",
+      "mla": "최인수. \"미국 인공지능 컴퓨팅 관련 정보의 유가증권시장과 코스닥시장 전이 분석.\" <em>한국컴퓨터정보학회논문지</em>, vol. 31, no. 11, 2026.",
+      "chicago": "최인수. \"미국 인공지능 컴퓨팅 관련 정보의 유가증권시장과 코스닥시장 전이 분석.\" <em>한국컴퓨터정보학회논문지</em> 31, no. 11 (2026).",
+      "harvard": "최인수 (2026) '미국 인공지능 컴퓨팅 관련 정보의 유가증권시장과 코스닥시장 전이 분석', <em>한국컴퓨터정보학회논문지</em>, 31(11).",
+      "vancouver": "Choi I. 미국 인공지능 컴퓨팅 관련 정보의 유가증권시장과 코스닥시장 전이 분석. 한국컴퓨터정보학회논문지. 2026;31(11).",
+      "korean": "최인수. (2026). 미국 인공지능 컴퓨팅 관련 정보의 유가증권시장과 코스닥시장 전이 분석. 한국컴퓨터정보학회논문지, 31(11).",
+      "bibtex": "@article{choi2026transmission,\n  title = {{Transmission of U.S. AI-Infrastructure Information to KOSPI and KOSDAQ}},\n  author = {Choi, I.},\n  journal = {Journal of The Korea Society of Computer and Information},\n  volume = {31},\n  number = {11},\n  year = {2026},\n}"
     }
   }
 ]
