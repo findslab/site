@@ -984,6 +984,25 @@
       "type": "SSCI",
       "since": "2026-10-28",
       "url": "https://www.tandfonline.com/journals/raec20"
+    },
+    {
+      "id": 109,
+      "category": "chair",
+      "name": "2026 Fall Conference of the Korean Institute of Industrial Engineers, Session B4 (Management Engineering 1)",
+      "name_ko": "2026 대한산업공학회 추계학술대회 B4 경영공학(1) 세션",
+      "publisher": "Korean Institute of Industrial Engineers (KIIE)",
+      "type": "Session Chair",
+      "period": "2026-12-03",
+      "url": ""
+    },
+    {
+      "id": 110,
+      "category": "journal",
+      "name": "Frontiers in Cardiovascular Medicine",
+      "publisher": "Frontiers Media",
+      "type": "SCIE",
+      "since": "2026-11-05",
+      "url": "https://www.frontiersin.org/journals/cardiovascular-medicine"
     }
   ]
 }
