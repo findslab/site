@@ -1003,6 +1003,15 @@
       "type": "SCIE",
       "since": "2026-11-05",
       "url": "https://www.frontiersin.org/journals/cardiovascular-medicine"
+    },
+    {
+      "id": 111,
+      "category": "journal",
+      "name": "International Review of Economics & Finance",
+      "publisher": "Elsevier",
+      "type": "SSCI",
+      "since": "2026-11-06",
+      "url": "https://www.sciencedirect.com/journal/international-review-of-economics-and-finance"
     }
   ]
 }

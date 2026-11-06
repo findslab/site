@@ -10814,7 +10814,15 @@
     "pages": "",
     "doi": "",
     "language": "Korean",
-    "awards": 0,
+    "awards": 1,
+    "award_details": {
+      "prize": "Encouragement Award",
+      "prize_ko": "장려상",
+      "category": "Paper Presentation Award",
+      "category_ko": "논문발표상",
+      "organization": "Korean Data and Information Science Society",
+      "organization_ko": "한국데이터정보과학회"
+    },
     "presentation_type": "poster",
     "citations": {
       "apa": "Shin, J. Y., & Choi, I. (2026, November 6). An empirical study on the tone of corporate disclosure texts and stock price reactions [Poster presentation]. 2026 Fall Conference of the Korean Data and Information Science Society.",
@@ -10855,7 +10863,15 @@
     "pages": "",
     "doi": "",
     "language": "Korean",
-    "awards": 0,
+    "awards": 1,
+    "award_details": {
+      "prize": "Encouragement Award",
+      "prize_ko": "장려상",
+      "category": "Paper Presentation Award",
+      "category_ko": "논문발표상",
+      "organization": "Korean Data and Information Science Society",
+      "organization_ko": "한국데이터정보과학회"
+    },
     "presentation_type": "poster",
     "citations": {
       "apa": "Joung, H., Bang, C., Oh, J., Hwang, Y. E., & Choi, I. (2026, November 6). Exchange rate volatility transmission to interest rates and the disconnect in business cycle predictability [Poster presentation]. 2026 Fall Conference of the Korean Data and Information Science Society.",
