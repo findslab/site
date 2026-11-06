@@ -1322,6 +1322,56 @@
           "level": "phd"
         }
       ]
+    },
+    {
+      "type": "award",
+      "icon": "🏆",
+      "title": "장려상",
+      "title_en": "Encouragement Award",
+      "event": "2026 한국데이터정보과학회 추계학술논문발표회 논문발표상",
+      "organization": "한국데이터정보과학회",
+      "date": "Nov 6",
+      "winners": [
+        {
+          "name": "신지영",
+          "level": "lab_intern"
+        },
+        {
+          "name": "최인수",
+          "level": "phd"
+        }
+      ]
+    },
+    {
+      "type": "award",
+      "icon": "🏆",
+      "title": "장려상",
+      "title_en": "Encouragement Award",
+      "event": "2026 한국데이터정보과학회 추계학술논문발표회 논문발표상",
+      "organization": "한국데이터정보과학회",
+      "date": "Nov 6",
+      "winners": [
+        {
+          "name": "정하원",
+          "level": "lab_intern"
+        },
+        {
+          "name": "방채원",
+          "level": "lab_intern"
+        },
+        {
+          "name": "오지원",
+          "level": "lab_intern"
+        },
+        {
+          "name": "황예은",
+          "level": "lab_intern"
+        },
+        {
+          "name": "최인수",
+          "level": "phd"
+        }
+      ]
     }
   ]
 }
