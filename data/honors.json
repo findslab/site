@@ -1060,7 +1060,7 @@
         },
         {
           "name": "안형민",
-          "level": "mentee"
+          "level": "former_mentee"
         },
         {
           "name": "이태경",
@@ -1068,7 +1068,7 @@
         },
         {
           "name": "김가연",
-          "level": "mentee"
+          "level": "former_mentee"
         },
         {
           "name": "임성훈",
@@ -1328,7 +1328,7 @@
       "icon": "🏆",
       "title": "장려상",
       "title_en": "Encouragement Award",
-      "event": "2026 한국데이터정보과학회 추계학술논문발표회 논문발표상",
+      "event": "2026 한국데이터정보과학회 추계학술논문발표회 학생논문 발표대회",
       "organization": "한국데이터정보과학회",
       "date": "Nov 6",
       "winners": [
@@ -1347,7 +1347,7 @@
       "icon": "🏆",
       "title": "장려상",
       "title_en": "Encouragement Award",
-      "event": "2026 한국데이터정보과학회 추계학술논문발표회 논문발표상",
+      "event": "2026 한국데이터정보과학회 추계학술논문발표회 학생논문 발표대회",
       "organization": "한국데이터정보과학회",
       "date": "Nov 6",
       "winners": [

@@ -1,302 +1,350 @@
 [
-    {
-        "role": "Lecturer",
-        "periods": [
-            "2026 Fall"
-        ],
-        "school": "Gachon University",
-        "courses": [
-            {
-                "en": "Artificial Intelligence (15117001)",
-                "ko": "인공지능 (15117001)"
-            }
-        ],
-        "credits": {
-            "2026 Fall": 3
-        }
-    },
-    {
-        "role": "Lecturer",
-        "periods": [
-            "2026 Fall"
-        ],
-        "school": "Gachon University",
-        "courses": [
-            {
-                "en": "Principles and Applications of Deep Learning (61524001)",
-                "ko": "딥러닝의 원리와 응용 (61524001)"
-            }
-        ],
-        "credits": {
-            "2026 Fall": 3
-        }
-    },
-    {
-        "role": "Lecturer",
-        "periods": [
-            "2026 Spring"
-        ],
-        "school": "Gachon University",
-        "courses": [
-            {
-                "en": "Financial Investment (13994004)",
-                "ko": "금융투자 (13994004)"
-            }
-        ],
-        "credits": {
-            "2026 Spring": 3
-        }
-    },
-    {
-        "role": "Lecturer",
-        "periods": [
-            "2026 Spring"
-        ],
-        "school": "Gachon University",
-        "courses": [
-            {
-                "en": "Business Intelligence and Analytics (15122001)",
-                "ko": "비즈니스 인텔리전스와 분석 (15122001)"
-            }
-        ],
-        "credits": {
-            "2026 Spring": 4
-        }
-    },
-    {
-        "role": "Lecturer",
-        "periods": [
-            "2025 Fall"
-        ],
-        "school": "Dongduk Women's University",
-        "courses": [
-            {
-                "en": "Business Decision Making and Data Analysis (경영K0039)",
-                "ko": "경영의사결정과 자료분석 (경영K0039)"
-            }
-        ],
-        "credits": {
-            "2025 Fall": 3
-        }
-    },
-    {
-        "role": "Lecturer",
-        "periods": [
-            "2025 Fall-1",
-            "2025 Fall-2"
-        ],
-        "school": "Dongduk Women's University",
-        "courses": [
-            {
-                "en": "Python Programming (경융K0011)",
-                "ko": "파이썬을 활용한 프로그래밍 기초 (경융K0011)"
-            }
-        ],
-        "credits": {
-            "2025 Fall-1": 3,
-            "2025 Fall-2": 3
-        }
-    },
-    {
-        "role": "Lecturer",
-        "periods": [
-            "2025 Fall"
-        ],
-        "school": "Kangnam University",
-        "courses": [
-            {
-                "en": "Applied Statistics (EG14204)",
-                "ko": "응용통계 (EG14204)"
-            }
-        ],
-        "credits": {
-            "2025 Fall": 3
-        }
-    },
-    {
-        "role": "Lecturer",
-        "periods": [
-            "2025 Spring"
-        ],
-        "school": "Korea University Sejong Campus",
-        "courses": [
-            {
-                "en": "Algorithmic Trading (DIGB441)",
-                "ko": "알고리즘 투자전략 (DIGB441)"
-            }
-        ],
-        "credits": {
-            "2025 Spring": 3
-        }
-    },
-    {
-        "role": "Lecturer",
-        "periods": [
-            "2025 Spring"
-        ],
-        "school": "Kangnam University",
-        "courses": [
-            {
-                "en": "Introduction to Financial Engineering (EG14209)",
-                "ko": "금융공학입문 (EG14209)"
-            }
-        ],
-        "credits": {
-            "2025 Spring": 3
-        }
-    },
-    {
-        "role": "Teaching Assistant",
-        "periods": [
-            "2024 Fall"
-        ],
-        "school": "Korea Advanced Institute of Science and Technology (KAIST)",
-        "courses": [
-            {
-                "en": "Special Topics in Data Science I: Advanced Data Science for Finance (DS801)",
-                "ko": "데이터사이언스의 특수논제 I <고급금융데이터사이언스> (DS801)"
-            }
-        ],
-        "credits": {
-            "2024 Fall": 3
-        }
-    },
-    {
-        "role": "Lecturer",
-        "periods": [
-            "2024 Spring"
-        ],
-        "school": "Kyung Hee University",
-        "courses": [
-            {
-                "en": "Financial Engineering (IE329)",
-                "ko": "금융공학 (IE329)"
-            }
-        ],
-        "credits": {
-            "2024 Spring": 3
-        }
-    },
-    {
-        "role": "Lecturer",
-        "periods": [
-            "2024 Spring"
-        ],
-        "school": "Kyung Hee University",
-        "courses": [
-            {
-                "en": "Engineering Economy (IE201)",
-                "ko": "경제성공학 (IE201)"
-            }
-        ],
-        "credits": {
-            "2024 Spring": 3
-        }
-    },
-    {
-        "role": "Teaching Assistant",
-        "periods": [
-            "2023 Fall"
-        ],
-        "school": "Korea Advanced Institute of Science and Technology (KAIST)",
-        "courses": [
-            {
-                "en": "Special Topics in Data Science I: Applications of Financial Data Science (DS801)",
-                "ko": "데이터사이언스의 특수논제 I <금융데이터사이언스응용> (DS801)"
-            }
-        ],
-        "credits": {
-            "2023 Fall": 3
-        }
-    },
-    {
-        "role": "Teaching Assistant",
-        "periods": [
-            "2024 Spring",
-            "2023 Spring",
-            "2022 Spring",
-            "2021 Spring"
-        ],
-        "school": "Korea Advanced Institute of Science and Technology (KAIST)",
-        "courses": [
-            {
-                "en": "Financial Artificial Intelligence (IE471)",
-                "ko": "금융인공지능 (IE471)"
-            }
-        ],
-        "credits": {
-            "2024 Spring": 3,
-            "2023 Spring": 3,
-            "2022 Spring": 3,
-            "2021 Spring": 3
-        }
-    },
-    {
-        "role": "Teaching Assistant",
-        "periods": [
-            "2022 Fall"
-        ],
-        "school": "Korea Advanced Institute of Science and Technology (KAIST)",
-        "courses": [
-            {
-                "en": "Special Topics in Knowledge Service Engineering I: Applications of Financial Data Science (KSE801)",
-                "ko": "지식서비스공학의 특수논제 I <금융데이터사이언스응용> (KSE801)"
-            }
-        ],
-        "credits": {
-            "2022 Fall": 3
-        }
-    },
-    {
-        "role": "Teaching Assistant",
-        "periods": [
-            "2022 Spring"
-        ],
-        "school": "Korea Advanced Institute of Science and Technology (KAIST)",
-        "courses": [
-            {
-                "en": "Special Topics in Industrial Systems Engineering I: You&IE (IE482)",
-                "ko": "산업공학특강 I <You&IE> (IE482)"
-            }
-        ],
-        "credits": {
-            "2022 Spring": 3
-        }
-    },
-    {
-        "role": "Teaching Assistant",
-        "periods": [
-            "2021 Fall",
-            "2020 Fall"
-        ],
-        "school": "Korea Advanced Institute of Science and Technology (KAIST)",
-        "courses": [
-            {
-                "en": "Convex Optimization (IE539)",
-                "ko": "컨벡스 최적화 (IE539)"
-            }
-        ],
-        "credits": {
-            "2021 Fall": 3,
-            "2020 Fall": 3
-        }
-    },
-    {
-        "role": "Teaching Assistant",
-        "periods": [
-            "2021 Spring",
-            "2019 Spring"
-        ],
-        "school": "Korea Advanced Institute of Science and Technology (KAIST)",
-        "courses": [
-            {
-                "en": "Decision Analysis and Risk Management (IE432)",
-                "ko": "의사결정분석 및 위험관리 (IE432)"
-            }
-        ],
-        "credits": {
-            "2021 Spring": 3,
-            "2019 Spring": 3
-        }
+  {
+    "role": "Lecturer",
+    "periods": [
+      "2027 Spring"
+    ],
+    "school": "Gachon University",
+    "courses": [
+      {
+        "en": "Business Intelligence and Analytics (15122001)",
+        "ko": "비즈니스 인텔리전스와 분석 (15122001)"
+      }
+    ],
+    "credits": {
+      "2027 Spring": 3
     }
+  },
+  {
+    "role": "Lecturer",
+    "periods": [
+      "2027 Spring"
+    ],
+    "school": "Gachon University",
+    "courses": [
+      {
+        "en": "Data Visualization",
+        "ko": "데이터 시각화"
+      }
+    ],
+    "credits": {
+      "2027 Spring": 3
+    }
+  },
+  {
+    "role": "Lecturer",
+    "periods": [
+      "2027 Spring"
+    ],
+    "school": "Gachon University",
+    "courses": [
+      {
+        "en": "Financial Management (15121001)",
+        "ko": "재무관리 (15121001)"
+      }
+    ],
+    "credits": {
+      "2027 Spring": 3
+    }
+  },
+  {
+    "role": "Lecturer",
+    "periods": [
+      "2026 Fall"
+    ],
+    "school": "Gachon University",
+    "courses": [
+      {
+        "en": "Artificial Intelligence (15117001)",
+        "ko": "인공지능 (15117001)"
+      }
+    ],
+    "credits": {
+      "2026 Fall": 3
+    }
+  },
+  {
+    "role": "Lecturer",
+    "periods": [
+      "2026 Fall"
+    ],
+    "school": "Gachon University",
+    "courses": [
+      {
+        "en": "Principles and Applications of Deep Learning (61524001)",
+        "ko": "딥러닝의 원리와 응용 (61524001)"
+      }
+    ],
+    "credits": {
+      "2026 Fall": 3
+    }
+  },
+  {
+    "role": "Lecturer",
+    "periods": [
+      "2026 Spring"
+    ],
+    "school": "Gachon University",
+    "courses": [
+      {
+        "en": "Financial Investment (13994004)",
+        "ko": "금융투자 (13994004)"
+      }
+    ],
+    "credits": {
+      "2026 Spring": 3
+    }
+  },
+  {
+    "role": "Lecturer",
+    "periods": [
+      "2026 Spring"
+    ],
+    "school": "Gachon University",
+    "courses": [
+      {
+        "en": "Business Intelligence and Analytics (15122001)",
+        "ko": "비즈니스 인텔리전스와 분석 (15122001)"
+      }
+    ],
+    "credits": {
+      "2026 Spring": 4
+    }
+  },
+  {
+    "role": "Lecturer",
+    "periods": [
+      "2025 Fall"
+    ],
+    "school": "Dongduk Women's University",
+    "courses": [
+      {
+        "en": "Business Decision Making and Data Analysis (경영K0039)",
+        "ko": "경영의사결정과 자료분석 (경영K0039)"
+      }
+    ],
+    "credits": {
+      "2025 Fall": 3
+    }
+  },
+  {
+    "role": "Lecturer",
+    "periods": [
+      "2025 Fall-1",
+      "2025 Fall-2"
+    ],
+    "school": "Dongduk Women's University",
+    "courses": [
+      {
+        "en": "Python Programming (경융K0011)",
+        "ko": "파이썬을 활용한 프로그래밍 기초 (경융K0011)"
+      }
+    ],
+    "credits": {
+      "2025 Fall-1": 3,
+      "2025 Fall-2": 3
+    }
+  },
+  {
+    "role": "Lecturer",
+    "periods": [
+      "2025 Fall"
+    ],
+    "school": "Kangnam University",
+    "courses": [
+      {
+        "en": "Applied Statistics (EG14204)",
+        "ko": "응용통계 (EG14204)"
+      }
+    ],
+    "credits": {
+      "2025 Fall": 3
+    }
+  },
+  {
+    "role": "Lecturer",
+    "periods": [
+      "2025 Spring"
+    ],
+    "school": "Korea University Sejong Campus",
+    "courses": [
+      {
+        "en": "Algorithmic Trading (DIGB441)",
+        "ko": "알고리즘 투자전략 (DIGB441)"
+      }
+    ],
+    "credits": {
+      "2025 Spring": 3
+    }
+  },
+  {
+    "role": "Lecturer",
+    "periods": [
+      "2025 Spring"
+    ],
+    "school": "Kangnam University",
+    "courses": [
+      {
+        "en": "Introduction to Financial Engineering (EG14209)",
+        "ko": "금융공학입문 (EG14209)"
+      }
+    ],
+    "credits": {
+      "2025 Spring": 3
+    }
+  },
+  {
+    "role": "Teaching Assistant",
+    "periods": [
+      "2024 Fall"
+    ],
+    "school": "Korea Advanced Institute of Science and Technology (KAIST)",
+    "courses": [
+      {
+        "en": "Special Topics in Data Science I: Advanced Data Science for Finance (DS801)",
+        "ko": "데이터사이언스의 특수논제 I <고급금융데이터사이언스> (DS801)"
+      }
+    ],
+    "credits": {
+      "2024 Fall": 3
+    }
+  },
+  {
+    "role": "Lecturer",
+    "periods": [
+      "2024 Spring"
+    ],
+    "school": "Kyung Hee University",
+    "courses": [
+      {
+        "en": "Financial Engineering (IE329)",
+        "ko": "금융공학 (IE329)"
+      }
+    ],
+    "credits": {
+      "2024 Spring": 3
+    }
+  },
+  {
+    "role": "Lecturer",
+    "periods": [
+      "2024 Spring"
+    ],
+    "school": "Kyung Hee University",
+    "courses": [
+      {
+        "en": "Engineering Economy (IE201)",
+        "ko": "경제성공학 (IE201)"
+      }
+    ],
+    "credits": {
+      "2024 Spring": 3
+    }
+  },
+  {
+    "role": "Teaching Assistant",
+    "periods": [
+      "2023 Fall"
+    ],
+    "school": "Korea Advanced Institute of Science and Technology (KAIST)",
+    "courses": [
+      {
+        "en": "Special Topics in Data Science I: Applications of Financial Data Science (DS801)",
+        "ko": "데이터사이언스의 특수논제 I <금융데이터사이언스응용> (DS801)"
+      }
+    ],
+    "credits": {
+      "2023 Fall": 3
+    }
+  },
+  {
+    "role": "Teaching Assistant",
+    "periods": [
+      "2024 Spring",
+      "2023 Spring",
+      "2022 Spring",
+      "2021 Spring"
+    ],
+    "school": "Korea Advanced Institute of Science and Technology (KAIST)",
+    "courses": [
+      {
+        "en": "Financial Artificial Intelligence (IE471)",
+        "ko": "금융인공지능 (IE471)"
+      }
+    ],
+    "credits": {
+      "2024 Spring": 3,
+      "2023 Spring": 3,
+      "2022 Spring": 3,
+      "2021 Spring": 3
+    }
+  },
+  {
+    "role": "Teaching Assistant",
+    "periods": [
+      "2022 Fall"
+    ],
+    "school": "Korea Advanced Institute of Science and Technology (KAIST)",
+    "courses": [
+      {
+        "en": "Special Topics in Knowledge Service Engineering I: Applications of Financial Data Science (KSE801)",
+        "ko": "지식서비스공학의 특수논제 I <금융데이터사이언스응용> (KSE801)"
+      }
+    ],
+    "credits": {
+      "2022 Fall": 3
+    }
+  },
+  {
+    "role": "Teaching Assistant",
+    "periods": [
+      "2022 Spring"
+    ],
+    "school": "Korea Advanced Institute of Science and Technology (KAIST)",
+    "courses": [
+      {
+        "en": "Special Topics in Industrial Systems Engineering I: You&IE (IE482)",
+        "ko": "산업공학특강 I <You&IE> (IE482)"
+      }
+    ],
+    "credits": {
+      "2022 Spring": 3
+    }
+  },
+  {
+    "role": "Teaching Assistant",
+    "periods": [
+      "2021 Fall",
+      "2020 Fall"
+    ],
+    "school": "Korea Advanced Institute of Science and Technology (KAIST)",
+    "courses": [
+      {
+        "en": "Convex Optimization (IE539)",
+        "ko": "컨벡스 최적화 (IE539)"
+      }
+    ],
+    "credits": {
+      "2021 Fall": 3,
+      "2020 Fall": 3
+    }
+  },
+  {
+    "role": "Teaching Assistant",
+    "periods": [
+      "2021 Spring",
+      "2019 Spring"
+    ],
+    "school": "Korea Advanced Institute of Science and Technology (KAIST)",
+    "courses": [
+      {
+        "en": "Decision Analysis and Risk Management (IE432)",
+        "ko": "의사결정분석 및 위험관리 (IE432)"
+      }
+    ],
+    "credits": {
+      "2021 Spring": 3,
+      "2019 Spring": 3
+    }
+  }
 ]
