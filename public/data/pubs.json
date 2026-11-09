@@ -11819,5 +11819,42 @@
       "korean": "최인수. (2026). 미국 인공지능 컴퓨팅 관련 정보의 유가증권시장과 코스닥시장 전이 분석. 한국컴퓨터정보학회논문지, 31(11).",
       "bibtex": "@article{choi2026transmission,\n  title = {{Transmission of U.S. AI-Infrastructure Information to KOSPI and KOSDAQ}},\n  author = {Choi, I.},\n  journal = {Journal of The Korea Society of Computer and Information},\n  volume = {31},\n  number = {11},\n  year = {2026},\n}"
     }
+  },
+  {
+    "type": "journal",
+    "indexing_group": "SSCI",
+    "code_label": "J",
+    "published_date": "2026-11-10",
+    "year": 2026,
+    "title": "Freight-Rate Regimes and Cross-Border Equity Spillovers: A Bias-Corrected Comparison of Linear and Information-Theoretic Evidence",
+    "authors": [
+      1,
+      61,
+      58,
+      59,
+      60
+    ],
+    "author_marks": [
+      "1,*",
+      "1",
+      "1",
+      "1",
+      "1"
+    ],
+    "venue": "Research in International Business and Finance",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "doi": "",
+    "language": "English",
+    "awards": 0,
+    "citations": {
+      "apa": "Choi, I., Jang, J., Koo, J., Lee, C., & Lee, C. (2026). Freight-rate regimes and cross-border equity spillovers: A bias-corrected comparison of linear and information-theoretic evidence. <em>Research in International Business and Finance</em>.",
+      "mla": "Choi, Insu, et al. \"Freight-Rate Regimes and Cross-Border Equity Spillovers: A Bias-Corrected Comparison of Linear and Information-Theoretic Evidence.\" <em>Research in International Business and Finance</em>, 2026.",
+      "chicago": "Choi, Insu, Junpil Jang, Jihoe Koo, Chan Lee, and Chaemin Lee. \"Freight-Rate Regimes and Cross-Border Equity Spillovers: A Bias-Corrected Comparison of Linear and Information-Theoretic Evidence.\" <em>Research in International Business and Finance</em> (2026).",
+      "harvard": "Choi, I., Jang, J., Koo, J., Lee, C. & Lee, C. (2026) 'Freight-rate regimes and cross-border equity spillovers: A bias-corrected comparison of linear and information-theoretic evidence', <em>Research in International Business and Finance</em>.",
+      "vancouver": "Choi I, Jang J, Koo J, Lee C, Lee C. Freight-rate regimes and cross-border equity spillovers: A bias-corrected comparison of linear and information-theoretic evidence. Research in International Business and Finance. 2026.",
+      "bibtex": "@article{choi2026freight,\n  title = {{Freight-Rate Regimes and Cross-Border Equity Spillovers: A Bias-Corrected Comparison of Linear and Information-Theoretic Evidence}},\n  author = {Choi, I. and Jang, J. and Koo, J. and Lee, C. and Lee, C.},\n  journal = {Research in International Business and Finance},\n  year = {2026},\n}"
+    }
   }
 ]
