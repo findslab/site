@@ -1932,13 +1932,13 @@
     "language": "Korean",
     "awards": 0,
     "citations": {
-      "apa": "Yoon, C., Kang, B., Park, T., Lim, J., & Choi, I. (2025, November 7). An empirical analysis of the lagged relationship between long-term strategic R&D investment and firm performance [Poster presentation]. 2025 Fall Conference of the Korean Institute of Industrial Engineers.",
-      "mla": "Yoon, Chaehee, et al. \"An Empirical Analysis of the Lagged Relationship Between Long-Term Strategic R&D Investment and Firm Performance.\" 2025 Fall Conference of the Korean Institute of Industrial Engineers, 7 Nov. 2025.",
-      "chicago": "Yoon, Chaehee, Byungoh Kang, Taeho Park, Juhyun Lim, and Insu Choi. \"An Empirical Analysis of the Lagged Relationship Between Long-Term Strategic R&D Investment and Firm Performance.\" Poster presented at the 2025 Fall Conference of the Korean Institute of Industrial Engineers, November 7, 2025.",
-      "harvard": "Yoon, C., Kang, B., Park, T., Lim, J. & Choi, I. (2025) 'An empirical analysis of the lagged relationship between long-term strategic R&D investment and firm performance', poster presented at the 2025 Fall Conference of the Korean Institute of Industrial Engineers, 7 November.",
-      "vancouver": "Yoon C, Kang B, Park T, Lim J, Choi I. An empirical analysis of the lagged relationship between long-term strategic R&D investment and firm performance. Poster presented at: 2025 Fall Conference of the Korean Institute of Industrial Engineers; 2025 Nov 7.",
+      "apa": "Yun, C., Kang, B., Park, T., Lim, J., & Choi, I. (2025, November 7). An empirical analysis of the lagged relationship between long-term strategic R&D investment and firm performance [Poster presentation]. 2025 Fall Conference of the Korean Institute of Industrial Engineers.",
+      "mla": "Yun, Chaehee, et al. \"An Empirical Analysis of the Lagged Relationship Between Long-Term Strategic R&D Investment and Firm Performance.\" 2025 Fall Conference of the Korean Institute of Industrial Engineers, 7 Nov. 2025.",
+      "chicago": "Yun, Chaehee, Byungoh Kang, Taeho Park, Juhyun Lim, and Insu Choi. \"An Empirical Analysis of the Lagged Relationship Between Long-Term Strategic R&D Investment and Firm Performance.\" Poster presented at the 2025 Fall Conference of the Korean Institute of Industrial Engineers, November 7, 2025.",
+      "harvard": "Yun, C., Kang, B., Park, T., Lim, J. & Choi, I. (2025) 'An empirical analysis of the lagged relationship between long-term strategic R&D investment and firm performance', poster presented at the 2025 Fall Conference of the Korean Institute of Industrial Engineers, 7 November.",
+      "vancouver": "Yun C, Kang B, Park T, Lim J, Choi I. An empirical analysis of the lagged relationship between long-term strategic R&D investment and firm performance. Poster presented at: 2025 Fall Conference of the Korean Institute of Industrial Engineers; 2025 Nov 7.",
       "korean": "윤채희, 강병오, 박태호, 임주현, 최인수. (2025). 장기 전략적 R&D 투자와 기업 성과 간 시차적 관계에 관한 실증 분석. 2025 대한산업공학회 추계학술대회 발표논문.",
-      "bibtex": "@inproceedings{yoon2025empirical,\n  title = {{An Empirical Analysis of the Lagged Relationship Between Long-Term Strategic R&D Investment and Firm Performance}},\n  author = {Yoon, C. and Kang, B. and Park, T. and Lim, J. and Choi, I.},\n  booktitle = {2025 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)},\n  year = {2025},\n}"
+      "bibtex": "@inproceedings{yun2025empirical,\n  title = {{An Empirical Analysis of the Lagged Relationship Between Long-Term Strategic R&D Investment and Firm Performance}},\n  author = {Yun, C. and Kang, B. and Park, T. and Lim, J. and Choi, I.},\n  booktitle = {2025 Fall Conference of the Korean Institute of Industrial Engineers (KIIE)},\n  year = {2025},\n}"
     }
   },
   {
@@ -11855,6 +11855,43 @@
       "harvard": "Choi, I., Jang, J., Koo, J., Lee, C. & Lee, C. (2026) 'Freight-rate regimes and cross-border equity spillovers: A bias-corrected comparison of linear and information-theoretic evidence', <em>Research in International Business and Finance</em>.",
       "vancouver": "Choi I, Jang J, Koo J, Lee C, Lee C. Freight-rate regimes and cross-border equity spillovers: A bias-corrected comparison of linear and information-theoretic evidence. Research in International Business and Finance. 2026.",
       "bibtex": "@article{choi2026freight,\n  title = {{Freight-Rate Regimes and Cross-Border Equity Spillovers: A Bias-Corrected Comparison of Linear and Information-Theoretic Evidence}},\n  author = {Choi, I. and Jang, J. and Koo, J. and Lee, C. and Lee, C.},\n  journal = {Research in International Business and Finance},\n  year = {2026},\n}"
+    }
+  },
+  {
+    "type": "journal",
+    "indexing_group": "SSCI",
+    "code_label": "J",
+    "published_date": "2026-11-11",
+    "year": 2026,
+    "title": "Dynamic Transitions in Korean Household Financial Structures During the 2020–2024 Interest Rate Shock: A Multi-dimensional Clustering and Explainable AI Approach",
+    "authors": [
+      204,
+      57,
+      205,
+      54,
+      1
+    ],
+    "author_marks": [
+      "1",
+      "1",
+      "1",
+      "1",
+      "*"
+    ],
+    "venue": "International Review of Financial Analysis",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "doi": "",
+    "language": "English",
+    "awards": 0,
+    "citations": {
+      "apa": "Oh, Y., Lim, J., Kim, D., Yun, C., & Choi, I. (2026). Dynamic transitions in Korean household financial structures during the 2020–2024 interest rate shock: A multi-dimensional clustering and explainable AI approach. <em>International Review of Financial Analysis</em>.",
+      "mla": "Oh, Yoonjin, et al. \"Dynamic Transitions in Korean Household Financial Structures During the 2020–2024 Interest Rate Shock: A Multi-dimensional Clustering and Explainable AI Approach.\" <em>International Review of Financial Analysis</em>, 2026.",
+      "chicago": "Oh, Yoonjin, Juhyun Lim, Daehyeon Kim, Chaehee Yun, and Insu Choi. \"Dynamic Transitions in Korean Household Financial Structures During the 2020–2024 Interest Rate Shock: A Multi-dimensional Clustering and Explainable AI Approach.\" <em>International Review of Financial Analysis</em> (2026).",
+      "harvard": "Oh, Y., Lim, J., Kim, D., Yun, C. & Choi, I. (2026) 'Dynamic transitions in Korean household financial structures during the 2020–2024 interest rate shock: A multi-dimensional clustering and explainable AI approach', <em>International Review of Financial Analysis</em>.",
+      "vancouver": "Oh Y, Lim J, Kim D, Yun C, Choi I. Dynamic transitions in Korean household financial structures during the 2020–2024 interest rate shock: A multi-dimensional clustering and explainable AI approach. International Review of Financial Analysis. 2026.",
+      "bibtex": "@article{oh2026dynamic,\n  title = {{Dynamic Transitions in Korean Household Financial Structures During the 2020–2024 Interest Rate Shock: A Multi-dimensional Clustering and Explainable AI Approach}},\n  author = {Oh, Y. and Lim, J. and Kim, D. and Yun, C. and Choi, I.},\n  journal = {International Review of Financial Analysis},\n  year = {2026},\n}"
     }
   }
 ]
