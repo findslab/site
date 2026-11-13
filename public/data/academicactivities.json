@@ -1012,6 +1012,15 @@
       "type": "SSCI",
       "since": "2026-11-06",
       "url": "https://www.sciencedirect.com/journal/international-review-of-economics-and-finance"
+    },
+    {
+      "id": 112,
+      "category": "journal",
+      "name": "Neural Processing Letters",
+      "publisher": "Springer",
+      "type": "SCIE",
+      "since": "2026-11-13",
+      "url": "https://link.springer.com/journal/11063"
     }
   ]
 }
