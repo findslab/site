@@ -11893,5 +11893,34 @@
       "vancouver": "Oh Y, Lim J, Kim D, Yun C, Choi I. Dynamic transitions in Korean household financial structures during the 2020–2024 interest rate shock: A multi-dimensional clustering and explainable AI approach. International Review of Financial Analysis. 2026.",
       "bibtex": "@article{oh2026dynamic,\n  title = {{Dynamic Transitions in Korean Household Financial Structures During the 2020–2024 Interest Rate Shock: A Multi-dimensional Clustering and Explainable AI Approach}},\n  author = {Oh, Y. and Lim, J. and Kim, D. and Yun, C. and Choi, I.},\n  journal = {International Review of Financial Analysis},\n  year = {2026},\n}"
     }
+  },
+  {
+    "type": "journal",
+    "indexing_group": "SSCI",
+    "code_label": "J",
+    "published_date": "2026-11-14",
+    "year": 2026,
+    "title": "BLOOM: Bounded Learning of Optimal Observation Margins for Label Construction in Financial Machine Learning",
+    "authors": [
+      1
+    ],
+    "author_marks": [
+      "1,*"
+    ],
+    "venue": "International Review of Financial Analysis",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "doi": "",
+    "language": "English",
+    "awards": 0,
+    "citations": {
+      "apa": "Choi, I. (2026). BLOOM: Bounded learning of optimal observation margins for label construction in financial machine learning. <em>International Review of Financial Analysis</em>.",
+      "mla": "Choi, Insu. \"BLOOM: Bounded Learning of Optimal Observation Margins for Label Construction in Financial Machine Learning.\" <em>International Review of Financial Analysis</em>, 2026.",
+      "chicago": "Choi, Insu. \"BLOOM: Bounded Learning of Optimal Observation Margins for Label Construction in Financial Machine Learning.\" <em>International Review of Financial Analysis</em> (2026).",
+      "harvard": "Choi, I. (2026) 'BLOOM: Bounded learning of optimal observation margins for label construction in financial machine learning', <em>International Review of Financial Analysis</em>.",
+      "vancouver": "Choi I. BLOOM: Bounded learning of optimal observation margins for label construction in financial machine learning. International Review of Financial Analysis. 2026.",
+      "bibtex": "@article{choi2026bloom,\n  title = {{BLOOM: Bounded Learning of Optimal Observation Margins for Label Construction in Financial Machine Learning}},\n  author = {Choi, I.},\n  journal = {International Review of Financial Analysis},\n  year = {2026},\n}"
+    }
   }
 ]

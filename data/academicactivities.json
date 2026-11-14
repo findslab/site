@@ -1021,6 +1021,16 @@
       "type": "SCIE",
       "since": "2026-11-13",
       "url": "https://link.springer.com/journal/11063"
+    },
+    {
+      "id": 113,
+      "category": "discussant",
+      "name": "2026 Joint Fall Conference of the Daehan Academy of Management Information Systems (DAMIS) and the Korea Society of Information Technology Applications",
+      "name_ko": "2026 대한경영정보학회·한국정보기술응용학회 추계공동학술대회",
+      "publisher": "Daehan Academy of Management Information Systems (DAMIS)",
+      "type": "Discussant",
+      "period": "2026-11-20",
+      "url": ""
     }
   ]
 }
