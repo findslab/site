@@ -460,7 +460,7 @@
     "published_date": "2027-01-31",
     "year": 2027,
     "title": "Regime-Dependent Effects of Covariance Shrinkage Estimation and Their Application to Graph Neural Network Forecasting",
-    "title_ko": "시장 국면별로 달라지는 공분산 축소 추정의 효과와 그래프 신경망 예측으로의 적용",
+    "title_ko": "시장 국면에 따른 공분산 축소 추정의 효과와 그래프 신경망 예측에의 적용",
     "authors": [
       1
     ],
@@ -478,7 +478,7 @@
       "chicago": "Choi, Insu. \"Regime-Dependent Effects of Covariance Shrinkage Estimation and Their Application to Graph Neural Network Forecasting.\" Poster presented at the 2027 Winter Conference of the Korea Society of Computer and Information, January 31, 2027.",
       "harvard": "Choi, I. (2027) 'Regime-dependent effects of covariance shrinkage estimation and their application to graph neural network forecasting', poster presented at the 2027 Winter Conference of the Korea Society of Computer and Information, 31 January.",
       "vancouver": "Choi I. Regime-dependent effects of covariance shrinkage estimation and their application to graph neural network forecasting. Poster presented at: 2027 Winter Conference of the Korea Society of Computer and Information; 2027 Jan 31.",
-      "korean": "최인수. (2027). 시장 국면별로 달라지는 공분산 축소 추정의 효과와 그래프 신경망 예측으로의 적용. 2027 한국컴퓨터정보학회 동계학술대회 발표논문.",
+      "korean": "최인수. (2027). 시장 국면에 따른 공분산 축소 추정의 효과와 그래프 신경망 예측에의 적용. 2027 한국컴퓨터정보학회 동계학술대회 발표논문.",
       "bibtex": "@inproceedings{choi2027regime,\n  title = {{Regime-Dependent Effects of Covariance Shrinkage Estimation and Their Application to Graph Neural Network Forecasting}},\n  author = {Choi, I.},\n  booktitle = {2027 Winter Conference of the Korea Society of Computer and Information (KSCI)},\n  year = {2027},\n}"
     }
   },
@@ -606,6 +606,39 @@
       "vancouver": "Kim N, Kim D, Kim J, Choi I. Testing the predictive power of stock message board sentiment for 30-minute stock returns: Evidence from equivalence tests and out-of-sample evaluation. Poster presented at: 2027 Winter Conference of the Korea Society of Computer and Information; 2027 Jan 31.",
       "korean": "김나균, 김동우, 김정진, 최인수. (2027). 종목토론방 여론의 30분봉 주가 예측력 검증 — 동등성 검정과 표본 외 평가를 이용한 분석을 중심으로. 2027 한국컴퓨터정보학회 동계학술대회 발표논문.",
       "bibtex": "@inproceedings{kim2027testing,\n  title = {{Testing the Predictive Power of Stock Message Board Sentiment for 30-Minute Stock Returns: Evidence From Equivalence Tests and Out-of-Sample Evaluation}},\n  author = {Kim, N. and Kim, D. and Kim, J. and Choi, I.},\n  booktitle = {2027 Winter Conference of the Korea Society of Computer and Information (KSCI)},\n  year = {2027},\n}"
+    }
+  },
+  {
+    "type": "conference",
+    "indexing_group": "Domestic Conference",
+    "code_label": "C",
+    "published_date": "2027-01-31",
+    "year": 2027,
+    "title": "Construction of a Disclosure-Timed Dataset for Predicting Complete Capital Impairment of KOSDAQ Semiconductor Firms",
+    "title_ko": "공시 시점을 반영한 코스닥 반도체 기업의 완전자본잠식 예측 데이터 구축",
+    "authors": [
+      206,
+      207,
+      1
+    ],
+    "author_marks": [
+      "1",
+      "1",
+      "*"
+    ],
+    "venue": "2027 Winter Conference of the Korea Society of Computer and Information (KSCI)",
+    "venue_ko": "2027 한국컴퓨터정보학회 동계학술대회",
+    "presentation_type": "poster",
+    "language": "Korean",
+    "awards": 0,
+    "citations": {
+      "apa": "Kang, Y., Hwang, T., & Choi, I. (2027, January 31). Construction of a disclosure-timed dataset for predicting complete capital impairment of KOSDAQ semiconductor firms [Poster presentation]. 2027 Winter Conference of the Korea Society of Computer and Information.",
+      "mla": "Kang, Yeonsu, et al. \"Construction of a Disclosure-Timed Dataset for Predicting Complete Capital Impairment of KOSDAQ Semiconductor Firms.\" 2027 Winter Conference of the Korea Society of Computer and Information, 31 Jan. 2027.",
+      "chicago": "Kang, Yeonsu, Taewon Hwang, and Insu Choi. \"Construction of a Disclosure-Timed Dataset for Predicting Complete Capital Impairment of KOSDAQ Semiconductor Firms.\" Poster presented at the 2027 Winter Conference of the Korea Society of Computer and Information, January 31, 2027.",
+      "harvard": "Kang, Y., Hwang, T. & Choi, I. (2027) 'Construction of a disclosure-timed dataset for predicting complete capital impairment of KOSDAQ semiconductor firms', poster presented at the 2027 Winter Conference of the Korea Society of Computer and Information, 31 January.",
+      "vancouver": "Kang Y, Hwang T, Choi I. Construction of a disclosure-timed dataset for predicting complete capital impairment of KOSDAQ semiconductor firms. Poster presented at: 2027 Winter Conference of the Korea Society of Computer and Information; 2027 Jan 31.",
+      "korean": "강연수, 황태원, 최인수. (2027). 공시 시점을 반영한 코스닥 반도체 기업의 완전자본잠식 예측 데이터 구축. 2027 한국컴퓨터정보학회 동계학술대회 발표논문.",
+      "bibtex": "@inproceedings{kang2027construction,\n  title = {{Construction of a Disclosure-Timed Dataset for Predicting Complete Capital Impairment of KOSDAQ Semiconductor Firms}},\n  author = {Kang, Y. and Hwang, T. and Choi, I.},\n  booktitle = {2027 Winter Conference of the Korea Society of Computer and Information (KSCI)},\n  year = {2027},\n}"
     }
   },
   {
@@ -11982,6 +12015,38 @@
       "vancouver": "Choi I. 이진 지표 기반 빈곤지수와 원척도 군집 분석으로 본 청년 1인 가구의 다차원적 박탈. 한국데이터정보과학회지. 2026;37(6).",
       "korean": "최인수. (2026). 이진 지표 기반 빈곤지수와 원척도 군집 분석으로 본 청년 1인 가구의 다차원적 박탈. 한국데이터정보과학회지, 37(6).",
       "bibtex": "@article{choi2026comparing,\n  title = {{Comparing a Binary Counting Index and Clustering on Original Scales for Multidimensional Deprivation Among Young Single-Person Households}},\n  author = {Choi, I.},\n  journal = {Journal of the Korean Data and Information Science Society},\n  volume = {37},\n  number = {6},\n  year = {2026},\n}"
+    }
+  },
+  {
+    "type": "journal",
+    "indexing_group": "KCI",
+    "code_label": "J",
+    "published_date": "2027-02-28",
+    "year": 2027,
+    "title": "Choice of Dependence Measures in Hierarchical Risk Parity: Evidence from Korean-Listed Sector and Macro-Asset ETFs",
+    "title_ko": "계층적 리스크 패리티에서 의존성 척도의 선택: 국내 상장 섹터 및 거시자산 ETF 실증분석",
+    "authors": [
+      1
+    ],
+    "author_marks": [
+      "1,*"
+    ],
+    "venue": "Journal of Business Research",
+    "venue_ko": "경영연구",
+    "volume": "42",
+    "issue": "1",
+    "pages": "",
+    "doi": "",
+    "language": "Korean",
+    "awards": 0,
+    "citations": {
+      "apa": "최인수. (2027). 계층적 리스크 패리티에서 의존성 척도의 선택: 국내 상장 섹터 및 거시자산 ETF 실증분석. <em>경영연구</em>, <em>42</em>(1).",
+      "mla": "최인수. \"계층적 리스크 패리티에서 의존성 척도의 선택: 국내 상장 섹터 및 거시자산 ETF 실증분석.\" <em>경영연구</em>, vol. 42, no. 1, 2027.",
+      "chicago": "최인수. \"계층적 리스크 패리티에서 의존성 척도의 선택: 국내 상장 섹터 및 거시자산 ETF 실증분석.\" <em>경영연구</em> 42, no. 1 (2027).",
+      "harvard": "최인수 (2027) '계층적 리스크 패리티에서 의존성 척도의 선택: 국내 상장 섹터 및 거시자산 ETF 실증분석', <em>경영연구</em>, 42(1).",
+      "vancouver": "Choi I. 계층적 리스크 패리티에서 의존성 척도의 선택: 국내 상장 섹터 및 거시자산 ETF 실증분석. 경영연구. 2027;42(1).",
+      "korean": "최인수. (2027). 계층적 리스크 패리티에서 의존성 척도의 선택: 국내 상장 섹터 및 거시자산 ETF 실증분석. 경영연구, 42(1).",
+      "bibtex": "@article{choi2027choice,\n  title = {{Choice of Dependence Measures in Hierarchical Risk Parity: Evidence from Korean-Listed Sector and Macro-Asset ETFs}},\n  author = {Choi, I.},\n  journal = {Journal of Business Research},\n  volume = {42},\n  number = {1},\n  year = {2027},\n}"
     }
   }
 ]
