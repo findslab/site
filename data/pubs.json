@@ -11922,5 +11922,66 @@
       "vancouver": "Choi I. BLOOM: Bounded learning of optimal observation margins for label construction in financial machine learning. International Review of Financial Analysis. 2026.",
       "bibtex": "@article{choi2026bloom,\n  title = {{BLOOM: Bounded Learning of Optimal Observation Margins for Label Construction in Financial Machine Learning}},\n  author = {Choi, I.},\n  journal = {International Review of Financial Analysis},\n  year = {2026},\n}"
     }
+  },
+  {
+    "type": "conference",
+    "indexing_group": "Domestic Conference",
+    "code_label": "C",
+    "published_date": "2026-12-10",
+    "year": 2026,
+    "title": "Smoothing in the Reported Values of Fractional Art Investments and Diversification for Korean Investors",
+    "title_ko": "조각투자 미술품의 공시 가치 평활 현상과 국내 투자자 분산 효과 분석",
+    "authors": [
+      1
+    ],
+    "author_marks": [
+      "1,*"
+    ],
+    "venue": "2026 Winter Conference of the Korea Society for Innovation Management & Economics",
+    "venue_ko": "2026 기술경영경제학회 동계학술대회",
+    "presentation_type": "oral",
+    "language": "Korean",
+    "awards": 0,
+    "citations": {
+      "apa": "Choi, I. (2026, December 10). Smoothing in the reported values of fractional art investments and diversification for Korean investors [Paper presentation]. 2026 Winter Conference of the Korea Society for Innovation Management & Economics.",
+      "mla": "Choi, Insu. \"Smoothing in the Reported Values of Fractional Art Investments and Diversification for Korean Investors.\" 2026 Winter Conference of the Korea Society for Innovation Management & Economics, 10 Dec. 2026.",
+      "chicago": "Choi, Insu. \"Smoothing in the Reported Values of Fractional Art Investments and Diversification for Korean Investors.\" Paper presented at the 2026 Winter Conference of the Korea Society for Innovation Management & Economics, December 10, 2026.",
+      "harvard": "Choi, I. (2026) 'Smoothing in the reported values of fractional art investments and diversification for Korean investors', paper presented at the 2026 Winter Conference of the Korea Society for Innovation Management & Economics, 10 December.",
+      "vancouver": "Choi I. Smoothing in the reported values of fractional art investments and diversification for Korean investors. Paper presented at: 2026 Winter Conference of the Korea Society for Innovation Management & Economics; 2026 Dec 10.",
+      "korean": "최인수. (2026). 조각투자 미술품의 공시 가치 평활 현상과 국내 투자자 분산 효과 분석. 2026 기술경영경제학회 동계학술대회 발표논문.",
+      "bibtex": "@inproceedings{choi2026smoothing,\n  title = {{Smoothing in the Reported Values of Fractional Art Investments and Diversification for Korean Investors}},\n  author = {Choi, I.},\n  booktitle = {2026 Winter Conference of the Korea Society for Innovation Management & Economics},\n  year = {2026},\n}"
+    }
+  },
+  {
+    "type": "journal",
+    "indexing_group": "KCI",
+    "code_label": "J",
+    "published_date": "2026-12-31",
+    "year": 2026,
+    "title": "Comparing a Binary Counting Index and Clustering on Original Scales for Multidimensional Deprivation Among Young Single-Person Households",
+    "title_ko": "이진 지표 기반 빈곤지수와 원척도 군집 분석으로 본 청년 1인 가구의 다차원적 박탈",
+    "authors": [
+      1
+    ],
+    "author_marks": [
+      "1,*"
+    ],
+    "venue": "Journal of the Korean Data and Information Science Society",
+    "venue_ko": "한국데이터정보과학회지",
+    "volume": "37",
+    "issue": "6",
+    "pages": "",
+    "doi": "",
+    "language": "Korean",
+    "awards": 0,
+    "citations": {
+      "apa": "최인수. (2026). 이진 지표 기반 빈곤지수와 원척도 군집 분석으로 본 청년 1인 가구의 다차원적 박탈. <em>한국데이터정보과학회지</em>, <em>37</em>(6).",
+      "mla": "최인수. \"이진 지표 기반 빈곤지수와 원척도 군집 분석으로 본 청년 1인 가구의 다차원적 박탈.\" <em>한국데이터정보과학회지</em>, vol. 37, no. 6, 2026.",
+      "chicago": "최인수. \"이진 지표 기반 빈곤지수와 원척도 군집 분석으로 본 청년 1인 가구의 다차원적 박탈.\" <em>한국데이터정보과학회지</em> 37, no. 6 (2026).",
+      "harvard": "최인수 (2026) '이진 지표 기반 빈곤지수와 원척도 군집 분석으로 본 청년 1인 가구의 다차원적 박탈', <em>한국데이터정보과학회지</em>, 37(6).",
+      "vancouver": "Choi I. 이진 지표 기반 빈곤지수와 원척도 군집 분석으로 본 청년 1인 가구의 다차원적 박탈. 한국데이터정보과학회지. 2026;37(6).",
+      "korean": "최인수. (2026). 이진 지표 기반 빈곤지수와 원척도 군집 분석으로 본 청년 1인 가구의 다차원적 박탈. 한국데이터정보과학회지, 37(6).",
+      "bibtex": "@article{choi2026comparing,\n  title = {{Comparing a Binary Counting Index and Clustering on Original Scales for Multidimensional Deprivation Among Young Single-Person Households}},\n  author = {Choi, I.},\n  journal = {Journal of the Korean Data and Information Science Society},\n  volume = {37},\n  number = {6},\n  year = {2026},\n}"
+    }
   }
 ]
