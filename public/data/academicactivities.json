@@ -1031,6 +1031,15 @@
       "type": "Discussant",
       "period": "2026-11-20",
       "url": ""
+    },
+    {
+      "id": 114,
+      "category": "journal",
+      "name": "Discover Quantum Science",
+      "publisher": "Springer",
+      "type": "Other International",
+      "since": "2026-11-16",
+      "url": "https://link.springer.com/journal/44464"
     }
   ]
 }
