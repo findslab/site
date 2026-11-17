@@ -1,7 +1,8 @@
 {
     "id": "psy3-undergrad",
     "name": {
-        "ko": "박세윤"
+        "ko": "박세윤",
+        "en": "Seyoon Park"
     },
     "degree": "undergrad",
     "role": {

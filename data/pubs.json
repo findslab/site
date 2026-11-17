@@ -386,13 +386,13 @@
     "language": "Korean",
     "awards": 0,
     "citations": {
-      "apa": "Park, S., Yoo, S., Choi, S., & Choi, I. (2027, January 31). Detecting surging hotspot areas in Seoul from search trends and exploring their predictability [Poster presentation]. 2027 Winter Conference of the Korea Society of Computer and Information.",
+      "apa": "Park, S., Yu, S., Choi, S., & Choi, I. (2027, January 31). Detecting surging hotspot areas in Seoul from search trends and exploring their predictability [Poster presentation]. 2027 Winter Conference of the Korea Society of Computer and Information.",
       "mla": "Park, Seyoon, et al. \"Detecting Surging Hotspot Areas in Seoul From Search Trends and Exploring Their Predictability.\" 2027 Winter Conference of the Korea Society of Computer and Information, 31 Jan. 2027.",
-      "chicago": "Park, Seyoon, Saebom Yoo, Sumin Choi, and Insu Choi. \"Detecting Surging Hotspot Areas in Seoul From Search Trends and Exploring Their Predictability.\" Poster presented at the 2027 Winter Conference of the Korea Society of Computer and Information, January 31, 2027.",
-      "harvard": "Park, S., Yoo, S., Choi, S. & Choi, I. (2027) 'Detecting surging hotspot areas in Seoul from search trends and exploring their predictability', poster presented at the 2027 Winter Conference of the Korea Society of Computer and Information, 31 January.",
-      "vancouver": "Park S, Yoo S, Choi S, Choi I. Detecting surging hotspot areas in Seoul from search trends and exploring their predictability. Poster presented at: 2027 Winter Conference of the Korea Society of Computer and Information; 2027 Jan 31.",
+      "chicago": "Park, Seyoon, Saebom Yu, Soomin Choi, and Insu Choi. \"Detecting Surging Hotspot Areas in Seoul From Search Trends and Exploring Their Predictability.\" Poster presented at the 2027 Winter Conference of the Korea Society of Computer and Information, January 31, 2027.",
+      "harvard": "Park, S., Yu, S., Choi, S. & Choi, I. (2027) 'Detecting surging hotspot areas in Seoul from search trends and exploring their predictability', poster presented at the 2027 Winter Conference of the Korea Society of Computer and Information, 31 January.",
+      "vancouver": "Park S, Yu S, Choi S, Choi I. Detecting surging hotspot areas in Seoul from search trends and exploring their predictability. Poster presented at: 2027 Winter Conference of the Korea Society of Computer and Information; 2027 Jan 31.",
       "korean": "박세윤, 유새봄, 최수민, 최인수. (2027). 검색 트렌드 기반 서울시 핫플레이스 급등 지역 탐지 및 예측 가능성 탐색. 2027 한국컴퓨터정보학회 동계학술대회 발표논문.",
-      "bibtex": "@inproceedings{park2027detecting,\n  title = {{Detecting Surging Hotspot Areas in Seoul From Search Trends and Exploring Their Predictability}},\n  author = {Park, S. and Yoo, S. and Choi, S. and Choi, I.},\n  booktitle = {2027 Winter Conference of the Korea Society of Computer and Information (KSCI)},\n  year = {2027},\n}"
+      "bibtex": "@inproceedings{park2027detecting,\n  title = {{Detecting Surging Hotspot Areas in Seoul From Search Trends and Exploring Their Predictability}},\n  author = {Park, S. and Yu, S. and Choi, S. and Choi, I.},\n  booktitle = {2027 Winter Conference of the Korea Society of Computer and Information (KSCI)},\n  year = {2027},\n}"
     }
   },
   {
@@ -601,7 +601,7 @@
     "citations": {
       "apa": "Kim, N., Kim, D., Kim, J., & Choi, I. (2027, January 31). Testing the predictive power of stock message board sentiment for 30-minute stock returns: Evidence from equivalence tests and out-of-sample evaluation [Poster presentation]. 2027 Winter Conference of the Korea Society of Computer and Information.",
       "mla": "Kim, Nagyun, et al. \"Testing the Predictive Power of Stock Message Board Sentiment for 30-Minute Stock Returns: Evidence From Equivalence Tests and Out-of-Sample Evaluation.\" 2027 Winter Conference of the Korea Society of Computer and Information, 31 Jan. 2027.",
-      "chicago": "Kim, Nagyun, Dongwoo Kim, Jungjin Kim, and Insu Choi. \"Testing the Predictive Power of Stock Message Board Sentiment for 30-Minute Stock Returns: Evidence From Equivalence Tests and Out-of-Sample Evaluation.\" Poster presented at the 2027 Winter Conference of the Korea Society of Computer and Information, January 31, 2027.",
+      "chicago": "Kim, Nagyun, Dongwoo Kim, Jeongjin Kim, and Insu Choi. \"Testing the Predictive Power of Stock Message Board Sentiment for 30-Minute Stock Returns: Evidence From Equivalence Tests and Out-of-Sample Evaluation.\" Poster presented at the 2027 Winter Conference of the Korea Society of Computer and Information, January 31, 2027.",
       "harvard": "Kim, N., Kim, D., Kim, J. & Choi, I. (2027) 'Testing the predictive power of stock message board sentiment for 30-minute stock returns: Evidence from equivalence tests and out-of-sample evaluation', poster presented at the 2027 Winter Conference of the Korea Society of Computer and Information, 31 January.",
       "vancouver": "Kim N, Kim D, Kim J, Choi I. Testing the predictive power of stock message board sentiment for 30-minute stock returns: Evidence from equivalence tests and out-of-sample evaluation. Poster presented at: 2027 Winter Conference of the Korea Society of Computer and Information; 2027 Jan 31.",
       "korean": "김나균, 김동우, 김정진, 최인수. (2027). 종목토론방 여론의 30분봉 주가 예측력 검증 — 동등성 검정과 표본 외 평가를 이용한 분석을 중심으로. 2027 한국컴퓨터정보학회 동계학술대회 발표논문.",
@@ -633,8 +633,8 @@
     "awards": 0,
     "citations": {
       "apa": "Kang, Y., Hwang, T., & Choi, I. (2027, January 31). Construction of a disclosure-timed dataset for predicting complete capital impairment of KOSDAQ semiconductor firms [Poster presentation]. 2027 Winter Conference of the Korea Society of Computer and Information.",
-      "mla": "Kang, Yeonsu, et al. \"Construction of a Disclosure-Timed Dataset for Predicting Complete Capital Impairment of KOSDAQ Semiconductor Firms.\" 2027 Winter Conference of the Korea Society of Computer and Information, 31 Jan. 2027.",
-      "chicago": "Kang, Yeonsu, Taewon Hwang, and Insu Choi. \"Construction of a Disclosure-Timed Dataset for Predicting Complete Capital Impairment of KOSDAQ Semiconductor Firms.\" Poster presented at the 2027 Winter Conference of the Korea Society of Computer and Information, January 31, 2027.",
+      "mla": "Kang, Yeonsoo, et al. \"Construction of a Disclosure-Timed Dataset for Predicting Complete Capital Impairment of KOSDAQ Semiconductor Firms.\" 2027 Winter Conference of the Korea Society of Computer and Information, 31 Jan. 2027.",
+      "chicago": "Kang, Yeonsoo, Taewon Hwang, and Insu Choi. \"Construction of a Disclosure-Timed Dataset for Predicting Complete Capital Impairment of KOSDAQ Semiconductor Firms.\" Poster presented at the 2027 Winter Conference of the Korea Society of Computer and Information, January 31, 2027.",
       "harvard": "Kang, Y., Hwang, T. & Choi, I. (2027) 'Construction of a disclosure-timed dataset for predicting complete capital impairment of KOSDAQ semiconductor firms', poster presented at the 2027 Winter Conference of the Korea Society of Computer and Information, 31 January.",
       "vancouver": "Kang Y, Hwang T, Choi I. Construction of a disclosure-timed dataset for predicting complete capital impairment of KOSDAQ semiconductor firms. Poster presented at: 2027 Winter Conference of the Korea Society of Computer and Information; 2027 Jan 31.",
       "korean": "강연수, 황태원, 최인수. (2027). 공시 시점을 반영한 코스닥 반도체 기업의 완전자본잠식 예측 데이터 구축. 2027 한국컴퓨터정보학회 동계학술대회 발표논문.",
@@ -12047,6 +12047,67 @@
       "vancouver": "Choi I. 계층적 리스크 패리티에서 의존성 척도의 선택: 국내 상장 섹터 및 거시자산 ETF 실증분석. 경영연구. 2027;42(1).",
       "korean": "최인수. (2027). 계층적 리스크 패리티에서 의존성 척도의 선택: 국내 상장 섹터 및 거시자산 ETF 실증분석. 경영연구, 42(1).",
       "bibtex": "@article{choi2027choice,\n  title = {{Choice of Dependence Measures in Hierarchical Risk Parity: Evidence from Korean-Listed Sector and Macro-Asset ETFs}},\n  author = {Choi, I.},\n  journal = {Journal of Business Research},\n  volume = {42},\n  number = {1},\n  year = {2027},\n}"
+    }
+  },
+  {
+    "type": "journal",
+    "indexing_group": "SCIE",
+    "code_label": "J",
+    "published_date": "2026-11-17",
+    "year": 2026,
+    "title": "How Many Distinct Return Distributions Does a Sample Leave Open? An Evidence-Indexed Similarity Correction for Model-Selection Entropy",
+    "authors": [
+      1
+    ],
+    "author_marks": [
+      "1,*"
+    ],
+    "venue": "Mathematics",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "doi": "",
+    "language": "English",
+    "awards": 0,
+    "citations": {
+      "apa": "Choi, I. (2026). How many distinct return distributions does a sample leave open? An evidence-indexed similarity correction for model-selection entropy. <em>Mathematics</em>.",
+      "mla": "Choi, Insu. \"How Many Distinct Return Distributions Does a Sample Leave Open? An Evidence-Indexed Similarity Correction for Model-Selection Entropy.\" <em>Mathematics</em>, 2026.",
+      "chicago": "Choi, Insu. \"How Many Distinct Return Distributions Does a Sample Leave Open? An Evidence-Indexed Similarity Correction for Model-Selection Entropy.\" <em>Mathematics</em> (2026).",
+      "harvard": "Choi, I. (2026) 'How many distinct return distributions does a sample leave open? An evidence-indexed similarity correction for model-selection entropy', <em>Mathematics</em>.",
+      "vancouver": "Choi I. How many distinct return distributions does a sample leave open? An evidence-indexed similarity correction for model-selection entropy. Mathematics. 2026.",
+      "bibtex": "@article{choi2026how,\n  title = {{How Many Distinct Return Distributions Does a Sample Leave Open? An Evidence-Indexed Similarity Correction for Model-Selection Entropy}},\n  author = {Choi, I.},\n  journal = {Mathematics},\n  year = {2026},\n}"
+    }
+  },
+  {
+    "type": "journal",
+    "indexing_group": "KCI",
+    "code_label": "J",
+    "published_date": "2026-11-17",
+    "year": 2026,
+    "title": "Search Attention and Popularity Concentration in the Secondary Market for Character Trading Cards",
+    "title_ko": "캐릭터 검색 관심과 트레이딩 카드 2차 시장의 인기 편중 현상",
+    "authors": [
+      1
+    ],
+    "author_marks": [
+      "1,*"
+    ],
+    "venue": "Journal of Industrial Convergence",
+    "venue_ko": "산업융합연구",
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "doi": "",
+    "language": "Korean",
+    "awards": 0,
+    "citations": {
+      "apa": "최인수. (2026). 캐릭터 검색 관심과 트레이딩 카드 2차 시장의 인기 편중 현상. <em>산업융합연구</em>.",
+      "mla": "최인수. \"캐릭터 검색 관심과 트레이딩 카드 2차 시장의 인기 편중 현상.\" <em>산업융합연구</em>, 2026.",
+      "chicago": "최인수. \"캐릭터 검색 관심과 트레이딩 카드 2차 시장의 인기 편중 현상.\" <em>산업융합연구</em> (2026).",
+      "harvard": "최인수 (2026) '캐릭터 검색 관심과 트레이딩 카드 2차 시장의 인기 편중 현상', <em>산업융합연구</em>.",
+      "vancouver": "Choi I. 캐릭터 검색 관심과 트레이딩 카드 2차 시장의 인기 편중 현상. 산업융합연구. 2026.",
+      "korean": "최인수. (2026). 캐릭터 검색 관심과 트레이딩 카드 2차 시장의 인기 편중 현상. 산업융합연구.",
+      "bibtex": "@article{choi2026searchattention,\n  title = {{Search Attention and Popularity Concentration in the Secondary Market for Character Trading Cards}},\n  author = {Choi, I.},\n  journal = {Journal of Industrial Convergence},\n  year = {2026},\n}"
     }
   }
 ]

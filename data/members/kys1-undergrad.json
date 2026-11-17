@@ -1,7 +1,8 @@
 {
     "id": "kys1-undergrad",
     "name": {
-        "ko": "강연수"
+        "ko": "강연수",
+        "en": "Yeonsoo Kang"
     },
     "degree": "undergrad",
     "role": {

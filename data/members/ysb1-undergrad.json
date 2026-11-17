@@ -1,7 +1,8 @@
 {
     "id": "ysb1-undergrad",
     "name": {
-        "ko": "유새봄"
+        "ko": "유새봄",
+        "en": "Saebom Yu"
     },
     "degree": "undergrad",
     "role": {

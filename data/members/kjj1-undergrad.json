@@ -1,7 +1,8 @@
 {
     "id": "kjj1-undergrad",
     "name": {
-        "ko": "김정진"
+        "ko": "김정진",
+        "en": "Jeongjin Kim"
     },
     "degree": "undergrad",
     "role": {
