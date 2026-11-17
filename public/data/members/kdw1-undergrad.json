@@ -1,7 +1,8 @@
 {
     "id": "kdw1-undergrad",
     "name": {
-        "ko": "김동우"
+        "ko": "김동우",
+        "en": "Dongwoo Kim"
     },
     "degree": "undergrad",
     "role": {

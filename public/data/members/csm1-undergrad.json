@@ -1,7 +1,8 @@
 {
     "id": "csm1-undergrad",
     "name": {
-        "ko": "최수민"
+        "ko": "최수민",
+        "en": "Soomin Choi"
     },
     "degree": "undergrad",
     "role": {

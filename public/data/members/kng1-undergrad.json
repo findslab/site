@@ -1,7 +1,8 @@
 {
     "id": "kng1-undergrad",
     "name": {
-        "ko": "김나균"
+        "ko": "김나균",
+        "en": "Nagyun Kim"
     },
     "degree": "undergrad",
     "role": {

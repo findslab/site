@@ -1,7 +1,8 @@
 {
     "id": "htw1-undergrad",
     "name": {
-        "ko": "황태원"
+        "ko": "황태원",
+        "en": "Taewon Hwang"
     },
     "degree": "undergrad",
     "role": {
