@@ -716,9 +716,9 @@
     {
       "id": 78,
       "category": "chair",
-      "name": "2026 KITS·ICEC·KIISS Integrated International Conference, Session K2",
-      "name_ko": "2026 KITS·ICEC·KIISS 통합 국제학술대회 K2 세션",
-      "publisher": "Korea Intelligent Information Systems Society (KIISS)",
+      "name": "2026 Integrated International Conference of the Korea Society of IT Services (KITS), the International Center for Electronic Commerce (ICEC), and the Korea Intelligent Information Systems Society (KIISS), Session K2",
+      "name_ko": "2026 한국IT서비스학회·International Center for Electronic Commerce·한국지능정보시스템학회 통합 국제학술대회 K2 세션",
+      "publisher": "Korea Society of IT Services (KITS), International Center for Electronic Commerce (ICEC), and Korea Intelligent Information Systems Society (KIISS)",
       "type": "Session Chair",
       "period": "2026-05-28",
       "url": ""
@@ -1025,8 +1025,8 @@
     {
       "id": 113,
       "category": "discussant",
-      "name": "2026 Joint Fall Conference of the Daehan Academy of Management Information Systems (DAMIS) and the Korea Society of Information Technology Applications",
-      "name_ko": "2026 대한경영정보학회·한국정보기술응용학회 추계공동학술대회",
+      "name": "2026 Joint Fall Conference of the Daehan Academy of Management Information Systems (DAMIS) and the Korea Society of Information Technology Applications, Session A6 (MIS/Business Strategy)",
+      "name_ko": "2026 대한경영정보학회·한국정보기술응용학회 추계공동학술대회 A6 MIS/경영전략 세션",
       "publisher": "Daehan Academy of Management Information Systems (DAMIS)",
       "type": "Discussant",
       "period": "2026-11-20",
@@ -1040,6 +1040,26 @@
       "type": "Other International",
       "since": "2026-11-16",
       "url": "https://link.springer.com/journal/44464"
+    },
+    {
+      "id": 115,
+      "category": "chair",
+      "name": "2026 Fall Conference of the Korean Institute of Information Technology, Session 1-OF",
+      "name_ko": "2026 한국정보기술학회 추계종합학술대회 1-OF 세션",
+      "publisher": "Korean Institute of Information Technology (KIIT)",
+      "type": "Session Chair",
+      "period": "2026-11-27",
+      "url": ""
+    },
+    {
+      "id": 116,
+      "category": "chair",
+      "name": "2026 Fall Conference of the Korean Society of Industry Convergence, Session P-II-B (Data Convergence Analysis)",
+      "name_ko": "2026 한국산업융합학회 추계학술대회 P-II-B 데이터 융합분석 세션",
+      "publisher": "Korean Society of Industry Convergence (KSIC)",
+      "type": "Session Chair",
+      "period": "2026-11-26",
+      "url": ""
     }
   ]
 }

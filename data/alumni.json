@@ -219,7 +219,8 @@
             "cohortName": "1st Cohort (2025 Winter), 2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                "Deciphering the Impact of COVID-19 on Korean Sector ETFs: Insights From an ARIMAX and Granger Causality"
+                "Deciphering the Impact of COVID-19 on Korean Sector ETFs: Insights From an ARIMAX and Granger Causality",
+                "Persistence and Transitions of Korean Household Financial Portfolio Types: Differences in Household Characteristics by Transition Status and Direction"
             ],
             "avatar": "SKS-2"
         },
@@ -614,7 +615,7 @@
         },
         {
             "name": "김나균",
-            "nameEn": "Na-Gyun Kim",
+            "nameEn": "Nagyun Kim",
             "degrees": [
                 "ur"
             ],
@@ -636,13 +637,13 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                "[수료 시 표기]"
+                "Testing the Predictive Power of Stock Message Board Sentiment for 30-Minute Stock Returns: Evidence From Equivalence Tests and Out-of-Sample Evaluation"
             ],
             "avatar": "KNG-1"
         },
         {
             "name": "김동우",
-            "nameEn": "Dong-Woo Kim",
+            "nameEn": "Dongwoo Kim",
             "degrees": [
                 "ur"
             ],
@@ -664,7 +665,7 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                "[수료 시 표기]"
+                "Testing the Predictive Power of Stock Message Board Sentiment for 30-Minute Stock Returns: Evidence From Equivalence Tests and Out-of-Sample Evaluation"
             ],
             "avatar": "KDW-1"
         },
@@ -692,7 +693,8 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                "[수료 시 표기]"
+                "Relational Representations Give Random Search a Signal: Reward-Free Hypergraph Learning in Tetris",
+                "Validating Hypergraph Neural Network-Based N-ary Relation Representation and Its LLM Integration Effects Through Preregistered Experiments"
             ],
             "avatar": "KDW-2"
         },
@@ -720,7 +722,7 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                "[수료 시 표기]"
+                "Optimal Location of Shared E-Scooter Parking Zones Using Towing Records and Transit Alighting Demand: The Case of Dongjak-gu, Seoul"
             ],
             "avatar": "KMG-1"
         },
@@ -748,13 +750,13 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                "[수료 시 표기]"
+                "Effects of Incomplete Prompts on LLM Accuracy and Cost, and Model-Tier Allocation Under Usage Limits"
             ],
             "avatar": "KSY-2"
         },
         {
             "name": "김정진",
-            "nameEn": "Jeong-Jin Kim",
+            "nameEn": "Jeongjin Kim",
             "degrees": [
                 "ur"
             ],
@@ -776,7 +778,7 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                "[수료 시 표기]"
+                "Testing the Predictive Power of Stock Message Board Sentiment for 30-Minute Stock Returns: Evidence From Equivalence Tests and Out-of-Sample Evaluation"
             ],
             "avatar": "KJJ-1"
         },
@@ -803,9 +805,7 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": [
-                "[수료 시 표기]"
-            ],
+            "projects": [],
             "avatar": "KHS-2"
         },
         {
@@ -832,13 +832,13 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                "[수료 시 표기]"
+                "Design and Prototype Implementation of a Task Allocation and Contribution Evaluation System for Team Projects Considering Individual Characteristics and Role Difficulty"
             ],
             "avatar": "KHE-1"
         },
         {
             "name": "박세윤",
-            "nameEn": "Se-Yoon Park",
+            "nameEn": "Seyoon Park",
             "degrees": [
                 "ur"
             ],
@@ -860,65 +860,9 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                "[수료 시 표기]"
+                "Detecting Surging Hotspot Areas in Seoul From Search Trends and Exploring Their Predictability"
             ],
             "avatar": "PSY-3"
-        },
-        {
-            "name": "박승열",
-            "nameEn": "Seung-Yeol Park",
-            "degrees": [
-                "ur"
-            ],
-            "cohort": "2기",
-            "periods": {
-                "ur": "2026-05-01 – 2026-11-30"
-            },
-            "education": [
-                {
-                    "degree": "학부과정",
-                    "degreeEn": "Undergraduate",
-                    "dept": "산업경영공학과",
-                    "deptEn": "Industrial and Management Systems Engineering",
-                    "school": "경희대학교",
-                    "schoolEn": "Kyung Hee University",
-                    "year": "2025-03 -"
-                }
-            ],
-            "cohortName": "2nd Cohort (2026 Summer)",
-            "currentPosition": "재학생",
-            "projects": [
-                "[수료 시 표기]"
-            ],
-            "avatar": "PSY-2"
-        },
-        {
-            "name": "박준태",
-            "nameEn": "Juntae Park",
-            "degrees": [
-                "ur"
-            ],
-            "cohort": "2기",
-            "periods": {
-                "ur": "2026-05-01 – 2026-11-30"
-            },
-            "education": [
-                {
-                    "degree": "학부과정",
-                    "degreeEn": "Undergraduate",
-                    "dept": "산업경영공학과",
-                    "deptEn": "Industrial and Management Systems Engineering",
-                    "school": "경희대학교",
-                    "schoolEn": "Kyung Hee University",
-                    "year": "2025-03 -"
-                }
-            ],
-            "cohortName": "2nd Cohort (2026 Summer)",
-            "currentPosition": "재학생",
-            "projects": [
-                "[수료 시 표기]"
-            ],
-            "avatar": "PJT-1"
         },
         {
             "name": "손형진",
@@ -951,34 +895,6 @@
             "avatar": "SHJ-1"
         },
         {
-            "name": "신동찬",
-            "nameEn": "Dongchan Shin",
-            "degrees": [
-                "ur"
-            ],
-            "cohort": "2기",
-            "periods": {
-                "ur": "2026-05-01 – 2026-11-30"
-            },
-            "education": [
-                {
-                    "degree": "학부과정",
-                    "degreeEn": "Undergraduate",
-                    "dept": "산업경영공학과",
-                    "deptEn": "Industrial and Management Systems Engineering",
-                    "school": "경희대학교",
-                    "schoolEn": "Kyung Hee University",
-                    "year": "2025-03 -"
-                }
-            ],
-            "cohortName": "2nd Cohort (2026 Summer)",
-            "currentPosition": "재학생",
-            "projects": [
-                "[수료 시 표기]"
-            ],
-            "avatar": "SDC-1"
-        },
-        {
             "name": "신윤수",
             "nameEn": "Yun-Su Shin",
             "degrees": [
@@ -1001,14 +917,12 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": [
-                "[수료 시 표기]"
-            ],
+            "projects": [],
             "avatar": "SYS-1"
         },
         {
             "name": "유새봄",
-            "nameEn": "Sae-Bom Yoo",
+            "nameEn": "Saebom Yu",
             "degrees": [
                 "ur"
             ],
@@ -1030,7 +944,7 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                "[수료 시 표기]"
+                "Detecting Surging Hotspot Areas in Seoul From Search Trends and Exploring Their Predictability"
             ],
             "avatar": "YSB-1"
         },
@@ -1058,7 +972,7 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                "[수료 시 표기]"
+                "Optimal Location of Shared E-Scooter Parking Zones Using Towing Records and Transit Alighting Demand: The Case of Dongjak-gu, Seoul"
             ],
             "avatar": "LYS-2"
         },
@@ -1086,13 +1000,13 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                "[수료 시 표기]"
+                "Persistence and Transitions of Korean Household Financial Portfolio Types: Differences in Household Characteristics by Transition Status and Direction"
             ],
             "avatar": "KDH-2"
         },
         {
             "name": "강연수",
-            "nameEn": "Yeon-Su Kang",
+            "nameEn": "Yeonsoo Kang",
             "degrees": [
                 "ur"
             ],
@@ -1114,13 +1028,13 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                "[수료 시 표기]"
+                "Construction of a Disclosure-Timed Dataset for Predicting Complete Capital Impairment of KOSDAQ Semiconductor Firms"
             ],
             "avatar": "KYS-1"
         },
         {
             "name": "최수민",
-            "nameEn": "Su-Min Choi",
+            "nameEn": "Soomin Choi",
             "degrees": [
                 "ur"
             ],
@@ -1142,7 +1056,7 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                "[수료 시 표기]"
+                "Detecting Surging Hotspot Areas in Seoul From Search Trends and Exploring Their Predictability"
             ],
             "avatar": "CSM-1"
         },
@@ -1170,7 +1084,7 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                "[수료 시 표기]"
+                "Effects of Incomplete Prompts on LLM Accuracy and Cost, and Model-Tier Allocation Under Usage Limits"
             ],
             "avatar": "CYH-1"
         },
@@ -1198,7 +1112,7 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                "[수료 시 표기]"
+                "Design and Prototype Implementation of a Task Allocation and Contribution Evaluation System for Team Projects Considering Individual Characteristics and Role Difficulty"
             ],
             "avatar": "CJY-2"
         },
@@ -1226,13 +1140,13 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                "[수료 시 표기]"
+                "Design and Prototype Implementation of a Task Allocation and Contribution Evaluation System for Team Projects Considering Individual Characteristics and Role Difficulty"
             ],
             "avatar": "HJY-1"
         },
         {
             "name": "황태원",
-            "nameEn": "Tae-Won Hwang",
+            "nameEn": "Taewon Hwang",
             "degrees": [
                 "ur"
             ],
@@ -1254,7 +1168,7 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                "[수료 시 표기]"
+                "Construction of a Disclosure-Timed Dataset for Predicting Complete Capital Impairment of KOSDAQ Semiconductor Firms"
             ],
             "avatar": "HTW-1"
         },
