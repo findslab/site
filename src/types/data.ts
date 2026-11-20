@@ -18,6 +18,8 @@ export type Publication = {
   year: number
   code_label: string
   indexing_group: string
+  // 복수 등재 학술지의 추가 색인 (예: SSCI 학술지가 A&HCI 에도 등재). 편수는 indexing_group 으로 한 번만 센다.
+  indexing_extra?: string[]
   type: string
   language: string
   title: string

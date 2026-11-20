@@ -23,6 +23,10 @@ import bannerPublications from '@/assets/images/banner/publications.webp'
 import bannerPublicationsM from '@/assets/images/banner/publications-m.webp'
 
 // 차트 세로축: 최댓값에 맞는 보기 좋은 눈금 간격과 상한
+// 학술지 색인 표기: 주 색인 + 추가 색인 (예: "SSCI · A&HCI")
+const indexingLabel = (pub: Publication) =>
+  [pub.indexing_group, ...(pub.indexing_extra ?? [])].filter(Boolean).join(' · ')
+
 const niceAxis = (raw: number) => {
   const target = Math.max(raw, 10)
   const step = [5, 10, 20, 25, 50, 100, 200, 250, 500].find((s) => Math.ceil(target / s) <= 6) ?? 1000
@@ -489,13 +493,14 @@ export const PublicationsTemplate = () => {
     // - Journal Indexing 은 학술지에만, Conference 는 학회 발표에만 적용한다.
     // - 둘 다 고르면 합집합(예: SCIE + International Conference → SCIE 학술지와 국제학회 모두).
     // - Scopus 등재 학회 발표는 International Conference 로 센다.
+    // - 복수 등재 학술지(indexing_extra)는 추가 색인으로 골라도 나온다 (예: SSCI·A&HCI 논문은 A&HCI 필터에도 포함).
     if (filters.indexing.length > 0 || filters.conference.length > 0) {
       const confGroup = (g: string) => (g === 'Scopus' ? 'International Conference' : g)
       result = result.filter((pub) => {
         const g = pub.indexing_group || ''
         // 세부 조건이 없는 유형은 Publication Type 에서 직접 고른 경우에만 통과
         const typePicked = (t: string) => filters.type.some(x => x.toLowerCase() === t)
-        if (pub.type === 'journal') return filters.indexing.length > 0 ? filters.indexing.includes(g) : typePicked('journal')
+        if (pub.type === 'journal') return filters.indexing.length > 0 ? [g, ...(pub.indexing_extra ?? [])].some(x => filters.indexing.includes(x)) : typePicked('journal')
         if (pub.type === 'conference') return filters.conference.length > 0 ? filters.conference.includes(confGroup(g)) : typePicked('conference')
         return typePicked(pub.type)
       })
@@ -1151,7 +1156,7 @@ export const PublicationsTemplate = () => {
                                     <>
                                       <span className="text-[10px] md:text-[11px] text-white/60">|</span>
                                       <span className="text-xs font-bold text-white/90">
-                                        {pub.indexing_group}
+                                        {indexingLabel(pub)}
                                       </span>
                                     </>
                                   )}
@@ -1269,34 +1274,34 @@ export const PublicationsTemplate = () => {
                                         <span className="text-[10px] md:text-[11px] font-bold" style={{color: '#9A7D1F'}}>{pub.language}</span>
                                       </div>
                                     )}
-                                    {pub.type === 'journal' && pub.indexing_group && (
-                                      <div className={`w-full mt-4 py-4 text-center rounded-md border`}
+                                    {pub.type === 'journal' && pub.indexing_group && [pub.indexing_group, ...(pub.indexing_extra ?? [])].map((ix) => (
+                                      <div key={ix} className={`w-full mt-4 py-4 text-center rounded-md border`}
                                         style={{
                                           backgroundColor: 
-                                            ['SCIE', 'SSCI', 'A&HCI'].includes(pub.indexing_group) ? 'rgba(214,177,77,0.1)' :
-                                            pub.indexing_group === 'ESCI' || pub.indexing_group === 'Scopus' ? 'rgba(214,195,96,0.1)' :
-                                            pub.indexing_group === 'Other International' ? 'rgba(232,214,136,0.15)' :
-                                            pub.indexing_group === 'KCI' ? 'rgba(100,116,139,0.08)' : 'rgba(148,163,184,0.08)',
+                                            ['SCIE', 'SSCI', 'A&HCI'].includes(ix) ? 'rgba(214,177,77,0.1)' :
+                                            ix === 'ESCI' || ix === 'Scopus' ? 'rgba(214,195,96,0.1)' :
+                                            ix === 'Other International' ? 'rgba(232,214,136,0.15)' :
+                                            ix === 'KCI' ? 'rgba(100,116,139,0.08)' : 'rgba(148,163,184,0.08)',
                                           borderColor: 
-                                            ['SCIE', 'SSCI', 'A&HCI'].includes(pub.indexing_group) ? 'rgba(214,177,77,0.3)' :
-                                            pub.indexing_group === 'ESCI' || pub.indexing_group === 'Scopus' ? 'rgba(214,195,96,0.3)' :
-                                            pub.indexing_group === 'Other International' ? 'rgba(232,214,136,0.4)' :
-                                            pub.indexing_group === 'KCI' ? 'rgba(100,116,139,0.2)' : 'rgba(148,163,184,0.2)'
+                                            ['SCIE', 'SSCI', 'A&HCI'].includes(ix) ? 'rgba(214,177,77,0.3)' :
+                                            ix === 'ESCI' || ix === 'Scopus' ? 'rgba(214,195,96,0.3)' :
+                                            ix === 'Other International' ? 'rgba(232,214,136,0.4)' :
+                                            ix === 'KCI' ? 'rgba(100,116,139,0.2)' : 'rgba(148,163,184,0.2)'
                                         }}
                                       >
                                         <span 
                                           className="text-[10px] md:text-[11px] font-bold"
                                           style={{
-                                            color: ['SCIE', 'SSCI', 'A&HCI'].includes(pub.indexing_group) ? '#D6B14D' :
-                                              pub.indexing_group === 'ESCI' || pub.indexing_group === 'Scopus' ? '#D6C360' :
-                                              pub.indexing_group === 'Other International' ? '#9A7D1F' :
-                                              pub.indexing_group === 'KCI' ? '#475569' : '#64748b'
+                                            color: ['SCIE', 'SSCI', 'A&HCI'].includes(ix) ? '#D6B14D' :
+                                              ix === 'ESCI' || ix === 'Scopus' ? '#D6C360' :
+                                              ix === 'Other International' ? '#9A7D1F' :
+                                              ix === 'KCI' ? '#475569' : '#64748b'
                                           }}
                                         >
-                                          {pub.indexing_group}
+                                          {ix}
                                         </span>
                                       </div>
-                                    )}
+                                    ))}
                                   </div>
 
                                   {/* Middle: Content */}
