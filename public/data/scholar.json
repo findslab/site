@@ -30,8 +30,8 @@
     "2021": 3
   },
   "pubStats": {
-    "totalPublications": 350,
-    "journals": 81,
+    "totalPublications": 351,
+    "journals": 82,
     "conferences": 263,
     "books": 4,
     "reports": 2,
@@ -40,7 +40,7 @@
       "ssci": 24,
       "ahci": 0,
       "esci": 1,
-      "scopus": 5,
+      "scopus": 6,
       "otherInternational": 1,
       "kci": 30,
       "webOfScience": 45
@@ -48,7 +48,7 @@
     "firstPubYear": 2017,
     "publicationsByYear": {
       "2027": 10,
-      "2026": 161,
+      "2026": 162,
       "2025": 23,
       "2024": 40,
       "2023": 51,
