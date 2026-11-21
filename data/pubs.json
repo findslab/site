@@ -12025,5 +12025,37 @@
       "vancouver": "Choi I. Transparency, fairness, and accountability in financial machine learning: A systematic review and taxonomic framework. Humanities and Social Sciences Communications. 2026.",
       "bibtex": "@article{choi2026transparency,\n  title = {{Transparency, Fairness, and Accountability in Financial Machine Learning: A Systematic Review and Taxonomic Framework}},\n  author = {Choi, I.},\n  journal = {Humanities and Social Sciences Communications},\n  year = {2026},\n}"
     }
+  },
+  {
+    "type": "journal",
+    "indexing_group": "Scopus",
+    "code_label": "J",
+    "published_date": "2026-12-31",
+    "year": 2026,
+    "title": "Tail Shock Transmission Among Multi-Asset ETFs and Regime Shifts in the Hedging Role of U.S. Long-Term Treasuries: Comparing the COVID-19 and Monetary Tightening Regimes",
+    "title_ko": "다자산 ETF의 극단 충격 전이와 미국 장기국채 헤지 기능의 국면 변화: 코로나19 국면과 통화긴축 국면의 비교",
+    "authors": [
+      1
+    ],
+    "author_marks": [
+      "1,*"
+    ],
+    "venue": "Journal of the Korean Data Analysis Society",
+    "venue_ko": "한국자료분석학회논문집",
+    "volume": "28",
+    "issue": "6",
+    "pages": "",
+    "doi": "",
+    "language": "Korean",
+    "awards": 0,
+    "citations": {
+      "apa": "최인수. (2026). 다자산 ETF의 극단 충격 전이와 미국 장기국채 헤지 기능의 국면 변화: 코로나19 국면과 통화긴축 국면의 비교. <em>한국자료분석학회논문집</em>, <em>28</em>(6).",
+      "mla": "최인수. \"다자산 ETF의 극단 충격 전이와 미국 장기국채 헤지 기능의 국면 변화: 코로나19 국면과 통화긴축 국면의 비교.\" <em>한국자료분석학회논문집</em>, vol. 28, no. 6, 2026.",
+      "chicago": "최인수. \"다자산 ETF의 극단 충격 전이와 미국 장기국채 헤지 기능의 국면 변화: 코로나19 국면과 통화긴축 국면의 비교.\" <em>한국자료분석학회논문집</em> 28, no. 6 (2026).",
+      "harvard": "최인수 (2026) '다자산 ETF의 극단 충격 전이와 미국 장기국채 헤지 기능의 국면 변화: 코로나19 국면과 통화긴축 국면의 비교', <em>한국자료분석학회논문집</em>, 28(6).",
+      "vancouver": "Choi I. 다자산 ETF의 극단 충격 전이와 미국 장기국채 헤지 기능의 국면 변화: 코로나19 국면과 통화긴축 국면의 비교. 한국자료분석학회논문집. 2026;28(6).",
+      "korean": "최인수. (2026). 다자산 ETF의 극단 충격 전이와 미국 장기국채 헤지 기능의 국면 변화: 코로나19 국면과 통화긴축 국면의 비교. 한국자료분석학회논문집, 28(6).",
+      "bibtex": "@article{choi2026tailshock,\n  title = {{Tail Shock Transmission Among Multi-Asset ETFs and Regime Shifts in the Hedging Role of U.S. Long-Term Treasuries: Comparing the COVID-19 and Monetary Tightening Regimes}},\n  author = {Choi, I.},\n  journal = {Journal of the Korean Data Analysis Society},\n  volume = {28},\n  number = {6},\n  year = {2026},\n}"
+    }
   }
 ]

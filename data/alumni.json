@@ -3,7 +3,7 @@
     "undergradAlumni": [
         {
             "name": "강병오",
-            "nameEn": "Byeong-Oh Kang",
+            "nameEn": "Byungoh Kang",
             "degrees": [
                 "ur"
             ],
@@ -27,11 +27,12 @@
             "projects": [
                 "Confidence Index-Based Trading Filter Framework (C-index)"
             ],
-            "currentPositionEn": "M.S. Student\nSchool of Business and Technology Management\nKorea Advanced Institute of Science and Technology (KAIST)"
+            "currentPositionEn": "M.S. Student\nSchool of Business and Technology Management\nKorea Advanced Institute of Science and Technology (KAIST)",
+            "avatar": "KBO-1"
         },
         {
             "name": "고현우",
-            "nameEn": "Hyun-Woo Ko",
+            "nameEn": "Hyunwoo Ko",
             "degrees": [
                 "ur"
             ],
@@ -54,11 +55,12 @@
             "currentPosition": "재학생",
             "projects": [
                 "Technical Indicator-Based Stock Price Direction Prediction and Significance Analysis"
-            ]
+            ],
+            "avatar": "KHW-1"
         },
         {
             "name": "김강현",
-            "nameEn": "Kang-Hyun Kim",
+            "nameEn": "Kang Hyun Kim",
             "degrees": [
                 "ur"
             ],
@@ -81,11 +83,12 @@
             "currentPosition": "재학생",
             "projects": [
                 "Risk Structuring and Portfolio Optimization in Market Stress Regimes"
-            ]
+            ],
+            "avatar": "KKH-1"
         },
         {
             "name": "김다인",
-            "nameEn": "Da-In Kim",
+            "nameEn": "Dain Kim",
             "degrees": [
                 "ur"
             ],
@@ -108,11 +111,12 @@
             "currentPosition": "재학생",
             "projects": [
                 "Calibrated Multimodal Fusion for Quality Risk Estimation in Resistance Spot Welding: Dempster–Shafer versus Voting"
-            ]
+            ],
+            "avatar": "KDI-1"
         },
         {
             "name": "김연후",
-            "nameEn": "Yeon-Hu Kim",
+            "nameEn": "Yeonhu Kim",
             "degrees": [
                 "ur"
             ],
@@ -135,11 +139,12 @@
             "currentPosition": "재학생",
             "projects": [
                 "Analysis of Time-Varying Global Equity Market Risk Transmission Networks"
-            ]
+            ],
+            "avatar": "KYH-1"
         },
         {
             "name": "김재엽",
-            "nameEn": "Jae-Yeop Kim",
+            "nameEn": "Jaeyeob Kim",
             "degrees": [
                 "ur"
             ],
@@ -168,7 +173,7 @@
         },
         {
             "name": "박성수",
-            "nameEn": "Seong-Su Park",
+            "nameEn": "Sungsu Park",
             "degrees": [
                 "ur"
             ],
@@ -193,11 +198,12 @@
             "projects": [
                 "Deciphering the Impact of COVID-19 on Korean Sector ETFs: Insights From an ARIMAX and Granger Causality",
                 "Fundamental-Driven Sub-Universe Construction for Portfolio Optimization: Evidence from the Korean Equity Market"
-            ]
+            ],
+            "avatar": "PSS-1"
         },
         {
             "name": "신경수",
-            "nameEn": "Kyeong-Su Shin",
+            "nameEn": "Kyeong Soo Shin",
             "degrees": [
                 "ur"
             ],
@@ -226,7 +232,7 @@
         },
         {
             "name": "신정윤",
-            "nameEn": "Jeong-Yun Shin",
+            "nameEn": "Jeongyun Shin",
             "degrees": [
                 "ur"
             ],
@@ -249,11 +255,12 @@
             "currentPosition": "재학생",
             "projects": [
                 "IP5 Fintech Patent-Based Trend Analysis: Focusing on the Impact of Generative AI and Open Banking APIs"
-            ]
+            ],
+            "avatar": "SJY-1"
         },
         {
             "name": "심은",
-            "nameEn": "Eun Sim",
+            "nameEn": "Eun Shim",
             "degrees": [
                 "ur"
             ],
@@ -277,11 +284,12 @@
             "projects": [
                 "Housing–Fertility Interdependencies in South Korea: A Dynamic Analysis Across Regional Disparities and Temporal Shifts"
             ],
-            "currentPositionEn": "Combined M.S.-Ph.D. Student\nIndustrial and Management Engineering\nKorea University"
+            "currentPositionEn": "Combined M.S.-Ph.D. Student\nIndustrial and Management Engineering\nKorea University",
+            "avatar": "SE-1"
         },
         {
             "name": "양동훈",
-            "nameEn": "Dong-Hoon Yang",
+            "nameEn": "Donghoon Yang",
             "degrees": [
                 "ur"
             ],
@@ -304,11 +312,12 @@
             "currentPosition": "재학생",
             "projects": [
                 "Calibrated Multimodal Fusion for Quality Risk Estimation in Resistance Spot Welding: Dempster–Shafer versus Voting"
-            ]
+            ],
+            "avatar": "YDH-1"
         },
         {
             "name": "이성준",
-            "nameEn": "Seong-Jun Lee",
+            "nameEn": "Sung Jun Lee",
             "degrees": [
                 "ur"
             ],
@@ -331,11 +340,12 @@
             "currentPosition": "재학생",
             "projects": [
                 "Big Data-Based News Sentiment Index (NSI) and Search Volume Index (SVI) for Industry-Specific Business Cycle and Stock Price Forecasting: A Comparative Analysis with Economic Sentiment Index (ESI) Controlling for Macroeconomic and Financial Variables"
-            ]
+            ],
+            "avatar": "LSJ-1"
         },
         {
             "name": "이수인",
-            "nameEn": "Su-In Lee",
+            "nameEn": "Suin Lee",
             "degrees": [
                 "ur"
             ],
@@ -359,11 +369,12 @@
             "currentPositionEn": "M.S. Student\nIndustrial Engineering\nSeoul National University",
             "projects": [
                 "Deciphering the Impact of COVID-19 on Korean Sector ETFs: Insights From an ARIMAX and Granger Causality"
-            ]
+            ],
+            "avatar": "LSI-1"
         },
         {
             "name": "이유섭",
-            "nameEn": "Yu-Seop Lee",
+            "nameEn": "Yuseop Lee",
             "degrees": [
                 "ur"
             ],
@@ -386,7 +397,8 @@
             "currentPosition": "재학생",
             "projects": [
                 "Mitigating Backtest Overfitting via Time-Series Data Augmentation"
-            ]
+            ],
+            "avatar": "LYS-1"
         },
         {
             "name": "이채은",
@@ -413,11 +425,12 @@
             "currentPosition": "재학생",
             "projects": [
                 "Analysis of Survival Duration and Business Closure Risk Factors in Seoul Cafe Market"
-            ]
+            ],
+            "avatar": "LCE-1"
         },
         {
             "name": "이태경",
-            "nameEn": "Tae-Kyeong Lee",
+            "nameEn": "Tae Kyoung Lee",
             "degrees": [
                 "ur"
             ],
@@ -445,11 +458,12 @@
                 "Stochastic Refinement of Correlation Structures: A Score-Based Generative Approach to Tail Risk Mitigation in Multi-Asset Portfolios",
                 "Fundamental-Driven Sub-Universe Construction for Portfolio Optimization: Evidence from the Korean Equity Market",
                 "Dynamic Risk Budgeting via Large Language Models: A Context-Aware Framework for Adaptive Portfolio Allocation"
-            ]
+            ],
+            "avatar": "LTK-1"
         },
         {
             "name": "임소영",
-            "nameEn": "So-Young Lim",
+            "nameEn": "Soyoung Lim",
             "degrees": [
                 "ur"
             ],
@@ -479,7 +493,7 @@
         },
         {
             "name": "정유진",
-            "nameEn": "Yu-Jin Jeong",
+            "nameEn": "Yujin Chung",
             "degrees": [
                 "ur"
             ],
@@ -503,11 +517,12 @@
             "currentPositionEn": "M.S. Student\nIndustrial and Management Systems Engineering\nKyung Hee University",
             "projects": [
                 "Personalized Travel Policy Recommendation System Using Individual Demand Function Modeling: A Decision Support Framework for Tourism Policy Optimization"
-            ]
+            ],
+            "avatar": "JYJ-1"
         },
         {
             "name": "조윤수",
-            "nameEn": "Yun-Su Jo",
+            "nameEn": "Yoonsoo Cho",
             "degrees": [
                 "ur"
             ],
@@ -530,7 +545,8 @@
             "currentPosition": "재학생",
             "projects": [
                 "IP5 Fintech Patent-Based Trend Analysis: Focusing on the Impact of Generative AI and Open Banking APIs"
-            ]
+            ],
+            "avatar": "JYS-1"
         },
         {
             "name": "최문혁",
@@ -557,11 +573,12 @@
             "currentPosition": "재학생",
             "projects": [
                 "Co-Movement Analysis Between Global Shipping Indices and Korean Financial Markets: Lead-Lag Relationships, Causality, and Asymmetric Effects"
-            ]
+            ],
+            "avatar": "CMH-1"
         },
         {
             "name": "최진우",
-            "nameEn": "Jin-Woo Choi",
+            "nameEn": "Jeenu Choi",
             "degrees": [
                 "ur"
             ],
@@ -584,7 +601,8 @@
             "currentPosition": "재학생",
             "projects": [
                 "Assessing Prediction-Based Trading Strategies in Sector ETF Markets: A Comparative Study of Machine Learning and Time-Series Models"
-            ]
+            ],
+            "avatar": "CJW-1"
         },
         {
             "name": "하승민",
@@ -611,7 +629,8 @@
             "currentPosition": "재학생",
             "projects": [
                 "Structural Change Analysis of K-Defense Stock Correlation Networks in Response to Geopolitical Events"
-            ]
+            ],
+            "avatar": "HSM-1"
         },
         {
             "name": "김나균",
@@ -671,7 +690,7 @@
         },
         {
             "name": "김동완",
-            "nameEn": "Dong-Wan Kim",
+            "nameEn": "Dongwan Kim",
             "degrees": [
                 "ur"
             ],
@@ -700,7 +719,7 @@
         },
         {
             "name": "김민균",
-            "nameEn": "Min-Gyun Kim",
+            "nameEn": "Minkyun Kim",
             "degrees": [
                 "ur"
             ],
@@ -728,7 +747,7 @@
         },
         {
             "name": "김상연",
-            "nameEn": "Sang-Yeon Kim",
+            "nameEn": "Sangyeon Kim",
             "degrees": [
                 "ur"
             ],
@@ -784,7 +803,7 @@
         },
         {
             "name": "김현수",
-            "nameEn": "Hyun-Su Kim",
+            "nameEn": "Hyunsu Kim",
             "degrees": [
                 "ur"
             ],
@@ -805,12 +824,14 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": [],
+            "projects": [
+                "An Ontology-Based LLM Execution Control Framework for Manufacturing AX: Focusing on the Preservation of Approval Conditions in Multi-Turn Analysis"
+            ],
             "avatar": "KHS-2"
         },
         {
             "name": "김효은",
-            "nameEn": "Hyo-Eun Kim",
+            "nameEn": "Hyoeun Kim",
             "degrees": [
                 "ur"
             ],
@@ -866,7 +887,7 @@
         },
         {
             "name": "손형진",
-            "nameEn": "Hyung-Jin Son",
+            "nameEn": "Hyungjin Son",
             "degrees": [
                 "ur"
             ],
@@ -888,15 +909,13 @@
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
             "projects": [
-                "An Asset Allocation Model Leveraging Sentence-Level Sentiment Analysis in Analyst Reports: Integrating Sentiment Analysis, Factor Modeling, and the Black-Litterman Model-Based Framework",
-                "Spillover Effects and Event Period Responses Among U.S. Market Sectors Using the DCC-GARCH Model",
-                "Lag Prediction to U.S. Presidential Election Impact Events Using Language Models"
+                "An Ontology-Based LLM Execution Control Framework for Manufacturing AX: Focusing on the Preservation of Approval Conditions in Multi-Turn Analysis"
             ],
             "avatar": "SHJ-1"
         },
         {
             "name": "신윤수",
-            "nameEn": "Yun-Su Shin",
+            "nameEn": "Yunsu Shin",
             "degrees": [
                 "ur"
             ],
@@ -917,7 +936,9 @@
             ],
             "cohortName": "2nd Cohort (2026 Summer)",
             "currentPosition": "재학생",
-            "projects": [],
+            "projects": [
+                "An Ontology-Based LLM Execution Control Framework for Manufacturing AX: Focusing on the Preservation of Approval Conditions in Multi-Turn Analysis"
+            ],
             "avatar": "SYS-1"
         },
         {
@@ -950,7 +971,7 @@
         },
         {
             "name": "이요셉",
-            "nameEn": "Yo-Sep Lee",
+            "nameEn": "Yosep Lee",
             "degrees": [
                 "ur"
             ],
@@ -978,7 +999,7 @@
         },
         {
             "name": "강동희",
-            "nameEn": "Dong-Hee Kang",
+            "nameEn": "Donghee Kang",
             "degrees": [
                 "ur"
             ],
@@ -1062,7 +1083,7 @@
         },
         {
             "name": "최용환",
-            "nameEn": "Yong-Hwan Choi",
+            "nameEn": "Yonghwan Choi",
             "degrees": [
                 "ur"
             ],
@@ -1090,7 +1111,7 @@
         },
         {
             "name": "최정윤",
-            "nameEn": "Jeong-Yoon Choi",
+            "nameEn": "Jungyoon Choi",
             "degrees": [
                 "ur"
             ],
@@ -1118,7 +1139,7 @@
         },
         {
             "name": "홍정의",
-            "nameEn": "Jeong-Ui Hong",
+            "nameEn": "Jungui Hong",
             "degrees": [
                 "ur"
             ],
